@@ -1,0 +1,168 @@
+{
+  "name": "Chemical Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemical-engineering/chemical-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Chemical Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 027A",
+        "BIS 027A",
+        "MAT 022B",
+        "MAT 027B",
+        "BIS 027B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002AH",
+        "CHE 004A",
+        "CHE 002B",
+        "CHE 002BH",
+        "CHE 004B",
+        "CHE 002C",
+        "CHE 002CH",
+        "CHE 004C"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose One:",
+        "Choose One:",
+        "Choose One:"
+      ]
+    },
+    {
+      "heading": "Chemical Engineering & Programming",
+      "courses": [
+        "ECH 005",
+        "ECH 051",
+        "ECH 060",
+        "ECS 032A",
+        "ECS 032AV",
+        "ECH 080"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 017",
+        "ENG 017V",
+        "ENG 035",
+        "ENG 045",
+        "ENG 045Y",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Lower Division Composition/Writing; choose one: a grade of C- or better is required:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemical Engineering",
+      "courses": [
+        "ECH 140",
+        "ECH 141",
+        "ECH 142",
+        "ECH 143",
+        "ECH 145A",
+        "ECH 145B",
+        "ECH 148A",
+        "ECH 148B",
+        "ECH 152A",
+        "ECH 152B",
+        "ECH 155",
+        "ECH 157",
+        "ECH 158AN",
+        "ECH 158BN",
+        "ECH 158C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 128A",
+        "CHE 128B",
+        "CHE 129A"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Chemical Engineering Technical Electives",
+      "courses": [
+        "ECH 192",
+        "ECH 198",
+        "ECH 199"
+      ],
+      "units": "20",
+      "notes": [
+        "Choose 20 units:",
+        "1. At least 3 units must be completed in any upper division engineering course(s) not numbered 190C, 192, 198, and 199 (independent study, research, seminar, or internship courses).",
+        "2. Remaining 17 units, for a total minimum of 20 units are subject to the following:",
+        "a. Units must be completed in science, engineering or business courses carrying one of the following subject designations: ARE, ATM, BIM, BIS, BIT, CHE, EAE, EBS, ECH, ECN, ECI, ECS, EEC, EME, EMS, ENG, FPS, FST, MAT, MCB, MGT, PHY, STA and VEN.",
+        "b. A minimum of 9 units must be completed in upper division (100-199) courses.",
+        "d. Credit for independent studies (199s) or internships (192s) completed outside of the department must be approved by the department’s Undergraduate Affairs Committee. Additionally, students applying for these credits must submit an essay of at least 4 pages and no more than 10 pages detailing the engineering and/or science aspects of their work, results or outcomes (figures and graphs may be included), and how the experience relates to their educational program and objectives. The report must be submitted in PDF format and use 1.5 line spacing, 1” margins, and 12pt Times New Roman font. No confidential or proprietary information should be contained in the report. Applications must also include a written evaluation of the students’ performance by the student’s supervisor or faculty advisor.",
+        "e. Courses numbered 92, 98, and 99 may not be used to satisfy this requirement.",
+        "3. Courses used to satisfy other major requirements cannot be used to satisfy the technical elective requirements."
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement; a grade of C- or better is required:",
+      "courses": [
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "156"
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Cell Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/molecular-cellular-biology/cell-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Molecular Cellular Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002CBIS 002D"
+      ],
+      "units": "18",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128CCHE 129ACHE 129B"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose the 002 or 004 series:",
+        "Choose the 008 series or 118 series or 128 series & 129A-B:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": [
+        "Choose the 017 or 021 series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose the 007 or 009  series:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "BIS 104"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "STA 100",
+        "STA 130ASTA 130B"
+      ],
+      "units": "4-8",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 121",
+        "MCB 140L",
+        "MCB 143",
+        "MCB 144",
+        "MCB 145",
+        "MCB 150",
+        "MCB 163",
+        "CHE 107A",
+        "CHE 107B",
+        "EVE 100",
+        "MCB 120",
+        "MCB 120L",
+        "MCB 123",
+        "MCB 124",
+        "MCB/PLB 126",
+        "MCB 138",
+        "MCB 139",
+        "MCB 143",
+        "MCB 144",
+        "MCB 145",
+        "MCB 148",
+        "MCB 150",
+        "MCB 160L",
+        "MCB 162",
+        "MCB 163",
+        "MCB 178",
+        "MCB 182",
+        "MCB 191",
+        "MIC 103L",
+        "MMG 170",
+        "MMG 172",
+        "MMG 175",
+        "NPB 100",
+        "NPB 101",
+        "PMI 126",
+        "PMI 126L",
+        "PMI 128",
+        "PLB 111",
+        "PLB 111D",
+        "PLB 113",
+        "PLB 113D",
+        "MMI 188A",
+        "MMI 188B"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose two:",
+        "Choose at least 10 units:",
+        "No more than 4 units of research (193, 194H, 199) may be used for credit in this category.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410, cbsundergrads@ucdavis.edu."
+  ],
+  "total_units": "106"
+}

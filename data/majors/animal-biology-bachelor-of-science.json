@@ -1,0 +1,136 @@
+{
+  "name": "Animal Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/animal-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Animal Biology",
+      "courses": [
+        "ABI 050A",
+        "ABI 050B",
+        "ABI 050C"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B"
+      ],
+      "units": "21-23",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics; choose a series:",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "9-12",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Statistics; choose one:",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Animal Biology",
+      "courses": [
+        "ABI 187",
+        "ABI 189",
+        "ABI 189D"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "ABI 102",
+        "ABI 103",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "NPB 101",
+        "NPB 117",
+        "ENT 102",
+        "WFC 121",
+        "APC 100/NPB 123",
+        "ENT 101"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose a series:",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
+        "EVE 100",
+        "ESP 100",
+        "ESP 121",
+        "EVE 101",
+        "EVE 102"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "ABI 187"
+      ],
+      "units": "25",
+      "notes": [
+        "Restricted Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "123"
+}

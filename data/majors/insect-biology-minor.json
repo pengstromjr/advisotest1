@@ -1,0 +1,31 @@
+{
+  "name": "Insect Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/insect-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Entomology",
+      "courses": [
+        "ENT 100",
+        "ENT 100L",
+        "ENT 102",
+        "ENT 103",
+        "ENT 104",
+        "ENT 105",
+        "ENT 107",
+        "ENT 109"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose at least 7 units:",
+        "Choose at least two additional upper division Entomology (ENT) courses (except 192, 198, 199) adding to at least 6 units.",
+        "Upper division Entomology (ENT) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "19"
+}

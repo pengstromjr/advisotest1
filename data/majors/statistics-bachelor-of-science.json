@@ -1,0 +1,400 @@
+{
+  "name": "Statistics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/statistics/statistics-bs/",
+  "degree_type": "B.S.",
+  "department": "Statistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C",
+        "MAT 021",
+        "MAT 022A"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Core Coursework",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 130A",
+        "STA 130B",
+        "STA 138",
+        "STA 141A"
+      ],
+      "units": "24",
+      "notes": [
+        "Two introductory courses serving as the prerequisites to the chosen Cluster Electives (see Cluster Electives section below).",
+        "Note: Additional coursework beyond this requirement may be needed to fulfill the Cluster Elective prerequisites.",
+        "Preparatory Subject Matter Subtotal",
+        "Statistics"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "STA 104",
+        "STA 135",
+        "STA 137",
+        "STA 141B",
+        "STA 141B",
+        "STA 141C",
+        "STA 141C",
+        "STA 141B",
+        "STA 141C",
+        "STA 144",
+        "STA 145",
+        "STA 160",
+        "MAT 168",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Cluster Electives",
+      "courses": [],
+      "units": "12-16",
+      "notes": [
+        "Choose four upper division elective courses outside of statistics:",
+        "Cluster electives are chosen with and must be approved by the major advisor. Electives must follow a coherent sequence in one single disciple/cluster where statistical methods and models are applied. At least three of the cluster electives must cover the quantitative aspects of the discipline. A list of pre-approved electives can be found on the Statistics Department website.",
+        "Pre-Approved Electives List",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 067"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Coursework",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 131A",
+        "STA 131B",
+        "STA 131C",
+        "STA 138",
+        "MAT 108",
+        "MAT 108V",
+        "MAT 127C",
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 167"
+      ],
+      "units": "24",
+      "notes": [
+        "Statistics",
+        "Mathematics"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "STA 104",
+        "STA 135",
+        "STA 137",
+        "STA 141A",
+        "STA 141B",
+        "STA 141B",
+        "STA 141C",
+        "STA 141C",
+        "STA 141B",
+        "STA 141C",
+        "STA 142A",
+        "STA 142B",
+        "STA 144",
+        "STA 145",
+        "STA 160",
+        "MAT 168",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Related Elective Course",
+      "courses": [],
+      "units": "3-4",
+      "notes": [
+        "One upper division course outside of Statistics approved by major advisor. The Related Elective should be in mathematics, computer science or cover quantitative aspects of a substantive discipline. A list of pre-approved electives can be found on the Statistics Department website.",
+        "Pre-Approved Electives List",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A",
+        "ECS 032B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Coursework",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 131A",
+        "STA 131B",
+        "STA 131C",
+        "STA 141A",
+        "STA 142A",
+        "STA 142B",
+        "STA 144",
+        "STA 145",
+        "MAT 167",
+        "MAT 168"
+      ],
+      "units": "36",
+      "notes": [
+        "Statistics",
+        "Mathematics"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "STA 104",
+        "STA 135",
+        "STA 137",
+        "STA 138",
+        "STA 141B",
+        "STA 141C",
+        "STA 144",
+        "STA 145",
+        "MAT 127A",
+        "MAT 128A",
+        "MAT 170",
+        "ECS 122A",
+        "ECS 158",
+        "ECS 163",
+        "ECS 165A",
+        "ECS 170",
+        "ECS 174",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:",
+        "Note: A course used to fulfill the core requirement cannot be used as an elective.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A",
+        "ECS 032B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Coursework",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 131A",
+        "STA 130A",
+        "STA 131B",
+        "STA 130B",
+        "STA 135",
+        "STA 141A",
+        "STA 141B",
+        "STA 141C",
+        "STA 160",
+        "STA 142A",
+        "ECS 171",
+        "MAT 167",
+        "MAT 168"
+      ],
+      "units": "36",
+      "notes": [
+        "Statistics",
+        "Machine Learning",
+        "Mathematics"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "STA 104",
+        "STA 137",
+        "STA 138",
+        "STA 142A",
+        "STA 142B",
+        "STA 144",
+        "STA 145",
+        "MAT 128A",
+        "MAT 170",
+        "ECS 122A",
+        "ECS 158",
+        "ECS 163",
+        "ECS 165A",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:",
+        "Note: A course used to fulfill a core requirement cannot be used as a restricted elective.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "75"
+}

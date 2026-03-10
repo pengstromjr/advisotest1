@@ -1,0 +1,32 @@
+{
+  "name": "East Asian Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/east-asian-studies/east-asian-studies-minor/",
+  "degree_type": "Minor",
+  "department": "East Asian Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EAS 190",
+        "EAS 192",
+        "EAS 194H",
+        "EAS 196A",
+        "EAS 196B",
+        "EAS 198"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose any five upper division courses from the Depth Subject Matter list for the major, or from the following list:",
+        "Any CHN or JPN upper division course",
+        "Chinese (CHN)",
+        "Japanese (JPN)",
+        "Any EAS special course; approved courses:",
+        "Upper division Education Abroad course focusing on East Asia or Southeast Asia"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

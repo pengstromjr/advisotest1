@@ -1,0 +1,145 @@
+{
+  "name": "Environmental Toxicology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-toxicology/environmental-toxicology-bs/",
+  "degree_type": "B.S.",
+  "department": "Environmental Toxicology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 002AHCHE 002BHCHE 002CH",
+        "CHE 003ACHE 003BCHE 003C",
+        "CHE 118",
+        "CHE 128",
+        "CHE 129A",
+        "CHE 103",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128CCHE 129A",
+        "CHE 103ACHE 103B"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "STA 103",
+        "STA 104",
+        "STA 106",
+        "STA 108"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Upper Division Writing",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Satisfaction of the General Education requirement to include courses selected with advisor's approval to complement the major; courses in agricultural economics, environmental studies, political science, psychology, and sociology are particularly recommended.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 103",
+        "BIS 102",
+        "BIS 102V"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Toxicology",
+      "courses": [
+        "ETX 101",
+        "ETX 102A",
+        "ETX 102B",
+        "ETX 103A",
+        "ETX 103B",
+        "ETX 127",
+        "ETX/NUT 127",
+        "ETX/NUT 104",
+        "ETX 120",
+        "ETX/FST 128",
+        "ETX 130",
+        "ETX 131",
+        "ETX 135",
+        "ETX 138",
+        "ETX 146"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "12-16",
+      "notes": [
+        "Choose three-four courses:",
+        "Electives selected for area of Emphasis with faculty advisor's approval with 6 unit combined maximum of 190, 192, 198, and 199; see department website for details.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "118"
+}

@@ -1,0 +1,419 @@
+{
+  "name": "Agricultural & Environmental Technology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/agricultural-environmental-technology/",
+  "degree_type": "B.S.",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "TAE 010",
+        "TAE 030",
+        "CHE 002A",
+        "CHE 002B",
+        "CMN 001",
+        "CMN 001V",
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV",
+        "GEL 001",
+        "MAT 017A",
+        "MAT 021A",
+        "MAT 017B",
+        "MAT 021B",
+        "MAT 017C",
+        "MAT 021C",
+        "PHY 001A",
+        "PHY 001B",
+        "STA 013",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Accounting",
+        "Agricultural & Environmental Technology",
+        "Chemistry",
+        "Communication",
+        "Economics",
+        "Geology",
+        "Mathematics",
+        "Physics",
+        "Statistics",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "TAE 100",
+        "ARE 100A",
+        "ESM 121",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "8",
+      "notes": [
+        "Agricultural & Environmental Technology",
+        "Management; choose 15 units:",
+        "Writing; choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Bioproducts & Wearable Technologies",
+      "courses": [
+        "TAE 014",
+        "CHE 002C",
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C",
+        "DES 143",
+        "ARE 113",
+        "ANT 002",
+        "SOC 002",
+        "SOC 002V"
+      ],
+      "units": "62",
+      "notes": [
+        "Agricultural & Environmental Technology",
+        "Chemistry",
+        "Design",
+        "Management",
+        "Social Science"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "TAE 092",
+        "TAE 099",
+        "TAE 192",
+        "TAE 199",
+        "ARE 100B",
+        "ARE 112",
+        "ARE 136",
+        "ARE 155",
+        "DES 040A/SAS 043",
+        "DES 077",
+        "DES 127A",
+        "DES 178",
+        "MGT 120",
+        "MGT 140",
+        "MGT 160",
+        "MGT 170",
+        "MGT 180"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose 12 units if not previously chosen for Depth Subject Matter Requirements:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHE 107A",
+        "CHE 107B",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
+      ],
+      "units": "Units",
+      "notes": [
+        "Physical Chemistry",
+        "Physics"
+      ]
+    },
+    {
+      "heading": "Digital Agriculture",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ARE 112",
+        "ARE 113",
+        "ARE 120",
+        "ARE 121",
+        "ARE 140",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "PHI 013G",
+        "SAS 002",
+        "SAS 002V",
+        "SAS 004Y",
+        "SAS/ESM 008",
+        "SAS 009",
+        "SAS/HYD 010",
+        "SAS/PLS 012",
+        "SAS 014",
+        "SAS 020",
+        "SAS 025",
+        "SAS 025V"
+      ],
+      "units": "62",
+      "notes": [
+        "Agricultural & Environmental Technology",
+        "Biology",
+        "Geographic Information Systems",
+        "Management; choose 4 units if not chosen previously from Depth Subject Matter Requirements:",
+        "Philosophy",
+        "Science & Society; choose three units:"
+      ]
+    },
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "ANS 015",
+        "ANS 041",
+        "ANS 041L",
+        "ANS 042",
+        "ANS 100",
+        "NPB 101",
+        "ANS 103",
+        "ANS 104",
+        "NPB 121",
+        "NPB 121L"
+      ],
+      "units": "21",
+      "notes": [
+        "Choose 3 units:",
+        "Choose 5 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "TAE 092",
+        "TAE 099",
+        "TAE 192",
+        "TAE 199",
+        "ABT 161",
+        "ANG 107",
+        "ANS 115",
+        "ANS 125",
+        "ANS 126",
+        "ANS 141",
+        "ANS 143",
+        "ANS 144",
+        "ANS 146",
+        "ANS 148",
+        "AVS 103",
+        "BIS 101",
+        "BIS 101V",
+        "NUT 115"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose 9 units:"
+      ]
+    },
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "BIS 002C",
+        "PLS 002",
+        "PLS 100A",
+        "PLS 100B",
+        "PLS 100C",
+        "BIS 101",
+        "BIS 101V",
+        "PLB 112",
+        "PLB 113"
+      ],
+      "units": "13",
+      "notes": [
+        "Choose 4 units:",
+        "Choose 9 or 10 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "ABT 182",
+        "TAE 092",
+        "TAE 099",
+        "TAE 192",
+        "TAE 199",
+        "BIS 101",
+        "BIS 101V",
+        "BIT 160",
+        "BIT 161B",
+        "ENH 125",
+        "FST 104",
+        "FST 109",
+        "FST 131",
+        "HYD 124",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "PLB 143",
+        "PLB/PLP 148",
+        "PLP 120",
+        "PLS 100AL",
+        "PLS 100BL",
+        "PLS 100CL",
+        "PLS 101",
+        "PLS 105",
+        "PLS 110",
+        "PLS 112",
+        "PLS 113",
+        "PLS 114",
+        "PLS 141",
+        "PLS 147",
+        "PLS 147L",
+        "PLS 152",
+        "PLS 154",
+        "PLS 170A",
+        "PLS 170B",
+        "PLS 171",
+        "PLS 172",
+        "PLS 174",
+        "PLS 176",
+        "SSC 100"
+      ],
+      "units": "17",
+      "notes": [
+        "Choose 17 units:"
+      ]
+    },
+    {
+      "heading": "Individualized Emphasis Option",
+      "courses": [],
+      "units": "30",
+      "notes": [
+        "Choose a minimum of 30 upper division units, with approval from a faculty advisor, to form a coherent program of study resulting in expertise and competence in a sub-discipline of courses in the College of Agricultural & Environmental Sciences"
+      ]
+    },
+    {
+      "heading": "Agricultural & Environmental Technology",
+      "courses": [
+        "TAE 020",
+        "ABT 101",
+        "ABT 121",
+        "TAE 121",
+        "ABT 212"
+      ],
+      "units": "20",
+      "notes": []
+    },
+    {
+      "heading": "Geographic Information Systems & Remote Sensing",
+      "courses": [
+        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ABT 182",
+        "ESM 108",
+        "ESM 186"
+      ],
+      "units": "11",
+      "notes": []
+    },
+    {
+      "heading": "Science, Management, & Policy",
+      "courses": [
+        "ATM 116",
+        "ESM 120",
+        "ESP 110",
+        "ESP 167",
+        "ESP/ARE 175",
+        "ECN 125",
+        "MGT 120",
+        "MGT 140"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose 15 units; if not chosen previously for Depth Subject Matter Requirements"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "TAE 092",
+        "TAE 099",
+        "TAE 192",
+        "TAE 199",
+        "ATM 005",
+        "BIS 002A",
+        "BIS 103",
+        "BIS 105",
+        "CHE 002C",
+        "CHE 118A",
+        "DES 127A",
+        "DES 136A",
+        "DES 136B",
+        "DES 137A",
+        "DES 138",
+        "ENH 125",
+        "ESM/SAS 008",
+        "ESM 100",
+        "ESM 121",
+        "ESM 131",
+        "ESP 001",
+        "ESP/EVE 111",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP/ECI 163",
+        "ESP 165",
+        "ESP 166",
+        "ESP 179",
+        "ETX 130",
+        "ETX 131",
+        "ETX 135",
+        "ETX 138",
+        "ETX 146",
+        "FST 102A",
+        "FST 104",
+        "FST 110",
+        "FST 123",
+        "GEL 018",
+        "GEL 130",
+        "LED 003",
+        "LED 140",
+        "MGT 160",
+        "MGT 170",
+        "MGT 180",
+        "PHY 010C",
+        "PHY 010CY",
+        "PHY 112",
+        "PHY 129A",
+        "PHY 129B",
+        "PLS 100A",
+        "PLS 101",
+        "PLS 162",
+        "POL 012B",
+        "POL 171",
+        "SAS/PLS 012",
+        "SAS 025",
+        "SAS 025V",
+        "SAS 043/DES 040A",
+        "SOC 160",
+        "SSC 010",
+        "SSC 100",
+        "SSC 102",
+        "WFC 130",
+        "WFC 144",
+        "WFC 168"
+      ],
+      "units": "16",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Staff Advisor: Janette Gonzalez Lead Faculty Advisor: Ali Moghimi, Ph.D."
+  ],
+  "total_units": "86"
+}

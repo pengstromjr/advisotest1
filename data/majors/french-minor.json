@@ -1,0 +1,29 @@
+{
+  "name": "French, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/french-italian/french-minor/",
+  "degree_type": "Minor",
+  "department": "French Italian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "FRE 100"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "French Electives",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Four (4) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor.",
+        "French 101-162."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

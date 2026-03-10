@@ -1,0 +1,57 @@
+{
+  "name": "Nutrition Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/nutrition/nutrition-science-minor/",
+  "degree_type": "Minor",
+  "department": "Nutrition",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biochemistry",
+      "courses": [
+        "ABI 102ABI 103",
+        "BIS 102BIS 103"
+      ],
+      "units": "6-10",
+      "notes": [
+        "Plan in advance to include the required course prerequisites.",
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Nutrition",
+      "courses": [
+        "NUT 111AY",
+        "NUT 111B"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 101"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "NUT 105",
+        "NUT 114",
+        "NUT 115",
+        "NUT 116A",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 117",
+        "NUT 120AN",
+        "NUT 141"
+      ],
+      "units": "0-6",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

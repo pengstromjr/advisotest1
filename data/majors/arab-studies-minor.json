@@ -1,0 +1,79 @@
+{
+  "name": "Arab Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/middle-east-south-asia-studies/arab-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Middle East South Asia Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MSA 100",
+        "MSA 180",
+        "HIS 193A",
+        "HIS 193B",
+        "MSA 181C",
+        "MSA 182C"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Core Course List",
+      "courses": [
+        "MSA 111A",
+        "MSA 121A/COM 175",
+        "ARB 140/COM 172/MSA 121C",
+        "MSA 122A",
+        "MSA 150/GSW 185",
+        "MSA 181C",
+        "MSA 182C",
+        "ANT 142",
+        "ARB 001",
+        "ARB 001A",
+        "ARB 002",
+        "ARB 003",
+        "ARB 021",
+        "ARB 022",
+        "ARB 023",
+        "ARB 121",
+        "ARB 122",
+        "ARB 123",
+        "ARB 198",
+        "AHI 155",
+        "COM 053C",
+        "COM 155",
+        "COM 166",
+        "HIS 006",
+        "HIS 102R",
+        "HIS 112C",
+        "HIS 115F",
+        "HIS 190A",
+        "HIS 190B",
+        "HIS 190C",
+        "HIS 193A",
+        "HIS 193B",
+        "POL 135",
+        "POL 136",
+        "RST 060",
+        "RST 065C",
+        "RST 160",
+        "RST 161",
+        "RST 162",
+        "RST 163",
+        "WMS 184",
+        "MSA 181C",
+        "MSA 182C"
+      ],
+      "units": "4-15",
+      "notes": [
+        "Choose additional electives from the Core Course list:",
+        "No more than one lower division course can be counted toward the minor requirements.",
+        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept other elective courses toward the minor program if the content is 50% or more on the Arab World."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

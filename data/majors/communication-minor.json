@@ -1,0 +1,28 @@
+{
+  "name": "Communication, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/communication/communication-minor/",
+  "degree_type": "Minor",
+  "department": "Communication",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "CMN 003",
+        "CMN 003Y",
+        "CMN 003V"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "At least five upper division courses in Communication (CMN).",
+        "Communication (CMN)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

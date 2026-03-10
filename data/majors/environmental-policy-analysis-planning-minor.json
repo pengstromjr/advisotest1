@@ -1,0 +1,46 @@
+{
+  "name": "Environmental Policy Analysis & Planning, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-science-policy/environmental-policy-analysis-minor/",
+  "degree_type": "Minor",
+  "department": "Environmental Science Policy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY"
+      ],
+      "units": "Units",
+      "notes": [
+        "Basic course in political science."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 001",
+        "ESP 160",
+        "ESP 161",
+        "ESP 168A",
+        "ESP/ECI 163",
+        "ESP 165",
+        "ESP 166",
+        "ESP 167",
+        "ESP 168B",
+        "ESP 169",
+        "ESP 171",
+        "ESP 172",
+        "ESP 179"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "4"
+}

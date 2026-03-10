@@ -1,0 +1,462 @@
+{
+  "name": "Electrical Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/electrical-computer-engineering/electrical-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Electrical Computer Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Lower Division Required Courses",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "ENG 003",
+        "ENG 003Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 006",
+        "ENG 017",
+        "ENG 017V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Electrical & Computer Engineering",
+      "courses": [
+        "EEC 001",
+        "EEC 007",
+        "EEC 010",
+        "EEC 018",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "2",
+      "notes": [
+        "Lower Division Composition/Writing; choose one; a grade of a C- or better is required:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Electrical & Computer Engineering",
+      "courses": [
+        "EEC 100",
+        "EEC 110A",
+        "EEC 130A",
+        "EEC 140A",
+        "EEC 140AV",
+        "EEC 150",
+        "EEC 161",
+        "EEC 196",
+        "ENG 160/PHY 160 DISCONTINUED FOR WINTER 2026 **",
+        "ENG 190"
+      ],
+      "units": "26",
+      "notes": [
+        "Take all courses, below:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 102H",
+        "UWP 102I",
+        "UWP 102J",
+        "UWP 102K",
+        "UWP 102L",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I",
+        "UWP 104J",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose at least eight courses for a minimum of 32 units:",
+        "After completion of the upper division elective requirement (at least 8 courses, 2 core, 2 with labs, 1 project) any units in excess of 32 will count toward the Technical Elective requirement.",
+        "Two Core Electives",
+        "Design Laboratory Electives",
+        "Choose 9 units",
+        "Choose one; a grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EEC 110B",
+        "EEC 130B",
+        "EEC 140B",
+        "EEC 180",
+        "EEC 151",
+        "EEC 157A",
+        "EEC 157AV"
+      ],
+      "units": "Units",
+      "notes": [
+        "A maximum of one course appearing on both the Core Elective list and the Design Laboratory Elective list may be counted in both categories.",
+        "Only one of the following may be used:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EEC 110B",
+        "EEC 112",
+        "EEC 113",
+        "EEC 116",
+        "EEC 118",
+        "EEC 132A",
+        "EEC 132B",
+        "EEC 132C",
+        "EEC 133",
+        "EEC 135",
+        "EEC 140B",
+        "EEC 145",
+        "EEC 146A",
+        "EEC 146B",
+        "EEC 157A",
+        "EEC 157AV",
+        "EEC 157B",
+        "EEC 157BY",
+        "EEC 160",
+        "EEC 165",
+        "EEC 170",
+        "EEC 172",
+        "EEC 179",
+        "EEC 180",
+        "EEC 119A",
+        "EEC 119B",
+        "EEC 134A",
+        "EEC 134B",
+        "EEC 136A",
+        "EEC 136B",
+        "EEC 174AY",
+        "EEC 174BY",
+        "EEC 175A",
+        "EEC 175B",
+        "EEC 181A",
+        "EEC 181B",
+        "EEC 193A",
+        "EEC 193B",
+        "EEC 195A",
+        "EEC 195B",
+        "ECS 036B",
+        "ECS 150",
+        "ECS 152B",
+        "ECS 163",
+        "ECS 175",
+        "ECS 177",
+        "ECS 178"
+      ],
+      "units": "Units",
+      "notes": [
+        "A maximum of one course appearing on both the Core Elective list and the Design Electives with Laboratory list may be counted in both categories.",
+        "Choose at least two Design Electives with Laboratory:",
+        "Choose at least one Senior Design Project course:",
+        "All Senior Design Project courses are also considered Design Electives with Laboratory may be counted in both categories simultaneously. Both A & B need to be taken to receive credit for the Senior Design Project.",
+        "The remaining electives may be any letter-graded upper division Electrical & Computer Engineering course not used to satisfy another major requirement or the following ECS courses:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHE 002B",
+        "ENG 035"
+      ],
+      "units": "Units",
+      "notes": [
+        "After completion of the upper division elective requirement (at least 8 courses, 2 core, 2 with labs, 1 project) any units in excess of 32 will count toward the technical elective requirement.",
+        "A maximum of 6 units for any combination of engineering courses numbered 190C, 192, 198, and 199 may be used."
+      ]
+    },
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 101D",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "BIS 104",
+        "BIS 122",
+        "BIS 122P"
+      ],
+      "units": "4",
+      "notes": [
+        "Any upper division course.",
+        "Any upper division course.",
+        "Any upper division course."
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 100A",
+        "ECN 100AV",
+        "ECN 100B",
+        "ECN 101",
+        "ECN 102",
+        "ECN 103",
+        "ECN 122",
+        "ECN 140"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Management",
+      "courses": [
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 011B",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "MGT 160",
+        "MGT 170",
+        "MGT 180"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Core Electives",
+      "courses": [
+        "EEC 130B",
+        "EEC 140B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Design Electives with Laboratory (select two or more courses)",
+      "courses": [
+        "EEC 110B",
+        "EEC 112",
+        "EEC 118",
+        "EEC 132A",
+        "EEC 132B",
+        "EEC 132C",
+        "EEC 146A"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Technical Electives",
+      "courses": [
+        "EEC 135",
+        "EEC 145"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Core Electives",
+      "courses": [
+        "EEC 130B",
+        "EEC 140B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Design Electives with Laboratory (select two or more courses)",
+      "courses": [
+        "EEC 110B",
+        "EEC 112",
+        "EEC 132A",
+        "EEC 132B",
+        "EEC 132C",
+        "EEC 133",
+        "EEC 146A",
+        "EEC 165"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Technical Electives",
+      "courses": [
+        "EEC 135",
+        "EEC 160"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Core Electives",
+      "courses": [
+        "EEC 110B",
+        "EEC 157A",
+        "EEC 157AV"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Design Electives with Laboratory (select two or more courses)",
+      "courses": [
+        "EEC 112",
+        "EEC 113",
+        "EEC 116",
+        "EEC 118",
+        "EEC 146A",
+        "EEC 157B",
+        "EEC 157BY"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Technical Electives",
+      "courses": [
+        "EEC 140B",
+        "EEC 160"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Core Electives",
+      "courses": [
+        "EEC 151",
+        "EEC 180"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Design Electives with Laboratory (select two or more courses)",
+      "courses": [
+        "EEC 110B",
+        "EEC 116",
+        "EEC 118",
+        "EEC 146A",
+        "EEC 157B",
+        "EEC 157BY",
+        "EEC 165",
+        "EEC 172"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Technical Electives",
+      "courses": [
+        "EEC 140B",
+        "EEC 157A",
+        "EEC 157AV",
+        "EEC 160",
+        "EEC 170"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Core Electives",
+      "courses": [
+        "EEC 151",
+        "EEC 180"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Design Electives with Laboratory (select two or more courses)",
+      "courses": [
+        "EEC 110B",
+        "EEC 112",
+        "EEC 157B",
+        "EEC 157BY",
+        "EEC 165"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Additional Technical Electives",
+      "courses": [
+        "EEC 135",
+        "EEC 157A",
+        "EEC 157AV",
+        "EEC 160",
+        "EEC 179"
+      ],
+      "units": "4",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "147"
+}

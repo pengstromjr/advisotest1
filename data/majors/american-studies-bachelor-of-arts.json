@@ -1,0 +1,82 @@
+{
+  "name": "American Studies, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/american-studies/american-studies-ab/",
+  "degree_type": "B.A.",
+  "department": "American Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "AMS 010",
+        "AAS 010",
+        "ASA 001",
+        "CHI 010",
+        "CHI 010V",
+        "NAS 001",
+        "ANT 002",
+        "GSW 050",
+        "GSW 050V",
+        "SOC 002",
+        "SOC 002V",
+        "HIS 017A",
+        "HIS 017B",
+        "HIS 072A",
+        "HIS 072B",
+        "CDM 001",
+        "ENL 003",
+        "ENL 003V",
+        "ENL 010A",
+        "ENL 010B",
+        "ENL 010C"
+      ],
+      "units": "4",
+      "notes": [
+        "One additional lower division American Studies course.",
+        "Choose one:",
+        "Or an equivalent course in racial and ethnic diversity.",
+        "Choose one:",
+        "Or an equivalent course in social science approaches to culture.",
+        "Choose one:",
+        "Choose one:",
+        "Or an equivalent course introducing critical approaches to literary and visual texts in the humanities.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "AMS 100",
+        "AMS 160"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Emphasis",
+      "courses": [
+        "AMS 192",
+        "AMS 190A",
+        "AMS 190B"
+      ],
+      "units": "20",
+      "notes": [
+        "Three additional upper division American Studies courses."
+      ]
+    },
+    {
+      "heading": "Recommended",
+      "courses": [],
+      "units": "40",
+      "notes": [
+        "College requirement in English composition.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Global Education & Study Abroad: Majors are encouraged to study abroad or engage in domestic opportunities off-campus; such as the UC Washington Program, internships, and many other opportunities. Major requirements can be fulfilled with up to eight units from study abroad or other domestic off-campus opportunities with the permission of the undergraduate advisor."
+  ],
+  "total_units": "64"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Community Nutrition, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/nutrition/community-nutrition-minor/",
+  "degree_type": "Minor",
+  "department": "Nutrition",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparation",
+      "courses": [
+        "NUT 111AY",
+        "NUT 111B",
+        "NUT 118",
+        "NUT 192",
+        "NUT 120AN",
+        "NUT 120BN",
+        "NPB 101"
+      ],
+      "units": "3",
+      "notes": [
+        "Plan in advance to include the required course prerequisites."
+      ]
+    },
+    {
+      "heading": "Replacement Courses",
+      "courses": [
+        "NUT 114",
+        "NUT 116A",
+        "NUT 116AL",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 116BL"
+      ],
+      "units": "20",
+      "notes": [
+        "See note, above."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

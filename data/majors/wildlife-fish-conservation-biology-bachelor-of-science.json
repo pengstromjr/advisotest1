@@ -1,0 +1,320 @@
+{
+  "name": "Wildlife, Fish & Conservation Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/wildlife-fish-conservation-biology/wildlife-fish-conservation-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Wildlife Fish Conservation Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Written/Oral Expression",
+      "courses": [
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "CMN 001",
+        "CMN 001V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "CMN 001",
+        "CMN 001V",
+        "CMN 003",
+        "CMN 003V",
+        "CMN 003Y",
+        "DRA 010"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Written/Oral Expression Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008A",
+        "CHE 008B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A",
+        "PHY 001B",
+        "PLS 120",
+        "STA 100",
+        "WFC 103"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Wildlife, Fish & Conservation Biology",
+      "courses": [
+        "WFC 010",
+        "WFC 050",
+        "WFC 051"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ESP 100",
+        "EVE 101",
+        "NPB 102",
+        "WFC 141"
+      ],
+      "units": "4",
+      "notes": [
+        "Students graduating with this major are required to attain at least a C average (2.000) in all courses taken at the university in depth and area of specialization subject matter."
+      ]
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Wildlife, Fish, & Conservation Biology",
+      "courses": [
+        "WFC 100",
+        "WFC 101",
+        "WFC 101L",
+        "WFC 102",
+        "WFC 102L",
+        "WFC 100",
+        "WFC 101101L",
+        "WFC 102102L",
+        "WFC 121",
+        "WFC 130",
+        "WFC 122",
+        "WFC 124"
+      ],
+      "units": "4-7",
+      "notes": []
+    },
+    {
+      "heading": "Conservation Biology",
+      "courses": [
+        "WFC 154",
+        "WFC 110",
+        "WFC 110L",
+        "WFC 111",
+        "WFC 111L",
+        "WFC 120",
+        "WFC 120L",
+        "WFC 134",
+        "WFC 134L"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three lecture courses and two laboratory (L) courses:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Anatomy, Physiology & Cell Biology",
+      "courses": [
+        "APC 100/NPB 123"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Landscape Architecture",
+      "courses": [
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Statistics; choosing one is recommended:",
+      "courses": [
+        "STA 104",
+        "STA 106",
+        "STA 108"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Areas of Specialization",
+      "courses": [],
+      "units": "12-24",
+      "notes": [
+        "Choose one of the four Areas of Specialization:",
+        "No course may be used to simultaneously satisfy the Depth Subject Matter and the Area of Specialization.",
+        "No course may be used to simultaneously satisfy two Area of Specialization requirements.",
+        "(1) Wildlife & Conservation Biology",
+        "(2) Fish Biology",
+        "(3) Wildlife Health",
+        "(4) Individualized",
+        "Restricted Electives Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "WFC 151",
+        "WFC 168",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "PLB/PLP 148",
+        "PLS/ESM 144",
+        "PLS 147147L",
+        "PLS 178",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 122",
+        "WFC 124",
+        "WFC 125",
+        "WFC 134",
+        "WFC 136",
+        "WFC 152",
+        "WFC 156",
+        "WFC 157",
+        "WFC 160",
+        "WFC 168"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose two:",
+        "Note: Students interested in certification as a Wildlife Biologist from The Wildlife Society should consider additional courses in plant sciences and statistics."
+      ]
+    },
+    {
+      "heading": "Fish Biology",
+      "courses": [
+        "WFC 120",
+        "WFC 120L",
+        "EVE 112",
+        "EVE 112L",
+        "EVE 114",
+        "EVE 112112L",
+        "EVE 114"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Choose three courses including at least one course from each of the following two groups:"
+      ]
+    },
+    {
+      "heading": "(a) Aquatic Systems",
+      "courses": [
+        "ANS 118",
+        "ESM 100",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 151",
+        "ESP 151L",
+        "ESP 152",
+        "ESP 155",
+        "EVE 115",
+        "HYD 143",
+        "WFC 155"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(b) Water Policy/Law",
+      "courses": [
+        "ESP 161",
+        "ESP 162",
+        "ESP 169",
+        "HYD 150"
+      ],
+      "units": "17-23",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "WFC 151",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "ABI 102",
+        "ABI 103",
+        "BIS 102",
+        "BIS 102VBIS 103",
+        "ABI 102ABI 103",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 122",
+        "WFC 124",
+        "WFC 125",
+        "WFC 134",
+        "WFC 136",
+        "WFC 141",
+        "WFC 144",
+        "WFC 152",
+        "WFC 168",
+        "ANS 103",
+        "ANS 104",
+        "ANS 170",
+        "APC 100",
+        "MCB 150",
+        "NPB 101",
+        "NPB 140",
+        "VME 158"
+      ],
+      "units": "Units",
+      "notes": [
+        "Note that this Areas of Specialization recommends additional preparatory courses; prerequisites for admission to Veterinary Medicine vary among schools and students should confirm the specific requirements of the school(s) to which they wish to apply.",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Additional Preparatory",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "CHE 002C",
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
+      ],
+      "units": "16-24",
+      "notes": [
+        "Recommended, not required:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "111"
+}

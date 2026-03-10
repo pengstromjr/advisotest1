@@ -1,0 +1,36 @@
+{
+  "name": "Technology Management, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/graduate-school-management/technology-management-minor/",
+  "degree_type": "Minor",
+  "department": "Graduate School Management",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 150",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "MGT 151",
+        "MGT 160",
+        "MGT 170",
+        "MGT 180",
+        "MGT 011A",
+        "MGT 011A"
+      ],
+      "units": "Units",
+      "notes": [
+        "Required preparatory course:",
+        "Choose five:",
+        "The OASIS Minor Declaration form will only be approved after the student is enrolled in the final course for the minor, one minor course has been successfully completed, and minor GPA is at least 2.000."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

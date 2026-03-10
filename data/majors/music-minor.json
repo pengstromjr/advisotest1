@@ -1,0 +1,57 @@
+{
+  "name": "Music, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/music/music-minor/",
+  "degree_type": "Minor",
+  "department": "Music",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MUS 105",
+        "MUS 106",
+        "MUS 107A",
+        "MUS 107B",
+        "MUS 110A",
+        "MUS 110B",
+        "MUS 110C",
+        "MUS 110D",
+        "MUS 110E",
+        "MUS 110F",
+        "MUS 115",
+        "MUS 116",
+        "MUS 117",
+        "MUS 126",
+        "MUS 127/SPA 171",
+        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "MUS 129A",
+        "MUS 129B",
+        "MUS 129C",
+        "MUS 129D",
+        "MUS 140",
+        "MUS 141",
+        "MUS 142",
+        "MUS 143",
+        "MUS 144",
+        "MUS 145",
+        "MUS 146",
+        "MUS 147",
+        "MUS 148",
+        "MUS 149",
+        "MUS 150",
+        "MUS 151",
+        "MUS 152",
+        "MUS 153",
+        "MUS 155"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose a minimum of 16 units:",
+        "Choose a minimum of 6 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "22"
+}

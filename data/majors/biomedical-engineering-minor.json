@@ -1,0 +1,48 @@
+{
+  "name": "Biomedical Engineering, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biomedical-engineering/biomedical-engineering-minor/",
+  "degree_type": "Minor",
+  "department": "Biomedical Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "NPB 101",
+        "BIM 116",
+        "BIM 102"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses",
+      "courses": [
+        "BIM 140",
+        "BIM 141",
+        "BIM 142",
+        "BIM 143",
+        "BIM 143L",
+        "BIM 144",
+        "BIM 152",
+        "BIM 154",
+        "BIM 161A",
+        "BIM 162",
+        "BIM 163",
+        "BIM 171",
+        "BIM 172",
+        "BIM 173",
+        "BIM 189A",
+        "BIM 189B",
+        "BIM 189C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose 12 units from upper division BIM courses, in consultation with the academic advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "21"
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Landscape Architecture, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/landscape-architecture-bs/",
+  "degree_type": "B.S.",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "BIS 002B",
+        "CMN 001",
+        "CMN 001V",
+        "ENH 006",
+        "STA 013",
+        "STA 013Y",
+        "CHE 002A",
+        "CHE 010",
+        "PHY 001A",
+        "PHY 010",
+        "SSC 010"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:",
+        "Choose two courses satisfying Social Sciences General Education requirement; may count toward both GE and the major.",
+        "Choose two courses satisfying Arts & Humanities General Education requirement; may count toward both GE and the major."
+      ]
+    },
+    {
+      "heading": "Landscape Architecture",
+      "courses": [
+        "LED 001",
+        "LED 002",
+        "LED 003",
+        "LED 021",
+        "LED 030",
+        "LED 050",
+        "LED 060",
+        "LED 070"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "English Writing",
+      "courses": [
+        "ENL 003",
+        "ENL 003V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 102H",
+        "UWP 102I",
+        "UWP 102J",
+        "UWP 102K",
+        "UWP 102L",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I",
+        "UWP 104J",
+        "UWP 104T"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Also counts toward English Composition Requirement",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Landscape Architecture",
+      "courses": [
+        "LED 119",
+        "LED 120",
+        "LED 160",
+        "LED 161",
+        "LED 170",
+        "LED 171",
+        "LED 182",
+        "LED 183",
+        "LED 184",
+        "LED 190"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Horticulture",
+      "courses": [
+        "ENH 105"
+      ],
+      "units": "4",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose 16 units of upper division courses in consultation with advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising Center: Jana (Snjezana) Krezo; 530-752-9322; Galyna Erdman; 530-752-2244"
+  ],
+  "total_units": "142"
+}

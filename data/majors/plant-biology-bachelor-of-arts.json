@@ -1,0 +1,86 @@
+{
+  "name": "Plant Biology, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-biology/plant-biology-ab/",
+  "degree_type": "B.A.",
+  "department": "Plant Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 004ACHE 004B",
+        "CHE 008ACHE 008B",
+        "STA 013",
+        "STA 013Y",
+        "STA 100",
+        "PLS 120"
+      ],
+      "units": "10",
+      "notes": [
+        "Choose the 002 series or 004 series:",
+        "008 series:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Recommended",
+      "courses": [
+        "CHE 002C",
+        "CHE 004C"
+      ],
+      "units": "35",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Plant Biology",
+      "courses": [
+        "PLB 105",
+        "PLB 111",
+        "PLB 112",
+        "PLB 117",
+        "EVE 140",
+        "PLB/PLS 116"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Recommended",
+      "courses": [
+        "EVE 100",
+        "PLB/PLP 148"
+      ],
+      "units": "41-42",
+      "notes": [
+        "Choose additional upper division units in Plant Biology or related natural science courses from elective list via Plant Biology Bachelors of Science. Courses in other departments may be allowed upon prior consultation with a PLB faculty advisor.",
+        "Plant Biology Bachelors of Science Electives list",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Programs: Students on the honors list may elect to include a maximum of 5 units of 194H in their major programs. For Dean's Honors List information, see the Honors &​ Prizes for the appropriate College section."
+  ],
+  "total_units": "76"
+}

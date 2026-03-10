@@ -1,0 +1,195 @@
+{
+  "name": "Mathematics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/mathematics-bs/",
+  "degree_type": "B.S.",
+  "department": "Mathematics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Calculus",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linear Algebra & Proof-Writing",
+      "courses": [
+        "MAT 022A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT/BIS 027A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT 067"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose one option:"
+      ]
+    },
+    {
+      "heading": "MATLAB",
+      "courses": [
+        "MAT 022AL"
+      ],
+      "units": "0-1",
+      "notes": [
+        "Equivalent MATLAB knowledge."
+      ]
+    },
+    {
+      "heading": "Differential Equations",
+      "courses": [
+        "MAT/BIS 027B",
+        "MAT 022B"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Plans",
+      "courses": [
+        "PHY 009A",
+        "PHY 007A",
+        "PHY 009A",
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Plan I: General Mathematics",
+        "Plan 2: Mathematics for Secondary Teaching",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Plans",
+      "courses": [],
+      "units": "51-52",
+      "notes": [
+        "Choose one:",
+        "Plan 1: General Mathematics",
+        "Plan 2: Mathematics for Secondary Teaching",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 135A",
+        "MAT 150A",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 185A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "B. Enrichment Courses",
+      "courses": [
+        "MAT 111",
+        "MAT 185B"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose four:"
+      ]
+    },
+    {
+      "heading": "C. Capstone Course",
+      "courses": [
+        "MAT 115B",
+        "MAT 118B",
+        "MAT 119B",
+        "MAT 135B",
+        "MAT 146",
+        "MAT 180",
+        "MAT 185B",
+        "MAT 189",
+        "MAT 192",
+        "MAT 194"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
+        "MAT 111",
+        "MAT 115A",
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 135A",
+        "MAT 141",
+        "MAT 150A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "B. Enrichment Course",
+      "courses": [
+        "MAT 111",
+        "MAT 185B"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose four:"
+      ]
+    },
+    {
+      "heading": "C. Capstone Course",
+      "courses": [
+        "MAT 115B",
+        "MAT 118B",
+        "MAT 119B",
+        "MAT 135B",
+        "MAT 146",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 180",
+        "MAT 185B",
+        "MAT 189",
+        "MAT 192",
+        "MAT 194",
+        "EDU/GEL 183"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
+  ],
+  "total_units": "82"
+}

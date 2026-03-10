@@ -1,0 +1,169 @@
+{
+  "name": "Ecological Management & Restoration, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/ecological-management-restoration-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001APHY 001B",
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 100",
+        "PLS 101",
+        "ESP 001"
+      ],
+      "units": "5",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Environmental Horticulture",
+      "courses": [
+        "ENH 160",
+        "ENH 160L"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 176"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 102",
+        "SSC 105",
+        "SSC 111",
+        "SSC 118",
+        "SSC 120",
+        "PLS 152",
+        "ESP 155",
+        "PLB/EVE 117",
+        "PLS/ESM 144",
+        "PLS 147",
+        "WFC 156",
+        "WFC 157",
+        "EVE 100",
+        "PLS/PLB 116",
+        "PLS 130",
+        "PLS 150",
+        "ESM 141",
+        "ESP 127",
+        "ESP 155L",
+        "WFC 154",
+        "WFC 155",
+        "WFC 155L",
+        "ESM 100",
+        "HYD 143",
+        "HYD/EBS 147",
+        "HYD 151",
+        "PLS 171",
+        "ENH 120",
+        "PLS 100C",
+        "PLS 163",
+        "PLB 111",
+        "PLS 100A"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:",
+        "Choose two ecology courses:",
+        "Choose one:",
+        "Choose four restoration/conservation courses:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 160",
+        "ESP 161",
+        "ESP 171",
+        "ESP 172",
+        "ESP 179"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Internship",
+      "courses": [
+        "PLS 192",
+        "ENT 107",
+        "HYD 124",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "PLS 141",
+        "PLS 158",
+        "PLS 162",
+        "SAS 018",
+        "SSC 109"
+      ],
+      "units": "2",
+      "notes": [
+        "Must be selected in consultation with master advisor.",
+        "In addition to the required coursework listed above, students might consider taking some of the following courses:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "102"
+}

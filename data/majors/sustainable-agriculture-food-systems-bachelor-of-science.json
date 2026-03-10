@@ -1,0 +1,583 @@
+{
+  "name": "Sustainable Agriculture & Food Systems, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/sustainable-agriculture-food-systems-bs/",
+  "degree_type": "B.S.",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "English Composition Requirement",
+      "courses": [
+        "ENL 003",
+        "UWP 001",
+        "UWP 001Y",
+        "UWP 001V",
+        "UWP 048",
+        "UWP 049",
+        "UWP 101",
+        "UWP 101Y",
+        "UWP 101V",
+        "UWP 102",
+        "UWP 104",
+        "CMN 001",
+        "CMN 001V",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "NAS 005",
+        "UWP 001",
+        "ENL 003",
+        "CMN 001",
+        "CMN 001V"
+      ],
+      "units": "4-8",
+      "notes": [
+        "See College requirement.",
+        "(1) Either two courses emphasizing written expression or one course emphasizing written expression and one course emphasizing oral expression, with a grade of C- (or P) or better. The following UC Davis courses satisfy this requirement:",
+        "(3) By successfully passing the English Composition Examination administered by the College of Letters & Science upon completion of 70 units of degree credit (the examination does not yield credit).",
+        "English Composition Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 015"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Community & Regional Development",
+      "courses": [
+        "CRD 020",
+        "ANS 112",
+        "PLS 150"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
+        "ARE 121"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 190"
+      ],
+      "units": "2",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "SAF 191A",
+        "SAF 191B"
+      ],
+      "units": "3",
+      "notes": [
+        "Core Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Applied Production",
+      "courses": [
+        "PLP 040",
+        "PLS 049",
+        "VEN 101A",
+        "VEN 101B",
+        "VEN 101C",
+        "ENH 120"
+      ],
+      "units": "2-3",
+      "notes": [
+        "Students must complete at least 8 units of internship, which may be combined off-campus or on-campus units.",
+        "Internship Requirement Subtotal",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 041L",
+        "ANS 049A",
+        "ANS 049B",
+        "ANS 049C",
+        "ANS 049D",
+        "ANS 049E",
+        "ANS 049F",
+        "ANS 049G",
+        "ANS 049H",
+        "ANS 049I",
+        "ANS 049J",
+        "ABT 049",
+        "ABT 052",
+        "ABT 101",
+        "ABT/IAD 142",
+        "FST 050"
+      ],
+      "units": "2",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Applied Production Subtotal"
+      ]
+    },
+    {
+      "heading": "Tracks",
+      "courses": [],
+      "units": "94-110",
+      "notes": [
+        "Choose one track:",
+        "Track I: Agriculture & Ecology",
+        "Track II: Food & Society",
+        "Track III: Economics & Policy",
+        "Tracks Subtotal"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "PLS 120",
+        "STA 100"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "VEN 002"
+      ],
+      "units": "2",
+      "notes": []
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 001",
+        "ANS 002"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Food Science & Technology",
+      "courses": [
+        "FST 001"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Community & Regional Development",
+      "courses": [
+        "CRD 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 014",
+        "PHI 015",
+        "PHI 024",
+        "ANT 002",
+        "POL 001",
+        "POL 001Y",
+        "POL 004",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
+        "ARE 112",
+        "ARE 120",
+        "ARE 145",
+        "ARE 147",
+        "ARE 150"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 161",
+        "ESP 169",
+        "HYD 150"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 100",
+        "SSC 109",
+        "ENT 119",
+        "HYD/ESM/ABT 110",
+        "PLS 105",
+        "PLS 111",
+        "PLS 112",
+        "PLS 113",
+        "PLS/IAD 160",
+        "PLS 171",
+        "SSC 111",
+        "SSC 112"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose two:",
+        "Additional upper division restricted electives chosen in consultation with the track faculty advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 005",
+        "PHI 031",
+        "PHI 014",
+        "PHI 015",
+        "PHI 024",
+        "STA 013",
+        "STA 013Y",
+        "CRD 151",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "STA 103",
+        "SOC 106"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Statistics",
+        "Choose at least one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 010"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 002",
+        "BIS 002B",
+        "ESP 001",
+        "WFC 010"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Food Science & Technology",
+      "courses": [
+        "FST 001"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 010"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "POL 001",
+        "POL 001Y",
+        "POL 004",
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Community & Regional Development",
+      "courses": [
+        "CRD 001"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
+        "ARE 112",
+        "ARE 145",
+        "ARE 147",
+        "ARE 150",
+        "ARE 176",
+        "ESP 160",
+        "ESP 161",
+        "ESP 169",
+        "ESP 172",
+        "ESP 179",
+        "ANT/ESP 101",
+        "CRD 118",
+        "CRD 142",
+        "CRD 149",
+        "CRD 152",
+        "SOC 130",
+        "SOC 160",
+        "AMS 101G",
+        "AMS 156",
+        "HIS 108",
+        "HIS 172",
+        "NAS 123",
+        "NAS 123V",
+        "NAS 162",
+        "PHI 109",
+        "WMS 104",
+        "WMS 136"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose 12 units:",
+        "Choose one:",
+        "Additional upper division restricted electives chosen in consultation with the track faculty advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "ARE 106",
+        "STA 103",
+        "SOC 106"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 010"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 002",
+        "BIS 002B",
+        "ESP 001",
+        "WFC 010"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Food Science & Technology",
+      "courses": [
+        "FST 001"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 010"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 100A",
+        "ECN 100AV",
+        "ECN 100B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "POL 001",
+        "POL 001Y",
+        "POL 004",
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Community & Regional Development",
+      "courses": [
+        "CRD 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 014",
+        "PHI 015",
+        "PHI 024"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
+        "ARE 112",
+        "ARE 145",
+        "ARE 150",
+        "ARE 157",
+        "ARE 120",
+        "ARE 130",
+        "ARE 147",
+        "ARE 176",
+        "ESP 160",
+        "ESP 161",
+        "ESP 169",
+        "ESP 172",
+        "ESP 179",
+        "ANT 101",
+        "CRD 118",
+        "CRD 142",
+        "CRD 149",
+        "CRD 152",
+        "SOC 130",
+        "SOC 160"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Choose 11-12 units:",
+        "Choose 8 units:",
+        "Additional restricted electives chosen in consultation with an advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "135"
+}

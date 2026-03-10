@@ -1,0 +1,222 @@
+{
+  "name": "Spanish, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/spanish-portuguese/spanish-ab/",
+  "degree_type": "B.A.",
+  "department": "Spanish Portuguese",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "SPA 001",
+        "SPA 001V",
+        "SPA 001Y",
+        "SPA 002",
+        "SPA 002V",
+        "SPA 002Y",
+        "SPA 003",
+        "SPA 003V",
+        "SPA 003Y",
+        "SPA 021",
+        "SPA 021S",
+        "SPA 021V",
+        "SPA 021Y",
+        "SPA 022",
+        "SPA 022S",
+        "SPA 022V",
+        "SPA 022Y",
+        "SPA 023",
+        "SPA 023S",
+        "SPA 024",
+        "SPA 024S",
+        "SPA 031",
+        "SPA 032",
+        "SPA 033",
+        "SPA 033V"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "All of the above, OR",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Group 1",
+      "courses": [
+        "SPA 100",
+        "SPA 100S",
+        "SPA 141",
+        "SPA 141S",
+        "SPA 168",
+        "SPA 170",
+        "SPA 170S"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one in each of the following five areas:"
+      ]
+    },
+    {
+      "heading": "Group 2",
+      "courses": [
+        "SPA 111N",
+        "SPA 115",
+        "SPA 116",
+        "SPA 116V",
+        "SPA 116S",
+        "SPA 118"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 3",
+      "courses": [
+        "SPA 130",
+        "SPA 131N",
+        "SPA 134A",
+        "SPA 142"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 4",
+      "courses": [
+        "SPA 150N",
+        "SPA 151",
+        "SPA 157",
+        "SPA 159",
+        "SPA 159Y",
+        "SPA 159S"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 5",
+      "courses": [
+        "SPA 117",
+        "SPA 117V",
+        "SPA 174",
+        "SPA 176",
+        "SPA 169",
+        "SPA 177"
+      ],
+      "units": "22-24",
+      "notes": [
+        "Choose six electives in consultation with the student’s major advisor:",
+        "Students may, with the approval of their advisor, choose up to two electives outside the Spanish department",
+        "Depth Subject Matter Subtotal",
+        "Total Units"
+      ]
+    },
+    {
+      "heading": "African American & African Studies",
+      "courses": [
+        "AAS 107A",
+        "AAS 180"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Anthropology",
+      "courses": [
+        "ANT 144"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Art History",
+      "courses": [
+        "AHI 151"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Chicana/o Studies",
+      "courses": [
+        "CHI 154",
+        "CHI 155",
+        "CHI 156",
+        "CHI 160",
+        "CHI 170",
+        "CHI/ART 171"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Comparative Literature",
+      "courses": [
+        "COM 152",
+        "COM 165",
+        "COM 165S"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Education",
+      "courses": [
+        "EDU 151",
+        "EDU 152"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 159",
+        "HIS 160",
+        "HIS 164",
+        "HIS 165",
+        "HIS 165V",
+        "HIS 166A",
+        "HIS 166B",
+        "HIS 167",
+        "HIS 168",
+        "HIS 169A",
+        "HIS 169B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linguistics",
+      "courses": [
+        "LIN 166"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Native American Studies",
+      "courses": [
+        "NAS 120",
+        "NAS 133A",
+        "NAS 133B",
+        "NAS 184"
+      ],
+      "units": "4",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Given the great flexibility in the Spanish major, it is important that students design their programs in close consultation with their major advisor. This is especially important for students who intend to use their major as preparation for graduate study, for those who are planning a teaching career, and for those who wish to take advantage of our Education Abroad Program options.",
+    "Honors Program: Candidates for high or highest honors in Spanish must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in at least 6 units of SPA 194H distributed over two quarters. Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of their junior year (135 units), have attained a cumulative GPA of 3.500 i"
+  ],
+  "total_units": "41"
+}

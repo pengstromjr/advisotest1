@@ -1,0 +1,282 @@
+{
+  "name": "Neurobiology, Physiology, & Behavior, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/neurobiology-physiology-behavior/neurobiology-bs/",
+  "degree_type": "B.S.",
+  "department": "Neurobiology Physiology Behavior",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129ACHE 129B"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose the 002 series or 004 series:",
+        "Choose the 008 series or 118 series or 128 series & 129 A-B:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": [
+        "Choose the 017 series or 021 series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C",
+        "PHY 007",
+        "PHY 009"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose the 007 series or 009 series:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 110A",
+        "NPB 110B",
+        "NPB 110C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology Track",
+      "courses": [
+        "NPB 100L"
+      ],
+      "units": "",
+      "notes": [
+        "Choose 3 units of laboratory work from the track-specific list:"
+      ]
+    },
+    {
+      "heading": "Physiology Track",
+      "courses": [
+        "NPB 101L"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Organism-Environmental Interactions Track",
+      "courses": [
+        "NPB 101L"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Integrative Principles Track",
+      "courses": [
+        "NPB 100L",
+        "NPB 101L"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Depth Elective",
+      "courses": [
+        "ANT 151",
+        "ENT 104",
+        "ENT 153",
+        "EVE 100",
+        "EXB 101",
+        "EXB 102",
+        "EXB 106/CHA 101",
+        "EXB 106L/CHA 101L",
+        "EXB 110",
+        "EXB 112",
+        "EXB 117",
+        "EXB 124",
+        "EXB 125",
+        "NPB 100L",
+        "NPB 101L",
+        "NPB 102",
+        "NPB 106",
+        "NPB 107",
+        "NPB 109",
+        "NPB 113",
+        "NPB 114",
+        "NPB 116",
+        "NPB 117",
+        "NPB 118",
+        "NPB 121",
+        "NPB 123/APC 100",
+        "NPB/PSC 124",
+        "NPB 128",
+        "NPB 130",
+        "NPB 132",
+        "NPB 133",
+        "NPB 134",
+        "NPB 139",
+        "NPB 140",
+        "NPB 150/PSC 122",
+        "NPB 152/PSC 123",
+        "NPB/HPH 157",
+        "NPB 159",
+        "NPB 161",
+        "NPB 162",
+        "NPB 163",
+        "NPB 164",
+        "NPB 165",
+        "NPB 168",
+        "NPB 169",
+        "NPB 171",
+        "NPB 172",
+        "NPB 173"
+      ],
+      "units": "3-5",
+      "notes": [
+        "All students must do a minimum of four depth electives: three Track-Specific Depth Electives, and one Additional Depth Elective. At least two of these electives must be upper division NPB or EXB courses.",
+        "Choose three Track-Specific Depth Electives from one of the following:",
+        "Neurobiology Track",
+        "Physiology Track",
+        "Organism-Environmental Interactions Track",
+        "Integrative Principles Track",
+        "Choose one Additional Depth Elective in addition to completing three Track-Specific Depth Electives. The course cannot have been used in satisfaction of any other major requirement.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "NPB 101L",
+        "NPB 106",
+        "NPB 107",
+        "NPB/PSC 124",
+        "NPB 136",
+        "NPB 162",
+        "NPB 163",
+        "NPB 164",
+        "NPB 165",
+        "NPB 168",
+        "NPB 169",
+        "NPB 171",
+        "NPB 172",
+        "NPB 173",
+        "PSC 130",
+        "PSC 135",
+        "PSC 137"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 123",
+        "EXB 106",
+        "EXB 106L",
+        "EXB 101",
+        "EXB 110",
+        "EXB 112",
+        "EXB 117",
+        "EXB 124",
+        "EXB 125",
+        "MMI 188A",
+        "MMI 188B",
+        "PMI 126",
+        "MCB 150",
+        "NPB 106",
+        "NPB 107",
+        "NPB 109",
+        "NPB 113",
+        "NPB 114",
+        "NPB 116",
+        "NPB 118",
+        "NPB 121",
+        "NPB 123",
+        "NPB 128",
+        "NPB 130",
+        "NPB 132",
+        "NPB 134",
+        "NPB 139",
+        "NPB 140",
+        "NPB 152/PSC 123",
+        "NPB/HPH 157",
+        "NPB 168"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 104",
+        "ANS 123",
+        "EVE 105",
+        "EVE 107",
+        "EVE 147",
+        "NPB 100L",
+        "NPB 102",
+        "NPB 106",
+        "NPB 113",
+        "NPB 117",
+        "NPB 118",
+        "NPB 123",
+        "NPB 128",
+        "NPB 132",
+        "NPB 140",
+        "NPB 150/PSC 122",
+        "NPB 152/PSC 123",
+        "NPB 159",
+        "NPB 162",
+        "PMI 126",
+        "WFC 130",
+        "WFC 141"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410, cbsundergrads@ucdavis.edu."
+  ],
+  "total_units": "97"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Film Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/cinema-digital-media/film-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Cinema Digital Media",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Film Studies",
+      "courses": [
+        "CDM 001"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose no more than two from any one category.",
+        "No more than two courses from a single department or program may be offered in satisfaction of the minor requirements."
+      ]
+    },
+    {
+      "heading": "(a) Problems & Themes in Cinema",
+      "courses": [
+        "ANT 136",
+        "CDM 166",
+        "CDM 167",
+        "CLA 102",
+        "DRA 115",
+        "ENL 160",
+        "ENL 162",
+        "WMS 162"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(b) Cinema, Nation & Nationality",
+      "courses": [
+        "GER 119",
+        "GER/FMS 142",
+        "FMS/GER 176A",
+        "FMS 176B",
+        "FRE 122",
+        "ITA 150",
+        "JPN 106",
+        "RUS/FMS 129",
+        "SPA 148"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(c) Film & Social Identities",
+      "courses": [
+        "AAS 170",
+        "AAS 171",
+        "FMS 120",
+        "JST 120",
+        "WMS 160",
+        "WMS 164"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(d) Film/Video Production",
+      "courses": [
+        "ART 117",
+        "ART 150"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(e) Popular & Visual Culture",
+      "courses": [
+        "AMS 130",
+        "AMS/GSW 139",
+        "ART 150",
+        "CMN 140",
+        "POL 165",
+        "POL 165V"
+      ],
+      "units": "24",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

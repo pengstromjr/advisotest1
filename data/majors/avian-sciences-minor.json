@@ -1,0 +1,48 @@
+{
+  "name": "Avian Sciences, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/animal-science/avian-sciences-minor/",
+  "degree_type": "Minor",
+  "department": "Animal Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AVS 011",
+        "AVS 013",
+        "AVS 014L",
+        "AVS 015L",
+        "AVS 100",
+        "AVS 103",
+        "AVS 115",
+        "AVS 121",
+        "AVS 123",
+        "AVS 149",
+        "AVS 150",
+        "AVS 160",
+        "ANS 143",
+        "NPB 117",
+        "WFC 111",
+        "WFC 136"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose remaining units from:"
+      ]
+    },
+    {
+      "heading": "Related Courses",
+      "courses": [
+        "ARE 130",
+        "ANS 143",
+        "MCB 150"
+      ],
+      "units": "17-19",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "17"
+}

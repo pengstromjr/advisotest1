@@ -1,0 +1,161 @@
+{
+  "name": "Hydrology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/hydrology-bs/",
+  "degree_type": "B.S.",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Geology",
+      "courses": [
+        "GEL 050",
+        "GEL 050L",
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ECI 100",
+        "ENG 103",
+        "ECI 114",
+        "STA 130",
+        "ECI 114",
+        "STA 130ASTA 130B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Equivalent of either."
+      ]
+    },
+    {
+      "heading": "Hydrology",
+      "courses": [
+        "HYD 134",
+        "HYD 141",
+        "HYD/EBS 144",
+        "ESM 108",
+        "HYD 151"
+      ],
+      "units": "6",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 107"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Water Policy & Law",
+      "courses": [
+        "HYD 150",
+        "ARE 147",
+        "ESP 161",
+        "ESP 169",
+        "ESM 121"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "GIS & Remote Sensing",
+      "courses": [
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "HYD/ABT 182",
+        "ESM 185",
+        "ESM 186"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Hydrologic Science",
+      "courses": [
+        "GEL 156",
+        "HYD/ESM/ABT 110",
+        "HYD 118/EBS 148/ESM 118",
+        "HYD 124",
+        "HYD 143",
+        "HYD 145",
+        "HYD 146",
+        "ECI 141"
+      ],
+      "units": "8-13",
+      "notes": [
+        "Choose three:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Courses",
+      "courses": [],
+      "units": "16-26",
+      "notes": [
+        "Upper division courses to supplement or expand areas of student interest selected with approval of advisor.",
+        "Restricted Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising Center: 1150 PES Building"
+  ],
+  "total_units": "132"
+}

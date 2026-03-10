@@ -1,0 +1,59 @@
+{
+  "name": "Global Disease Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-pathology/global-disease-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Pathology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Science & Society",
+      "courses": [
+        "SAS 013"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Pathology, Microbiology & Immunology",
+      "courses": [
+        "PMI 129Y"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Medicine & Epidemiology",
+      "courses": [
+        "VME 158"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Global Disease Biology",
+      "courses": [
+        "GDB 101",
+        "GDB 102"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Pathogen/Disease Course; choose one:",
+      "courses": [
+        "ENT 153",
+        "ENT 156",
+        "GDB 103",
+        "MMG 162",
+        "PLP 120",
+        "PMI 127",
+        "PMI 128"
+      ],
+      "units": "3-4",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Global Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/global-learning-hub/global-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Global Learning Hub",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Gateway Course",
+      "courses": [
+        "EAP 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Capstone Experience",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Thematic (Global Theme)",
+        "Regional (Area of the World)",
+        "One of the above courses can be replaced by a course in the study of an upper-division foreign language and/or heritage language that relates to the chosen thematic or regional focus. Up to 8 units can be substituted by for-credit experiential learning and/or internship with a global dimension. One of the above courses can be replaced by a course in the study of an upper-division foreign language and/or heritage language that relates to the chosen thematic or regional focus.",
+        "Up to 8 units can be substituted by for-credit experiential learning and/or internship with a global dimension.",
+        "Note: A minimum of 8 units of classroom-based courses will satisfy Requirement 2 when combined with 4-8 units of experiential learning or internships. The variation in experiential or internship units intentionally accounts for variability in units when students pursue internships or other forms of experiential global learning. The Global Studies Minor advisor guides students and approves variable units. When no experiential learning option is pursued, a minimum of 12 classroom units will satisfy the Global Learning Cluster.",
+        "Choose an Option:",
+        "Option 1: 4 units of experiential or internship learning with a global dimension.",
+        "Option 2: A globally-focused seminar from UC Davis offerings."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

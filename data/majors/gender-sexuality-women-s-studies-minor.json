@@ -1,0 +1,27 @@
+{
+  "name": "Gender, Sexuality, & Women's Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/gender-sexuality-womens-studies/gender-sexuality-womens-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Gender Sexuality Womens Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GSW 050",
+        "GSW 050V"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose any five upper division Gender, Sexuality & Women's Studies (GSW) courses.",
+        "Gender, Sexuality & Women's Studies (GSW)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Advising: Gender, Sexuality & Women’s Studies Advising is located at 1200 Hart Hall; gsw-advising@ucdavis.edu or 530-752-6429."
+  ],
+  "total_units": "24"
+}

@@ -1,0 +1,329 @@
+{
+  "name": "Animal Science & Management, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/animal-science/animal-science-management-bs/",
+  "degree_type": "B.S.",
+  "department": "Animal Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Written & Oral Expression",
+      "courses": [
+        "CMN 130",
+        "CMN 136",
+        "CMN 136V",
+        "CMN 140",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two; if not chosen for English College Requirement:",
+        "Written & Oral Expression Subtotal"
+      ]
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 001",
+        "ANS 002"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008A",
+        "CHE 008B",
+        "PLS 021",
+        "PLS 021V"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Management",
+      "courses": [
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 011B"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics; choose a series:",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C",
+        "PLS 120",
+        "STA 100",
+        "STA 103"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose one:",
+        "Or other courses in quantitative skills with prior approval of the Master Advisor.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Nutrition",
+      "courses": [
+        "NUT 115",
+        "NPB 101",
+        "ANS 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
+        "ARE 100A",
+        "ARE 113",
+        "ARE 130",
+        "ARE 136",
+        "ARE 138",
+        "ARE 120",
+        "ARE 132",
+        "ARE 140",
+        "ARE 145",
+        "ARE 157",
+        "ANS 128",
+        "ARE 155"
+      ],
+      "units": "29",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "ARE 018",
+        "ARE 112",
+        "ARE 113",
+        "ARE 118",
+        "ARE 120",
+        "ARE 130",
+        "ARE 132",
+        "ARE 136",
+        "ARE 138",
+        "ARE 140",
+        "ARE 142",
+        "ARE 143",
+        "ARE 144",
+        "ARE 145",
+        "ARE 150",
+        "ARE 155",
+        "ARE 157",
+        "ARE 176",
+        "ANS 103",
+        "ANS 104",
+        "ANS 106",
+        "ANS 115",
+        "ANS 118",
+        "ANS 119",
+        "ANS 120",
+        "ANS 120L",
+        "ANS 123",
+        "ANS 124",
+        "ANS 125",
+        "ANS 126",
+        "ANS 127",
+        "ANS 128",
+        "ANS 129",
+        "ANS 131",
+        "ANS 136",
+        "ANS 137",
+        "ANS 140",
+        "ANS 141",
+        "ANS 142",
+        "ANS 143",
+        "ANS 144",
+        "ANS 145",
+        "ANS 146",
+        "ANS 147",
+        "ANS 149",
+        "ANS 170",
+        "ANS 192",
+        "ANS 194",
+        "ANS 194HA",
+        "ANS 194HB",
+        "ANS 194HC",
+        "AVS 100",
+        "AVS 103",
+        "AVS 115",
+        "AVS 121",
+        "AVS 123",
+        "AVS 149",
+        "AVS 150",
+        "ANG 101",
+        "ANG 105",
+        "ANG 107",
+        "ANG 111",
+        "NUT 124",
+        "ABI 102",
+        "ABI 103",
+        "ECS 124",
+        "NPB 117",
+        "NPB 121",
+        "NPB 121L",
+        "NPB 130",
+        "WFC 120",
+        "WFC 120L",
+        "WFC 130"
+      ],
+      "units": "8-10",
+      "notes": [
+        "Choose one area of specialization below:",
+        "Aquatic Animals",
+        "Companion Animals",
+        "Equine",
+        "Livestock",
+        "Poultry",
+        "Individualized",
+        "Area of Specializations Subtotal",
+        "Choose at least two additional courses with approval of advisor; minimum 8 units; duplicate from Depth Subject Matter courses not counted:",
+        "Restricted Electives Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 018",
+        "ANS 118",
+        "ANS 119",
+        "ANS 131",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 042",
+        "ANS 140",
+        "ANS 142",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 041",
+        "ANS 041L",
+        "ANS 146",
+        "ANS 147",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 015",
+        "ANS 115",
+        "ANS 141",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 041",
+        "ANS 041L",
+        "ANS 143",
+        "ANS 144",
+        "ANS 145",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AVS 011",
+        "ANS 143",
+        "ANS 145",
+        "ANS 148"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "130"
+}

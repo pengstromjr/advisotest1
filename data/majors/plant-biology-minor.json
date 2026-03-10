@@ -1,0 +1,60 @@
+{
+  "name": "Plant Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-biology/plant-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "(a) Anatomy & Morphology",
+      "courses": [
+        "EVE 140",
+        "PLB 105",
+        "PLB/PLS 116"
+      ],
+      "units": "",
+      "notes": [
+        "Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.",
+        "Upper division units, including at least one course from each of the following four groups:"
+      ]
+    },
+    {
+      "heading": "(b) Physiology & Development",
+      "courses": [
+        "PLB 111",
+        "PLB 112",
+        "PLB/ENT/PLP 123",
+        "PLP 130"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(c) Evolution & Ecology",
+      "courses": [
+        "EVE 100",
+        "PLB/EVE 117",
+        "PLB 143"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(d) Biochemistry & Molecular Genetics",
+      "courses": [
+        "BIT 160",
+        "PLB 113",
+        "PLB/MCB 126",
+        "PLS 152",
+        "PLS 154",
+        "PLS 171",
+        "PLS 172"
+      ],
+      "units": "18",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

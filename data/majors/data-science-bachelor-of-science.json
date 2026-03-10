@@ -1,0 +1,108 @@
+{
+  "name": "Data Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/statistics/data-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Statistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 017",
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 032B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 022A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 035A",
+        "STA 035B",
+        "STA 035C"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 116",
+        "ECS 117",
+        "ECS 119"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Probability & Statistics",
+      "courses": [
+        "STA 108",
+        "STA 141A",
+        "MAT 135A",
+        "STA 131A"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Machine Learning",
+      "courses": [
+        "ECS 111",
+        "MAT 170",
+        "STA 142A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 168",
+        "MAT 167",
+        "ECS 130"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Science & Technology Studies",
+      "courses": [
+        "STS 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Upper Division Electives",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Three elective courses in a related discipline. A list of pre-approved electives can be found on the Department of Statistics website.",
+        "Pre-Approved Electives List",
+        "Note: A course used to fulfill a core requirement cannot be used as an elective.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "91"
+}

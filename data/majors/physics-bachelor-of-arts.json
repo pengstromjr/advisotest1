@@ -1,0 +1,65 @@
+{
+  "name": "Physics, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/physics/physics-ab/",
+  "degree_type": "B.A.",
+  "department": "Physics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 080"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 122A",
+        "PHY 122B",
+        "PHY 129A",
+        "PHY 130A",
+        "PHY 140A",
+        "PHY 151",
+        "PHY 152",
+        "PHY 153",
+        "PHY 102"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose at least one:",
+        "Choose at least one additional fixed-unit upper division Physics course.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "81"
+}

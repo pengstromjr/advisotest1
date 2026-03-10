@@ -1,0 +1,645 @@
+{
+  "name": "Applied Physics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/physics/applied-physics-bs/",
+  "degree_type": "B.S.",
+  "department": "Physics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 040"
+      ],
+      "units": "3",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B",
+        "PHY 102",
+        "PHY 104B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 105C",
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B",
+        "GEL/ESP 150A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "PHY 104B",
+        "PHY 116C",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "ATM 128",
+        "MAT 118A",
+        "MAT 118B"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "60-64",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 040"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C"
+      ],
+      "units": "5",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 102",
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B"
+      ],
+      "units": "1",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 115B",
+        "PHY 140A",
+        "CHE 124A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "48",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 036A",
+        "ECS 036B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 104B",
+        "PHY 116C",
+        "ECS 036C",
+        "ECS 122A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "ECS 120",
+        "ECS 122B",
+        "ECS 130",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C",
+        "PHY 105C",
+        "PHY 115B",
+        "PHY 140A"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose one each from Computer Science (ECS), Mathematics (MAT), and Physics (PHY):",
+        "Computer Science",
+        "Mathematics",
+        "Physics"
+      ]
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "60",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040",
+        "PHY 080"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 017",
+        "ENG 017V"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 102",
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A"
+      ],
+      "units": "1",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 110C",
+        "PHY 140A",
+        "EEC 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Concentration Electives",
+      "courses": [
+        "EEC 110A",
+        "EEC 110B",
+        "EEC 140A",
+        "EEC 140AV",
+        "EEC 140B"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose four:"
+      ]
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "58",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 104B",
+        "GEL 161",
+        "GEL 162"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "PHY 105B",
+        "PHY 116C",
+        "PHY 151",
+        "GEL 146",
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B"
+      ],
+      "units": "10-12",
+      "notes": [
+        "Choose three:",
+        "Choose one:",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "56-58",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B",
+        "PHY 102",
+        "PHY 104B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 115B",
+        "PHY 140A",
+        "PHY 140B",
+        "EMS 174",
+        "EMS 180"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "57-60",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 102",
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 115A",
+        "PHY 116A",
+        "PHY 116B"
+      ],
+      "units": "1",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 105C",
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "GEL/ESP 150A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "PHY 104B",
+        "PHY 112",
+        "PHY 116C",
+        "MAT 118A",
+        "MAT 118B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "60",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "104"
+}

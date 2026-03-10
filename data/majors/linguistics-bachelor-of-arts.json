@@ -1,0 +1,94 @@
+{
+  "name": "Linguistics, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/linguistics/linguistics-ab/",
+  "degree_type": "B.A.",
+  "department": "Linguistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "LIN 001",
+        "LIN 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Foreign language, one course beyond the 15-unit requirement of the College of Letters & Science in the same language used to fulfill the college requirement.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "LIN 103A",
+        "LIN 103AV",
+        "LIN 103B",
+        "LIN 111",
+        "LIN 131",
+        "LIN 111",
+        "LIN 112",
+        "LIN 121",
+        "LIN 127",
+        "LIN 131",
+        "LIN 141",
+        "LIN 150",
+        "LIN 151",
+        "LIN 152",
+        "LIN 160",
+        "LIN 163",
+        "LIN 165",
+        "LIN 166",
+        "LIN 171",
+        "LIN/EDU 173",
+        "LIN 175",
+        "LIN 177",
+        "LIN 180",
+        "LIN 182",
+        "AAS 156",
+        "ANT 117",
+        "ANT 120",
+        "EDU 151",
+        "ENL 105",
+        "ENL/LIN/UWP 106",
+        "FRE 109",
+        "FRE 160",
+        "FRE 161",
+        "FRE 162",
+        "GER 105",
+        "HDE 101/PSC 141",
+        "JPN 151",
+        "NAS 107",
+        "PHI 137A",
+        "PHI 137B",
+        "PHI 137C",
+        "PHI 156",
+        "PSC 132",
+        "SPA 111N",
+        "SPA 112N",
+        "SPA 113",
+        "SPA 114N",
+        "SPA 115",
+        "SPA 115S",
+        "SPA 116",
+        "SPA 116V",
+        "SPA 117",
+        "SPA 117V",
+        "SPA 118"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three:",
+        "Choose one:",
+        "Choose one:",
+        "Choose at least 8 upper division units:",
+        "Any LIN upper division course not used to fulﬁll area above or one of the approved courses below.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The honors program consists of 6 units of 194H credit normally taken in the fall and winter quarters of the senior year. Completion of the program is a prerequisite for High or Highest Honors at graduation. Specific eligibility criteria may be obtained from the major advisor. For general information regarding graduation with honors and Dean’s Honors Lists, please see Academic Information."
+  ],
+  "total_units": "48"
+}

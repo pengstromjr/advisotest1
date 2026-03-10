@@ -1,0 +1,43 @@
+{
+  "name": "Community Development, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/community-development-minor/",
+  "degree_type": "Minor",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CRD 001",
+        "CRD 118",
+        "CRD 140",
+        "CRD 141",
+        "CRD 142",
+        "CRD 147",
+        "CRD 149",
+        "CRD 151",
+        "CRD 152",
+        "CRD 153A",
+        "CRD 153B",
+        "CRD 153C",
+        "CRD 154",
+        "CRD 156",
+        "CRD 157",
+        "CRD 158",
+        "CRD 162",
+        "CRD 164",
+        "CRD 171",
+        "CRD 172",
+        "CRD 176",
+        "CRD 180"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose five:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

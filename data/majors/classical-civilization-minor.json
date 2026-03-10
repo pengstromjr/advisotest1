@@ -1,0 +1,34 @@
+{
+  "name": "Classical Civilization, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/classics/classical-civilization-minor/",
+  "degree_type": "Minor",
+  "department": "Classics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CLA 001",
+        "CLA 002",
+        "CLA 003",
+        "CLA 004"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose one upper division course in:",
+        "Latin (LAT)",
+        "Greek (GRK)",
+        "Choose two additional upper division courses in:",
+        "Classics (CLA)",
+        "Greek (GRK)",
+        "Latin (LAT)",
+        "Choose one additional upper division course selected from either group (a) or (b) in the Classical Civilization major in either track.",
+        "Classical Civilization"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

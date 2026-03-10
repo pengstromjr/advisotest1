@@ -1,0 +1,405 @@
+{
+  "name": "Biological Systems Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/biological-systems-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008A",
+        "CHE 118A",
+        "CHE 008B",
+        "CHE 118B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 017",
+        "ENG 017V",
+        "ENG 035",
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Systems Engineering",
+      "courses": [
+        "EBS 001",
+        "EBS 075"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
+      "courses": [
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Choose one:",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "ENG 003",
+        "ENG 003Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 100",
+        "ENG 102",
+        "ENG 104",
+        "ENG 104V",
+        "ENG 105",
+        "ENG 106"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Biological Systems Engineering",
+      "courses": [
+        "EBS 103/HYD 103N",
+        "ENG 103",
+        "EBS 125",
+        "EBS 127",
+        "EBS 130",
+        "EBS 165",
+        "EBS 170A",
+        "EBS 170B",
+        "EBS 170BL",
+        "EBS 170C",
+        "EBS 170CL"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "EBS 189",
+        "EBS 199"
+      ],
+      "units": "4",
+      "notes": [
+        "Biological Systems Engineering Electives",
+        "Choose a minimum of 4 units from all upper division Biological Systems Engineering courses not otherwise required, with the exception of:"
+      ]
+    },
+    {
+      "heading": "Engineering Electives",
+      "courses": [
+        "ECI 123",
+        "ECS 188",
+        "ENG 103",
+        "ENG 160/PHY 160 DISCONTINUED FOR WINTER 2026 **",
+        "ENG 190"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose a minimum of 8 units; all upper division courses offered by the College of Engineering may be taken as engineering electives with the exception of the following:"
+      ]
+    },
+    {
+      "heading": "Biological Science Electives",
+      "courses": [
+        "EVE 175",
+        "EXB 102",
+        "EXB 112",
+        "EXB 115",
+        "EXB 121",
+        "EXB 124",
+        "EXB 125",
+        "EXB 148",
+        "ABT 161",
+        "ANS 118",
+        "ANS 143",
+        "ANS 144",
+        "ANS 146",
+        "ATM 133",
+        "AVS 100",
+        "BIS 002B",
+        "BIS 002C",
+        "CHA 101/EXB 106",
+        "CHA 101L/EXB 106L",
+        "ENT 100",
+        "ESM 120",
+        "ESP 100",
+        "ESP 110",
+        "ESP 155",
+        "ETX 101",
+        "ETX 131",
+        "FST 102A",
+        "FST 104L",
+        "FST 119",
+        "FST/ETX 128",
+        "FST 159",
+        "IDI 141",
+        "SSC 100",
+        "WFC 121"
+      ],
+      "units": "9",
+      "notes": [
+        "All upper division courses in the College of Biological Sciences may be used as biological science electives; with the exception of:",
+        "All 190-199",
+        "May also be taken as biological science electives:",
+        "Students may choose other upper division courses with substantial biological content offered by the College of Agricultural & Environmental Sciences; consultation with a faculty advisor and approval by petition is required."
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102B",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one; a grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "BIT 160",
+        "BIT 161A",
+        "BIT 161B",
+        "MCB 120L",
+        "MCB 121",
+        "MCB 126",
+        "MCB 162",
+        "MCB 182",
+        "MMG 115",
+        "PLS 152"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIM 109",
+        "BIM 117",
+        "BIM 118",
+        "BIM 140",
+        "BIM 143",
+        "BIM 151",
+        "BIM 152",
+        "BIM 161A",
+        "BIM 162",
+        "EBS 135",
+        "EBS 161",
+        "ECH 160",
+        "ECI 153",
+        "ENG 180"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Animal Emphasis",
+      "courses": [
+        "AVS 100",
+        "ANS 112",
+        "ANS 143",
+        "ANS 144",
+        "ANS 146",
+        "NPB 101",
+        "SSC 100"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Aquaculture Emphasis",
+      "courses": [
+        "ANS 118",
+        "ANS 131",
+        "ABT 163",
+        "WFC 120",
+        "WFC 121"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biomechanics Emphasis",
+      "courses": [
+        "BIS 102",
+        "BIS 102V",
+        "NPB 101",
+        "CHA 101/EXB 106"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Plant Emphasis",
+      "courses": [
+        "ENT 100",
+        "ESP 100",
+        "ETX 101",
+        "HYD 124",
+        "MMG 120",
+        "PLB 111",
+        "SSC 100",
+        "PLS 101",
+        "PLS 114"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EBS 128",
+        "EBS 145",
+        "BIM 109",
+        "BIM 116",
+        "BIM 126",
+        "ECI 141",
+        "ECI 142",
+        "ECI 144",
+        "ECI 145",
+        "ECI 171",
+        "ENG 111",
+        "ENG 121",
+        "ENG 180"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ABT 161",
+        "ABT 163",
+        "ABT 165"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 112",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "FST 100A",
+        "FST 100B",
+        "FST 101A",
+        "FST 101B",
+        "FST 102A",
+        "FST 104",
+        "FST 104L",
+        "FST 107",
+        "FST 117",
+        "FST 119",
+        "FST 123",
+        "FST 123L",
+        "FST/ETX 128",
+        "PLS 172",
+        "PLS 174"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EBS 135",
+        "EBS 161",
+        "ECH 160",
+        "ENG 180"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "159"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "History & Philosophy of Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/science-technology-studies/history-philosophy-science-minor/",
+  "degree_type": "Minor",
+  "department": "Science Technology Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "History & Philosophy of Science",
+      "courses": [
+        "PHI 030"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(a) History",
+      "courses": [
+        "HIS 135A",
+        "HIS 135B",
+        "HIS/STS 136",
+        "HIS 138A",
+        "HIS 139A",
+        "HIS 139B",
+        "HIS 185A",
+        "HIS 185B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(b) Philosophy",
+      "courses": [
+        "PHI 107",
+        "PHI 108",
+        "PHI 109",
+        "PHI 111"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(c) Science & Technology Studies",
+      "courses": [
+        "STS 130A",
+        "STS 130B",
+        "STS 131",
+        "STS 150",
+        "STS 180"
+      ],
+      "units": "24",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

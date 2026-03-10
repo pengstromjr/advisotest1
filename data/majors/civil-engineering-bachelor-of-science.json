@@ -1,0 +1,352 @@
+{
+  "name": "Civil Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/civil-environmental-engineering/civil-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Civil Environmental Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physical, Biological & Data Science Requirement",
+      "courses": [
+        "ATM 060",
+        "ATM 133",
+        "BIS 002A",
+        "BIS 002B",
+        "GEL 050050L",
+        "ECS 111",
+        "ECS 115",
+        "ECS 116",
+        "ECS 117",
+        "ECS 171"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose One:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002AH",
+        "CHE 002B",
+        "CHE 002BH"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Civil Engineering",
+      "courses": [
+        "ECI 016",
+        "ECI 003",
+        "ECI 101"
+      ],
+      "units": "2-6",
+      "notes": [
+        "AND choose one:"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 003",
+        "ENG 003Y",
+        "ENG 006",
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 035"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
+      "courses": [
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ECI 100",
+        "ENG 103",
+        "ENG 102",
+        "ENG 105",
+        "ENG 102",
+        "ENG 105",
+        "ENG 104",
+        "ENG 104V",
+        "ENG 104L",
+        "ENG 106"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Civil Engineering",
+      "courses": [
+        "ECI 114",
+        "ECI 193A",
+        "ECI 193B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Numerical Methods Requirement; choose one:",
+      "courses": [
+        "ECI 115",
+        "ECI 131",
+        "ECI 146",
+        "ECI 153"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Construction Engineering & Management",
+      "courses": [
+        "ECI 137",
+        "ECI 153"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one course from five of the following group options:",
+        "To satisfy Geotechnical & Water Resources breadth area groups, both lecture and lab courses must be completed."
+      ]
+    },
+    {
+      "heading": "Environment",
+      "courses": [
+        "ECI 140A",
+        "ECI 140B",
+        "ECI/ATM 149N"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Geotechnical",
+      "courses": [
+        "ECI 171",
+        "ECI 171L"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Structures",
+      "courses": [
+        "ECI 130"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Transportation",
+      "courses": [
+        "ECI 161",
+        "ECI 162",
+        "ECI/ESP 163",
+        "ECI 165"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Water Resources",
+      "courses": [
+        "ECI 141",
+        "ECI 141L"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Construction Engineering & Management",
+      "courses": [
+        "ECI 133",
+        "ECI 137",
+        "ECI 153",
+        "ECI 178",
+        "ECI 179",
+        "ECI 181",
+        "ECI 182"
+      ],
+      "units": "",
+      "notes": [
+        "Choose two courses from two of the following group options selected from Civil & Environmental Engineering Breadth:"
+      ]
+    },
+    {
+      "heading": "Environment",
+      "courses": [
+        "ECI 140B",
+        "ECI 140CN",
+        "ECI/ATM 149N"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Geotechnical",
+      "courses": [
+        "ECI 173",
+        "ECI 175",
+        "ECI 179"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Structures",
+      "courses": [
+        "ECI 131",
+        "ECI 132",
+        "ECI 133",
+        "ECI 134",
+        "ECI 135",
+        "ECI 136",
+        "ECI 138"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Transportation",
+      "courses": [
+        "ECI 153",
+        "ECI 161",
+        "ECI 162",
+        "ECI 164",
+        "ECI 179"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Water Resources",
+      "courses": [
+        "ECI 142",
+        "ECI 144",
+        "ECI 145",
+        "ECI 146",
+        "ECI 155"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Material Science Competency; complete one of the following options:",
+      "courses": [
+        "ECI 133",
+        "ECI 132",
+        "ECI 135",
+        "ECI 171",
+        "ECI 173",
+        "ECI 178",
+        "ECI 145",
+        "ECI 149L",
+        "ECI 162",
+        "ECI 173",
+        "ECI 178"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Civil & Environmental Engineering electives may include any upper division, letter-graded Civil & Environmental Engineering courses; e.g., not already used towards the ECI breadth, ECI depth, and Numerical Methods requirements.",
+        "No additional units are necessary as students can count these as competency and another major requirement.",
+        "Complete two of the following courses:"
+      ]
+    },
+    {
+      "heading": "Design Competency; complete one of the following:",
+      "courses": [
+        "ECI 140CN",
+        "ECI 145",
+        "ECI 149L",
+        "ECI 162",
+        "ECI 173",
+        "ECI 178"
+      ],
+      "units": "0-4",
+      "notes": []
+    },
+    {
+      "heading": "Career Development Competency; complete one of the following:",
+      "courses": [
+        "ECI 192",
+        "ECI 199",
+        "ECI 198"
+      ],
+      "units": "0-1",
+      "notes": [
+        "CEE Career Development Seminar; winter quarter – 10 weeks, 1 unit",
+        "Construction Engineering & Management Seminar; fall, spring – 10 weeks, 1 unit."
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102E",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one: a grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Requirements Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "150"
+}

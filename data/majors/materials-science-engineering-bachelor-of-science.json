@@ -1,0 +1,197 @@
+{
+  "name": "Materials Science & Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/materials-science-engineering/materials-science-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Materials Science Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002AH",
+        "CHE 002B",
+        "CHE 002BH",
+        "CHE 002C",
+        "CHE 002CH"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 003",
+        "ENG 003Y",
+        "ENG 017",
+        "ENG 017V",
+        "ENG 035",
+        "ENG 045",
+        "ENG 045Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Materials Science Engineering",
+      "courses": [
+        "EMS 002"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECH 060",
+        "ECS 032A",
+        "ECS 032AV",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001Y",
+        "UWP 001V"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Composition/Writing; choose one: a grade of C- or better is required:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 190"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Materials Science Engineering",
+      "courses": [
+        "EMS 160",
+        "EMS 162",
+        "EMS 162L",
+        "EMS 164",
+        "EMS 170",
+        "EMS 170L",
+        "EMS 172",
+        "EMS 172L",
+        "EMS 174",
+        "EMS 174L",
+        "EMS 180",
+        "EMS 182",
+        "EMS 181",
+        "EMS 183",
+        "EMS 186A",
+        "EMS 186B",
+        "EMS 186C",
+        "ECH 140",
+        "ECI 114",
+        "EME 115",
+        "ENG 180",
+        "MAT/BIS 107",
+        "MAT 118A",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C",
+        "MAT 135A",
+        "MAT 167",
+        "MAT 168",
+        "PHY 104A",
+        "STA 131A",
+        "CHE 110A",
+        "CHE 124A",
+        "CHE 128A",
+        "PHY 108108L",
+        "PHY 110A",
+        "PHY 122A",
+        "PHY 151",
+        "PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Focused Electives",
+      "courses": [
+        "BIM 020",
+        "BIS 002A",
+        "EBS 075",
+        "ENG 017",
+        "ENG 017V",
+        "ENG 035",
+        "BIM 106",
+        "BIM 109",
+        "ECI 130",
+        "ECI 132",
+        "EEC 140A",
+        "EEC 140AV",
+        "EEC 140B",
+        "EEC 146A",
+        "ENG 100",
+        "ENG 102",
+        "ENG 103",
+        "ENG 104",
+        "ENG 104V",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "12",
+      "notes": [
+        "Courses used to satisfy degree requirements are not eligible to be used to satisfy the elective requirement.",
+        "Students may elect to choose up to 5 units from the following lower division courses:",
+        "Remaining units must be satisfied by the following:",
+        "Any upper division courses in Materials Science & Engineering (EMS); a maximum of 4 units combined in Materials Science & Engineering (EMS) courses numbered 190-197 or 199 can be used to satisfy focused electives requirement.",
+        "Choose one; grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: An Honors Program is available to qualified students in Materials Science & Engineering. It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will"
+  ],
+  "total_units": "157"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Professional Writing, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/university-writing-program/professional-writing-minor/",
+  "degree_type": "Minor",
+  "department": "University Writing Program",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Group A: Writing in Academic Settings",
+      "courses": [
+        "ENL 100NF",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 102H",
+        "UWP 102I",
+        "UWP 102J",
+        "UWP 102K",
+        "UWP 102L",
+        "UWP 102M"
+      ],
+      "units": "",
+      "notes": [
+        "The professional writing minor consists of 20 units of course work. Of these, 12 must be UWP courses. Students complete 8 units from Group A and/or B, 4 units from Group C, and 4 units from Group A, B, or C, accounting for 16 units. Students complete 4 additional units from Group D.",
+        "Choose two courses from Group A and/or B:"
+      ]
+    },
+    {
+      "heading": "Group B: Writing in the Professions",
+      "courses": [
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I",
+        "UWP 104J",
+        "UWP 104T",
+        "UWP 110",
+        "UWP 111A",
+        "UWP 111B",
+        "UWP 111C",
+        "UWP 112A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course from Group C:"
+      ]
+    },
+    {
+      "heading": "Group C: Theory, History, & Design",
+      "courses": [
+        "ANT 120",
+        "CLA 110",
+        "CMN 101",
+        "CMN 101V",
+        "CMN 101Y",
+        "CMN 112",
+        "CMN 123",
+        "CMN 131",
+        "CMN 131V",
+        "CMN 136",
+        "CMN 136V",
+        "CMN 178",
+        "DES 145",
+        "DES 149",
+        "ENL 105",
+        "ENL/LIN/UWP 106",
+        "ENL/STS 164",
+        "HIS 101",
+        "LIN 103B",
+        "LIN/ENL/UWP 106",
+        "LIN 141",
+        "PHI 137A",
+        "PHI 137B",
+        "PHI 137C",
+        "STS/ANT 109",
+        "STS 163",
+        "STS/ENL 164",
+        "UWP 100",
+        "UWP/ENL/LIN 106",
+        "UWP 115",
+        "UWP 120",
+        "UWP 121",
+        "UWP 192"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one additional course from Groups A, B, or C:"
+      ]
+    },
+    {
+      "heading": "GROUP D: Internship in Writing (no more than 4 units will count toward the minor)",
+      "courses": [
+        "UWP 192"
+      ],
+      "units": "20",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

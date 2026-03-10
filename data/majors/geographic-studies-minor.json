@@ -1,0 +1,83 @@
+{
+  "name": "Geographic Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/geographic-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "LDA 010",
+        "LED 010"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least one course from three areas:"
+      ]
+    },
+    {
+      "heading": "Human Geography",
+      "courses": [
+        "AAS 100",
+        "AAS 107C",
+        "AAS/DRA 155A",
+        "AAS 172",
+        "AAS 176",
+        "AAS 180",
+        "AAS 182",
+        "CRD 140",
+        "CRD 141",
+        "CRD 142",
+        "NUT 120BN"
+      ],
+      "units": "",
+      "notes": [
+        "OR other upper division courses approved by the advisor"
+      ]
+    },
+    {
+      "heading": "Physical Geography",
+      "courses": [
+        "ESM 120",
+        "ESM/PLS 144",
+        "EVE 147",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 156",
+        "WFC 157"
+      ],
+      "units": "",
+      "notes": [
+        "OR other upper division courses approved by the advisor"
+      ]
+    },
+    {
+      "heading": "Methods in Geography",
+      "courses": [
+        "ABT 181N",
+        "ABT/HYD 182",
+        "ESM 185",
+        "ESM 186",
+        "LDA/ABT 150",
+        "LED/ABT 150"
+      ],
+      "units": "",
+      "notes": [
+        "Other upper division courses approved by the advisor."
+      ]
+    },
+    {
+      "heading": "Individual Study",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Select a maximum of 4 units of 192 (Internship) or 199 (Research) in any appropriate department."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

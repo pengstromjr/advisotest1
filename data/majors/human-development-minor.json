@@ -1,0 +1,47 @@
+{
+  "name": "Human Development, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/human-development-minor/",
+  "degree_type": "Minor",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C",
+        "HDE 110",
+        "HDE 110V",
+        "HDE 101",
+        "HDE 102",
+        "HDE 104",
+        "HDE 111",
+        "HDE 112",
+        "HDE/ENT 117",
+        "HDE 130",
+        "HDE 131",
+        "HDE 131V",
+        "HDE 133",
+        "HDE 133V",
+        "HDE 134",
+        "HDE 135",
+        "HDE 135V",
+        "HDE 137",
+        "HDE 160",
+        "HDE 161",
+        "HDE 163"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,386 @@
+{
+  "name": "History, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/history/history-ab/",
+  "degree_type": "B.A.",
+  "department": "History",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 017A",
+        "HIS 017B",
+        "HIS 072A",
+        "HIS 072B",
+        "HIS 170A",
+        "HIS 170B",
+        "HIS 170C",
+        "HIS 171A",
+        "HIS 171B",
+        "HIS 172",
+        "HIS 173",
+        "HIS 174A",
+        "HIS 174B",
+        "HIS 174C",
+        "HIS 174D",
+        "HIS 175",
+        "HIS 176A",
+        "HIS 176B",
+        "HIS 177A",
+        "HIS 177B",
+        "HIS 181",
+        "HIS 183A",
+        "HIS 183B",
+        "HIS 184",
+        "HIS 189"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "(a) Africa",
+      "courses": [
+        "HIS 015A",
+        "HIS 015B"
+      ],
+      "units": "",
+      "notes": [
+        "Choose five lower division courses from the following seven concentrations, including at least one course in three different concentrations. Additional units to reach 20."
+      ]
+    },
+    {
+      "heading": "(b) Asia",
+      "courses": [
+        "HIS 008",
+        "HIS 009A",
+        "HIS 009B",
+        "HIS 009C/EAS 088"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(c) Europe",
+      "courses": [
+        "HIS 004A",
+        "HIS 004B",
+        "HIS 004C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(d) Latin America",
+      "courses": [
+        "HIS 007A",
+        "HIS 007B",
+        "HIS 007C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(e) Middle East",
+      "courses": [
+        "HIS 006"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(f) United States",
+      "courses": [
+        "HIS 017A",
+        "HIS 017B",
+        "HIS 018A",
+        "HIS 018B",
+        "HIS 072A",
+        "HIS 072B",
+        "HIS 080",
+        "HIS 080W",
+        "HIS 085"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(g) World",
+      "courses": [
+        "HIS 001",
+        "HIS/STS 002",
+        "HIS/STS 002Y",
+        "HIS 003",
+        "HIS 005",
+        "HIS 010A",
+        "HIS 010B",
+        "HIS 010C",
+        "HIS 011",
+        "HIS 012",
+        "HIS 013",
+        "HIS 014",
+        "HIS/STS 016",
+        "HIS 019",
+        "HIS 020",
+        "HIS 090"
+      ],
+      "units": "20",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "History Seminar",
+      "courses": [
+        "HIS 101",
+        "HIS 102A",
+        "HIS 102B",
+        "HIS 102D",
+        "HIS 102E",
+        "HIS 102F",
+        "HIS 102G",
+        "HIS 102H",
+        "HIS 102I",
+        "HIS 102J",
+        "HIS 102K",
+        "HIS 102L",
+        "HIS 102M",
+        "HIS 102N",
+        "HIS 102O",
+        "HIS 102P",
+        "HIS 102Q",
+        "HIS 102R",
+        "HIS 102S",
+        "HIS 102X",
+        "HIS 103"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose 4-5 units:",
+        "Choose at least three courses in a single Concentration listed below.",
+        "Choose at least two courses in a second Concentration listed below.",
+        "Choose at least one course in a third Concentration listed below.",
+        "Additional units to reach 40.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 102O",
+        "HIS 115A",
+        "HIS 115B",
+        "HIS 115C",
+        "HIS 115D",
+        "HIS 115E",
+        "HIS 116"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 102G",
+        "HIS 102H",
+        "HIS 102N",
+        "HIS 102Q",
+        "HIS 111A",
+        "HIS 191A",
+        "HIS 191B",
+        "HIS 191C",
+        "HIS 191D",
+        "HIS 191E",
+        "HIS 191F",
+        "HIS 191G",
+        "HIS 191H",
+        "HIS 191J",
+        "HIS 194A",
+        "HIS 194B",
+        "HIS 194C",
+        "HIS 194D",
+        "HIS 194E",
+        "HIS 195B",
+        "HIS 195C",
+        "HIS 196A",
+        "HIS 196B"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 102A",
+        "HIS 102B",
+        "HIS 102D",
+        "HIS 102E",
+        "HIS 102F",
+        "HIS 102I",
+        "HIS 102P",
+        "HIS 111B",
+        "HIS 111C",
+        "HIS 121A",
+        "HIS 121B",
+        "HIS 121C",
+        "HIS 122",
+        "HIS 125",
+        "HIS 126Y/HMR 162Y",
+        "HIS 130A",
+        "HIS 130B",
+        "HIS 130C",
+        "HIS 131A",
+        "HIS 131B",
+        "HIS 131C",
+        "HIS 132",
+        "HIS 133",
+        "HIS 134A",
+        "HIS 135A",
+        "HIS 135B",
+        "HIS/STS 136",
+        "HIS 138A",
+        "HIS 138B",
+        "HIS 138C",
+        "HIS 139A",
+        "HIS 139B",
+        "HIS 140",
+        "HIS 141",
+        "HIS 142A",
+        "HIS 142B",
+        "HIS 143",
+        "HIS 144A",
+        "HIS 144B",
+        "HIS 145",
+        "HIS 146A",
+        "HIS 146B",
+        "HIS 147A",
+        "HIS 147B",
+        "HIS 147C",
+        "HIS 148A",
+        "HIS 148B",
+        "HIS 148C",
+        "HIS 149",
+        "HIS 151A",
+        "HIS 151B",
+        "HIS 151C",
+        "HIS 151D",
+        "HIS 160"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 102J",
+        "HIS 156",
+        "HIS 157",
+        "HIS 158",
+        "HIS 160",
+        "HIS/HMR 161",
+        "HIS 162",
+        "HIS 163A",
+        "HIS 163B",
+        "HIS 164",
+        "HIS 165",
+        "HIS 165V",
+        "HIS 166A",
+        "HIS 166B",
+        "HIS 167",
+        "HIS 168",
+        "HIS 169A",
+        "HIS 169B"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 190A",
+        "HIS 190B",
+        "HIS 190C",
+        "HIS 190D",
+        "HIS 193A",
+        "HIS 193B",
+        "HIS 193C",
+        "HIS 193D"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 102K",
+        "HIS 102L",
+        "HIS 102M",
+        "HIS 169A",
+        "HIS 169B",
+        "HIS 170A",
+        "HIS 170B",
+        "HIS 170C",
+        "HIS 171A",
+        "HIS 171B",
+        "HIS 171C",
+        "HIS 171D",
+        "HIS 172",
+        "HIS 173",
+        "HIS 174A",
+        "HIS 174B",
+        "HIS 174C",
+        "HIS 174D",
+        "HIS 175",
+        "HIS 176A",
+        "HIS 176B",
+        "HIS 177A",
+        "HIS 177B",
+        "HIS 178",
+        "HIS 179",
+        "HIS 180AN",
+        "HIS 180BN",
+        "HIS 180C",
+        "HIS 181",
+        "HIS 182",
+        "HIS 183A",
+        "HIS 183B",
+        "HIS 184",
+        "HIS 185A",
+        "HIS 185B",
+        "HIS 187",
+        "HIS 188",
+        "HIS 189"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 100",
+        "HIS 102R",
+        "HIS 102X",
+        "HIS 107",
+        "HIS 108",
+        "HIS/SAS 109",
+        "HIS 110",
+        "HIS 110A",
+        "HIS 112A",
+        "HIS 112B",
+        "HIS 112C",
+        "HIS 113",
+        "HIS 114",
+        "HIS 119",
+        "HIS 120"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: A student becomes eligible for graduation with honors by meeting the minimum GPA (usually 3.500) and course requirements established by the College of Letters and Science. To qualify for high or highest honors, students must also complete the History Department honors program with a GPA of 3.500 or above and write a thesis that meets the criteria for high honors or highest honors. Students apply to participate in the department honors program during the latter part of their junior year. Admissio",
+    "Study Abroad & the History Major: The department strongly encourages interested students to pursue their studies abroad. While there are no specific required courses or prerequisites, students are urged to take at least one history course that touches upon the geographic area where they plan to study abroad before departing. To receive a history degree from UC Davis, students must complete at least 18 upper division units in the history major at UC Davis (which can also include HIS 101, HIS 102 Discontinued, HIS 103). The remain",
+    "American History & Institutions: This University requirement can be satisfied by passing any one of the following HIS courses: Course List Code Title Units HIS 017AHistory of the United States4 HIS 017BHistory of the United States4 HIS 072AWomen & Gender in America, to 18654 HIS 072BWomen & Gender in America, 1865-Present4 HIS 170AColonial America4 HIS 170BThe American Revolution4 HIS 170CThe Early National Period, 1789-18154 HIS 171ASlavery, Society & Expansion in the Early U.S.4 HIS 171BCivil War Era4 HIS 172American Environm"
+  ],
+  "total_units": "60"
+}

@@ -1,0 +1,446 @@
+{
+  "name": "Plant Sciences, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/plant-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B"
+      ],
+      "units": "10",
+      "notes": []
+    },
+    {
+      "heading": "Plant Sciences & Statistics",
+      "courses": [
+        "PLS 002",
+        "PLS 003",
+        "PLS 021",
+        "PLS 021V",
+        "PLS 120"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "16-22",
+      "notes": []
+    },
+    {
+      "heading": "Choose a series:",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 019A",
+        "MAT 019B"
+      ],
+      "units": "8",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 100"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 100A",
+        "PLS 100B",
+        "PLS 100C",
+        "PLS 100AL",
+        "PLS 100BL",
+        "PLS 100CL",
+        "PLS 101",
+        "PLS 152",
+        "PLS 192",
+        "PLS 199"
+      ],
+      "units": "25",
+      "notes": []
+    },
+    {
+      "heading": "Plant Diversity/Evolution/Taxonomy",
+      "courses": [
+        "ENH 105",
+        "EVE 100",
+        "EVE 127",
+        "PLB 127",
+        "PLS 127",
+        "PLB 143",
+        "PLS/PLB 116"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Ecology",
+      "courses": [
+        "ENH 160",
+        "ENH 160",
+        "ENH 160L",
+        "PLB/EVE 117",
+        "PLP 120",
+        "PLS 147",
+        "PLS 147",
+        "PLS 147L",
+        "PLS 150"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Pest Management",
+      "courses": [
+        "ENT 110",
+        "NEM 100",
+        "PLB/EVE 119",
+        "PLS 105",
+        "PLS 176"
+      ],
+      "units": "37-40",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Areas of Specialization; choose one:",
+      "courses": [],
+      "units": "21-34",
+      "notes": [
+        "In consultation with an advisor, a student may complete requirements for more than one specialization, which can be noted on the student’s transcript.",
+        "Crop Production & Agroecology Option",
+        "Crop Quality & Safety Option",
+        "Ecological Management & Restoration Option",
+        "Environmental Horticulture & Urban Landscape Management Option",
+        "Individual Option",
+        "Plant Breeding, Genetics, & Genomics Option",
+        "Plant Informatics Option"
+      ]
+    },
+    {
+      "heading": "Required Major Electives; not included in AOS unit count:",
+      "courses": [
+        "PLS 150"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Required courses:",
+      "courses": [
+        "HYD 124",
+        "PLS 158"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Production; choose two:",
+      "courses": [
+        "ENH 120",
+        "ENH 125",
+        "PLS 007",
+        "PLS 007V",
+        "PLS 049",
+        "PLS 110",
+        "PLS 111",
+        "PLS 112",
+        "PLS 113",
+        "PLS 114",
+        "PLS/ESM 144",
+        "PLS/IAD 160",
+        "PLS 170A",
+        "PLS 170B",
+        "PLS 171"
+      ],
+      "units": "4-9",
+      "notes": []
+    },
+    {
+      "heading": "Advanced Soil Science; choose one:",
+      "courses": [
+        "SSC 111",
+        "SSC 102",
+        "SSC 112",
+        "SSC 109"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Global Food Systems; choose one:",
+      "courses": [
+        "ARE 015",
+        "CRD 020",
+        "IAD 010"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Pest Management; choose one in addition to core:",
+      "courses": [
+        "ENT 110",
+        "NEM 100",
+        "PLB/EVE 119",
+        "PLP 120",
+        "PLS 105",
+        "PLS 176",
+        "VEN 118"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Outreach & Communication; choose one:",
+      "courses": [
+        "EDU 142"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "PLS 172",
+        "PLS 174"
+      ],
+      "units": "14",
+      "notes": []
+    },
+    {
+      "heading": "Depth; choose 8 units:",
+      "courses": [
+        "ARE 100A",
+        "FST 109",
+        "FST 117",
+        "FST 131",
+        "PLS 006",
+        "PLS 006V",
+        "PLS 007",
+        "PLS 007V",
+        "PLS 113",
+        "PLS 114"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Required Major Electives (not included in AOS unit count):",
+      "courses": [
+        "EVE 127",
+        "PLB 127",
+        "PLS 127"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Ecological Management & Restoration; choose at least four:",
+      "courses": [
+        "ENH 120",
+        "ENH 160160L",
+        "ESM 141",
+        "ESP 155",
+        "PLB/EVE 119",
+        "PLS 130",
+        "PLS/ESM 144",
+        "PLS 147147L",
+        "PLS 150",
+        "PLS 162",
+        "PLS 163",
+        "PLS 171"
+      ],
+      "units": "12-17",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Analysis, Monitoring, & Policy; choose at least two:",
+      "courses": [
+        "ESM 108",
+        "ESP 160",
+        "ESP 172",
+        "ESP 179",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **"
+      ],
+      "units": "7-9",
+      "notes": []
+    },
+    {
+      "heading": "Outreach & Communication; choose one:",
+      "courses": [
+        "EDU 142"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Internship:",
+      "courses": [
+        "PLS 192"
+      ],
+      "units": "2",
+      "notes": []
+    },
+    {
+      "heading": "Required Major Electives; not included in AOS unit count:",
+      "courses": [
+        "ENH 105",
+        "PLS 105"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "PLS 162",
+        "PLS 157"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Choose at least three of the following:",
+      "courses": [
+        "ENH 100",
+        "ENH 120",
+        "ENH 125",
+        "ENH 133",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "PLS 123",
+        "PLS 158",
+        "PLS 171",
+        "SSC 112"
+      ],
+      "units": "9-13",
+      "notes": []
+    },
+    {
+      "heading": "Choose one:",
+      "courses": [
+        "ESP 171",
+        "ESP 179"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Choose a minimum of 23 upper division units, with approval from the master advisor, to form a coherent program of study resulting in expertise and competence in a sub-discipline of plant sciences."
+      ]
+    },
+    {
+      "heading": "Required courses:",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIT 160",
+        "BIT 161B",
+        "BIT 171",
+        "PLS 154"
+      ],
+      "units": "18",
+      "notes": []
+    },
+    {
+      "heading": "Production; choose one:",
+      "courses": [
+        "ENH 120",
+        "ENH 125",
+        "PLS 007",
+        "PLS 007V",
+        "PLS 049",
+        "PLS 110",
+        "PLS 111",
+        "PLS 112",
+        "PLS 113",
+        "PLS 114",
+        "PLS/ESM 144",
+        "PLS/IAD 160",
+        "PLS 170A",
+        "PLS 170B",
+        "PLS 171"
+      ],
+      "units": "2-5",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Elective; choose one:",
+      "courses": [],
+      "units": "3-5",
+      "notes": [
+        "Choose one additional course from either Production or Depth Subject Matter."
+      ]
+    },
+    {
+      "heading": "Required courses:",
+      "courses": [
+        "BIT 150",
+        "PLS 123",
+        "PLS 124",
+        "PLS 125"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Depth; choose three:",
+      "courses": [
+        "HYD 124",
+        "PLS 105",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "PLS 150",
+        "PLS 157",
+        "PLS 158"
+      ],
+      "units": "11-12",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Advising for the major is located in 1220 Plant & Environmental Sciences; plsadvising@ucdavis.edu. For more information, see Undergraduate Advising."
+  ],
+  "total_units": "116"
+}

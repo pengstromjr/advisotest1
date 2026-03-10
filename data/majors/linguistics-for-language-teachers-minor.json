@@ -1,0 +1,30 @@
+{
+  "name": "Linguistics for Language Teachers, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/linguistics/linguistics-language-teachers-minor/",
+  "degree_type": "Minor",
+  "department": "Linguistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "LIN 001",
+        "LIN 001Y",
+        "LIN/ENL/UWP 106",
+        "LIN 165",
+        "LIN 160",
+        "LIN 163",
+        "LIN/EDU 173",
+        "LIN 180",
+        "LIN 182"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

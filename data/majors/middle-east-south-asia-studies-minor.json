@@ -1,0 +1,48 @@
+{
+  "name": "Middle East/South Asia Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/middle-east-south-asia-studies/middle-east-south-asia-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Middle East South Asia Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Middle East & South Asia",
+      "courses": [
+        "MSA 100",
+        "ANT 142",
+        "ASA 189E",
+        "COM 166",
+        "HIS 113",
+        "HIS 190A",
+        "HIS 190B",
+        "HIS 190C",
+        "HIS 193A",
+        "HIS 193B",
+        "MUS 129B",
+        "RST 160",
+        "RST 161",
+        "RST 162",
+        "WMS 184",
+        "ANT 145",
+        "ASA 150F",
+        "ASA 189E",
+        "HIS 102Q",
+        "HIS 196A",
+        "HIS 196B",
+        "MUS 129B",
+        "MUS 148"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose 4 units:",
+        "Additional Electives from Core Course list for major.",
+        "With prior consultation with an advisor, students can petition the Program Committee in advance to accept:",
+        "Other elective courses toward the minor program. Under no circumstances may more than one lower division course be offered in satisfaction of requirements for the minor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

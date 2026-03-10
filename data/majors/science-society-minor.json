@@ -1,0 +1,82 @@
+{
+  "name": "Science & Society, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/science-society/science-society-minor/",
+  "degree_type": "Minor",
+  "department": "Science Society",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Prep Coursework",
+      "courses": [
+        "SAS 120",
+        "SAS 002",
+        "SAS 002V",
+        "SAS 005",
+        "SAS 020",
+        "SAS 030"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Prep Coursework Subtotal",
+        "Choose one from each of the four areas:"
+      ]
+    },
+    {
+      "heading": "History & Philosophy of Science",
+      "courses": [
+        "CRD 118",
+        "CRD 162",
+        "HIS 185A",
+        "HIS 185B",
+        "PHI 107",
+        "PHI 108",
+        "PHI 109"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Policy & Decision Making",
+      "courses": [
+        "ARE 120",
+        "ARE 147",
+        "ARE 150",
+        "CNS 100",
+        "ESP 160",
+        "ESP 165",
+        "POL 175",
+        "SOC 155"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Communication of Science",
+      "courses": [
+        "AED 172",
+        "ANT 120",
+        "CMN 130",
+        "CMN 140",
+        "LIN 163",
+        "POL 165",
+        "POL 165V"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Culture, Ethics & Applications",
+      "courses": [
+        "CRD 142",
+        "FPS 110",
+        "SOC 144"
+      ],
+      "units": "24-28",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

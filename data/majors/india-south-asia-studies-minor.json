@@ -1,0 +1,68 @@
+{
+  "name": "India & South Asia Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/middle-east-south-asia-studies/india-south-asia-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Middle East South Asia Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Middle East/South Asia Studies",
+      "courses": [
+        "MSA 100",
+        "MSA 180",
+        "MSA 181B",
+        "MSA 182B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 196A",
+        "HIS 196B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Core Course List",
+      "courses": [
+        "MSA 112",
+        "MSA 181B",
+        "MSA 182B",
+        "ANT 145",
+        "ASA 150F",
+        "COM 053B",
+        "COM 148",
+        "COM 156/RST 158",
+        "HND 001",
+        "HND 002",
+        "HND 003",
+        "HIN 021",
+        "HIN 022",
+        "HIN 023",
+        "HIS 008",
+        "HIS 102Q",
+        "HIS 196A",
+        "HIS 196B",
+        "MUS 148",
+        "RST 030",
+        "RST 068",
+        "RST 069",
+        "RST 156",
+        "RST 157"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose additional electives from Core Course list below:",
+        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept:",
+        "Other elective courses toward the minor program if the content is 50% or more on the South Asia World. Under no circumstances may more than one lower division course be offered in satisfaction of requirements for the minor.",
+        "More than 4 units1 towards the minor program."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

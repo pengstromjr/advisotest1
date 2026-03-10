@@ -1,0 +1,96 @@
+{
+  "name": "Education, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/education/education-minor/",
+  "degree_type": "Minor",
+  "department": "Education",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Upper Division Required Courses",
+      "courses": [
+        "EDU 100",
+        "EDU 110",
+        "EDU 120",
+        "EDU 120V"
+      ],
+      "units": "4",
+      "notes": [
+        "Upper Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Elective Courses",
+      "courses": [
+        "EDU 114",
+        "EDU 115",
+        "EDU 119",
+        "EDU 121",
+        "EDU 122",
+        "EDU 130",
+        "EDU 142",
+        "EDU 150",
+        "EDU 151",
+        "EDU 152",
+        "EDU 154",
+        "EDU 155",
+        "EDU/LIN 173",
+        "EDU/GEL 181",
+        "EDU/GEL 183",
+        "EDU 185",
+        "EDU 192",
+        "EDU 198",
+        "EDU 199"
+      ],
+      "units": "8",
+      "notes": [
+        "Not all courses in the list are 4 units.",
+        "Remaining 8 units may be:",
+        "Elective Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Approved Courses Outside of Education",
+      "courses": [
+        "AAS 130",
+        "AED 100",
+        "AMS 152",
+        "BIS 195A",
+        "BIS 195B",
+        "CHI 102A",
+        "CHI 102B",
+        "CHI 102C",
+        "CHI 132",
+        "CHI 192",
+        "ECN 152",
+        "GEL 185A",
+        "GEL 185B",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 101",
+        "LIN/EDU 173",
+        "LIN 180",
+        "MAT 197TC",
+        "PSC 130",
+        "PSC 132",
+        "PSC 141/HDE 101 DISCONTINUED FOR SUMMER 2026 **",
+        "SAS 120",
+        "SOC 124",
+        "SPA 116",
+        "SPA 116V",
+        "SPA 117",
+        "SPA 117V",
+        "UWP 104D",
+        "UWP 197TC"
+      ],
+      "units": "0",
+      "notes": [
+        "Approved Courses Outside of Education Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

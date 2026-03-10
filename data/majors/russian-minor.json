@@ -1,0 +1,25 @@
+{
+  "name": "Russian, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/german-russian/russian-minor/",
+  "degree_type": "Minor",
+  "department": "German Russian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "RUS 101A",
+        "RUS 101B",
+        "RUS 101C"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 8 units of other upper division Russian (RUS) courses.",
+        "Russian (RUS) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

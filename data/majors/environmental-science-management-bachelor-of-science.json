@@ -1,0 +1,890 @@
+{
+  "name": "Environmental Science & Management, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-science-policy/environmental-science-management-bs/",
+  "degree_type": "B.S.",
+  "department": "Environmental Science Policy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "English Composition & Communication Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102",
+        "UWP 104",
+        "UWP 102B",
+        "UWP 102G",
+        "UWP 104E",
+        "CMN 001",
+        "CMN 001V",
+        "CMN 003",
+        "CMN 003V",
+        "CMN 003Y",
+        "DRA 010"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one:",
+        "Passing the Upper Division English Composition Exam.",
+        "Communication; choose one:",
+        "English Composition & Communication Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Geology",
+      "courses": [
+        "ESP 001",
+        "GEL 001",
+        "GEL 050"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 002AHCHE 002BH",
+        "CHE 002C",
+        "CHE 002CH"
+      ],
+      "units": "10",
+      "notes": [
+        "Choose a series:",
+        "Choose one; not required:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001APHY 001B",
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose one series:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 001"
+      ],
+      "units": "4",
+      "notes": [
+        "Satisfaction of the General Education requirement.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Management",
+      "courses": [
+        "ESM 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Ecology",
+      "courses": [
+        "ESP 100",
+        "EVE 101"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 162"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 013",
+        "STA 013V",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Monitoring",
+      "courses": [
+        "ATM 124",
+        "ESM 108",
+        "ESP 151L",
+        "ESP 179",
+        "ESP 179"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Data Science",
+      "courses": [
+        "ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ESP 106"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Internship",
+      "courses": [
+        "ESM 092",
+        "ESP 092",
+        "ESM 192",
+        "ESP 192"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one or more below in any combination for a total of 3 units:"
+      ]
+    },
+    {
+      "heading": "Capstone Class",
+      "courses": [
+        "ESM 195"
+      ],
+      "units": "2",
+      "notes": []
+    },
+    {
+      "heading": "Honors Thesis; Optional",
+      "courses": [
+        "ESM 194H"
+      ],
+      "units": "0-3",
+      "notes": [
+        "Core Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Specialized Tracks",
+      "courses": [],
+      "units": "31-49",
+      "notes": [
+        "Choose a Specialized Track:",
+        "Climate Change & Air Quality Specialized Track",
+        "Ecology, Biodiversity & Conservation Specialized Track",
+        "Environmental Data Science Specialized Track",
+        "Natural Resource Management Specialized Track",
+        "Soils & Biogeochemistry Specialized Track",
+        "Watershed Science  Specialized Track",
+        "Specialized Tracks Subtotal"
+      ]
+    },
+    {
+      "heading": "Atmospheric Science",
+      "courses": [
+        "ATM 060",
+        "ATM 116",
+        "ESM 131"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Climate Science & Meteorology",
+      "courses": [
+        "ATM 110",
+        "ATM 115",
+        "ATM 133",
+        "ATM 160",
+        "GEL 108"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Environmental Science",
+      "courses": [
+        "ESM 100",
+        "ESM 121",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 152",
+        "HYD 141",
+        "HYD 143",
+        "SSC 100",
+        "ENH 160",
+        "ESM 141",
+        "ESM/PLS 144",
+        "ESP 124",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 151",
+        "ESP 155",
+        "EVE 115",
+        "EVE/PLB 117",
+        "EVE 147",
+        "EVE 149",
+        "GEL 136",
+        "PLS 101",
+        "PLS 130",
+        "PLS 162",
+        "WFC 168"
+      ],
+      "units": "9-14",
+      "notes": [
+        "Choose three environmental science courses, must select at least one from section A and one from section B",
+        "A—Physical",
+        "B—Biomes"
+      ]
+    },
+    {
+      "heading": "Environmental Policy",
+      "courses": [
+        "ESP/ECI 163",
+        "ESP 165",
+        "ESP 167",
+        "ESP 171",
+        "ESP 172",
+        "ESP 174",
+        "ESP 179",
+        "SOC 160"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Physical Processes",
+      "courses": [
+        "ATM 060",
+        "ATM 116",
+        "ATM 133",
+        "ESM 121",
+        "ESM 131",
+        "ESP 152",
+        "GEL 134",
+        "HYD 143",
+        "SSC 100"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section.",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Policy",
+      "courses": [
+        "ESP 161",
+        "ESP 166",
+        "ESP 168A",
+        "ESP 169",
+        "ESP 170",
+        "ESP 171",
+        "ESP 172",
+        "ESP 173",
+        "ESP 174",
+        "ESP 179",
+        "SOC 160"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Evolution",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Conservation Biology",
+      "courses": [
+        "WFC 154",
+        "ESP 127"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Field Methods",
+      "courses": [
+        "ESP 123",
+        "ESP 124",
+        "ESP 151L",
+        "EVE/ENT 180A",
+        "WFC 100",
+        "WFC 126",
+        "ENH 160160L",
+        "PLS 147147L"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Population Ecology",
+      "courses": [
+        "ESP 121",
+        "WFC 122"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Community Ecology",
+      "courses": [
+        "EVE 104",
+        "EVE 115",
+        "EVE 181",
+        "PLB/EVE 117",
+        "WFC 155"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Ecosystems",
+      "courses": [
+        "ENH 160",
+        "ESP 151",
+        "ESP 155",
+        "EVE 147",
+        "HYD 143",
+        "PLS 162",
+        "PLS 163"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Choose one cross-cutting ecology course",
+      "courses": [
+        "ESM 141",
+        "ESM/PLS 144",
+        "ESP 124",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 151",
+        "ESP 155",
+        "ETX 150",
+        "EVE 109",
+        "EVE 115",
+        "EVE 138",
+        "PLS 130",
+        "WFC 125",
+        "WFC 151",
+        "WFC 168"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Choose one organismal biology course",
+      "courses": [
+        "ENT 103",
+        "EVE 112",
+        "EVE 114",
+        "PLB/PLS 116",
+        "PLB/EVE 119",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 134"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Complete one lab associated with either the cross-cutting ecology or organismal biology course:",
+      "courses": [
+        "ESP 151L",
+        "ESP 155L",
+        "EVE 112L",
+        "EVE/ENT 180B",
+        "WFC 110L",
+        "WFC 111L",
+        "WFC 120L",
+        "WFC 134L"
+      ],
+      "units": "0-4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Data Science",
+      "courses": [
+        "ESP 106"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Data Analysis",
+      "courses": [
+        "ABT 181N",
+        "ABT/HYD 182"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Remote Sensing",
+      "courses": [
+        "ESM 185",
+        "ESM 186"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Policy",
+      "courses": [
+        "ESP/ECI 163",
+        "ESP 165",
+        "ESP 166",
+        "ESP 169",
+        "ESP 171",
+        "ESP 172",
+        "ESP 174",
+        "ESP 179",
+        "SOC 160"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Quantitative Environmental Science",
+      "courses": [
+        "ATM 120",
+        "ESP 121",
+        "HYD 143",
+        "PLS 123",
+        "WFC 122"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Statistical Analysis",
+      "courses": [
+        "STA 104",
+        "STA 106",
+        "STA 108",
+        "STA 130A",
+        "STA 130B",
+        "STA 135",
+        "STA 137",
+        "STA 141A",
+        "STA 141B",
+        "STA 142A"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Physical Processes",
+      "courses": [
+        "ATM 110",
+        "ATM 116",
+        "ATM 133",
+        "ESM 100",
+        "ESM 121",
+        "ESM 131",
+        "SSC 100"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Biological Processes",
+      "courses": [
+        "ESP 124",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 151",
+        "ESP 152",
+        "ESP 155",
+        "EVE/PLB 117",
+        "EVE 147",
+        "GEL 136",
+        "PLS 101",
+        "PLS 130",
+        "PLS 163",
+        "WFC 125",
+        "WFC 168"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Policy",
+      "courses": [
+        "ESP 160",
+        "ESP 165",
+        "ESP 166",
+        "ESP 167",
+        "ESP 168A",
+        "ESP 169",
+        "ESP 170",
+        "ESP 171",
+        "ESP 172",
+        "ESP 173",
+        "ESP 174",
+        "ESP 179",
+        "HYD 150",
+        "SOC 160"
+      ],
+      "units": "9-13",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section.",
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Environmental Law",
+      "courses": [
+        "ESP 161",
+        "HYD 150"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "ARE 106",
+        "ECN 102",
+        "STA 101",
+        "STA 103",
+        "STA 106",
+        "STA 108",
+        "STA 130A",
+        "STA 131A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Or equivalent upper division statistics."
+      ]
+    },
+    {
+      "heading": "Biological Processes",
+      "courses": [
+        "ENT 104",
+        "ESM 141",
+        "ESM/PLS 144",
+        "ESP 151",
+        "ESP 155",
+        "EVE 115",
+        "PLB/EVE 117",
+        "PLS 130",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 134"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Physical Processes",
+      "courses": [
+        "ATM 116",
+        "ATM 133",
+        "ESM 121",
+        "ESM 131",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 152",
+        "HYD 143",
+        "SSC 100"
+      ],
+      "units": "6-9",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Remote Sensing",
+      "courses": [
+        "ESM 185",
+        "ESM 186"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 100"
+      ],
+      "units": "5",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section."
+      ]
+    },
+    {
+      "heading": "Additional Soil Science",
+      "courses": [
+        "ESM 100",
+        "HYD 134",
+        "SSC 102",
+        "SSC 105",
+        "SSC 107",
+        "SSC 109",
+        "SSC 111",
+        "SSC 112",
+        "SSC 118",
+        "SSC 120"
+      ],
+      "units": "16-21",
+      "notes": [
+        "Choose four:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESM 121",
+        "ESP 165",
+        "ESP 166",
+        "ESP 171",
+        "ESP 172",
+        "ESP 174",
+        "ESP 179",
+        "SOC 160"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Land Use Analysis",
+      "courses": [
+        "ESM 185",
+        "GEL 134",
+        "HYD/EBS 147",
+        "SSC 118"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Physical & Biological Processes",
+      "courses": [
+        "ATM 160",
+        "ESM/PLS 144",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP/GEL 150A",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 151",
+        "ESP 155",
+        "EVE/PLB 117",
+        "GEL 132",
+        "PLS 130"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Complete both introductory hydrologic and soil science courses.",
+      "courses": [
+        "SSC 100",
+        "ESM 100"
+      ],
+      "units": "",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section."
+      ]
+    },
+    {
+      "heading": "Water Management",
+      "courses": [
+        "ESM 121",
+        "ESM 125",
+        "HYD 150"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Hydrologic Science",
+      "courses": [
+        "ATM 133",
+        "HYD/ESM/ABT 110",
+        "HYD 118/EBS 148/ESM 118",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "HYD 124",
+        "HYD 143",
+        "HYD/EBS 144",
+        "HYD 145"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Physical Environments",
+      "courses": [
+        "ESP 151L",
+        "ESP 152",
+        "GEL 035",
+        "GEL 136",
+        "GEL 140"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Data Science",
+      "courses": [
+        "ABT 181N",
+        "ABT/HYD 182",
+        "ESM 185",
+        "ESP 106"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Policy",
+      "courses": [
+        "ESP 166",
+        "ESP 168A",
+        "ESP 169",
+        "ESP 172",
+        "ESP 173",
+        "ESP 174",
+        "ESP 179"
+      ],
+      "units": "6-11",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 105",
+        "SSC 118",
+        "SSC 120"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Aquatic Organisms & Habitats",
+      "courses": [
+        "ESP 151",
+        "ESP 155",
+        "EVE 115",
+        "WFC 120",
+        "WFC 134"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "111"
+}

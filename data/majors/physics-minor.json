@@ -1,0 +1,25 @@
+{
+  "name": "Physics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/physics/physics-minor/",
+  "degree_type": "Minor",
+  "department": "Physics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **",
+        "PHY 197T",
+        "PHY 199"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least six upper division courses in Physics; excluding:",
+        "Physics (PHY) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

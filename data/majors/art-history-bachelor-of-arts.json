@@ -1,0 +1,205 @@
+{
+  "name": "Art History, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/art-history-art-studio/art-history-ab/",
+  "degree_type": "B.A.",
+  "department": "Art History Art Studio",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "AHI 001A",
+        "AHI 001B",
+        "AHI 001C",
+        "AHI 001D",
+        "AHI 001E",
+        "AHI 005",
+        "AHI 025",
+        "ART 030",
+        "ART 001",
+        "ART 002",
+        "ART 005",
+        "ART 007",
+        "ART 008",
+        "ART 009",
+        "ART 010D",
+        "ART 010F",
+        "ART 011",
+        "ART 012",
+        "ART 024"
+      ],
+      "units": "16-17",
+      "notes": [
+        "Choose four:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Distribution Areas",
+      "courses": [
+        "AHI 152",
+        "AHI/CLA 172A",
+        "AHI/CLA 172B",
+        "AHI/CLA 173",
+        "AHI/CLA 175",
+        "AHI/RST 154",
+        "AHI 157/RST 171",
+        "AHI 163A",
+        "AHI 163B",
+        "AHI 163C",
+        "AHI 163D",
+        "AHI 164",
+        "AHI 155",
+        "AHI 156",
+        "AHI 178B",
+        "AHI 178C",
+        "AHI 179B",
+        "AHI 130",
+        "AHI 168",
+        "AHI 182",
+        "AHI 183A",
+        "AHI 183B",
+        "AHI 188C",
+        "AHI 122",
+        "AHI 163D",
+        "AHI 183C",
+        "AHI 185",
+        "AHI 186",
+        "AHI 189",
+        "AHI 110",
+        "AHI/HMR 120A",
+        "AHI 121",
+        "AHI 123",
+        "AHI 181",
+        "AHI 188A"
+      ],
+      "units": "24",
+      "notes": [
+        "Choose six from at least five of the following areas:",
+        "(1) The Ancient World",
+        "(2) Asia",
+        "(3) The Middle Ages to 1700",
+        "(4) Western Art 1700 to 1900",
+        "(5) World Art 20th Century to the Present",
+        "(6) Art & Issues Across Chronologies"
+      ]
+    },
+    {
+      "heading": "Undergraduate Seminar in Art History, (AHI 190A-AHI 190L)",
+      "courses": [
+        "AHI 190A",
+        "AHI 190B",
+        "AHI 190C",
+        "AHI 190D",
+        "AHI 190E",
+        "AHI 190F",
+        "AHI 190G",
+        "AHI 190H",
+        "AHI 190I",
+        "AHI 190J",
+        "AHI 190K",
+        "AHI 190L"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Emphasis; choose one to reach total units:",
+      "courses": [],
+      "units": "60",
+      "notes": [
+        "Choose any three additional AHI upper division courses or seminars.",
+        "Art History (AHI) courses.",
+        "Depth Subject Matter Subtotal",
+        "Architectural History",
+        "Museum Studies"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AHI 025",
+        "AHI 110",
+        "AHI/HMR 120A",
+        "AHI 122",
+        "AHI 123",
+        "AHI 152",
+        "AHI/RST 154",
+        "AHI 155",
+        "AHI 163A",
+        "AHI 168",
+        "AHI/CLA 172A",
+        "AHI/CLA 172B",
+        "AHI/CLA 173",
+        "AHI/CLA 175",
+        "AHI 178B",
+        "AHI 178C",
+        "AHI 181",
+        "AHI 184",
+        "AHI 187",
+        "AHI 188A",
+        "AHI 188B"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least six of the following:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "AHI 001A",
+        "AHI 001B",
+        "AHI 001C",
+        "AHI 001D",
+        "AHI 001E",
+        "AHI 005",
+        "AHI 025",
+        "ART 030"
+      ],
+      "units": "16-17",
+      "notes": [
+        "Choose four:",
+        "Art Studio (ART) courses.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Five courses not already counted toward the Major.",
+      "courses": [
+        "AHI 101",
+        "AHI 110",
+        "AHI 102",
+        "AHI/HMR 120A",
+        "AHI 123",
+        "AHI 190L",
+        "ARE 113",
+        "CMN 131",
+        "CMN 131V",
+        "DES 185",
+        "DES 187",
+        "DRA 124A",
+        "DRA 124C",
+        "UWP 102J",
+        "UWP 112A"
+      ],
+      "units": "8",
+      "notes": [
+        "Distribution Areas; same as for the Art History Major, above.",
+        "Undergraduate Seminar; same as for the Art History Major above.",
+        "Elective; one additional AHI upper-division course or seminar.",
+        "Depth Subject Matter Subtotal",
+        "Required Courses:",
+        "Required Courses:",
+        "Depth Subject Matter—Museum Studies Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: The Honors Program in Art History is encouraged for Art History majors who are considering attending graduate school. To be eligible for the program, a student must have completed at least 135 units and have a grade point average of 3.500 GPA overall, consent of both the prospective thesis advisor, who must be a member of the Art History faculty and the major advisor. In addition to meeting the standard major requirements, the honors student completes one additional undergraduate seminar (course"
+  ],
+  "total_units": "24"
+}

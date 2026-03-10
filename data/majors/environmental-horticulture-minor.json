@@ -1,0 +1,28 @@
+{
+  "name": "Environmental Horticulture, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/environmental-horticulture-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 006",
+        "ENH 105",
+        "PLS 171",
+        "ENH 100",
+        "ENH 120",
+        "ENH 125",
+        "ENH 133"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Chemistry, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/chemistry-bs/",
+  "degree_type": "B.S.",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009C",
+        "PHY 009D"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021AMAT 021BMAT 021CMAT 021D",
+        "MAT 022A022AL",
+        "MAT/BIS 027A",
+        "MAT 022B",
+        "MAT/BIS 027B"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose One:",
+        "Choose One:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 105",
+        "CHE 108",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C",
+        "CHE 115",
+        "CHE 124A",
+        "CHE 124B",
+        "CHE 124C",
+        "CHE 124L",
+        "CHE 125",
+        "CHE 128A",
+        "CHE 128B",
+        "CHE 128C",
+        "CHE 129A",
+        "CHE 129B",
+        "CHE 129C"
+      ],
+      "units": "50",
+      "notes": [
+        "At least 4 additional upper division units in Chemistry (CHE)",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Recommended",
+      "courses": [
+        "CHE 194HA",
+        "CHE 194HB",
+        "CHE 194HC",
+        "CHE 199"
+      ],
+      "units": "107-108",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research."
+  ],
+  "total_units": "107"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Mathematical & Scientific Computation, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/mathematical-scientific-computation-bs/",
+  "degree_type": "B.S.",
+  "department": "Mathematics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 021A",
+        "MAT 017B",
+        "MAT 021B",
+        "MAT 017C",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT/BIS 027B",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linear Algebra & Proof-Writing",
+      "courses": [
+        "MAT 108",
+        "MAT 108V",
+        "MAT/BIS 027A",
+        "MAT 022A",
+        "MAT 067",
+        "MAT 022AL"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose one option:",
+        "Choose one:",
+        "Equivalent MATLAB knowledge."
+      ]
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C",
+        "MAT 135A",
+        "MAT 150A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "B. Enrichment Courses",
+      "courses": [
+        "MAT 111",
+        "MAT 185B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Computational & Mathematical Biology Emphasis",
+      "courses": [
+        "MAT 124"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:",
+        "One approved upper division course in Biology; please consult with a math advisor before selecting a course."
+      ]
+    },
+    {
+      "heading": "Computational & Mathematics Emphasis",
+      "courses": [
+        "MAT 168"
+      ],
+      "units": "",
+      "notes": [
+        "One approved upper division course involving extensive computation or theory of computation; please consult with a math advisor before selecting a course."
+      ]
+    },
+    {
+      "heading": "D. Capstone Course",
+      "courses": [
+        "MAT 115B",
+        "MAT 118B",
+        "MAT 119B",
+        "MAT 135B",
+        "MAT 146",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 180",
+        "MAT 185B",
+        "MAT 189",
+        "MAT 192",
+        "MAT 194"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
+  ],
+  "total_units": "82"
+}

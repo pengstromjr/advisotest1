@@ -1,0 +1,27 @@
+{
+  "name": "Comparative Literature, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/comparative-literature/comparative-literature-minor/",
+  "degree_type": "Minor",
+  "department": "Comparative Literature",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose at least five upper division literature courses, at least four of which are in Comparative Literature (COM)1. Courses should be chosen in consultation with the approval of the advisor.",
+        "Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Landscape Restoration, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/landscape-restoration-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 155",
+        "PLB/EVE 117",
+        "PLS/PLB/EVE 127",
+        "PLS 147",
+        "PLS/ESM 144",
+        "ENH 100",
+        "ENH 133",
+        "PLB/EVE 119",
+        "PLS 176",
+        "ESP 155L",
+        "PLS 130",
+        "WFC 155"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soil Sciences",
+      "courses": [
+        "SSC 010",
+        "SSC 100"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Restoration",
+      "courses": [
+        "ENH 160",
+        "ENH 160L"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Internship (3 units required)",
+      "courses": [
+        "PLS 192"
+      ],
+      "units": "1-12",
+      "notes": [
+        "Total Units"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

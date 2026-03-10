@@ -1,0 +1,33 @@
+{
+  "name": "Environmental Geology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/earth-planetary-sciences/environmental-geology-minor/",
+  "degree_type": "Minor",
+  "department": "Earth Planetary Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESM 186",
+        "GEL 130",
+        "GEL 134",
+        "HYD 141",
+        "ECI 142",
+        "SSC 118",
+        "ESP 160",
+        "ESP 171",
+        "ESP 179",
+        "GEL 156",
+        "HYD/EBS 144",
+        "HYD 146"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "27"
+}

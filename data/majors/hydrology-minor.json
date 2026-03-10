@@ -1,0 +1,35 @@
+{
+  "name": "Hydrology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/hydrology-minor/",
+  "degree_type": "Minor",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HYD 103N/EBS 103",
+        "ENG 103",
+        "HYD 141",
+        "ESM 100",
+        "HYD/EBS 144",
+        "SSC 107",
+        "HYD 134",
+        "CHE 100",
+        "SSC 111",
+        "ESP 151"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Hydrology",
+        "Soil Science",
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,285 @@
+{
+  "name": "Biological Sciences, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-sciences/biological-sciences-bs/",
+  "degree_type": "B.S.",
+  "department": "Biological Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose the 002 or 004 series:",
+        "Choose the 008 or 118 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": [
+        "Choose the 017 or 021 series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "12",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Section 1: Core Curriculum",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Section 2: Depth Subject Topics",
+      "courses": [
+        "STA 100",
+        "EVE 100",
+        "EVE 101",
+        "ESP 100",
+        "MIC 102",
+        "MMG 162",
+        "MMG 170",
+        "PLB 105",
+        "PLB 111",
+        "PLB 112",
+        "PLB 113",
+        "PLB/PLS 116",
+        "PLB/MCB 126",
+        "NPB 100",
+        "NPB 101",
+        "NPB 102",
+        "NPB 107",
+        "MCB 150"
+      ],
+      "units": "21-26",
+      "notes": [
+        "Choose one from each topic:",
+        "Statistics",
+        "Evolution",
+        "Ecology",
+        "Microbiology",
+        "Plant Physiology or Development",
+        "Animal Physiology, Behavior or Development"
+      ]
+    },
+    {
+      "heading": "Section 3: Laboratory Requirement",
+      "courses": [
+        "EVE 110",
+        "EVE 140",
+        "EVE/ENT 180A",
+        "EVE/ENT 180B",
+        "MCB 185",
+        "NPB 100L",
+        "NPB 101L",
+        "NPB 121L",
+        "NPB 123/APC 100",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "BIS 180L",
+        "EVE 105",
+        "EVE 106",
+        "EVE 112L",
+        "EVE 114",
+        "EXB 106L/CHA 101L",
+        "MIC 104L",
+        "MIC 105L",
+        "MCB 120L",
+        "MCB 140L",
+        "MCB 160L",
+        "PLB 105",
+        "PLB/PLS 116",
+        "PLB/PLP 148"
+      ],
+      "units": "",
+      "notes": [
+        "Course(s) selected to fulfill the laboratory requirement may also satisfy restricted elective or depth subject matter units (but not both).",
+        "Choose course(s) for a minimum total of six hours/week of laboratory or field work from the list of courses below:",
+        "Choose two with three hours lab or field work/week:",
+        "Other courses with approval of Faculty Advisor.",
+        "Choose one course with six hours lab or field work/week:",
+        "Other courses with approval of the Faculty Advisor."
+      ]
+    },
+    {
+      "heading": "Section 4: Restricted Electives",
+      "courses": [],
+      "units": "11",
+      "notes": [
+        "Choose at least three or more courses for a minimum of 11 units from the list of Approved Upper Division Restrictive Electives and/or laboratory courses. No class or laboratory used to satisfy a Section 1 or a Section 2 course requirement may be used as a restricted elective.",
+        "Students may choose any combination of approved courses that align with their academic or career objectives. Up to three of the 11 units may be fulfilled by approved seminar or research courses.",
+        "Approved Seminar/Research Courses",
+        "Approved Upper Division Restricted Electives"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 122P",
+        "BIS 123",
+        "BIS 133",
+        "EVE/ESP 111",
+        "MCB 138",
+        "MCB 139",
+        "MCB 148",
+        "MCB 158",
+        "MCB 178",
+        "MCB 191",
+        "MCB 193",
+        "NPB 139",
+        "NPB 159",
+        "NPB 169"
+      ],
+      "units": "Units",
+      "notes": [
+        "Courses numbered 189, 190/190C, 192, 194H, and 199 in ABI, ANS, BIS, BIT, ENH, ENT, ETX, EVE, MCB, MIC, MMG, NPB, PLB, PLP, PLS, VEN, WFC, as well as:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANG 105",
+        "ANG 107",
+        "ANS 104",
+        "ANS 123",
+        "ANS 170",
+        "ANT 151",
+        "ANT 152",
+        "ANT 153",
+        "ANT 154A",
+        "ANT 155",
+        "ANT 157",
+        "ANT 157L",
+        "AVS 100",
+        "AVS 103",
+        "AVS 115",
+        "BIM 140",
+        "BIM 143",
+        "BIT 150",
+        "BIT 160",
+        "BIT 161A",
+        "BIT 161B",
+        "CHE 107A",
+        "CHE 107B",
+        "CHE 108",
+        "CHE 130A",
+        "CHE 130B",
+        "CHE 150",
+        "ECS 124",
+        "EDU 110",
+        "EDU/GEL 181",
+        "EDU/GEL 183",
+        "ENH 105",
+        "ESP 106",
+        "ESP 110",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 121",
+        "ESP 123",
+        "ESP 124",
+        "ESP 151",
+        "ESP 151L",
+        "ESP 155",
+        "FST 102A",
+        "FST 104",
+        "GDB 101",
+        "GDB 103",
+        "GEL 107",
+        "GEL 107L",
+        "GEL 108",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "GEL 141",
+        "GEL 144",
+        "GEL/ESP 150A",
+        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
+        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100C",
+        "HDE/ENT 117",
+        "MMI 188A",
+        "MMI 188B",
+        "NEM 100",
+        "NEM 110",
+        "NUT/ETX 104",
+        "PHI 108",
+        "PLP 120",
+        "PLP 130",
+        "PLS 100A",
+        "PLS 100B",
+        "PLS 101",
+        "PLS/ESM 144",
+        "PLS 147",
+        "PLS 150",
+        "PLS 152",
+        "PLS 154",
+        "PLS 162",
+        "PLS 172",
+        "PMI 126",
+        "PMI 127",
+        "PMI 128",
+        "SAS/HIS 109",
+        "SAS 110",
+        "SOC 163",
+        "SSC 111",
+        "STA 101",
+        "STS/ANT 129",
+        "STS/ENL 164",
+        "UWP 111C",
+        "UWP 120",
+        "UWP 121",
+        "VEN 110",
+        "VME 158"
+      ],
+      "units": "Units",
+      "notes": [
+        "Biological Sciences (BIS)―all upper division courses.",
+        "Entomology (ENT)―all upper division courses.",
+        "Environmental Toxicology (ETX)―all upper division courses.",
+        "Evolution & Ecology (EVE)―all upper division courses.",
+        "Exercise Biology (EXB)―all upper division courses.",
+        "Molecular & Cellular Biology (MCB)―all upper division courses.",
+        "Microbiology (MIC)―all upper division courses.",
+        "Microbiology & Molecular Genetics (MMG)―all upper division courses.",
+        "Neurobiology, Physiology, & Behavior (NPB)―all upper division courses.",
+        "Plant Biology (PLB)―all upper division courses.",
+        "Wildlife, Fish, & Conservation Biology (WFC)―all upper division courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+  ],
+  "total_units": "98"
+}

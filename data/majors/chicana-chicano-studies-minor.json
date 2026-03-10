@@ -1,0 +1,48 @@
+{
+  "name": "Chicana/Chicano Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chicana-chicano-studies/chicana-chicano-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Chicana Chicano Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHI 010",
+        "CHI 010V",
+        "CHI 050",
+        "CHI 150",
+        "CHI 181",
+        "HIS 169A",
+        "HIS 169B",
+        "CHI 110",
+        "CHI 110V",
+        "CHI 111",
+        "CHI 112",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 123",
+        "CHI 130",
+        "CHI 131",
+        "CHI 132",
+        "CHI 154",
+        "CHI 155",
+        "CHI 156",
+        "CHI 160",
+        "CHI 165",
+        "CHI/ART 171",
+        "CHI 172"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose four:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "American Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/american-studies/american-studies-minor/",
+  "degree_type": "Minor",
+  "department": "American Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AMS 192"
+      ],
+      "units": "Units",
+      "notes": [
+        "Five upper division American Studies (AMS) courses",
+        "American Studies (AMS) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Advising: American Studies Advising; ams-advising@ucdavis.edu or 530-752-6429"
+  ],
+  "total_units": "20"
+}

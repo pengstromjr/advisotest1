@@ -1,0 +1,41 @@
+{
+  "name": "Climate Science & Policy, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-science-policy/climate-science-policy-minor/",
+  "degree_type": "Minor",
+  "department": "Environmental Science Policy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 116",
+        "ESP 165",
+        "LED 003",
+        "DES 127A",
+        "ATM 005",
+        "SAS 025",
+        "SAS 025V",
+        "AMS 150",
+        "ATM 128",
+        "ATM 133",
+        "CRD 158",
+        "ECI 123",
+        "ENL 184",
+        "ESM 131",
+        "ESP/ECI 163",
+        "ESP 171",
+        "GEL 108",
+        "PMI 129Y",
+        "WFC 168"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose 11 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

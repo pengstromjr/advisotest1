@@ -1,0 +1,70 @@
+{
+  "name": "Art History, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/art-history-art-studio/art-history-minor/",
+  "degree_type": "Minor",
+  "department": "Art History Art Studio",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Five Upper Division Courses",
+      "courses": [
+        "AHI 152",
+        "AHI/CLA 172A",
+        "AHI/CLA 172B",
+        "AHI/CLA 173",
+        "AHI/CLA 175",
+        "AHI/RST 154",
+        "AHI 157/RST 171",
+        "AHI 163A",
+        "AHI 163B",
+        "AHI 163C",
+        "AHI 164",
+        "AHI 155",
+        "AHI 156",
+        "AHI 178B",
+        "AHI 178C",
+        "AHI 179B",
+        "AHI 130",
+        "AHI 168",
+        "AHI 182",
+        "AHI 183A",
+        "AHI 183B",
+        "AHI 188C",
+        "AHI 122",
+        "AHI 163D",
+        "AHI 183C",
+        "AHI 185",
+        "AHI 186",
+        "AHI 189",
+        "AHI 110",
+        "AHI/HMR 120A",
+        "AHI 121",
+        "AHI 123",
+        "AHI 181",
+        "AHI 188A"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose one course from four of the following areas:",
+        "(1) The Ancient World",
+        "(2) Asia",
+        "(3) The Middle Ages to 1700",
+        "(4) Western Art 1700 to 1900",
+        "(5) World Art 20th Century to the Present",
+        "(6) Art & Issues Across Chronologies"
+      ]
+    },
+    {
+      "heading": "Elective",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "Choose any additional upper division Art History (AHI) course or seminar.",
+        "Art History (AHI) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

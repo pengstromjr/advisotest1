@@ -1,0 +1,178 @@
+{
+  "name": "Psychology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/psychology/psychology-minor/",
+  "degree_type": "Minor",
+  "department": "Psychology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PSC 130",
+        "PSC 131",
+        "PSC 132",
+        "PSC 133/CGS 107/ECN 107",
+        "PSC 135",
+        "PSC 136",
+        "PSC 139"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units:"
+      ]
+    },
+    {
+      "heading": "Core Group B: Psychobiology",
+      "courses": [
+        "PSC 101",
+        "PSC 113",
+        "PSC 121",
+        "PSC 122/NPB 150",
+        "PSC 123/NPB 152",
+        "PSC/NPB 124",
+        "PSC 125",
+        "PSC 126",
+        "PSC 137",
+        "PSC 159"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose 3-4 units:"
+      ]
+    },
+    {
+      "heading": "Core Group C: Social/Personality",
+      "courses": [
+        "PSC 151",
+        "PSC 151V",
+        "PSC 152",
+        "PSC 154",
+        "PSC 154V",
+        "PSC 158",
+        "PSC 161",
+        "PSC 162",
+        "PSC 165",
+        "PSC 168"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units:"
+      ]
+    },
+    {
+      "heading": "Core Group D: Developmental",
+      "courses": [
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "PSC 141",
+        "PSC 142",
+        "PSC 143",
+        "PSC 145",
+        "PSC 146",
+        "PSC 148"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units:",
+        "Psychology Subtotal"
+      ]
+    },
+    {
+      "heading": "Approved Psychology Electives",
+      "courses": [
+        "PSC 197T",
+        "PSC 103A",
+        "PSC 103B",
+        "PSC 104",
+        "PSC 107",
+        "PSC 120",
+        "PSC 124L",
+        "PSC 134",
+        "PSC 138",
+        "PSC 150",
+        "PSC 150V",
+        "PSC 153",
+        "PSC 155",
+        "PSC 156",
+        "PSC 157",
+        "PSC 169",
+        "PSC 170",
+        "PSC 175",
+        "PSC 180A",
+        "PSC 180B",
+        "PSC 180C",
+        "PSC 180D",
+        "PSC 182",
+        "PSC 185",
+        "PSC 190",
+        "PSC 192",
+        "PSC 194HA",
+        "PSC 194HB",
+        "PSC 198",
+        "PSC 199"
+      ],
+      "units": "",
+      "notes": [
+        "Additional units to achieve a total of 20 units of approved upper division minor coursework. Each course may only be used to satisfy one Psychology minor requirement; the same course cannot be used for multiple Psychology minor requirements.",
+        "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
+      ]
+    },
+    {
+      "heading": "Additional Non-Psychology Elective Options",
+      "courses": [
+        "AAS 141",
+        "ANT 132",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 123",
+        "CMN 120",
+        "CMN 120V",
+        "CMN 122",
+        "CNS 100",
+        "EDU 110",
+        "EXB 102",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C",
+        "HDE/ENT 117",
+        "HDE 163",
+        "LIN 171",
+        "NPB 102",
+        "NPB 168",
+        "POL 170",
+        "SOC 126",
+        "SOC 135",
+        "SOC 152",
+        "SOC 171"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Approved Major Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities."
+  ],
+  "total_units": "23"
+}

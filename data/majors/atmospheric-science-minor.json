@@ -1,0 +1,27 @@
+{
+  "name": "Atmospheric Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/atmospheric-science-minor/",
+  "degree_type": "Minor",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 060",
+        "ATM 110",
+        "ESM 131"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose four upper division courses, with the approval of the minor program advisor:",
+        "Four upper division Atmospheric Science (ATM) courses",
+        "Three upper division Atmospheric Science (ATM) courses",
+        "Atmospheric Science (ATM) courses"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

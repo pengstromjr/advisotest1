@@ -1,0 +1,63 @@
+{
+  "name": "Computational Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computational-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Computer Science Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "ECS 122A",
+        "ECS 124"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Electives",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 122",
+        "EVE 100",
+        "EVE 101",
+        "EVE 102",
+        "EVE 103",
+        "EVE 131",
+        "MCB 121",
+        "MCB 124",
+        "MCB 182",
+        "BIT 150",
+        "ECS 130",
+        "ECS 132",
+        "ECS 140A",
+        "ECS 145",
+        "ECS 158",
+        "ECS 160",
+        "ECS 165A",
+        "ECS 170",
+        "ECS 171",
+        "ECS 177",
+        "STA 130A",
+        "STA 141A",
+        "STA 141B",
+        "STA 141C",
+        "BIT 150",
+        "BIM 117",
+        "ECS 129"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose 12-15 units:",
+        "Choose at least one biology course; 4 units minimum:",
+        "Choose at least one computational or statistics course:",
+        "Choose at least one computational biology and bioinformatics course:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "International Agricultural Development, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/international-agricultural-development-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "IAD 010",
+        "ARE/ECN 115A",
+        "PLS 101",
+        "PLS 110",
+        "PLS 111",
+        "PLS 112",
+        "IAD 103",
+        "IAD 170",
+        "CRD 142"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 6-7 units",
+        "Choose 7-8 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "21"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Chinese, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/east-asian-languages-cultures/chinese-minor/",
+  "degree_type": "Minor",
+  "department": "East Asian Languages Cultures",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHN 009",
+        "CHN 010",
+        "CHN 011",
+        "CHN 050",
+        "CHN 003BL",
+        "CHN 006",
+        "CHN 192",
+        "CHN 197T",
+        "CHN 198",
+        "CHN 199"
+      ],
+      "units": "Units",
+      "notes": [
+        "All upper division CHN courses, including both language courses and literature in translation courses, may be used to meet this requirement.",
+        "One approved lower division course may also be used:",
+        "In addition, students must demonstrate their language proficiency, normally through completion of:",
+        "Only 4 units from the following may be applied to the minor:",
+        "For details, consult the undergraduate advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

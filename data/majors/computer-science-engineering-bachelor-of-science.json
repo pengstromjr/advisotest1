@@ -1,0 +1,145 @@
+{
+  "name": "Computer Science & Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Computer Science Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT/BIS 027A",
+        "MAT 067",
+        "MAT 022B",
+        "MAT/BIS 027B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 020",
+        "ECS 050",
+        "ECS 036A",
+        "ECS 036B",
+        "ECS 036C",
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A",
+        "ECS 032B",
+        "ECS 032C",
+        "ECS 034"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose a series option (must complete one full series in entirety; mixing of courses between series is not allowed):"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 017",
+        "ENG 017V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Communications",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 132",
+        "ECS 140A",
+        "ECS 150",
+        "ECS 152A/EEC 173A",
+        "ECS 154A",
+        "ECS 154B",
+        "ECS 160",
+        "ECS 188",
+        "ECS 193A",
+        "ECS 193B",
+        "ECS 120",
+        "ECS 122A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Electrical & Computer Engineering",
+      "courses": [
+        "EEC 100",
+        "EEC 172"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose a minimum of four courses and a minimum of 15 units",
+        "Choose one:",
+        "Passing the Upper Division Composition Exam administered by the College of Letters & Science.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "144"
+}

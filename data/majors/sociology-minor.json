@@ -1,0 +1,29 @@
+{
+  "name": "Sociology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/sociology/sociology-minor/",
+  "degree_type": "Minor",
+  "department": "Sociology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "SOC 192",
+        "SOC 193",
+        "SOC 194HA",
+        "SOC 194HB",
+        "SOC 197T",
+        "SOC 198",
+        "SOC 199"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose any five upper division Sociology courses, except:",
+        "Sociology (SOC) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

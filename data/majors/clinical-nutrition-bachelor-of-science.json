@@ -1,0 +1,127 @@
+{
+  "name": "Clinical Nutrition, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/nutrition/clinical-nutrition-bs/",
+  "degree_type": "B.S.",
+  "department": "Nutrition",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Written/Oral Expression",
+      "courses": [
+        "ENL 003",
+        "ENL 003V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "CMN 001",
+        "CMN 001V"
+      ],
+      "units": "4",
+      "notes": [
+        "Written/Oral Expression Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 008A",
+        "CHE 008B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Social Science Theory; choose one:",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ARE 112",
+        "ABI 102",
+        "ABI 103",
+        "BIS 101",
+        "BIS 101V",
+        "FST 100A",
+        "FST 100B",
+        "FSM 120",
+        "FSM 120L",
+        "FSM 122",
+        "NUT/FST 106",
+        "NUT 111AY",
+        "NUT 111B",
+        "NUT 112",
+        "NUT 116A",
+        "NUT 116AL",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 116BL",
+        "NUT 118",
+        "NUT 190",
+        "NPB 101",
+        "NPB 101L"
+      ],
+      "units": "4",
+      "notes": [
+        "Additional upper division Nutrition electives.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "138"
+}

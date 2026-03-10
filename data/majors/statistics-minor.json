@@ -1,0 +1,53 @@
+{
+  "name": "Statistics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/statistics/statistics-minor/",
+  "degree_type": "Minor",
+  "department": "Statistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Coursework; not counted towards minor units",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "MAT 016C"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Minor Requirements",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 130ASTA 130B",
+        "STA 131ASTA 131B",
+        "STA 101",
+        "STA 104",
+        "STA 135",
+        "STA 137",
+        "STA 138",
+        "STA 141A",
+        "STA 141B",
+        "STA 141C",
+        "STA 142A",
+        "STA 142B",
+        "STA 144",
+        "STA 145",
+        "STA 160"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose a series:",
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

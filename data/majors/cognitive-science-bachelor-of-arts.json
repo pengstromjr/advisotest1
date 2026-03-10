@@ -1,0 +1,187 @@
+{
+  "name": "Cognitive Science, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/cognitive-science/cognitive-science-ab/",
+  "degree_type": "B.A.",
+  "department": "Cognitive Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Cognitive Science",
+      "courses": [
+        "CGS 001/PHI 010"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linguistics",
+      "courses": [
+        "LIN 001",
+        "LIN 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 012",
+        "PHI 013G"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Important: Each course may only be used to satisfy one Cognitive Science major requirement; the same course cannot be used for multiple groups.",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PHI 112"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Group B: Computation",
+      "courses": [
+        "LIN 177",
+        "PHI 133",
+        "CMN 150V",
+        "CMN 151"
+      ],
+      "units": "4",
+      "notes": [
+        "CGS Topical Course: choose 1 upper division course from this list.",
+        "Choose one from Group B:"
+      ]
+    },
+    {
+      "heading": "Group C: Neuroscience",
+      "courses": [
+        "CGS/ECN 107/PSC 133",
+        "PSC 121",
+        "PSC 135",
+        "PSC 139",
+        "PSC 145"
+      ],
+      "units": "",
+      "notes": [
+        "Choose 16 units from your choice of two groups from Groups B-F",
+        "Choose 12 additional units from Groups B-G"
+      ]
+    },
+    {
+      "heading": "Group D: Linguistics",
+      "courses": [
+        "LIN 103A",
+        "LIN 103AV",
+        "LIN 103B",
+        "LIN 131",
+        "LIN 141",
+        "LIN 171",
+        "LIN/EDU 173"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group E: Philosophy",
+      "courses": [
+        "PHI 103",
+        "PHI 104",
+        "PHI 129",
+        "PHI 136"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group F: Psychology",
+      "courses": [
+        "PSC 101",
+        "PSC 130",
+        "PSC 131",
+        "PSC 132",
+        "PSC 136",
+        "PSC 137",
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "PSC 141"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group G: Breadth Electives",
+      "courses": [
+        "CMN 101",
+        "CMN 101V",
+        "CMN 101Y",
+        "CMN 121",
+        "EDU 110",
+        "EDU/LIN 173",
+        "HDE 100C",
+        "HDE 161",
+        "HDE 163",
+        "LIN 112",
+        "LIN 121",
+        "LIN 150",
+        "LIN 152",
+        "LIN 182",
+        "PHI 102",
+        "PHI 112",
+        "PHI 125",
+        "PHI 128",
+        "PHI 137A",
+        "PHI 137B",
+        "PHI 137C",
+        "PSC 113",
+        "PSC/NPB 124",
+        "PSC 142",
+        "PSC 148",
+        "PSC 152",
+        "STA 106",
+        "STA 108"
+      ],
+      "units": "44",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "72"
+}

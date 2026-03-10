@@ -1,0 +1,483 @@
+{
+  "name": "Biotechnology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/biotechnology-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 003ACHE 003BCHE 003C"
+      ],
+      "units": "15",
+      "notes": [
+        "One series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 019AMAT 019B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "One series:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Biotechnology",
+      "courses": [
+        "BIT 001Y",
+        "BIT 091"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 008",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129A"
+      ],
+      "units": "21-27",
+      "notes": [
+        "002 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 019AMAT 019B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PLS 120",
+        "STA 100",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104T"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "May overlap with the English Composition Requirement; may be waived by passing the upper division composition exam.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "ABI 102",
+        "ABI 103",
+        "BIS 105",
+        "BIS 102",
+        "BIS 102VBIS 103",
+        "ABI 102ABI 103"
+      ],
+      "units": "10-17",
+      "notes": []
+    },
+    {
+      "heading": "Biotechnology",
+      "courses": [
+        "BIT 171"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 121"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Internship or Independent Research",
+      "courses": [
+        "BIT 189L",
+        "BIT 192",
+        "BIT 199",
+        "BIT/PLS 188",
+        "BIT 194H"
+      ],
+      "units": "3",
+      "notes": [
+        "Must be approved by major advisor",
+        "Choose one:",
+        "The following two courses are optional:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Areas of Specialization",
+      "courses": [],
+      "units": "29-31",
+      "notes": [
+        "Choose one:",
+        "Fermentation/Microbiology Biotechnology Option",
+        "Plant Biotechnology Option",
+        "Animal Biotechnology Option",
+        "Bioinformatics Option",
+        "Areas of Specialization Subtotal"
+      ]
+    },
+    {
+      "heading": "Fermentation/Microbiology Biotechnology Option",
+      "courses": [
+        "BIT 161A",
+        "MCB 160L",
+        "FST 104L",
+        "MMG 115",
+        "MMG 120",
+        "MMG 170",
+        "PLP 130",
+        "BIS 181",
+        "BIS 183",
+        "MCB 182"
+      ],
+      "units": "5-6",
+      "notes": [
+        "Choose one:",
+        "Choose one from the previous list or below:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "BIS 181",
+        "BIS 183",
+        "BIT 150",
+        "BIT 161B",
+        "BIT 188",
+        "CHE 107A",
+        "CHE 107B",
+        "CHE 130A",
+        "CHE 130B",
+        "ECH 161C",
+        "ECH 161L",
+        "ECS 124",
+        "ECS 129",
+        "EVE 100",
+        "FST 102A",
+        "FST 102B",
+        "FST 104",
+        "FST 104L",
+        "FST 110",
+        "FST/VEN 114",
+        "FST 123",
+        "FST 123L",
+        "MCB 120L",
+        "MCB 182",
+        "MIC 105",
+        "MIC 105L",
+        "MMG 115",
+        "MMG 120",
+        "MMG 162",
+        "MMG 170",
+        "PLP 130",
+        "PLS 174",
+        "VEN 124",
+        "VEN 124L",
+        "VEN 128",
+        "VEN 135"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose 15 units:"
+      ]
+    },
+    {
+      "heading": "Plant Biotechnology Option",
+      "courses": [
+        "BIT 160",
+        "BIT 161A",
+        "BIT 161B"
+      ],
+      "units": "13",
+      "notes": [
+        "Biotechnology"
+      ]
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB/PLB 126"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 152"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "BIS 181",
+        "BIS 183",
+        "BIT 150",
+        "BIT 188",
+        "CHE 130A",
+        "CHE 130B",
+        "EBS 075",
+        "EBS 289G",
+        "EBS 289I",
+        "EBS 289J",
+        "ECS 124",
+        "ECS 129",
+        "ENT 110",
+        "EVE 100",
+        "FST 104",
+        "FST 104L",
+        "FST 110",
+        "FST 123",
+        "FST 123L",
+        "MCB 120L",
+        "MCB 182",
+        "MMG 115",
+        "MMG 162",
+        "NEM 100",
+        "NEM 110",
+        "PLB 105",
+        "PLB 111",
+        "PLB 112",
+        "PLB 113",
+        "PLB 143",
+        "PLP 120",
+        "PLP/ENT/PLB 123",
+        "PLP 130",
+        "PLS 100A",
+        "PLS 100AL",
+        "PLS 100B",
+        "PLS 100BL",
+        "PLS 100C",
+        "PLS 100CL",
+        "PLS 154",
+        "PLS 157",
+        "PLS 158",
+        "PLS 172",
+        "PLS 174"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose 9 units:"
+      ]
+    },
+    {
+      "heading": "Animal Genetics",
+      "courses": [
+        "ANG 111"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 170"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 150",
+        "MCB 163",
+        "MCB 182"
+      ],
+      "units": "6-7",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 101"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "ANG 101",
+        "ANG 107",
+        "ANS 131",
+        "ANS 140",
+        "AVS 103",
+        "AVS 121",
+        "BIS 181",
+        "BIS 183",
+        "BIT 150",
+        "BIT 161A",
+        "BIT 161B",
+        "BIT 188",
+        "EVE 100",
+        "EVE 102",
+        "MCB 120",
+        "MCB 160L",
+        "MCP 200L",
+        "MMG 115",
+        "MMG 162",
+        "NPB 121",
+        "NPB 121L",
+        "NPB 132",
+        "PMI 126",
+        "PMI 126L",
+        "PMI 127",
+        "PMI 128"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose 9 units:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 181",
+        "BIS 183"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Biotechnology",
+      "courses": [
+        "BIT 150",
+        "BIS 180L",
+        "ECS 124",
+        "ECS 129"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 182"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "ANG 212",
+        "BIS 181",
+        "BIS 183",
+        "BIT 188",
+        "EAD 289D",
+        "ECS 020",
+        "ECS 032B",
+        "ECS 034",
+        "ECS 050",
+        "ECS 122A",
+        "ECS 124",
+        "ECS 129",
+        "ECS 140A",
+        "ECS 150",
+        "ECS 154A",
+        "EVE 100",
+        "EVE 102",
+        "EVE 103",
+        "EVE 131",
+        "EVE 161",
+        "MAT 124",
+        "MCB 162",
+        "MMG 115",
+        "NPB 132",
+        "STA 130A",
+        "STA 130B",
+        "STA 131A",
+        "STA 131B",
+        "STA 141A"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose 9 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "114"
+}

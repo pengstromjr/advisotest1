@@ -1,0 +1,188 @@
+{
+  "name": "Business, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/graduate-school-management/business-bs/",
+  "degree_type": "B.S.",
+  "department": "Graduate School Management",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "8",
+      "notes": [
+        "All required preparatory courses must be taken for a letter grade with at least a grade of C-."
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Accounting",
+      "courses": [
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 011B"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 103"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Business Law",
+      "courses": [
+        "ARE 018"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Psychology or Sociology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y",
+        "SOC 001",
+        "SOC 001V"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "English Composition",
+      "courses": [
+        "ENL 003",
+        "ENL 003V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY"
+      ],
+      "units": "8",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Courses",
+      "courses": [
+        "ARE 100A",
+        "ECN 100A",
+        "ECN 100AV",
+        "ARE 100B",
+        "ECN 100B",
+        "ARE 106",
+        "ECN 101",
+        "MGT 101",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "MGT 160",
+        "ARE 171",
+        "MGT 180"
+      ],
+      "units": "4",
+      "notes": [
+        "All required core courses must be taken for a letter grade with at least a grade of C-. All core courses must be taken at UC Davis.",
+        "Core Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Specialization Area",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose one or two areas of specialization from the following options:",
+        "All specialization courses must be taken for letter grade. All specialization coursework must be taken at UC Davis.",
+        "Accounting",
+        "Finance",
+        "Marketing & Business Analytics",
+        "Strategy & Management"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MGT 103",
+        "MGT 105",
+        "MGT 107",
+        "MGT 170"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Choose four:",
+      "courses": [
+        "MGT 161",
+        "MGT 163",
+        "MGT 165",
+        "ARE 172",
+        "ARE 173",
+        "ARE 139",
+        "ECN 135",
+        "ECN 135Y",
+        "ECN 164"
+      ],
+      "units": "16",
+      "notes": []
+    },
+    {
+      "heading": "Choose four:",
+      "courses": [
+        "MGT 141",
+        "MGT 143",
+        "MGT 145",
+        "ARE 107",
+        "ARE 136",
+        "ECN 142",
+        "ECN 142Y"
+      ],
+      "units": "16",
+      "notes": []
+    },
+    {
+      "heading": "Choose four:",
+      "courses": [
+        "MGT 151",
+        "MGT 153",
+        "MGT 155",
+        "MGT 159",
+        "ECN 106",
+        "ECN 106Y",
+        "ECN 121B",
+        "ECN 122"
+      ],
+      "units": "16",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "108"
+}

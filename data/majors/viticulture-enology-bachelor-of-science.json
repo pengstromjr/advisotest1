@@ -1,0 +1,258 @@
+{
+  "name": "Viticulture & Enology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/viticulture-enology/viticulture-enology-bs/",
+  "degree_type": "B.S.",
+  "department": "Viticulture Enology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 008A",
+        "CHE 008B"
+      ],
+      "units": "21",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics; choose MAT 016A & MAT 016B or MAT 019A & MAT 019B:",
+      "courses": [
+        "MAT 019AMAT 019B"
+      ],
+      "units": "6-8",
+      "notes": []
+    },
+    {
+      "heading": "Physics; choose PHY 001A & PHY 001B or PHY 007A:",
+      "courses": [
+        "PHY 007A",
+        "PHY 001APHY 001B"
+      ],
+      "units": "4-6",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 002",
+        "PLS 021",
+        "PLS 021V"
+      ],
+      "units": "7",
+      "notes": []
+    },
+    {
+      "heading": "Viticulture & Enology",
+      "courses": [
+        "VEN 002",
+        "VEN 003"
+      ],
+      "units": "5",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science; choose BIS 105 or (BIS 102 or BIS 102V) & BIS 103:",
+      "courses": [
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "3-6",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "PLS 120",
+        "STA 106"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Viticulture & Enology",
+      "courses": [
+        "VEN 101A",
+        "VEN 101B",
+        "VEN 101C",
+        "VEN 110",
+        "VEN 118",
+        "VEN 123",
+        "VEN 124",
+        "VEN 125",
+        "VEN 126",
+        "VEN 128",
+        "VEN 135",
+        "VEN 123L",
+        "VEN 124L",
+        "VEN 125L",
+        "VEN 126L",
+        "VEN 127L",
+        "VEN 128L"
+      ],
+      "units": "36-38",
+      "notes": [
+        "In consultation with the advisor, choose three:  (6-8)",
+        "If more than three are taken, the extra courses will count as restricted electives in Area B.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "28",
+      "notes": [
+        "In consultation with advisor, choose 28 units from the following five areas. At least 12 units must be from one of the following areas: (A) Plant Science, (B) Food Science & Microbiology, or (C) Economics & Business",
+        "(A) Plant Science Area",
+        "(B) Food Science & Microbiology Area",
+        "(C) Economics & Business Area",
+        "(D) Language Area",
+        "(E) Internship Area",
+        "Restricted Electives Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ABT/IAD 142",
+        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ATM 133",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 101D",
+        "BIT 160",
+        "ENT 110",
+        "HYD/ESM/ABT 110",
+        "HYD 124",
+        "MCB/PLB 126",
+        "NEM 100",
+        "PLB 111",
+        "PLB 112",
+        "PLB/ENT/PLP 123",
+        "PLB 143",
+        "PLP 120",
+        "PLS 154",
+        "PLS 157",
+        "PLS 158",
+        "PLS 171",
+        "PLS 176",
+        "SSC 100",
+        "SSC 102",
+        "SSC 109",
+        "SSC 118",
+        "VEN 112",
+        "VEN 115",
+        "VEN 216",
+        "VEN 217"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 101D",
+        "FST 102A",
+        "FST 102B",
+        "FST 104",
+        "FST 104L",
+        "FST 109",
+        "FST 110",
+        "FST 110L",
+        "FST 127",
+        "VEN 111",
+        "VEN/FST 114",
+        "VEN 140",
+        "VEN 219",
+        "VEN 235"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE 100A",
+        "ARE 112",
+        "ARE 113",
+        "ARE 118",
+        "ARE 130",
+        "ARE 140",
+        "ARE 150",
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV",
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 011B"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "FRE 021",
+        "FRE 021Y",
+        "FRE 022",
+        "FRE 022Y",
+        "FRE 023",
+        "FRE 023Y",
+        "GER/COM 011",
+        "GER 020",
+        "GER 021",
+        "GER 022",
+        "SPA 021",
+        "SPA 021V",
+        "SPA 021Y",
+        "SPA 022",
+        "SPA 022V",
+        "SPA 022Y",
+        "SPA 031",
+        "SPA 032",
+        "SPA 033",
+        "SPA 033V"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "VEN 190X",
+        "VEN 192",
+        "VEN 198",
+        "VEN 199",
+        "VEN 290",
+        "VEN 298"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose a maximum of 8 units:",
+        "May be increased to 12 units in exceptional circumstances."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "124"
+}

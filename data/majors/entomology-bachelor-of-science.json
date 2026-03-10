@@ -1,0 +1,125 @@
+{
+  "name": "Entomology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/entomology-bs/",
+  "degree_type": "B.S.",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Math",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 021A",
+        "MAT 021B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A",
+        "PHY 001B",
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "PLS 120"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Entomology",
+      "courses": [
+        "ENT 100",
+        "ENT 100L",
+        "ENT 102",
+        "MMG 162",
+        "PLB/PLP 148",
+        "PLP 120",
+        "ENT 105",
+        "ESP 100",
+        "EVE 101",
+        "BIS 105",
+        "BIS 105",
+        "BIS 102BIS 103",
+        "BIS 102VBIS 103",
+        "ABI 102ABI 103",
+        "ENT 103",
+        "ENT 104",
+        "ENT 107",
+        "ENT 109",
+        "NEM 110"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose at least 3 units:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "14",
+      "notes": [
+        "Upper division Entomology (ENT) & Nematology (NEM) courses.",
+        "Entomology (ENT)  courses.",
+        "Nematology (NEM) courses.",
+        "Upper division electives related to student's interest with approval of advisor. Any courses in the life sciences, scientific writing, or statistics will be automatically approved; see advisor for other choices.",
+        "Restricted Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "100"
+}

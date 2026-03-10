@@ -1,0 +1,368 @@
+{
+  "name": "Philosophy, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/philosophy/philosophy-ab/",
+  "degree_type": "B.A.",
+  "department": "Philosophy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "(1) Pre-Law",
+      "courses": [
+        "PHI 012",
+        "PHI 014",
+        "PHI 024",
+        "PHI 030",
+        "PHI 102",
+        "PHI 112",
+        "PHI 115",
+        "PHI 116",
+        "PHI 118",
+        "PHI 119"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(2) Pre-Medical",
+      "courses": [
+        "PHI 014",
+        "PHI 015",
+        "PHI 030",
+        "PHI 038",
+        "PHI 108",
+        "PHI 114",
+        "PHI 115",
+        "PHI 116"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(3) Business",
+      "courses": [
+        "PHI 014",
+        "PHI 102",
+        "PHI 112",
+        "PHI 114",
+        "PHI 115",
+        "PHI 116",
+        "PHI 117",
+        "PHI 118",
+        "PHI 119"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(4) Social Policy",
+      "courses": [
+        "PHI 014",
+        "PHI 024",
+        "PHI 101",
+        "PHI 102",
+        "PHI 114",
+        "PHI 115",
+        "PHI 116",
+        "PHI 117",
+        "PHI 118",
+        "PHI 119",
+        "PHI 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(5) Social Sciences",
+      "courses": [
+        "PHI 012",
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "PHI 101",
+        "PHI 102",
+        "PHI 103",
+        "PHI 109",
+        "PHI 118",
+        "PHI 131"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(6) Physical Sciences",
+      "courses": [
+        "PHI 012",
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "PHI 101",
+        "PHI 102",
+        "PHI 107",
+        "PHI 112",
+        "PHI 131"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(7) Biological Sciences",
+      "courses": [
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "PHI 038",
+        "PHI 101",
+        "PHI 102",
+        "PHI 108",
+        "PHI 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(8) Humanities & the Arts",
+      "courses": [
+        "PHI 014",
+        "PHI 021",
+        "PHI 022",
+        "PHI 024",
+        "PHI 101",
+        "PHI 102",
+        "PHI 103",
+        "PHI 105",
+        "PHI 114",
+        "PHI 116",
+        "PHI 118",
+        "PHI 123",
+        "PHI 141",
+        "PHI 175"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(9) Agricultural & Environmental Science & Policy",
+      "courses": [
+        "PHI 005",
+        "PHI 014",
+        "PHI 024",
+        "PHI 030",
+        "PHI 031",
+        "PHI 114",
+        "PHI 115",
+        "PHI 116",
+        "PHI 118",
+        "PHI 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "PHI 012"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course each from any three areas:"
+      ]
+    },
+    {
+      "heading": "(a) General Philosophy",
+      "courses": [
+        "PHI 001"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(b) Ancient Philosophy",
+      "courses": [
+        "PHI 021"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(c) Early Modern Philosophy",
+      "courses": [
+        "PHI 022"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(d) Philosophy of Mind",
+      "courses": [
+        "PHI 013G"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(e) Ethics",
+      "courses": [
+        "PHI 014",
+        "PHI 015",
+        "PHI 024"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(f) Philosophy of Science",
+      "courses": [
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "PHI 038"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(g) Philosophy of Language",
+      "courses": [
+        "PHI 017"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(h) Metaphysics",
+      "courses": [
+        "PHI 101"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "(i) Theory of Knowledge",
+      "courses": [
+        "PHI 102"
+      ],
+      "units": "16",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "36",
+      "notes": [
+        "Upper division units in Philosophy (100-199)",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "PHI 005",
+        "PHI 012",
+        "PHI 024",
+        "PHI 014",
+        "PHI 015",
+        "PHI 016"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "PHI 112",
+        "PHI 119"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy of Law",
+      "courses": [
+        "PHI 102",
+        "PHI 116",
+        "PHI 118",
+        "PHI 121",
+        "PHI 128",
+        "PHI 189F"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two courses from the following \"Philosophy of Law\" Group"
+      ]
+    },
+    {
+      "heading": "History of Philosophy",
+      "courses": [
+        "PHI 114",
+        "PHI 141",
+        "PHI 143",
+        "PHI 145",
+        "PHI 161",
+        "PHI 162",
+        "PHI 168",
+        "PHI 170",
+        "PHI 174",
+        "PHI 175",
+        "PHI 189A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course from the following \"History of Philosophy\" Group",
+        "Additional upper division elective units in philosophy (100-199).",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "PHI 012",
+        "PHI 015",
+        "PHI 038",
+        "PHI 024",
+        "PHI 030",
+        "PHI 031",
+        "PHI 032"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "PHI 112",
+        "PHI 121"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy of Science",
+      "courses": [
+        "PHI 107",
+        "PHI 108",
+        "PHI 128",
+        "PHI 189I"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course from the following \"Philosophy of Science\" Group",
+        "Additional upper division elective units in Philosophy (100-199).",
+        "Note: Admission to medical schools requires additional coursework not included in the Pre-Med Emphasis. Refer to Health Professions Advising for more information.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: The department offers an honors program, which gives qualifying majors the opportunity to work closely with faculty and graduate students. Information can be obtained on the Honors Program page of the Philosophy Department website."
+  ],
+  "total_units": "52"
+}

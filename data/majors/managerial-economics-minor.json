@@ -1,0 +1,87 @@
+{
+  "name": "Managerial Economics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/agricultural-resource-economics/managerial-economics-minor/",
+  "degree_type": "Minor",
+  "department": "Agricultural Resource Economics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 019",
+        "MAT 016",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose one series:"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 103"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE 100A",
+        "ARE 100B",
+        "ARE 106",
+        "ARE 107",
+        "ARE 112",
+        "ARE/ECN 115A",
+        "ARE 130",
+        "ARE 136",
+        "ARE 138",
+        "ARE 139",
+        "ARE 143",
+        "ARE 145",
+        "ARE 146",
+        "ARE 150",
+        "ARE 155",
+        "ARE 156",
+        "ARE 157",
+        "ARE 165",
+        "ARE 171",
+        "ARE 172",
+        "ARE 173",
+        "ARE/ESP 175",
+        "ARE 176"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 12 units from the following:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "28"
+}

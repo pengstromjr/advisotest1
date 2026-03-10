@@ -1,0 +1,27 @@
+{
+  "name": "Accounting, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/graduate-school-management/accounting-minor/",
+  "degree_type": "Minor",
+  "department": "Graduate School Management",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MGT 101",
+        "MGT 103",
+        "MGT 105",
+        "MGT 107",
+        "MGT 170"
+      ],
+      "units": "Units",
+      "notes": [
+        "To complete the minor, students must complete the 20 units of coursework with a GPA of 2.000 or better. Only up to 1 course may be taken on a P/NP basis.",
+        "The OASIS Minor Declaration form will only be approved after the student is enrolled in the final course for the minor, one minor course has been successfully completed and minor GPA is at least 2.000."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

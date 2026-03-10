@@ -1,0 +1,47 @@
+{
+  "name": "Sexuality Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/gender-sexuality-womens-studies/sexuality-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Gender Sexuality Womens Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "WMS 170",
+        "GSW 170"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Electives",
+      "courses": [
+        "ANT 139BN",
+        "ENL 186",
+        "HIS 184",
+        "HDE 012",
+        "HDE 012V",
+        "PSC 158",
+        "GSW 070",
+        "ASA 112",
+        "CHI 160",
+        "ENL 166",
+        "HIS 132",
+        "POL 152",
+        "SOC 120",
+        "WMS 140"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Choose two:",
+        "Choose two Field B courses (below) or seminars/individual study by petition to achieve a total of 18-20 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Advising: Gender, Sexuality & Women’s Studies Advising, 1200 Hart Hall; 530-752-6429."
+  ],
+  "total_units": "19"
+}

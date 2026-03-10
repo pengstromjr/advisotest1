@@ -1,0 +1,21 @@
+{
+  "name": "German, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/german-russian/german-minor/",
+  "degree_type": "Minor",
+  "department": "German Russian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Choose at least 20 upper division units of courses taught in German.",
+        "German (GER) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Plant Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-biology/plant-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose the 002 series or 004 series:",
+        "Choose the 008 or 118 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": [
+        "Choose the 017 series or 021 series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "12",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Plant Biology",
+      "courses": [
+        "PLB 105",
+        "PLB 111",
+        "PLB 112"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Research Internship",
+      "courses": [
+        "PLB 092",
+        "PLB 099",
+        "PLB 192",
+        "PLB 199"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose 3 units:",
+        "OR Equivalent"
+      ]
+    },
+    {
+      "heading": "Course Lists",
+      "courses": [],
+      "units": "99-112",
+      "notes": [
+        "Upper division courses in plant biology or other fields relevant to the student's interest chosen from the course lists below. Course in other departments may be allowed upon prior consultation with a PLB faculty advisor.",
+        "Depth Subject Matter Subtotal",
+        "Ecology",
+        "Evolution & Diversity",
+        "Plant Genetics",
+        "Plant Physiology, Development, & Molecular Biology"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 121",
+        "ESP 123",
+        "ESP 151",
+        "ESP 151L",
+        "ESP 155",
+        "ESP 155L",
+        "EVE 101",
+        "EVE 131",
+        "EVE 138",
+        "HYD 124",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "PLP 150",
+        "PLS 112",
+        "PLS 130",
+        "PLS/ESM 144"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 180L",
+        "BIS 181",
+        "EVE 100",
+        "EVE 102",
+        "EVE 140",
+        "EVE 149",
+        "PLB/PLS 116",
+        "PLB 143",
+        "PLB/PLP 148"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 180L",
+        "BIS 181",
+        "BIS 183",
+        "EVE 100",
+        "EVE 102",
+        "PLB 113",
+        "PLP/ENT/PLB 123",
+        "PLS 152"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 180L",
+        "BIS 181",
+        "BIS 183",
+        "BIT 160",
+        "BIT 161A",
+        "BIT 161B",
+        "MCB/PLB 126",
+        "PLB 113",
+        "PLB/MCB 126",
+        "PLP/ENT/PLB 123",
+        "PLP 130",
+        "PLS 157",
+        "PLS 158"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Programs: Students on the honors list may elect to include a maximum of 5 units of 194H in their major programs. For Dean's Honors List information, see the Honors &​ Awards for the appropriate College section."
+  ],
+  "total_units": "99"
+}

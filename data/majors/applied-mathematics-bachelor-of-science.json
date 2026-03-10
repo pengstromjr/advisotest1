@@ -1,0 +1,215 @@
+{
+  "name": "Applied Mathematics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/applied-mathematics-bs/",
+  "degree_type": "B.S.",
+  "department": "Mathematics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Calculus",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linear Algebra & Proof-Writing",
+      "courses": [
+        "MAT 022A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT/BIS 027A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT 067"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose one option:"
+      ]
+    },
+    {
+      "heading": "MATLAB",
+      "courses": [
+        "MAT 022AL"
+      ],
+      "units": "1",
+      "notes": [
+        "Equivalent MATLAB knowledge."
+      ]
+    },
+    {
+      "heading": "Differential Equations",
+      "courses": [
+        "MAT/BIS 027B",
+        "MAT 022B"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 032STA 100"
+      ],
+      "units": "40-47",
+      "notes": [
+        "or Other applied preparatory courses approved by your advisor.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
+        "MAT 119A",
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 135A",
+        "MAT 150A",
+        "MAT 185A",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "B. Enrichment Courses",
+      "courses": [
+        "MAT 111",
+        "MAT 185B",
+        "MAT 180",
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B",
+        "ATM 128",
+        "ARE 106",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C",
+        "EEC 130A",
+        "EEC 130B",
+        "ECH 140",
+        "ECI 114",
+        "ECI 153",
+        "ECN 122",
+        "ECN 140",
+        "ECS 120",
+        "ECS 122A",
+        "ECS 127",
+        "EME 115",
+        "ESP 150A",
+        "EVE 102",
+        "GEL 150A",
+        "LIN 177",
+        "PHY 104A",
+        "PHY 104B",
+        "PHY 104C",
+        "PHY 105A",
+        "PHY 105B",
+        "PHY 108",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 110C",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 115B",
+        "PHY 116A",
+        "PHY 116B",
+        "PSC 103A",
+        "PSC 103B",
+        "STA 131B",
+        "STA 131C",
+        "STA 141A",
+        "STA 141B",
+        "STA 141C"
+      ],
+      "units": "8",
+      "notes": [
+        "1. Choose two:",
+        "2. Choose one approved upper division course outside the Department of Mathematics with extensive use of mathematics. Please consult with a math advisor before selecting a course."
+      ]
+    },
+    {
+      "heading": "C. Capstone Courses",
+      "courses": [
+        "MAT 115B",
+        "MAT 118B",
+        "MAT 119B",
+        "MAT 135B",
+        "MAT 146",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 180",
+        "MAT 185B",
+        "MAT 189",
+        "MAT 192",
+        "MAT 194"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Department Honors: Students who meet the minimum GPA requirement for honors at graduation from the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
+  ],
+  "total_units": "91"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "English, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/english/english-minor/",
+  "degree_type": "Minor",
+  "department": "English",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Five upper division (100 level) English (ENL) courses; at least four of these must be literature courses (numbered 107-186).",
+        "English (ENL)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

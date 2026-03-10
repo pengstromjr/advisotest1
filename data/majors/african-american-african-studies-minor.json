@@ -1,0 +1,29 @@
+{
+  "name": "African American & African Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/african-american-african-studies/african-american-african-studies-minor/",
+  "degree_type": "Minor",
+  "department": "African American African Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AAS 010",
+        "AAS 012",
+        "AAS 015",
+        "AAS 017",
+        "AAS 018",
+        "AAS 080"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one of the following:",
+        "Select any five upper division courses offered in African American & African Studies.",
+        "African American & African Studies (AAS) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

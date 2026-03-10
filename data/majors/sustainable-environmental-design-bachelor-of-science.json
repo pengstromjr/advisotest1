@@ -1,0 +1,92 @@
+{
+  "name": "Sustainable Environmental Design, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/sustainable-environmental-design-bs/",
+  "degree_type": "B.S.",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ENL 003",
+        "UWP 001",
+        "UWP 001Y",
+        "UWP 001V",
+        "UWP 048",
+        "UWP 049",
+        "UWP 101",
+        "UWP 101Y",
+        "UWP 101V",
+        "UWP 102",
+        "UWP 104",
+        "CMN 001",
+        "CMN 001V",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "NAS 005",
+        "BIS 002B"
+      ],
+      "units": "8",
+      "notes": [
+        "English Writing/Oral Communication–Also counts toward English Composition Requirement",
+        "Choose one 4-unit course from each area below:"
+      ]
+    },
+    {
+      "heading": "Physical Sciences",
+      "courses": [
+        "LDA 003",
+        "LDA 021",
+        "LDA 050",
+        "LED 001",
+        "LED 002",
+        "LED 030",
+        "LDA 070"
+      ],
+      "units": "4",
+      "notes": [
+        "Statistics (STA)",
+        "Economics (ECN)",
+        "Political Science (POL)",
+        "Sociology (SOC)",
+        "Astronomy (AST)",
+        "Chemistry (CHE)",
+        "Geology (GEL)",
+        "Physics (PHY)",
+        "Soil Science (SSC)",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "LDA 141",
+        "LED 140",
+        "LED 142",
+        "ESP 171",
+        "LDA 190"
+      ],
+      "units": "4",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Choose 20 units of upper division courses chosen from courses related to Community Sustainability.",
+        "Internship; recommended",
+        "Restricted Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising Center: See Jana Krezo (Snjezana J Krezo), 530-752-9322; Galyna Erdman, 530-752-2244"
+  ],
+  "total_units": "101"
+}

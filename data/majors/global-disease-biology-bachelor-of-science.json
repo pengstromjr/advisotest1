@@ -1,0 +1,163 @@
+{
+  "name": "Global Disease Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-pathology/global-disease-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Pathology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Global Disease Biology",
+      "courses": [
+        "GDB 090"
+      ],
+      "units": "1",
+      "notes": []
+    },
+    {
+      "heading": "Science & Society",
+      "courses": [
+        "SAS 013"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Calculus",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics; choose one:",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 100",
+        "PLS 120"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biochemistry",
+      "courses": [
+        "BIS 105"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Pathology, Microbiology & Immunology",
+      "courses": [
+        "PMI 129Y"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Medicine & Epidemiology",
+      "courses": [
+        "VME 158"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Global Disease Biology",
+      "courses": [
+        "GDB 101",
+        "GDB 102",
+        "GDB 187",
+        "GDB 189",
+        "GDB 189D"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Pathogen/Disease Courses; choose two:",
+      "courses": [
+        "ENT 153",
+        "ENT 156",
+        "GDB 103",
+        "PLP 120",
+        "PMI 127",
+        "PMI 128",
+        "MMG 162"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "25",
+      "notes": [
+        "Focused specialty upper division courses as outlined in the latest version of the “Guide to the GDB Restricted Electives” and with approval of an advisor; 25 units is the minimum.",
+        "Guide to GDB Restricted Electives",
+        "Restricted Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "132"
+}

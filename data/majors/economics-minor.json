@@ -1,0 +1,61 @@
+{
+  "name": "Economics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/economics/economics-minor/",
+  "degree_type": "Minor",
+  "department": "Economics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ECN 100A",
+        "ECN 100AV",
+        "ECN 101",
+        "ECN 100B",
+        "ECN 103",
+        "ECN 106",
+        "ECN 106Y",
+        "ECN 116",
+        "ECN 121A",
+        "ECN 121B",
+        "ECN 122",
+        "ECN 125",
+        "ECN 130",
+        "ECN 130Y",
+        "ECN 131",
+        "ECN 131V",
+        "ECN 131Y",
+        "ECN 132",
+        "ECN 134",
+        "ECN 134Y",
+        "ECN 135",
+        "ECN 135Y",
+        "ECN 136",
+        "ECN 137",
+        "ECN 140",
+        "ECN 141",
+        "ECN 145",
+        "ECN 151A",
+        "ECN 151B",
+        "ECN 152",
+        "ECN 160A",
+        "ECN 160B",
+        "ECN 167",
+        "ARE 139",
+        "ARE 156",
+        "ARE 166",
+        "ARE/ESP 175",
+        "ARE 176"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 8 units:",
+        "Choose 4 units in upper division Economics (ECN) courses.",
+        "Economics (ECN)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

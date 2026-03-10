@@ -1,0 +1,56 @@
+{
+  "name": "Social Science Data Analysis & Visualization, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/political-science/social-science-data-analysis-visualization-minor/",
+  "degree_type": "Minor",
+  "department": "Political Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Lower Division Requirements",
+      "courses": [
+        "POL 012Y",
+        "POL 051",
+        "SOC 056",
+        "SOC 056Y"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Lower Division Requirements Subtotal"
+      ]
+    },
+    {
+      "heading": "Upper Division Requirements",
+      "courses": [
+        "ANT 109",
+        "CMN 102",
+        "CMN 102V",
+        "CMN 110",
+        "CMN 150V",
+        "CMN 151",
+        "CMN 152V",
+        "ECN 102",
+        "ECN 140",
+        "EDU 114",
+        "LIN 127",
+        "POL 114",
+        "PSC 103A",
+        "PSC 103B",
+        "PSC 104",
+        "PSC 107",
+        "PSC 120",
+        "SOC 103",
+        "SOC 106",
+        "SOC 195"
+      ],
+      "units": "20-23",
+      "notes": [
+        "Choose five:",
+        "Upper Division Requirements Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

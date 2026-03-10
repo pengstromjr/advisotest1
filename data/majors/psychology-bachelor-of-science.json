@@ -1,0 +1,521 @@
+{
+  "name": "Psychology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/psychology/psychology-bs/",
+  "degree_type": "B.S.",
+  "department": "Psychology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "PSC/CMN/SOC/POL 012Y",
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose one series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 010",
+        "PHY 010C",
+        "PHY 010CY",
+        "PHY 007APHY 007B",
+        "PHY 010",
+        "PHY 010C",
+        "PHY 010CY"
+      ],
+      "units": "3-8",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B",
+        "CHE 128ACHE 128B"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one series:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "NPB 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience; choose two:",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PSC 130",
+        "PSC 131",
+        "PSC 132",
+        "PSC 133/CGS 107/ECN 107",
+        "PSC 135",
+        "PSC 136",
+        "PSC 139"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Core Group B: Psychobiology; choose three:",
+      "courses": [
+        "PSC 101",
+        "PSC 113",
+        "PSC 121",
+        "PSC 122/NPB 150",
+        "PSC 123/NPB 152",
+        "PSC/NPB 124",
+        "PSC 125",
+        "PSC 126",
+        "PSC 137",
+        "PSC 159"
+      ],
+      "units": "10-12",
+      "notes": []
+    },
+    {
+      "heading": "Core Group C: Social/Personality; choose one:",
+      "courses": [
+        "PSC 151",
+        "PSC 151V",
+        "PSC 152",
+        "PSC 154",
+        "PSC 154V",
+        "PSC 158",
+        "PSC 161",
+        "PSC 162",
+        "PSC 165",
+        "PSC 168"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Core Group D: Developmental; choose one:",
+      "courses": [
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "PSC 141",
+        "PSC 142",
+        "PSC 143",
+        "PSC 145",
+        "PSC 146",
+        "PSC 148"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Approved Psychology Electives",
+      "courses": [
+        "PSC 197T",
+        "PSC 103A",
+        "PSC 103B",
+        "PSC 104",
+        "PSC 107",
+        "PSC 120",
+        "PSC 124L",
+        "PSC 134",
+        "PSC 138",
+        "PSC 150",
+        "PSC 150V",
+        "PSC 153",
+        "PSC 155",
+        "PSC 156",
+        "PSC 157",
+        "PSC 169",
+        "PSC 170",
+        "PSC 175",
+        "PSC 180A",
+        "PSC 180B",
+        "PSC 180C",
+        "PSC 180D",
+        "PSC 182",
+        "PSC 185",
+        "PSC 190",
+        "PSC 192",
+        "PSC 194HA",
+        "PSC 194HB",
+        "PSC 198",
+        "PSC 199"
+      ],
+      "units": "",
+      "notes": [
+        "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
+      ]
+    },
+    {
+      "heading": "Additional Non-Psychology Elective Options",
+      "courses": [
+        "AAS 141",
+        "ANT 132",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 123",
+        "CMN 120",
+        "CMN 120V",
+        "CMN 122",
+        "CNS 100",
+        "EDU 110",
+        "EXB 102",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C",
+        "HDE/ENT 117",
+        "HDE 163",
+        "LIN 171",
+        "NPB 102",
+        "NPB 168",
+        "POL 170",
+        "SOC 126",
+        "SOC 135",
+        "SOC 152",
+        "SOC 171"
+      ],
+      "units": "47-51",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "PSC/CMN/SOC/POL 012Y",
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002AH",
+        "CHE 002BH",
+        "CHE 010",
+        "CHE 002ACHE 002B",
+        "CHE 002AHCHE 002BH",
+        "CHE 010"
+      ],
+      "units": "4-10",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 010",
+        "PHY 010C",
+        "PHY 010CY",
+        "PHY 007APHY 007B",
+        "PHY 010",
+        "PHY 010C",
+        "PHY 010CY"
+      ],
+      "units": "3-8",
+      "notes": []
+    },
+    {
+      "heading": "Biology",
+      "courses": [
+        "BIS 002A",
+        "BIS 002A",
+        "BIS 010",
+        "ANT 001",
+        "MCB 010",
+        "NPB 010"
+      ],
+      "units": "5-8",
+      "notes": [
+        "OR a combination of:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Psychology Statistical Analysis and Applied Psychometrics Courses",
+      "courses": [
+        "PSC 103A",
+        "PSC 103B",
+        "PSC 104"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 106STA 108",
+        "STA 130ASTA 130B",
+        "STA 131ASTA 131B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose one series:"
+      ]
+    },
+    {
+      "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience; choose two:",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PSC 130",
+        "PSC 131",
+        "PSC 132",
+        "PSC 133/CGS 107/ECN 107",
+        "PSC 135",
+        "PSC 136",
+        "PSC 139"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Core Group B: Psychobiology: choose two:",
+      "courses": [
+        "PSC 101",
+        "PSC 113",
+        "PSC 121",
+        "PSC 122/NPB 150",
+        "PSC 123/NPB 152",
+        "PSC/NPB 124",
+        "PSC 125",
+        "PSC 126",
+        "PSC 137",
+        "PSC 159"
+      ],
+      "units": "6-8",
+      "notes": []
+    },
+    {
+      "heading": "Core Group C: Social/Personality",
+      "courses": [
+        "PSC 151",
+        "PSC 151V",
+        "PSC 152",
+        "PSC 154",
+        "PSC 154V",
+        "PSC 158",
+        "PSC 161",
+        "PSC 162",
+        "PSC 165",
+        "PSC 168"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Core Group D: Developmental",
+      "courses": [
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "PSC 141",
+        "PSC 142",
+        "PSC 143",
+        "PSC 145",
+        "PSC 146",
+        "PSC 148"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Approved Psychology Electives",
+      "courses": [
+        "PSC 197T",
+        "PSC 120",
+        "PSC 124L",
+        "PSC 134",
+        "PSC 138",
+        "PSC 150",
+        "PSC 150V",
+        "PSC 153",
+        "PSC 155",
+        "PSC 156",
+        "PSC 157",
+        "PSC 169",
+        "PSC 170",
+        "PSC 175",
+        "PSC 180A",
+        "PSC 180B",
+        "PSC 180C",
+        "PSC 180D",
+        "PSC 182",
+        "PSC 185",
+        "PSC 190",
+        "PSC 192",
+        "PSC 194HA",
+        "PSC 194HB",
+        "PSC 198",
+        "PSC 199"
+      ],
+      "units": "",
+      "notes": [
+        "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
+      ]
+    },
+    {
+      "heading": "Additional Non-Psychology Elective Options",
+      "courses": [
+        "AAS 141",
+        "ANT 132",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 123",
+        "CMN 120",
+        "CMN 120V",
+        "CMN 122",
+        "CNS 100",
+        "EDU 110",
+        "EXB 102",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C",
+        "HDE 117",
+        "ENT 117",
+        "HDE 163",
+        "LIN 171",
+        "NPB 102",
+        "NPB 168",
+        "POL 170",
+        "SOC 126",
+        "SOC 135",
+        "SOC 152",
+        "SOC 171"
+      ],
+      "units": "45-51",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: In order to be eligible for high or highest honors in Psychology, the student must both meet the college criteria for honors and complete a research project involving a minimum of 6 units of coursework over at least two quarters which represents an original analysis of data on psychological phenomena. Courses PSC 194HA-PSC 194HB or other approved courses can be used to satisfy the unit requirement. This project is to be written in thesis form and approved by the department. The quality of the th",
+    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities."
+  ],
+  "total_units": "99"
+}

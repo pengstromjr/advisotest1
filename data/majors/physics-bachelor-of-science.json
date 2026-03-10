@@ -1,0 +1,197 @@
+{
+  "name": "Physics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/physics/physics-bs/",
+  "degree_type": "B.S.",
+  "department": "Physics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040",
+        "PHY 080"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 105B",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 110C",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 115B",
+        "PHY 102",
+        "PHY 104B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 122A",
+        "PHY 122A",
+        "PHY 122B",
+        "PHY 116APHY 116BPHY 116C"
+      ],
+      "units": "4-12",
+      "notes": []
+    },
+    {
+      "heading": "Concentration Courses",
+      "courses": [
+        "PHY 154",
+        "PHY 155",
+        "PHY 140A",
+        "PHY 140B",
+        "PHY 129A",
+        "PHY 130A",
+        "PHY 130B"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose two courses from one specialty and one course from a different specialty:",
+        "General Relativity/Astrophysical Applications",
+        "Condensed Matter",
+        "Nuclear/Particle Physics"
+      ]
+    },
+    {
+      "heading": "Additional Upper Division Physics Courses",
+      "courses": [
+        "PHY 194HAPHY 194HB",
+        "PHY 195",
+        "PHY 198",
+        "PHY 199"
+      ],
+      "units": "0-12",
+      "notes": [
+        "Additional upper division Physics courses1, for a total of 15 upper-division Physics courses of 3 or more units each. With prior departmental approval, one  course from mathematics, engineering, or natural science may be used to meet this  requirement. May include only one from:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009APHY 009BPHY 009CPHY 009D",
+        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 040",
+        "PHY 080"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 108",
+        "PHY 108L",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 115B",
+        "PHY 102",
+        "PHY 104B",
+        "PHY 151",
+        "PHY 152",
+        "PHY 153",
+        "PHY 156"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 122A",
+        "PHY 122B",
+        "PHY 157"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [
+        "PHY 105B",
+        "PHY 110C",
+        "PHY 116A",
+        "PHY 129A",
+        "PHY 130A",
+        "PHY 130B",
+        "PHY 150",
+        "PHY 154",
+        "PHY 155",
+        "GEL 163",
+        "PHY 194HAPHY 194HB",
+        "PHY 195",
+        "PHY 198",
+        "PHY 199"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose two:",
+        "May include only one from:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Recommended",
+      "courses": [
+        "AST 025"
+      ],
+      "units": "107-122",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "101"
+}

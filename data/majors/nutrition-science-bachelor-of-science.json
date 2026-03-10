@@ -1,0 +1,392 @@
+{
+  "name": "Nutrition Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/nutrition/nutrition-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Nutrition",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B",
+        "CHE 128ACHE 128BCHE 129A"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Nutrition",
+      "courses": [
+        "NUT 010",
+        "NUT 010V",
+        "NUT 010Y"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V",
+        "SOC 046"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "PLS 120",
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "The remaining preparatory subject matter is based on which major option you choose:",
+        "Nutritional Biology Option",
+        "Nutrition in Public Health Option",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biochemistry",
+      "courses": [
+        "ABI 102ABI 103",
+        "BIS 102BIS 103",
+        "BIS 102VBIS 103"
+      ],
+      "units": "6-10",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Food Science & Technology",
+      "courses": [
+        "FST 100A",
+        "FST 100B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 101",
+        "NPB 101L"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Nutrition",
+      "courses": [
+        "NUT 111AY",
+        "NUT 111B",
+        "NUT 112",
+        "NUT 116A"
+      ],
+      "units": "3",
+      "notes": [
+        "The remaining depth subject matter is based on which major option you chose when completing your preparatory courses:",
+        "Nutritional Biology Option",
+        "Nutrition in Public Health Option",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 002",
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V",
+        "MAT 017AMAT 017B",
+        "PHY 001APHY 001B",
+        "PHY 007APHY 007B"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose a series:",
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "SOC 003",
+        "SOC 003V",
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y",
+        "AMS/FST 055",
+        "CHI 010",
+        "CHI 010V",
+        "CHI 021",
+        "CHI 040",
+        "CHI 042",
+        "CRD 020",
+        "ECN 001B",
+        "ECN 001BV",
+        "ETX 010",
+        "FST 010",
+        "FST 010V",
+        "GSW 050",
+        "GSW 050V",
+        "HDE 012",
+        "HDE 012V",
+        "IAD 010",
+        "NAS 001",
+        "NUT 011",
+        "NUT 099",
+        "PHI 015",
+        "POL 001",
+        "POL 001Y",
+        "POL 003",
+        "POL 005",
+        "SAS 002",
+        "SAS 002V",
+        "SAS 090F"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose 3-5 units from:"
+      ]
+    },
+    {
+      "heading": "Requirements",
+      "courses": [
+        "NPB 114",
+        "NUT/ETX 104",
+        "NUT 117"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "NUT 105",
+        "NUT 113",
+        "NUT 114",
+        "NUT 115",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 118",
+        "NUT 119A",
+        "NUT 120AN",
+        "NUT/ETX 127",
+        "NUT 129",
+        "NUT 130",
+        "NUT 141",
+        "NUT 190",
+        "NUT 192",
+        "NUT 199",
+        "BIM 152",
+        "BIS 104",
+        "CHA 101/EXB 106",
+        "CHA 101L/EXB 106L",
+        "CHE 130A",
+        "CHE 130B",
+        "ENT 156",
+        "ENT 156L",
+        "ETX/FST 128",
+        "ETX 140",
+        "EXB 110",
+        "EXB 116",
+        "FST 104",
+        "GDB 103",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C",
+        "MCB 120",
+        "MCB 120L",
+        "MCB 162",
+        "MMG 111",
+        "MMG 162",
+        "MMI 130",
+        "MMI 188A",
+        "MMI 188B",
+        "NPB 110A",
+        "NPB 116",
+        "NPB 128",
+        "NPB 132",
+        "NPB 134",
+        "PLB/PLP 148",
+        "PMI 126",
+        "PMI 127",
+        "PMI 129Y",
+        "UWP 102B",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY"
+      ],
+      "units": "20",
+      "notes": [
+        "Choose at least 9 units from Nutrition:",
+        "The remaining balance of restricted elective units may be chosen from any of the following courses:"
+      ]
+    },
+    {
+      "heading": "Requirements",
+      "courses": [
+        "NUT 113",
+        "NUT 118",
+        "SPH 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "NUT/ETX 104",
+        "NUT 105",
+        "NUT 114",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 117",
+        "NUT 119A",
+        "NUT 120AN",
+        "NUT 129",
+        "NUT 130",
+        "NUT 190",
+        "NUT 192",
+        "NUT 199"
+      ],
+      "units": "22",
+      "notes": [
+        "Choose at least 9 units from Nutrition:",
+        "The remaining balance of restricted elective units may be chosen from any of the following courses:"
+      ]
+    },
+    {
+      "heading": "Community Health & Education",
+      "courses": [
+        "CMN 165",
+        "EDU 110",
+        "EDU 120",
+        "EDU 120V",
+        "HDE 135",
+        "HDE 135V",
+        "PLS 193",
+        "PSC 126",
+        "PSC 130"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Cultural Diversity & Community Change",
+      "courses": [
+        "AAS 100",
+        "ARE 112",
+        "CMN 136",
+        "CMN 136V",
+        "CRD 152",
+        "CRD 176",
+        "IAD 103",
+        "SAS 130"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Health Policy",
+      "courses": [
+        "ARE 120",
+        "POL 109"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Human & Applied Sciences",
+      "courses": [
+        "CHA 101/EXB 106",
+        "CHA 101L/EXB 106L",
+        "CHI 140A",
+        "EXB 101",
+        "EXB 102",
+        "EXB 110",
+        "EXB 117",
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Physiology & Applied Sciences",
+      "courses": [
+        "ETX 101",
+        "FST/ETX 128",
+        "NPB 132"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Public Health Sciences",
+      "courses": [
+        "SPH 103",
+        "SPH 104",
+        "SPH 106",
+        "SPH 108",
+        "SPH 109",
+        "SPH 113",
+        "SPH 120"
+      ],
+      "units": "33",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "138"
+}

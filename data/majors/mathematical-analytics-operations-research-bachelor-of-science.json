@@ -1,0 +1,168 @@
+{
+  "name": "Mathematical Analytics & Operations Research, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/mathematical-analytics-operations-research-bs/",
+  "degree_type": "B.S.",
+  "department": "Mathematics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Linear Algebra & Proof-Writing",
+      "courses": [
+        "MAT 022A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT/BIS 027A",
+        "MAT 108",
+        "MAT 108V",
+        "MAT 067"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose one option:"
+      ]
+    },
+    {
+      "heading": "MATLAB",
+      "courses": [
+        "MAT 022AL"
+      ],
+      "units": "0-1",
+      "notes": [
+        "Equivalent MATLAB knowledge."
+      ]
+    },
+    {
+      "heading": "Differential Equations",
+      "courses": [
+        "MAT/BIS 027B",
+        "MAT 022B"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 135A",
+        "MAT 135B",
+        "MAT 150A",
+        "MAT 168",
+        "MAT 170",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "B. Enrichment Courses",
+      "courses": [
+        "MAT 111",
+        "MAT 185B",
+        "STA 131B",
+        "STA 131C",
+        "STA 137",
+        "STA 141A",
+        "STA 141B",
+        "STA 141C",
+        "ECN 100A",
+        "ECN 100AV",
+        "ARE 100A",
+        "ECN 100B",
+        "ARE 100B",
+        "ECN 121A",
+        "ECN 121B",
+        "ECN 122",
+        "ECN 134",
+        "ECN 134Y",
+        "ARE 155",
+        "ARE 156",
+        "ARE 157"
+      ],
+      "units": "8",
+      "notes": [
+        "1. Enrichment A",
+        "Choose two:",
+        "2. Enrichment B",
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "C. Capstone Course",
+      "courses": [
+        "MAT 115B",
+        "MAT 118B",
+        "MAT 119B",
+        "MAT 135B",
+        "MAT 146",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 180",
+        "MAT 185B",
+        "MAT 189",
+        "MAT 192",
+        "MAT 194"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
+  ],
+  "total_units": "94"
+}

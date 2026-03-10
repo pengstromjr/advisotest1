@@ -1,0 +1,91 @@
+{
+  "name": "Systems & Synthetic Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-biology/systems-synthetic-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C",
+        "BIS 015L",
+        "BIS 015LV",
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C",
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "17",
+      "notes": [
+        "Biological Sciences",
+        "Chemistry",
+        "Mathematics",
+        "Physics",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "STA 100",
+        "STA 101",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 105",
+        "BIS 103",
+        "BIS 104",
+        "BIM 143",
+        "BIS 185L"
+      ],
+      "units": "8",
+      "notes": [
+        "Statistics",
+        "Genetics",
+        "Biochemistry, Bioenergetics, & Metabolism",
+        "Cell Biology",
+        "Systems Biology",
+        "Biomolecular Systems Engineering",
+        "Systems & Synthetic Biology"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "BIM 105",
+        "BIM 117",
+        "BIM 140",
+        "BIM 140L",
+        "BIM 152",
+        "BIS/MAT 107",
+        "BIS 180L",
+        "BIS 183",
+        "BIT 150",
+        "BIT 160",
+        "BIT 161B",
+        "EBS 161",
+        "MCB 120",
+        "MCB 120L",
+        "MCB 121",
+        "MCB 123",
+        "MCB 124",
+        "MCB/PLB 126",
+        "MCB 160L",
+        "MCB 182",
+        "MMG 115",
+        "MMG 170"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose three or more upper division courses not used to satisfy another requirement; 9 unit minimum:",
+        "Depth Subject Matter Total"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "96"
+}

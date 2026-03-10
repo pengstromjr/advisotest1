@@ -1,0 +1,98 @@
+{
+  "name": "Contemporary Leadership, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/science-society/contemporary-leadership-minor/",
+  "degree_type": "Minor",
+  "department": "Science Society",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Core Leadership Courses",
+      "courses": [
+        "SAS 130",
+        "SAS 192",
+        "SAS 190X"
+      ],
+      "units": "4",
+      "notes": [
+        "Core Leadership Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Ethics & Values",
+      "courses": [
+        "ANS 170",
+        "ECS 188",
+        "ENL 107",
+        "PHI 115",
+        "PHI 116",
+        "PHI 117",
+        "PSC 175"
+      ],
+      "units": "",
+      "notes": [
+        "Students are required to complete 4 units from each of the following four categories; all courses are 4 units except where noted:"
+      ]
+    },
+    {
+      "heading": "Communication, Interpersonal Relationships & Human Dynamics",
+      "courses": [
+        "ANT 139AN",
+        "CMN 136",
+        "CMN 136V",
+        "CRD 172",
+        "LIN 163",
+        "PSC 151",
+        "PSC 151V",
+        "SOC 126",
+        "SOC 132",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Organization Structure & Cultures",
+      "courses": [
+        "AMS 125",
+        "CRD 152",
+        "CRD 154",
+        "CRD 158",
+        "CRD 164",
+        "SOC 156",
+        "SOC 180A",
+        "WMS 140"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Multiculturalism, the Global Community & Social Change",
+      "courses": [
+        "AMS 153",
+        "AMS 156",
+        "CRD 176",
+        "ENL 179",
+        "HIS 173",
+        "NAS 134",
+        "POL 124",
+        "POL 130"
+      ],
+      "units": "15-16",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

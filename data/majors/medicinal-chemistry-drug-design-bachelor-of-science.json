@@ -1,0 +1,116 @@
+{
+  "name": "Medicinal Chemistry & Drug Design, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/medicinal-chemistry-drug-design-bs/",
+  "degree_type": "B.S.",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 124A",
+        "CHE 130A",
+        "CHE 130B",
+        "CHE 135",
+        "CHE 107ACHE 107B",
+        "CHE 110ACHE 110BCHE 110C",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129ACHE 129BCHE 129C",
+        "BIS 102",
+        "BIS 102V",
+        "CHE 131",
+        "CHE 150",
+        "ANS 170",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "BIT 171",
+        "CHE 131",
+        "CHE 150",
+        "CHE 199",
+        "CHE 194HA",
+        "ETX 103A",
+        "MCB 123",
+        "MCB 124",
+        "MCB/PLB 126",
+        "NPB 100",
+        "NPB 101",
+        "NPB 168",
+        "PLB/MCB 126",
+        "VMB 101Y",
+        "VMB 101V"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose a series:",
+        "Choose 118 series or 128 & 129 series:",
+        "Choose two:",
+        "Choose at least four; not used to satisfy the above requirements:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research on the department's website."
+  ],
+  "total_units": "97"
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Chicana/Chicano Studies, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chicana-chicano-studies/chicana-chicano-studies-ab/",
+  "degree_type": "B.A.",
+  "department": "Chicana Chicano Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "CHI 010",
+        "CHI 010V",
+        "CHI 050",
+        "CHI 021",
+        "CHI 023",
+        "CHI 030",
+        "CHI 040",
+        "CHI 060",
+        "CHI 065",
+        "CHI 070",
+        "CHI 073"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose two:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Group A",
+      "courses": [
+        "CHI 100",
+        "CHI 102A",
+        "CHI 102B",
+        "CHI 102C",
+        "CHI 110",
+        "CHI 110V",
+        "CHI 111",
+        "CHI 112",
+        "CHI 113",
+        "CHI 113V",
+        "CHI 130",
+        "CHI 131",
+        "CHI 132",
+        "CHI 148",
+        "CHI 150",
+        "CHI 181",
+        "CHI 184"
+      ],
+      "units": "",
+      "notes": [
+        "32 upper division units; from Core Group A, B, and C, a minimum of 12 units must be taken in one area and 8 units taken in the other two areas; a minimum of 4 units must be completed in Core Group D.",
+        "Please note that while some courses are listed in multiple groups, a given course can only fulfill one group requirement."
+      ]
+    },
+    {
+      "heading": "Group B",
+      "courses": [
+        "CHI 110",
+        "CHI 110V",
+        "CHI 112",
+        "CHI 113",
+        "CHI 113V",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 123",
+        "CHI 141",
+        "CHI 141V",
+        "CHI 145S",
+        "CHI 147S",
+        "CHI 148"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group C",
+      "courses": [
+        "CHI 154",
+        "CHI 155",
+        "CHI 156",
+        "CHI 157",
+        "CHI 160",
+        "CHI 161",
+        "CHI 165",
+        "CHI 170",
+        "CHI/ART 171",
+        "CHI 172"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group D",
+      "courses": [
+        "CHI 102A",
+        "CHI 102B",
+        "CHI 102C",
+        "CHI 125S",
+        "CHI 135S",
+        "CHI 140A",
+        "CHI 141",
+        "CHI 141V",
+        "CHI 145S",
+        "CHI 146S",
+        "CHI 147S",
+        "CHI 180",
+        "CHI 192",
+        "CHI 194HA",
+        "CHI 194HB",
+        "CHI 194HC",
+        "CHI 198",
+        "CHI 199"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:",
+        "Any upper division letter-graded coursework taken abroad."
+      ]
+    },
+    {
+      "heading": "Comparative Ethnicity/Gender",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "Choose two upper division courses from any of the following areas:",
+        "African American & African Studies (AAS)",
+        "Asian American Studies (ASA)",
+        "Native American Studies (NAS)",
+        "Gender, Sexuality & Women's Studies (GSW)",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "56"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Jewish Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/history/jewish-studies-minor/",
+  "degree_type": "Minor",
+  "department": "History",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HIS 011",
+        "JST 010",
+        "RST 012",
+        "RST 021",
+        "RST 023",
+        "COM 147",
+        "ENL 171A",
+        "GER/JST 116",
+        "GER 117",
+        "GER 127",
+        "GER 141",
+        "HIS 011",
+        "HIS 110",
+        "HIS 112A",
+        "HIS 112B",
+        "HIS 112C",
+        "HIS 113",
+        "HIS 142A",
+        "HIS 142B",
+        "JST 101",
+        "JST 110",
+        "JST 111",
+        "JST 112",
+        "JST 120",
+        "JST 121",
+        "RST 012",
+        "RST 102",
+        "RST 123",
+        "RST 124",
+        "RST 125",
+        "RST 126",
+        "RST 130",
+        "RST 135",
+        "RUS 120",
+        "POL 135",
+        "POL 136",
+        "POL 179",
+        "SOC 174"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose four:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Jewish Studies Advising Contact"
+  ],
+  "total_units": "20"
+}

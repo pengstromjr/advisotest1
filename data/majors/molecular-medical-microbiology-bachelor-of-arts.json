@@ -1,0 +1,115 @@
+{
+  "name": "Molecular & Medical Microbiology, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/microbiology-molecular-genetics/molecular-medical-microbiology-ab/",
+  "degree_type": "B.A.",
+  "department": "Microbiology Molecular Genetics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 004ACHE 004B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C"
+      ],
+      "units": "10",
+      "notes": [
+        "Choose the 002 series or 004 series:",
+        "Choose the 008 series or 118 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001APHY 001B",
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose the 001 series or 007 series:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MIC 105",
+        "MIC 105L",
+        "MMG 111"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Areas of Study",
+      "courses": [
+        "MMG 115",
+        "MMG 170",
+        "MMG 162",
+        "MMI 188A",
+        "MMI 188B",
+        "PMI 126",
+        "PMI 128",
+        "BIS 181",
+        "BIS 183",
+        "FST 104",
+        "MCB 121",
+        "MCB 182",
+        "MMG 120",
+        "MMG 172",
+        "MMG 175",
+        "PLP 130",
+        "SSC 111"
+      ],
+      "units": "6-7",
+      "notes": [
+        "Choose at least one course from each of the areas of study below:",
+        "1. Microbial Genetics",
+        "2. Virology or Immunology",
+        "Choose additional course work from the list below, to achieve a total of 36 or more units. Upper division Microbiology courses not used in satisfaction of any other requirement:",
+        "Or upper division courses in related fields, relevant to the student’s interest and chosen in consultation with the advisor.",
+        "No more than 3 units of variable-unit courses (numbered 192, 198, or 199) may be used for credit in this category.",
+        "Note: Although a course may be listed in more than one category, that course may satisfy only one requirement in the entire major.",
+        "Depth Subject Matter Subtotal",
+        "Total Units"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: Miriam Markum, Ph.D., Kenjiro W. Quides, Ph.D.",
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Hall (formerly known as Sciences Laboratory Building); 530-752-0410."
+  ],
+  "total_units": "81"
+}

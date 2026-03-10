@@ -1,0 +1,85 @@
+{
+  "name": "Agricultural Systems & Environment, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/agricultural-systems-environment-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "PLS 120"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C",
+        "PLS 002"
+      ],
+      "units": "4-15",
+      "notes": [
+        "Choose one:",
+        "Completion of BIS requirement."
+      ]
+    },
+    {
+      "heading": "Areas of Specialization",
+      "courses": [],
+      "units": "18-20",
+      "notes": [
+        "Choose one of the two following tracks:",
+        "Sustainable Agriculture Track",
+        "Range & Natural Resources Track"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PLS 150",
+        "SSC 100",
+        "PLS 105",
+        "PLS 176",
+        "ENT 110",
+        "PLS 112",
+        "PLS 113",
+        "PLS 114",
+        "PLS 170A",
+        "PLS 170B"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose a minimum of 6 units:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PLS 130",
+        "ESP 123",
+        "ESP 172",
+        "PLS 112",
+        "PLS 150",
+        "PLS 163",
+        "WFC 110",
+        "WFC 151"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose a minimum of 15 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "8"
+}

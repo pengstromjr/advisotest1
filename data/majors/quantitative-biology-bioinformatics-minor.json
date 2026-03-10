@@ -1,0 +1,119 @@
+{
+  "name": "Quantitative Biology & Bioinformatics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-sciences/quantitative-biology-bioinformatics-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one:",
+        "OR the equivalent.",
+        "The programming requirement may be satisfied by previous experience and therefore may not entail college course credit. Please see your minor advisor for this determination and its possible impact on your unit requirements for the minor."
+      ]
+    },
+    {
+      "heading": "Quantitative Biology",
+      "courses": [
+        "BIS/MAT 107",
+        "MAT 124",
+        "BIS 107",
+        "MAT 107",
+        "BIS 027A/MAT 027A",
+        "MAT 022A",
+        "MAT 124",
+        "MAT 027A",
+        "MAT 027B",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Bioinformatics",
+      "courses": [
+        "ECS 124",
+        "ECS 129"
+      ],
+      "units": "4",
+      "notes": [
+        "Core Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Quantitative & Computational Preparation",
+      "courses": [
+        "BIS/MAT 107",
+        "BIM 105",
+        "ECS 122A",
+        "ECS 130",
+        "ECS 165A",
+        "ECS 171",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C",
+        "MAT 135A",
+        "STA 101",
+        "STA 108",
+        "STA 130A",
+        "STA 131A",
+        "STA 141A",
+        "BIS 107",
+        "MAT 107",
+        "BIS 027A/MAT 027A",
+        "MAT 022A",
+        "MAT 124",
+        "MAT 027A",
+        "MAT 027B",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Quantitative & Computational Preparation Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "BIS 180L",
+        "BIS 181",
+        "BIS 183",
+        "BIM 102",
+        "BIM 140",
+        "BIM 141",
+        "BIT 150",
+        "EVE 102",
+        "EVE 103",
+        "EVE 104",
+        "EVE 175",
+        "MIC 105",
+        "MCB 123",
+        "MCB 143",
+        "MCB 182",
+        "NPB 166",
+        "NPB 167",
+        "ESP 121",
+        "WFC 122"
+      ],
+      "units": "5-10",
+      "notes": [
+        "Complete two or more from the following list to achieve a total of 18-26 units:",
+        "Restricted Electives Subtotal",
+        "Total Units"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

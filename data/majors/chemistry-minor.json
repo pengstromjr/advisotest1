@@ -1,0 +1,29 @@
+{
+  "name": "Chemistry, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/chemistry-minor/",
+  "degree_type": "Minor",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 105",
+        "CHE 107A",
+        "CHE 107B",
+        "CHE 118A",
+        "CHE 124A",
+        "CHE 118B",
+        "CHE 124B",
+        "CHE 124C"
+      ],
+      "units": "17",
+      "notes": [
+        "Choose at least one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Precision Agriculture, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/precision-agriculture-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ESM 186"
+      ],
+      "units": "9",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses",
+      "courses": [
+        "ABT 181N",
+        "ABT/HYD 182",
+        "PLS 100A",
+        "PLS 100AL",
+        "PLS 100B",
+        "PLS 100BL",
+        "PLS 100C",
+        "PLS 100CL",
+        "SSC 109",
+        "PLS 120",
+        "STA 100"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose 9 or more units:",
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

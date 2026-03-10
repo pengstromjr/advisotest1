@@ -1,0 +1,42 @@
+{
+  "name": "Oceanography, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/earth-planetary-sciences/oceanography-minor/",
+  "degree_type": "Minor",
+  "department": "Earth Planetary Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "GEL/ESP 150A",
+        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
+        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "ATM 121A",
+        "ATM 121B",
+        "ATM 158",
+        "ESP 124",
+        "ESP 152",
+        "ETX 120",
+        "ETX/NUT 127",
+        "EVE 106",
+        "EVE 112",
+        "EVE 114",
+        "EVE 115",
+        "GEL 108",
+        "GEL 109",
+        "GEL 152",
+        "WFC 120",
+        "WFC 157"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:",
+        "Choose additional courses from above and/or from the following list to reach at least 18 total units for the minor:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

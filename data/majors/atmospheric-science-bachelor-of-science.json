@@ -1,0 +1,124 @@
+{
+  "name": "Atmospheric Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/atmospheric-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Written Expression. Also Counts Toward College English Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 102H",
+        "UWP 102I",
+        "UWP 102J",
+        "UWP 102L",
+        "UWP 102M",
+        "UWP 102N",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104I",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104J",
+        "UWP 104T"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Written Expression Subtotal"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ATM 060",
+        "CHE 002A",
+        "CHE 002B",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 027A",
+        "BIS 027A",
+        "MAT 022B",
+        "MAT 027B",
+        "BIS 027B",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PLS 002",
+        "STA 013",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "or course selected with advisor's approval.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ATM 110",
+        "ATM 111",
+        "ATM 111LY",
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B",
+        "ATM 124",
+        "ATM 128"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Internship",
+      "courses": [
+        "ATM 192",
+        "ATM 199",
+        "ENG 006",
+        "ATM 150"
+      ],
+      "units": "2",
+      "notes": [
+        "2 units from:",
+        "Choose two upper division Atmospheric Science (ATM) courses selected with advisor's approval; excluding 192 & 199.",
+        "Choose one computer numerical programming class:",
+        "Course selected with advisor's approval.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "15",
+      "notes": [
+        "Coordinated group of courses (informal minor area) to be chosen with advisor's approval from mathematics, computer science, environmental studies, communication, resource management, or a physical or biological science (at least 10 upper division units)",
+        "Restricted Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "123"
+}

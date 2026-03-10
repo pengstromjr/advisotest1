@@ -1,0 +1,68 @@
+{
+  "name": "Luso-Brazilian Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/spanish-portuguese/luso-brazilian-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Spanish Portuguese",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Portuguese",
+      "courses": [
+        "POR 100",
+        "POR 161"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course in each of the following categories:"
+      ]
+    },
+    {
+      "heading": "Spanish",
+      "courses": [
+        "SPA 111N",
+        "SPA 115",
+        "SPA 116",
+        "SPA 116V"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Portuguese",
+      "courses": [
+        "POR 162",
+        "POR 163"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose one elective course in each of the following categories:"
+      ]
+    },
+    {
+      "heading": "Portuguese",
+      "courses": [
+        "POR 159",
+        "POR 162",
+        "POR 163"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 159",
+        "HIS 163A",
+        "HIS 163B"
+      ],
+      "units": "23-24",
+      "notes": [
+        "Note: Consult a departmental advisor if any of these courses are to be taken abroad.",
+        "Note: Additional courses may count toward the minor with prior approval by a departmental advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

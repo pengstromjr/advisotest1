@@ -1,0 +1,240 @@
+{
+  "name": "Computer Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/electrical-computer-engineering/computer-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Electrical Computer Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Lower Division Required Courses",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "ENG 003",
+        "ENG 003Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022AL",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science",
+      "courses": [
+        "ECS 020",
+        "ECS 036A",
+        "ECS 036B",
+        "ECS 036C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Electrical & Computer Engineering",
+      "courses": [
+        "EEC 001",
+        "EEC 010",
+        "EEC 018"
+      ],
+      "units": "2",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 017",
+        "ENG 017V",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
+        "Lower Division Required Course Subtotal"
+      ]
+    },
+    {
+      "heading": "Electrical & Computer Engineering",
+      "courses": [
+        "EEC 100",
+        "EEC 111",
+        "EEC 161",
+        "EEC 170",
+        "EEC 172",
+        "EEC 173A/ECS 152A",
+        "EEC 180",
+        "EEC 196"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science",
+      "courses": [
+        "ECS 122A",
+        "ECS 150",
+        "ENG/PHY 160",
+        "ENG 190"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Senior Design Project Electives",
+      "courses": [
+        "EEC 119A",
+        "EEC 119B",
+        "EEC 134A",
+        "EEC 134B",
+        "EEC 136A",
+        "EEC 136B",
+        "EEC 174AY",
+        "EEC 174BY",
+        "EEC 175A",
+        "EEC 175B",
+        "EEC 181A",
+        "EEC 181B",
+        "EEC 193A",
+        "EEC 193B",
+        "EEC 195A",
+        "EEC 195B"
+      ],
+      "units": "6",
+      "notes": [
+        "Both A & B need to be taken to receive credit for the Senior Design Project."
+      ]
+    },
+    {
+      "heading": "Technical Electives",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "ENG 035",
+        "ENG 045",
+        "ENG 045Y",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 101D",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "BIS 104",
+        "BIS 122",
+        "BIS 122P",
+        "ECN 100A",
+        "ECN 100AV",
+        "ECN 100B",
+        "ECN 101",
+        "ECN 102",
+        "ECN 103",
+        "ECN 122",
+        "ECN 140",
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY",
+        "MGT 011B",
+        "MGT 120",
+        "MGT 140",
+        "MGT 150",
+        "MGT 160",
+        "MGT 170",
+        "MGT 180"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose four letter-graded upper division EEC or ECS courses:",
+        "Choose 8 units:",
+        "Chemistry",
+        "Any upper division course.",
+        "Engineering",
+        "Any upper division engineering course not used in satisfaction of core degree requirements.",
+        "A maximum of 6 units for any combination of engineering courses numbered 190C, 192, 198, and 199 may be used.",
+        "Mathematics",
+        "Any upper division course.",
+        "Physics",
+        "Any upper division course.",
+        "Statistics",
+        "Any upper division course.",
+        "Biological Sciences",
+        "Economics",
+        "Management"
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102A",
+        "UWP 102B",
+        "UWP 102C",
+        "UWP 102D",
+        "UWP 102E",
+        "UWP 102F",
+        "UWP 102G",
+        "UWP 102H",
+        "UWP 102I",
+        "UWP 102J",
+        "UWP 102K",
+        "UWP 102L",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "UWP 104C",
+        "UWP 104D",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I",
+        "UWP 104J",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one; a grade of a C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Course Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "145"
+}

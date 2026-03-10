@@ -1,0 +1,21 @@
+{
+  "name": "Political Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/political-science/political-science-minor/",
+  "degree_type": "Minor",
+  "department": "Political Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Choose six upper division Political Science (POL) courses from any field.",
+        "Political Science (POL) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Electrical Engineering, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/electrical-computer-engineering/electrical-engineering-minor/",
+  "degree_type": "Minor",
+  "department": "Electrical Computer Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EEC 100"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least one of the following combinations:"
+      ]
+    },
+    {
+      "heading": "Analog Circuits",
+      "courses": [
+        "EEC 110AEEC 110B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Electromagnetics",
+      "courses": [
+        "EEC 130AEEC 130B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Physical Electronics",
+      "courses": [
+        "EEC 140A",
+        "EEC 140AV",
+        "EEC 140B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Signals & Systems",
+      "courses": [
+        "EEC 150",
+        "EEC 151"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Communication",
+      "courses": [
+        "EEC 150",
+        "EEC 160"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Control Systems",
+      "courses": [
+        "EEC 150",
+        "EEC 157A",
+        "EEC 157AV"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Digital Systems",
+      "courses": [
+        "EEC 018EEC 180"
+      ],
+      "units": "8-10",
+      "notes": [
+        "Choose at least 8 additional units of EEC courses numbered 101 or above 1; If you elect to do a design project, you must be registered for both quarters.",
+        "Electrical & Computer Engineering (EEC) courses"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "21"
+}

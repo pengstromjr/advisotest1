@@ -1,0 +1,41 @@
+{
+  "name": "Neuroscience, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/neurobiology-physiology-behavior/neuroscience-minor/",
+  "degree_type": "Minor",
+  "department": "Neurobiology Physiology Behavior",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "NPB 100",
+        "NPB 100L",
+        "NPB 107",
+        "NPB/PSC 124",
+        "NPB 136",
+        "NPB 162",
+        "NPB 163",
+        "NPB 164",
+        "NPB 165",
+        "NPB 168",
+        "NPB 171",
+        "NPB 172",
+        "NPB 173",
+        "PSC 113",
+        "PSC 121",
+        "PSC 135",
+        "PSC 137",
+        "PHI 103",
+        "HDE 163"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose a minimum of 14 units:",
+        "One of the following may be completed to reach the unit requirement:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

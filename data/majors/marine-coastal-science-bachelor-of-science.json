@@ -1,0 +1,312 @@
+{
+  "name": "Marine & Coastal Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/earth-planetary-sciences/marine-coastal-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Earth Planetary Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Organic Chemistry",
+      "courses": [
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128CCHE 129ACHE 129B"
+      ],
+      "units": "0-13",
+      "notes": [
+        "Choose a series; only required for students in the Marine Ecology & Organismal Biology focus area:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C",
+        "EVE 012",
+        "GEL 016",
+        "GEL 016V"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:",
+        "Recommended:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "STA 100",
+        "EVE/ESP 111",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "GEL/ESP 150A",
+        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
+        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "ATM 120",
+        "ESP 100",
+        "ESP 110",
+        "ETX 101",
+        "EVE 100",
+        "EVE 101",
+        "EVE 112",
+        "HYD 103N/EBS 103",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 103",
+        "ETX 127/NUT 127"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three of the following four:",
+        "Choose two:",
+        "Marine Ecology & Organismal Biology Focus Area Only:",
+        "Depth Subject Matter Subtotal:"
+      ]
+    },
+    {
+      "heading": "Field Requirement",
+      "courses": [
+        "ESP 123",
+        "ESP 151L",
+        "EVE 112L",
+        "EVE 115",
+        "GEL 109L",
+        "GEL 182",
+        "WFC 100",
+        "WFC 102L",
+        "WFC 157"
+      ],
+      "units": "0-14",
+      "notes": [
+        "Complete at least four courses from one category below, totaling at least 12 units.",
+        "Coastal Environmental Processes; College of Agricultural & Environmental Sciences; Environmental Science & Policy",
+        "Marine Ecology & Organismal Biology; College of Biological Sciences; Evolution & Ecology",
+        "Marine Environmental Chemistry; College of Agricultural & Environmental Sciences; Environmental Toxicology",
+        "Oceans & the Earth System; College of Letters & Science; Earth & Planetary Sciences",
+        "Focus Area Requirement Subtotal",
+        "Complete one course from each category below, that is not the student's chosen Focus Area, totaling at least 8 units.",
+        "Coastal Environmental Processes",
+        "Marine Ecology & Organismal Biology",
+        "Marine Environmental Chemistry",
+        "Oceans & the Earth System",
+        "Breadth Requirement Subtotal",
+        "Fulfill the Field Requirement",
+        "The Field Requirement provides exposure to field techniques, experimental design, and the marine environment itself. It is highly recommended that students fulfill this requirement by residence at Bodega Marine Laboratory for one or more courses. Bodega Marine Laboratory courses may simultaneously fulfill an additional requirement in categories above",
+        "Alternatively, students may fulfill the Field Requirement by taking two of the following courses; these courses cannot fulfill multiple requirements:",
+        "Field Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "Internship/Research",
+      "courses": [
+        "ETX/NUT 127",
+        "BIS 124",
+        "ESP 192",
+        "EVE 192",
+        "EVE 199",
+        "GEL 192",
+        "GEL 199"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose three units:",
+        "Internship/Research Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 121A",
+        "ATM 121B",
+        "ATM 158",
+        "ETX 102A",
+        "ESP 152",
+        "ESP 155",
+        "ESP 155L",
+        "ESP 166",
+        "GEL 156",
+        "GEL 182",
+        "HYD 103N/EBS 103",
+        "HYD 134",
+        "HYD 143",
+        "HYD/EBS 144",
+        "HYD 146",
+        "WFC 157"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 131",
+        "BIS 122",
+        "BIS 122P",
+        "BIS 124",
+        "ESP 100",
+        "ESP 121",
+        "ESP 124",
+        "ESP 155",
+        "ESP 155L",
+        "EVE 100",
+        "EVE 101",
+        "EVE 106",
+        "EVE 112",
+        "EVE 112L",
+        "EVE 114",
+        "EVE 115",
+        "EVE 120",
+        "ETX/NUT 127",
+        "WFC 120",
+        "WFC 120L",
+        "WFC 121",
+        "WFC 122",
+        "WFC 130"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHE 100",
+        "ECI 140A",
+        "ETX 101",
+        "ETX 102A",
+        "ETX 120",
+        "ETX/NUT 127",
+        "GEL 148",
+        "GEL 182",
+        "HYD 134",
+        "HYD 141",
+        "WFC 153"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 116",
+        "ESM 120",
+        "ESM 121",
+        "ESP 110",
+        "ESP 161",
+        "ESP 162",
+        "ESP 166",
+        "ESP 169",
+        "EVE 120",
+        "GEL 107",
+        "GEL 107L",
+        "GEL 108",
+        "GEL 109",
+        "GEL 109L",
+        "GEL 144",
+        "SAS 120",
+        "WFC 144",
+        "WFC 154"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 158",
+        "ECI 140B",
+        "ESP 110",
+        "ESP 152",
+        "ESP 155",
+        "GEL 182",
+        "WFC 157"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 124",
+        "ESP 124",
+        "ESP 155",
+        "EVE 106",
+        "EVE 114",
+        "EVE 115",
+        "EVE 120",
+        "ETX/NUT 127"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHE 100",
+        "ECI 140B",
+        "ETX 120",
+        "ETX/NUT 127",
+        "GEL 182",
+        "HYD 134",
+        "HYD 141"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ATM 116",
+        "ESP 166",
+        "EVE 120",
+        "GEL 107",
+        "GEL 108",
+        "WFC 144",
+        "WFC 154"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Visit the staff major advisor for help navigating major requirements and planning for your degree. Visit the faculty major advisors for additional advice on courses, careers, and graduate school. Faculty advisors: Tessa Hill (College of Letters & Science), Anne Todgham (College of Agricultural & Environmental Sciences), Rachael Bay (College of Biological Sciences). Visit your college's advisors for help navigating University Degree Requirements and College Degree Requirements.",
+    "Graduation Honors: Students graduating from the College of Agricultural and Environmental Sciences or College of Biological Sciences are eligible for Departmental Honors, High Honors, or Highest Honors depending on their GPA. This is calculated automatically and added to students' final transcripts.Students graduating from the College of Letters & Science are eligible for Departmental Honors, depending on their GPA and whether or not they complete a Senior Thesis. Students who graduate with a GPA in the top percen"
+  ],
+  "total_units": "95"
+}

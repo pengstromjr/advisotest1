@@ -1,0 +1,162 @@
+{
+  "name": "Science & Technology Studies, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/science-technology-studies/science-technology-studies-ab/",
+  "degree_type": "B.A.",
+  "department": "Science Technology Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "STS 001",
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "STS/HIS 002",
+        "STS/HIS 002Y",
+        "STS 011",
+        "STS/HIS 016",
+        "STS/ANT 032",
+        "STS/CDM 040A/CTS 040A DISCONTINUED FOR SUMMER 2025 **",
+        "STS 040B/CTS 040B DISCONTINUED FOR SUMMER 2025 **",
+        "STS/CLA 050",
+        "STS/CLA 051"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three additional courses:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Methods & Theories",
+      "courses": [
+        "STS 100",
+        "STS 101",
+        "STS 108",
+        "STS/ANT 121",
+        "STS 122",
+        "STS 150",
+        "STS 151",
+        "STS/ENL 164",
+        "STS 175",
+        "STS/SOC 176"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three:",
+        "Note: Courses taken to fulfill the requirement above cannot also be used to fulfill the emphasis requirement."
+      ]
+    },
+    {
+      "heading": "Emphasis",
+      "courses": [],
+      "units": "20-24",
+      "notes": [
+        "All STS majors are required to complete TWO upper division science courses in the same field. Science coursework should be planned in consultation with the faculty advisor or staff advisors.",
+        "Approved Science Fields",
+        "Choose one of the following four options:",
+        "1. Complete five courses from one emphasis list.",
+        "2. Complete four courses from one emphasis list and one additional upper division STS course.",
+        "3. Complete four courses from one emphasis list and a research thesis in STS1. The thesis option is open to all students. Students whose GPA meets the honors threshold may also qualify for High or Highest Honors in the College of Letters & Science.",
+        "4. STS General Emphasis: Complete any five upper division STS courses (STS: 100-199). Note: Includes courses that are cross-listed with STS.",
+        "Emphasis Lists:",
+        "(1) Law & Innovation",
+        "(2) Health & Environment",
+        "(3) Data & Media Technologies",
+        "(4) History & Philosophy of Science",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "STS 108",
+        "STS/ANT 109",
+        "STS 110",
+        "STS 112",
+        "STS 113",
+        "STS 114",
+        "STS 162/CTS 162 DISCONTINUED FOR WINTER 2026 **",
+        "STS/SOC 176",
+        "CRD 118",
+        "CRD 140"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "STS/ANT 109",
+        "STS/ANT 121",
+        "STS 122",
+        "STS/ANT 129",
+        "STS 130A",
+        "STS 130B",
+        "STS 131",
+        "STS 150",
+        "STS 165",
+        "ANT 104N",
+        "ANT 131",
+        "PHI 120"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "STS 101",
+        "STS/ANT 109",
+        "STS 110",
+        "STS 112",
+        "STS 113",
+        "STS 114",
+        "STS 115",
+        "STS 151/CTS 150 DISCONTINUED FOR WINTER 2023 **",
+        "STS 152",
+        "STS/TCS 160",
+        "STS 161",
+        "STS 162/CTS 162 DISCONTINUED FOR WINTER 2026 **",
+        "STS 163",
+        "STS/ENL 164",
+        "STS/CDM/ENL 172",
+        "STS/ENL 173"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "STS 110",
+        "STS 112",
+        "STS 113",
+        "STS 114",
+        "STS 122",
+        "STS/ANT 129",
+        "STS 130A",
+        "STS 130B",
+        "STS 131",
+        "STS 150",
+        "STS 161",
+        "STS/ENL 164",
+        "CLA 101E",
+        "PHI 107",
+        "PHI 108",
+        "PHI 109",
+        "PHI 111",
+        "PHI 120",
+        "PHI 121",
+        "PHI 131",
+        "PHI 189I"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "60"
+}

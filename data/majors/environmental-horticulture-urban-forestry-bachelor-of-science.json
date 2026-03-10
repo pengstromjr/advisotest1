@@ -1,0 +1,205 @@
+{
+  "name": "Environmental Horticulture & Urban Forestry, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/environmental-horticulture-urban-forestry-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "CMN 001",
+        "CMN 001V"
+      ],
+      "units": "",
+      "notes": [
+        "Recommended as part of the College English Composition Requirement or the Words & Images Core Literacy Component:"
+      ]
+    },
+    {
+      "heading": "Environmental Horticulture",
+      "courses": [
+        "ENH 006"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Landscape Architecture",
+      "courses": [
+        "LED 030",
+        "BIS 002A",
+        "BIS 002B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLS 002",
+        "PLS 021",
+        "PLS 021V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 001",
+        "ESP 010"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A",
+        "PHY 001B",
+        "STA 013",
+        "STA 013Y",
+        "UWP 102B",
+        "UWP 102G",
+        "UWP 104E"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Other upper division composition course. May overlap with college composition requirement; may be satisfied by passing the English Composition Exam."
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "PLS 100A",
+        "ENH 105"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one lower division resource science course and one lower division social science/humanities course in consultation with advisor; minimum 6 units.",
+        "Sample List of Lower Division Restricted Electives PDF",
+        "Preparatory Subject Matter Subtotal",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "PLB/EVE 117",
+        "PLS 150",
+        "PLS 171"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 100",
+        "ENT 110",
+        "NEM 100",
+        "PLP 120",
+        "PLS 105",
+        "PLS 176"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose two:",
+        "Internship or research; must be approved by major advisor."
+      ]
+    },
+    {
+      "heading": "Areas of Specialization",
+      "courses": [],
+      "units": "16-24",
+      "notes": [
+        "In consultation with an advisor, choose three upper division courses in the areas of resource sciences and social sciences/humanities; at least one course must come from each of these two areas; minimum 9 units.",
+        "Sample List of Upper Division Restricted Electives PDF",
+        "Depth Subject Matter Subtotal",
+        "Choose one:",
+        "Floriculture/Nursery Option",
+        "Plant Biodiversity/Restoration Option",
+        "Urban Landscape Management Option",
+        "No course may be used to satisfy more than one requirement.",
+        "Areas of Specialization Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 120",
+        "ENH 125",
+        "ABT/SAF 165",
+        "ENT 135",
+        "PLS 100C",
+        "PLS 158",
+        "SSC 109"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 160",
+        "ENH 160L",
+        "EVE 100",
+        "PLB/PLS 116",
+        "ESM 141",
+        "ESP 127",
+        "ESP 155L",
+        "PLS 130",
+        "PLS 150",
+        "WFC 155",
+        "ESP 155",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "PLS/ESM 144",
+        "PLS 147147L",
+        "PLS 163",
+        "PLS 176",
+        "WFC 156",
+        "WFC 157"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "(a) Choose one:",
+        "(b) Choose one:",
+        "(c) Choose one additional class from section a or b."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 100",
+        "ENH 133",
+        "ABT/SAF 165",
+        "LED 150",
+        "SAS 018",
+        "LDA 150",
+        "ABT 150",
+        "PLS 162"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "114"
+}

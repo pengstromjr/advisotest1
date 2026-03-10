@@ -1,0 +1,238 @@
+{
+  "name": "Applied Chemistry, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/applied-chemistry-bs/",
+  "degree_type": "B.S.",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 100",
+        "CHE 105",
+        "CHE 115",
+        "CHE 124A",
+        "CHE 107ACHE 107B",
+        "CHE 110ACHE 110BCHE 110C",
+        "CHE 129A",
+        "CHE 129B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129ACHE 129B"
+      ],
+      "units": "32-39",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 110"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Toxicology",
+      "courses": [
+        "ETX 101",
+        "ATM 160",
+        "ESM 120",
+        "ESP 151",
+        "ETX 102A",
+        "ETX 102B",
+        "ETX 120",
+        "ETX 131",
+        "ETX 135",
+        "ETX 146",
+        "ETX 180",
+        "FPS 161",
+        "FPS 161L",
+        "GEL 146",
+        "GEL 148",
+        "GEL/ESP 150A",
+        "HYD 134",
+        "SSC 102",
+        "SSC 111"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose three:",
+        "At least three additional upper division units in Chemistry (CHE)",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Toxicology",
+      "courses": [
+        "ETX 020"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 104",
+        "CHE 105",
+        "CHE 115",
+        "CHE 107ACHE 107B",
+        "CHE 110ACHE 110BCHE 110C",
+        "CHE 129A",
+        "CHE 129B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129ACHE 129B"
+      ],
+      "units": "29-36",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Environmental Toxicology",
+      "courses": [
+        "ETX 101",
+        "ETX 102A",
+        "ETX 102B",
+        "ESP 110",
+        "ESP 161",
+        "BIS 101",
+        "BIS 101V",
+        "ETX 103A",
+        "ETX 103B",
+        "ETX 111",
+        "ETX 135",
+        "ETX 138",
+        "STA 108",
+        "STA 130A"
+      ],
+      "units": "13",
+      "notes": [
+        "Choose one from each of the following lists:",
+        "Choose one:",
+        "Choose one:",
+        "At least three additional upper division units in Chemistry (CHE)",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The student must take CHE 194HA, CHE 194HB, & CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research on the department's website."
+  ],
+  "total_units": "95"
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Evolution, Ecology & Biodiversity, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/evolution-ecology/evolution-ecology-biodiversity-ab/",
+  "degree_type": "B.A.",
+  "department": "Evolution Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 004ACHE 004B",
+        "CHE 008ACHE 008B"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose the 002 series or 004 series and 008 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017",
+        "MAT 021",
+        "STA 100",
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C",
+        "STA 100"
+      ],
+      "units": "4-8",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A",
+        "PHY 001B"
+      ],
+      "units": "3",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "EVE 100",
+        "GEL 107",
+        "ANT 151",
+        "EVE 101",
+        "ESP 100",
+        "WFC 151"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Areas of Study",
+      "courses": [],
+      "units": "24-25",
+      "notes": [
+        "Choose additional upper division restricted electives in biological science relevant to the student's interest. Chosen in consultation with a BASC advisor to achieve a total of 36 or more units.",
+        "Include at least one course from each of the areas of study below.",
+        "(1) Biodiversity",
+        "(2) Advanced Evolution & Ecology",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EVE 105",
+        "ENT 107",
+        "EVE 112",
+        "EVE 114",
+        "EVE 140",
+        "MIC 105",
+        "NEM 110",
+        "PLB/PLS 116",
+        "PLB/PLP 148",
+        "PLS 147",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 134"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EVE 102",
+        "EVE 103",
+        "EVE 104",
+        "EVE 106",
+        "EVE 107",
+        "EVE 110",
+        "EVE 115",
+        "EVE/PLB 117",
+        "EVE/PLB 119",
+        "EVE 120",
+        "EVE 131",
+        "EVE 138",
+        "EVE 141",
+        "EVE 147",
+        "EVE 149",
+        "EVE 150",
+        "EVE 161",
+        "EVE 175",
+        "EVE 180A",
+        "ENT 180A",
+        "EVE 180B",
+        "ENT 180B",
+        "EVE/ENT 180A",
+        "EVE/ENT 180B",
+        "EVE 181"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+  ],
+  "total_units": "76"
+}

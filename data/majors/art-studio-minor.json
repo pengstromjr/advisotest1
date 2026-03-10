@@ -1,0 +1,54 @@
+{
+  "name": "Art Studio, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/art-history-art-studio/art-studio-minor/",
+  "degree_type": "Minor",
+  "department": "Art History Art Studio",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ART 102A",
+        "ART 102C",
+        "ART 103C",
+        "ART 105A",
+        "ART 125A",
+        "ART 125B",
+        "ART 125C",
+        "ART 125D",
+        "ART 129",
+        "ART/CHI 171",
+        "ART 142A",
+        "ART 142B",
+        "ART 142C",
+        "ART 143",
+        "ART 151",
+        "ART 152A",
+        "ART 152B",
+        "ART 152C",
+        "ART 152D",
+        "ART 152E",
+        "ART 152F",
+        "ART 152G",
+        "ART 110A",
+        "ART 110B",
+        "ART 111A",
+        "ART 111B",
+        "ART 114A",
+        "ART 114B",
+        "ART 114C",
+        "ART 117"
+      ],
+      "units": "Units",
+      "notes": [
+        "Upper division Art Studio courses in two of the following areas:",
+        "Area 1; Painting, Drawing, Printmaking",
+        "Area 2; Sculpture & Ceramic Sculpture",
+        "Area 3; Photography & Video"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

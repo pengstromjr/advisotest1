@@ -1,0 +1,98 @@
+{
+  "name": "Human Right Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-rights-studies/human-right-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Human Rights Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HMR 134"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Core Courses (12 Units)",
+      "courses": [
+        "HMR/AHI 120A",
+        "HMR 130",
+        "HMR 131",
+        "HMR 136",
+        "HMR 138",
+        "HMR 140A",
+        "HMR 140B",
+        "HMR/HIS 161",
+        "HMR 162Y/HIS 126Y",
+        "HMR 190",
+        "HMR 100"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three from the following:",
+        "In addition to the courses listed above, any HMR course between 100-199 will count towards the core course requirement.",
+        "Human Rights Studies Subtotal"
+      ]
+    },
+    {
+      "heading": "Suggested Electives",
+      "courses": [
+        "AAS 180",
+        "AMS 156",
+        "ANT 126A",
+        "HIS 115E",
+        "HIS 142A",
+        "HIS 142B",
+        "HIS 159",
+        "HIS 165",
+        "HIS 165V",
+        "HIS 184",
+        "NAS 120",
+        "POL 124",
+        "SOC/IRE 104"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one from the following or seek the approval of the program advisor for an unlisted course that treats a human rights related topic:"
+      ]
+    },
+    {
+      "heading": "Other Electives",
+      "courses": [
+        "ANT 126B",
+        "ANT 130A",
+        "CHI 130",
+        "HIS 115D",
+        "HIS 172",
+        "HIS 177B",
+        "MSA 150",
+        "NAS 180",
+        "POL 126",
+        "POL 142B",
+        "POL 146B",
+        "POL 152",
+        "POL 166",
+        "POL 168",
+        "POL 176",
+        "SOC 130",
+        "SOC 160",
+        "WMS 140",
+        "WMS 145",
+        "WMS 170",
+        "GSW 170",
+        "WMS 175",
+        "GSW 175",
+        "WMS 182",
+        "WMS 184"
+      ],
+      "units": "4",
+      "notes": [
+        "Elective Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

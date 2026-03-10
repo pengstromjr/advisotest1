@@ -1,0 +1,58 @@
+{
+  "name": "Viticulture & Enology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/viticulture-enology/viticulture-enology-minor/",
+  "degree_type": "Minor",
+  "department": "Viticulture Enology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Coursework",
+      "courses": [
+        "VEN 002",
+        "VEN 003"
+      ],
+      "units": "5",
+      "notes": [
+        "Preparatory classes may be waived for transfer students who have taken related classes at another institution. Waivers are determined on a case-by-case basis in consultation with the program faculty and academic advisor."
+      ]
+    },
+    {
+      "heading": "Required Coursework",
+      "courses": [
+        "VEN 103",
+        "VEN 111"
+      ],
+      "units": "7",
+      "notes": []
+    },
+    {
+      "heading": "Elective Coursework; at least 12 units",
+      "courses": [
+        "VEN 101A",
+        "VEN 101B",
+        "VEN 101C",
+        "VEN 110",
+        "VEN 112",
+        "VEN 118",
+        "VEN 123",
+        "VEN 123L",
+        "VEN 124",
+        "VEN 124L",
+        "VEN 125",
+        "VEN 125L",
+        "VEN 126",
+        "VEN 126L",
+        "VEN 128",
+        "VEN 128L",
+        "VEN 135",
+        "VEN 140",
+        "VEN 170"
+      ],
+      "units": "12",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

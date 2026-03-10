@@ -1,0 +1,80 @@
+{
+  "name": "Spanish, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/spanish-portuguese/spanish-minor/",
+  "degree_type": "Minor",
+  "department": "Spanish Portuguese",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Group 1",
+      "courses": [
+        "SPA 100",
+        "SPA 100S",
+        "SPA 141",
+        "SPA 141S",
+        "SPA 168",
+        "SPA 170",
+        "SPA 170S"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one in each of the following five areas:"
+      ]
+    },
+    {
+      "heading": "Group 2",
+      "courses": [
+        "SPA 111N",
+        "SPA 115",
+        "SPA 116",
+        "SPA 116V",
+        "SPA 118"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 3",
+      "courses": [
+        "SPA 130",
+        "SPA 131N",
+        "SPA 134A",
+        "SPA 142"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 4",
+      "courses": [
+        "SPA 150N",
+        "SPA 151",
+        "SPA 157",
+        "SPA 159",
+        "SPA 159S",
+        "SPA 159Y"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group 5",
+      "courses": [
+        "SPA 117",
+        "SPA 117V",
+        "SPA 169",
+        "SPA 174",
+        "SPA 176",
+        "SPA 177"
+      ],
+      "units": "23-24",
+      "notes": [
+        "One upper division Spanish (SPA) elective.",
+        "Consult a departmental advisor if any of these courses are to be taken abroad."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

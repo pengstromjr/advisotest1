@@ -1,0 +1,33 @@
+{
+  "name": "Energy Efficiency, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/energy-efficiency-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "ENG 188"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses; choose 12 units:",
+      "courses": [
+        "ESP 167",
+        "DES 136A",
+        "DES 136B",
+        "DES 137A"
+      ],
+      "units": "12",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. For more information, see Undergraduate Advising."
+  ],
+  "total_units": "20"
+}

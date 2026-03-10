@@ -1,0 +1,43 @@
+{
+  "name": "Energy Science & Technology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/energy-science-technology-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "ENG 105",
+        "ECH 152B",
+        "ENG 188"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses; choose 12 units:",
+      "courses": [
+        "ABT/HYD 182",
+        "ARE/ESP 175",
+        "ATM 116",
+        "EBS 161",
+        "ECH 158C",
+        "ECH 161L",
+        "ECH 166",
+        "ECI/ESP 163",
+        "EME 161",
+        "FST 123",
+        "ESP 167",
+        "PLS 101"
+      ],
+      "units": "12",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found on the departmental website."
+  ],
+  "total_units": "20"
+}

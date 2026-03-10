@@ -1,0 +1,29 @@
+{
+  "name": "Religious Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/religion-culture-society/religious-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Religion Culture Society",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "RST 190"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one lower division RST course.",
+        "Religious Studies (RST) courses.",
+        "Choose 16 units of upper division RST courses.",
+        "Religious Studies (RST) courses.",
+        "Some substitutions from other departments or programs allowed with consent of advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Recommended: A reading knowledge of a foreign language is highly recommended.",
+    "Honors & Honors Program: A student becomes eligible for graduation with honors by meeting the minimum GPA and course requirements established by the College of Letters & Science. Upon successful completion of the additional requirements of the College of Letters & Science Honors Program, individual students may be recommended by the program for graduation with high honors or highest honors on the basis of an evaluation of their academic achievements in the major."
+  ],
+  "total_units": "20"
+}

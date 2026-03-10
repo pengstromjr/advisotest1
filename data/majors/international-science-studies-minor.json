@@ -1,0 +1,93 @@
+{
+  "name": "International Science Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/international-science-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Global Issue Course Requirement",
+      "courses": [
+        "ATM 116",
+        "PLS 150",
+        "ARE 115B/115BY/ECN 115B/115BY"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Focusing on broad range of global issues and their impacts on ecological and environmental resources and biodiversity, in addition to international policy and economics. Beyond the courses taken under each track, choose two out of the three courses listed below:",
+        "Choose one of the following tracks:",
+        "Education Abroad Program courses taught overseas and relevant international internship activities will count towards the minor requirement with advisor's approval. For each track, students can take a maximum of 3 units from EAP courses, with a valid transcript, and 3 units from relevant international internship activities. The international internship activities would require a pre-approved study plan with the academic advisor before the maximum of 3 units can be awarded. Language and culture related courses are encouraged, but not required for the minor.",
+        "Education Abroad Program (EAP) courses.",
+        "(1) Ecological, Environmental, & Energy Studies Track",
+        "(2) Policy & Management Focus Track",
+        "(3) Agriculture, Food, & Fiber Systems Track"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 103",
+        "ARE 147",
+        "ATM 116",
+        "ATM 133",
+        "ESM 100",
+        "ESM 121",
+        "ESM 131",
+        "ESM/PLS 144",
+        "ESM 120",
+        "ESP 100",
+        "ESP 151",
+        "EVE 147",
+        "HYD 143",
+        "SSC 109"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 16-17 units:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE/ECN 115A",
+        "ARE 115B/115BY/ECN 115B/115BY",
+        "ARE 138",
+        "CRD 156",
+        "CRD 180",
+        "ESP/ARE 175",
+        "IAD/PLS 160",
+        "IAD 170",
+        "IRE 190"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 16-17 units:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 103",
+        "ATM 133",
+        "CRD 153A",
+        "CRD 153B",
+        "ESM 121",
+        "ESM 131",
+        "EVE 138",
+        "FST 109",
+        "HYD 124",
+        "NUT 119A",
+        "NUT 119B",
+        "PLS 150",
+        "PLS/IAD 160"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 16-17 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

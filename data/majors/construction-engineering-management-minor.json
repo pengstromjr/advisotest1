@@ -1,0 +1,45 @@
+{
+  "name": "Construction Engineering & Management, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/civil-environmental-engineering/construction-engineering-management-minor/",
+  "degree_type": "Minor",
+  "department": "Civil Environmental Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE 018",
+        "MGT 011A",
+        "MGT 011AV",
+        "MGT 011AY"
+      ],
+      "units": "Units",
+      "notes": [
+        "May include one from:"
+      ]
+    },
+    {
+      "heading": "Civil & Environmental Engineering",
+      "courses": [
+        "ECI 123",
+        "ECI 137",
+        "ECI 153",
+        "ARE 112",
+        "ARE 155",
+        "ARE 157",
+        "ECI 179",
+        "ECN 134",
+        "ECN 134Y",
+        "ECN 162",
+        "ESP 161"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 12 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "24"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Computer Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-minor/",
+  "degree_type": "Minor",
+  "department": "Computer Science Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EEC 100",
+        "EEC 171",
+        "EEC 172",
+        "EEC 180",
+        "ECN 122",
+        "STA 131A",
+        "STA 131B",
+        "STA 141B",
+        "STA 141C",
+        "PSC 120",
+        "LIN 127",
+        "LIN 177"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose any three upper division Computer Science Engineering (ECS) courses",
+        "Choose any two upper division ECS courses or any upper division course in MAT:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "19"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Asian American Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/asian-american-studies/asian-american-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Asian American Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ASA 001",
+        "ASA 002",
+        "ASA 003",
+        "ASA 004",
+        "ASA 100",
+        "ASA 102",
+        "ASA 112",
+        "ASA 113",
+        "ASA 114",
+        "ASA 115",
+        "ASA 116",
+        "ASA 121",
+        "ASA 130",
+        "ASA 131",
+        "ASA/SPH 132",
+        "ASA 141",
+        "ASA 150",
+        "ASA 150B",
+        "ASA 150C",
+        "ASA 150D",
+        "ASA 150E",
+        "ASA 150F",
+        "ASA 155",
+        "ASA 189A",
+        "ASA 189B",
+        "ASA 189C",
+        "ASA 189D",
+        "ASA 189E",
+        "ASA 189F",
+        "ASA 189G",
+        "ASA 189H",
+        "ASA 189I",
+        "ASA 192",
+        "ASA 198",
+        "ASA 199"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:",
+        "Preparatory Subject Matter Total",
+        "Choose five:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "28"
+}

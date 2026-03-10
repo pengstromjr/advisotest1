@@ -1,0 +1,101 @@
+{
+  "name": "Geology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/earth-planetary-sciences/geology-minor/",
+  "degree_type": "Minor",
+  "department": "Earth Planetary Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Choose one of four emphases:",
+        "General Geology Emphasis",
+        "Engineering Geology Emphasis",
+        "Geochemistry Emphasis",
+        "Paleobiology Emphasis"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL 050L",
+        "GEL 107",
+        "GEL 108",
+        "GEL 109",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ECI 171171L",
+        "GEL 050050L",
+        "GEL 134",
+        "GEL 156",
+        "GEL 161",
+        "GEL 162",
+        "HYD 103N/EBS 103",
+        "HYD/EBS 144",
+        "HYD 146",
+        "SSC 118",
+        "SSC 120"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL 060",
+        "GEL 146",
+        "GEL 148",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C",
+        "GEL 108",
+        "GEL 146",
+        "GEL 148",
+        "HYD 134",
+        "SSC 102"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two electives:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL 107",
+        "GEL 107L",
+        "GEL 108",
+        "GEL 141",
+        "ANT 151",
+        "ANT 152",
+        "EVE 100",
+        "EVE 101",
+        "EVE 102",
+        "EVE 105",
+        "EVE 112",
+        "EVE 112L",
+        "EVE 140",
+        "EVE 149",
+        "GEL 109",
+        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least 9 addtional units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "19"
+}

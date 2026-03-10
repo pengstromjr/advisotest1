@@ -1,0 +1,130 @@
+{
+  "name": "Genetics & Genomics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/molecular-cellular-biology/genetics-genomics-bs/",
+  "degree_type": "B.S.",
+  "department": "Molecular Cellular Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002CBIS 002D"
+      ],
+      "units": "18",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002",
+        "CHE 004",
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008",
+        "CHE 118",
+        "CHE 128",
+        "CHE 129A",
+        "CHE 129B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128C",
+        "CHE 129ACHE 129B"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017",
+        "MAT 021",
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007",
+        "PHY 009",
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 121",
+        "MCB 182",
+        "EVE 100",
+        "BIS 181",
+        "BIS 183",
+        "MCB 160L",
+        "BIS 180L",
+        "STA 100",
+        "CHE 130A",
+        "CHE 130B",
+        "STA 100",
+        "STA 130ASTA 130B"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "BIS 181",
+        "BIS 183",
+        "BIT 150",
+        "ECS 124",
+        "EVE 100",
+        "EVE 102",
+        "EVE 103",
+        "EVE 131",
+        "EVE 161",
+        "MIC 105",
+        "MCB 150",
+        "MCB 162",
+        "MCB 163",
+        "MMG 170",
+        "MMG 172",
+        "MMG 175",
+        "PLB 112",
+        "PLB 113",
+        "PLS 154"
+      ],
+      "units": "9",
+      "notes": [
+        "Choose at least 9 additional units:",
+        "Upper division courses in genetics or other fields relevant to the student's interest chosen in consultation with the GGN master and BASC advisor. No more than 4 units of 192, 193, 194H, 198, or 199 may be used for credit in this category.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410, cbsundergrads@ucdavis.edu."
+  ],
+  "total_units": "94"
+}

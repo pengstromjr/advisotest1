@@ -1,0 +1,251 @@
+{
+  "name": "Biomedical Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biomedical-engineering/biomedical-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Biomedical Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 027A",
+        "BIS 027A",
+        "MAT 022B",
+        "MAT 027B",
+        "BIS 027B"
+      ],
+      "units": "4",
+      "notes": [
+        "Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed."
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009HA",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 008A",
+        "CHE 118A",
+        "CHE 008B",
+        "CHE 118B"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 006",
+        "ENG 017",
+        "ENG 017V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Biomedical Engineering",
+      "courses": [
+        "BIM 001",
+        "BIM 020",
+        "BIM 020L",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "2",
+      "notes": [
+        "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 100",
+        "EEC 100",
+        "ENG 105",
+        "ENG 190"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Biomedical Engineering",
+      "courses": [
+        "BIM 105",
+        "BIM 106",
+        "BIM 107",
+        "BIM 108",
+        "BIM 109",
+        "BIM 110A",
+        "BIM 110B",
+        "BIM 110C",
+        "BIM 111",
+        "BIM 116",
+        "NPB 101"
+      ],
+      "units": "4",
+      "notes": [
+        "Science & Engineering Electives are to be selected in consultation with a staff or faculty advisor."
+      ]
+    },
+    {
+      "heading": "Science Electives",
+      "courses": [
+        "BIS 002B",
+        "BIS 002C",
+        "BIM 102",
+        "BIM 161A",
+        "BIM 161L",
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 032B",
+        "PHY 009D",
+        "BIM 192",
+        "BIM 199"
+      ],
+      "units": "7",
+      "notes": [
+        "To be chosen according to specialization:",
+        "Any letter graded upper division course in the Biological Sciences, Chemistry or Physics that is designated as Science & Engineering topical breadth.",
+        "With the approval of the Biomedical Engineering Undergraduate Committee; 4 units:"
+      ]
+    },
+    {
+      "heading": "Engineering Electives",
+      "courses": [
+        "BIM 102",
+        "BIM 161A",
+        "BIM 161L",
+        "BIM 099",
+        "BIM 192",
+        "BIM 189A",
+        "BIM 189B",
+        "BIM 189C",
+        "BIM 199",
+        "BIM 192",
+        "BIM 199",
+        "EBS 128",
+        "EBS 130",
+        "EBS 165",
+        "EBS 175",
+        "ECH 141",
+        "ECH 144",
+        "ECH 145A",
+        "ECH 145B",
+        "ECH 155",
+        "ECH 160",
+        "ECH 161L",
+        "ECH 170",
+        "ECS 124",
+        "EEC 110A",
+        "EEC 110B",
+        "EEC 118",
+        "EEC 130A",
+        "EEC 130B",
+        "EEC 140A",
+        "EEC 140AV",
+        "EEC 140B",
+        "EEC 151",
+        "EEC 157A",
+        "EEC 157AV",
+        "EEC 157B",
+        "EEC 157BY",
+        "EEC 160",
+        "EME 150A",
+        "EME 150B",
+        "EME 151",
+        "EME 152",
+        "EME 154",
+        "EME 165",
+        "EME 171",
+        "EME 172",
+        "EMS 147/FPS 100",
+        "EMS 160",
+        "EMS 162",
+        "EMS 162L",
+        "EMS 164",
+        "EMS 172",
+        "EMS 172L",
+        "EMS 174",
+        "EMS 174L",
+        "EMS 180",
+        "EMS 181",
+        "EMS 182",
+        "ENG 035",
+        "ENG 045",
+        "ENG 045Y",
+        "ENG 102",
+        "ENG 103",
+        "ENG 104",
+        "ENG 104V",
+        "ENG 104L",
+        "ENG 106"
+      ],
+      "units": "20",
+      "notes": [
+        "With the approval of the Biomedical Engineering Undergraduate Committee; 4 units:",
+        "No more than 4 units allowed from lower division coursework."
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102B",
+        "UWP 102E",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104F",
+        "UWP 104FV",
+        "UWP 104FY",
+        "UWP 104I",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one; grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "158"
+}

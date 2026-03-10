@@ -1,0 +1,175 @@
+{
+  "name": "Environmental Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/civil-environmental-engineering/environmental-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Civil Environmental Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 008A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Choose GEL 050 & GEL 050L or ATM 060:",
+      "courses": [
+        "GEL 050050L",
+        "ATM 060"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Biological Sciences",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 003",
+        "ENG 003Y",
+        "ENG 006",
+        "ECS 032A",
+        "ECS 032AV",
+        "ENG 035"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Civil & Environmental Engineering",
+      "courses": [
+        "ECI 003",
+        "ECI 101",
+        "ECI 003",
+        "ECI 101",
+        "ECI 016",
+        "ECI 040"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Lower Division Composition/Writing; choose one; a grade of a C- or better is required",
+      "courses": [
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 106"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Civil & Environmental Engineering",
+      "courses": [
+        "ECI 100",
+        "ECI 114",
+        "ECI 115",
+        "ECI 123",
+        "ECI 140A",
+        "ECI 140B",
+        "ECI 140CN",
+        "ECI 141",
+        "ECI 141L",
+        "ECI 144",
+        "ECI/ATM 149N",
+        "ECI 149L",
+        "ECI 193A",
+        "ECI 193B",
+        "ECI 153",
+        "ECI 155",
+        "ECI 142",
+        "ECI 145",
+        "ECI 146",
+        "ECI 153",
+        "ECI 155",
+        "ECI 189A",
+        "ECI 189B",
+        "ECI 189I",
+        "ECI 189J",
+        "ECI 198",
+        "ECI 199"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102E",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one; a grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam.",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "144"
+}

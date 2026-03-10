@@ -1,0 +1,73 @@
+{
+  "name": "Italian, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/french-italian/italian-ab/",
+  "degree_type": "B.A.",
+  "department": "French Italian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ITA 001",
+        "ITA 002",
+        "ITA 003",
+        "ITA 031",
+        "ITA 031Y",
+        "ITA 032",
+        "ITA 032Y",
+        "ITA 021",
+        "ITA 022",
+        "ITA 023"
+      ],
+      "units": "0-30",
+      "notes": [
+        "The equivalent.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Subject Matter",
+      "courses": [
+        "ITA 101",
+        "ITA 101S",
+        "ITA 102",
+        "ITA 103",
+        "ITA 104",
+        "ITA 105"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Expanded Subject Matter",
+      "courses": [
+        "ITA 101",
+        "ITA 102",
+        "ITA 103",
+        "ITA 104",
+        "ITA 105"
+      ],
+      "units": "8",
+      "notes": [
+        "Italian (ITA) courses."
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Choose five other upper division (100 or higher) Italian courses; courses in other departments that focus on Italian history, culture, and thought may be counted upon petition to the faculty advisor.",
+        "Italian (ITA) courses.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: Candidates for high or highest honors in Italian must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in ITA 194H (3 units) and ITA 195H (3 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in c"
+  ],
+  "total_units": "36"
+}

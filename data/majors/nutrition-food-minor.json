@@ -1,0 +1,58 @@
+{
+  "name": "Nutrition & Food, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/nutrition/nutrition-food-minor/",
+  "degree_type": "Minor",
+  "department": "Nutrition",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Nutrition",
+      "courses": [
+        "NUT 111AY",
+        "NUT 111B",
+        "NUT 120AN",
+        "NUT 120BN"
+      ],
+      "units": "3",
+      "notes": [
+        "Note: If the student’s major program requires the same course in biochemistry and physiology, only one of the courses may duplicate credit toward the minor. The program lists replacement courses below which can be used to fulfill the minimum unit requirement.",
+        "Plan in advance to include the required course prerequisites."
+      ]
+    },
+    {
+      "heading": "Food Science & Technology",
+      "courses": [
+        "FST 100A",
+        "FST 100B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 101"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Replacement Courses",
+      "courses": [
+        "NUT 114",
+        "NUT 116A",
+        "NUT 116AL",
+        "NUT 116B",
+        "NUT 116BY",
+        "NUT 116BL"
+      ],
+      "units": "22",
+      "notes": [
+        "See note above."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "22"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Insect Ecology & Evolution, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/insect-ecology-evolution-minor/",
+  "degree_type": "Minor",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENT 100",
+        "ENT 100L",
+        "ENT 104",
+        "ENT 105",
+        "ENT 103",
+        "ENT 107",
+        "ENT 109",
+        "ENT 158",
+        "ESP 121"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least 7 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

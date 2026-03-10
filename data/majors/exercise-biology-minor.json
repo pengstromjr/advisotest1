@@ -1,0 +1,35 @@
+{
+  "name": "Exercise Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/neurobiology-physiology-behavior/exercise-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Neurobiology Physiology Behavior",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EXB 101",
+        "EXB 110",
+        "EXB 112",
+        "EXB 117",
+        "EXB 124",
+        "EXB 125",
+        "NPB 109",
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "EXB 106/CHA 101",
+        "NPB 101"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least 15 units:",
+        "Exercise Biology or other approved course; an additional 3 upper division units from either the previous list of Exercise Biology (EXB) courses or from:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

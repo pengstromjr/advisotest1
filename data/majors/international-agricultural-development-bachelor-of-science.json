@@ -1,0 +1,317 @@
+{
+  "name": "International Agricultural Development, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-sciences/international-agricultural-development-bs/",
+  "degree_type": "B.S.",
+  "department": "Plant Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "CRD 001",
+        "IAD 010",
+        "PLS 002",
+        "MAT 019A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 010",
+        "SSC 100"
+      ],
+      "units": "3-5",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV",
+        "STA 013",
+        "STA 013Y",
+        "SOC 046",
+        "PLS 120",
+        "ARE 015",
+        "ANS 041",
+        "ANS 041L",
+        "CRD 020",
+        "NUT 010",
+        "NUT 010V",
+        "NUT 010Y",
+        "PLS 015",
+        "PLS 049"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose 6 units:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ECN/ARE 115A",
+        "IAD 103",
+        "IAD 170",
+        "ARE 147",
+        "PLS 101",
+        "IAD 142",
+        "IAD/PLS 160",
+        "PLS 110",
+        "PLS 111",
+        "PLS 112",
+        "PLS 130",
+        "SOC 170",
+        "CRD 141",
+        "CRD 162",
+        "CRD 142",
+        "CRD 149",
+        "CRD 152",
+        "POL 123",
+        "POL 124",
+        "SOC 145A",
+        "ANT 126A",
+        "ANT 126B",
+        "ANT 131"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose a minimum of 5 units:",
+        "Choose a minimum of 4 units:",
+        "Choose 4 units:",
+        "Choose 4 units:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Foreign Language Requirement",
+      "courses": [
+        "SPA 001",
+        "SPA 001V",
+        "SPA 001Y",
+        "SPA 002",
+        "SPA 002V",
+        "SPA 002Y",
+        "SPA 003",
+        "SPA 003V",
+        "SPA 003Y",
+        "SPA 001A",
+        "SPA 001S",
+        "FRE 001",
+        "FRE 001Y",
+        "FRE 002",
+        "FRE 002Y",
+        "FRE 003",
+        "FRE 003Y",
+        "FRE 001A",
+        "CHN 001",
+        "CHN 002",
+        "CHN 003",
+        "POR 001",
+        "POR 002",
+        "POR 003",
+        "POR 001A"
+      ],
+      "units": "0-15",
+      "notes": [
+        "Students must complete:",
+        "Three sequenced quarters (15 units) of courses in one foreign language:",
+        "Or passing a foreign language proficiency examination",
+        "Or received a score of 5, 4, or 3 on a foreign language Advanced Placement examination (except Latin)",
+        "Or received a score of 550 on the SATII: Subject Test will also satisfy this requirement.",
+        "Foreign Language Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "International Agricultural Development Abroad",
+      "courses": [],
+      "units": "0-40",
+      "notes": [
+        "Students must complete at least 4 units of internship. Internships can be chosen in  consultation with an advisor. Internship requirement waived for students enrolled in the  UC Education Abroad Program.",
+        "Internship Requirement Subtotal",
+        "Choose one:",
+        "Agricultural Production Option",
+        "Environmental Issues Option",
+        "Rural Communities Option",
+        "Trade & Economic Development Option",
+        "Subtotal",
+        "Choose 0-40 units:",
+        "International Agricultural Development Abroad Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "CHE 002A",
+        "CHE 002B",
+        "ANS 118",
+        "ANS 124",
+        "ANS 143",
+        "ANS 144",
+        "ANS 145",
+        "ANS 146",
+        "AVS 121",
+        "ENT 110",
+        "ENT 135",
+        "ENH 100",
+        "ENH 133",
+        "ESM 100",
+        "HYD 124",
+        "IAD 142",
+        "IAD/PLS 160",
+        "PLP 120",
+        "PLS 110",
+        "PLS 111",
+        "PLS 112",
+        "PLS 113",
+        "PLS 114",
+        "PLS 130",
+        "PLS 150",
+        "PLS 170A",
+        "PLS 170B",
+        "PLS 172",
+        "PLS 176",
+        "SSC 109",
+        "SSC 118"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 15 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "10",
+      "notes": [
+        "Courses selected in consultation with an advisor."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 001"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "ARE 147",
+        "ARE 175",
+        "ARE 176",
+        "ESP 100",
+        "ESP/ANT 101",
+        "ESP 110",
+        "ESP 160",
+        "ESP 161",
+        "ESP 170",
+        "ESP 171",
+        "ESP 172",
+        "ESP 175",
+        "PLS 101",
+        "PLS 147",
+        "PLS 147L",
+        "PLS 150",
+        "ENH 160",
+        "ENH 160L"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose 16 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "15",
+      "notes": [
+        "Courses selected in consultation with an advisor."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "CRD 140",
+        "CRD 147",
+        "CRD 149",
+        "CRD 151",
+        "CRD 152",
+        "CRD 153A",
+        "CRD 153B",
+        "CRD 154",
+        "CRD 164",
+        "CRD 172",
+        "CRD 176",
+        "CRD 180"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 16 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Courses selected in consultation with an advisor."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "SOC 001V",
+        "MAT 019B",
+        "ARE 015",
+        "ARE 100A",
+        "ARE 100B",
+        "ARE 115B/115BY/ECN 115B/115BY",
+        "ARE 120",
+        "ARE 121",
+        "ARE 130",
+        "ARE 136",
+        "ARE 138",
+        "ARE 139",
+        "ARE 175",
+        "ARE 176",
+        "CRD 141",
+        "ECN 160A",
+        "ECN 160AY",
+        "ECN 160B"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 20 units:"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "17",
+      "notes": [
+        "Courses selected in consultation with an advisor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "118"
+}

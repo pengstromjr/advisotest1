@@ -1,0 +1,27 @@
+{
+  "name": "Materials Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/materials-science-engineering/materials-science-minor/",
+  "degree_type": "Minor",
+  "department": "Materials Science Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EMS 160",
+        "EMS 162",
+        "EMS 164",
+        "EMS 172",
+        "EMS 174"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose an additional 4 units of upper division letter graded Material Science & Engineering (EMS) coursework.",
+        "Material Science & Engineering (EMS) courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

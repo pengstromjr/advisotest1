@@ -1,0 +1,43 @@
+{
+  "name": "Aging & Adult Development, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/aging-adult-development-minor/",
+  "degree_type": "Minor",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HDE 100C",
+        "HDE/ENT 117",
+        "HDE 143",
+        "HDE 160",
+        "HDE 161",
+        "HDE 163",
+        "HDE 110",
+        "HDE 110V",
+        "HDE 111",
+        "HDE 112",
+        "HDE 131",
+        "HDE 131V",
+        "HDE 133",
+        "HDE 133V",
+        "HDE 134",
+        "HDE 135",
+        "HDE 135V",
+        "HDE 137",
+        "EXB 117",
+        "PSC 123/NPB 152",
+        "PSC 126"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:",
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

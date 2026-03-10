@@ -1,0 +1,36 @@
+{
+  "name": "Nematology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/nematology-minor/",
+  "degree_type": "Minor",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "NEM 100",
+        "NEM 110",
+        "ENT 156",
+        "ENT 100",
+        "ENT 100L",
+        "ENT 110",
+        "ENT 135",
+        "ENT 153",
+        "ENT 156L",
+        "EVE 112",
+        "PLP 120",
+        "PLP/PLB 148",
+        "SSC 100",
+        "SSC 111",
+        "SSC 112"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least 9 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

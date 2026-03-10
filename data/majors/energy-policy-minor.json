@@ -1,0 +1,38 @@
+{
+  "name": "Energy Policy, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/energy-policy-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "ENG 188",
+        "ESP 167"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses; choose 10 units:",
+      "courses": [
+        "ESP 171",
+        "ESP/ECI 163",
+        "ESP 168A",
+        "POL 105",
+        "POL 109",
+        "POL 122",
+        "POL 162",
+        "POL 164"
+      ],
+      "units": "10",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found on the departmental website."
+  ],
+  "total_units": "18"
+}

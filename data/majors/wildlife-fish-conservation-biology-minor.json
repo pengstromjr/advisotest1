@@ -1,0 +1,36 @@
+{
+  "name": "Wildlife, Fish & Conservation Biology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/wildlife-fish-conservation-biology/wildlife-fish-conservation-biology-minor/",
+  "degree_type": "Minor",
+  "department": "Wildlife Fish Conservation Biology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "WFC 100",
+        "WFC 151",
+        "WFC 154",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 134",
+        "WFC 190",
+        "WFC 191",
+        "WFC 192",
+        "WFC 195",
+        "WFC 197T",
+        "WFC 198",
+        "WFC 199"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose two-four upper division elective courses from the Wildlife, Fish & Conservation Biology curriculum; excluding:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

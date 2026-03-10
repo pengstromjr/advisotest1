@@ -1,0 +1,96 @@
+{
+  "name": "Chemistry, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/chemistry-ab/",
+  "degree_type": "B.A.",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C"
+      ],
+      "units": "15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Analytical Chemistry",
+      "courses": [
+        "CHE 105"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physical Chemistry",
+      "courses": [
+        "CHE 107ACHE 107B",
+        "CHE 110ACHE 110BCHE 110C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Inorganic Chemistry",
+      "courses": [
+        "CHE 124A"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Organic Chemistry",
+      "courses": [
+        "CHE 118ACHE 118BCHE 118C",
+        "CHE 128ACHE 128BCHE 128CCHE 129ACHE 129B"
+      ],
+      "units": "12-13",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Total Units",
+      "courses": [],
+      "units": "79-85",
+      "notes": [
+        "Additionally, complete enough additional upper division units in Chemistry (CHE) or related areas to reach at least 43 total units of upper division major coursework. Depending on which physical and organic series are chosen, this will be between 11 and 18 additional upper division units. When credit is earned for one physical and organic series, units from the other series cannot count towards the major. These additional upper division units must include at least one course with formal lectures; courses in related areas must be approved in advance by the major advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research."
+  ],
+  "total_units": "79"
+}

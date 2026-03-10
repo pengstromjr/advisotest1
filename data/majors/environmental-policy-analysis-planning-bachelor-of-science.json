@@ -1,0 +1,464 @@
+{
+  "name": "Environmental Policy Analysis & Planning, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-science-policy/environmental-policy-analysis-planning-bs/",
+  "degree_type": "B.S.",
+  "department": "Environmental Science Policy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "English Composition & Communication Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102",
+        "UWP 104",
+        "UWP 102G",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104B",
+        "CMN 001",
+        "CMN 001V",
+        "CMN 003",
+        "CMN 003V",
+        "CMN 003Y",
+        "DRA 010"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one:",
+        "Passing the Upper Division English Composition exam.",
+        "Communication",
+        "Choose one:",
+        "English Composition & Communication Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 010"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 010"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001A"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Second Quarter Natural Science",
+      "courses": [
+        "BIS 002B",
+        "BIS 002C",
+        "CHE 002B",
+        "PHY 001B",
+        "BIS 002B"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Introduction to Data Analytics",
+      "courses": [
+        "CMN/SOC/POL/PSC 012Y",
+        "PLS 021",
+        "PLS 021V"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science",
+      "courses": [
+        "ANS 001",
+        "ATM 060",
+        "AVS 013",
+        "GEL 001",
+        "HYD/SAS 010",
+        "PLS/SAS 012",
+        "SSC 010",
+        "WFC 051"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 019A",
+        "MAT 021A",
+        "MAT 017B",
+        "MAT 019B",
+        "MAT 021B"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "POL 001",
+        "POL 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 110",
+        "ESP 160",
+        "ESP 168A",
+        "ESP 168B",
+        "ESP 161",
+        "ESP 178",
+        "ESP 179"
+      ],
+      "units": "29",
+      "notes": [
+        "Students must take these units on a letter grade basis, and must attain an overall grade point average of 2.000 or higher in the Depth Subject Matter courses.",
+        "Evaluation & Analysis",
+        "Environmental Law",
+        "Research Design",
+        "Environmental Impact Assessment"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "SOC 106",
+        "STA 100",
+        "STA 103",
+        "STA 108"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Microeconomics",
+      "courses": [
+        "ARE 100A",
+        "ECN 100A",
+        "ECN 100AV"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Environmental Data Science",
+      "courses": [
+        "ESP 106",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Resource Economics",
+      "courses": [
+        "ARE 176",
+        "ECN 125",
+        "ESP/ARE 175"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Recommended, Not Required",
+      "courses": [
+        "ABT 181N",
+        "ABT/HYD 182",
+        "ESM 185",
+        "ESM 186"
+      ],
+      "units": "45-46",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Areas of Specialization",
+      "courses": [],
+      "units": "10-17",
+      "notes": [
+        "Students must choose courses in the Areas of Specialization that have not been taken in the Depth Subject Matter.",
+        "Choose one:",
+        "City & Regional Planning",
+        "Climate Change Policy",
+        "Conservation Management",
+        "Energy & Transportation Planning",
+        "Environmental Policy & Politics",
+        "Integrative Policy",
+        "Water Management",
+        "Areas of Specialization Subtotal"
+      ]
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 171",
+        "ESP 172"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Choose one",
+      "courses": [
+        "ECI 165",
+        "ESP/ECI 163"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Choose one:",
+      "courses": [
+        "AHI 168",
+        "CRD 149",
+        "CRD 152",
+        "CRD 156",
+        "CRD 171",
+        "ESP 173",
+        "ESP 174",
+        "ETX 110",
+        "POL 100"
+      ],
+      "units": "2-5",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 165",
+        "ARE 176",
+        "ECN 125",
+        "ESP/ECI 163",
+        "ESP 167",
+        "ESP 171",
+        "ESP 174",
+        "ATM 116",
+        "ATM 133",
+        "ATM 160",
+        "ESM 131",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "SAS 025",
+        "SAS 025V"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:",
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 166",
+        "ESP 169",
+        "ESP 170",
+        "ESP 172",
+        "ESP 174",
+        "ENH 160",
+        "ESM 141",
+        "ESM 144",
+        "ESP 100",
+        "ESP 121",
+        "ESP 124",
+        "ESP 127",
+        "EVE 115",
+        "EVE 138",
+        "WFC 126",
+        "WFC 151",
+        "WFC 152",
+        "WFC 154",
+        "WFC 155",
+        "AAS 176",
+        "AAS 177",
+        "ARE/ECN 115A",
+        "ANT 103",
+        "ASA 114",
+        "CHI 112",
+        "CRD 153A",
+        "CRD 153B",
+        "CRD 153C",
+        "IRE/SOC 104",
+        "SOC 145A"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ECN 125",
+        "ENG 106",
+        "ESP/ARE 175",
+        "ECI 165",
+        "ESP/ECI 163",
+        "ESP 167",
+        "ESP 172",
+        "ESP 174",
+        "ATM 116",
+        "ECI 123",
+        "ENG 160/PHY 160 DISCONTINUED FOR WINTER 2026 **",
+        "ESM 131",
+        "GEL 130"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose two:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "POL 100",
+        "POL 104",
+        "POL 105",
+        "POL 107",
+        "POL 109",
+        "ECI 165",
+        "ESP 165",
+        "ESP 166",
+        "ESP 167",
+        "ESP 169",
+        "ESP 170",
+        "ESP 171",
+        "ESP 172",
+        "ESP 174",
+        "POL 162",
+        "POL 164",
+        "POL 165",
+        "POL 165V",
+        "POL 170",
+        "ARE 106",
+        "ARE 176",
+        "ECI 153",
+        "ECN 130",
+        "ECN 130Y",
+        "ESP/ARE 175"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose two:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Students choosing this individualized track must consult with a faculty advisor to identify an area of emphasis within this track and to select four upper division courses with a common theme. Possible areas of emphasis are marine policy, pollutants in the environment, planning in the presence of environmental hazards, sustainable development, or environmental and natural resource economics. If you are considering this track, please contact the major advisor as soon as possible."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 166",
+        "ESP 169",
+        "ESP 174",
+        "HYD 150",
+        "ESM 100",
+        "ESM 121",
+        "ESM 125",
+        "ESP 151",
+        "ESP 155",
+        "GEL 134",
+        "HYD 141",
+        "HYD 143",
+        "SSC 118",
+        "WFC 120",
+        "BIS 124",
+        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 124",
+        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 152"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:",
+        "Choose two:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "105"
+}

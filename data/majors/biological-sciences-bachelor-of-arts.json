@@ -1,0 +1,191 @@
+{
+  "name": "Biological Sciences, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-sciences/biological-sciences-ab/",
+  "degree_type": "B.A.",
+  "department": "Biological Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 004ACHE 004B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C"
+      ],
+      "units": "10",
+      "notes": [
+        "Choose the 002 or 004 series:",
+        "Choose the 008 or 118 series:"
+      ]
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 021AMAT 021B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose the 017 or 021 series:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 001APHY 001B",
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose the 001 or 007 series:"
+      ]
+    },
+    {
+      "heading": "Recommended",
+      "courses": [
+        "CHE 002C",
+        "CHE 004C",
+        "MAT 017C",
+        "MAT 021C"
+      ],
+      "units": "45-57",
+      "notes": [
+        "Chemistry",
+        "Mathematics",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "STA 013",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Evolution",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Ecology",
+      "courses": [
+        "ESP 100",
+        "EVE 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 162",
+        "MMG 170"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Animal Physiology, Behavior or Development",
+      "courses": [
+        "BIS 104",
+        "MCB 150",
+        "NPB 100",
+        "NPB 101",
+        "NPB 102",
+        "NPB 107"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Plant Physiology or Development:",
+      "courses": [
+        "PLB 105",
+        "PLB 111",
+        "PLB 112",
+        "PLB 113",
+        "PLB/PLS 116",
+        "PLB/MCB 126"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "EVE 110",
+        "EVE 140",
+        "EVE/ENT 180A",
+        "EVE/ENT 180B",
+        "MCB 185",
+        "NPB 100L",
+        "NPB 101L",
+        "NPB 121L",
+        "NPB 123/APC 100",
+        "PLB/EVE 117",
+        "PLB/EVE 119",
+        "BIS 180L",
+        "EVE 105",
+        "EVE 106",
+        "EVE 112L",
+        "EVE 114",
+        "EXB 106L/CHA 101L",
+        "MIC 104L",
+        "MIC 105L",
+        "MCB 120L",
+        "MCB 140L",
+        "MCB 160L",
+        "PLB 105",
+        "PLB/PLS 116",
+        "PLB/PLP 148"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose course(s) for a minimum total of six hours/week of laboratory or field work from the list of courses below:",
+        "Choose two with three hours lab or field work/week:",
+        "Other courses with approval of the faculty advisor.",
+        "Choose one with six hours lab or field work/week; a course may fulfill both the lab and a depth topic requirement:",
+        "Other courses with approval of the Faculty Advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+  ],
+  "total_units": "76"
+}

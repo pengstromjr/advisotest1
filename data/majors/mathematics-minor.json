@@ -1,0 +1,60 @@
+{
+  "name": "Mathematics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/mathematics-minor/",
+  "degree_type": "Minor",
+  "department": "Mathematics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MAT/BIS 107",
+        "MAT 108",
+        "MAT 108V",
+        "MAT 111",
+        "MAT 114",
+        "MAT 115A",
+        "MAT 115B",
+        "MAT 116",
+        "MAT 118A",
+        "MAT 118B",
+        "MAT 118C",
+        "MAT 119A",
+        "MAT 119B",
+        "MAT 124",
+        "MAT 127A",
+        "MAT 127B",
+        "MAT 127C",
+        "MAT 128A",
+        "MAT 128B",
+        "MAT 128C",
+        "MAT 129",
+        "MAT 133",
+        "MAT 135A",
+        "MAT 135B",
+        "MAT 141",
+        "MAT 145",
+        "MAT 146",
+        "MAT 147",
+        "MAT 148",
+        "MAT 150A",
+        "MAT 150B",
+        "MAT 150C",
+        "MAT 165",
+        "MAT 167",
+        "MAT 168",
+        "MAT 170",
+        "MAT 180",
+        "MAT 185A",
+        "MAT 185B"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose five upper division courses (20 units total) in Mathematics:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

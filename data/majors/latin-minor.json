@@ -1,0 +1,29 @@
+{
+  "name": "Latin, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/classics/latin-minor/",
+  "degree_type": "Minor",
+  "department": "Classics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CLA 003",
+        "CLA 004"
+      ],
+      "units": "Units",
+      "notes": [
+        "Classics; choose one:",
+        "Choose three upper division courses in Latin",
+        "Latin (LAT)",
+        "Choose one additional upper division course in Classics, Latin, or Greek.",
+        "Classics (CLA)",
+        "Latin (LAT)",
+        "Greek (GRK)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

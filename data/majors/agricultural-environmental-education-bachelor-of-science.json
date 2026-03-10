@@ -1,0 +1,292 @@
+{
+  "name": "Agricultural & Environmental Education, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/animal-science/agricultural-environmental-education-bs/",
+  "degree_type": "B.S.",
+  "department": "Animal Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Government/U.S. Constitution",
+      "courses": [
+        "HIS 017A",
+        "POL 001",
+        "POL 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Subtotal"
+      ]
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 001",
+        "ANS 002",
+        "ANS 021",
+        "ANS 041"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose a minimum of 8 units in each area of Animal Science, Applied Biological Systems Technology, Agricultural Business & Economics, Environmental Horticulture, Environmental Science & Natural Resources, and Plant & Soil Science:"
+      ]
+    },
+    {
+      "heading": "Applied Biological Systems Technology",
+      "courses": [
+        "ABT 016",
+        "ABT 049",
+        "ABT 052",
+        "ABT 101"
+      ],
+      "units": "9",
+      "notes": []
+    },
+    {
+      "heading": "Agricultural Business & Economics; choose ARE 015 and ECN 001A or 001B",
+      "courses": [
+        "ARE 015",
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Horticulture",
+      "courses": [
+        "ENH 006",
+        "PLS 006",
+        "PLS 006V"
+      ],
+      "units": "9",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science & Natural Resources",
+      "courses": [
+        "ESP 010",
+        "ETX 010",
+        "HYD/SAS 010"
+      ],
+      "units": "9",
+      "notes": []
+    },
+    {
+      "heading": "Plant & Soil Science",
+      "courses": [
+        "PLS 002",
+        "PLS 015",
+        "PLS 049",
+        "VEN 002",
+        "VEN 003"
+      ],
+      "units": "8",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B"
+      ],
+      "units": "10",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "10",
+      "notes": []
+    },
+    {
+      "heading": "Geology",
+      "courses": [
+        "GEL 001",
+        "GEL 020"
+      ],
+      "units": "6",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics, choose a series:",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 021A",
+        "MAT 021B"
+      ],
+      "units": "6-8",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007A",
+        "PHY 007B"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
+        "SSC 010"
+      ],
+      "units": "3",
+      "notes": [
+        "Science/Math Preparatory Subtotal"
+      ]
+    },
+    {
+      "heading": "Agricultural Education",
+      "courses": [
+        "AED 100",
+        "AED 160"
+      ],
+      "units": "6",
+      "notes": []
+    },
+    {
+      "heading": "Education",
+      "courses": [
+        "EDU 110",
+        "EDU 115",
+        "EDU 142"
+      ],
+      "units": "10",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Science & Policy",
+      "courses": [
+        "ESP 110"
+      ],
+      "units": "4",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "The specialized focus will consist of a minimum of 16 units in one of the six areas listed below:",
+        "Agricultural Business & Economics",
+        "Animal Science",
+        "Applied Biological Systems Technology",
+        "Environmental Horticulture",
+        "Environmental Science & Natural Resources",
+        "Plant & Soil Science",
+        "Subtotal",
+        "Choose at least four additional upper division courses (minimum 16 units; duplicate from Depth specialization courses not counted) selected with approval of an advisor to supplement or expand depth subject matter courses chosen from Animal Biology, Animal Genetics, Animal Science, Agricultural & Resource Economics, Avian Sciences, Environmental Horticulture, Environmental & Resource Sciences, Environmental Science & Policy, Food Science & Technology, International Agricultural Development, Nature and Culture, Neurobiology, Physiology, & Behavior, Nutrition, Plant Sciences, Plant Biology, or Viticulture & Enology.",
+        "Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE 100A",
+        "ARE 100B",
+        "ARE 120",
+        "ARE 130",
+        "ARE 135",
+        "ARE 138",
+        "ARE 140",
+        "ARE 150",
+        "ARE/ESP 175",
+        "ARE 176"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ABI 102",
+        "FST 109",
+        "NPB 101",
+        "NPB 121",
+        "NUT 115"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose upper division units from any Animal Genetics, Animal Science, or Avian Sciences courses. Or choose from:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ABT 121",
+        "ABT/IAD 142",
+        "ABT 161",
+        "ABT/SAF 165",
+        "ABT/HYD 182"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 105",
+        "ENH 120",
+        "ENH 125",
+        "ENH 133",
+        "ENH 160",
+        "PLS 150"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ESP 100",
+        "ESP/ANT 101",
+        "ESP 110",
+        "ESP 123",
+        "ESP 151",
+        "ESP 161",
+        "ESP 170",
+        "EVE 101",
+        "EVE 115",
+        "PLS 101",
+        "PLS 105",
+        "WFC 110",
+        "WFC 111",
+        "WFC 120",
+        "WFC 154"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PLB 105",
+        "PLB/PLS 116",
+        "PLB/EVE 117",
+        "PLS 150",
+        "SSC 100",
+        "SSC 102",
+        "SSC 118",
+        "VEN 101A",
+        "VEN 101C"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "150"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Agricultural Pest Management, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/entomology-nematology/agricultural-pest-management-minor/",
+  "degree_type": "Minor",
+  "department": "Entomology Nematology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENT 100",
+        "ENT 100L",
+        "ENT 110",
+        "NEM 100",
+        "PLS 105",
+        "PLS 176",
+        "PLP 120",
+        "ENT 135",
+        "ENT 123",
+        "PLB 123",
+        "PLP 123",
+        "ENT/PLB/PLP 123"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose at least three:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

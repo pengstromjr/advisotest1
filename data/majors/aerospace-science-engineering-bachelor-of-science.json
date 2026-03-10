@@ -1,0 +1,195 @@
+{
+  "name": "Aerospace Science & Engineering, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/mechanical-aerospace-engineering/aerospace-science-engineering-bs/",
+  "degree_type": "B.S.",
+  "department": "Mechanical Aerospace Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002AH",
+        "CHE 002B",
+        "CHE 002BH"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 004",
+        "ENG 006",
+        "ENG 017",
+        "ENG 017V",
+        "ENG 035",
+        "ENG 045",
+        "ENG 045Y"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Lower Division Composition/Writing",
+      "courses": [
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one; a grade of C- or better is required:"
+      ]
+    },
+    {
+      "heading": "Communication",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "ENG 003",
+        "ENG 003Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Lower Division Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Required Aerospace Courses",
+      "courses": [
+        "EAE 127",
+        "EAE 129",
+        "EAE 133",
+        "EAE 135",
+        "EAE 138"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Senior Design Capstone, choose one series (Winter & Spring Quarter Only):",
+      "courses": [
+        "EAE 130AEAE 130B",
+        "EAE 143AEAE 143B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
+        "ENG 100",
+        "ENG 102",
+        "ENG 103",
+        "ENG 104",
+        "ENG 104V",
+        "ENG 105",
+        "ENG 190"
+      ],
+      "units": "22",
+      "notes": []
+    },
+    {
+      "heading": "Mechanical Engineering",
+      "courses": [
+        "EME 106",
+        "EME 108",
+        "EME 109",
+        "EME 165",
+        "EME 172"
+      ],
+      "units": "20",
+      "notes": []
+    },
+    {
+      "heading": "Applied Mathematics Elective",
+      "courses": [
+        "ENG 180",
+        "EME 115",
+        "MAT 128A",
+        "MAT 128C",
+        "ECS 130"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Technical Electives",
+      "courses": [
+        "EAE 140",
+        "EAE 142",
+        "EAE 143A",
+        "EAE 143B",
+        "EAE 126",
+        "EME 139"
+      ],
+      "units": "12",
+      "notes": [
+        "Astronautics Elective; choose one:",
+        "Aeronautics Elective; choose one:",
+        "From the above Astronautics Elective list if not used in satisfaction of other degree requirements.",
+        "Technical Elective; choose one:",
+        "From the above Aeronautics Elective list if not used in satisfaction of other degree requirements.",
+        "Up to 4 units may be selected from any upper division engineering course including any engineering 192 or 199 not used in satisfaction of other degree requirements."
+      ]
+    },
+    {
+      "heading": "Upper Division Composition Requirement",
+      "courses": [
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102E",
+        "UWP 104A",
+        "UWP 104AV",
+        "UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
+        "Choose one; grade of C- or better is required:",
+        "Passing the Upper Division Composition Exam",
+        "Upper Division Required Courses Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "160"
+}

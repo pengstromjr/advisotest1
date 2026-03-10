@@ -1,0 +1,91 @@
+{
+  "name": "Chemical Physics, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/chemical-physics-bs/",
+  "degree_type": "B.S.",
+  "department": "Chemistry",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 004A",
+        "CHE 004B",
+        "CHE 004C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D"
+      ],
+      "units": "19",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A022AL",
+        "MAT/BIS 027A",
+        "MAT 022B",
+        "MAT/BIS 027B"
+      ],
+      "units": "23-24",
+      "notes": [
+        "Choose One:",
+        "Choose One:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 105",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C",
+        "CHE 115",
+        "CHE 124A",
+        "CHE 125",
+        "CHE 128A",
+        "CHE 128B",
+        "CHE 129A"
+      ],
+      "units": "35",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 105B",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 140A"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose at least one:",
+        "At least 2 additional upper division units in Chemistry (CHE)",
+        "Chemistry (CHE) courses.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research."
+  ],
+  "total_units": "110"
+}

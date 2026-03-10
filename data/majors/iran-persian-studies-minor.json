@@ -1,0 +1,52 @@
+{
+  "name": "Iran & Persian Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/middle-east-south-asia-studies/iran-persian-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Middle East South Asia Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Middle East/South Asia Studies",
+      "courses": [
+        "MSA 100",
+        "MSA 180",
+        "MSA 181A",
+        "MSA 182A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 190D",
+        "HIS 193D"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Core Course List",
+      "courses": [
+        "COM 155",
+        "HIS 190D",
+        "HIS 193D",
+        "MSA 131A/CTS 146A",
+        "CTS 146A/MSA 131A",
+        "MSA 151A",
+        "MSA 181A",
+        "MSA 182A"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose additional electives from Core Course list:",
+        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept:",
+        "Other elective courses toward the minor program if the content is 50% or more on the Iranian and Persian World. Under no circumstances may more than one lower division course be offered in satisfaction of requirements for the minor.",
+        "More than 4 units1  towards the minor program."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

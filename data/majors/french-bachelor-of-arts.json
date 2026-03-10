@@ -1,0 +1,113 @@
+{
+  "name": "French, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/french-italian/french-ab/",
+  "degree_type": "B.A.",
+  "department": "French Italian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Elementary French",
+      "courses": [
+        "FRE 001",
+        "FRE 001Y",
+        "FRE 002",
+        "FRE 002Y",
+        "FRE 003",
+        "FRE 003Y"
+      ],
+      "units": "0-15",
+      "notes": [
+        "OR the equivalent."
+      ]
+    },
+    {
+      "heading": "Intermediate French",
+      "courses": [
+        "FRE 021",
+        "FRE 021Y",
+        "FRE 022",
+        "FRE 022Y",
+        "FRE 023",
+        "FRE 023Y"
+      ],
+      "units": "0-15",
+      "notes": [
+        "OR the equivalent",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "French",
+      "courses": [
+        "FRE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "French Literature",
+      "courses": [
+        "FRE 101",
+        "FRE 102",
+        "FRE 103",
+        "FRE 115",
+        "FRE 116",
+        "FRE 117A",
+        "FRE 117B",
+        "FRE 118A",
+        "FRE 118B",
+        "FRE 119A",
+        "FRE 119B",
+        "FRE 119C",
+        "FRE 120",
+        "FRE 121",
+        "FRE 122",
+        "FRE 124",
+        "FRE 125",
+        "FRE 130",
+        "FRE 133",
+        "FRE 140",
+        "FRE 141"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "French Culture",
+      "courses": [
+        "FRE 107A",
+        "FRE 107B",
+        "FRE 108",
+        "FRE 127",
+        "FRE 128"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "French Linguistics & Language Science",
+      "courses": [
+        "FRE 105",
+        "FRE 109",
+        "FRE 160",
+        "FRE 161",
+        "FRE 162"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "French Electives: Five (5) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor. French 101-162",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: Candidates for high or highest honors in French must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in FRE 194H (4 units) and FRE 195H (4 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in co"
+  ],
+  "total_units": "40"
+}

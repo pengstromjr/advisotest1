@@ -1,0 +1,104 @@
+{
+  "title": "UC Davis General Education Requirements",
+  "effective": "Fall 2011 and later",
+  "total_units": 87,
+  "categories": [
+    {
+      "name": "Topical Breadth",
+      "units_required": 52,
+      "description": "Students must complete courses in three topical breadth areas. A minimum of 12 and maximum of 20 units from each area.",
+      "areas": [
+        {
+          "code": "AH",
+          "name": "Arts & Humanities",
+          "units_min": 12,
+          "units_max": 20,
+          "description": "Courses that explore creative expression, critical interpretation, philosophical inquiry, and cultural traditions in the arts and humanities."
+        },
+        {
+          "code": "SE",
+          "name": "Science & Engineering",
+          "units_min": 12,
+          "units_max": 20,
+          "description": "Courses that develop understanding of the natural world through scientific inquiry, mathematical reasoning, and engineering principles."
+        },
+        {
+          "code": "SS",
+          "name": "Social Sciences",
+          "units_min": 12,
+          "units_max": 20,
+          "description": "Courses that examine human behavior, social institutions, and political and economic systems using social science methods."
+        }
+      ]
+    },
+    {
+      "name": "Core Literacies",
+      "units_required": 35,
+      "description": "Students must complete courses in core literacy areas that develop fundamental skills for university-level work and civic participation.",
+      "areas": [
+        {
+          "code": "WE",
+          "name": "Writing Experience",
+          "units_required": 6,
+          "description": "Courses that develop proficiency in written communication. Students complete English Composition (8 units) plus additional Writing Experience courses (6 units)."
+        },
+        {
+          "code": "OL",
+          "name": "Oral Literacy",
+          "units_required": 3,
+          "description": "Courses that develop skills in oral communication, presentation, and public speaking."
+        },
+        {
+          "code": "VL",
+          "name": "Visual Literacy",
+          "units_required": 3,
+          "description": "Courses that develop the ability to interpret, evaluate, and create visual media."
+        },
+        {
+          "code": "ACGH",
+          "name": "American Cultures, Governance & History",
+          "units_required": 3,
+          "description": "Courses that provide an understanding of American history, governance, institutions, and diverse cultures."
+        },
+        {
+          "code": "DD",
+          "name": "Domestic Diversity",
+          "units_required": 3,
+          "description": "Courses that explore the experiences and contributions of diverse groups within the United States."
+        },
+        {
+          "code": "WC",
+          "name": "World Cultures",
+          "units_required": 3,
+          "description": "Courses that develop understanding of cultures, societies, and histories outside the United States."
+        },
+        {
+          "code": "QL",
+          "name": "Quantitative Literacy",
+          "units_required": 3,
+          "description": "Courses that develop the ability to reason with and apply quantitative methods."
+        },
+        {
+          "code": "SL",
+          "name": "Scientific Literacy",
+          "units_required": 3,
+          "description": "Courses that develop understanding of scientific reasoning, methods, and the role of science in society."
+        }
+      ]
+    }
+  ],
+  "additional_requirements": {
+    "english_composition": {
+      "units_required": 8,
+      "description": "All students must complete 8 units of English Composition. Typically fulfilled by UWP 001 (or equivalent) and one additional course.",
+      "typical_courses": ["UWP 001", "ENL 003"]
+    }
+  },
+  "notes": [
+    "A single course can satisfy requirements in at most two GE areas.",
+    "Courses used to satisfy major requirements may also count toward GE requirements if they carry GE designation.",
+    "Students who entered UC Davis before Fall 2011 may be under a different GE framework.",
+    "Transfer students should consult ASSIST.org for course equivalencies.",
+    "Some colleges (e.g., College of Engineering) have modified GE requirements."
+  ]
+}

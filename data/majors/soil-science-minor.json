@@ -1,0 +1,32 @@
+{
+  "name": "Soil Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/soil-science-minor/",
+  "degree_type": "Minor",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "SSC 100",
+        "HYD 124",
+        "HYD 134",
+        "PLS 158",
+        "SSC 102",
+        "SSC 105",
+        "SSC 107",
+        "SSC 109",
+        "SSC 111",
+        "SSC 118",
+        "SSC 120"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose 16 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "21"
+}

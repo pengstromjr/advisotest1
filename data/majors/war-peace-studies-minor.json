@@ -1,0 +1,69 @@
+{
+  "name": "War-Peace Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/political-science/war-peace-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Political Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Approaches",
+      "courses": [
+        "ANT 123AN",
+        "ANT 126B",
+        "COM 157",
+        "PHI 115",
+        "PHI 118",
+        "POL 121",
+        "POL 123",
+        "POL 124",
+        "POL 132",
+        "POL 176",
+        "SOC 157"
+      ],
+      "units": "",
+      "notes": [
+        "No more than two courses from a single department may be offered in satisfaction of the minor requirements.",
+        "Choose one or two from each of the following areas:"
+      ]
+    },
+    {
+      "heading": "Northern & Western Regions",
+      "courses": [
+        "HIS 134A",
+        "HIS 138C",
+        "HIS 142A",
+        "HIS 143",
+        "HIS 144A",
+        "HIS 144B",
+        "HIS 145",
+        "HIS 170B",
+        "HIS 171B",
+        "HIS 174B",
+        "NAS 130B",
+        "POL 130",
+        "POL 131"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Southern & Eastern Regions",
+      "courses": [
+        "ANT 142",
+        "ANT 143A",
+        "ANT 144",
+        "HIS 165",
+        "HIS 165V",
+        "HIS 191F",
+        "HIS 194C",
+        "NAS 120",
+        "POL 142A"
+      ],
+      "units": "20",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Philosophy, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/philosophy/philosophy-minor/",
+  "degree_type": "Minor",
+  "department": "Philosophy",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Upper division units in philosophy (100-199).",
+        "Philosophy (PHI) courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PHI 012",
+        "MAT 108",
+        "MAT 108V",
+        "PHI 112",
+        "PHI 113",
+        "PHI 131",
+        "PHI 134",
+        "PHI 135",
+        "PHI 189K"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

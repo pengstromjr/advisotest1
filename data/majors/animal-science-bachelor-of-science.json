@@ -1,0 +1,263 @@
+{
+  "name": "Animal Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/animal-science/animal-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Animal Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Animal Science",
+      "courses": [
+        "ANS 001",
+        "ANS 002",
+        "ANS 041",
+        "ANS 041L"
+      ],
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry; choose 002 series & 008 series or 118 series:",
+      "courses": [
+        "CHE 002ACHE 002B",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118B"
+      ],
+      "units": "16-18",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics; choose a series:",
+      "courses": [
+        "MAT 017AMAT 017B",
+        "MAT 019AMAT 019B",
+        "MAT 021AMAT 021B",
+        "PLS 120",
+        "STA 100"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose one:",
+        "Note: Some professional and graduate schools may require additional preparatory subject matter; consult the Advising Center.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biology",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "ANG 107",
+        "ABI 102",
+        "ABI 103",
+        "NPB 101",
+        "ANS 100",
+        "ANS 104",
+        "ANS 150",
+        "ANS 170",
+        "NUT 115",
+        "NUT 141"
+      ],
+      "units": "44",
+      "notes": []
+    },
+    {
+      "heading": "Integrative Animal Biology Restricted Electives:",
+      "courses": [
+        "ANS 123",
+        "ANS 124",
+        "NPB 121",
+        "NPB 130",
+        "ANS 123",
+        "EVE 112",
+        "NPB 123/APC 100",
+        "WFC 120",
+        "ANS 123",
+        "AVS 100",
+        "NPB 117",
+        "NPB 130"
+      ],
+      "units": "6-8",
+      "notes": [
+        "For Companion & Captive, Disciplinary Focus-Behavior, Disciplinary Focus-Biochemistry, Disciplinary Focus-Genetics, Disciplinary Focus-Nutrition, Disciplinary Focus-Physiology, Equine Science, Laboratory Animals, and Livestock & Dairy specializations: must take two from the following list:",
+        "For Aquatic Animal specialization; must take two from the following list:",
+        "For Avian Sciences & Poultry specializations; must take two from the following list:"
+      ]
+    },
+    {
+      "heading": "Laboratory",
+      "courses": [
+        "ANG 111",
+        "ANS 106",
+        "ANS 133",
+        "ANS 134",
+        "ANS 135",
+        "ANS 136",
+        "ANS 137",
+        "ANS 139",
+        "MCB 120L",
+        "MCB 160L",
+        "NPB 101L",
+        "NPB 104L",
+        "PMI 126L"
+      ],
+      "units": "2-6",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Area of Specialization",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Choose one area of specialization below:",
+        "The program of study must be approved in advance by your faculty advisor. Courses must be taken for a letter grade.",
+        "Aquatic Animals",
+        "Avian Sciences",
+        "Companion & Captive Animals",
+        "Disciplinary Focus―Behavior",
+        "Disciplinary Focus―Biochemistry",
+        "Disciplinary Focus―Genetics",
+        "Disciplinary Focus―Nutrition",
+        "Disciplinary Focus―Physiology",
+        "Equine Science",
+        "Laboratory Animals",
+        "Livestock & Dairy",
+        "Poultry",
+        "Area of Specialization Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 018"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AVS 013"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 042",
+        "ANS 142"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Select upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Select upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Select upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Select upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "Units",
+      "notes": [
+        "Select upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 015",
+        "ANS 115"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 042",
+        "ANS 140"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 143",
+        "ANS 144",
+        "ANS 146"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two:",
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AVS 011",
+        "ANS 143"
+      ],
+      "units": "Units",
+      "notes": [
+        "Select additional upper division units with approval from your faculty advisor, to form a coherent series of courses."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "117"
+}

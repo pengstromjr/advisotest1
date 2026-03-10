@@ -1,0 +1,210 @@
+{
+  "name": "Human Development, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/human-ecology/human-development-bs/",
+  "degree_type": "B.S.",
+  "department": "Human Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "STA 013",
+        "STA 013Y",
+        "PSC 041",
+        "PSC 041V",
+        "ANT 001",
+        "ANT 002",
+        "ANT 015",
+        "BIS 002A",
+        "BIS 010",
+        "MIC 010",
+        "NPB 010",
+        "NPB 012",
+        "NPB 101",
+        "PSC 101"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Anthropology",
+      "courses": [
+        "ANT 001",
+        "ANT 002",
+        "ANT 015"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Biology",
+      "courses": [
+        "BIS 002A",
+        "BIS 010",
+        "BIS 101",
+        "BIS 101V",
+        "MCB 010",
+        "NPB 010",
+        "NPB 012",
+        "NPB 101",
+        "PSC 101"
+      ],
+      "units": "6-10",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 005",
+        "PHI 015",
+        "PHI 030",
+        "PHI 031",
+        "PHI 032",
+        "PHI 038"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "PSC 041",
+        "PSC 041V",
+        "STA 013",
+        "STA 013Y"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Life Span",
+      "courses": [
+        "HDE 100A",
+        "HDE 100AV",
+        "HDE 100B",
+        "HDE 100BV",
+        "HDE 100C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "HDE 120"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Practicum",
+      "courses": [
+        "HDE 141",
+        "HDE 142",
+        "HDE 143"
+      ],
+      "units": "4-6",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Human Development English Coursework Requirement",
+      "courses": [
+        "CMN 001",
+        "CMN 001V",
+        "COM 001",
+        "COM 002",
+        "COM 003",
+        "COM 004",
+        "ENL 003",
+        "ENL 003V",
+        "NAS 005",
+        "NAS 005V",
+        "UWP 001",
+        "UWP 001V",
+        "UWP 001Y",
+        "UWP 048",
+        "UWP 049",
+        "UWP 101",
+        "UWP 101V",
+        "UWP 101Y",
+        "UWP 102",
+        "UWP 104"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose one track, and take three courses within that track; see track options below:",
+        "Health & Wellbeing",
+        "Children & Families Across the Lifespan",
+        "General HDE; choose any three upper division HDE courses. These courses cannot overlap with the depth subject.",
+        "Choose additional upper division courses for 19-20 units from a list of restricted electives related to your track in consultation with faculty advisor.",
+        "Depth  Subject Matter Subtotal",
+        "Choose three courses in English Composition; at least one must be upper division:",
+        "Choose at least one:",
+        "The Upper Division Composition Exam does not satisfy the requirement.",
+        "Human Development English Coursework Requirement Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HDE 131",
+        "HDE 131V",
+        "HDE 133",
+        "HDE 133V",
+        "HDE 135",
+        "HDE 135V",
+        "HDE 137",
+        "HDE 180"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "HDE 104",
+        "HDE 110",
+        "HDE 110V",
+        "HDE 111",
+        "HDE 112",
+        "HDE 180"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose three:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "90"
+}

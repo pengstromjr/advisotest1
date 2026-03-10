@@ -1,0 +1,206 @@
+{
+  "name": "Anthropology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/anthropology/anthropology-bs/",
+  "degree_type": "B.S.",
+  "department": "Anthropology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Anthropology",
+      "courses": [
+        "ANT 001",
+        "ANT 002",
+        "ANT 003"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "General Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "ANT 013",
+        "SOC 056",
+        "SOC 056Y",
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ANT 151",
+        "ANT 152",
+        "ANT 160",
+        "ANT 153",
+        "EVE 131",
+        "ANT 154A",
+        "ANT 155",
+        "ANT 159"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose one:",
+        "Three additional upper division ANT courses."
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Additional Units",
+      "courses": [],
+      "units": "17",
+      "notes": [
+        "Additional units from the list below to achieve a minimum of 45 upper division units.",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 128A",
+        "ANT 151",
+        "ANT 152",
+        "ANT 153",
+        "ANT 154A",
+        "ANT 154C",
+        "ANT 154CL",
+        "ANT 155",
+        "ANT 156A",
+        "ANT 156B",
+        "ANT 157",
+        "ANT 157L",
+        "ANT 158",
+        "ANT 159",
+        "ANT 160",
+        "ANT 180",
+        "ANT 182",
+        "ANT 185",
+        "ABI 102",
+        "ABI 103",
+        "APC 100/NPB 123",
+        "BIS 102",
+        "BIS 102V",
+        "BIS 103",
+        "CHA 101/EXB 106",
+        "CHA 101L/EXB 106L",
+        "ESP 100",
+        "EVE 101",
+        "EVE 102",
+        "EVE 103",
+        "EVE 104",
+        "EVE 105",
+        "EVE 138",
+        "EVE 141",
+        "EVE 147",
+        "EVE 149",
+        "EVE 175",
+        "GEL 107",
+        "GEL 107L",
+        "GEL 108",
+        "GEL 144",
+        "GEL 146",
+        "HDE/ENT 117",
+        "MCB 120",
+        "MCB 120L",
+        "MCB 121",
+        "MCB 150",
+        "MCB 160L",
+        "MCB 162",
+        "MCB 163",
+        "MCB 182",
+        "NPB 101",
+        "NPB 101L",
+        "NPB 102",
+        "NPB 123/APC 100",
+        "NPB/PSC 124",
+        "NPB 150/PSC 122",
+        "NPB 152/PSC 123",
+        "PSC 101",
+        "PSC 113",
+        "PSC 121",
+        "PSC 122/NPB 150",
+        "PSC 123/NPB 152",
+        "PSC/NPB 124",
+        "SPH 101",
+        "SPH 102",
+        "STA 100",
+        "STA 104",
+        "STA 106",
+        "STA 108",
+        "STA 130A",
+        "STA 130B",
+        "STS 131",
+        "WFC 141",
+        "WFC 154"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: The Department of Anthropology offers undergraduate students an opportunity to demonstrate their scholarly potential by conducting original research and writing an honors thesis or conducting an honors project under the one-on-one guidance of a faculty mentor.The honors thesis or project will have a minimum duration of two quarters. Honors candidates must take at least 6 units of Anthropology ANT 194H. The quality of the thesis work will be the primary determinant for designating high or highest"
+  ],
+  "total_units": "96"
+}

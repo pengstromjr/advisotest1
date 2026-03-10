@@ -1,0 +1,63 @@
+{
+  "name": "Italian, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/french-italian/italian-minor/",
+  "degree_type": "Minor",
+  "department": "French Italian",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ITA 001",
+        "ITA 002",
+        "ITA 003",
+        "ITA 031",
+        "ITA 031Y",
+        "ITA 032",
+        "ITA 032Y",
+        "ITA 021",
+        "ITA 022",
+        "ITA 023"
+      ],
+      "units": "0-30",
+      "notes": [
+        "The equivalent.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ITA 101",
+        "ITA 101S",
+        "ITA 102",
+        "ITA 103",
+        "ITA 104",
+        "ITA 105"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [
+        "ITA 101",
+        "ITA 102",
+        "ITA 103",
+        "ITA 104",
+        "ITA 105"
+      ],
+      "units": "12",
+      "notes": [
+        "Italian (ITA) courses.",
+        "Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

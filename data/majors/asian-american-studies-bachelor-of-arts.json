@@ -1,0 +1,107 @@
+{
+  "name": "Asian American Studies, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/asian-american-studies/asian-american-studies-ab/",
+  "degree_type": "B.A.",
+  "department": "Asian American Studies",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ASA 001",
+        "ASA 002",
+        "ASA 003",
+        "ASA 004"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose at least two lower division courses from the following departments or programs:",
+        "All lower division courses of at least 4 units are acceptable except those numbered 092, 097T, 098, 099.",
+        "African American & African Studies (AAS)",
+        "American Studies (AMS)",
+        "Chicana/o Studies (CHI)",
+        "Gender, Sexuality, & Women's Studies (GSW)",
+        "Middle East & South Asia Studies (MSA)",
+        "Native American Studies (NAS)",
+        "Women's Studies (WMS)"
+      ]
+    },
+    {
+      "heading": "Methodology",
+      "courses": [
+        "AAS 101",
+        "AHI 005",
+        "AHI 100",
+        "AMS 100",
+        "ANT 013",
+        "ART 030",
+        "CHI 023",
+        "ENL 042",
+        "ENL 110A",
+        "ENL 110B",
+        "HDE 120",
+        "HIS 101",
+        "PHI 005",
+        "POL 051",
+        "PSC 041",
+        "PSC 041V",
+        "STA 013",
+        "STA 013Y",
+        "WMS 104"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose at least two courses from any of the following methods courses:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ASA 192",
+        "ASA 100",
+        "ASA 102",
+        "ASA 112",
+        "ASA 113",
+        "ASA 114",
+        "ASA 115",
+        "ASA 116",
+        "ASA 121",
+        "ASA 130",
+        "ASA 131",
+        "ASA/SPH 132",
+        "ASA 141",
+        "ASA 150",
+        "ASA 150B",
+        "ASA 150C",
+        "ASA 150D",
+        "ASA 150E",
+        "ASA 150F",
+        "ASA 155",
+        "ASA 189A",
+        "ASA 189B",
+        "ASA 189C",
+        "ASA 189D",
+        "ASA 189E",
+        "ASA 189F",
+        "ASA 189G",
+        "ASA 189H",
+        "ASA 189I",
+        "ASA 194ASA 195",
+        "ASA 198",
+        "ASA 199"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose at least six upper division Asian American Studies (ASA) courses:",
+        "At least two upper division elective courses from other departments or programs that relate to chosen emphasis.",
+        "Two courses (of up to 8 units) from Study Abroad can be substituted for major requirements upon approval from the SAO or faculty advisor.",
+        "Substitutions for disciplinary track courses will be considered by the Department Chair on a case by case basis. Likewise, any substitutions of Major/Minor criteria will be considered by the Department Chair.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "68"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Geographic Information Systems, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biological-agricultural-engineering/geographic-information-systems-minor/",
+  "degree_type": "Minor",
+  "department": "Biological Agricultural Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses:",
+      "courses": [
+        "ABT/HYD 182",
+        "ABT 181N",
+        "ESM 186",
+        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **"
+      ],
+      "units": "13",
+      "notes": []
+    },
+    {
+      "heading": "Elective Courses; choose 5 units:",
+      "courses": [
+        "ABT 181N",
+        "ABT 182",
+        "ESM 108",
+        "ESM 185",
+        "ESP 168A",
+        "ESP 168B",
+        "ESP 171",
+        "ESP 179",
+        "PLS 120",
+        "STA 100"
+      ],
+      "units": "5",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

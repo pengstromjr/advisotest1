@@ -1,0 +1,40 @@
+{
+  "name": "Geophysics, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/earth-planetary-sciences/geophysics-minor/",
+  "degree_type": "Minor",
+  "department": "Earth Planetary Sciences",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL 131",
+        "GEL 160",
+        "GEL 161",
+        "GEL 162",
+        "GEL 163",
+        "ECI 175",
+        "ESM 100",
+        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
+        "GEL 130",
+        "GEL 134",
+        "GEL 142",
+        "GEL 147",
+        "GEL 149",
+        "GEL/ESP 150A",
+        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
+        "GEL 156",
+        "HYD/EBS 144",
+        "HYD 146"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose four:",
+        "Choose additional courses from above and/or from the following list to reach at least 18 total units for the minor."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

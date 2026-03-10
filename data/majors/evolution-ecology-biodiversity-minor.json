@@ -1,0 +1,83 @@
+{
+  "name": "Evolution, Ecology & Biodiversity, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/evolution-ecology/evolution-ecology-biodiversity-minor/",
+  "degree_type": "Minor",
+  "department": "Evolution Ecology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EVE 100",
+        "EVE 101"
+      ],
+      "units": "Units",
+      "notes": [
+        "Courses selected for the Biodiversity and Advanced Ecology or Evolution sections must add up to at least 10 units."
+      ]
+    },
+    {
+      "heading": "Biodiversity",
+      "courses": [
+        "ENT 103",
+        "EVE 105",
+        "EVE 112",
+        "EVE 112L",
+        "EVE 114",
+        "EVE 140",
+        "MIC 105",
+        "MIC 105L",
+        "NEM 110",
+        "PLB/PLS 116",
+        "PLB/PLP 148",
+        "PLS 147",
+        "WFC 110",
+        "WFC 110L",
+        "WFC 111",
+        "WFC 111L",
+        "WFC 120",
+        "WFC 120L",
+        "WFC 134",
+        "WFC 134L"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Advanced Ecology or Evolution",
+      "courses": [
+        "EVE 102",
+        "EVE 103",
+        "EVE 107",
+        "EVE 115",
+        "EVE/PLB 117",
+        "EVE/PLB 119",
+        "EVE 120",
+        "EVE 131",
+        "EVE 138",
+        "EVE 141",
+        "EVE 147",
+        "EVE 149",
+        "EVE 150",
+        "EVE 161",
+        "EVE 180A",
+        "ENT 180A",
+        "EVE 180B",
+        "ENT 180B",
+        "EVE/ENT 180A",
+        "EVE/ENT 180B",
+        "EVE 181"
+      ],
+      "units": "18",
+      "notes": [
+        "Choose two:",
+        "Laboratory or field course: At least one of the courses taken to fulfill these requirements must include a 6-hour per week laboratory or field component or two courses with a 3-hour per week laboratory or field component."
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

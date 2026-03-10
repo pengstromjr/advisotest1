@@ -1,0 +1,78 @@
+{
+  "name": "Sustainability in the Built Environment, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/civil-environmental-engineering/sustainability-built-environment-minor/",
+  "degree_type": "Minor",
+  "department": "Civil Environmental Engineering",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ECI 123"
+      ],
+      "units": "Units",
+      "notes": [
+        "Complete at least 14 units of coursework from the three core thematic areas, below."
+      ]
+    },
+    {
+      "heading": "Engineering & Science",
+      "courses": [
+        "ATM 116",
+        "DES 127A",
+        "DES 127B",
+        "DES 156",
+        "ECI 040",
+        "ECI 140A",
+        "ECI 155",
+        "ECI/ESP 163",
+        "ECI 165",
+        "ENG 188",
+        "ETX 101",
+        "GEL 130",
+        "LED 140"
+      ],
+      "units": "",
+      "notes": [
+        "Choose at least one, 3 or 4 unit course:"
+      ]
+    },
+    {
+      "heading": "Social Context",
+      "courses": [
+        "ANT/ESP 101",
+        "ANT 104N",
+        "CRD 142",
+        "CRD 149",
+        "CRD 154",
+        "CRD 158",
+        "CRD 172",
+        "LED 003",
+        "PLS 162"
+      ],
+      "units": "",
+      "notes": [
+        "Choose at least one, 3 or 4 unit course:"
+      ]
+    },
+    {
+      "heading": "Policy & Economics",
+      "courses": [
+        "ARE/ESP 175",
+        "ARE 176",
+        "ESP 161",
+        "ESP 162",
+        "ESP 171",
+        "ESP 173",
+        "PLS 150"
+      ],
+      "units": "18",
+      "notes": [
+        "Choose at least one, 4 unit course:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

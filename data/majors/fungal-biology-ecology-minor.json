@@ -1,0 +1,31 @@
+{
+  "name": "Fungal Biology & Ecology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/plant-pathology/fungal-biology-ecology-minor/",
+  "degree_type": "Minor",
+  "department": "Plant Pathology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Plant Pathology",
+      "courses": [
+        "PLP 130",
+        "PLP/PLB 148",
+        "PLP 150",
+        "FST 104",
+        "PLP 040",
+        "PLP 135",
+        "PLP 185",
+        "PLP 224",
+        "SAS 030",
+        "SSC 111"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose 7-9 units:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "17"
+}

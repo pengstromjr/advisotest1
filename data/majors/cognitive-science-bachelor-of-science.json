@@ -1,0 +1,383 @@
+{
+  "name": "Cognitive Science, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/cognitive-science/cognitive-science-bs/",
+  "degree_type": "B.S.",
+  "department": "Cognitive Science",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Cognitive Science:",
+      "courses": [
+        "CGS 001/PHI 010"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Introduction to Mathematical Abstraction",
+      "courses": [
+        "ECS 020"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Programming",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 032B",
+        "ECS 034",
+        "ECS 036AECS 036BECS 036C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Linguistics",
+      "courses": [
+        "LIN 001",
+        "LIN 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Calculus",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Linear Algebra & MATLAB",
+      "courses": [
+        "MAT 022A022AL",
+        "MAT/BIS 027A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 012",
+        "PHI 013G"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Take each of the courses below:",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PHI 112"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Group B: Computation",
+      "courses": [
+        "ECS 120",
+        "ECS 170",
+        "ECS 171",
+        "LIN 177",
+        "PHI 133"
+      ],
+      "units": "12",
+      "notes": [
+        "CGS Topical Course: choose one upper division course from this list.",
+        "Choose three from Group B:"
+      ]
+    },
+    {
+      "heading": "Group C: Neuroscience",
+      "courses": [
+        "CGS 107/PSC 133/ECN 107",
+        "LIN 175",
+        "PSC 101",
+        "PSC 135",
+        "PSC 139",
+        "PSC 145"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one from Group C:",
+        "Choose one from Group D or E:"
+      ]
+    },
+    {
+      "heading": "Group D: Philosophy",
+      "courses": [
+        "PHI 103",
+        "PHI 104",
+        "PHI 129",
+        "PHI 136"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group E: Linguistics",
+      "courses": [
+        "LIN 103A",
+        "LIN 103AV",
+        "LIN 103B",
+        "LIN 150",
+        "LIN 182"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group F: Psychology",
+      "courses": [
+        "PSC 101",
+        "PSC 103A",
+        "PSC 103B",
+        "PSC 113",
+        "PSC 121",
+        "PSC/NPB 124",
+        "PSC 130",
+        "PSC 131",
+        "PSC 135",
+        "PSC 136",
+        "PSC 137",
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "PSC 141"
+      ],
+      "units": "15-18",
+      "notes": [
+        "Choose four from Group F:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Cognitive Science",
+      "courses": [
+        "CGS 001/PHI 010"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002B",
+        "BIS 002C",
+        "BIS 002A"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Linguistics",
+      "courses": [
+        "LIN 001",
+        "LIN 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 013G"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C",
+        "PHY 009APHY 009BPHY 009C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Research Methods",
+      "courses": [
+        "PSC 041",
+        "PSC 041V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Take each of these courses below:",
+      "courses": [
+        "NPB 100",
+        "PSC 103A"
+      ],
+      "units": "9",
+      "notes": []
+    },
+    {
+      "heading": "Group B: Computation",
+      "courses": [
+        "LIN 177",
+        "NPB 167"
+      ],
+      "units": "4-5",
+      "notes": [
+        "CGS Topical Course: choose one upper division course from this list.",
+        "Choose one from Group B:"
+      ]
+    },
+    {
+      "heading": "Group C: Neuroscience",
+      "courses": [
+        "CGS 107/PSC 133/ECN 107",
+        "LIN 175",
+        "NPB 161",
+        "NPB 162",
+        "NPB 163",
+        "NPB 164",
+        "NPB 165",
+        "PSC 101",
+        "PSC 121",
+        "PSC 123/NPB 152",
+        "PSC 135",
+        "PSC 139",
+        "PSC 145"
+      ],
+      "units": "12-13",
+      "notes": [
+        "Choose 12-13 units from Group C:",
+        "Choose two from Groups D or E:"
+      ]
+    },
+    {
+      "heading": "Group D: Philosophy",
+      "courses": [
+        "PHI 103",
+        "PHI 104",
+        "PHI 129",
+        "PHI 136"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group E: Linguistics",
+      "courses": [
+        "LIN 103A",
+        "LIN 103AV",
+        "LIN 103B",
+        "LIN 150",
+        "LIN 182"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group F: Psychology",
+      "courses": [
+        "PSC 100",
+        "PSC 100Y",
+        "PSC 101",
+        "PSC 113",
+        "PSC 121",
+        "PSC/NPB 124",
+        "PSC 130",
+        "PSC 131",
+        "PSC 132",
+        "PSC 135",
+        "PSC 136",
+        "PSC 137",
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "PSC 141"
+      ],
+      "units": "7",
+      "notes": [
+        "Choose two from Group F:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "107"
+}

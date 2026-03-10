@@ -1,0 +1,191 @@
+{
+  "name": "Sociology—Organizational Studies, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/sociology/organizational-studies-ab/",
+  "degree_type": "B.A.",
+  "department": "Sociology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 002",
+        "SOC 002V",
+        "SOC 004",
+        "SOC 005",
+        "SOC 006",
+        "SOC 007",
+        "SOC 011",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "ECN 001AV",
+        "ECN 001AY",
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 100",
+        "SOC 100V",
+        "SOC 180A",
+        "SOC 106",
+        "STA 103",
+        "CMN 120",
+        "CMN 120V",
+        "CMN 130",
+        "CMN 136",
+        "CMN 136V",
+        "CMN 170",
+        "CMN 170V",
+        "CMN 172",
+        "CMN 172V",
+        "SOC 126",
+        "SOC 135",
+        "SOC 128",
+        "SOC 130",
+        "SOC 132",
+        "SOC 140",
+        "SOC 145A",
+        "SOC 145B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose one:",
+        "Choose five from one of the following tracks; at least three of the five must be from Sociology:",
+        "Track 1: Business & Society",
+        "Track 2: Public Policy & Social Welfare",
+        "Track 3: Nonprofit & Social Movement Organizations",
+        "Track 4: Student-Initiated Track",
+        "Choose one:",
+        "Choose one additional elective upper division Sociology course not already used to fulfill other major requirements",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "AMS 125",
+        "ARE 112",
+        "ARE 130",
+        "ARE 132",
+        "CRD 118",
+        "CRD 141",
+        "CRD 156",
+        "CRD 162",
+        "ECN 110B",
+        "ECN 110BY",
+        "ECN 111B",
+        "ECN/ARE 115A",
+        "ECN 116",
+        "ECN 121A",
+        "ECN 151A",
+        "ECN 151B",
+        "HIS 185B",
+        "HIS 194D",
+        "MGT 150",
+        "POL 180",
+        "POL 187",
+        "SOC 103",
+        "SOC 138",
+        "SOC 139",
+        "SOC 141",
+        "SOC 159",
+        "SOC 160",
+        "SOC 188"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ARE 147",
+        "ARE 147M",
+        "CRD 142",
+        "CRD 151",
+        "CRD 152",
+        "CRD 154",
+        "CRD 158",
+        "CRD 164",
+        "CRD 171",
+        "CRD 172",
+        "ECN/ARE 115A",
+        "ECN 116",
+        "POL 107",
+        "POL 118A",
+        "POL 118B",
+        "POL 118C",
+        "POL 163",
+        "POL 180",
+        "POL 187",
+        "SOC 103",
+        "SOC/IRE 104",
+        "SOC 118",
+        "SOC 124",
+        "SOC 143A",
+        "SOC 143B",
+        "SOC 162",
+        "SOC 163",
+        "SOC 164",
+        "SOC 185",
+        "SOC 185Y"
+      ],
+      "units": "Units",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CHI 132",
+        "CRD 140",
+        "CRD 147",
+        "CRD 149",
+        "CRD 152",
+        "CRD 154",
+        "CRD 156",
+        "CRD 158",
+        "CRD 164",
+        "ECN 111B",
+        "ECN/ARE 115A",
+        "ECN 116",
+        "HIS 185B",
+        "HIS 194D",
+        "POL 180",
+        "POL 187",
+        "SOC 103",
+        "SOC 140",
+        "SOC 156",
+        "SOC 160",
+        "SOC 163",
+        "SOC 164",
+        "WMS 187"
+      ],
+      "units": "Units",
+      "notes": []
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: An Honors Program is available to Sociology & Sociology-Organizational Studies majors who have demonstrated excellence in their field of study. To be eligible for the program, students must have a grade-point average of 3.500 in the major and the recommendation of a faculty sponsor familiar with their work. Honors students write an honors thesis and take two quarters (8 units) of Honors coursework (SOC 194HA & SOC 194HB). Successful completion of the Honors Program, when combined with College GP"
+  ],
+  "total_units": "74"
+}

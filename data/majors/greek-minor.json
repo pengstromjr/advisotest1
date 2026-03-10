@@ -1,0 +1,29 @@
+{
+  "name": "Greek, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/classics/greek-minor/",
+  "degree_type": "Minor",
+  "department": "Classics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "CLA 001",
+        "CLA 002"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose one:",
+        "Three upper division courses in Greek",
+        "Greek (GRK)",
+        "One additional upper division course in Classics, Greek, or Latin.",
+        "Classics (CLA)",
+        "Greek (GRK)",
+        "Latin (LAT)"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

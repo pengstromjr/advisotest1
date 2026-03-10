@@ -1,0 +1,103 @@
+{
+  "name": "Japanese, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/east-asian-languages-cultures/japanese-ab/",
+  "degree_type": "B.A.",
+  "department": "East Asian Languages Cultures",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "JPN 001JPN 002JPN 003JPN 004JPN 005JPN 006",
+        "CHN 010",
+        "CHN 011",
+        "CHN/JPN 050",
+        "HIS 009B",
+        "JPN 010",
+        "JPN 025",
+        "LIN 001",
+        "LIN 001Y"
+      ],
+      "units": "0-30",
+      "notes": [
+        "Complete 0-30 units:",
+        "Equivalent as determined by a language placement exam.",
+        "Recommended but not required:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "JPN 101",
+        "JPN 102",
+        "JPN 103",
+        "JPN 111",
+        "JPN 112",
+        "JPN 113",
+        "JPN 151",
+        "JPN 104",
+        "JPN 105",
+        "JPN 106",
+        "JPN 107",
+        "JPN/CHN 108",
+        "JPN 109",
+        "JPN 114A",
+        "JPN 114B",
+        "JPN 114C",
+        "JPN 115",
+        "JPN 116",
+        "JPN 121",
+        "JPN 122",
+        "JPN 123",
+        "JPN 130",
+        "JPN 131",
+        "JPN 132",
+        "JPN 133",
+        "JPN 134",
+        "JPN 135",
+        "JPN 136",
+        "JPN 137",
+        "JPN 138",
+        "JPN 141",
+        "JPN 152",
+        "JPN 153",
+        "JPN 154",
+        "JPN 155",
+        "JPN 156/CTS 148B",
+        "JPN 157",
+        "JPN 158",
+        "JPN 160",
+        "JPN 162",
+        "JPN 194H",
+        "JPN 198JPN 199",
+        "JPN 199",
+        "AHI 164",
+        "COM 112",
+        "ECN 171",
+        "HIS 194A",
+        "HIS 194B",
+        "HIS 194C",
+        "HIS 194D",
+        "POL 148B",
+        "RST 172"
+      ],
+      "units": "4",
+      "notes": [
+        "Grading: Students may take up to two and no more than two (regular, letter-graded) courses for the major on a P/NP basis. Courses which are only offered on a P/NP basis do not count toward these limits.",
+        "Note: With prior approval of the undergraduate advisor, students already proficient in Japanese at any third-year level1 must take other upper division Japanese (JPN) courses to replace language course(s).",
+        "Choose three; at least 12 units:",
+        "Up to 4 units:",
+        "Up to 4 units:",
+        "Up to two (8 units) upper division Chinese courses",
+        "Other advanced literature and culture courses selected in consultation with the undergraduate advisor.",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Honors Program: To be eligible to receive high or highest honors in the Japanese major, students must complete a senior thesis project. A student interested in pursuing a senior thesis project must enroll in JPN 194H and complete a scholarly paper or similar research project under the direction of a senate faculty member. The thesis project will have a minimum duration of two quarters and carry a minimum of 6 units of credit. To qualify to undertake the senior thesis project, a student must have completed at le"
+  ],
+  "total_units": "40"
+}

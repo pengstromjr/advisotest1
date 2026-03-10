@@ -1,0 +1,58 @@
+{
+  "name": "Art Studio, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/art-history-art-studio/art-studio-ab/",
+  "degree_type": "B.A.",
+  "department": "Art History Art Studio",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ART 001",
+        "ART 002",
+        "ART 005",
+        "ART 007",
+        "ART 008",
+        "ART 009",
+        "ART 011",
+        "ART 012",
+        "AHI 001A",
+        "AHI 001B",
+        "AHI 001C",
+        "AHI 001D",
+        "AHI 001E",
+        "AHI 005",
+        "AHI 025",
+        "ART 010D",
+        "ART 010F",
+        "ART 024",
+        "ART 030"
+      ],
+      "units": "24-25",
+      "notes": [
+        "Choose five lower division courses in the practice of art:",
+        "Choose one lower division theory or history course:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "40",
+      "notes": [
+        "40 upper division studio units in Art Studio (ART)",
+        "Art Studio (ART) courses.",
+        "Choose any one upper division theory or history course:",
+        "Art History (AHI).",
+        "Cinema & Digital Media (CDM).",
+        "Design (DES).",
+        "Music (MUS)",
+        "Theatre & Dance (DRA).",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "72"
+}

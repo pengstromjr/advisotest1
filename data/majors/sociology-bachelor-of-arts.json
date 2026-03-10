@@ -1,0 +1,894 @@
+{
+  "name": "Sociology, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/sociology/sociology-ab/",
+  "degree_type": "B.A.",
+  "department": "Sociology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y",
+        "SOC 002",
+        "SOC 002V",
+        "SOC 003",
+        "SOC 003V",
+        "SOC 004",
+        "SOC 005",
+        "SOC 006",
+        "SOC 007",
+        "SOC 011",
+        "SOC 025"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Anthropology",
+      "courses": [
+        "ANT 002",
+        "ANT 020"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 004A",
+        "HIS 004B",
+        "HIS 004C",
+        "HIS 006",
+        "HIS 007A",
+        "HIS 007B",
+        "HIS 007C",
+        "HIS 008",
+        "HIS 009A",
+        "HIS 009B",
+        "HIS 010C",
+        "HIS 015A",
+        "HIS 015B",
+        "HIS 017A",
+        "HIS 017B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 005",
+        "PHI 014",
+        "PHI 024"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "(A)",
+      "courses": [
+        "SOC 100",
+        "SOC 100V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "(B)",
+      "courses": [
+        "SOC 125",
+        "SOC 126",
+        "SOC 135",
+        "SOC 130",
+        "SOC 132",
+        "SOC 140",
+        "SOC 118",
+        "SOC 131",
+        "SOC 146",
+        "SOC 180A",
+        "SOC/IRE 104",
+        "SOC 141",
+        "SOC 143A",
+        "SOC 170"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose one from each of the following four categories:",
+        "Individual, Culture & Society",
+        "Stratification & Social Differentiation",
+        "Organizations & Institutions",
+        "Social Dynamics"
+      ]
+    },
+    {
+      "heading": "(C)",
+      "courses": [
+        "SOC 120",
+        "SOC 122",
+        "SOC 125",
+        "SOC 126",
+        "SOC 128",
+        "SOC 129",
+        "SOC 131",
+        "SOC 132",
+        "SOC 135",
+        "SOC 137",
+        "SOC 143B",
+        "SOC 148",
+        "SOC 150",
+        "SOC 152",
+        "SOC 153",
+        "SOC 162",
+        "SOC 165",
+        "SOC 173",
+        "SOC 174",
+        "SOC/STS 176",
+        "SOC 118",
+        "SOC 128",
+        "SOC 129",
+        "SOC 130",
+        "SOC 132",
+        "SOC 133",
+        "SOC 140",
+        "SOC 145A",
+        "SOC 145B",
+        "SOC 163",
+        "SOC 171",
+        "SOC 185",
+        "SOC 185Y",
+        "SOC 188",
+        "AAS 123",
+        "ASA 100",
+        "CHI 110",
+        "CHI 110V",
+        "NAS 115",
+        "SOC 118",
+        "SOC 124",
+        "SOC 131",
+        "SOC 133",
+        "SOC 139",
+        "SOC 146",
+        "SOC 150",
+        "SOC 151",
+        "SOC 155",
+        "SOC 159",
+        "SOC 160",
+        "SOC 163",
+        "SOC 164",
+        "SOC 178",
+        "SOC 180A",
+        "SOC 185",
+        "SOC 185Y",
+        "SOC/IRE 104",
+        "SOC 125",
+        "SOC 138",
+        "SOC 141",
+        "SOC 143A",
+        "SOC 145A",
+        "SOC 145B",
+        "SOC 147",
+        "SOC 148",
+        "SOC 156",
+        "SOC 157",
+        "SOC 170"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three upper division courses from one of the following clusters, not counting courses taken to fulfill requirement B:",
+        "Cluster 1: Individual, Culture & Society",
+        "Cluster 2: Stratification & Social Differentiation",
+        "Choose one:",
+        "Cluster 3: Organizations & Institutions",
+        "Cluster 4: Social Dynamics",
+        "Student-Initiated Thematic Cluster",
+        "Developed with a faculty advisor and approved by the Sociology Undergraduate Curriculum Committee."
+      ]
+    },
+    {
+      "heading": "(E)",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "8 units of Sociology beyond courses taken to fulfill above requirements, and outside of the course cluster used to fulfill requirement C.",
+        "One additional elective upper division Sociology course not already used to fulfill other major requirements",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y",
+        "SOC 003",
+        "SOC 003V",
+        "SOC 004",
+        "SOC 006",
+        "SOC 007",
+        "SOC 011",
+        "ANT 002",
+        "ANT 020",
+        "POL 001",
+        "POL 001Y",
+        "POL 003",
+        "POL 004",
+        "POL 007",
+        "POL 007V"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "History",
+      "courses": [
+        "HIS 004A",
+        "HIS 004B",
+        "HIS 004C",
+        "HIS 006",
+        "HIS 007A",
+        "HIS 007B",
+        "HIS 007C",
+        "HIS 008",
+        "HIS 009A",
+        "HIS 009B",
+        "HIS 010C",
+        "HIS 015A",
+        "HIS 015B",
+        "HIS 017A",
+        "HIS 017B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "PHI 005",
+        "PHI 014",
+        "PHI 024"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 100",
+        "SOC 100V",
+        "SOC 155"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose from the following categories:"
+      ]
+    },
+    {
+      "heading": "Individual Culture & Society",
+      "courses": [
+        "SOC 125",
+        "SOC 126",
+        "SOC 135"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Stratification & Social Differentiation",
+      "courses": [
+        "SOC 130",
+        "SOC 132",
+        "SOC 140"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Organizations & Institutions",
+      "courses": [
+        "SOC 118",
+        "SOC 131",
+        "SOC 146",
+        "SOC 160",
+        "SOC 163",
+        "SOC 164",
+        "SOC 180A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Crime & Social Dynamics",
+      "courses": [
+        "SOC 120",
+        "SOC 150",
+        "SOC 151",
+        "SOC 152",
+        "SOC 171",
+        "SOC 178"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Stratifications & Social Dynamics",
+      "courses": [
+        "SOC 118",
+        "SOC 137",
+        "SOC 148",
+        "SOC 156",
+        "SOC 157",
+        "SOC 162",
+        "SOC 163",
+        "SOC 164",
+        "AAS 123",
+        "AAS 145A",
+        "AAS 145B",
+        "CHI 130",
+        "CHI 132",
+        "NAS 117",
+        "NAS 118"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Legal Studies",
+      "courses": [
+        "ASA 155",
+        "CHI 182",
+        "ENL 107",
+        "ESP 161",
+        "ETX 138",
+        "HYD 150",
+        "PHI 119",
+        "POL 122",
+        "POL 150",
+        "POL 151",
+        "POL 152",
+        "POL 154",
+        "PSC 153",
+        "UWP 104B",
+        "WMS 140"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:",
+        "Choose one additional elective upper division Sociology course not already used to fulfill other major requirements",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y",
+        "SOC 002",
+        "SOC 002V",
+        "SOC 003",
+        "SOC 003V",
+        "SOC 006",
+        "SOC 011"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 001",
+        "PSC 001V",
+        "PSC 001Y",
+        "AAS 010",
+        "AAS 015",
+        "ASA 001",
+        "ASA 002",
+        "CHI 010",
+        "CHI 010V",
+        "CHI 050",
+        "NAS 001",
+        "NAS 010",
+        "SOC 004",
+        "SOC 007"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose two:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 100",
+        "SOC 100V",
+        "SOC 131",
+        "SOC 140",
+        "SOC 185",
+        "SOC 185Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
+        "PSC 140",
+        "PSC 140V",
+        "PSC 140Y",
+        "PSC 142/HDE 102 DISCONTINUED FOR SUMMER 2026 **",
+        "PSC 151",
+        "PSC 151V",
+        "PSC 168"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose from the following categories:"
+      ]
+    },
+    {
+      "heading": "Social Issues",
+      "courses": [
+        "SOC/IRE 104",
+        "SOC 120",
+        "SOC 122",
+        "SOC 124",
+        "SOC 139",
+        "SOC 143A",
+        "SOC 146",
+        "SOC 150",
+        "SOC 152",
+        "SOC 153",
+        "SOC 155",
+        "SOC 156",
+        "SOC 160",
+        "SOC 162",
+        "SOC 163",
+        "SOC 170",
+        "SOC 171",
+        "SOC 178"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Social Interaction",
+      "courses": [
+        "SOC 126",
+        "SOC 128",
+        "SOC 143B",
+        "SOC 148",
+        "SOC 157",
+        "SOC 165"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Race & Ethnicity",
+      "courses": [
+        "AAS 100",
+        "ASA 102",
+        "ASA 131",
+        "ASA 150",
+        "ASA 150B",
+        "ASA 150C",
+        "ASA 150D",
+        "ASA 150E",
+        "CHI 110",
+        "CHI 110V",
+        "CRD 176",
+        "NAS 115",
+        "SOC 129",
+        "SOC 130",
+        "SOC 137"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Gender",
+      "courses": [
+        "SOC 132",
+        "SOC 133",
+        "SOC 145B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Organizational Behavior",
+      "courses": [
+        "SOC 139",
+        "SOC 146",
+        "SOC 151",
+        "SOC 159",
+        "SOC 164",
+        "SOC 180A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 005",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001B",
+        "ECN 001BV"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Anthropology",
+      "courses": [
+        "ANT 002",
+        "ANT 020",
+        "HIS 010C",
+        "POL 002"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Course work in one modern foreign language at the two-year level or provide proof of proficiency.",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
+        "SOC 100",
+        "SOC 100V",
+        "SOC/IRE 104",
+        "SOC 141",
+        "SOC 145A",
+        "SOC 170",
+        "ANT 126A",
+        "ANT 126B",
+        "ECN/ARE 115A",
+        "ANT 127",
+        "SOC 118",
+        "SOC 130",
+        "SOC 131",
+        "SOC 143A",
+        "SOC 144",
+        "SOC 145B",
+        "SOC 156"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Regional Focus",
+      "courses": [
+        "AAS 110",
+        "AAS 111",
+        "AAS 162",
+        "ANT 140B",
+        "HIS 115A",
+        "HIS 115B",
+        "HIS 115C",
+        "HIS 116",
+        "POL 134",
+        "AAS 107A",
+        "AAS 180",
+        "ANT 144",
+        "HIS 159",
+        "HIS 162",
+        "HIS 163A",
+        "HIS 163B",
+        "HIS 164",
+        "HIS 165",
+        "HIS 165V",
+        "HIS 166A",
+        "HIS 166B",
+        "HIS 167",
+        "HIS 168",
+        "NAS 120",
+        "NAS 133",
+        "SPA 170",
+        "SPA 172",
+        "SPA 173",
+        "ANT 142",
+        "HIS 112A",
+        "HIS 112B",
+        "HIS 113",
+        "HIS 190A",
+        "HIS 190B",
+        "HIS 190C",
+        "HIS 193A",
+        "HIS 193B",
+        "MSA 131A/CTS 146A",
+        "MSA 180",
+        "MSA 181A",
+        "MSA 181C",
+        "MSA 182A",
+        "MSA 182C",
+        "RST 162",
+        "WMS 184",
+        "AAS 107C",
+        "ANT 148A",
+        "EAS 113",
+        "ECN 171",
+        "HIS 191A",
+        "HIS 191B",
+        "HIS 191C",
+        "HIS 191D",
+        "HIS 191E",
+        "HIS 191F",
+        "HIS 191G",
+        "HIS 191H",
+        "HIS 191J",
+        "HIS 194A",
+        "HIS 194B",
+        "HIS 194C",
+        "POL 148A",
+        "POL 148B",
+        "RST 165",
+        "RST 172",
+        "SOC 147",
+        "SOC 188",
+        "ANT 143A",
+        "ANT 145",
+        "ANT 147/MSA 131B/CTS 146B",
+        "ECN 171",
+        "HIS 191A",
+        "HIS 191B",
+        "HIS 191C",
+        "HIS 191D",
+        "HIS 191E",
+        "HIS 191F",
+        "HIS 191G",
+        "HIS 191H",
+        "HIS 191J",
+        "HIS 195B",
+        "HIS 196A",
+        "HIS 196B",
+        "MSA 100",
+        "MSA 131B",
+        "MSA 181B",
+        "MSA 182B",
+        "POL 148B",
+        "POL 148C",
+        "RST 165",
+        "RST 172"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three from one of the following groups:",
+        "Africa; choose three:",
+        "Latin America; choose three:",
+        "Middle East; choose three:",
+        "Jewish Studies; see an advisor.",
+        "Asia-China & Japan; choose three:",
+        "Southeast Asia/Pacific; choose three:",
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "SOC 001",
+        "SOC 001V",
+        "SOC 004",
+        "SOC 005",
+        "SOC 007",
+        "SOC 046",
+        "SOC 056",
+        "SOC 056Y",
+        "AAS 010",
+        "AAS 018",
+        "AAS 050",
+        "AAS 080",
+        "ASA 001",
+        "ASA 002",
+        "ASA 003",
+        "ASA 004",
+        "CHI 010",
+        "CHI 010V",
+        "CHI 030",
+        "CHI 042",
+        "NAS 001",
+        "NAS 007",
+        "NAS 010"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "SOC 100",
+        "SOC 100V",
+        "SOC 130",
+        "SOC 104",
+        "SOC 125",
+        "SOC 128",
+        "SOC 129",
+        "SOC 131",
+        "SOC 132",
+        "SOC 137",
+        "SOC 140",
+        "SOC 143A",
+        "SOC 143B",
+        "SOC 145A",
+        "SOC 145B",
+        "SOC 151",
+        "SOC 172",
+        "SOC 174",
+        "AAS 100",
+        "AAS 101",
+        "AAS 107A",
+        "AAS 107B",
+        "AAS 107C",
+        "AAS 123",
+        "AAS 130",
+        "AAS 133",
+        "AAS 141",
+        "AAS 145A",
+        "AAS 145B",
+        "AAS 162",
+        "AAS 163",
+        "AAS 165",
+        "AAS 172",
+        "AAS 178",
+        "AAS 180",
+        "AMS 150",
+        "AMS 156",
+        "ANT 103",
+        "ANT 123AN",
+        "ANT 130BN",
+        "ANT 139AN",
+        "ASA 102",
+        "ASA 112",
+        "ASA 113",
+        "ASA 114",
+        "ASA 115",
+        "ASA 116",
+        "ASA 150",
+        "ASA 150B",
+        "ASA 150C",
+        "ASA 150D",
+        "ASA 150E",
+        "ASA 150F",
+        "ASA 155",
+        "CHI 100",
+        "CHI 102A",
+        "CHI 102B",
+        "CHI 102C",
+        "CHI 110",
+        "CHI 110V",
+        "CHI 111",
+        "CHI 112",
+        "CHI 113",
+        "CHI 113V",
+        "CHI 114",
+        "CHI 114V",
+        "CHI 114S",
+        "CHI 120",
+        "CHI 121",
+        "CHI 122",
+        "CHI 122S",
+        "CHI 123",
+        "CHI 125S",
+        "CHI 130",
+        "CHI 131",
+        "CHI 131S",
+        "CHI 132",
+        "CHI 135S",
+        "CHI 148",
+        "CHI 150",
+        "CHI 161",
+        "CHI 165",
+        "CHI 181",
+        "CHI 182",
+        "CHI 184",
+        "CHI 184S",
+        "CMN 149",
+        "EDU 150",
+        "EDU 153",
+        "HIS/SAS 109",
+        "HIS 110A",
+        "HIS 115E",
+        "HIS 156",
+        "HIS 171A",
+        "HIS 173",
+        "HIS 177A",
+        "HIS 177B",
+        "HIS 179",
+        "MSA 112",
+        "MSA 150",
+        "MSA 151A",
+        "NAS 115",
+        "NAS 118",
+        "NAS 119",
+        "NAS 120",
+        "NAS 121",
+        "NAS 130A",
+        "NAS 134",
+        "NAS 146",
+        "WMS 160",
+        "WMS 175",
+        "GSW 175"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose six:",
+        "One other upper division SOC course with advisor approval.",
+        "Choose three:",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Sociology Advising Office",
+    "Honors Program: An Honors Program is available to Sociology and Sociology-Organizational Studies majors who have demonstrated excellence in their field of study. This programs gives students the opportunity to engage in their own sociological research in the form of an honors thesis.To be eligible for the program, students must have a grade-point average of 3.500 in the major, completed 135 units, and obtained the recommendation of a sociology faculty sponsor familiar with their work. Honors students write an h"
+  ],
+  "total_units": "74"
+}

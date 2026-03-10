@@ -1,0 +1,109 @@
+{
+  "name": "Statistics, Bachelor of Arts",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/statistics/statistics-ab/",
+  "degree_type": "B.A.",
+  "department": "Statistics",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 019AMAT 019BMAT 019C",
+        "MAT 021AMAT 021BMAT 021C",
+        "MAT 021",
+        "MAT 022A"
+      ],
+      "units": "9-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
+        "ECS 032A",
+        "ECS 032AV",
+        "ECS 036A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 013",
+        "STA 013Y",
+        "STA 032",
+        "STA 100",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Core Coursework",
+      "courses": [
+        "STA 106",
+        "STA 108",
+        "STA 130A",
+        "STA 130B",
+        "STA 138",
+        "STA 137",
+        "STA 141A"
+      ],
+      "units": "24",
+      "notes": [
+        "Statistics"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [
+        "STA 104",
+        "STA 135",
+        "STA 137",
+        "STA 141A",
+        "STA 141B",
+        "STA 141B",
+        "STA 141C",
+        "STA 141C",
+        "STA 141B",
+        "STA 141C",
+        "STA 144",
+        "STA 145",
+        "STA 160",
+        "MAT 168",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199",
+        "STA 194HA",
+        "STA 194HB",
+        "STA 199"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:",
+        "Note: A course used to fulfill a core requirement cannot be used as a restricted elective."
+      ]
+    },
+    {
+      "heading": "Cluster Electives",
+      "courses": [],
+      "units": "9-12",
+      "notes": [
+        "Choose three upper division elective courses outside of Statistics.",
+        "Cluster electives are chosen with and must be approved by the major advisor.  Electives must follow a coherent sequence in one single disciple/cluster where statistical methods and models are applied and must cover the quantitative aspects of the discipline. A list of pre-approved electives can be found on the Statistics Department website.",
+        "Pre-Approved Electives List",
+        "Depth Subject Matter Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "65"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Museum Studies, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/art-history-art-studio/museum-studies-minor/",
+  "degree_type": "Minor",
+  "department": "Art History Art Studio",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Required Courses",
+      "courses": [
+        "AHI 101",
+        "AHI 110"
+      ],
+      "units": "4",
+      "notes": [
+        "Required Courses Subtotal"
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [
+        "AHI 102",
+        "AHI/HMR 120A",
+        "AHI 123",
+        "AHI 190L",
+        "ARE 113",
+        "CMN 131",
+        "DES 185",
+        "DES 187",
+        "DRA 124A",
+        "DRA 124C",
+        "UWP 102J",
+        "UWP 112A"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:",
+        "Electives Subtotal"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "20"
+}

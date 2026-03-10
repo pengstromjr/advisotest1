@@ -1,0 +1,33 @@
+{
+  "name": "Environmental Toxicology, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/environmental-toxicology/environmental-toxicology-minor/",
+  "degree_type": "Minor",
+  "department": "Environmental Toxicology",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ETX 101",
+        "ETX 102A",
+        "ETX 103A",
+        "ETX/NUT 104",
+        "ETX 120",
+        "ETX/NUT 127",
+        "ETX/FST 128",
+        "ETX 130",
+        "ETX 131",
+        "ETX 135",
+        "ETX 138",
+        "ETX 146"
+      ],
+      "units": "Units",
+      "notes": [
+        "Choose two; 6 units minimum:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "18"
+}

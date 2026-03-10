@@ -1,0 +1,43 @@
+{
+  "name": "Watershed Science, Minor",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/land-air-water-resources/watershed-science-minor/",
+  "degree_type": "Minor",
+  "department": "Land Air Water Resources",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Hydrology",
+      "courses": [
+        "HYD 124",
+        "HYD 151",
+        "HYD 141",
+        "ESM 100",
+        "HYD/EBS 144",
+        "SSC 107"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Soils Science",
+      "courses": [
+        "SSC 100",
+        "SSC 118",
+        "ESM/PLS 144",
+        "ESP 151",
+        "HYD 143",
+        "ESM 121",
+        "ESP 161",
+        "HYD 150"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Choose one:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [],
+  "total_units": "23"
+}

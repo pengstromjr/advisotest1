@@ -1,0 +1,198 @@
+{
+  "name": "Human Biology, Bachelor of Science",
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/neurobiology-physiology-behavior/human-biology-bs/",
+  "degree_type": "B.S.",
+  "department": "Neurobiology Physiology Behavior",
+  "description": "Office & Contact Information",
+  "requirements": [
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 002ABIS 002BBIS 002C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002",
+        "CHE 004",
+        "CHE 002ACHE 002BCHE 002C",
+        "CHE 004ACHE 004BCHE 004C",
+        "CHE 008",
+        "CHE 118",
+        "CHE 008ACHE 008B",
+        "CHE 118ACHE 118BCHE 118C"
+      ],
+      "units": "15",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017",
+        "MAT 021",
+        "MAT 017AMAT 017BMAT 017C",
+        "MAT 021AMAT 021BMAT 021C"
+      ],
+      "units": "8-12",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 007APHY 007BPHY 007C"
+      ],
+      "units": "12",
+      "notes": [
+        "Preparatory Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
+        "BIS 101",
+        "BIS 101V",
+        "BIS 104",
+        "BIS 105",
+        "BIS 103"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
+        "STA 100",
+        "EVE 100",
+        "EVE 131",
+        "MCB 162"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Neurobiology, Physiology, & Behavior",
+      "courses": [
+        "NPB 101"
+      ],
+      "units": "5",
+      "notes": [
+        "Depth Subject Matter Subtotal"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "15-19",
+      "notes": [
+        "Courses meeting this requirement must come from at least two of the following categories; any cross-listed courses taken will count for only one category; must include at least one approved lab course.",
+        "Genetics, Genomics, & Development",
+        "Physiology & Neurobiology",
+        "Origins of Disease & Human Health",
+        "Restricted Electives Subtotal"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANT 153",
+        "BIS 181",
+        "BIS 183",
+        "EVE 102",
+        "EVE 131",
+        "MCB 121",
+        "MCB 144",
+        "MCB 150",
+        "MCB 162",
+        "MCB 163",
+        "MCB 182",
+        "NPB 122",
+        "NPB 132",
+        "NPB 133",
+        "NPB 161",
+        "MCB 160L",
+        "EVE 105"
+      ],
+      "units": "Units",
+      "notes": [
+        "Approved Laboratory Courses:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EXB 101",
+        "EXB 106/CHA 101",
+        "EXB 106L/CHA 101L",
+        "EXB 110",
+        "EXB 124",
+        "NPB 100",
+        "NPB 107",
+        "NPB 109",
+        "NPB 113",
+        "NPB 114",
+        "NPB 122",
+        "NPB 130",
+        "NPB 132",
+        "NPB 133",
+        "NPB 134",
+        "NPB 140",
+        "NPB 152/PSC 123",
+        "NPB/HPH 157",
+        "NPB 161",
+        "NPB 163",
+        "NPB 164",
+        "NPB 165",
+        "NPB 167",
+        "NPB 168",
+        "NPB 171",
+        "NPB 172",
+        "NPB 173",
+        "EVE 105",
+        "NPB 100L",
+        "NPB 101L"
+      ],
+      "units": "Units",
+      "notes": [
+        "Approved Laboratory Courses:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "EVE 161",
+        "EXB 101",
+        "EXB 106",
+        "EXB 106L",
+        "EXB 110",
+        "EXB 124",
+        "MMG 111",
+        "MMG 162",
+        "MMG 172",
+        "MMG 175",
+        "NPB 107",
+        "NPB 109",
+        "NPB 132",
+        "NPB 134",
+        "NPB/HPH 157",
+        "NPB 168",
+        "NPB 171",
+        "NPB 173",
+        "MCB 120L"
+      ],
+      "units": "Units",
+      "notes": [
+        "Approved Laboratory Courses:"
+      ]
+    }
+  ],
+  "specializations": [],
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+  ],
+  "total_units": "96"
+}
