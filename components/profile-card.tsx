@@ -50,7 +50,7 @@ function ProgressRing({
         y={size / 2}
         textAnchor="middle"
         dominantBaseline="central"
-        fill="#002855"
+        className="fill-[#002855] dark:fill-white transition-colors duration-300"
         fontSize={size * 0.26}
         fontWeight="700"
       >

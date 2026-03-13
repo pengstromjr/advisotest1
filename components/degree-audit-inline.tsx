@@ -145,12 +145,25 @@ function SectionBlock({
       {open && (
         <div className="px-4 pb-3">
           {section.notes.length > 0 && (
-            <div className="mb-2 space-y-0.5">
-              {section.notes.map((note, i) => (
-                <p key={i} className="text-xs italic text-gray-500 dark:text-slate-400">
-                  {note}
-                </p>
-              ))}
+            <div className="mb-2 flex flex-wrap gap-x-3 gap-y-1">
+              {section.notes
+                .filter(note => {
+                  const n = note.toLowerCase();
+                  // Skip redundant "Choose one" if heading already handled it
+                  if (isChooseOne && (n === "choose one:" || n === "choose one")) return false;
+                  return true;
+                })
+                .map((note, i) => {
+                  // Clean up specialization prefixes for a cleaner look
+                  const cleanNote = note.replace(/^Specialization:\s*/i, "");
+                  const isPrefixed = /^Specialization:/i.test(note);
+                  
+                  return (
+                    <p key={i} className={`text-[10px] italic ${isPrefixed ? "text-blue-500/70 dark:text-blue-400/60 font-medium" : "text-gray-500 dark:text-slate-400"}`}>
+                      {isPrefixed ? "• " : ""}{cleanNote}
+                    </p>
+                  );
+                })}
             </div>
           )}
           <div className="flex flex-wrap gap-2 pt-2">
