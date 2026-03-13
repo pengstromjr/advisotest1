@@ -17,14 +17,11 @@ export function DegreeAuditTab({
   return (
     <div className="flex h-full min-h-0 flex-col">
       <div className="border-b border-gray-100 px-4 py-3">
-        <div className="flex items-center justify-between">
-          <div>
-            <h2 className="text-sm font-semibold text-gray-900">Degree Audit</h2>
-            <p className="mt-0.5 text-xs text-gray-500">
-              Check off completed courses. This syncs with the AI panel.
-            </p>
-          </div>
-          <span className="text-xs text-gray-400">Spring 2026</span>
+        <div>
+          <h2 className="text-sm font-semibold text-gray-900">Degree Audit</h2>
+          <p className="mt-0.5 text-xs text-gray-500">
+            Check off completed courses. This syncs with the AI panel.
+          </p>
         </div>
       </div>
 
@@ -32,7 +29,7 @@ export function DegreeAuditTab({
         {studentContext.major ? (
           <DegreeAuditInline
             programName={studentContext.major}
-            completedCourses={studentContext.completedCourses}
+            studentContext={studentContext}
             onToggleCourse={onToggleCourse}
             onProgress={onProgress}
           />

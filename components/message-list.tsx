@@ -7,6 +7,7 @@ import type { UIMessage } from "ai";
 interface MessageListProps {
   messages: UIMessage[];
   isLoading: boolean;
+  completedCourses?: string[];
 }
 
 function getMessageText(msg: UIMessage): string {
@@ -16,7 +17,11 @@ function getMessageText(msg: UIMessage): string {
   return "";
 }
 
-export function MessageList({ messages, isLoading }: MessageListProps) {
+export function MessageList({
+  messages,
+  isLoading,
+  completedCourses,
+}: MessageListProps) {
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -34,6 +39,7 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
           key={msg.id}
           role={msg.role as "user" | "assistant"}
           content={getMessageText(msg)}
+          completedCourses={completedCourses}
         />
       ))}
       {isLoading && messages.at(-1)?.role === "user" && (

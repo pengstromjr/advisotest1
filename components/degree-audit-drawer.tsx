@@ -101,6 +101,9 @@ function SectionBlock({
   ).length;
   const total = section.courses.length;
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+  const headingTrimmed = section.heading.trim();
+  const isChooseOne = /^choose\s+one\b/i.test(headingTrimmed);
+  const displayHeading = isChooseOne ? "" : headingTrimmed;
 
   return (
     <div className="border-b border-gray-100 last:border-b-0">
@@ -124,7 +127,7 @@ function SectionBlock({
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium text-gray-800 truncate">
-              {section.heading}
+              {displayHeading || "Course options"}
             </span>
             <span className="ml-2 shrink-0 text-xs text-gray-500">
               {completed}/{total}
@@ -150,30 +153,39 @@ function SectionBlock({
               ))}
             </div>
           )}
-          <div className="space-y-1">
+          <div className="flex flex-wrap gap-2 pt-2">
             {section.courses.map((code) => {
               const checked = completedCourses.includes(code);
               return (
-                <label
+                <button
                   key={code}
-                  className="flex cursor-pointer items-center gap-2.5 rounded-md px-2 py-1.5 hover:bg-gray-50"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onToggle(code);
+                  }}
+                  className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
+                    checked
+                      ? "bg-[#002855] text-white shadow-sm"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  }`}
                 >
-                  <input
-                    type="checkbox"
-                    checked={checked}
-                    onChange={() => onToggle(code)}
-                    className="h-4 w-4 rounded border-gray-300 text-[#002855] accent-[#002855]"
-                  />
-                  <span
-                    className={`text-sm ${
-                      checked
-                        ? "text-gray-400 line-through"
-                        : "text-gray-700"
-                    }`}
-                  >
-                    {code}
-                  </span>
-                </label>
+                  {checked && (
+                    <svg
+                      className="h-3.5 w-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={3}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  )}
+                  {code}
+                </button>
               );
             })}
           </div>

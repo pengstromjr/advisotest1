@@ -18,9 +18,9 @@ export function AIPanel({
   onEditProfile,
 }: AIPanelProps) {
   return (
-    <div className="flex h-full min-h-0 flex-col">
+    <div className="flex h-full min-h-0 flex-col overflow-hidden">
       {/* Top: profile summary */}
-      <div className="border-b border-gray-100 p-4">
+      <div className="shrink-0 border-b border-gray-100 dark:border-slate-700 p-4">
         <ProfileCard
           studentContext={studentContext}
           completedCount={completedCount}
@@ -29,20 +29,8 @@ export function AIPanel({
         />
       </div>
 
-      {/* Middle: lightweight recommendations placeholder */}
-      <div className="border-b border-gray-100 px-4 py-3">
-        <div className="rounded-xl bg-gray-50 p-3">
-          <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">
-            Recommendations
-          </p>
-          <p className="mt-1 text-sm text-gray-600">
-            Ask the AI for course suggestions, GE ideas, or schedule help.
-          </p>
-        </div>
-      </div>
-
-      {/* Bottom: chat */}
-      <div className="min-h-0 flex-1 overflow-hidden">
+      {/* Bottom: chat - takes all remaining space */}
+      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
         <Chat studentContext={studentContext} />
       </div>
     </div>

@@ -8,9 +8,10 @@ import type {
   GERequirements,
 } from "@/lib/course-data";
 
-interface GECourseInfo {
+interface CourseMinimal {
   ge_areas: string[];
   units: number | string;
+  prerequisites: string;
 }
 
 interface ProgramResponse {
@@ -18,7 +19,7 @@ interface ProgramResponse {
   ge: {
     categories: GERequirements["categories"];
     notes: string[];
-    courseGeMap: Record<string, GECourseInfo>;
+    courseInfoMap: Record<string, CourseMinimal>;
   };
 }
 
@@ -36,24 +37,26 @@ function loadGeData(): ProgramResponse["ge"] {
   );
   const geReqs: GERequirements = JSON.parse(geRaw);
 
-  let coursesPath = path.join(dataDir, "courses-full.json");
+  let coursesPath = path.join(dataDir, "courses.json");
   if (!fs.existsSync(coursesPath)) {
-    coursesPath = path.join(dataDir, "courses.json");
+    coursesPath = path.join(dataDir, "courses-full.json");
   }
   const coursesRaw = fs.readFileSync(coursesPath, "utf-8");
   const courses: Course[] = JSON.parse(coursesRaw);
 
-  const courseGeMap: Record<string, GECourseInfo> = {};
+  const courseInfoMap: Record<string, CourseMinimal> = {};
   for (const c of courses) {
-    if (c.ge_areas && c.ge_areas.length > 0) {
-      courseGeMap[c.code] = { ge_areas: c.ge_areas, units: c.units };
-    }
+    courseInfoMap[c.code] = { 
+      ge_areas: c.ge_areas || [], 
+      units: c.units,
+      prerequisites: (Array.isArray(c.prerequisites) ? c.prerequisites.join(" ; ") : c.prerequisites) || ""
+    };
   }
 
   geCache = {
     categories: geReqs.categories,
     notes: geReqs.notes,
-    courseGeMap,
+    courseInfoMap,
   };
   return geCache;
 }
@@ -101,7 +104,7 @@ export async function GET(req: Request) {
   try {
     ge = loadGeData();
   } catch {
-    ge = { categories: [], notes: [], courseGeMap: {} };
+    ge = { categories: [], notes: [], courseInfoMap: {} };
   }
 
   const response: ProgramResponse = { requirements, ge };

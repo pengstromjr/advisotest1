@@ -1,11 +1,13 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import type { RequirementSection } from "@/lib/course-data";
+import type { RequirementSection, StudentContext } from "@/lib/course-data";
+import { SmartGeModal } from "./schedule-planner/smart-ge-modal";
+import { Sparkles } from "lucide-react";
 
 interface DegreeAuditInlineProps {
   programName: string;
-  completedCourses: string[];
+  studentContext: StudentContext;
   onToggleCourse: (code: string) => void;
   onProgress?: (completed: number, total: number) => void;
 }
@@ -34,6 +36,7 @@ interface GECategory {
 interface GECourseInfo {
   ge_areas: string[];
   units: number | string;
+  prerequisites?: string;
 }
 
 interface ProgramData {
@@ -41,7 +44,7 @@ interface ProgramData {
   ge: {
     categories: GECategory[];
     notes: string[];
-    courseGeMap: Record<string, GECourseInfo>;
+    courseInfoMap: Record<string, GECourseInfo>;
   };
 }
 
@@ -98,12 +101,15 @@ function SectionBlock({
   ).length;
   const total = section.courses.length;
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+  const headingTrimmed = section.heading.trim();
+  const isChooseOne = /^choose\s+one\b/i.test(headingTrimmed);
+  const displayHeading = isChooseOne ? "" : headingTrimmed;
 
   return (
-    <div className="border-b border-gray-100 last:border-b-0">
+    <div className="border-b border-gray-100 dark:border-slate-800 last:border-b-0">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center gap-3 px-4 py-2.5 text-left hover:bg-gray-50"
+        className="flex w-full items-center gap-3 px-4 py-2.5 text-left hover:bg-gray-50 dark:hover:bg-slate-800/50"
       >
         <svg
           className={`h-4 w-4 shrink-0 text-gray-400 transition-transform ${open ? "rotate-90" : ""}`}
@@ -120,16 +126,16 @@ function SectionBlock({
         </svg>
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-medium text-gray-800 truncate">
-              {section.heading}
+            <span className="text-sm font-medium text-gray-800 dark:text-slate-100 truncate">
+              {displayHeading || "Course options"}
             </span>
-            <span className="ml-2 shrink-0 text-xs text-gray-500">
+            <span className="ml-2 shrink-0 text-xs text-gray-500 dark:text-slate-400">
               {completed}/{total}
             </span>
           </div>
-          <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
+          <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200 dark:bg-slate-700">
             <div
-              className="h-1.5 rounded-full bg-[#002855] transition-all duration-300"
+              className="h-1.5 rounded-full bg-[#002855] dark:bg-blue-600 transition-all duration-300"
               style={{ width: `${pct}%` }}
             />
           </div>
@@ -141,36 +147,45 @@ function SectionBlock({
           {section.notes.length > 0 && (
             <div className="mb-2 space-y-0.5">
               {section.notes.map((note, i) => (
-                <p key={i} className="text-xs italic text-gray-500">
+                <p key={i} className="text-xs italic text-gray-500 dark:text-slate-400">
                   {note}
                 </p>
               ))}
             </div>
           )}
-          <div className="space-y-1">
+          <div className="flex flex-wrap gap-2 pt-2">
             {section.courses.map((code) => {
               const checked = completedCourses.includes(code);
               return (
-                <label
+                <button
                   key={code}
-                  className="flex cursor-pointer items-center gap-2.5 rounded-md px-2 py-1.5 hover:bg-gray-50"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onToggle(code);
+                  }}
+                  className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
+                    checked
+                      ? "bg-[#002855] dark:bg-blue-600 text-white shadow-md shadow-[#002855]/10"
+                      : "bg-gray-100 dark:bg-slate-900/50 text-gray-700 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-slate-200 border border-transparent dark:border-slate-800/80 shadow-sm"
+                  }`}
                 >
-                  <input
-                    type="checkbox"
-                    checked={checked}
-                    onChange={() => onToggle(code)}
-                    className="h-4 w-4 rounded border-gray-300 text-[#002855] accent-[#002855]"
-                  />
-                  <span
-                    className={`text-sm ${
-                      checked
-                        ? "text-gray-400 line-through"
-                        : "text-gray-700"
-                    }`}
-                  >
-                    {code}
-                  </span>
-                </label>
+                  {checked && (
+                    <svg
+                      className="h-3.5 w-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={3}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  )}
+                  {code}
+                </button>
               );
             })}
           </div>
@@ -184,10 +199,12 @@ function GEAreaRow({
   area,
   completedUnits,
   matchingCourses,
+  onSmartMatch,
 }: {
   area: GEArea;
   completedUnits: number;
   matchingCourses: { code: string; units: number }[];
+  onSmartMatch: (area: GEArea) => void;
 }) {
   const [expanded, setExpanded] = useState(false);
   const target = area.units_min ?? area.units_required ?? 0;
@@ -198,12 +215,12 @@ function GEAreaRow({
       : 0;
 
   return (
-    <div className="border-b border-gray-50 last:border-b-0">
-      <button
+    <div className="border-b border-gray-50 dark:border-slate-800 last:border-b-0">
+      <div
         onClick={() => matchingCourses.length > 0 && setExpanded(!expanded)}
         className={`flex w-full items-center gap-3 px-4 py-2.5 text-left ${
           matchingCourses.length > 0
-            ? "cursor-pointer hover:bg-gray-50"
+            ? "cursor-pointer hover:bg-gray-50 dark:hover:bg-slate-800"
             : "cursor-default"
         }`}
       >
@@ -236,11 +253,25 @@ function GEAreaRow({
                 ({area.code})
               </span>
             </span>
-            <span
-              className={`ml-2 shrink-0 text-xs ${met ? "font-medium text-green-600" : "text-gray-500"}`}
-            >
-              {completedUnits}/{target} units
-            </span>
+            <div className="flex items-center gap-3">
+              {!met && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onSmartMatch(area);
+                  }}
+                  className="flex items-center gap-1 rounded-md bg-blue-50 px-2 py-1 text-[10px] font-bold text-[#002855] hover:bg-blue-100 dark:bg-blue-500/10 dark:text-blue-200"
+                >
+                  <Sparkles className="h-3 w-3" />
+                  Find Match
+                </button>
+              )}
+              <span
+                className={`ml-2 shrink-0 text-xs ${met ? "font-medium text-green-600" : "text-gray-500"}`}
+              >
+                {completedUnits}/{target} units
+              </span>
+            </div>
           </div>
           <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
             <div
@@ -264,7 +295,7 @@ function GEAreaRow({
             />
           </svg>
         )}
-      </button>
+      </div>
 
       {expanded && matchingCourses.length > 0 && (
         <div className="px-4 pb-2 pl-14">
@@ -289,10 +320,12 @@ function GEProgressView({
   categories,
   completedCourses,
   courseGeMap,
+  onSmartMatch,
 }: {
   categories: GECategory[];
   completedCourses: string[];
   courseGeMap: Record<string, GECourseInfo>;
+  onSmartMatch: (area: GEArea) => void;
 }) {
   const geProgress = useMemo(() => {
     const areaUnits: Record<string, number> = {};
@@ -327,12 +360,12 @@ function GEProgressView({
     <div>
       {categories.map((cat) => (
         <div key={cat.name}>
-          <div className="border-b border-gray-200 bg-gray-50 px-4 py-2">
+          <div className="border-b border-gray-200 dark:border-slate-800 bg-gray-50 dark:bg-slate-900 px-4 py-2">
             <div className="flex items-center justify-between">
-              <h4 className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+              <h4 className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-slate-400">
                 {cat.name}
               </h4>
-              <span className="text-xs text-gray-400">
+              <span className="text-xs text-gray-400 dark:text-slate-500">
                 {cat.units_required} units
               </span>
             </div>
@@ -343,6 +376,7 @@ function GEProgressView({
               area={area}
               completedUnits={geProgress.areaUnits[area.code] || 0}
               matchingCourses={geProgress.areaCourses[area.code] || []}
+              onSmartMatch={onSmartMatch}
             />
           ))}
         </div>
@@ -353,10 +387,12 @@ function GEProgressView({
 
 export function DegreeAuditInline({
   programName,
-  completedCourses,
+  studentContext,
   onToggleCourse,
   onProgress,
 }: DegreeAuditInlineProps) {
+  const completedCourses = studentContext.completedCourses;
+  const [matchingArea, setMatchingArea] = useState<GEArea | null>(null);
   const [sections, setSections] = useState<DisplaySection[]>([]);
   const [geCategories, setGeCategories] = useState<GECategory[]>([]);
   const [courseGeMap, setCourseGeMap] = useState<
@@ -377,7 +413,7 @@ export function DegreeAuditInline({
       const data: ProgramData = await res.json();
       setSections(deduplicateSections(data.requirements));
       setGeCategories(data.ge.categories);
-      setCourseGeMap(data.ge.courseGeMap);
+      setCourseGeMap(data.ge.courseInfoMap);
     } catch {
       setError("Could not load program requirements.");
     } finally {
@@ -424,23 +460,23 @@ export function DegreeAuditInline({
 
       {/* Tabs */}
       {!loading && !error && (
-        <div className="flex border-b border-gray-200">
+        <div className="flex border-b border-gray-200 dark:border-slate-800">
           <button
             onClick={() => setActiveTab("major")}
-            className={`flex-1 px-4 py-2.5 text-center text-sm font-medium transition-colors ${
+            className={`flex-1 px-4 py-2.5 text-center text-sm font-medium transition-all ${
               activeTab === "major"
-                ? "border-b-2 border-[#002855] text-[#002855]"
-                : "text-gray-500 hover:text-gray-700"
+                ? "border-b-2 border-[#002855] dark:border-blue-500 text-[#002855] dark:text-slate-100 bg-blue-50/30 dark:bg-blue-900/10"
+                : "text-gray-500 dark:text-slate-500 hover:text-gray-700 dark:hover:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800/50"
             }`}
           >
             Major Requirements
           </button>
           <button
             onClick={() => setActiveTab("ge")}
-            className={`flex-1 px-4 py-2.5 text-center text-sm font-medium transition-colors ${
+            className={`flex-1 px-4 py-2.5 text-center text-sm font-medium transition-all ${
               activeTab === "ge"
-                ? "border-b-2 border-[#002855] text-[#002855]"
-                : "text-gray-500 hover:text-gray-700"
+                ? "border-b-2 border-[#002855] dark:border-blue-500 text-[#002855] dark:text-slate-100 bg-blue-50/30 dark:bg-blue-900/10"
+                : "text-gray-500 dark:text-slate-500 hover:text-gray-700 dark:hover:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800/50"
             }`}
           >
             General Education
@@ -485,18 +521,26 @@ export function DegreeAuditInline({
           </>
         )}
 
-        {!loading && !error && activeTab === "ge" && (
+        {activeTab === "ge" && (
           <GEProgressView
             categories={geCategories}
             completedCourses={completedCourses}
             courseGeMap={courseGeMap}
+            onSmartMatch={setMatchingArea}
           />
         )}
       </div>
 
+      <SmartGeModal
+        open={!!matchingArea}
+        onClose={() => setMatchingArea(null)}
+        geArea={matchingArea || { code: "", name: "" }}
+        studentContext={studentContext}
+      />
+
       {/* Footer */}
-      <div className="border-t border-gray-200 bg-gray-50 px-4 py-2.5">
-        <p className="text-xs text-gray-400">
+      <div className="border-t border-gray-200 dark:border-slate-800 bg-gray-50 dark:bg-slate-900 px-4 py-2.5">
+        <p className="text-xs text-gray-400 dark:text-slate-500">
           {activeTab === "major"
             ? "Check off courses. Changes sync with the AI advisor."
             : "GE progress updates as you check off courses."}

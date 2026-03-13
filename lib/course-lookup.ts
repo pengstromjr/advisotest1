@@ -7,13 +7,20 @@ let deptIndex: Map<string, Course[]> | null = null;
 async function loadCourses(): Promise<Course[]> {
   if (cachedCourses) return cachedCourses;
 
-  let data: Course[];
+  // Load base catalog (most complete), then overlay courses-full if available
+  const base = await import("@/data/courses.json");
+  let data: Course[] = base.default as Course[];
   try {
     const full = await import("@/data/courses-full.json");
-    data = full.default as Course[];
+    const fullData = full.default as Course[];
+    if (fullData.length > 0) {
+      const merged = new Map<string, Course>();
+      for (const c of data) merged.set(c.code.toUpperCase().replace(/\s+/g, " "), c);
+      for (const c of fullData) merged.set(c.code.toUpperCase().replace(/\s+/g, " "), c);
+      data = Array.from(merged.values());
+    }
   } catch {
-    const fallback = await import("@/data/courses.json");
-    data = fallback.default as Course[];
+    // courses-full.json not available — base is fine
   }
 
   cachedCourses = data;
@@ -56,21 +63,111 @@ export async function findCoursesByGE(area: string): Promise<Course[]> {
   );
 }
 
+/** Match dept (2–12 letters) + number: e.g. MAT 21A, ECN 001, PSYCH 001, ACCOUNTING 1A. */
+const TRANSCRIPT_CODE_REGEX = /\b([A-Z]{2,12})\s*(\d{1,3}[A-Z]?)\b/g;
+
+/** Full names and typos → official UC Davis subject code (uppercase). */
+const NAME_TO_CODE: Record<string, string> = {
+  PSYCH: "PSC",
+  PSYCHOLOGY: "PSC",
+  PSYC: "PSC",
+  ACCOUNTING: "ACC",
+  ACCOUNTANCY: "ACC",
+  ACCT: "ACC",
+  ECONOMICS: "ECN",
+  ECON: "ECN",
+  MATHEMATICS: "MAT",
+  MATH: "MAT",
+  ENGLISH: "ENL",
+  BIOLOGY: "BIS",
+  CHEMISTRY: "CHE",
+  PHYSICS: "PHY",
+  HISTORY: "HIS",
+  SOCIOLOGY: "SOC",
+  POLITICAL: "POL",
+  PHILOSOPHY: "PHI",
+  COMMUNICATION: "CMN",
+  COMM: "CMN",
+  STATISTICS: "STA",
+  COMPUTER: "ECS",
+  CALCULUS: "MAT",
+};
+
+function normalizeDeptToken(token: string): string {
+  const upper = token.toUpperCase().trim();
+  return NAME_TO_CODE[upper] ?? upper;
+}
+
+function resolveCourseCode(
+  deptToken: string,
+  num: string,
+  index: Map<string, Course> | null
+): Course | undefined {
+  if (!index) return undefined;
+  const dept = normalizeDeptToken(deptToken);
+  const withSpace = `${dept} ${num}`;
+  const course = index.get(withSpace);
+  if (course) return course;
+  const padded =
+    num.length <= 2 && /^\d+[A-Z]?$/.test(num)
+      ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
+          d.padStart(3, "0") + (l || "")
+        )
+      : null;
+  if (padded) {
+    const alt = index.get(`${dept} ${padded}`);
+    if (alt) return alt;
+  }
+  return undefined;
+}
+
+/** Build canonical code for inferred (e.g. ACC 001A when user typed "Accounting 1A"). */
+function inferredCode(deptToken: string, num: string): string {
+  const dept = normalizeDeptToken(deptToken);
+  const padded =
+    num.length <= 2 && /^\d+[A-Z]?$/.test(num)
+      ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
+          d.padStart(3, "0") + (l || "")
+        )
+      : null;
+  return `${dept} ${padded ?? num}`;
+}
+
+/** Minimal course for transcript-inferred codes not in catalog. */
+function inferredCourse(code: string): Course {
+  return {
+    code,
+    title: code,
+    units: "",
+    description: "",
+    prerequisites: [],
+    offered: [],
+    ge_areas: [],
+    department: code.split(" ")[0],
+  };
+}
+
 export async function extractCourseMentions(
   text: string
 ): Promise<Course[]> {
   await loadCourses();
-  const regex = /\b([A-Z]{2,4})\s+(\d{3}[A-Z]?)\b/g;
   const found: Course[] = [];
   const seen = new Set<string>();
   let match;
+  const upper = text.toUpperCase();
 
-  while ((match = regex.exec(text.toUpperCase())) !== null) {
-    const code = `${match[1]} ${match[2]}`;
-    if (!seen.has(code)) {
-      seen.add(code);
-      const course = codeIndex?.get(code);
-      if (course) found.push(course);
+  while ((match = TRANSCRIPT_CODE_REGEX.exec(upper)) !== null) {
+    const deptToken = match[1];
+    const num = match[2];
+    const canonicalCode = inferredCode(deptToken, num);
+    if (seen.has(canonicalCode)) continue;
+    seen.add(canonicalCode);
+
+    const course = resolveCourseCode(deptToken, num, codeIndex);
+    if (course) {
+      found.push(course);
+    } else if (NAME_TO_CODE[deptToken]) {
+      found.push(inferredCourse(canonicalCode));
     }
   }
   return found;

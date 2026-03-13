@@ -9,13 +9,16 @@
     "lint": "eslint",
     "generate-embeddings": "tsx --env-file .env.local scripts/generate-embeddings.ts",
     "scrape-courses": "tsx scripts/scrape-courses.ts",
-    "scrape-programs": "tsx scripts/scrape-programs.ts"
+    "scrape-programs": "tsx scripts/scrape-programs.ts",
+    "scrape-sections": "tsx scripts/scrape-sections.ts",
+    "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.33",
     "@ai-sdk/react": "^3.0.102",
     "ai": "^6.0.100",
     "cheerio": "^1.2.0",
+    "lucide-react": "^0.577.0",
     "next": "16.1.6",
     "openai": "^6.25.0",
     "react": "19.2.3",

@@ -101,8 +101,54 @@ export interface EmbeddingEntry {
   };
 }
 
+export interface SectionMeeting {
+  days: string[]; // e.g. ["M", "W", "F"]
+  startTime: string; // "09:00"
+  endTime: string; // "09:50"
+  location: string; // "OLSON 6" or "Remote"
+}
+
+export interface Section {
+  term: string; // e.g. "2026 Spring Quarter"
+  subject: string; // "MAT"
+  courseNumber: string; // "021B"
+  courseCode: string; // "MAT 021B"
+  title: string;
+  crn: string;
+  section: string; // e.g. "001", "A01"
+  units: number | string;
+  meetings: SectionMeeting[];
+  instructors: string[];
+  modality: "in-person" | "online" | "hybrid";
+  seatsTotal: number | null;
+  seatsAvailable: number | null;
+  waitlistTotal: number | null;
+  waitlistAvailable: number | null;
+  rmp?: Record<string, {
+    avgRating: number;
+    avgDifficulty: number;
+    numRatings: number;
+    wouldTakeAgainPercent: number;
+    legacyId: string;
+    grades?: {
+      avgGpa: number;
+      distribution: {
+        A: number;
+        B: number;
+        C: number;
+        D: number;
+        F: number;
+      };
+    };
+  }>;
+  notes: string[];
+}
+
+import type { TimeBlock } from "./time-blocks";
+
 export interface StudentContext {
   major: string;
   year: string;
   completedCourses: string[];
+  blockedTimes?: TimeBlock[];
 }

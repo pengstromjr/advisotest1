@@ -1,0 +1,210 @@
+{
+  "Gupta, S": {
+    "avgRating": 4.2,
+    "avgDifficulty": 3.1,
+    "numRatings": 85,
+    "wouldTakeAgainPercent": 78,
+    "legacyId": "12345",
+    "grades": {
+      "avgGpa": 3.42,
+      "distribution": { "A": 45, "B": 35, "C": 12, "D": 5, "F": 3 }
+    }
+  },
+  "Loupos, P": {
+    "avgRating": 3.8,
+    "avgDifficulty": 3.5,
+    "numRatings": 42,
+    "wouldTakeAgainPercent": 65,
+    "legacyId": "67890",
+    "grades": {
+      "avgGpa": 3.15,
+      "distribution": { "A": 32, "B": 42, "C": 18, "D": 6, "F": 2 }
+    }
+  },
+  "Deeb Sossa, N": {
+    "avgRating": 4.7,
+    "avgDifficulty": 2.2,
+    "numRatings": 156,
+    "wouldTakeAgainPercent": 92,
+    "legacyId": "23456",
+    "grades": {
+      "avgGpa": 3.68,
+      "distribution": { "A": 62, "B": 28, "C": 8, "D": 1, "F": 1 }
+    }
+  },
+  "Ruiz, J": {
+    "avgRating": 4.5,
+    "avgDifficulty": 2.8,
+    "numRatings": 112,
+    "wouldTakeAgainPercent": 88,
+    "legacyId": "34567",
+    "grades": {
+      "avgGpa": 3.55,
+      "distribution": { "A": 55, "B": 32, "C": 9, "D": 3, "F": 1 }
+    }
+  },
+  "Theobald, J": {
+    "avgRating": 3.2,
+    "avgDifficulty": 4.1,
+    "numRatings": 67,
+    "wouldTakeAgainPercent": 45,
+    "legacyId": "45678",
+    "grades": {
+      "avgGpa": 2.84,
+      "distribution": { "A": 22, "B": 38, "C": 25, "D": 10, "F": 5 }
+    }
+  },
+  "Hilbert, M": {
+    "avgRating": 4.9,
+    "avgDifficulty": 3.6,
+    "numRatings": 204,
+    "wouldTakeAgainPercent": 96,
+    "legacyId": "56789",
+    "grades": {
+      "avgGpa": 3.75,
+      "distribution": { "A": 70, "B": 22, "C": 6, "D": 1, "F": 1 }
+    }
+  },
+  "Pena, J": {
+    "avgRating": 2.4,
+    "avgDifficulty": 4.6,
+    "numRatings": 38,
+    "wouldTakeAgainPercent": 15,
+    "legacyId": "67891",
+    "grades": {
+      "avgGpa": 2.52,
+      "distribution": { "A": 15, "B": 32, "C": 35, "D": 12, "F": 6 }
+    }
+  },
+  "White, J": {
+    "avgRating": 4.0,
+    "avgDifficulty": 3.0,
+    "numRatings": 91,
+    "wouldTakeAgainPercent": 82,
+    "legacyId": "78902",
+    "grades": {
+      "avgGpa": 3.35,
+      "distribution": { "A": 38, "B": 45, "C": 12, "D": 4, "F": 1 }
+    }
+  },
+  "Anderson, K": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.1,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 95,
+    "grades": {
+      "avgGpa": 3.82,
+      "distribution": { "A": 75, "B": 20, "C": 4, "D": 1, "F": 0 }
+    }
+  },
+  "Brown, E": {
+    "avgRating": 4.4,
+    "avgDifficulty": 2.2,
+    "numRatings": 18,
+    "wouldTakeAgainPercent": 89,
+    "grades": {
+      "avgGpa": 3.58,
+      "distribution": { "A": 58, "B": 32, "C": 8, "D": 1, "F": 1 }
+    }
+  },
+  "Davis, F": {
+    "avgRating": 4.8,
+    "avgDifficulty": 1.9,
+    "numRatings": 8,
+    "wouldTakeAgainPercent": 100,
+    "grades": {
+      "avgGpa": 3.91,
+      "distribution": { "A": 85, "B": 12, "C": 3, "D": 0, "F": 0 }
+    }
+  },
+  "Johnson, B": {
+    "avgRating": 4.9,
+    "avgDifficulty": 2.5,
+    "numRatings": 35,
+    "wouldTakeAgainPercent": 94,
+    "grades": {
+      "avgGpa": 3.72,
+      "distribution": { "A": 65, "B": 25, "C": 8, "D": 1, "F": 1 }
+    }
+  },
+  "Smith, A": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.1,
+    "numRatings": 42,
+    "wouldTakeAgainPercent": 98,
+    "grades": {
+      "avgGpa": 3.85,
+      "distribution": { "A": 78, "B": 18, "C": 3, "D": 1, "F": 0 }
+    }
+  },
+  "Williams, C": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.3,
+    "numRatings": 28,
+    "wouldTakeAgainPercent": 92,
+    "grades": {
+      "avgGpa": 3.65,
+      "distribution": { "A": 55, "B": 35, "C": 8, "D": 1, "F": 1 }
+    }
+  },
+  "Miller, G": {
+    "avgRating": 4.7,
+    "avgDifficulty": 3.2,
+    "numRatings": 64,
+    "wouldTakeAgainPercent": 85,
+    "grades": {
+      "avgGpa": 3.48,
+      "distribution": { "A": 48, "B": 38, "C": 10, "D": 3, "F": 1 }
+    }
+  },
+  "Taylor, J": {
+    "avgRating": 4.7,
+    "avgDifficulty": 2.8,
+    "numRatings": 51,
+    "wouldTakeAgainPercent": 88,
+    "grades": {
+      "avgGpa": 3.52,
+      "distribution": { "A": 52, "B": 32, "C": 12, "D": 3, "F": 1 }
+    }
+  },
+  "Wilson, H": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.4,
+    "numRatings": 32,
+    "wouldTakeAgainPercent": 91,
+    "grades": {
+      "avgGpa": 3.62,
+      "distribution": { "A": 58, "B": 30, "C": 8, "D": 3, "F": 1 }
+    }
+  },
+  "Thomas, L": {
+    "avgRating": 4.4,
+    "avgDifficulty": 2.6,
+    "numRatings": 45,
+    "wouldTakeAgainPercent": 86,
+    "grades": {
+      "avgGpa": 3.45,
+      "distribution": { "A": 48, "B": 35, "C": 12, "D": 4, "F": 1 }
+    }
+  },
+  "Moore, I": {
+    "avgRating": 4.5,
+    "avgDifficulty": 2.2,
+    "numRatings": 28,
+    "wouldTakeAgainPercent": 93,
+    "grades": {
+      "avgGpa": 3.70,
+      "distribution": { "A": 65, "B": 25, "C": 7, "D": 2, "F": 1 }
+    }
+  },
+  "Jones, D": {
+    "avgRating": 4.3,
+    "avgDifficulty": 2.9,
+    "numRatings": 56,
+    "wouldTakeAgainPercent": 82,
+    "grades": {
+      "avgGpa": 3.40,
+      "distribution": { "A": 42, "B": 40, "C": 12, "D": 5, "F": 1 }
+    }
+  }
+}
