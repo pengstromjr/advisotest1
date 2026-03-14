@@ -4,7 +4,8 @@ export function buildSystemPrompt(
   studentContext: StudentContext | null,
   ragChunks: string[],
   mentionedCourses: string[] = [],
-  sectionSnippets: string[] = []
+  sectionSnippets: string[] = [],
+  gradeSnippets: string[] = []
 ): string {
   const parts: string[] = [];
 
@@ -18,6 +19,8 @@ Guidelines:
 - Be encouraging and supportive in tone, like a real academic advisor would be.
 - Only answer questions related to UC Davis academics, courses, and degree planning. Politely redirect off-topic questions.
 - When a student asks about remaining requirements, cross-reference their completed courses with the degree requirements to identify what's left.
+- You have access to Rate My Professors (RMP) data including instructor ratings, difficulty scores, and "would take again" percentages. You can share this data when students ask about instructors or want recommendations.
+- You have access to CattleLog grade distribution data including historical GPAs, grade breakdowns (A+ through F), and per-professor grade distributions. Share this data when students ask about course difficulty, grade distributions, or want to compare instructors.
 
 INTERACTIVE COURSE CARDS:
 When you recommend a specific course and section data is available, include an interactive card the student can use to add it directly to their schedule. Use this exact format:
@@ -89,6 +92,13 @@ Rules for schedule blocks:
     );
   }
 
+  if (gradeSnippets.length > 0) {
+    parts.push(
+      "Historical grade distribution data from CattleLog (real UC Davis records):\n\n" +
+        gradeSnippets.map((g, i) => `[Grades ${i + 1}] ${g}`).join("\n\n")
+    );
+  }
+
   if (ragChunks.length > 0) {
     parts.push(
       "Reference material from the UC Davis course catalog and degree requirements:\n\n" +
@@ -98,3 +108,4 @@ Rules for schedule blocks:
 
   return parts.join("\n\n");
 }
+

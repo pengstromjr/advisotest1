@@ -1,8 +1,11 @@
 "use client";
 
+import { useState, useCallback } from "react";
 import Markdown from "react-markdown";
 import { CourseCard } from "./course-card";
 import { SuggestedScheduleCard } from "./suggested-schedule-card";
+import { CourseDetailModal } from "./schedule-planner/course-detail-modal";
+import type { Section } from "@/lib/course-data";
 
 interface MessageBubbleProps {
   role: "user" | "assistant";
@@ -152,12 +155,77 @@ function splitContent(text: string): (string | CourseCardData | ScheduleBlockDat
   return parts;
 }
 
+/* Inline course code regex — matches patterns like ECS 150, MAT 021A, PHI 001 */
+const COURSE_CODE_INLINE_RE = /\b([A-Z]{2,5})\s+(\d{3}[A-Z]?\b)/g;
+const SKIP_PREFIXES = new Set(["GE", "UC", "CRN", "GPA", "RMP", "TBA", "MW", "TR", "MWF"]);
+
+function CourseCodeText({ text, onCourseClick }: { text: string; onCourseClick: (code: string) => void }) {
+  const parts: (string | { code: string })[] = [];
+  let lastIdx = 0;
+  let m: RegExpExecArray | null;
+  COURSE_CODE_INLINE_RE.lastIndex = 0;
+  while ((m = COURSE_CODE_INLINE_RE.exec(text)) !== null) {
+    if (SKIP_PREFIXES.has(m[1])) continue;
+    if (m.index > lastIdx) parts.push(text.slice(lastIdx, m.index));
+    parts.push({ code: `${m[1]} ${m[2]}` });
+    lastIdx = m.index + m[0].length;
+  }
+  if (lastIdx < text.length) parts.push(text.slice(lastIdx));
+  if (parts.length === 1 && typeof parts[0] === "string") return <>{text}</>;
+  return (
+    <>
+      {parts.map((p, i) =>
+        typeof p === "string" ? (
+          <span key={i}>{p}</span>
+        ) : (
+          <button
+            key={i}
+            onClick={(e) => { e.preventDefault(); onCourseClick(p.code); }}
+            className="inline-flex items-center gap-0.5 rounded-md bg-blue-100 dark:bg-blue-500/20 px-1.5 py-0.5 text-[12px] font-bold text-[#002855] dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-500/30 transition-colors cursor-pointer mx-0.5 align-baseline"
+          >
+            {p.code}
+          </button>
+        )
+      )}
+    </>
+  );
+}
+
 export function MessageBubble({
   role,
   content,
   completedCourses,
 }: MessageBubbleProps) {
   const isUser = role === "user";
+  const [detailSection, setDetailSection] = useState<Section | null>(null);
+
+  const handleCourseClick = useCallback(async (code: string) => {
+    try {
+      const res = await fetch(`/api/sections?q=${encodeURIComponent(code)}&limit=1`);
+      const data = await res.json();
+      if (data.sections?.length > 0) {
+        setDetailSection(data.sections[0]);
+      }
+    } catch {}
+  }, []);
+
+  const markdownComponents = {
+    p: ({ children, ...props }: any) => (
+      <p {...props}>
+        {processChildren(children, handleCourseClick)}
+      </p>
+    ),
+    li: ({ children, ...props }: any) => (
+      <li {...props}>
+        {processChildren(children, handleCourseClick)}
+      </li>
+    ),
+    strong: ({ children, ...props }: any) => (
+      <strong {...props}>
+        {processChildren(children, handleCourseClick)}
+      </strong>
+    ),
+  };
 
   if (isUser) {
     return (
@@ -174,42 +242,63 @@ export function MessageBubble({
 
   if (!hasCards) {
     return (
-      <div className="flex justify-start">
-        <div className="max-w-[80%] rounded-2xl rounded-bl-md bg-gray-100 dark:bg-slate-800 px-4 py-3 text-sm leading-relaxed text-gray-900 dark:text-slate-100">
-          <div className="prose prose-sm prose-gray dark:prose-invert max-w-none [&_p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5">
-            <Markdown>{content}</Markdown>
+      <>
+        <div className="flex justify-start">
+          <div className="max-w-[80%] rounded-2xl rounded-bl-md bg-gray-100 dark:bg-slate-800 px-4 py-3 text-sm leading-relaxed text-gray-900 dark:text-slate-100">
+            <div className="prose prose-sm prose-gray dark:prose-invert max-w-none [&_p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5">
+              <Markdown components={markdownComponents}>{content}</Markdown>
+            </div>
           </div>
         </div>
-      </div>
+        <CourseDetailModal section={detailSection} onClose={() => setDetailSection(null)} />
+      </>
     );
   }
 
   return (
-    <div className="flex justify-start">
-      <div className="max-w-[90%] space-y-2">
-        {parts.map((part, i) =>
-          typeof part === "string" ? (
-            part.trim() ? (
-              <div
-                key={i}
-                className="rounded-2xl rounded-bl-md bg-gray-100 dark:bg-slate-800 px-4 py-3 text-sm leading-relaxed text-gray-900 dark:text-slate-100"
-              >
+    <>
+      <div className="flex justify-start">
+        <div className="max-w-[90%] space-y-2">
+          {parts.map((part, i) =>
+            typeof part === "string" ? (
+              part.trim() ? (
+                <div
+                  key={i}
+                  className="rounded-2xl rounded-bl-md bg-gray-100 dark:bg-slate-800 px-4 py-3 text-sm leading-relaxed text-gray-900 dark:text-slate-100"
+                >
                 <div className="prose prose-sm prose-gray dark:prose-invert max-w-none [&_p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5">
-                  <Markdown>{part}</Markdown>
+                    <Markdown components={markdownComponents}>{part}</Markdown>
+                  </div>
                 </div>
-              </div>
-            ) : null
-          ) : "courseCodes" in part ? (
-            <SuggestedScheduleCard key={`block-${i}`} courseCodes={part.courseCodes} />
-          ) : (
-            <CourseCard
-              key={`card-${i}`}
-              {...part}
-              completedCourses={completedCourses}
-            />
-          )
-        )}
+              ) : null
+            ) : "courseCodes" in part ? (
+              <SuggestedScheduleCard key={`block-${i}`} courseCodes={part.courseCodes} />
+            ) : (
+              <CourseCard
+                key={`card-${i}`}
+                {...part}
+                completedCourses={completedCourses}
+              />
+            )
+          )}
+        </div>
       </div>
-    </div>
+      <CourseDetailModal section={detailSection} onClose={() => setDetailSection(null)} />
+    </>
   );
+}
+
+/* Helper: recursively process children to replace string text with CourseCodeText */
+function processChildren(children: any, onCourseClick: (code: string) => void): any {
+  if (typeof children === "string") {
+    return <CourseCodeText text={children} onCourseClick={onCourseClick} />;
+  }
+  if (Array.isArray(children)) {
+    return children.map((child, i) =>
+      typeof child === "string"
+        ? <CourseCodeText key={i} text={child} onCourseClick={onCourseClick} />
+        : child
+    );
+  }
+  return children;
 }

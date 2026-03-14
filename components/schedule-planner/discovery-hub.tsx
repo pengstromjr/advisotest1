@@ -6,8 +6,9 @@ import type { Section, StudentContext } from "@/lib/course-data";
 import { isEligible } from "@/lib/eligibility";
 import { getStoredPlannedSections, getStoredBlockedTimes, checkTimeConflict } from "@/lib/schedule-state";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
-import { Sparkles, Flame, TrendingUp, Gem, Beaker, Globe } from "lucide-react";
+import { Sparkles, Flame, TrendingUp, Gem, Beaker, Globe, GraduationCap } from "lucide-react";
 import { GPABadge } from "./gpa-display";
+import { CourseDetailModal } from "./course-detail-modal";
 
 interface DiscoveryCategory {
   id: string;
@@ -37,36 +38,104 @@ const CATEGORIES: DiscoveryCategory[] = [
     name: "Hidden Gems",
     description: "Approachable instructors with exceptional ratings and low difficulty.",
     icon: Gem,
-    query: "minRating=4.2&maxDifficulty=2.5&maxRatings=100&sortBy=rating"
+    query: "minRating=4.0&maxDifficulty=2.8&maxRatings=150&sortBy=rating"
   },
   {
     id: "stem-discovery",
     name: "STEM for All",
     description: "Highly rated, lower difficulty introductory STEM courses.",
     icon: Beaker,
-    query: "level=Lower&ge=SE&minRating=3.8&sortBy=difficulty"
+    query: "level=Lower&ge=SE&minRating=3.5&sortBy=difficulty"
   },
   {
     id: "humanities-discovery",
     name: "Cultural Perspectives",
     description: "Broaden your worldview with top-rated diversity and culture GEs.",
     icon: Globe,
-    query: "ge=ACGH,DD,WC&minRating=4.0&sortBy=rating"
+    query: "ge=ACGH,DD,WC&minRating=3.5&sortBy=rating"
   }
 ];
+
+/* Map popular majors to their primary subject code(s) */
+const MAJOR_SUBJECT_MAP: Record<string, string[]> = {
+  "computer science": ["ECS"],
+  "computer engineering": ["ECS", "EEC"],
+  "electrical engineering": ["EEC", "ECS"],
+  "mechanical engineering": ["EME"],
+  "civil engineering": ["ECI"],
+  "chemical engineering": ["ECH"],
+  "biomedical engineering": ["BIM"],
+  "biological engineering": ["BIM"],
+  "aerospace engineering": ["EAE"],
+  "mathematics": ["MAT"],
+  "statistics": ["STA"],
+  "physics": ["PHY"],
+  "chemistry": ["CHE"],
+  "biology": ["BIS"],
+  "biochemistry": ["BIS", "CHE"],
+  "molecular biology": ["MCB"],
+  "neurobiology": ["NPB"],
+  "psychology": ["PSC"],
+  "economics": ["ECN"],
+  "political science": ["POL"],
+  "english": ["ENL"],
+  "history": ["HIS"],
+  "sociology": ["SOC"],
+  "communications": ["CMN"],
+  "design": ["DES"],
+  "animal science": ["ANS"],
+  "environmental science": ["ESP"],
+  "linguistics": ["LIN"],
+  "philosophy": ["PHI"],
+  "music": ["MUS"],
+  "art": ["ART"],
+};
+
+function getMajorSubjects(major: string): string[] {
+  const lower = major.toLowerCase().replace(/,\s*(b\.\w+|m\.\w+|ph\.d\.)\.?$/i, "").trim();
+  for (const [key, subjects] of Object.entries(MAJOR_SUBJECT_MAP)) {
+    if (lower.includes(key)) return subjects;
+  }
+  // Fallback: try to extract a 2-4 letter prefix from the major name
+  const words = lower.split(/\s+/);
+  if (words.length > 0) {
+    const prefix = words[0].slice(0, 3).toUpperCase();
+    return [prefix];
+  }
+  return [];
+}
+
+function buildCategories(major: string): DiscoveryCategory[] {
+  const subjects = getMajorSubjects(major);
+  const shortMajor = major.replace(/,\s*(B\.\w+|M\.\w+|Ph\.D\.)\.?$/i, "").trim();
+  if (subjects.length === 0) return CATEGORIES;
+  const subjectQuery = subjects.map(s => `subject=${s}`).join("&");
+  return [
+    {
+      id: "for-your-major",
+      name: "For Your Major",
+      description: `Top-rated ${shortMajor} courses you haven't taken yet.`,
+      icon: GraduationCap,
+      query: `${subjectQuery}&sortBy=rating`
+    },
+    ...CATEGORIES
+  ];
+}
 
 interface DiscoveryHubProps {
   studentContext: StudentContext;
 }
 
 export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
-  const [activeCategoryId, setActiveCategoryId] = useState(CATEGORIES[0].id);
+  const categories = buildCategories(studentContext.major);
+  const [activeCategoryId, setActiveCategoryId] = useState(categories[0].id);
   const [loading, setLoading] = useState(false);
   const [sections, setSections] = useState<Section[]>([]);
   const [displayCount, setDisplayCount] = useState(12);
   const [error, setError] = useState("");
+  const [detailSection, setDetailSection] = useState<Section | null>(null);
 
-  const activeCategory = CATEGORIES.find(c => c.id === activeCategoryId)!;
+  const activeCategory = categories.find(c => c.id === activeCategoryId) || categories[0];
 
   useEffect(() => {
     const fetchDiscovery = async (isRetry = false) => {
@@ -92,6 +161,8 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
         const filtered = allSections.filter(s => {
           if (!isEligible(s.courseCode, studentContext.completedCourses, infoMap, studentContext.year)) return false;
           if (checkTimeConflict(s, planned, blocked)) return false;
+          // For "For Your Major" — filter out completed courses
+          if (activeCategory.id === "for-your-major" && studentContext.completedCourses.includes(s.courseCode)) return false;
           return true;
         });
 
@@ -186,7 +257,7 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
 
         {/* Category Tabs */}
         <div className="mt-5 flex gap-2 overflow-x-auto pb-1 no-scrollbar">
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setActiveCategoryId(cat.id)}
@@ -231,8 +302,14 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {sections.slice(0, displayCount).map((s) => (
-                <DiscoveryCard key={s.crn} section={s} />
+              {sections.slice(0, displayCount).map((s, idx) => (
+                <div
+                  key={s.crn}
+                  className="animate-[fadeSlideIn_0.4s_ease_both]"
+                  style={{ animationDelay: `${idx * 50}ms` }}
+                >
+                  <DiscoveryCard section={s} onClick={() => setDetailSection(s)} />
+                </div>
               ))}
             </div>
 
@@ -249,11 +326,13 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
           </>
         )}
       </div>
+
+      <CourseDetailModal section={detailSection} onClose={() => setDetailSection(null)} />
     </div>
   );
 }
 
-function DiscoveryCard({ section }: { section: Section }) {
+function DiscoveryCard({ section, onClick }: { section: Section; onClick: () => void }) {
   const rmp = section.rmp?.[Object.keys(section.rmp)[0]];
   
   const handleAdd = () => {
@@ -261,7 +340,10 @@ function DiscoveryCard({ section }: { section: Section }) {
   };
 
   return (
-    <div className="group relative flex flex-col rounded-2xl border border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800 p-4 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:border-[#002855] dark:hover:border-blue-500/50">
+    <div
+      onClick={onClick}
+      className="group relative flex cursor-pointer flex-col rounded-2xl border border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800 p-4 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:border-[#002855] dark:hover:border-blue-500/50"
+    >
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-2">
@@ -325,7 +407,7 @@ function DiscoveryCard({ section }: { section: Section }) {
       </div>
 
       <button 
-        onClick={handleAdd}
+        onClick={(e) => { e.stopPropagation(); handleAdd(); }}
         className="mt-4 w-full rounded-xl bg-gray-50 dark:bg-slate-700/50 py-2.5 text-[11px] font-bold text-[#002855] dark:text-blue-300 transition-all hover:bg-[#002855] dark:hover:bg-blue-600 hover:text-white"
       >
         Add to Schedule +

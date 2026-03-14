@@ -6,6 +6,7 @@ import type { Section, Course } from "@/lib/course-data";
 let cachedSections: Section[] | null = null;
 let cachedCourseGe: Record<string, string[]> | null = null;
 let cachedRmp: Record<string, any> | null = null;
+let cachedGrades: Record<string, any> | null = null;
 
 function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -79,10 +80,23 @@ function loadData() {
     }
   }
 
+  // Load Grades Data (CattleLog)
+  let grades = cachedGrades;
+  if (!grades) {
+    try {
+      const gradesRaw = fs.readFileSync(path.join(dataDir, "grades.json"), "utf-8");
+      grades = JSON.parse(gradesRaw);
+      if (process.env.NODE_ENV === "production") cachedGrades = grades;
+    } catch {
+      grades = {};
+    }
+  }
+
   return { 
     sections: sections as Section[], 
     courseGe: courseGe as Record<string, string[]>, 
-    rmp: rmp as Record<string, any> 
+    rmp: rmp as Record<string, any>,
+    grades: grades as Record<string, any>
   };
 }
 
@@ -97,13 +111,14 @@ export async function GET(req: Request) {
   const term = url.searchParams.get("term") ?? "";
   const query = url.searchParams.get("q")?.trim().toUpperCase() ?? "";
   const crn = url.searchParams.get("crn")?.trim() ?? "";
-  const subject = url.searchParams.get("subject")?.trim().toUpperCase() ?? "";
+  const subjectParams = url.searchParams.getAll("subject").map(s => s.trim().toUpperCase()).filter(Boolean);
   const openOnly = url.searchParams.get("open") === "true";
   
   // Advanced filters
   const levelParams = url.searchParams.getAll("level"); // e.g. "Lower" "Upper" "Grad"
   const unitsParam = url.searchParams.get("units"); // e.g. "4", "5+"
   const geParams = url.searchParams.get("ge")?.split(",").filter(Boolean) || []; // e.g. "AH,WE"
+  const geMatch = url.searchParams.get("geMatch") || "any"; // "any" = course has at least one of the GEs; "all" = course has all
   const daysParams = url.searchParams.get("days")?.split(",").filter(Boolean) || []; // e.g. "M,W,F"
   const timeStart = parseTime(url.searchParams.get("startTime") || "");
   const timeEnd = parseTime(url.searchParams.get("endTime") || "");
@@ -118,7 +133,7 @@ export async function GET(req: Request) {
   const maxRatings = parseInt(url.searchParams.get("maxRatings") || "999999", 10);
   const sortBy = url.searchParams.get("sortBy") || ""; // rating, gpa, difficulty, geCount
 
-  const { sections, courseGe, rmp } = loadData();
+  const { sections, courseGe, rmp, grades } = loadData();
 
   let filtered = sections;
 
@@ -126,8 +141,8 @@ export async function GET(req: Request) {
     filtered = filtered.filter((s) => s.term === term);
   }
 
-  if (subject) {
-    filtered = filtered.filter((s) => s.subject.toUpperCase() === subject);
+  if (subjectParams.length > 0) {
+    filtered = filtered.filter((s) => subjectParams.includes(s.subject.toUpperCase()));
   }
 
   if (crn) {
@@ -162,7 +177,11 @@ export async function GET(req: Request) {
   if (geParams.length > 0) {
     filtered = filtered.filter((s) => {
       const courseGeAreas = courseGe[s.courseCode] || [];
-      return geParams.every((ge) => courseGeAreas.includes(ge));
+      if (geMatch === "all") {
+        return geParams.every((ge) => courseGeAreas.includes(ge));
+      }
+      // Default: "any" — course satisfies at least one of the requested GE areas
+      return geParams.some((ge) => courseGeAreas.includes(ge));
     });
   }
 
@@ -190,30 +209,36 @@ export async function GET(req: Request) {
 
   if (openOnly) {
     filtered = filtered.filter((s) => {
-      if (s.seatsAvailable == null || s.seatsTotal == null) return false;
+      // If seat data is unavailable (null), assume open — real seat data isn't in the API
+      if (s.seatsAvailable == null || s.seatsTotal == null) return true;
       return s.seatsAvailable > 0;
     });
   }
 
   // --- Numerical Metrics Filtering ---
-  filtered = filtered.filter(s => {
-    // Get RMP for first instructor
-    const inst = s.instructors[0];
-    const data = rmp[inst];
-    if (!data) return minRating === 0 && minGpa === 0 && minDifficulty === 0;
+  // Only apply RMP filters to sections that HAVE RMP data.
+  // Sections without RMP still pass through but get sorted lower.
+  const hasRmpFilters = minRating > 0 || minGpa > 0 || minDifficulty > 0 || maxDifficulty < 5 || maxRatings < 999999;
+  if (hasRmpFilters) {
+    filtered = filtered.filter(s => {
+      const inst = s.instructors?.[0];
+      const data = inst ? rmp[inst] : null;
+      if (!data) return false; // Only exclude no-RMP sections when RMP filters are active
 
-    const rating = data.avgRating || 0;
-    const gpa = data.grades?.avgGpa || 0;
-    const difficulty = data.avgDifficulty || 0;
-    const ratingCount = data.numRatings || 0;
+      const rating = data.avgRating || 0;
+      const courseGrades = grades[s.courseCode];
+      const gpa = courseGrades?.overall_gpa || data.grades?.avgGpa || 0;
+      const difficulty = data.avgDifficulty || 0;
+      const ratingCount = data.numRatings || 0;
 
-    if (rating < minRating || rating > maxRating) return false;
-    if (gpa < minGpa || (maxGpa < 4 && gpa > maxGpa)) return false;
-    if (difficulty < minDifficulty || difficulty > maxDifficulty) return false;
-    if (ratingCount > maxRatings) return false;
+      if (rating < minRating || rating > maxRating) return false;
+      if (gpa < minGpa || (maxGpa < 4 && gpa > maxGpa)) return false;
+      if (difficulty < minDifficulty || difficulty > maxDifficulty) return false;
+      if (ratingCount > maxRatings) return false;
 
-    return true;
-  });
+      return true;
+    });
+  }
 
   // --- Apply Text Search ---
   if (query) {
@@ -260,8 +285,8 @@ export async function GET(req: Request) {
 
       if (sortBy === "gpa") {
         // Sort by GPA, then by number of GEs covered
-        const gpaA = rmpA.grades?.avgGpa || 0;
-        const gpaB = rmpB.grades?.avgGpa || 0;
+        const gpaA = grades[a.courseCode]?.overall_gpa || rmpA.grades?.avgGpa || 0;
+        const gpaB = grades[b.courseCode]?.overall_gpa || rmpB.grades?.avgGpa || 0;
         if (gpaB !== gpaA) return gpaB - gpaA;
         
         const geA = (courseGe[a.courseCode] || []).length;
@@ -309,7 +334,16 @@ export async function GET(req: Request) {
     const sectionRmp: Record<string, any> = {};
     for (const inst of (s.instructors || [])) {
       if (rmp[inst]) {
-        sectionRmp[inst] = rmp[inst];
+        // Enrich RMP with CattleLog grade data for backward compatibility
+        const instRmp = { ...rmp[inst] };
+        const courseGrades = grades[s.courseCode];
+        if (courseGrades?.overall_gpa != null) {
+          instRmp.grades = {
+            avgGpa: courseGrades.overall_gpa,
+            distribution: instRmp.grades?.distribution || {},
+          };
+        }
+        sectionRmp[inst] = instRmp;
       }
     }
     return { ...s, rmp: sectionRmp };

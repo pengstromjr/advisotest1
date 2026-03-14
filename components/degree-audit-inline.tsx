@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import type { RequirementSection, StudentContext } from "@/lib/course-data";
+import type { RequirementSection, StudentContext, Section } from "@/lib/course-data";
 import { SmartGeModal } from "./schedule-planner/smart-ge-modal";
-import { Sparkles } from "lucide-react";
+import { CourseDetailModal } from "./schedule-planner/course-detail-modal";
+import { Sparkles, Info } from "lucide-react";
 
 interface DegreeAuditInlineProps {
   programName: string;
@@ -89,11 +90,13 @@ function SectionBlock({
   completedCourses,
   onToggle,
   defaultOpen,
+  onCourseInfo,
 }: {
   section: DisplaySection;
   completedCourses: string[];
   onToggle: (code: string) => void;
   defaultOpen: boolean;
+  onCourseInfo: (code: string) => void;
 }) {
   const [open, setOpen] = useState(defaultOpen);
   const completed = section.courses.filter((c) =>
@@ -170,35 +173,50 @@ function SectionBlock({
             {section.courses.map((code) => {
               const checked = completedCourses.includes(code);
               return (
-                <button
-                  key={code}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onToggle(code);
-                  }}
-                  className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
-                    checked
-                      ? "bg-[#002855] dark:bg-blue-600 text-white shadow-md shadow-[#002855]/10"
-                      : "bg-gray-100 dark:bg-slate-900/50 text-gray-700 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-slate-200 border border-transparent dark:border-slate-800/80 shadow-sm"
-                  }`}
-                >
-                  {checked && (
-                    <svg
-                      className="h-3.5 w-3.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={3}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  )}
-                  {code}
-                </button>
+                <div key={code} className="flex items-center gap-0.5">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onToggle(code);
+                    }}
+                    className={`flex items-center gap-1.5 rounded-l-full pl-3 pr-1.5 py-1.5 text-sm font-medium transition-all ${
+                      checked
+                        ? "bg-[#002855] dark:bg-blue-600 text-white shadow-md shadow-[#002855]/10"
+                        : "bg-gray-100 dark:bg-slate-900/50 text-gray-700 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-slate-200 border border-transparent dark:border-slate-800/80 shadow-sm"
+                    }`}
+                  >
+                    {checked && (
+                      <svg
+                        className="h-3.5 w-3.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={3}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    )}
+                    {code}
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onCourseInfo(code);
+                    }}
+                    title="View course details"
+                    className={`flex items-center justify-center rounded-r-full pr-2.5 pl-1 py-1.5 transition-all ${
+                      checked
+                        ? "bg-[#002855] dark:bg-blue-600 text-blue-200 hover:text-white"
+                        : "bg-gray-100 dark:bg-slate-900/50 text-gray-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 border border-transparent dark:border-slate-800/80 shadow-sm"
+                    }`}
+                  >
+                    <Info className="h-3 w-3" />
+                  </button>
+                </div>
               );
             })}
           </div>
@@ -414,6 +432,17 @@ export function DegreeAuditInline({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [activeTab, setActiveTab] = useState<Tab>("major");
+  const [detailSection, setDetailSection] = useState<Section | null>(null);
+
+  const openCourseDetail = useCallback(async (code: string) => {
+    try {
+      const res = await fetch(`/api/sections?q=${encodeURIComponent(code)}&limit=1`);
+      const data = await res.json();
+      if (data.sections?.length > 0) {
+        setDetailSection(data.sections[0]);
+      }
+    } catch {}
+  }, []);
 
   const fetchProgram = useCallback(async (name: string) => {
     setLoading(true);
@@ -528,6 +557,7 @@ export function DegreeAuditInline({
                   completedCourses={completedCourses}
                   onToggle={onToggleCourse}
                   defaultOpen={i < 3}
+                  onCourseInfo={openCourseDetail}
                 />
               ))
             )}
@@ -549,6 +579,11 @@ export function DegreeAuditInline({
         onClose={() => setMatchingArea(null)}
         geArea={matchingArea || { code: "", name: "" }}
         studentContext={studentContext}
+      />
+
+      <CourseDetailModal
+        section={detailSection}
+        onClose={() => setDetailSection(null)}
       />
 
       {/* Footer */}

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Section } from "@/lib/course-data";
 import { PrerequisiteChain } from "@/components/prerequisite-chain";
 import { GPABadge } from "./gpa-display";
+import { CourseDetailModal } from "./course-detail-modal";
 
 const TERM = "Spring Quarter 2026";
 const PAGE_SIZE = 100;
@@ -183,6 +184,7 @@ export function ScheduleSearchModal({
   const [loading, setLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState("");
+  const [detailSection, setDetailSection] = useState<Section | null>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -630,15 +632,12 @@ export function ScheduleSearchModal({
                       : ["TBA"];
                   const instructors =
                     s.instructors?.length > 0 ? s.instructors.join(", ") : "TBA";
-                  const seats =
-                    s.seatsAvailable != null && s.seatsTotal != null
-                      ? `${s.seatsAvailable}/${s.seatsTotal} seats`
-                      : "Seats not listed";
 
                   return (
                     <div
                       key={s.crn}
-                      className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4 shadow-sm"
+                      onClick={() => setDetailSection(s)}
+                      className="cursor-pointer rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4 shadow-sm hover:border-[#002855] dark:hover:border-blue-500/50 hover:shadow-md transition-all"
                     >
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                         <div className="min-w-0 flex-1">
@@ -682,9 +681,21 @@ export function ScheduleSearchModal({
                               <span className="font-semibold text-gray-700 dark:text-slate-200">
                                 Seats:
                               </span>{" "}
-                              <span className={s.seatsAvailable && s.seatsAvailable > 0 ? "text-green-600 dark:text-green-400 font-medium" : "text-red-500"}>
-                                {seats}
-                              </span>
+                              {s.seatsAvailable != null && s.seatsTotal != null ? (
+                                <span className={s.seatsAvailable > 0 ? "text-green-600 dark:text-green-400 font-medium" : "text-red-500"}>
+                                  {s.seatsAvailable}/{s.seatsTotal} seats
+                                </span>
+                              ) : (
+                                <a 
+                                  href={`https://my.ucdavis.edu/schedulebuilder/index.cfm?termCode=202603`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                                  onClick={(e) => e.stopPropagation()}
+                                >
+                                  Check live availability →
+                                </a>
+                              )}
                             </p>
                           </div>
 
@@ -702,7 +713,8 @@ export function ScheduleSearchModal({
                           </p>
                           <button
                             type="button"
-                            onClick={() => {
+                            onClick={(e) => {
+                              e.stopPropagation();
                               if (mode === "swap") onPickSection?.(s);
                               else onAddSection?.(s);
                             }}

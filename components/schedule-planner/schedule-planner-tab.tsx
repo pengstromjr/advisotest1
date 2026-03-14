@@ -1,12 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import type { Section, StudentContext } from "@/lib/course-data";
+import type { StudentContext, Section } from "@/lib/course-data";
 import { subscribeScheduleAdd } from "@/lib/schedule-store";
-import type { TimeBlock, Weekday } from "@/lib/time-blocks";
-import { blocksToIntervalsByDay, intervalsOverlap, loadTimeBlocks, BLOCK_COLORS, snapTo15Minutes, saveTimeBlocks } from "@/lib/time-blocks";
+import { TimeBlock, Weekday, blocksToIntervalsByDay, intervalsOverlap, loadTimeBlocks, BLOCK_COLORS, snapTo15Minutes, saveTimeBlocks, parseTimeToMinutes } from "@/lib/time-blocks";
 import { ScheduleSearchModal } from "./schedule-search-modal";
 import { AutoGenerateModal } from "./auto-generate-modal";
+import { checkScheduleHealth } from "@/lib/schedule-utils";
+import { ScheduleHealthBanner } from "../schedule-health-banner";
 
 interface SchedulePlannerTabProps {
   studentContext: StudentContext;
@@ -54,11 +55,6 @@ interface PlannedSection extends Section {
   color: string;
 }
 
-function parseTimeToMinutes(time: string): number {
-  const [h, m] = time.split(":").map((v) => parseInt(v, 10));
-  if (Number.isNaN(h) || Number.isNaN(m)) return START_HOUR * 60;
-  return h * 60 + m;
-}
 
 function getBlockedOverlaysByDay(blocks: TimeBlock[]) {
   const totalMinutes = (END_HOUR - START_HOUR) * 60;
@@ -202,6 +198,7 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
   const [swapFrom, setSwapFrom] = useState<PlannedSection | null>(null);
   const [blocked, setBlocked] = useState<TimeBlock[]>([]);
   const [autoGenOpen, setAutoGenOpen] = useState(false);
+  const [copiedCrns, setCopiedCrns] = useState(false);
   
   const [dragging, setDragging] = useState<{
     day: string;
@@ -260,11 +257,11 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
     }
   }, [planned]);
 
-  const conflictCrns = useMemo(() => detectConflicts(planned), [planned]);
-  const blockedOverlapCrns = useMemo(
-    () => detectBlockedTimeOverlaps(planned, blocked),
-    [planned, blocked]
+  const health = useMemo(
+    () => checkScheduleHealth(planned, blocked, studentContext.completedCourses),
+    [planned, blocked, studentContext.completedCourses]
   );
+
   const blockedOverlaysByDay = useMemo(
     () => getBlockedOverlaysByDay(blocked),
     [blocked]
@@ -376,6 +373,20 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
             </p>
           </div>
           <div className="flex items-center gap-2">
+            {planned.length > 0 && (
+              <button
+                onClick={() => {
+                  const crns = planned.map(p => p.crn).join(", ");
+                  navigator.clipboard.writeText(crns).then(() => {
+                    setCopiedCrns(true);
+                    setTimeout(() => setCopiedCrns(false), 2000);
+                  });
+                }}
+                className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-600 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-all"
+              >
+                {copiedCrns ? "✓ Copied!" : "Copy CRNs"}
+              </button>
+            )}
             <button
               onClick={() => setAutoGenOpen(true)}
               className="rounded-lg bg-gradient-to-r from-[#002855] to-[#003d7a] px-3 py-1.5 text-xs font-medium text-white shadow-sm hover:shadow-md transition-all"
@@ -464,18 +475,84 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                 Browse / search
               </button>
             </div>
+
+            {/* Schedule Score Card */}
+            {planned.length > 0 && (() => {
+              const totalUnits = planned.reduce((sum, s) => {
+                const u = typeof s.units === "string" ? parseInt(s.units) || 0 : (Number(s.units) || 0);
+                return sum + u;
+              }, 0);
+              // rmp is Record<string, {avgRating, avgDifficulty, ...}> — grab first instructor's data
+              const getRmpData = (s: PlannedSection) => {
+                if (!s.rmp) return null;
+                const vals = Object.values(s.rmp);
+                return vals.length > 0 ? vals[0] : null;
+              };
+              const rmpSections = planned.filter(s => getRmpData(s)?.avgRating);
+              const avgRmp = rmpSections.length > 0
+                ? rmpSections.reduce((sum, s) => sum + (getRmpData(s)?.avgRating || 0), 0) / rmpSections.length
+                : 0;
+              const gpaSections = planned.filter(s => getRmpData(s)?.grades?.avgGpa);
+              const avgGpa = gpaSections.length > 0
+                ? gpaSections.reduce((sum, s) => sum + (getRmpData(s)?.grades?.avgGpa || 0), 0) / gpaSections.length
+                : 0;
+              const gpaColor = avgGpa >= 3.3 ? "text-green-500" : avgGpa >= 2.7 ? "text-yellow-500" : "text-red-500";
+              const rmpColor = avgRmp >= 4.0 ? "text-green-500" : avgRmp >= 3.0 ? "text-yellow-500" : "text-gray-600";
+
+              return (
+                <div className="rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-3">
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-gray-600 dark:text-slate-400 mb-2">Schedule Score</p>
+                  <div className="grid grid-cols-3 gap-2 text-center">
+                    <div>
+                      <p className="text-lg font-bold text-[#002855] dark:text-blue-400">{totalUnits}</p>
+                      <p className="text-[10px] text-gray-600">units</p>
+                    </div>
+                    <div>
+                      <p className={`text-lg font-bold ${avgGpa > 0 ? gpaColor : "text-gray-300 dark:text-slate-600"}`}>
+                        {avgGpa > 0 ? avgGpa.toFixed(2) : "–"}
+                      </p>
+                      <p className="text-[10px] text-gray-600">avg GPA</p>
+                    </div>
+                    <div>
+                      <p className={`text-lg font-bold ${avgRmp > 0 ? rmpColor : "text-gray-300 dark:text-slate-600"}`}>
+                        {avgRmp > 0 ? avgRmp.toFixed(1) : "–"}
+                      </p>
+                      <p className="text-[10px] text-gray-600">avg RMP</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
           </div>
 
           <div className="min-h-0 flex-1 overflow-y-auto px-3 pb-3 scrollbar-thin">
             {planned.length === 0 ? (
-              <div className="px-1 py-4 text-xs text-gray-500 dark:text-slate-400 space-y-2">
-                <p className="font-medium text-gray-700 dark:text-slate-300">
-                  Your schedule is empty.
+              <div className="flex flex-col items-center justify-center py-8 px-4 text-center">
+                <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#002855]/5 dark:bg-blue-500/10">
+                  <svg className="h-8 w-8 text-[#002855]/40 dark:text-blue-400/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                  </svg>
+                </div>
+                <p className="text-sm font-semibold text-gray-700 dark:text-slate-200 mb-1">
+                  No courses yet
                 </p>
-                <p>
-                  Search for a course to add it. Your major is{" "}
-                  {studentContext.major || "not set"}.
+                <p className="text-xs text-gray-600 dark:text-slate-400 mb-4">
+                  Start building your {TERM} schedule
                 </p>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => setSearchOpen(true)}
+                    className="rounded-lg bg-[#002855] px-3 py-2 text-xs font-medium text-white hover:bg-[#001a3a] transition-all"
+                  >
+                    Browse Courses
+                  </button>
+                  <button
+                    onClick={() => setAutoGenOpen(true)}
+                    className="rounded-lg border border-gray-200 dark:border-slate-700 px-3 py-2 text-xs font-medium text-gray-600 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-800 transition-all"
+                  >
+                    Auto-Generate
+                  </button>
+                </div>
               </div>
             ) : (
               <div className="space-y-2">
@@ -535,27 +612,14 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
               <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-slate-500">
                 Weekly view
               </p>
-              {planned.length > 0 && (
-                <span className="rounded-full bg-gray-100 dark:bg-slate-800 px-2 py-0.5 text-[11px] text-gray-600 dark:text-slate-300">
-                  {planned.length} section
-                  {planned.length > 1 ? "s" : ""}
-                </span>
-              )}
             </div>
-            {conflictCrns.size > 0 && (
-              <p className="text-[11px] font-medium text-red-500 dark:text-red-400">
-                {conflictCrns.size} section
-                {conflictCrns.size > 1 ? "s have" : " has"} a time conflict
-              </p>
-            )}
-            {conflictCrns.size === 0 && blockedOverlapCrns.size > 0 && (
-              <p className="text-[11px] font-medium text-amber-600 dark:text-amber-400">
-                {blockedOverlapCrns.size} section
-                {blockedOverlapCrns.size > 1 ? "s overlap" : " overlaps"} your
-                blocked times
-              </p>
-            )}
           </div>
+
+          {health.conflicts.length > 0 && (
+            <div className="px-4 py-2 border-b border-gray-100 dark:border-slate-800 bg-gray-50/30 dark:bg-slate-900/30">
+              <ScheduleHealthBanner health={health} />
+            </div>
+          )}
 
           <div className="flex min-h-0 flex-1 overflow-hidden">
             <div
@@ -689,7 +753,7 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                               
                               <div className="p-5 space-y-5">
                                 <div>
-                                  <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-400">Activity Label</label>
+                                  <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">Activity Label</label>
                                   <input
                                     value={editingLabel}
                                     autoFocus
@@ -699,14 +763,14 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                                       setBlocked(next);
                                       saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
                                     }}
-                                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm text-gray-800 dark:bg-slate-800 dark:border-slate-700 dark:text-white outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/10 transition-all font-medium"
+                                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/10 transition-all font-medium placeholder:text-gray-400"
                                     placeholder="e.g. Work, Gym, Study"
                                   />
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-4">
                                   <div>
-                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-400">Start Time</label>
+                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">Start Time</label>
                                     <input
                                       type="time"
                                       value={b.startTime}
@@ -715,11 +779,11 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                                         setBlocked(next);
                                         saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
                                       }}
-                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
+                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
                                     />
                                   </div>
                                   <div>
-                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-400">End Time</label>
+                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">End Time</label>
                                     <input
                                       type="time"
                                       value={b.endTime}
@@ -728,13 +792,13 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                                         setBlocked(next);
                                         saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
                                       }}
-                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
+                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
                                     />
                                   </div>
                                 </div>
 
                                 <div>
-                                  <label className="mb-2.5 block text-[10px] font-bold uppercase text-gray-400">Block Color</label>
+                                  <label className="mb-2.5 block text-[10px] font-bold uppercase text-gray-600">Block Color</label>
                                   <div className="flex flex-wrap gap-2.5">
                                     {BLOCK_COLORS.map((c) => (
                                       <button
@@ -803,8 +867,8 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                     })()}
 
                     {planned.map((section) => {
-                      const conflicts = conflictCrns.has(section.crn);
-                      const blockedConflict = blockedOverlapCrns.has(section.crn);
+                      const hasError = health.conflicts.some(c => c.courseCode === section.courseCode && c.severity === "error");
+                      const hasWarning = health.conflicts.some(c => c.courseCode === section.courseCode && c.severity === "warning");
                       const blocks = getMeetingBlocks(section).filter(
                         (b) => b.day === day
                       );
@@ -816,11 +880,11 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                             top: `${b.top}%`,
                             height: `${b.height}%`,
                             backgroundColor: section.color,
-                            borderColor: conflicts
-                              ? "#EF4444"
-                              : blockedConflict
-                                ? "#F59E0B"
-                                : "#1D4ED8",
+                             borderColor: hasError
+                               ? "#EF4444"
+                               : hasWarning
+                                 ? "#F59E0B"
+                                 : "#1D4ED8",
                           }}
                         >
                           <div className="flex h-full flex-col justify-between p-1">

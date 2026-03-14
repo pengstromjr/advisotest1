@@ -151,15 +151,15 @@ export function ProfileEditModal({
       />
 
       {/* Modal card */}
-      <div className="relative z-10 mx-4 w-full max-w-lg rounded-2xl border border-gray-200 bg-white shadow-2xl">
+      <div className="relative z-10 mx-4 w-full max-w-lg rounded-2xl border border-gray-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-900">
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-gray-100 px-6 py-4">
-          <h2 className="text-base font-semibold text-gray-900">
+        <div className="flex items-center justify-between border-b border-gray-100 px-6 py-4 dark:border-slate-800">
+          <h2 className="text-base font-semibold text-gray-900 dark:text-white">
             Edit Student Profile
           </h2>
           <button
             onClick={onClose}
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-600"
+            className="flex h-8 w-8 items-center justify-center rounded-lg text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-slate-800 dark:text-slate-500"
           >
             <svg
               className="h-5 w-5"
@@ -182,7 +182,7 @@ export function ProfileEditModal({
           <div className="space-y-5">
             {/* Major */}
             <div>
-              <label className="mb-1.5 block text-sm font-medium text-gray-700">
+              <label className="mb-1.5 block text-sm font-medium text-gray-700 dark:text-slate-300">
                 Major / Program
               </label>
               <div className="relative" ref={majorRef}>
@@ -193,12 +193,12 @@ export function ProfileEditModal({
                     onFocus={handleMajorFocus}
                     onKeyDown={handleMajorKeyDown}
                     placeholder="Search programs..."
-                    className="w-full rounded-lg border border-gray-300 px-3 py-2.5 pr-8 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20"
+                    className="w-full rounded-lg border border-gray-300 px-3 py-2.5 pr-8 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20 dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500/20"
                   />
                   {context.major && (
                     <button
                       onClick={clearMajor}
-                      className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                      className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:text-slate-500 dark:hover:text-slate-300"
                       aria-label="Clear selection"
                     >
                       &times;
@@ -206,15 +206,15 @@ export function ProfileEditModal({
                   )}
                 </div>
                 {majorFocused && majorSuggestions.length > 0 && (
-                  <div className="absolute left-0 right-0 top-full z-10 mt-1 max-h-48 overflow-y-auto rounded-lg border border-gray-200 bg-white shadow-lg">
+                  <div className="absolute left-0 right-0 top-full z-10 mt-1 max-h-48 overflow-y-auto rounded-lg border border-gray-200 bg-white shadow-lg dark:bg-slate-800 dark:border-slate-700 dark:shadow-black/50">
                     {majorSuggestions.map((p) => (
                       <button
                         key={p}
                         onMouseDown={() => selectMajor(p)}
-                        className={`block w-full px-3 py-1.5 text-left text-sm transition-colors hover:bg-[#002855]/5 ${
+                        className={`block w-full px-3 py-1.5 text-left text-sm transition-colors hover:bg-[#002855]/5 dark:hover:bg-blue-500/10 ${
                           p === context.major
-                            ? "font-medium text-[#002855]"
-                            : "text-gray-700"
+                            ? "font-medium text-[#002855] dark:text-blue-400"
+                            : "text-gray-700 dark:text-slate-300"
                         }`}
                       >
                         {p}
@@ -227,7 +227,7 @@ export function ProfileEditModal({
 
             {/* Year */}
             <div>
-              <label className="mb-1.5 block text-sm font-medium text-gray-700">
+              <label className="mb-1.5 block text-sm font-medium text-gray-700 dark:text-slate-300">
                 Year
               </label>
               <select
@@ -235,7 +235,7 @@ export function ProfileEditModal({
                 onChange={(e) =>
                   onChange({ ...context, year: e.target.value })
                 }
-                className="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20"
+                className="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20 dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500/20"
               >
                 {YEARS.map((y) => (
                   <option key={y} value={y}>
@@ -247,7 +247,7 @@ export function ProfileEditModal({
 
             {/* Completed Courses */}
             <div>
-              <label className="mb-1.5 block text-sm font-medium text-gray-700">
+              <label className="mb-1.5 block text-sm font-medium text-gray-700 dark:text-slate-300">
                 Completed Courses
               </label>
               <div className="relative">
@@ -256,16 +256,16 @@ export function ProfileEditModal({
                   onChange={(e) => handleCourseInput(e.target.value)}
                   onKeyDown={handleCourseKeyDown}
                   placeholder="Type a course code (e.g., PHI 001)"
-                  className="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20"
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/20 dark:bg-slate-800 dark:border-slate-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500/20"
                 />
                 {suggestions.length > 0 && (
-                  <div className="absolute left-0 right-0 top-full z-10 mt-1.5 max-h-52 overflow-y-auto rounded-xl border border-gray-200 bg-white p-2.5 shadow-lg">
+                  <div className="absolute left-0 right-0 top-full z-10 mt-1.5 max-h-52 overflow-y-auto rounded-xl border border-gray-200 bg-white p-2.5 shadow-lg dark:bg-slate-800 dark:border-slate-700 dark:shadow-black/50">
                     <div className="flex flex-wrap gap-1.5">
                       {suggestions.map((s) => (
                         <button
                           key={s}
                           onClick={() => addCourse(s)}
-                          className="rounded-full border border-gray-200 px-2.5 py-1 text-xs font-medium text-gray-700 transition-colors hover:border-[#002855]/30 hover:bg-[#002855]/5 hover:text-[#002855]"
+                          className="rounded-full border border-gray-200 px-2.5 py-1 text-xs font-medium text-gray-700 transition-colors hover:border-[#002855]/30 hover:bg-[#002855]/5 hover:text-[#002855] dark:border-slate-700 dark:text-slate-300 dark:hover:border-blue-500/30 dark:hover:bg-blue-500/10 dark:hover:text-blue-400"
                         >
                           {s}
                         </button>
@@ -276,7 +276,7 @@ export function ProfileEditModal({
               </div>
 
               {courseInput.length >= 2 && suggestions.length === 0 && (
-                <p className="mt-1.5 text-xs text-gray-400">
+                <p className="mt-1.5 text-xs text-gray-400 dark:text-slate-500">
                   Press Enter to add &quot;{courseInput.toUpperCase()}&quot;
                 </p>
               )}
@@ -286,12 +286,12 @@ export function ProfileEditModal({
                   {context.completedCourses.map((code) => (
                     <span
                       key={code}
-                      className="inline-flex items-center gap-1 rounded-full bg-[#002855]/10 px-3 py-1.5 text-xs font-medium text-[#002855]"
+                      className="inline-flex items-center gap-1 rounded-full bg-[#002855]/10 px-3 py-1.5 text-xs font-medium text-[#002855] dark:bg-blue-500/20 dark:text-blue-400"
                     >
                       {code}
                       <button
                         onClick={() => removeCourse(code)}
-                        className="ml-0.5 text-[#002855]/50 hover:text-[#002855]"
+                        className="ml-0.5 text-[#002855]/50 hover:text-[#002855] dark:text-blue-400/50 dark:hover:text-blue-400"
                       >
                         &times;
                       </button>
@@ -299,7 +299,7 @@ export function ProfileEditModal({
                   ))}
                 </div>
               ) : (
-                <p className="mt-2 text-xs text-gray-400">
+                <p className="mt-2 text-xs text-gray-400 dark:text-slate-500">
                   Add courses you&apos;ve completed to get personalized
                   recommendations.
                 </p>
@@ -309,14 +309,14 @@ export function ProfileEditModal({
         </div>
 
         {/* Footer */}
-        <div className="border-t border-gray-100 px-6 py-4">
+        <div className="border-t border-gray-100 px-6 py-4 dark:border-slate-800">
           <div className="flex items-center justify-between">
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-400 dark:text-slate-500">
               Nothing is stored. Profile is session-only.
             </p>
             <button
               onClick={onClose}
-              className="rounded-lg bg-[#002855] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#001a3a]"
+              className="rounded-lg bg-[#002855] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#001a3a] dark:bg-blue-600 dark:hover:bg-blue-700"
             >
               Done
             </button>

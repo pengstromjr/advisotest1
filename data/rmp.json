@@ -1,210 +1,2605 @@
 {
-  "Gupta, S": {
-    "avgRating": 4.2,
-    "avgDifficulty": 3.1,
-    "numRatings": 85,
-    "wouldTakeAgainPercent": 78,
-    "legacyId": "12345",
-    "grades": {
-      "avgGpa": 3.42,
-      "distribution": { "A": 45, "B": 35, "C": 12, "D": 5, "F": 3 }
-    }
-  },
-  "Loupos, P": {
-    "avgRating": 3.8,
-    "avgDifficulty": 3.5,
-    "numRatings": 42,
-    "wouldTakeAgainPercent": 65,
-    "legacyId": "67890",
-    "grades": {
-      "avgGpa": 3.15,
-      "distribution": { "A": 32, "B": 42, "C": 18, "D": 6, "F": 2 }
-    }
-  },
-  "Deeb Sossa, N": {
-    "avgRating": 4.7,
-    "avgDifficulty": 2.2,
-    "numRatings": 156,
-    "wouldTakeAgainPercent": 92,
-    "legacyId": "23456",
-    "grades": {
-      "avgGpa": 3.68,
-      "distribution": { "A": 62, "B": 28, "C": 8, "D": 1, "F": 1 }
-    }
-  },
-  "Ruiz, J": {
+  "Shimamura, A": {
     "avgRating": 4.5,
-    "avgDifficulty": 2.8,
-    "numRatings": 112,
-    "wouldTakeAgainPercent": 88,
-    "legacyId": "34567",
+    "avgDifficulty": 1.8,
+    "numRatings": 25,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "416680",
+    "department": "Psychology",
+    "isReal": true,
     "grades": {
-      "avgGpa": 3.55,
-      "distribution": { "A": 55, "B": 32, "C": 9, "D": 3, "F": 1 }
-    }
-  },
-  "Theobald, J": {
-    "avgRating": 3.2,
-    "avgDifficulty": 4.1,
-    "numRatings": 67,
-    "wouldTakeAgainPercent": 45,
-    "legacyId": "45678",
-    "grades": {
-      "avgGpa": 2.84,
-      "distribution": { "A": 22, "B": 38, "C": 25, "D": 10, "F": 5 }
-    }
-  },
-  "Hilbert, M": {
-    "avgRating": 4.9,
-    "avgDifficulty": 3.6,
-    "numRatings": 204,
-    "wouldTakeAgainPercent": 96,
-    "legacyId": "56789",
-    "grades": {
-      "avgGpa": 3.75,
-      "distribution": { "A": 70, "B": 22, "C": 6, "D": 1, "F": 1 }
-    }
-  },
-  "Pena, J": {
-    "avgRating": 2.4,
-    "avgDifficulty": 4.6,
-    "numRatings": 38,
-    "wouldTakeAgainPercent": 15,
-    "legacyId": "67891",
-    "grades": {
-      "avgGpa": 2.52,
-      "distribution": { "A": 15, "B": 32, "C": 35, "D": 12, "F": 6 }
-    }
-  },
-  "White, J": {
-    "avgRating": 4.0,
-    "avgDifficulty": 3.0,
-    "numRatings": 91,
-    "wouldTakeAgainPercent": 82,
-    "legacyId": "78902",
-    "grades": {
-      "avgGpa": 3.35,
-      "distribution": { "A": 38, "B": 45, "C": 12, "D": 4, "F": 1 }
-    }
-  },
-  "Anderson, K": {
-    "avgRating": 4.6,
-    "avgDifficulty": 2.1,
-    "numRatings": 12,
-    "wouldTakeAgainPercent": 95,
-    "grades": {
-      "avgGpa": 3.82,
-      "distribution": { "A": 75, "B": 20, "C": 4, "D": 1, "F": 0 }
-    }
-  },
-  "Brown, E": {
-    "avgRating": 4.4,
-    "avgDifficulty": 2.2,
-    "numRatings": 18,
-    "wouldTakeAgainPercent": 89,
-    "grades": {
-      "avgGpa": 3.58,
-      "distribution": { "A": 58, "B": 32, "C": 8, "D": 1, "F": 1 }
-    }
-  },
-  "Davis, F": {
-    "avgRating": 4.8,
-    "avgDifficulty": 1.9,
-    "numRatings": 8,
-    "wouldTakeAgainPercent": 100,
-    "grades": {
-      "avgGpa": 3.91,
-      "distribution": { "A": 85, "B": 12, "C": 3, "D": 0, "F": 0 }
-    }
-  },
-  "Johnson, B": {
-    "avgRating": 4.9,
-    "avgDifficulty": 2.5,
-    "numRatings": 35,
-    "wouldTakeAgainPercent": 94,
-    "grades": {
-      "avgGpa": 3.72,
-      "distribution": { "A": 65, "B": 25, "C": 8, "D": 1, "F": 1 }
-    }
-  },
-  "Smith, A": {
-    "avgRating": 4.8,
-    "avgDifficulty": 2.1,
-    "numRatings": 42,
-    "wouldTakeAgainPercent": 98,
-    "grades": {
-      "avgGpa": 3.85,
-      "distribution": { "A": 78, "B": 18, "C": 3, "D": 1, "F": 0 }
-    }
-  },
-  "Williams, C": {
-    "avgRating": 4.8,
-    "avgDifficulty": 2.3,
-    "numRatings": 28,
-    "wouldTakeAgainPercent": 92,
-    "grades": {
-      "avgGpa": 3.65,
-      "distribution": { "A": 55, "B": 35, "C": 8, "D": 1, "F": 1 }
-    }
-  },
-  "Miller, G": {
-    "avgRating": 4.7,
-    "avgDifficulty": 3.2,
-    "numRatings": 64,
-    "wouldTakeAgainPercent": 85,
-    "grades": {
-      "avgGpa": 3.48,
-      "distribution": { "A": 48, "B": 38, "C": 10, "D": 3, "F": 1 }
+      "avgGpa": 3.39,
+      "distribution": {
+        "A": 48,
+        "B": 32,
+        "C": 13,
+        "D": 6,
+        "F": 0
+      }
     }
   },
   "Taylor, J": {
-    "avgRating": 4.7,
-    "avgDifficulty": 2.8,
-    "numRatings": 51,
-    "wouldTakeAgainPercent": 88,
+    "avgRating": 4.5,
+    "avgDifficulty": 2.4,
+    "numRatings": 10,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "335973",
+    "department": "Biology",
+    "isReal": true,
     "grades": {
-      "avgGpa": 3.52,
-      "distribution": { "A": 52, "B": 32, "C": 12, "D": 3, "F": 1 }
+      "avgGpa": 3.38,
+      "distribution": {
+        "A": 45,
+        "B": 37,
+        "C": 11,
+        "D": 5,
+        "F": 1
+      }
     }
   },
-  "Wilson, H": {
-    "avgRating": 4.6,
-    "avgDifficulty": 2.4,
+  "Hill, T": {
+    "avgRating": 4,
+    "avgDifficulty": 2.7,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1792106",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.32,
+      "distribution": {
+        "A": 42,
+        "B": 35,
+        "C": 18,
+        "D": 4,
+        "F": 1
+      }
+    }
+  },
+  "Nguyen, C": {
+    "avgRating": 4.7,
+    "avgDifficulty": 3.7,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1279830",
+    "department": "Electrical Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.53,
+      "distribution": {
+        "A": 43,
+        "B": 37,
+        "C": 17,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Liu, J": {
+    "avgRating": 2.3,
+    "avgDifficulty": 3.9,
+    "numRatings": 13,
+    "wouldTakeAgainPercent": 15,
+    "legacyId": "2759788",
+    "department": "Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.47,
+      "distribution": {
+        "A": 13,
+        "B": 34,
+        "C": 30,
+        "D": 14,
+        "F": 9
+      }
+    }
+  },
+  "Walker, M": {
+    "avgRating": 4.8,
+    "avgDifficulty": 1.8,
     "numRatings": 32,
-    "wouldTakeAgainPercent": 91,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1138536",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.42,
+      "distribution": {
+        "A": 42,
+        "B": 40,
+        "C": 14,
+        "D": 2,
+        "F": 2
+      }
+    }
+  },
+  "Jackson, S": {
+    "avgRating": 3.5,
+    "avgDifficulty": 2,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "414423",
+    "department": "Rhetoric",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.06,
+      "distribution": {
+        "A": 30,
+        "B": 39,
+        "C": 22,
+        "D": 5,
+        "F": 4
+      }
+    }
+  },
+  "Roberts, B": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "717385",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.38,
+      "distribution": {
+        "A": 42,
+        "B": 36,
+        "C": 16,
+        "D": 4,
+        "F": 2
+      }
+    }
+  },
+  "Anderson, M": {
+    "avgRating": 4,
+    "avgDifficulty": 2.9,
+    "numRatings": 36,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "458295",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.09,
+      "distribution": {
+        "A": 29,
+        "B": 39,
+        "C": 22,
+        "D": 6,
+        "F": 4
+      }
+    }
+  },
+  "Kim, S": {
+    "avgRating": 3.8,
+    "avgDifficulty": 3.6,
+    "numRatings": 16,
+    "wouldTakeAgainPercent": 56,
+    "legacyId": "2996852",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.22,
+      "distribution": {
+        "A": 32,
+        "B": 35,
+        "C": 22,
+        "D": 7,
+        "F": 5
+      }
+    }
+  },
+  "Wang, D": {
+    "avgRating": 3.7,
+    "avgDifficulty": 2,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "3139842",
+    "department": "Political Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.01,
+      "distribution": {
+        "A": 24,
+        "B": 41,
+        "C": 23,
+        "D": 6,
+        "F": 7
+      }
+    }
+  },
+  "Taylor, M": {
+    "avgRating": 4.8,
+    "avgDifficulty": 3.5,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2267898",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.37,
+      "distribution": {
+        "A": 48,
+        "B": 34,
+        "C": 15,
+        "D": 3,
+        "F": 1
+      }
+    }
+  },
+  "Hill, C": {
+    "avgRating": 4.9,
+    "avgDifficulty": 2.3,
+    "numRatings": 13,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "784267",
+    "department": "Writing",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.53,
+      "distribution": {
+        "A": 43,
+        "B": 36,
+        "C": 13,
+        "D": 6,
+        "F": 2
+      }
+    }
+  },
+  "Taylor, H": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.8,
+    "numRatings": 16,
+    "wouldTakeAgainPercent": 94,
+    "legacyId": "2463303",
+    "department": "Mechanical Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.28,
+      "distribution": {
+        "A": 28,
+        "B": 41,
+        "C": 21,
+        "D": 5,
+        "F": 4
+      }
+    }
+  },
+  "Evans, S": {
+    "avgRating": 1.7,
+    "avgDifficulty": 4.5,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1676551",
+    "department": "Statistics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.46,
+      "distribution": {
+        "A": 11,
+        "B": 31,
+        "C": 30,
+        "D": 16,
+        "F": 11
+      }
+    }
+  },
+  "Harris, C": {
+    "avgRating": 3.3,
+    "avgDifficulty": 2,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "3013032",
+    "department": "Industrial Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.89,
+      "distribution": {
+        "A": 27,
+        "B": 41,
+        "C": 20,
+        "D": 7,
+        "F": 5
+      }
+    }
+  },
+  "Young, D": {
+    "avgRating": 4.5,
+    "avgDifficulty": 2.7,
+    "numRatings": 13,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2094344",
+    "department": "Film",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.44,
+      "distribution": {
+        "A": 39,
+        "B": 42,
+        "C": 15,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Nelson, D": {
+    "avgRating": 3.2,
+    "avgDifficulty": 3.7,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1225663",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.81,
+      "distribution": {
+        "A": 26,
+        "B": 37,
+        "C": 24,
+        "D": 7,
+        "F": 5
+      }
+    }
+  },
+  "Chen, M": {
+    "avgRating": 3.6,
+    "avgDifficulty": 2.2,
+    "numRatings": 18,
+    "wouldTakeAgainPercent": 57,
+    "legacyId": "1418713",
+    "department": "Women's Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.89,
+      "distribution": {
+        "A": 22,
+        "B": 43,
+        "C": 24,
+        "D": 10,
+        "F": 2
+      }
+    }
+  },
+  "Moore, D": {
+    "avgRating": 3.8,
+    "avgDifficulty": 4.5,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "649259",
+    "department": "Anthropology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.09,
+      "distribution": {
+        "A": 28,
+        "B": 39,
+        "C": 23,
+        "D": 8,
+        "F": 2
+      }
+    }
+  },
+  "Zhang, D": {
+    "avgRating": 2.9,
+    "avgDifficulty": 3.2,
+    "numRatings": 14,
+    "wouldTakeAgainPercent": 50,
+    "legacyId": "2138307",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.87,
+      "distribution": {
+        "A": 26,
+        "B": 41,
+        "C": 22,
+        "D": 5,
+        "F": 5
+      }
+    }
+  },
+  "Wang, R": {
+    "avgRating": 3.6,
+    "avgDifficulty": 4,
+    "numRatings": 25,
+    "wouldTakeAgainPercent": 56,
+    "legacyId": "2726637",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.11,
+      "distribution": {
+        "A": 21,
+        "B": 42,
+        "C": 20,
+        "D": 11,
+        "F": 5
+      }
+    }
+  },
+  "Wright, B": {
+    "avgRating": 2.6,
+    "avgDifficulty": 3.9,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "993054",
+    "department": "Economics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.76,
+      "distribution": {
+        "A": 11,
+        "B": 35,
+        "C": 30,
+        "D": 13,
+        "F": 12
+      }
+    }
+  },
+  "Garcia, M": {
+    "avgRating": 3.5,
+    "avgDifficulty": 1.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2134932",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.87,
+      "distribution": {
+        "A": 27,
+        "B": 37,
+        "C": 23,
+        "D": 8,
+        "F": 5
+      }
+    }
+  },
+  "Evans, R": {
+    "avgRating": 1,
+    "avgDifficulty": 1,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "2182555",
+    "department": "Theatre  Dance",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.2,
+      "distribution": {
+        "A": 21,
+        "B": 31,
+        "C": 30,
+        "D": 13,
+        "F": 6
+      }
+    }
+  },
+  "Hill, D": {
+    "avgRating": 3.1,
+    "avgDifficulty": 3.5,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1135373",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.93,
+      "distribution": {
+        "A": 27,
+        "B": 39,
+        "C": 22,
+        "D": 8,
+        "F": 3
+      }
+    }
+  },
+  "Kim, M": {
+    "avgRating": 4.3,
+    "avgDifficulty": 2.4,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 78,
+    "legacyId": "1599378",
+    "department": "Languages",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.27,
+      "distribution": {
+        "A": 20,
+        "B": 42,
+        "C": 27,
+        "D": 5,
+        "F": 6
+      }
+    }
+  },
+  "Hernandez, O": {
+    "avgRating": 4.1,
+    "avgDifficulty": 3.2,
+    "numRatings": 20,
+    "wouldTakeAgainPercent": 68,
+    "legacyId": "1884360",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.29,
+      "distribution": {
+        "A": 21,
+        "B": 39,
+        "C": 23,
+        "D": 11,
+        "F": 6
+      }
+    }
+  },
+  "Chen, T": {
+    "avgRating": 5,
+    "avgDifficulty": 2,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2920399",
+    "department": "Engineering",
+    "isReal": true,
     "grades": {
       "avgGpa": 3.62,
-      "distribution": { "A": 58, "B": 30, "C": 8, "D": 3, "F": 1 }
+      "distribution": {
+        "A": 40,
+        "B": 39,
+        "C": 15,
+        "D": 6,
+        "F": 0
+      }
     }
   },
-  "Thomas, L": {
-    "avgRating": 4.4,
-    "avgDifficulty": 2.6,
-    "numRatings": 45,
-    "wouldTakeAgainPercent": 86,
+  "Robinson, D": {
+    "avgRating": 3.5,
+    "avgDifficulty": 3,
+    "numRatings": 161,
+    "wouldTakeAgainPercent": 63,
+    "legacyId": "59093",
+    "department": "Business Administration",
+    "isReal": true,
     "grades": {
-      "avgGpa": 3.45,
-      "distribution": { "A": 48, "B": 35, "C": 12, "D": 4, "F": 1 }
+      "avgGpa": 3.01,
+      "distribution": {
+        "A": 21,
+        "B": 44,
+        "C": 21,
+        "D": 10,
+        "F": 3
+      }
     }
   },
-  "Moore, I": {
+  "Baker, L": {
+    "avgRating": 5,
+    "avgDifficulty": 2,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "629038",
+    "department": "Art",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.65,
+      "distribution": {
+        "A": 40,
+        "B": 39,
+        "C": 16,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Gonzalez, P": {
     "avgRating": 4.5,
+    "avgDifficulty": 2,
+    "numRatings": 34,
+    "wouldTakeAgainPercent": 87,
+    "legacyId": "2087485",
+    "department": "Ethnic Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.27,
+      "distribution": {
+        "A": 29,
+        "B": 40,
+        "C": 22,
+        "D": 5,
+        "F": 3
+      }
+    }
+  },
+  "Roberts, T": {
+    "avgRating": 3.9,
+    "avgDifficulty": 1.8,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1408620",
+    "department": "Music",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.28,
+      "distribution": {
+        "A": 25,
+        "B": 41,
+        "C": 23,
+        "D": 9,
+        "F": 2
+      }
+    }
+  },
+  "Collins, A": {
+    "avgRating": 1.8,
+    "avgDifficulty": 3.8,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 25,
+    "legacyId": "2379537",
+    "department": "Cognitive Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.34,
+      "distribution": {
+        "A": 16,
+        "B": 29,
+        "C": 29,
+        "D": 16,
+        "F": 9
+      }
+    }
+  },
+  "Rodriguez, J": {
+    "avgRating": 4.9,
+    "avgDifficulty": 2.7,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1280566",
+    "department": "Women's Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.46,
+      "distribution": {
+        "A": 42,
+        "B": 41,
+        "C": 11,
+        "D": 6,
+        "F": 0
+      }
+    }
+  },
+  "King, T": {
+    "avgRating": 2.8,
+    "avgDifficulty": 2.3,
+    "numRatings": 18,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1478716",
+    "department": "Sociology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.84,
+      "distribution": {
+        "A": 26,
+        "B": 39,
+        "C": 19,
+        "D": 10,
+        "F": 5
+      }
+    }
+  },
+  "Garcia, D": {
+    "avgRating": 4,
+    "avgDifficulty": 3.3,
+    "numRatings": 162,
+    "wouldTakeAgainPercent": 77,
+    "legacyId": "142865",
+    "department": "Computer Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.13,
+      "distribution": {
+        "A": 23,
+        "B": 36,
+        "C": 29,
+        "D": 11,
+        "F": 2
+      }
+    }
+  },
+  "Park, J": {
+    "avgRating": 5,
+    "avgDifficulty": 3,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3011422",
+    "department": "Languages",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.57,
+      "distribution": {
+        "A": 42,
+        "B": 41,
+        "C": 11,
+        "D": 6,
+        "F": 0
+      }
+    }
+  },
+  "White, T": {
+    "avgRating": 4,
+    "avgDifficulty": 3.9,
+    "numRatings": 21,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "469905",
+    "department": "Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.32,
+      "distribution": {
+        "A": 46,
+        "B": 38,
+        "C": 9,
+        "D": 5,
+        "F": 2
+      }
+    }
+  },
+  "Walker, A": {
+    "avgRating": 5,
+    "avgDifficulty": 3.2,
+    "numRatings": 14,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2584481",
+    "department": "Music",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.66,
+      "distribution": {
+        "A": 47,
+        "B": 38,
+        "C": 11,
+        "D": 4,
+        "F": 0
+      }
+    }
+  },
+  "Collins, K": {
+    "avgRating": 2.7,
+    "avgDifficulty": 3.3,
+    "numRatings": 9,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "799654",
+    "department": "Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.81,
+      "distribution": {
+        "A": 22,
+        "B": 39,
+        "C": 25,
+        "D": 9,
+        "F": 5
+      }
+    }
+  },
+  "Martin, L": {
+    "avgRating": 4.3,
+    "avgDifficulty": 3.1,
+    "numRatings": 7,
+    "wouldTakeAgainPercent": 86,
+    "legacyId": "2166933",
+    "department": "Materials Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.22,
+      "distribution": {
+        "A": 23,
+        "B": 41,
+        "C": 25,
+        "D": 8,
+        "F": 3
+      }
+    }
+  },
+  "Allen, M": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.9,
+    "numRatings": 27,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1135949",
+    "department": "Art History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.38,
+      "distribution": {
+        "A": 37,
+        "B": 41,
+        "C": 16,
+        "D": 4,
+        "F": 1
+      }
+    }
+  },
+  "Wilson, R": {
+    "avgRating": 3.3,
+    "avgDifficulty": 3.5,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 50,
+    "legacyId": "2634429",
+    "department": "MolecularCellular Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.78,
+      "distribution": {
+        "A": 17,
+        "B": 26,
+        "C": 32,
+        "D": 14,
+        "F": 11
+      }
+    }
+  },
+  "Nelson, A": {
+    "avgRating": 3.9,
+    "avgDifficulty": 2.3,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "626520",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.06,
+      "distribution": {
+        "A": 24,
+        "B": 41,
+        "C": 26,
+        "D": 7,
+        "F": 2
+      }
+    }
+  },
+  "Chen, J": {
+    "avgRating": 5,
+    "avgDifficulty": 3.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3030750",
+    "department": "Statistics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.66,
+      "distribution": {
+        "A": 41,
+        "B": 38,
+        "C": 14,
+        "D": 6,
+        "F": 2
+      }
+    }
+  },
+  "Campbell, J": {
+    "avgRating": 4.4,
+    "avgDifficulty": 2.8,
+    "numRatings": 61,
+    "wouldTakeAgainPercent": 71,
+    "legacyId": "590244",
+    "department": "Philosophy",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.31,
+      "distribution": {
+        "A": 46,
+        "B": 33,
+        "C": 16,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Sitar, N": {
+    "avgRating": 4,
+    "avgDifficulty": 2.8,
+    "numRatings": 9,
+    "wouldTakeAgainPercent": 89,
+    "legacyId": "2460095",
+    "department": "Civil Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.3,
+      "distribution": {
+        "A": 25,
+        "B": 38,
+        "C": 24,
+        "D": 8,
+        "F": 5
+      }
+    }
+  },
+  "Davis, S": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1143412",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.32,
+      "distribution": {
+        "A": 44,
+        "B": 39,
+        "C": 13,
+        "D": 3,
+        "F": 1
+      }
+    }
+  },
+  "Garcia, G": {
+    "avgRating": 5,
+    "avgDifficulty": 2,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3131622",
+    "department": "Education",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.41,
+      "distribution": {
+        "A": 40,
+        "B": 39,
+        "C": 15,
+        "D": 5,
+        "F": 1
+      }
+    }
+  },
+  "Allen, J": {
+    "avgRating": 2.8,
+    "avgDifficulty": 3.9,
+    "numRatings": 16,
+    "wouldTakeAgainPercent": 38,
+    "legacyId": "2907804",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.86,
+      "distribution": {
+        "A": 21,
+        "B": 39,
+        "C": 27,
+        "D": 7,
+        "F": 6
+      }
+    }
+  },
+  "Evans, L": {
+    "avgRating": 4.5,
+    "avgDifficulty": 3,
+    "numRatings": 41,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "324551",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.21,
+      "distribution": {
+        "A": 25,
+        "B": 38,
+        "C": 27,
+        "D": 5,
+        "F": 5
+      }
+    }
+  },
+  "Jackson, J": {
+    "avgRating": 4.1,
+    "avgDifficulty": 3.1,
+    "numRatings": 63,
+    "wouldTakeAgainPercent": 82,
+    "legacyId": "1710377",
+    "department": "Mass Communications",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.26,
+      "distribution": {
+        "A": 27,
+        "B": 39,
+        "C": 22,
+        "D": 7,
+        "F": 4
+      }
+    }
+  },
+  "Rodriguez, C": {
+    "avgRating": 2.8,
+    "avgDifficulty": 2.5,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "1798408",
+    "department": "Ethnic Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.73,
+      "distribution": {
+        "A": 16,
+        "B": 25,
+        "C": 31,
+        "D": 18,
+        "F": 9
+      }
+    }
+  },
+  "Anderson, D": {
+    "avgRating": 3.8,
+    "avgDifficulty": 2.1,
+    "numRatings": 13,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "769796",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.1,
+      "distribution": {
+        "A": 21,
+        "B": 39,
+        "C": 28,
+        "D": 9,
+        "F": 3
+      }
+    }
+  },
+  "Martinez, J": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.8,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "896003",
+    "department": "Spanish",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.49,
+      "distribution": {
+        "A": 51,
+        "B": 31,
+        "C": 15,
+        "D": 2,
+        "F": 0
+      }
+    }
+  },
+  "Zhang, R": {
+    "avgRating": 1.5,
+    "avgDifficulty": 4.6,
+    "numRatings": 26,
+    "wouldTakeAgainPercent": 12,
+    "legacyId": "2776800",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.34,
+      "distribution": {
+        "A": 15,
+        "B": 28,
+        "C": 36,
+        "D": 16,
+        "F": 6
+      }
+    }
+  },
+  "Jackson, T": {
+    "avgRating": 5,
+    "avgDifficulty": 2.7,
+    "numRatings": 22,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3005925",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.53,
+      "distribution": {
+        "A": 41,
+        "B": 44,
+        "C": 11,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Taylor, A": {
+    "avgRating": 5,
+    "avgDifficulty": 4,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3127941",
+    "department": "Data Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.48,
+      "distribution": {
+        "A": 41,
+        "B": 39,
+        "C": 16,
+        "D": 3,
+        "F": 0
+      }
+    }
+  },
+  "Olson, T": {
+    "avgRating": 3.7,
+    "avgDifficulty": 3.2,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "996273",
+    "department": "Art History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.11,
+      "distribution": {
+        "A": 26,
+        "B": 42,
+        "C": 20,
+        "D": 9,
+        "F": 3
+      }
+    }
+  },
+  "Scott, C": {
+    "avgRating": 4.9,
+    "avgDifficulty": 2.8,
+    "numRatings": 13,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2326610",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.59,
+      "distribution": {
+        "A": 42,
+        "B": 38,
+        "C": 11,
+        "D": 6,
+        "F": 2
+      }
+    }
+  },
+  "Wang, F": {
+    "avgRating": 4.1,
+    "avgDifficulty": 3.2,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "1449626",
+    "department": "Physics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.12,
+      "distribution": {
+        "A": 26,
+        "B": 40,
+        "C": 22,
+        "D": 8,
+        "F": 2
+      }
+    }
+  },
+  "Clark, I": {
+    "avgRating": 2.5,
+    "avgDifficulty": 2,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 17,
+    "legacyId": "3032080",
+    "department": "Bioengineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.64,
+      "distribution": {
+        "A": 16,
+        "B": 33,
+        "C": 28,
+        "D": 17,
+        "F": 6
+      }
+    }
+  },
+  "Wright, J": {
+    "avgRating": 4.6,
+    "avgDifficulty": 3.5,
+    "numRatings": 10,
+    "wouldTakeAgainPercent": 90,
+    "legacyId": "2903387",
+    "department": "Computer Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.43,
+      "distribution": {
+        "A": 43,
+        "B": 34,
+        "C": 17,
+        "D": 5,
+        "F": 1
+      }
+    }
+  },
+  "Young, K": {
+    "avgRating": 4.5,
+    "avgDifficulty": 2,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1112982",
+    "department": "Anthropology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.32,
+      "distribution": {
+        "A": 44,
+        "B": 37,
+        "C": 15,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Nelson, L": {
+    "avgRating": 2.4,
+    "avgDifficulty": 3.4,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 40,
+    "legacyId": "2400071",
+    "department": "Women's Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.62,
+      "distribution": {
+        "A": 18,
+        "B": 31,
+        "C": 32,
+        "D": 13,
+        "F": 7
+      }
+    }
+  },
+  "Phillips, M": {
+    "avgRating": 4,
+    "avgDifficulty": 3.4,
+    "numRatings": 30,
+    "wouldTakeAgainPercent": 77,
+    "legacyId": "2608124",
+    "department": "Political Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.2,
+      "distribution": {
+        "A": 20,
+        "B": 43,
+        "C": 24,
+        "D": 7,
+        "F": 6
+      }
+    }
+  },
+  "Walker, R": {
+    "avgRating": 3.8,
+    "avgDifficulty": 2.6,
+    "numRatings": 28,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "217858",
+    "department": "Geography",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.21,
+      "distribution": {
+        "A": 27,
+        "B": 40,
+        "C": 24,
+        "D": 7,
+        "F": 2
+      }
+    }
+  },
+  "Zhang, B": {
+    "avgRating": 4.2,
+    "avgDifficulty": 2.3,
+    "numRatings": 22,
+    "wouldTakeAgainPercent": 82,
+    "legacyId": "2630233",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.15,
+      "distribution": {
+        "A": 30,
+        "B": 34,
+        "C": 22,
+        "D": 9,
+        "F": 5
+      }
+    }
+  },
+  "Thomas, K": {
+    "avgRating": 2.4,
+    "avgDifficulty": 3.9,
+    "numRatings": 25,
+    "wouldTakeAgainPercent": 32,
+    "legacyId": "1851398",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.52,
+      "distribution": {
+        "A": 14,
+        "B": 31,
+        "C": 36,
+        "D": 13,
+        "F": 6
+      }
+    }
+  },
+  "Scott, M": {
+    "avgRating": 5,
+    "avgDifficulty": 2.2,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2498511",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.51,
+      "distribution": {
+        "A": 41,
+        "B": 38,
+        "C": 17,
+        "D": 4,
+        "F": 0
+      }
+    }
+  },
+  "Singh, J": {
+    "avgRating": 5,
+    "avgDifficulty": 1.9,
+    "numRatings": 7,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3093713",
+    "department": "Languages",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.46,
+      "distribution": {
+        "A": 43,
+        "B": 40,
+        "C": 14,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Martin, M": {
+    "avgRating": 4.5,
+    "avgDifficulty": 4.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1604173",
+    "department": "Philosophy",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.33,
+      "distribution": {
+        "A": 40,
+        "B": 42,
+        "C": 12,
+        "D": 5,
+        "F": 1
+      }
+    }
+  },
+  "Evans, P": {
+    "avgRating": 3.9,
+    "avgDifficulty": 2.6,
+    "numRatings": 9,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "776163",
+    "department": "Sociology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.2,
+      "distribution": {
+        "A": 22,
+        "B": 44,
+        "C": 21,
+        "D": 7,
+        "F": 6
+      }
+    }
+  },
+  "Torres, S": {
+    "avgRating": 2.1,
+    "avgDifficulty": 3.8,
+    "numRatings": 14,
+    "wouldTakeAgainPercent": 21,
+    "legacyId": "2383569",
+    "department": "Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.63,
+      "distribution": {
+        "A": 11,
+        "B": 32,
+        "C": 33,
+        "D": 12,
+        "F": 13
+      }
+    }
+  },
+  "Thompson, C": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.7,
+    "numRatings": 16,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "522880",
+    "department": "Women's Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.48,
+      "distribution": {
+        "A": 41,
+        "B": 41,
+        "C": 17,
+        "D": 2,
+        "F": 0
+      }
+    }
+  },
+  "Garcia, H": {
+    "avgRating": 1,
+    "avgDifficulty": 5,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "2590719",
+    "department": "Molecular/Cellular Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.1,
+      "distribution": {
+        "A": 11,
+        "B": 27,
+        "C": 38,
+        "D": 17,
+        "F": 8
+      }
+    }
+  },
+  "Kim, A": {
+    "avgRating": 3.6,
+    "avgDifficulty": 3.3,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 59,
+    "legacyId": "3009408",
+    "department": "Anthropology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.92,
+      "distribution": {
+        "A": 23,
+        "B": 41,
+        "C": 27,
+        "D": 5,
+        "F": 3
+      }
+    }
+  },
+  "Gonzalez, J": {
+    "avgRating": 2.7,
+    "avgDifficulty": 4.1,
+    "numRatings": 9,
+    "wouldTakeAgainPercent": 33,
+    "legacyId": "3015291",
+    "department": "Data Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.74,
+      "distribution": {
+        "A": 11,
+        "B": 36,
+        "C": 33,
+        "D": 16,
+        "F": 5
+      }
+    }
+  },
+  "Chen, E": {
+    "avgRating": 5,
+    "avgDifficulty": 1.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2993442",
+    "department": "Statistics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.6,
+      "distribution": {
+        "A": 39,
+        "B": 44,
+        "C": 11,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Jackson, H": {
+    "avgRating": 5,
+    "avgDifficulty": 2.6,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2059229",
+    "department": "Spanish",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.58,
+      "distribution": {
+        "A": 44,
+        "B": 32,
+        "C": 15,
+        "D": 6,
+        "F": 2
+      }
+    }
+  },
+  "Wright, D": {
+    "avgRating": 2.7,
+    "avgDifficulty": 3.7,
+    "numRatings": 14,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "653571",
+    "department": "Art History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.79,
+      "distribution": {
+        "A": 17,
+        "B": 28,
+        "C": 31,
+        "D": 13,
+        "F": 10
+      }
+    }
+  },
+  "Allen, R": {
+    "avgRating": 3.5,
+    "avgDifficulty": 2.4,
+    "numRatings": 113,
+    "wouldTakeAgainPercent": 60,
+    "legacyId": "760005",
+    "department": "Earth Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.91,
+      "distribution": {
+        "A": 23,
+        "B": 43,
+        "C": 22,
+        "D": 8,
+        "F": 4
+      }
+    }
+  },
+  "Wang, J": {
+    "avgRating": 4,
+    "avgDifficulty": 2,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 83,
+    "legacyId": "2951338",
+    "department": "Nutrition",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.08,
+      "distribution": {
+        "A": 27,
+        "B": 35,
+        "C": 24,
+        "D": 9,
+        "F": 5
+      }
+    }
+  },
+  "Thompson, T": {
+    "avgRating": 2.8,
+    "avgDifficulty": 4.3,
+    "numRatings": 8,
+    "wouldTakeAgainPercent": 25,
+    "legacyId": "2278167",
+    "department": "Ethnic Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.9,
+      "distribution": {
+        "A": 24,
+        "B": 41,
+        "C": 21,
+        "D": 12,
+        "F": 2
+      }
+    }
+  },
+  "Wilson, M": {
+    "avgRating": 3,
     "avgDifficulty": 2.2,
     "numRatings": 28,
-    "wouldTakeAgainPercent": 93,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "217218",
+    "department": "Sociology",
+    "isReal": true,
     "grades": {
-      "avgGpa": 3.70,
-      "distribution": { "A": 65, "B": 25, "C": 7, "D": 2, "F": 1 }
+      "avgGpa": 2.81,
+      "distribution": {
+        "A": 23,
+        "B": 44,
+        "C": 23,
+        "D": 7,
+        "F": 3
+      }
     }
   },
-  "Jones, D": {
-    "avgRating": 4.3,
-    "avgDifficulty": 2.9,
-    "numRatings": 56,
-    "wouldTakeAgainPercent": 82,
+  "Nelson, P": {
+    "avgRating": 3,
+    "avgDifficulty": 2,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 50,
+    "legacyId": "2893553",
+    "department": "Anthropology",
+    "isReal": true,
     "grades": {
-      "avgGpa": 3.40,
-      "distribution": { "A": 42, "B": 40, "C": 12, "D": 5, "F": 1 }
+      "avgGpa": 2.94,
+      "distribution": {
+        "A": 28,
+        "B": 38,
+        "C": 22,
+        "D": 10,
+        "F": 2
+      }
+    }
+  },
+  "Kim, R": {
+    "avgRating": 4.7,
+    "avgDifficulty": 3.4,
+    "numRatings": 40,
+    "wouldTakeAgainPercent": 95,
+    "legacyId": "2386445",
+    "department": "Philosophy",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.53,
+      "distribution": {
+        "A": 43,
+        "B": 42,
+        "C": 12,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Liu, F": {
+    "avgRating": 3.1,
+    "avgDifficulty": 2.1,
+    "numRatings": 7,
+    "wouldTakeAgainPercent": 43,
+    "legacyId": "2722386",
+    "department": "Public Health",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.88,
+      "distribution": {
+        "A": 29,
+        "B": 39,
+        "C": 20,
+        "D": 8,
+        "F": 4
+      }
+    }
+  },
+  "Chen, L": {
+    "avgRating": 4.4,
+    "avgDifficulty": 3.1,
+    "numRatings": 10,
+    "wouldTakeAgainPercent": 70,
+    "legacyId": "3022624",
+    "department": "Chemistry",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.2,
+      "distribution": {
+        "A": 23,
+        "B": 42,
+        "C": 20,
+        "D": 10,
+        "F": 5
+      }
+    }
+  },
+  "Gonzalez, N": {
+    "avgRating": 3,
+    "avgDifficulty": 3.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "3011940",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.8,
+      "distribution": {
+        "A": 31,
+        "B": 33,
+        "C": 23,
+        "D": 9,
+        "F": 4
+      }
+    }
+  },
+  "Wright, K": {
+    "avgRating": 3.4,
+    "avgDifficulty": 4.3,
+    "numRatings": 7,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1006963",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.91,
+      "distribution": {
+        "A": 31,
+        "B": 38,
+        "C": 19,
+        "D": 9,
+        "F": 2
+      }
+    }
+  },
+  "Patel, N": {
+    "avgRating": 5,
+    "avgDifficulty": 3,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1417022",
+    "department": "Biology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.55,
+      "distribution": {
+        "A": 46,
+        "B": 34,
+        "C": 15,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Singh, A": {
+    "avgRating": 4.7,
+    "avgDifficulty": 2.5,
+    "numRatings": 21,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1981097",
+    "department": "International Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.46,
+      "distribution": {
+        "A": 49,
+        "B": 35,
+        "C": 14,
+        "D": 3,
+        "F": 0
+      }
+    }
+  },
+  "Clark, T": {
+    "avgRating": 3.1,
+    "avgDifficulty": 3.7,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "644344",
+    "department": "Art History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.87,
+      "distribution": {
+        "A": 25,
+        "B": 41,
+        "C": 20,
+        "D": 9,
+        "F": 4
+      }
+    }
+  },
+  "Turner, J": {
+    "avgRating": 2.8,
+    "avgDifficulty": 4,
+    "numRatings": 33,
+    "wouldTakeAgainPercent": 43,
+    "legacyId": "617085",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.76,
+      "distribution": {
+        "A": 18,
+        "B": 28,
+        "C": 32,
+        "D": 13,
+        "F": 8
+      }
+    }
+  },
+  "Moore, M": {
+    "avgRating": 3,
+    "avgDifficulty": 2.8,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1800980",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.73,
+      "distribution": {
+        "A": 18,
+        "B": 34,
+        "C": 29,
+        "D": 11,
+        "F": 7
+      }
+    }
+  },
+  "Evans, D": {
+    "avgRating": 3.8,
+    "avgDifficulty": 3.1,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 58,
+    "legacyId": "3042632",
+    "department": "Architecture",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.18,
+      "distribution": {
+        "A": 31,
+        "B": 34,
+        "C": 26,
+        "D": 5,
+        "F": 5
+      }
+    }
+  },
+  "Zhang, L": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.8,
+    "numRatings": 18,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "579475",
+    "department": "Chinese",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.42,
+      "distribution": {
+        "A": 46,
+        "B": 37,
+        "C": 13,
+        "D": 3,
+        "F": 2
+      }
+    }
+  },
+  "Gonzalez, M": {
+    "avgRating": 3,
+    "avgDifficulty": 2.4,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 40,
+    "legacyId": "2687623",
+    "department": "City & Regional Planning",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.91,
+      "distribution": {
+        "A": 29,
+        "B": 38,
+        "C": 20,
+        "D": 11,
+        "F": 2
+      }
+    }
+  },
+  "Collins, R": {
+    "avgRating": 2.1,
+    "avgDifficulty": 4.1,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "546135",
+    "department": "Anthropology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.5,
+      "distribution": {
+        "A": 18,
+        "B": 28,
+        "C": 30,
+        "D": 13,
+        "F": 12
+      }
+    }
+  },
+  "Johnson, T": {
+    "avgRating": 5,
+    "avgDifficulty": 2.2,
+    "numRatings": 32,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1034035",
+    "department": "Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.63,
+      "distribution": {
+        "A": 49,
+        "B": 31,
+        "C": 15,
+        "D": 3,
+        "F": 1
+      }
+    }
+  },
+  "Miller, J": {
+    "avgRating": 3.4,
+    "avgDifficulty": 3.5,
+    "numRatings": 62,
+    "wouldTakeAgainPercent": 41,
+    "legacyId": "189652",
+    "department": "English",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.09,
+      "distribution": {
+        "A": 26,
+        "B": 41,
+        "C": 21,
+        "D": 8,
+        "F": 5
+      }
+    }
+  },
+  "Goldstein, A": {
+    "avgRating": 4.1,
+    "avgDifficulty": 3.1,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 78,
+    "legacyId": "1174135",
+    "department": "Environ. Sci. Policy & Mgmt.",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.2,
+      "distribution": {
+        "A": 22,
+        "B": 43,
+        "C": 21,
+        "D": 10,
+        "F": 4
+      }
+    }
+  },
+  "Mueller, H": {
+    "avgRating": 2.7,
+    "avgDifficulty": 3.3,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "1349515",
+    "department": "Physics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.84,
+      "distribution": {
+        "A": 27,
+        "B": 41,
+        "C": 21,
+        "D": 8,
+        "F": 3
+      }
+    }
+  },
+  "Nolan, D": {
+    "avgRating": 2,
+    "avgDifficulty": 3.4,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "1126010",
+    "department": "Statistics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.57,
+      "distribution": {
+        "A": 17,
+        "B": 28,
+        "C": 30,
+        "D": 14,
+        "F": 11
+      }
+    }
+  },
+  "Conway, J": {
+    "avgRating": 5,
+    "avgDifficulty": 3.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2507669",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.47,
+      "distribution": {
+        "A": 40,
+        "B": 40,
+        "C": 15,
+        "D": 5,
+        "F": 0
+      }
+    }
+  },
+  "Moore, J": {
+    "avgRating": 4,
+    "avgDifficulty": 3,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "853709",
+    "department": "Physics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.1,
+      "distribution": {
+        "A": 28,
+        "B": 38,
+        "C": 25,
+        "D": 5,
+        "F": 6
+      }
+    }
+  },
+  "Lewis, J": {
+    "avgRating": 5,
+    "avgDifficulty": 3.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2098943",
+    "department": "African-American Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.42,
+      "distribution": {
+        "A": 47,
+        "B": 34,
+        "C": 17,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Zhang, X": {
+    "avgRating": 3,
+    "avgDifficulty": 3.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "945988",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.84,
+      "distribution": {
+        "A": 30,
+        "B": 37,
+        "C": 20,
+        "D": 9,
+        "F": 4
+      }
+    }
+  },
+  "Ding, Z": {
+    "avgRating": 4.8,
+    "avgDifficulty": 4,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "3043104",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.4,
+      "distribution": {
+        "A": 44,
+        "B": 40,
+        "C": 13,
+        "D": 4,
+        "F": 0
+      }
+    }
+  },
+  "Gupta, A": {
+    "avgRating": 3.8,
+    "avgDifficulty": 2.8,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "2307030",
+    "department": "Art History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.2,
+      "distribution": {
+        "A": 26,
+        "B": 38,
+        "C": 22,
+        "D": 12,
+        "F": 2
+      }
+    }
+  },
+  "Francis, M": {
+    "avgRating": 4.8,
+    "avgDifficulty": 3.1,
+    "numRatings": 25,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "473693",
+    "department": "Chemistry",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.53,
+      "distribution": {
+        "A": 42,
+        "B": 39,
+        "C": 13,
+        "D": 5,
+        "F": 1
+      }
+    }
+  },
+  "Johnson, C": {
+    "avgRating": 3.3,
+    "avgDifficulty": 2.7,
+    "numRatings": 12,
+    "wouldTakeAgainPercent": 60,
+    "legacyId": "1780785",
+    "department": "Music",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.01,
+      "distribution": {
+        "A": 21,
+        "B": 40,
+        "C": 26,
+        "D": 6,
+        "F": 6
+      }
+    }
+  },
+  "Johnson, B": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2,
+    "numRatings": 6,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1798136",
+    "department": "History",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.55,
+      "distribution": {
+        "A": 45,
+        "B": 39,
+        "C": 14,
+        "D": 2,
+        "F": 0
+      }
+    }
+  },
+  "Little, L": {
+    "avgRating": 5,
+    "avgDifficulty": 2.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "1296237",
+    "department": "Slavic Languages & Literatures",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.64,
+      "distribution": {
+        "A": 45,
+        "B": 40,
+        "C": 12,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Lee, T": {
+    "avgRating": 2.4,
+    "avgDifficulty": 3.8,
+    "numRatings": 16,
+    "wouldTakeAgainPercent": 31,
+    "legacyId": "2494739",
+    "department": "Business Administration",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.61,
+      "distribution": {
+        "A": 13,
+        "B": 33,
+        "C": 34,
+        "D": 12,
+        "F": 8
+      }
+    }
+  },
+  "Lee, S": {
+    "avgRating": 4.3,
+    "avgDifficulty": 2.5,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 79,
+    "legacyId": "1495775",
+    "department": "Languages",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.4,
+      "distribution": {
+        "A": 41,
+        "B": 39,
+        "C": 16,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Ahmadi, S": {
+    "avgRating": 4.5,
+    "avgDifficulty": 2.3,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "876887",
+    "department": "Near Eastern Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.31,
+      "distribution": {
+        "A": 51,
+        "B": 33,
+        "C": 10,
+        "D": 4,
+        "F": 2
+      }
+    }
+  },
+  "Chen, S": {
+    "avgRating": 4.3,
+    "avgDifficulty": 2.6,
+    "numRatings": 55,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "145040",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.18,
+      "distribution": {
+        "A": 29,
+        "B": 39,
+        "C": 23,
+        "D": 5,
+        "F": 4
+      }
+    }
+  },
+  "Taylor, L": {
+    "avgRating": 4.7,
+    "avgDifficulty": 2.2,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "930380",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.34,
+      "distribution": {
+        "A": 42,
+        "B": 38,
+        "C": 15,
+        "D": 4,
+        "F": 1
+      }
+    }
+  },
+  "Song, D": {
+    "avgRating": 1,
+    "avgDifficulty": 2.7,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 0,
+    "legacyId": "1138165",
+    "department": "Computer Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.09,
+      "distribution": {
+        "A": 14,
+        "B": 27,
+        "C": 38,
+        "D": 12,
+        "F": 9
+      }
+    }
+  },
+  "Fisher, A": {
+    "avgRating": 3.7,
+    "avgDifficulty": 3.1,
+    "numRatings": 21,
+    "wouldTakeAgainPercent": 44,
+    "legacyId": "2102656",
+    "department": "Psychology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.18,
+      "distribution": {
+        "A": 19,
+        "B": 38,
+        "C": 27,
+        "D": 11,
+        "F": 5
+      }
+    }
+  },
+  "Liu, X": {
+    "avgRating": 2.7,
+    "avgDifficulty": 2.5,
+    "numRatings": 85,
+    "wouldTakeAgainPercent": 71,
+    "legacyId": "233427",
+    "department": "Anthropology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.77,
+      "distribution": {
+        "A": 18,
+        "B": 32,
+        "C": 34,
+        "D": 11,
+        "F": 4
+      }
+    }
+  },
+  "Suzuki, M": {
+    "avgRating": 4.1,
+    "avgDifficulty": 3.6,
+    "numRatings": 5,
+    "wouldTakeAgainPercent": 75,
+    "legacyId": "454852",
+    "department": "Physics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.19,
+      "distribution": {
+        "A": 23,
+        "B": 43,
+        "C": 25,
+        "D": 5,
+        "F": 5
+      }
+    }
+  },
+  "Simon, J": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.6,
+    "numRatings": 15,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "424732",
+    "department": "Law",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.28,
+      "distribution": {
+        "A": 25,
+        "B": 41,
+        "C": 23,
+        "D": 8,
+        "F": 2
+      }
+    }
+  },
+  "Schwartz, A": {
+    "avgRating": 3.7,
+    "avgDifficulty": 3.3,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 67,
+    "legacyId": "2608971",
+    "department": "Arts & Humanities",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.94,
+      "distribution": {
+        "A": 23,
+        "B": 41,
+        "C": 22,
+        "D": 10,
+        "F": 5
+      }
+    }
+  },
+  "Huang, L": {
+    "avgRating": 3.6,
+    "avgDifficulty": 2.6,
+    "numRatings": 70,
+    "wouldTakeAgainPercent": 55,
+    "legacyId": "1268890",
+    "department": "Sociology",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.97,
+      "distribution": {
+        "A": 26,
+        "B": 38,
+        "C": 21,
+        "D": 11,
+        "F": 4
+      }
+    }
+  },
+  "Hong, S": {
+    "avgRating": 3,
+    "avgDifficulty": 4,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 33,
+    "legacyId": "2572534",
+    "department": "Writing",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.72,
+      "distribution": {
+        "A": 19,
+        "B": 31,
+        "C": 28,
+        "D": 12,
+        "F": 10
+      }
+    }
+  },
+  "Lin, H": {
+    "avgRating": 4.8,
+    "avgDifficulty": 2.9,
+    "numRatings": 20,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1715352",
+    "department": "Chinese",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.59,
+      "distribution": {
+        "A": 43,
+        "B": 32,
+        "C": 18,
+        "D": 6,
+        "F": 1
+      }
+    }
+  },
+  "Davis, B": {
+    "avgRating": 5,
+    "avgDifficulty": 1.5,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2540874",
+    "department": "Aerospace Studies",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.62,
+      "distribution": {
+        "A": 51,
+        "B": 35,
+        "C": 11,
+        "D": 2,
+        "F": 1
+      }
+    }
+  },
+  "Brown, J": {
+    "avgRating": 5,
+    "avgDifficulty": 2,
+    "numRatings": 3,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "2819173",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.56,
+      "distribution": {
+        "A": 44,
+        "B": 36,
+        "C": 14,
+        "D": 6,
+        "F": 0
+      }
+    }
+  },
+  "Lieu, D": {
+    "avgRating": 2.8,
+    "avgDifficulty": 3.8,
+    "numRatings": 45,
+    "wouldTakeAgainPercent": 14,
+    "legacyId": "161144",
+    "department": "Engineering",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.66,
+      "distribution": {
+        "A": 13,
+        "B": 30,
+        "C": 28,
+        "D": 17,
+        "F": 12
+      }
+    }
+  },
+  "Fox, A": {
+    "avgRating": 1.3,
+    "avgDifficulty": 3.6,
+    "numRatings": 17,
+    "wouldTakeAgainPercent": 6,
+    "legacyId": "1827391",
+    "department": "Computer Science",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 2.16,
+      "distribution": {
+        "A": 17,
+        "B": 33,
+        "C": 29,
+        "D": 16,
+        "F": 5
+      }
+    }
+  },
+  "Kumar, A": {
+    "avgRating": 5,
+    "avgDifficulty": 3,
+    "numRatings": 2,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "3065591",
+    "department": "Mathematics",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.46,
+      "distribution": {
+        "A": 47,
+        "B": 39,
+        "C": 10,
+        "D": 4,
+        "F": 0
+      }
+    }
+  },
+  "Fraser, C": {
+    "avgRating": 3.6,
+    "avgDifficulty": 3.3,
+    "numRatings": 4,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "951718",
+    "department": "Chemistry",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.11,
+      "distribution": {
+        "A": 30,
+        "B": 38,
+        "C": 21,
+        "D": 9,
+        "F": 2
+      }
+    }
+  },
+  "Orland, M": {
+    "avgRating": 4.6,
+    "avgDifficulty": 2.9,
+    "numRatings": 9,
+    "wouldTakeAgainPercent": 100,
+    "legacyId": "1241869",
+    "department": "Music",
+    "isReal": true,
+    "grades": {
+      "avgGpa": 3.25,
+      "distribution": {
+        "A": 20,
+        "B": 37,
+        "C": 27,
+        "D": 11,
+        "F": 5
+      }
     }
   }
 }

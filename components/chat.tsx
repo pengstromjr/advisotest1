@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useMemo } from "react";
 import { useChat } from "@ai-sdk/react";
 import { MessageList } from "./message-list";
 import type { StudentContext } from "@/lib/course-data";
@@ -9,17 +9,35 @@ interface ChatProps {
   studentContext: StudentContext;
 }
 
-const EXAMPLE_QUESTIONS = [
-  "What are the prerequisites for ECN 100A?",
-  "What courses do I still need for a Philosophy degree?",
-  "Which Economics electives are recommended for finance?",
-  "What GE requirements does PHI 001 satisfy?",
-];
+function getExampleQuestions(major: string): string[] {
+  if (!major) {
+    return [
+      "What are the prerequisites for ECN 100A?",
+      "What GE courses have the highest average GPA?",
+      "Which professors have the best ratings?",
+      "What GE requirements does PHI 001 satisfy?",
+    ];
+  }
+
+  // Extract the short major name (e.g. "Computer Science" from "Computer Science, B.S.")
+  const shortMajor = major.replace(/,\s*(B\.\w+|M\.\w+|Ph\.D\.)\.?$/i, "").trim();
+
+  return [
+    `What courses do I still need for ${shortMajor}?`,
+    `Which ${shortMajor} electives have the best grade distributions?`,
+    `Who are the highest-rated professors in ${shortMajor}?`,
+    `Build me a 4-course schedule for next quarter`,
+  ];
+}
 
 export function Chat({ studentContext }: ChatProps) {
   const [input, setInput] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const { messages, sendMessage, status, error } = useChat();
+  const exampleQuestions = useMemo(
+    () => getExampleQuestions(studentContext.major),
+    [studentContext.major]
+  );
 
   const isLoading = status === "submitted" || status === "streaming";
 
@@ -65,7 +83,7 @@ export function Chat({ studentContext }: ChatProps) {
                 </p>
               </div>
               <div className="grid w-full max-w-sm grid-cols-1 gap-1.5 sm:grid-cols-2">
-                {EXAMPLE_QUESTIONS.map((q) => (
+                {exampleQuestions.map((q: string) => (
                   <button
                     key={q}
                     onClick={() => handleExampleClick(q)}

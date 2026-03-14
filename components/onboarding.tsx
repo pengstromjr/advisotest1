@@ -201,8 +201,10 @@ export function Onboarding({
   };
 
   const handleFinish = () => {
+    saveTimeBlocks(BLOCKS_STORAGE_KEY, timeBlocks);
     setClosing(true);
-    setTimeout(onComplete, 400);
+    // Use a slightly longer timeout for the fade-out effect, but it's triggered immediately
+    setTimeout(onComplete, 500);
   };
 
   const handleParseTranscript = async () => {
@@ -740,7 +742,10 @@ export function Onboarding({
                           };
                           setTimeBlocks((prev) => [...prev, newBlock]);
                           setEditingBlockId(newBlock.id);
-                          setEditingLabel(newBlock.label || "");
+                          setEditingLabel(newBlock.label || "Busy");
+                          setEditingStart(newBlock.startTime);
+                          setEditingEnd(newBlock.endTime);
+                          setEditingColor(newBlock.color || BLOCK_COLORS[0].bg);
                           setDragging(null);
                         }}
                         onMouseLeave={(e) => {
@@ -874,17 +879,17 @@ export function Onboarding({
                 type="button"
                 onClick={() => {
                   saveTimeBlocks(BLOCKS_STORAGE_KEY, timeBlocks);
-                  handleFinish();
+                  goTo(5);
                 }}
                 className="rounded-xl bg-[#002855] px-8 py-4 text-sm font-bold text-white shadow-xl transition-all hover:bg-[#001a3a] hover:scale-[1.02] active:scale-[0.98]"
               >
-                Finish
+                Finish Setup
               </button>
               <button
                 type="button"
                 onClick={() => {
                   saveTimeBlocks(BLOCKS_STORAGE_KEY, []);
-                  handleFinish();
+                  goTo(5);
                 }}
                 className="text-xs font-medium text-gray-400 hover:text-gray-600"
               >
@@ -963,12 +968,12 @@ export function Onboarding({
 
               <div className="space-y-4">
                 <div>
-                  <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-1.5 block">Label</label>
+                  <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">Label</label>
                   <input
                     type="text"
                     value={editingLabel}
                     onChange={(e) => setEditingLabel(e.target.value)}
-                    className="w-full rounded-xl border border-gray-100 bg-gray-50 px-4 py-2.5 text-sm outline-none focus:border-[#002855] focus:bg-white transition-all"
+                    className="w-full rounded-xl border border-gray-100 bg-gray-50 px-4 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all placeholder:text-gray-400"
                     placeholder="e.g. Lab, Work, Gym..."
                   />
                   <div className="flex flex-wrap gap-1.5 mt-2">
@@ -991,11 +996,11 @@ export function Onboarding({
 
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-1.5 block">Start Time</label>
+                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">Start Time</label>
                     <select
                       value={editingStart}
                       onChange={(e) => setEditingStart(e.target.value)}
-                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:bg-white transition-all"
+                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all"
                     >
                       {Array.from({ length: (END_HOUR - START_HOUR) * 4 }, (_, i) => {
                         const mins = START_HOUR * 60 + i * 15;
@@ -1005,11 +1010,11 @@ export function Onboarding({
                     </select>
                   </div>
                   <div>
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-1.5 block">End Time</label>
+                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">End Time</label>
                     <select
                       value={editingEnd}
                       onChange={(e) => setEditingEnd(e.target.value)}
-                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm outline-none focus:border-[#002855] focus:bg-white transition-all"
+                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all"
                     >
                       {Array.from({ length: (END_HOUR - START_HOUR) * 4 }, (_, i) => {
                         const mins = START_HOUR * 60 + (i + 1) * 15;
@@ -1021,7 +1026,7 @@ export function Onboarding({
                 </div>
 
                 <div>
-                  <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-2 block text-center">Theme Color</label>
+                  <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-2 block text-center">Theme Color</label>
                   <div className="flex justify-center gap-3">
                     {BLOCK_COLORS.map((c) => (
                       <button
