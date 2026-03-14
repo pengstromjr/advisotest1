@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { StudentContext } from "@/lib/course-data";
-import type { TimeBlock } from "@/lib/time-blocks";
+import type { TimeBlock, Weekday } from "@/lib/time-blocks";
 import { loadTimeBlocks, saveTimeBlocks, snapTo15Minutes, BLOCK_COLORS } from "@/lib/time-blocks";
 import { 
   Cpu, 
@@ -144,6 +144,7 @@ export function Onboarding({
   const [editingStart, setEditingStart] = useState("");
   const [editingEnd, setEditingEnd] = useState("");
   const [editingColor, setEditingColor] = useState("");
+  const [editingDays, setEditingDays] = useState<Weekday[]>([]);
 
   useEffect(() => {
     if (!open) return;
@@ -271,11 +272,20 @@ export function Onboarding({
               startTime: editingStart,
               endTime: editingEnd,
               color: editingColor,
+              days: editingDays.length > 0 ? editingDays : b.days,
             }
           : b
       )
     );
     setEditingBlockId(null);
+  };
+
+  const toggleDay = (day: Weekday) => {
+    setEditingDays(prev => 
+      prev.includes(day) 
+        ? prev.filter(d => d !== day) 
+        : [...prev, day]
+    );
   };
 
   return (
@@ -799,6 +809,7 @@ export function Onboarding({
                                     setEditingStart(b.startTime);
                                     setEditingEnd(b.endTime);
                                     setEditingColor(b.color || BLOCK_COLORS[0].bg);
+                                    setEditingDays(b.days);
                                   }}
                                 >
                                   <div className="flex h-full flex-col justify-between p-1">
@@ -968,24 +979,24 @@ export function Onboarding({
 
               <div className="space-y-4">
                 <div>
-                  <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">Label</label>
+                  <label className="text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 mb-1.5 block px-1">Label</label>
                   <input
                     type="text"
                     value={editingLabel}
                     onChange={(e) => setEditingLabel(e.target.value)}
-                    className="w-full rounded-xl border border-gray-100 bg-gray-50 px-4 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all placeholder:text-gray-400"
+                    className="w-full rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-bold outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/5 transition-all placeholder:text-gray-300"
                     placeholder="e.g. Lab, Work, Gym..."
                   />
-                  <div className="flex flex-wrap gap-1.5 mt-2">
+                  <div className="flex flex-wrap gap-1.5 mt-2.5">
                     {["Busy", "Work", "Lab", "Club", "Gym"].map(preset => (
                       <button
                         key={preset}
                         type="button"
                         onClick={() => setEditingLabel(preset)}
-                        className={`rounded-full px-2.5 py-1 text-[10px] font-medium transition-all ${
+                        className={`rounded-full px-3 py-1 text-[10px] font-bold transition-all ${
                           editingLabel === preset 
-                            ? "bg-[#002855] text-white" 
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                            ? "bg-[#002855] text-white shadow-md shadow-blue-900/20" 
+                            : "bg-gray-100 text-gray-500 dark:bg-slate-800 dark:text-slate-400 hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-slate-700 dark:hover:text-white"
                         }`}
                       >
                         {preset}
@@ -994,13 +1005,13 @@ export function Onboarding({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">Start Time</label>
+                    <label className="text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 mb-1.5 block px-1">Start Time</label>
                     <select
                       value={editingStart}
                       onChange={(e) => setEditingStart(e.target.value)}
-                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all"
+                      className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-bold outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/5 transition-all"
                     >
                       {Array.from({ length: (END_HOUR - START_HOUR) * 4 }, (_, i) => {
                         const mins = START_HOUR * 60 + i * 15;
@@ -1010,11 +1021,11 @@ export function Onboarding({
                     </select>
                   </div>
                   <div>
-                    <label className="text-[10px] font-bold uppercase tracking-widest text-gray-600 mb-1.5 block">End Time</label>
+                    <label className="text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 mb-1.5 block px-1">End Time</label>
                     <select
                       value={editingEnd}
                       onChange={(e) => setEditingEnd(e.target.value)}
-                      className="w-full rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none focus:border-[#002855] focus:bg-white transition-all"
+                      className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-bold outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/5 transition-all"
                     >
                       {Array.from({ length: (END_HOUR - START_HOUR) * 4 }, (_, i) => {
                         const mins = START_HOUR * 60 + (i + 1) * 15;
@@ -1022,6 +1033,29 @@ export function Onboarding({
                         return <option key={t} value={t}>{formatDisplayTime(mins)}</option>;
                       })}
                     </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 mb-2.5 block px-1">Repeat On</label>
+                  <div className="flex justify-between items-center gap-1.5 bg-gray-50 dark:bg-slate-800/50 p-1.5 rounded-2xl border border-gray-100 dark:border-slate-800">
+                    {DAYS.map((day) => {
+                      const isSelected = editingDays.includes(day);
+                      return (
+                        <button
+                          key={day}
+                          type="button"
+                          onClick={() => toggleDay(day)}
+                          className={`flex-1 flex h-10 items-center justify-center rounded-xl text-[11px] font-black transition-all duration-200 ${
+                            isSelected
+                              ? "bg-[#002855] text-white shadow-md shadow-blue-900/10 scale-[1.05] z-10"
+                              : "bg-transparent text-gray-400 dark:text-slate-500 hover:text-gray-600 dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-800 scale-100"
+                          }`}
+                        >
+                          {day.charAt(0)}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
 

@@ -115,6 +115,8 @@ function getMeetingBlocks(section: PlannedSection) {
     top: number;
     height: number;
     label: string;
+    startTime: string;
+    endTime: string;
     isConflict: boolean;
   }[] = [];
 
@@ -130,7 +132,7 @@ function getMeetingBlocks(section: PlannedSection) {
       const totalMinutes = (END_HOUR - START_HOUR) * 60;
 
       const minutesFromStart = clampedStart - START_HOUR * 60;
-      const duration = Math.max(clampedEnd - clampedStart, 40);
+      const duration = Math.max(clampedEnd - clampedStart, 30);
 
       const top = (minutesFromStart / totalMinutes) * 100;
       const height = (duration / totalMinutes) * 100;
@@ -139,6 +141,8 @@ function getMeetingBlocks(section: PlannedSection) {
         day,
         top,
         height,
+        startTime: meeting.startTime,
+        endTime: meeting.endTime,
         label: `${section.courseCode} ${section.section || ""}`.trim(),
         isConflict: false,
       });
@@ -208,6 +212,7 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
   } | null>(null);
   const [editingBlockId, setEditingBlockId] = useState<string | null>(null);
   const [editingLabel, setEditingLabel] = useState("");
+  const [editingDays, setEditingDays] = useState<Weekday[]>([]);
 
   const getMinutesFromPointer = useCallback((clientY: number, rect: DOMRect, snap: boolean = false) => {
     const totalMinutes = (END_HOUR - START_HOUR) * 60;
@@ -406,10 +411,10 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
       <div className="flex min-h-0 flex-1 gap-4 p-4">
         <div className="flex w-80 min-w-[18rem] flex-col rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/50">
           <div className="border-b border-gray-100 dark:border-slate-700 px-4 py-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-slate-500">
+            <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-slate-400">
               Add courses
             </p>
-            <p className="mt-0.5 text-xs text-gray-500">
+            <p className="mt-0.5 text-xs text-gray-500 dark:text-slate-500">
               Search by course code, title, or instructor.
             </p>
           </div>
@@ -505,19 +510,19 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                   <div className="grid grid-cols-3 gap-2 text-center">
                     <div>
                       <p className="text-lg font-bold text-[#002855] dark:text-blue-400">{totalUnits}</p>
-                      <p className="text-[10px] text-gray-600">units</p>
+                      <p className="text-[10px] text-gray-600 dark:text-slate-400">units</p>
                     </div>
                     <div>
                       <p className={`text-lg font-bold ${avgGpa > 0 ? gpaColor : "text-gray-300 dark:text-slate-600"}`}>
                         {avgGpa > 0 ? avgGpa.toFixed(2) : "–"}
                       </p>
-                      <p className="text-[10px] text-gray-600">avg GPA</p>
+                      <p className="text-[10px] text-gray-600 dark:text-slate-400">avg GPA</p>
                     </div>
                     <div>
                       <p className={`text-lg font-bold ${avgRmp > 0 ? rmpColor : "text-gray-300 dark:text-slate-600"}`}>
                         {avgRmp > 0 ? avgRmp.toFixed(1) : "–"}
                       </p>
-                      <p className="text-[10px] text-gray-600">avg RMP</p>
+                      <p className="text-[10px] text-gray-600 dark:text-slate-400">avg RMP</p>
                     </div>
                   </div>
                 </div>
@@ -563,13 +568,13 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                   >
                     <div className="flex items-start justify-between gap-2">
                       <div className="min-w-0">
-                        <p className="font-semibold text-gray-900">
+                        <p className="font-semibold text-gray-900 dark:text-white">
                           {s.courseCode} {s.section ? `(${s.section})` : ""}
                         </p>
-                        <p className="text-[11px] text-gray-500 truncate">
+                        <p className="text-[11px] text-gray-500 dark:text-slate-400 truncate">
                           {s.title}
                         </p>
-                        <p className="mt-1 text-[11px] text-gray-500">
+                        <p className="mt-1 text-[11px] text-gray-500 dark:text-slate-500">
                           {sectionHasMeetingTimes(s) ? (
                             <>
                               {s.meetings?.[0]?.days?.join("")}{" "}
@@ -685,6 +690,7 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                         saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
                         setEditingBlockId(newBlock.id);
                         setEditingLabel(newBlock.label || "");
+                        setEditingDays(newBlock.days);
                       }
                       setDragging(null);
                     }}
@@ -717,9 +723,10 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                           onMouseDown={(e) => e.stopPropagation()}
                           onClick={(e) => {
                             e.stopPropagation();
-                            setEditingBlockId(b.id);
-                            setEditingLabel(b.label || "");
-                          }}
+                                    setEditingBlockId(b.id);
+                                    setEditingLabel(b.label || "");
+                                    setEditingDays(b.days);
+                                  }}
                         >
                           <div className="flex h-full flex-col justify-between p-1.5 overflow-hidden">
                             <span className="truncate text-[10px] font-bold leading-tight">{b.label || "Busy"}</span>
@@ -746,56 +753,87 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                               className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-900"
                               onClick={(e) => e.stopPropagation()}
                             >
-                              <div className="bg-[#002855] px-5 py-4 text-white">
-                                <h3 className="text-sm font-bold">Edit Busy Time</h3>
-                                <p className="text-[10px] text-white/60 font-medium uppercase tracking-wider">Schedule Constraint</p>
-                              </div>
-                              
-                              <div className="p-5 space-y-5">
-                                <div>
-                                  <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">Activity Label</label>
-                                  <input
-                                    value={editingLabel}
-                                    autoFocus
-                                    onChange={(e) => setEditingLabel(e.target.value)}
-                                    onBlur={() => {
-                                      const next = blocked.map(tb => tb.id === b.id ? { ...tb, label: editingLabel || "Busy" } : tb);
-                                      setBlocked(next);
-                                      saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
-                                    }}
-                                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/10 transition-all font-medium placeholder:text-gray-400"
-                                    placeholder="e.g. Work, Gym, Study"
-                                  />
-                                </div>
+                               <div className="bg-[#002855] px-5 py-4 text-white">
+                                 <h3 className="text-sm font-bold">Edit Busy Time</h3>
+                                 <p className="text-[10px] text-white/60 font-medium uppercase tracking-wider">Schedule Constraint</p>
+                               </div>
+                               
+                               <div className="p-5 space-y-5">
+                                 <div>
+                                   <label className="mb-2.5 block text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 px-1">Repeat On</label>
+                                   <div className="flex justify-between items-center gap-1.5 bg-gray-50 dark:bg-slate-800/50 p-1.5 rounded-2xl border border-gray-100 dark:border-slate-800">
+                                     {["Mon", "Tue", "Wed", "Thu", "Fri"].map((day) => {
+                                       const isSelected = editingDays.includes(day as Weekday);
+                                       return (
+                                         <button
+                                           key={day}
+                                           type="button"
+                                           onClick={() => {
+                                             const nextDays = isSelected 
+                                               ? editingDays.filter(d => d !== day) 
+                                               : [...editingDays, day as Weekday];
+                                             setEditingDays(nextDays);
+                                             const next = blocked.map(tb => tb.id === b.id ? { ...tb, days: nextDays } : tb);
+                                             setBlocked(next);
+                                             saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
+                                           }}
+                                           className={`flex-1 flex h-8 items-center justify-center rounded-xl text-[10px] font-black transition-all duration-200 ${
+                                             isSelected
+                                               ? "bg-[#002855] text-white shadow-md shadow-blue-900/10 scale-[1.05] z-10"
+                                               : "bg-transparent text-gray-400 dark:text-slate-500 hover:text-gray-600 dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-800 scale-100"
+                                           }`}
+                                         >
+                                           {day.charAt(0)}
+                                         </button>
+                                       );
+                                     })}
+                                   </div>
+                                 </div>
 
-                                <div className="grid grid-cols-2 gap-4">
-                                  <div>
-                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">Start Time</label>
-                                    <input
-                                      type="time"
-                                      value={b.startTime}
-                                      onChange={(e) => {
-                                        const next = blocked.map(tb => tb.id === b.id ? { ...tb, startTime: e.target.value } : tb);
-                                        setBlocked(next);
-                                        saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
-                                      }}
-                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
-                                    />
-                                  </div>
-                                  <div>
-                                    <label className="mb-1.5 block text-[10px] font-bold uppercase text-gray-600">End Time</label>
-                                    <input
-                                      type="time"
-                                      value={b.endTime}
-                                      onChange={(e) => {
-                                        const next = blocked.map(tb => tb.id === b.id ? { ...tb, endTime: e.target.value } : tb);
-                                        setBlocked(next);
-                                        saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
-                                      }}
-                                      className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-medium"
-                                    />
-                                  </div>
-                                </div>
+                                 <div>
+                                   <label className="mb-1.5 block text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 px-1">Activity Label</label>
+                                   <input
+                                     value={editingLabel}
+                                     autoFocus
+                                     onChange={(e) => setEditingLabel(e.target.value)}
+                                     onBlur={() => {
+                                       const next = blocked.map(tb => tb.id === b.id ? { ...tb, label: editingLabel || "Busy" } : tb);
+                                       setBlocked(next);
+                                       saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
+                                     }}
+                                     className="w-full rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white outline-none focus:border-[#002855] focus:ring-4 focus:ring-[#002855]/10 transition-all font-bold placeholder:text-gray-300"
+                                     placeholder="e.g. Work, Gym, Study"
+                                   />
+                                 </div>
+
+                                 <div className="grid grid-cols-2 gap-4">
+                                   <div>
+                                     <label className="mb-1.5 block text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 px-1">Start Time</label>
+                                     <input
+                                       type="time"
+                                       value={b.startTime}
+                                       onChange={(e) => {
+                                         const next = blocked.map(tb => tb.id === b.id ? { ...tb, startTime: e.target.value } : tb);
+                                         setBlocked(next);
+                                         saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
+                                       }}
+                                       className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-bold"
+                                     />
+                                   </div>
+                                   <div>
+                                     <label className="mb-1.5 block text-[10px] font-black uppercase tracking-widest text-[#002855]/70 dark:text-slate-400 px-1">End Time</label>
+                                     <input
+                                       type="time"
+                                       value={b.endTime}
+                                       onChange={(e) => {
+                                         const next = blocked.map(tb => tb.id === b.id ? { ...tb, endTime: e.target.value } : tb);
+                                         setBlocked(next);
+                                         saveTimeBlocks(BLOCKS_STORAGE_KEY, next);
+                                       }}
+                                       className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 dark:bg-slate-800 dark:border-slate-700 dark:text-white font-bold"
+                                     />
+                                   </div>
+                                 </div>
 
                                 <div>
                                   <label className="mb-2.5 block text-[10px] font-bold uppercase text-gray-600">Block Color</label>
@@ -875,31 +913,36 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                       return blocks.map((b, idx) => (
                         <div
                           key={`${section.crn}-${day}-${idx}`}
-                          className="absolute left-1 right-1 rounded-md border text-[10px] leading-tight dark:border-transparent dark:mix-blend-lighten"
+                          className="absolute left-1 right-1 rounded-md border text-[9px] leading-[1.1] shadow-sm overflow-hidden dark:border-transparent dark:mix-blend-lighten group"
                           style={{
                             top: `${b.top}%`,
                             height: `${b.height}%`,
                             backgroundColor: section.color,
-                             borderColor: hasError
-                               ? "#EF4444"
-                               : hasWarning
-                                 ? "#F59E0B"
-                                 : "#1D4ED8",
+                            borderColor: hasError
+                              ? "#EF4444"
+                              : hasWarning
+                                ? "#F59E0B"
+                                : "#1D4ED8",
                           }}
                         >
-                          <div className="flex h-full flex-col justify-between p-1">
+                          <div className={`flex h-full flex-col overflow-hidden ${b.height < 5 ? 'p-0.5 justify-center' : 'p-1'}`}>
                             <div>
-                              <p className="font-semibold text-gray-900 dark:text-slate-900">
+                              <p className="font-bold text-gray-900 dark:text-slate-950 truncate">
                                 {section.courseCode}
                               </p>
-                              <p className="truncate text-[9px] text-gray-800 dark:text-slate-800/80">
-                                {section.title}
-                              </p>
+                              {b.height > 8 && (
+                                <p className="truncate text-[8px] font-medium text-gray-800/90 dark:text-slate-900/90 max-w-full">
+                                  {section.title}
+                                </p>
+                              )}
                             </div>
-                            <p className="text-[9px] text-gray-700">
-                              {section.meetings[0]?.startTime}–
-                              {section.meetings[0]?.endTime}
-                            </p>
+                            {b.height > 5 && (
+                              <div className="mt-auto pt-0.5">
+                                <p className="text-[8px] font-bold text-gray-700 dark:text-slate-900 whitespace-nowrap">
+                                  {b.startTime}–{b.endTime}
+                                </p>
+                              </div>
+                            )}
                           </div>
                         </div>
                       ));

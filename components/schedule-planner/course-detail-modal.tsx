@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 import type { Section } from "@/lib/course-data";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
+import { getStoredPlannedSections, getStoredBlockedTimes, checkTimeConflict } from "@/lib/schedule-state";
 import {
-  X, MapPin, Clock, Users, BookOpen, Star, BarChart3, TrendingUp, ExternalLink,
+  X, MapPin, Clock, Users, BookOpen, Star, BarChart3, TrendingUp, ExternalLink, Check, AlertCircle,
 } from "lucide-react";
 
 interface GradeData {
@@ -108,11 +109,16 @@ function ProfessorCard({ prof, isHighlighted }: { prof: GradeData["professors"][
 export function CourseDetailModal({ section, onClose }: CourseDetailModalProps) {
   const [grades, setGrades] = useState<GradeData | null>(null);
   const [courseInfo, setCourseInfo] = useState<CourseInfo | null>(null);
+  const [allSections, setAllSections] = useState<Section[]>([]);
   const [loading, setLoading] = useState(true);
+  const [sectionsLoading, setSectionsLoading] = useState(true);
 
   useEffect(() => {
     if (!section) return;
     setLoading(true);
+    setSectionsLoading(true);
+
+    // Fetch grades and course info
     fetch(`/api/grades?course=${encodeURIComponent(section.courseCode)}`)
       .then((r) => r.json())
       .then((data) => {
@@ -121,6 +127,15 @@ export function CourseDetailModal({ section, onClose }: CourseDetailModalProps) 
       })
       .catch(() => {})
       .finally(() => setLoading(false));
+
+    // Fetch all sections for the course
+    fetch(`/api/sections?q=${encodeURIComponent(section.courseCode)}&open=true`)
+      .then((r) => r.json())
+      .then((data) => {
+        setAllSections(data.sections || []);
+      })
+      .catch(() => {})
+      .finally(() => setSectionsLoading(false));
   }, [section?.courseCode]);
 
   useEffect(() => {
@@ -267,9 +282,17 @@ export function CourseDetailModal({ section, onClose }: CourseDetailModalProps) 
                 </div>
               )}
 
-              {/* Schedule Info */}
+              {/* Section Details - Original */}
               <div className="rounded-xl bg-gray-50 dark:bg-slate-800/50 border border-gray-100 dark:border-slate-700 p-4">
-                <h3 className="text-[10px] font-bold text-gray-600 dark:text-slate-400 uppercase tracking-wider mb-3">Section Details</h3>
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-[10px] font-bold text-gray-600 dark:text-slate-400 uppercase tracking-wider">Current Selection</h3>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-400 text-[10px] font-mono">CRN: {section.crn}</span>
+                    <span className="rounded-full bg-blue-500/10 dark:bg-blue-500/20 px-2 py-0.5 text-[9px] font-bold text-blue-600 dark:text-blue-400 border border-blue-500/20 capitalize">
+                      {section.modality}
+                    </span>
+                  </div>
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="flex items-start gap-2">
                     <Clock className="h-3.5 w-3.5 text-gray-400 shrink-0 mt-0.5" />
@@ -293,15 +316,71 @@ export function CourseDetailModal({ section, onClose }: CourseDetailModalProps) 
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-gray-400 text-[11px] font-mono">CRN</span>
-                    <span className="font-bold text-gray-700 dark:text-slate-200">{section.crn}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-500 dark:text-slate-400">
-                    <span className="capitalize">{section.modality}</span>
-                  </div>
                 </div>
               </div>
+
+              {/* Other Available Times */}
+              {!sectionsLoading && allSections.length > 1 && (
+                <div>
+                  <h3 className="text-xs font-bold text-gray-600 dark:text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-1.5">
+                    <Clock className="h-3.5 w-3.5" /> Other Available Times
+                  </h3>
+                  <div className="space-y-2">
+                    {(() => {
+                      const planned = getStoredPlannedSections();
+                      const blocked = getStoredBlockedTimes();
+                      
+                      return allSections
+                        .filter(s => s.crn !== section.crn)
+                        .map((s) => {
+                          const conflict = checkTimeConflict(s, planned, blocked);
+                          const isAlreadyInSchedule = planned.some(p => p.crn === s.crn);
+                          
+                          return (
+                            <div key={s.crn} className="flex items-center justify-between rounded-xl border border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800/50 p-3 transition-colors hover:border-blue-500/30">
+                              <div className="flex flex-col gap-0.5 min-w-0">
+                                <div className="flex items-center gap-2">
+                                  <span className="text-[11px] font-bold text-gray-800 dark:text-slate-200">Section {s.section}</span>
+                                  {conflict && (
+                                    <span className="flex items-center gap-0.5 text-[9px] font-bold text-amber-600 dark:text-amber-500">
+                                      <AlertCircle className="h-2.5 w-2.5" /> Conflict
+                                    </span>
+                                  )}
+                                  {isAlreadyInSchedule && (
+                                    <span className="flex items-center gap-0.5 text-[9px] font-bold text-green-600 dark:text-green-500">
+                                      <Check className="h-2.5 w-2.5" /> In Schedule
+                                    </span>
+                                  )}
+                                </div>
+                                <div className="text-[10px] text-gray-500 dark:text-slate-400 flex items-center gap-2">
+                                  <span>{s.meetings[0]?.days.join("")} {s.meetings[0]?.startTime}–{s.meetings[0]?.endTime}</span>
+                                  <span className="text-gray-300 dark:text-slate-700">|</span>
+                                  <span>CRN {s.crn}</span>
+                                </div>
+                              </div>
+                              <button
+                                disabled={isAlreadyInSchedule}
+                                onClick={() => {
+                                  dispatchScheduleAdd(s);
+                                  onClose();
+                                }}
+                                className={`ml-3 shrink-0 rounded-lg px-3 py-1.5 text-[10px] font-bold transition-all ${
+                                  isAlreadyInSchedule
+                                    ? "bg-gray-100 dark:bg-slate-800 text-gray-400 cursor-default"
+                                    : conflict
+                                      ? "bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-500 border border-amber-200/50 dark:border-amber-500/20 hover:bg-amber-100 dark:hover:bg-amber-900/30"
+                                      : "bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 border border-blue-200/50 dark:border-blue-500/20 hover:bg-blue-100 dark:hover:bg-blue-900/30"
+                                }`}
+                              >
+                                {isAlreadyInSchedule ? "Added" : "Select"}
+                              </button>
+                            </div>
+                          );
+                        });
+                    })()}
+                  </div>
+                </div>
+              )}
 
               {/* RMP Details */}
               {rmpData && (

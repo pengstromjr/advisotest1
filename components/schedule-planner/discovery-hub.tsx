@@ -9,6 +9,7 @@ import { dispatchScheduleAdd } from "@/lib/schedule-store";
 import { Sparkles, Flame, TrendingUp, Gem, Beaker, Globe, GraduationCap } from "lucide-react";
 import { GPABadge } from "./gpa-display";
 import { CourseDetailModal } from "./course-detail-modal";
+import { SectionPickerModal } from "./section-picker-modal";
 
 interface DiscoveryCategory {
   id: string;
@@ -134,6 +135,7 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
   const [displayCount, setDisplayCount] = useState(12);
   const [error, setError] = useState("");
   const [detailSection, setDetailSection] = useState<Section | null>(null);
+  const [pickerData, setPickerData] = useState<{ courseCode: string; courseTitle: string; sections: Section[] } | null>(null);
 
   const activeCategory = categories.find(c => c.id === activeCategoryId) || categories[0];
 
@@ -308,7 +310,11 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
                   className="animate-[fadeSlideIn_0.4s_ease_both]"
                   style={{ animationDelay: `${idx * 50}ms` }}
                 >
-                  <DiscoveryCard section={s} onClick={() => setDetailSection(s)} />
+                  <DiscoveryCard
+                    section={s}
+                    onClick={() => setDetailSection(s)}
+                    onOpenPicker={(code, title, allSections) => setPickerData({ courseCode: code, courseTitle: title, sections: allSections })}
+                  />
                 </div>
               ))}
             </div>
@@ -327,22 +333,62 @@ export function DiscoveryHub({ studentContext }: DiscoveryHubProps) {
         )}
       </div>
 
-      <CourseDetailModal section={detailSection} onClose={() => setDetailSection(null)} />
+      {detailSection && (
+        <CourseDetailModal
+          section={detailSection}
+          onClose={() => setDetailSection(null)}
+        />
+      )}
+
+      {pickerData && (
+        <SectionPickerModal
+          courseCode={pickerData.courseCode}
+          courseTitle={pickerData.courseTitle}
+          sections={pickerData.sections}
+          onClose={() => setPickerData(null)}
+        />
+      )}
     </div>
   );
 }
 
-function DiscoveryCard({ section, onClick }: { section: Section; onClick: () => void }) {
+function DiscoveryCard({ section, onClick, onOpenPicker }: { section: Section; onClick: () => void; onOpenPicker: (code: string, title: string, sections: Section[]) => void }) {
+  const [isAdded, setIsAdded] = useState(false);
+  const [isChecking, setIsChecking] = useState(false);
   const rmp = section.rmp?.[Object.keys(section.rmp)[0]];
-  
-  const handleAdd = () => {
-    dispatchScheduleAdd(section);
+
+  const handleAdd = async () => {
+    if (isChecking || isAdded) return;
+    setIsChecking(true);
+    
+    try {
+      const res = await fetch(`/api/sections?q=${encodeURIComponent(section.courseCode)}&open=true`);
+      const data = await res.json();
+      const allSections = data.sections || [];
+      
+      if (allSections.length > 1) {
+        // Multiple options — open dedicated picker
+        onOpenPicker(section.courseCode, section.title, allSections);
+      } else {
+        // Only one option — add immediately
+        dispatchScheduleAdd(section);
+        setIsAdded(true);
+        setTimeout(() => setIsAdded(false), 2000);
+      }
+    } catch (e) {
+      // Fallback: add current section if fetch fails
+      dispatchScheduleAdd(section);
+      setIsAdded(true);
+      setTimeout(() => setIsAdded(false), 2000);
+    } finally {
+      setIsChecking(false);
+    }
   };
 
   return (
     <div
       onClick={onClick}
-      className="group relative flex cursor-pointer flex-col rounded-2xl border border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800 p-4 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:border-[#002855] dark:hover:border-blue-500/50"
+      className={`group relative flex cursor-pointer flex-col rounded-2xl border border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800 p-4 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:border-[#002855] dark:hover:border-blue-500/50 ${isAdded ? 'scale-[1.02] border-green-500/50 dark:border-green-500/50 shadow-green-500/10' : ''}`}
     >
       <div className="flex items-start justify-between">
         <div>
@@ -408,9 +454,23 @@ function DiscoveryCard({ section, onClick }: { section: Section; onClick: () => 
 
       <button 
         onClick={(e) => { e.stopPropagation(); handleAdd(); }}
-        className="mt-4 w-full rounded-xl bg-gray-50 dark:bg-slate-700/50 py-2.5 text-[11px] font-bold text-[#002855] dark:text-blue-300 transition-all hover:bg-[#002855] dark:hover:bg-blue-600 hover:text-white"
+        disabled={isAdded}
+        className={`mt-4 w-full rounded-xl py-2.5 text-[11px] font-bold transition-all flex items-center justify-center gap-1.5 ${
+          isAdded 
+            ? "bg-green-500 text-white" 
+            : "bg-gray-50 dark:bg-slate-700/50 text-[#002855] dark:text-blue-300 hover:bg-[#002855] dark:hover:bg-blue-600 hover:text-white"
+        }`}
       >
-        Add to Schedule +
+        {isAdded ? (
+          <>
+            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+            Added to Schedule!
+          </>
+        ) : (
+          "Add to Schedule +"
+        )}
       </button>
     </div>
   );

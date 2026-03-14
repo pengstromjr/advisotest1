@@ -48,6 +48,14 @@ body {
   background-color: #475569;
 }
 
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 @keyframes fadeSlideIn {
   from {
     opacity: 0;
