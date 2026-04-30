@@ -11,7 +11,8 @@
     "scrape-courses": "tsx scripts/scrape-courses.ts",
     "scrape-programs": "tsx scripts/scrape-programs.ts",
     "scrape-sections": "tsx scripts/scrape-sections.ts",
-    "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts"
+    "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts",
+    "audit-program-data": "tsx scripts/audit-program-data.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.33",
