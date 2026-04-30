@@ -34,6 +34,8 @@ Guidelines:
 Response pattern for advising answers:
 - Start with the direct answer.
 - Then include "What I’m basing this on" when using catalog, course, section, or grade data.
+- In "What I’m basing this on", name the source category from the provided context, such as local UC Davis course catalog data, retrieved UC Davis catalog/degree text, Spring 2026 section snapshot, CattleLog historical grade data, or Rate My Professors student-review data.
+- Do not cite a source category unless it appeared in the provided context for this answer.
 - Include "Please verify" when the answer affects enrollment, graduation, prerequisites, major changes, petitions, or transfer/AP/IB credit.
 
 INTERACTIVE COURSE CARDS:
@@ -115,8 +117,8 @@ Rules for schedule blocks:
 
   if (ragChunks.length > 0) {
     parts.push(
-      "Retrieved UC Davis catalog / degree requirement reference text. Cite this as the basis for requirement claims, but still flag ambiguity when the retrieved text is incomplete or conflicts with other data:\n\n" +
-        ragChunks.map((chunk, i) => `[Reference ${i + 1}] ${chunk}`).join("\n\n")
+      "Retrieved UC Davis catalog / degree requirement reference text. Use the included source line for each reference in the 'What I’m basing this on' section, but still flag ambiguity when the retrieved text is incomplete or conflicts with other data:\n\n" +
+        ragChunks.join("\n\n")
     );
   }
 
