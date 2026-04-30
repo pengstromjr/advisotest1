@@ -570,10 +570,17 @@ export function Onboarding({
                 </h2>
               </div>
             </div>
-            <p className="mb-6 px-10 max-w-lg text-sm text-gray-500">
+            <p className="mb-3 px-10 max-w-lg text-sm text-gray-500">
               We&apos;ll scan it for course codes (e.g., ECN 001, MAT 021B) and
               mark them as completed in your degree audit.
             </p>
+            <div className="mx-10 mb-4 max-w-lg rounded-xl border border-blue-100 bg-blue-50 px-3 py-2 text-[11px] leading-relaxed text-blue-900">
+              <span className="font-semibold">Privacy note:</span> paste only what
+              you&apos;re comfortable sharing. Adviso sends this text to its parser to
+              extract course codes, then keeps only the detected course list in
+              your profile. Avoid including SSNs, student IDs, addresses, or other
+              unnecessary personal details.
+            </div>
 
             <div className="flex min-h-0 flex-1 flex-col gap-4 px-10 max-w-xl pr-2">
               <textarea
