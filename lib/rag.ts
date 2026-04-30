@@ -1,4 +1,16 @@
 import { findSimilar } from "./embeddings";
+import type { EmbeddingEntry } from "./course-data";
+
+function formatReferenceSource(metadata: EmbeddingEntry["metadata"]): string {
+  const type = metadata.type.replaceAll("_", " ");
+  const source = metadata.source;
+
+  if (source.endsWith(".json")) {
+    return `UC Davis catalog snapshot (${type}; data source: ${source})`;
+  }
+
+  return `Retrieved academic reference (${type}; data source: ${source})`;
+}
 
 export async function retrieve(
   query: string,
@@ -8,5 +20,8 @@ export async function retrieve(
 
   return results
     .filter((r) => r.score > 0.3)
-    .map((r) => r.entry.text);
+    .map((r, i) => {
+      const source = formatReferenceSource(r.entry.metadata);
+      return `[Reference ${i + 1} source: ${source}]\n${r.entry.text}`;
+    });
 }

@@ -24,7 +24,7 @@ function formatCourseForPrompt(course: Course): string {
         ? course.prerequisites.join(", ")
         : "None";
   const ge = course.ge_areas.length > 0 ? course.ge_areas.join(", ") : "None";
-  return `${course.code} — ${course.title} (${course.units} units). Prerequisites: ${prereqs}. GE: ${ge}. ${course.description}`;
+  return `${course.code} — ${course.title} (${course.units} units). Prerequisites: ${prereqs}. GE: ${ge}. ${course.description} Source: local UC Davis course catalog dataset (courses.json / courses-full.json).`;
 }
 
 // --- Cached data for chat route ---
@@ -71,7 +71,7 @@ function formatSectionForPrompt(section: Section): string {
   const instructors =
     section.instructors.length > 0 ? section.instructors.join(", ") : "TBA";
 
-  let base = `${section.courseCode} ${section.section || ""} — CRN ${section.crn} with ${instructors}. Meetings: ${meetings}. ${seats}.`;
+  let base = `${section.courseCode} ${section.section || ""} — CRN ${section.crn} with ${instructors}. Meetings: ${meetings}. ${seats}. Source: Spring 2026 UC Davis section snapshot (data/sections/spring-2026.json).`;
 
   // Enrich with RMP data
   const rmp = loadRmpData();
@@ -84,7 +84,9 @@ function formatSectionForPrompt(section: Section): string {
     if (r.wouldTakeAgainPercent != null && r.wouldTakeAgainPercent >= 0)
       parts.push(`Would Take Again: ${r.wouldTakeAgainPercent}%`);
     if (r.numRatings) parts.push(`${r.numRatings} reviews`);
-    if (parts.length > 0) base += ` RMP: ${parts.join(", ")}.`;
+    if (parts.length > 0) {
+      base += ` RMP student-review data: ${parts.join(", ")}. Source: Rate My Professors snapshot (data/rmp.json).`;
+    }
   }
 
   // Enrich with CattleLog grade data
@@ -232,7 +234,7 @@ export async function POST(req: Request) {
     for (const c of courses) {
       const g = grades[c.code];
       if (g && g.overall_gpa != null) {
-        let snippet = `Grade data for ${c.code}: Overall GPA ${g.overall_gpa}, ${g.overall_enrolled} students.`;
+        let snippet = `Grade data for ${c.code}: Overall GPA ${g.overall_gpa}, ${g.overall_enrolled} students. Source: CattleLog historical grade distribution snapshot (data/grades.json).`;
         if (g.overall_grades) {
           const dist = g.overall_grades;
           const total = Object.values(dist).reduce((a: number, b: any) => a + (b as number), 0);
