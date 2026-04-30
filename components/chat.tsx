@@ -9,6 +9,16 @@ interface ChatProps {
   studentContext: StudentContext;
 }
 
+function getFirstPlanPrompt(studentContext: StudentContext): string {
+  const major = studentContext.major || "my major";
+  const year = studentContext.year || "my year";
+  const completed = studentContext.completedCourses?.length
+    ? ` I have completed: ${studentContext.completedCourses.join(", ")}.`
+    : " I have not added completed courses yet.";
+
+  return `Build my first academic plan for ${major} as a ${year}.${completed} Start with the next 3-5 actions I should take, flag any assumptions or missing information, and suggest a reasonable next-quarter course direction.`;
+}
+
 function getExampleQuestions(major: string): string[] {
   if (!major) {
     return [
@@ -37,6 +47,10 @@ export function Chat({ studentContext }: ChatProps) {
   const exampleQuestions = useMemo(
     () => getExampleQuestions(studentContext.major),
     [studentContext.major]
+  );
+  const firstPlanPrompt = useMemo(
+    () => getFirstPlanPrompt(studentContext),
+    [studentContext]
   );
 
   const isLoading = status === "submitted" || status === "streaming";
@@ -82,6 +96,23 @@ export function Chat({ studentContext }: ChatProps) {
                   Davis journey.
                 </p>
               </div>
+              <button
+                type="button"
+                onClick={() => handleSend(firstPlanPrompt)}
+                disabled={isLoading}
+                className="w-full max-w-sm rounded-2xl border border-[#002855]/15 bg-white px-4 py-3 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:border-[#002855]/35 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-60 dark:border-blue-400/20 dark:bg-slate-800 dark:hover:border-blue-300/40"
+              >
+                <div className="text-xs font-semibold uppercase tracking-wide text-[#DAAA00]">
+                  Best first step
+                </div>
+                <div className="mt-1 text-sm font-semibold text-gray-900 dark:text-white">
+                  Build my first academic plan
+                </div>
+                <div className="mt-1 text-xs leading-relaxed text-gray-500 dark:text-slate-400">
+                  Use my major, year, and completed courses to identify next
+                  actions, assumptions, and a reasonable next-quarter direction.
+                </div>
+              </button>
               <div className="grid w-full max-w-sm grid-cols-1 gap-1.5 sm:grid-cols-2">
                 {exampleQuestions.map((q: string) => (
                   <button

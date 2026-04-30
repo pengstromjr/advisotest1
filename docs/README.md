@@ -10,6 +10,7 @@ Use Slack for fast capture and discussion. Use these Markdown docs for organized
 - [Decisions](./decisions.md)
 - [Meeting Notes](./meeting-notes.md)
 - [User Research](./user-research.md)
+- [Onboarding to First Useful Plan](./onboarding-first-plan.md)
 - [Compliance Notes](./compliance-notes.md)
 - [Operating Notes](./operating-notes.md)
 
