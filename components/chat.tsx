@@ -81,6 +81,11 @@ export function Chat({ studentContext }: ChatProps) {
                   academic planning. I&apos;m here to help you navigate your UC
                   Davis journey.
                 </p>
+                <p className="mt-2 max-w-sm rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800 dark:border-amber-500/30 dark:bg-amber-500/10 dark:text-amber-200">
+                  Adviso is not an official UC Davis advisor. Verify enrollment,
+                  prerequisite, and graduation decisions with UC Davis advising
+                  or official catalog sources.
+                </p>
               </div>
               <div className="grid w-full max-w-sm grid-cols-1 gap-1.5 sm:grid-cols-2">
                 {exampleQuestions.map((q: string) => (
