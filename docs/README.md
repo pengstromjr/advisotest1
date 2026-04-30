@@ -7,9 +7,12 @@ Use Slack for fast capture and discussion. Use these Markdown docs for organized
 ## Index
 
 - [Product Roadmap](./product-roadmap.md)
+- [Fall 2026 Pilot Plan](./pilot-plan-fall-2026.md)
+- [Brand Positioning](./brand-positioning.md)
 - [Decisions](./decisions.md)
 - [Meeting Notes](./meeting-notes.md)
 - [User Research](./user-research.md)
+- [April 2026 User Research Synthesis](./user-research-synthesis-2026-04.md)
 - [Compliance Notes](./compliance-notes.md)
 - [Operating Notes](./operating-notes.md)
 
