@@ -11,6 +11,7 @@ Use Slack for fast capture and discussion. Use these Markdown docs for organized
 - [Meeting Notes](./meeting-notes.md)
 - [User Research](./user-research.md)
 - [Compliance Notes](./compliance-notes.md)
+- [Transcript Privacy Behavior](./transcript-privacy.md)
 - [Operating Notes](./operating-notes.md)
 
 ## Working Rule
