@@ -7,6 +7,7 @@ Use Slack for fast capture and discussion. Use these Markdown docs for organized
 ## Index
 
 - [Product Roadmap](./product-roadmap.md)
+- [Product UX Audit](./product-ux-audit.md)
 - [Decisions](./decisions.md)
 - [Meeting Notes](./meeting-notes.md)
 - [User Research](./user-research.md)
