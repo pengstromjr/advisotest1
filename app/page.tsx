@@ -5,7 +5,6 @@ import { ProfileEditModal } from "@/components/profile-edit-modal";
 import { WorkspaceTabs } from "@/components/workspace-tabs";
 import { AIPanel, MinimizedAIPanel } from "@/components/ai-panel";
 import { Onboarding } from "@/components/onboarding";
-import { DEFAULT_ADVISING_GOAL_ID } from "@/lib/advising-goals";
 import { useTheme } from "@/lib/theme-context";
 import type { StudentContext } from "@/lib/course-data";
 
@@ -15,11 +14,9 @@ const AI_PANEL_MINIMIZED_KEY = "adviso-ai-panel-minimized";
 export default function Home() {
   const { theme, toggle } = useTheme();
   const [studentContext, setStudentContext] = useState<StudentContext>({
-    advisingGoal: DEFAULT_ADVISING_GOAL_ID,
-    advisingGoals: [DEFAULT_ADVISING_GOAL_ID],
-    academicPlan: "single-major",
-    major: "Philosophy, Bachelor of Arts",
-    targetMajor: "Economics, Bachelor of Arts",
+    advisingGoals: [],
+    major: "",
+    targetMajor: "",
     year: "",
     completedCourses: [],
   });

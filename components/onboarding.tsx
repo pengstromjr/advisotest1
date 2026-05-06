@@ -3,13 +3,11 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import {
   ADVISING_GOALS,
-  DEFAULT_ADVISING_GOAL_ID,
   type AdvisingGoalId,
   getAdvisingGoal,
 } from "@/lib/advising-goals";
 import {
   ACADEMIC_PLANS,
-  getAcademicPlan,
   planIncludesMinor,
   planIncludesSecondMajor,
   type AcademicPlanId,
@@ -62,9 +60,6 @@ const POPULAR_MAJORS = [
   { label: "Political Science", value: "Political Science, Bachelor of Arts" },
   { label: "Biochemistry & MB", value: "Biochemistry & Molecular Biology, Bachelor of Science" }
 ];
-
-const DEFAULT_CURRENT_MAJOR = "Philosophy, Bachelor of Arts";
-const DEFAULT_TARGET_MAJOR = "Economics, Bachelor of Arts";
 
 const GOAL_ICON_MAP: Record<AdvisingGoalId, LucideIcon> = {
   "stay-on-track": ClipboardCheck,
@@ -169,8 +164,8 @@ export function Onboarding({
   const [step, setStep] = useState<Step>(0);
   const [dir, setDir] = useState<"forward" | "back">("forward");
   const [programs, setPrograms] = useState<string[]>([]);
-  const [majorInput, setMajorInput] = useState(context.major);
-  const [targetMajorInput, setTargetMajorInput] = useState(context.targetMajor || DEFAULT_TARGET_MAJOR);
+  const [majorInput, setMajorInput] = useState(context.major || "");
+  const [targetMajorInput, setTargetMajorInput] = useState(context.targetMajor || "");
   const [secondaryMajorInput, setSecondaryMajorInput] = useState(context.secondaryMajor || "");
   const [minorInput, setMinorInput] = useState("");
   const [closing, setClosing] = useState(false);
@@ -197,15 +192,17 @@ export function Onboarding({
   const [editingEnd, setEditingEnd] = useState("");
   const [editingColor, setEditingColor] = useState("");
   const [editingDays, setEditingDays] = useState<Weekday[]>([]);
-  const selectedGoalIds = context.advisingGoals ?? (
-    context.advisingGoal ? [context.advisingGoal] : [DEFAULT_ADVISING_GOAL_ID]
-  );
+  const selectedGoalIds = context.advisingGoals?.length
+    ? context.advisingGoals
+    : context.advisingGoal
+      ? [context.advisingGoal]
+      : [];
   const selectedGoalId = selectedGoalIds[0];
   const selectedGoal = getAdvisingGoal(selectedGoalId);
   const isChangeMajorGoal = selectedGoalIds.includes("change-major");
-  const academicPlan = getAcademicPlan(context);
-  const showSecondMajor = planIncludesSecondMajor(academicPlan);
-  const showMinors = planIncludesMinor(academicPlan);
+  const academicPlan = context.academicPlan;
+  const showSecondMajor = academicPlan ? planIncludesSecondMajor(academicPlan) : false;
+  const showMinors = academicPlan ? planIncludesMinor(academicPlan) : false;
   const hasCompanionProgram = isChangeMajorGoal || showSecondMajor || showMinors;
 
   useEffect(() => {
@@ -217,8 +214,8 @@ export function Onboarding({
     initializedOpenRef.current = true;
     setStep(0);
     setDir("forward");
-    setMajorInput(context.major || (isChangeMajorGoal ? DEFAULT_CURRENT_MAJOR : ""));
-    setTargetMajorInput(context.targetMajor || DEFAULT_TARGET_MAJOR);
+    setMajorInput(context.major || "");
+    setTargetMajorInput(context.targetMajor || "");
     setSecondaryMajorInput(context.secondaryMajor || "");
     setMinorInput("");
     setClosing(false);
@@ -298,12 +295,6 @@ export function Onboarding({
       advisingGoal: primaryGoal,
       advisingGoals: nextGoalIds,
     };
-    if (nextGoalIds.includes("change-major")) {
-      nextContext.major = nextContext.major || DEFAULT_CURRENT_MAJOR;
-      nextContext.targetMajor = nextContext.targetMajor || DEFAULT_TARGET_MAJOR;
-      setMajorInput(nextContext.major);
-      setTargetMajorInput(nextContext.targetMajor);
-    }
     if (
       nextGoalIds.includes("minor-double-major") &&
       (!nextContext.academicPlan || nextContext.academicPlan === "single-major")
@@ -314,15 +305,7 @@ export function Onboarding({
   };
 
   const handleGoalContinue = () => {
-    if (selectedGoalIds.length === 0) {
-      onChange({
-        ...context,
-        advisingGoal: DEFAULT_ADVISING_GOAL_ID,
-        advisingGoals: [DEFAULT_ADVISING_GOAL_ID],
-        major: context.major || DEFAULT_CURRENT_MAJOR,
-        targetMajor: context.targetMajor || DEFAULT_TARGET_MAJOR,
-      });
-    }
+    if (selectedGoalIds.length === 0) return;
     goTo(2);
   };
 
@@ -381,6 +364,7 @@ export function Onboarding({
     const secondMajor = secondaryMajorInput.trim();
     if (
       !currentMajor ||
+      !academicPlan ||
       (isChangeMajorGoal && !goalMajor) ||
       (showSecondMajor && !secondMajor) ||
       (showMinors && !(context.minors || []).length)
@@ -1242,7 +1226,8 @@ export function Onboarding({
               <button
                 type="button"
                 onClick={handleContinueMajor}
-                disabled={
+              disabled={
+                  !academicPlan ||
                   !majorInput.trim() ||
                   (isChangeMajorGoal && !targetMajorInput.trim()) ||
                   (showSecondMajor && !secondaryMajorInput.trim()) ||
