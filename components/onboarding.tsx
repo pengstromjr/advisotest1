@@ -14,13 +14,7 @@ import {
 } from "@/lib/academic-plan";
 import type { StudentContext } from "@/lib/course-data";
 import { CURRENT_BLOCKS_STORAGE_KEY } from "@/lib/current-term";
-import {
-  AI_CHAT_NOTICE,
-  APP_NOTICE,
-  DATA_ENTRY_NOTICE,
-  SCHEDULE_GENERATION_NOTICE,
-  UNOFFICIAL_DEGREE_NOTICE,
-} from "@/lib/legal-notices";
+import { DATA_ENTRY_NOTICE } from "@/lib/legal-notices";
 import type { TimeBlock, Weekday } from "@/lib/time-blocks";
 import { loadTimeBlocks, saveTimeBlocks, snapTo15Minutes, BLOCK_COLORS } from "@/lib/time-blocks";
 import { 
@@ -1742,28 +1736,16 @@ export function Onboarding({
               </div>
             </div>
 
-            <div className="min-h-0 flex-1 rounded-2xl border border-gray-100 bg-gray-50/70 p-4">
-              <div className="max-h-[310px] space-y-3 overflow-y-auto pr-2 text-sm leading-6 text-gray-600">
-                <p>{APP_NOTICE}</p>
-                <p>{AI_CHAT_NOTICE}</p>
-                <p>{SCHEDULE_GENERATION_NOTICE}</p>
-                <p>{UNOFFICIAL_DEGREE_NOTICE}</p>
-                <p>
-                  Adviso is an informational planning tool only. It does not replace official academic advising, degree audits, enrollment decisions, or graduation clearance.
-                </p>
-                <p>
-                  Review the full{" "}
-                  <a
-                    href="/terms"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-semibold text-[#002855] underline underline-offset-2"
-                  >
-                    Terms of Service and AI academic disclosures
-                  </a>
-                  .
-                </p>
-              </div>
+            <p className="mb-3 text-sm leading-6 text-gray-500">
+              Scroll through the full Terms of Service and AI academic disclosures below.
+            </p>
+
+            <div className="min-h-0 flex-1 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-inner">
+              <iframe
+                src="/terms"
+                title="Adviso Terms of Service and AI Academic Disclosures"
+                className="h-full w-full border-0"
+              />
             </div>
 
             <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-2xl border border-[#002855]/10 bg-white p-4 shadow-sm">
