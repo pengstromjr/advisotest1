@@ -1,0 +1,135 @@
+{
+  "course_id": "NRS429D",
+  "course_title": "Collaborative Practice D",
+  "overall_grades": {
+    "A+": 106,
+    "A": 193,
+    "A-": 3,
+    "B+": 3,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.99,
+  "overall_enrolled": 305,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eileen Partridge",
+      "professor_slug": "eileen-partridge",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 72,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 123
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 72,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 123
+        }
+      }
+    },
+    {
+      "professor_name": "Shana Ruggenberg",
+      "professor_slug": "shana-ruggenberg",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 61,
+            "A": 121,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 182
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 87,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 138
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 34,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 44
+        }
+      }
+    }
+  ]
+}

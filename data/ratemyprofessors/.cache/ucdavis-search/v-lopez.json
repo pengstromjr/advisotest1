@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.7,
+    "department": "Mathematics",
+    "firstName": "Gyivan",
+    "id": "VGVhY2hlci0zMTI1MTcx",
+    "lastName": "Lopez-Campos",
+    "legacyId": 3125171,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.6,
+    "department": "Native Studies",
+    "firstName": "Chimaway",
+    "id": "VGVhY2hlci0yOTY4NjY5",
+    "lastName": "Lopez",
+    "legacyId": 2968669,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.2,
+    "department": "Art & Art History",
+    "firstName": "John",
+    "id": "VGVhY2hlci0yNTAyMjA0",
+    "lastName": "Lopez",
+    "legacyId": 2502204,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.9,
+    "department": "Chicano Studies",
+    "firstName": "Alan",
+    "id": "VGVhY2hlci0zMDQ0ODYw",
+    "lastName": "Pelaez Lopez",
+    "legacyId": 3044860,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.1,
+    "department": "Art & Art History",
+    "firstName": "J.",
+    "id": "VGVhY2hlci0yNDI2Mjky",
+    "lastName": "Lopez",
+    "legacyId": 2426292,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.9412
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.8,
+    "department": "Languages",
+    "firstName": "Norma",
+    "id": "VGVhY2hlci0xNjcwNzg=",
+    "lastName": "Lopez-Burton",
+    "legacyId": 167078,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.4,
+    "department": "Spanish",
+    "firstName": "Roberto",
+    "id": "VGVhY2hlci0xMTkxOTk0",
+    "lastName": "Lopez",
+    "legacyId": 1191994,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chicano Studies",
+    "firstName": "Andres",
+    "id": "VGVhY2hlci0yOTk0MzY4",
+    "lastName": "Palaez Lopez",
+    "legacyId": 2994368,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

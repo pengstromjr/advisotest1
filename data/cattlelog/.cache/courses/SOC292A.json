@@ -1,0 +1,70 @@
+{
+  "course_id": "SOC292A",
+  "course_title": "Field Research",
+  "overall_grades": {
+    "A+": 0,
+    "A": 3,
+    "A-": 4,
+    "B+": 2,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.71,
+  "overall_enrolled": 9,
+  "available_quarters": [
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ming Cheng Lo",
+      "professor_slug": "ming-cheng-lo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 4,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 9
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 4,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 9
+        }
+      }
+    }
+  ]
+}

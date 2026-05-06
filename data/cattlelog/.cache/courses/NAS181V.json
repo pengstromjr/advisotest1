@@ -1,0 +1,98 @@
+{
+  "course_id": "NAS181V",
+  "course_title": "Native American Poetry ",
+  "overall_grades": {
+    "A+": 15,
+    "A": 18,
+    "A-": 11,
+    "B+": 5,
+    "B": 4,
+    "B-": 2,
+    "C+": 2,
+    "C": 4,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 1,
+    "F": 4,
+    "P*": 4,
+    "NP*": 3
+  },
+  "overall_gpa": 3.33,
+  "overall_enrolled": 73,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ines Hernandez Avila",
+      "professor_slug": "ines-hernandez-avila",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 18,
+            "A-": 11,
+            "B+": 5,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 4,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 4,
+            "P*": 4,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 73
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 8,
+            "A-": 5,
+            "B+": 3,
+            "B": 3,
+            "B-": 2,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 34
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 10,
+            "A-": 6,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 3.1,
+    "department": "Molecular/Cellular Biology",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci0yODYwMjkx",
+    "lastName": "Cash",
+    "legacyId": 2860291,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.6316
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Biological Sciences",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci0yODU3NjMw",
+    "lastName": "Cash",
+    "legacyId": 2857630,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

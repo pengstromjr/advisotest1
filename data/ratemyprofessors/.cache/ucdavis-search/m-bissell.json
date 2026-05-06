@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.5,
+    "department": "Statistics",
+    "firstName": "Michael",
+    "id": "VGVhY2hlci0yMzU1MTUz",
+    "lastName": "Bissell",
+    "legacyId": 2355153,
+    "numRatings": 102,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.2745
+  }
+]

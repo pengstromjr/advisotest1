@@ -1,5 +1,5 @@
 {
-  "name": "uc-davis-ai-advisor",
+  "name": "adviso",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,15 @@
     "start": "next start",
     "lint": "eslint",
     "generate-embeddings": "tsx --env-file .env.local scripts/generate-embeddings.ts",
+    "scrape:ucdavis:fall2026": "tsx scripts/scraping/scrape-ucdavis-fall-2026.ts",
+    "scrape:rmp:ucdavis": "tsx scripts/scraping/scrape-ratemyprofessors-ucdavis.ts",
+    "scrape:cattlelog:fall2026": "node scripts/scrape-grades.mjs",
+    "scrape:ucdavis:test": "tsx scripts/scraping/scrape-ucdavis-fall-2026.ts --dry-run",
     "scrape-courses": "tsx scripts/scrape-courses.ts",
     "scrape-programs": "tsx scripts/scrape-programs.ts",
+    "scrape-programs:official": "tsx scripts/scrape-programs-official.ts",
+    "check:majors-format": "tsx scripts/check-major-formatting.ts",
+    "verify:majors": "tsx scripts/verify-major-catalog.ts",
     "scrape-sections": "tsx scripts/scrape-sections.ts",
     "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts"
   },
@@ -32,6 +39,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "playwright": "^1.59.1",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

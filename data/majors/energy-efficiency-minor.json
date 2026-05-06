@@ -8,9 +8,10 @@
     {
       "heading": "Required Courses:",
       "courses": [
-        "ENG 188"
+        "ENG 188",
+        "ECI 125"
       ],
-      "units": "8",
+      "units": "",
       "notes": []
     },
     {
@@ -21,7 +22,7 @@
         "DES 136B",
         "DES 137A"
       ],
-      "units": "12",
+      "units": "",
       "notes": []
     }
   ],
@@ -29,5 +30,7 @@
   "advising_notes": [
     "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. For more information, see Undergraduate Advising."
   ],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.536Z"
 }

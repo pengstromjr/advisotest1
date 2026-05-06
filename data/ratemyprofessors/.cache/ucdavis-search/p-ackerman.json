@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Health Science",
+    "firstName": "Kupiri",
+    "id": "VGVhY2hlci0xODYxMjUx",
+    "lastName": "Ackerman-Barger",
+    "legacyId": 1861251,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

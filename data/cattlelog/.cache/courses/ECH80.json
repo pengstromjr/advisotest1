@@ -1,0 +1,133 @@
+{
+  "course_id": "ECH80",
+  "course_title": "Chemical Engineering Profession",
+  "overall_grades": {
+    "A+": 224,
+    "A": 406,
+    "A-": 127,
+    "B+": 89,
+    "B": 70,
+    "B-": 14,
+    "C+": 12,
+    "C": 16,
+    "C-": 12,
+    "D+": 3,
+    "D": 3,
+    "D-": 6,
+    "F": 31,
+    "P*": 3
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 1016,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jason White",
+      "professor_slug": "jason-white",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 224,
+            "A": 406,
+            "A-": 127,
+            "B+": 89,
+            "B": 70,
+            "B-": 14,
+            "C+": 12,
+            "C": 16,
+            "C-": 12,
+            "D+": 3,
+            "D": 3,
+            "D-": 6,
+            "F": 31,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 1016
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 138,
+            "A-": 21,
+            "B+": 24,
+            "B": 6,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 279
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 99,
+            "A-": 57,
+            "B+": 33,
+            "B": 33,
+            "B-": 6,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 276
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 117,
+            "A-": 36,
+            "B+": 27,
+            "B": 21,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 15
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 342
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 52,
+            "A-": 13,
+            "B+": 5,
+            "B": 10,
+            "B-": 5,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 119
+        }
+      }
+    }
+  ]
+}

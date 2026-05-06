@@ -1,0 +1,110 @@
+{
+  "course_id": "FOR221L",
+  "course_title": "Forensic Science Analytical Instrumentation",
+  "overall_grades": {
+    "A+": 74,
+    "A": 2,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 4,
+  "overall_enrolled": 76,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Craig Triebold",
+      "professor_slug": "craig-triebold",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 74,
+            "A": 2,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 76
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 33
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 33
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 2,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 10
+        }
+      }
+    }
+  ]
+}

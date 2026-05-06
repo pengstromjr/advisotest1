@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci0yMzM1Njg3",
+    "lastName": "Gremer",
+    "legacyId": 2335687,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.8095
+  }
+]

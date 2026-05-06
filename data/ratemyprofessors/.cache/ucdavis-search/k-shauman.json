@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.4,
+    "department": "Sociology",
+    "firstName": "Kim",
+    "id": "VGVhY2hlci0zMTE5MjI=",
+    "lastName": "Shauman",
+    "legacyId": 311922,
+    "numRatings": 87,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20.6897
+  }
+]

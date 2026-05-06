@@ -1,0 +1,70 @@
+{
+  "course_id": "PHY260",
+  "course_title": "Introduction to General Relativity",
+  "overall_grades": {
+    "A+": 12,
+    "A": 6,
+    "A-": 3,
+    "B+": 15,
+    "B": 0,
+    "B-": 6,
+    "C+": 0,
+    "C": 6,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.35,
+  "overall_enrolled": 48,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Veronika Hubeny",
+      "professor_slug": "veronika-hubeny",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 6,
+            "A-": 3,
+            "B+": 15,
+            "B": 0,
+            "B-": 6,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 48
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 6,
+            "A-": 3,
+            "B+": 15,
+            "B": 0,
+            "B-": 6,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

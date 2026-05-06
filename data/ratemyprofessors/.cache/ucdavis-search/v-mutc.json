@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Russian",
+    "firstName": "Valeria",
+    "id": "VGVhY2hlci0zMDY0Mzcy",
+    "lastName": "Mutc",
+    "legacyId": 3064372,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Russian",
+    "firstName": "Mutc",
+    "id": "VGVhY2hlci0zMDgwODI4",
+    "lastName": "Valeria",
+    "legacyId": 3080828,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

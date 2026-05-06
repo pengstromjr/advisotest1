@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.8,
+    "department": "Biological Sciences",
+    "firstName": "Mona",
+    "id": "VGVhY2hlci0yMTA5NDYw",
+    "lastName": "Monfared",
+    "legacyId": 2109460,
+    "numRatings": 158,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.281
+  }
+]

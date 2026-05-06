@@ -1,0 +1,274 @@
+{
+  "course_id": "CMN1",
+  "course_title": "Introduction to Public Speaking",
+  "overall_grades": {
+    "A+": 628,
+    "A": 2480,
+    "A-": 1973,
+    "B+": 1361,
+    "B": 1052,
+    "B-": 423,
+    "C+": 265,
+    "C": 223,
+    "C-": 87,
+    "D+": 29,
+    "D": 34,
+    "D-": 11,
+    "F": 110,
+    "P*": 259,
+    "NP*": 64
+  },
+  "overall_gpa": 3.44,
+  "overall_enrolled": 8999,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alisa Shubb",
+      "professor_slug": "alisa-shubb",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 628,
+            "A": 2480,
+            "A-": 1973,
+            "B+": 1361,
+            "B": 1052,
+            "B-": 423,
+            "C+": 265,
+            "C": 223,
+            "C-": 87,
+            "D+": 29,
+            "D": 34,
+            "D-": 11,
+            "F": 110,
+            "P*": 259,
+            "NP*": 64
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 8999
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 312,
+            "A-": 252,
+            "B+": 171,
+            "B": 171,
+            "B-": 39,
+            "C+": 33,
+            "C": 24,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 1179
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 354,
+            "A-": 270,
+            "B+": 183,
+            "B": 129,
+            "B-": 60,
+            "C+": 36,
+            "C": 36,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 21,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 1164
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 85,
+            "A-": 108,
+            "B+": 66,
+            "B": 48,
+            "B-": 28,
+            "C+": 15,
+            "C": 4,
+            "C-": 6,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 5,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 386
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 114,
+            "A": 258,
+            "A-": 201,
+            "B+": 129,
+            "B": 105,
+            "B-": 57,
+            "C+": 42,
+            "C": 30,
+            "C-": 33,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 54,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 1050
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 384,
+            "A-": 258,
+            "B+": 177,
+            "B": 117,
+            "B-": 42,
+            "C+": 21,
+            "C": 33,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 12,
+            "P*": 27,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 1170
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 105,
+            "A-": 117,
+            "B+": 61,
+            "B": 39,
+            "B-": 7,
+            "C+": 13,
+            "C": 9,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 4,
+            "P*": 7,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 387
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 93,
+            "A": 240,
+            "A-": 234,
+            "B+": 159,
+            "B": 144,
+            "B-": 48,
+            "C+": 36,
+            "C": 36,
+            "C-": 6,
+            "D+": 3,
+            "D": 9,
+            "D-": 0,
+            "F": 18,
+            "P*": 18,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 1056
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 363,
+            "A-": 234,
+            "B+": 192,
+            "B": 135,
+            "B-": 66,
+            "C+": 42,
+            "C": 24,
+            "C-": 12,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 1170
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 100,
+            "A-": 95,
+            "B+": 85,
+            "B": 47,
+            "B-": 13,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 3,
+            "P*": 7,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 387
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 279,
+            "A-": 204,
+            "B+": 138,
+            "B": 117,
+            "B-": 63,
+            "C+": 12,
+            "C": 21,
+            "C-": 6,
+            "D+": 9,
+            "D": 9,
+            "D-": 6,
+            "F": 15,
+            "P*": 69,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 1050
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "course_id": "ECI296",
+  "course_title": "Topics in Water & Environmental Engineering",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 24,
+    "NP": 9
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 33,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Holly Oldroyd",
+      "professor_slug": "holly-oldroyd",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 0
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 0
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 0
+        }
+      }
+    },
+    {
+      "professor_name": "Jay Lund",
+      "professor_slug": "jay-lund",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 6,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 9
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 6,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 9
+        }
+      }
+    },
+    {
+      "professor_name": "Jonathan Herman",
+      "professor_slug": "jonathan-herman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 0
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 0
+        }
+      }
+    },
+    {
+      "professor_name": "Thomas Young",
+      "professor_slug": "thomas-young",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 3,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 9
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 3,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 9
+        }
+      }
+    },
+    {
+      "professor_name": "Veronica Morales",
+      "professor_slug": "veronica-morales",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 15
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 15
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 9
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 9
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 6
+        }
+      }
+    }
+  ]
+}

@@ -10,7 +10,7 @@
       "courses": [
         "MAT/BIS 107",
         "MAT 108",
-        "MAT 108V",
+        "or MAT 108V",
         "MAT 111",
         "MAT 114",
         "MAT 115A",
@@ -48,13 +48,15 @@
         "MAT 185A",
         "MAT 185B"
       ],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "Choose five upper division courses (20 units total) in Mathematics:"
+        "Choose five upper division courses (20 units total) in Mathematics: 1"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.600Z"
 }

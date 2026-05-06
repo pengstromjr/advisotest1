@@ -6,21 +6,48 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Required Courses",
+      "heading": "Choose one algorithms course:",
       "courses": [
-        "ECS 122A",
-        "ECS 124"
+        "ECS 117",
+        "ECS 122A"
       ],
       "units": "4",
       "notes": []
     },
     {
-      "heading": "Electives",
+      "heading": "Choose one bioinformatics course:",
       "courses": [
+        "ECS 124",
+        "ECS 129"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Choose a minimum of 12 units:",
+      "courses": [
+        "BIM 117",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 122",
+        "BIT 150",
+        "ECS 111",
+        "or ECS 171",
+        "ECS 116",
+        "or ECS 165A",
+        "ECS 117",
+        "ECS 122A",
+        "ECS 124",
+        "ECS 129",
+        "ECS 130",
+        "ECS 132",
+        "ECS 140A",
+        "ECS 145",
+        "ECS 158",
+        "ECS 160",
+        "ECS 170",
+        "ECS 177",
         "EVE 100",
         "EVE 101",
         "EVE 102",
@@ -29,35 +56,18 @@
         "MCB 121",
         "MCB 124",
         "MCB 182",
-        "BIT 150",
-        "ECS 130",
-        "ECS 132",
-        "ECS 140A",
-        "ECS 145",
-        "ECS 158",
-        "ECS 160",
-        "ECS 165A",
-        "ECS 170",
-        "ECS 171",
-        "ECS 177",
         "STA 130A",
         "STA 141A",
         "STA 141B",
-        "STA 141C",
-        "BIT 150",
-        "BIM 117",
-        "ECS 129"
+        "STA 141C"
       ],
-      "units": "12-15",
-      "notes": [
-        "Choose 12-15 units:",
-        "Choose at least one biology course; 4 units minimum:",
-        "Choose at least one computational or statistics course:",
-        "Choose at least one computational biology and bioinformatics course:"
-      ]
+      "units": "12",
+      "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.286Z"
 }

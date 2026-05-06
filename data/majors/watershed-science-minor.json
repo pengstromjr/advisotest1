@@ -9,11 +9,11 @@
       "heading": "Hydrology",
       "courses": [
         "HYD 124",
-        "HYD 151",
+        "or HYD 151",
         "HYD 141",
-        "ESM 100",
+        "or ESM 100",
         "HYD/EBS 144",
-        "SSC 107"
+        "or SSC 107"
       ],
       "units": "4",
       "notes": []
@@ -22,22 +22,39 @@
       "heading": "Soils Science",
       "courses": [
         "SSC 100",
-        "SSC 118",
+        "or SSC 118"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Soils Science",
+      "courses": [
         "ESM/PLS 144",
         "ESP 151",
-        "HYD 143",
+        "HYD 143"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soils Science",
+      "courses": [
         "ESM 121",
         "ESP 161",
         "HYD 150"
       ],
-      "units": "4-5",
+      "units": "3-4",
       "notes": [
-        "Choose one:",
         "Choose one:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.516Z"
 }

@@ -4,20 +4,29 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import type { RequirementSection, StudentContext, Section } from "@/lib/course-data";
 import { SmartGeModal } from "./schedule-planner/smart-ge-modal";
 import { CourseDetailModal } from "./schedule-planner/course-detail-modal";
+import {
+  cleanRequirementPathLabel,
+  pathKindWithArticle,
+  RequirementPathSelector,
+  requirementPathKind,
+} from "./requirement-path-selector";
 import { Sparkles, Info } from "lucide-react";
+import {
+  getRequirementItemProgress,
+  getRequirementSectionProgress,
+  getDefaultRequirementPath,
+  getRequirementPathGroups,
+  filterRequirementSectionsByPath,
+  normalizeRequirementSections,
+  type NormalizedRequirementItem,
+  type NormalizedRequirementSection,
+} from "@/lib/requirement-normalizer";
 
 interface DegreeAuditInlineProps {
   programName: string;
   studentContext: StudentContext;
   onToggleCourse: (code: string) => void;
   onProgress?: (completed: number, total: number) => void;
-}
-
-interface DisplaySection {
-  heading: string;
-  notes: string[];
-  units: string;
-  courses: string[];
 }
 
 interface GEArea {
@@ -51,34 +60,6 @@ interface ProgramData {
 
 type Tab = "major" | "ge";
 
-function deduplicateSections(
-  sections: RequirementSection[]
-): DisplaySection[] {
-  const seen = new Set<string>();
-  const result: DisplaySection[] = [];
-
-  for (const section of sections) {
-    const uniqueCourses: string[] = [];
-    for (const code of section.courses) {
-      const normalized = code.trim();
-      if (normalized && !seen.has(normalized)) {
-        seen.add(normalized);
-        uniqueCourses.push(normalized);
-      }
-    }
-    if (uniqueCourses.length > 0 || section.notes.length > 0) {
-      result.push({
-        heading: section.heading,
-        notes: section.notes,
-        units: section.units,
-        courses: uniqueCourses,
-      });
-    }
-  }
-
-  return result.filter((s) => s.courses.length > 0);
-}
-
 function parseUnits(u: number | string): number {
   if (typeof u === "number") return u;
   const match = String(u).match(/(\d+)/);
@@ -91,22 +72,34 @@ function SectionBlock({
   onToggle,
   defaultOpen,
   onCourseInfo,
+  requirementPaths,
+  selectedRequirementPath,
+  onSelectRequirementPath,
 }: {
-  section: DisplaySection;
+  section: NormalizedRequirementSection;
   completedCourses: string[];
   onToggle: (code: string) => void;
   defaultOpen: boolean;
   onCourseInfo: (code: string) => void;
+  requirementPaths: string[];
+  selectedRequirementPath: string;
+  onSelectRequirementPath: (path: string) => void;
 }) {
   const [open, setOpen] = useState(defaultOpen);
-  const completed = section.courses.filter((c) =>
-    completedCourses.includes(c)
-  ).length;
-  const total = section.courses.length;
+  const { completed, total } = getRequirementSectionProgress(section, completedCourses);
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
   const headingTrimmed = section.heading.trim();
   const isChooseOne = /^choose\s+one\b/i.test(headingTrimmed);
   const displayHeading = isChooseOne ? "" : headingTrimmed;
+  const informational = section.items.length === 0;
+  const shouldShowPathJumps =
+    informational &&
+    requirementPaths.length > 1 &&
+    /\b(?:depth|upper division|emphasis)\b/i.test(
+      `${section.heading} ${section.notes.join(" ")}`
+    );
+  const alternatePaths = requirementPaths.filter((path) => path !== selectedRequirementPath);
+  const pathKind = requirementPathKind(requirementPaths);
 
   return (
     <div className="border-b border-gray-100 dark:border-slate-800 last:border-b-0">
@@ -133,22 +126,24 @@ function SectionBlock({
               {displayHeading || "Course options"}
             </span>
             <span className="ml-2 shrink-0 text-xs text-gray-500 dark:text-slate-400">
-              {completed}/{total}
+              {informational ? (section.units ? `${section.units} units` : "Catalog note") : `${completed}/${total}`}
             </span>
           </div>
-          <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200 dark:bg-slate-700">
-            <div
-              className="h-1.5 rounded-full bg-[#002855] dark:bg-blue-600 transition-all duration-300"
-              style={{ width: `${pct}%` }}
-            />
-          </div>
+          {!informational && (
+            <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200 dark:bg-slate-700">
+              <div
+                className="h-1.5 rounded-full bg-[#002855] dark:bg-blue-600 transition-all duration-300"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+          )}
         </div>
       </button>
 
       {open && (
         <div className="px-4 pb-3">
-          {section.notes.length > 0 && (
-            <div className="mb-2 flex flex-wrap gap-x-3 gap-y-1">
+          {section.notes.length > 0 && !shouldShowPathJumps && (
+            <div className={informational ? "mb-2 space-y-1.5" : "mb-2 flex flex-wrap gap-x-3 gap-y-1"}>
               {section.notes
                 .filter(note => {
                   const n = note.toLowerCase();
@@ -162,66 +157,204 @@ function SectionBlock({
                   const isPrefixed = /^Specialization:/i.test(note);
                   
                   return (
-                    <p key={i} className={`text-[10px] italic ${isPrefixed ? "text-blue-500/70 dark:text-blue-400/60 font-medium" : "text-gray-500 dark:text-slate-400"}`}>
-                      {isPrefixed ? "• " : ""}{cleanNote}
+                    <p key={i} className={
+                      informational
+                        ? "max-w-4xl text-sm leading-6 text-gray-600 dark:text-slate-300"
+                        : `text-[10px] italic ${isPrefixed ? "text-blue-500/70 dark:text-blue-400/60 font-medium" : "text-gray-500 dark:text-slate-400"}`
+                    }>
+                      {isPrefixed || informational ? "• " : ""}{cleanNote}
                     </p>
                   );
                 })}
             </div>
           )}
-          <div className="flex flex-wrap gap-2 pt-2">
-            {section.courses.map((code) => {
-              const checked = completedCourses.includes(code);
-              return (
-                <div key={code} className="flex items-center gap-0.5">
+          {shouldShowPathJumps && alternatePaths.length > 0 && (
+            <div className="mt-3 rounded-2xl border border-[#002855]/10 bg-blue-50/50 p-3 dark:border-blue-500/20 dark:bg-blue-950/20">
+              <p className="text-xs font-medium text-gray-600 dark:text-slate-300">
+                Choose {pathKindWithArticle(pathKind)} to see the specific depth checklist.
+              </p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {alternatePaths.map((path) => (
                   <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onToggle(code);
-                    }}
-                    className={`flex items-center gap-1.5 rounded-l-full pl-3 pr-1.5 py-1.5 text-sm font-medium transition-all ${
-                      checked
-                        ? "bg-[#002855] dark:bg-blue-600 text-white shadow-md shadow-[#002855]/10"
-                        : "bg-gray-100 dark:bg-slate-900/50 text-gray-700 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-slate-200 border border-transparent dark:border-slate-800/80 shadow-sm"
-                    }`}
+                    key={path}
+                    type="button"
+                    onClick={() => onSelectRequirementPath(path)}
+                    className="rounded-full bg-[#002855] px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:bg-blue-600"
                   >
-                    {checked && (
-                      <svg
-                        className="h-3.5 w-3.5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={3}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                    )}
-                    {code}
+                    {cleanRequirementPathLabel(path)}
                   </button>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onCourseInfo(code);
-                    }}
-                    title="View course details"
-                    className={`flex items-center justify-center rounded-r-full pr-2.5 pl-1 py-1.5 transition-all ${
-                      checked
-                        ? "bg-[#002855] dark:bg-blue-600 text-blue-200 hover:text-white"
-                        : "bg-gray-100 dark:bg-slate-900/50 text-gray-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 border border-transparent dark:border-slate-800/80 shadow-sm"
-                    }`}
-                  >
-                    <Info className="h-3 w-3" />
-                  </button>
-                </div>
-              );
-            })}
-          </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {section.items.length > 0 && (
+            <div className="flex flex-wrap gap-2 pt-2">
+              {section.items.map((item) => (
+                <RequirementItemBlock
+                  key={item.id}
+                  item={item}
+                  completedCourses={completedCourses}
+                  onToggle={onToggle}
+                  onCourseInfo={onCourseInfo}
+                />
+              ))}
+            </div>
+          )}
         </div>
       )}
+    </div>
+  );
+}
+
+function RequirementItemBlock({
+  item,
+  completedCourses,
+  onToggle,
+  onCourseInfo,
+}: {
+  item: NormalizedRequirementItem;
+  completedCourses: string[];
+  onToggle: (code: string) => void;
+  onCourseInfo: (code: string) => void;
+}) {
+  const done = getRequirementItemProgress(item, completedCourses);
+  const complete = done >= item.requiredCount;
+  const label =
+    item.kind === "series"
+      ? item.label
+      : item.kind === "choice"
+        ? item.requiredCount === 1
+          ? "Choose one"
+          : `Choose ${item.requiredCount}`
+        : "";
+
+  if (item.kind === "course") {
+    const code = item.courses[0];
+    const checked = completedCourses.includes(code);
+    return (
+      <CoursePill
+        code={code}
+        checked={checked}
+        onToggle={onToggle}
+        onCourseInfo={onCourseInfo}
+      />
+    );
+  }
+
+  return (
+    <div
+      className={`flex max-w-full flex-col gap-2 rounded-2xl border px-2.5 py-2 ${
+        complete
+          ? "border-[#002855]/20 bg-[#002855]/5 dark:border-blue-500/30 dark:bg-blue-500/10"
+          : "border-gray-200 bg-gray-50/60 dark:border-slate-800 dark:bg-slate-900/40"
+      }`}
+    >
+      <div className="flex items-center justify-between gap-3">
+        <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500 dark:text-slate-400">
+          {label}
+        </span>
+        <span className={`text-[10px] font-semibold ${complete ? "text-green-600 dark:text-green-400" : "text-gray-400"}`}>
+          {done}/{item.requiredCount}
+        </span>
+      </div>
+
+      {item.kind === "series" && item.options?.length ? (
+        <div className="space-y-1.5">
+          {item.options.map((option, index) => {
+            const optionDone = option.filter((code) => completedCourses.includes(code)).length;
+            const optionLabel = item.label.toLowerCase().includes("path") ? "Option" : "Series";
+            return (
+              <div key={`${item.id}-option-${index}`} className="rounded-xl bg-white/70 p-1.5 dark:bg-slate-950/30">
+                <div className="mb-1 text-[10px] font-semibold text-gray-400">
+                  {optionLabel} {index + 1} · {optionDone}/{option.length}
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  {option.map((code) => (
+                    <CoursePill
+                      key={code}
+                      code={code}
+                      checked={completedCourses.includes(code)}
+                      onToggle={onToggle}
+                      onCourseInfo={onCourseInfo}
+                    />
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-1.5">
+          {item.courses.map((code) => (
+            <CoursePill
+              key={code}
+              code={code}
+              checked={completedCourses.includes(code)}
+              onToggle={onToggle}
+              onCourseInfo={onCourseInfo}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CoursePill({
+  code,
+  checked,
+  onToggle,
+  onCourseInfo,
+}: {
+  code: string;
+  checked: boolean;
+  onToggle: (code: string) => void;
+  onCourseInfo: (code: string) => void;
+}) {
+  return (
+    <div className="flex items-center gap-0.5">
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          onToggle(code);
+        }}
+        className={`flex items-center gap-1.5 rounded-l-full pl-3 pr-1.5 py-1.5 text-sm font-medium transition-all ${
+          checked
+            ? "bg-[#002855] dark:bg-blue-600 text-white shadow-md shadow-[#002855]/10"
+            : "bg-gray-100 dark:bg-slate-900/50 text-gray-700 dark:text-slate-400 hover:bg-gray-200 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-slate-200 border border-transparent dark:border-slate-800/80 shadow-sm"
+        }`}
+      >
+        {checked && (
+          <svg
+            className="h-3.5 w-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={3}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+        )}
+        {code}
+      </button>
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          onCourseInfo(code);
+        }}
+        title="View course details"
+        className={`flex items-center justify-center rounded-r-full pr-2.5 pl-1 py-1.5 transition-all ${
+          checked
+            ? "bg-[#002855] dark:bg-blue-600 text-blue-200 hover:text-white"
+            : "bg-gray-100 dark:bg-slate-900/50 text-gray-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 border border-transparent dark:border-slate-800/80 shadow-sm"
+        }`}
+      >
+        <Info className="h-3 w-3" />
+      </button>
     </div>
   );
 }
@@ -424,7 +557,8 @@ export function DegreeAuditInline({
 }: DegreeAuditInlineProps) {
   const completedCourses = studentContext.completedCourses;
   const [matchingArea, setMatchingArea] = useState<GEArea | null>(null);
-  const [sections, setSections] = useState<DisplaySection[]>([]);
+  const [requirements, setRequirements] = useState<RequirementSection[]>([]);
+  const [selectedRequirementPath, setSelectedRequirementPath] = useState("");
   const [geCategories, setGeCategories] = useState<GECategory[]>([]);
   const [courseGeMap, setCourseGeMap] = useState<
     Record<string, GECourseInfo>
@@ -453,7 +587,7 @@ export function DegreeAuditInline({
       );
       if (!res.ok) throw new Error("Failed to load");
       const data: ProgramData = await res.json();
-      setSections(deduplicateSections(data.requirements));
+      setRequirements(data.requirements);
       setGeCategories(data.ge.categories);
       setCourseGeMap(data.ge.courseInfoMap);
     } catch {
@@ -469,11 +603,31 @@ export function DegreeAuditInline({
     }
   }, [programName, fetchProgram]);
 
-  const allCourses = sections.flatMap((s) => s.courses);
-  const totalCompleted = allCourses.filter((c) =>
-    completedCourses.includes(c)
-  ).length;
-  const totalCourses = allCourses.length;
+  const requirementPaths = useMemo(() => getRequirementPathGroups(requirements), [requirements]);
+
+  useEffect(() => {
+    setSelectedRequirementPath((current) => {
+      if (requirementPaths.length <= 1) return "";
+      if (current && requirementPaths.includes(current)) return current;
+      return getDefaultRequirementPath(requirements);
+    });
+  }, [requirements, requirementPaths]);
+
+  const visibleRequirements = useMemo(
+    () => filterRequirementSectionsByPath(requirements, selectedRequirementPath),
+    [requirements, selectedRequirementPath]
+  );
+
+  const sections = useMemo(
+    () => normalizeRequirementSections(visibleRequirements),
+    [visibleRequirements]
+  );
+
+  const sectionProgress = sections.map((section) =>
+    getRequirementSectionProgress(section, completedCourses)
+  );
+  const totalCompleted = sectionProgress.reduce((sum, progress) => sum + progress.completed, 0);
+  const totalCourses = sectionProgress.reduce((sum, progress) => sum + progress.total, 0);
   const overallPct =
     totalCourses > 0
       ? Math.round((totalCompleted / totalCourses) * 100)
@@ -526,6 +680,14 @@ export function DegreeAuditInline({
         </div>
       )}
 
+      {!loading && !error && activeTab === "major" && requirementPaths.length > 1 && (
+        <RequirementPathSelector
+          paths={requirementPaths}
+          selectedPath={selectedRequirementPath}
+          onSelectPath={setSelectedRequirementPath}
+        />
+      )}
+
       {/* Body */}
       <div>
         {loading && (
@@ -558,6 +720,9 @@ export function DegreeAuditInline({
                   onToggle={onToggleCourse}
                   defaultOpen={i < 3}
                   onCourseInfo={openCourseDetail}
+                  requirementPaths={requirementPaths}
+                  selectedRequirementPath={selectedRequirementPath}
+                  onSelectRequirementPath={setSelectedRequirementPath}
                 />
               ))
             )}

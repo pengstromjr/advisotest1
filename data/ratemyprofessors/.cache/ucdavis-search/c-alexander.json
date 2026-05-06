@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.6,
+    "department": "Sociology",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0zMDczMzUy",
+    "lastName": "Freitas",
+    "legacyId": 3073352,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.6,
+    "department": "Statistics",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0xMjg2MDc3",
+    "lastName": "Aue",
+    "legacyId": 1286077,
+    "numRatings": 64,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.5161
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0yOTM5Nzgx",
+    "lastName": "Simmons",
+    "legacyId": 2939781,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.4,
+    "department": "Mathematics",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0yNzUxNjMw",
+    "lastName": "McDonough",
+    "legacyId": 2751630,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 32
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4,
+    "department": "Education",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0yNTMwMTYw",
+    "lastName": "Guia",
+    "legacyId": 2530160,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Plant & Soil Science",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0yMzM4ODc4",
+    "lastName": "Wilson",
+    "legacyId": 2338878,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.2,
+    "department": "Statistics",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0xODY3NzA2",
+    "lastName": "Petersen",
+    "legacyId": 1867706,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.1,
+    "department": "Physics",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0xMTgzMzQ4",
+    "lastName": "Saw",
+    "legacyId": 1183348,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.9,
+    "department": "Mathematics",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci04MTIwMjQ=",
+    "lastName": "Barchechat",
+    "legacyId": 812024,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0xNjg1NjEw",
+    "lastName": "Porter",
+    "legacyId": 1685610,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

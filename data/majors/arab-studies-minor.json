@@ -11,11 +11,12 @@
         "MSA 100",
         "MSA 180",
         "HIS 193A",
-        "HIS 193B",
+        "or HIS 193B",
+        "or HIS 193BV",
         "MSA 181C",
-        "MSA 182C"
+        "or MSA 182C"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -23,14 +24,14 @@
       "courses": [
         "MSA 111A",
         "MSA 121A/COM 175",
-        "ARB 140/COM 172/MSA 121C",
+        "or ARB 140/COM 172/MSA 121C",
         "MSA 122A",
         "MSA 150/GSW 185",
         "MSA 181C",
         "MSA 182C",
         "ANT 142",
         "ARB 001",
-        "ARB 001A",
+        "or ARB 001A",
         "ARB 002",
         "ARB 003",
         "ARB 021",
@@ -53,6 +54,7 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "POL 135",
         "POL 136",
         "RST 060",
@@ -62,18 +64,20 @@
         "RST 162",
         "RST 163",
         "WMS 184",
-        "MSA 181C",
-        "MSA 182C"
+        "WMS 185"
       ],
       "units": "4-15",
       "notes": [
         "Choose additional electives from the Core Course list:",
         "No more than one lower division course can be counted toward the minor requirements.",
-        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept other elective courses toward the minor program if the content is 50% or more on the Arab World."
+        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept other elective courses toward the minor program if the content is 50% or more on the Arab World.",
+        "With prior consultation with an advisor, students can petition in advance the Program Committee to accept more than 4 units of MSA 181C and/or MSA 182C towards the minor program."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.578Z"
 }

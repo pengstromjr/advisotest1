@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 4.6,
+    "department": "Chemistry",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0yMzA0ODIw",
+    "lastName": "Crabtree",
+    "legacyId": 2304820,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.6522
+  }
+]

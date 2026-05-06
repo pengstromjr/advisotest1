@@ -6,36 +6,12 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "General Requirements",
-      "courses": [
-        "HIS 017A",
-        "HIS 017B",
-        "HIS 072A",
-        "HIS 072B",
-        "HIS 170A",
-        "HIS 170B",
-        "HIS 170C",
-        "HIS 171A",
-        "HIS 171B",
-        "HIS 172",
-        "HIS 173",
-        "HIS 174A",
-        "HIS 174B",
-        "HIS 174C",
-        "HIS 174D",
-        "HIS 175",
-        "HIS 176A",
-        "HIS 176B",
-        "HIS 177A",
-        "HIS 177B",
-        "HIS 181",
-        "HIS 183A",
-        "HIS 183B",
-        "HIS 184",
-        "HIS 189"
-      ],
-      "units": "Units",
-      "notes": []
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Choose five lower division courses from the following seven concentrations, including at least one course in three different concentrations. Additional units to reach 20."
+      ]
     },
     {
       "heading": "(a) Africa",
@@ -44,9 +20,7 @@
         "HIS 015B"
       ],
       "units": "",
-      "notes": [
-        "Choose five lower division courses from the following seven concentrations, including at least one course in three different concentrations. Additional units to reach 20."
-      ]
+      "notes": []
     },
     {
       "heading": "(b) Asia",
@@ -108,7 +82,7 @@
       "courses": [
         "HIS 001",
         "HIS/STS 002",
-        "HIS/STS 002Y",
+        "or HIS/STS 002Y",
         "HIS 003",
         "HIS 005",
         "HIS 010A",
@@ -125,7 +99,7 @@
       ],
       "units": "20",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (20 units)"
       ]
     },
     {
@@ -155,12 +129,19 @@
       ],
       "units": "4-5",
       "notes": [
-        "Choose 4-5 units:",
-        "Choose at least three courses in a single Concentration listed below.",
-        "Choose at least two courses in a second Concentration listed below.",
-        "Choose at least one course in a third Concentration listed below.",
+        "Choose 4-5 units:"
+      ]
+    },
+    {
+      "heading": "History Seminar",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Choose at least three courses in a single Concentration listed below. (12 units)",
+        "Choose at least two courses in a second Concentration listed below. (8 units)",
+        "Choose at least one course in a third Concentration listed below. (4 units)",
         "Additional units to reach 40.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (40-41 units)"
       ]
     },
     {
@@ -174,7 +155,7 @@
         "HIS 115E",
         "HIS 116"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -204,7 +185,7 @@
         "HIS 196A",
         "HIS 196B"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -265,7 +246,7 @@
         "HIS 151D",
         "HIS 160"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -282,7 +263,7 @@
         "HIS 163B",
         "HIS 164",
         "HIS 165",
-        "HIS 165V",
+        "or HIS 165V",
         "HIS 166A",
         "HIS 166B",
         "HIS 167",
@@ -290,7 +271,7 @@
         "HIS 169A",
         "HIS 169B"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -302,10 +283,11 @@
         "HIS 190D",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "HIS 193C",
         "HIS 193D"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -350,7 +332,7 @@
         "HIS 188",
         "HIS 189"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -372,15 +354,17 @@
         "HIS 119",
         "HIS 120"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors & Honors Program: A student becomes eligible for graduation with honors by meeting the minimum GPA (usually 3.500) and course requirements established by the College of Letters and Science. To qualify for high or highest honors, students must also complete the History Department honors program with a GPA of 3.500 or above and write a thesis that meets the criteria for high honors or highest honors. Students apply to participate in the department honors program during the latter part of their junior year. Admissio",
-    "Study Abroad & the History Major: The department strongly encourages interested students to pursue their studies abroad. While there are no specific required courses or prerequisites, students are urged to take at least one history course that touches upon the geographic area where they plan to study abroad before departing. To receive a history degree from UC Davis, students must complete at least 18 upper division units in the history major at UC Davis (which can also include HIS 101, HIS 102 Discontinued, HIS 103). The remain",
-    "American History & Institutions: This University requirement can be satisfied by passing any one of the following HIS courses: Course List Code Title Units HIS 017AHistory of the United States4 HIS 017BHistory of the United States4 HIS 072AWomen & Gender in America, to 18654 HIS 072BWomen & Gender in America, 1865-Present4 HIS 170AColonial America4 HIS 170BThe American Revolution4 HIS 170CThe Early National Period, 1789-18154 HIS 171ASlavery, Society & Expansion in the Early U.S.4 HIS 171BCivil War Era4 HIS 172American Environm"
+    "Honors & Honors Program: A student becomes eligible for graduation with honors by meeting the minimum GPA (usually 3.500) and course requirements established by the College of Letters and Science. To qualify for high or highest honors, students must also complete the History Department honors program with a GPA of 3.500 or above and write a thesis that meets the criteria for high honors or highest honors. Students apply to participate in the department honors program during the latter part of their junior year. Admission to the program is based on GPA, a thesis proposal, examples of previous writing, and the recommendation of a faculty member who is willing to sponsor the student's project, interviews, and faculty recommendations. Students admitted into the program must complete the HIS 104A, HIS 104B, HIS 104C se",
+    "Study Abroad & the History Major: The department strongly encourages interested students to pursue their studies abroad. While there are no specific required courses or prerequisites, students are urged to take at least one history course that touches upon the geographic area where they plan to study abroad before departing. To receive a history degree from UC Davis, students must complete at least 18 upper division units in the history major at UC Davis (which can also include HIS 101, HIS 102 Discontinued, HIS 103). The remaining major requirements can be fulfilled abroad provided that (a) the course should be evaluated as at least four UC Davis units, (b) the course should be considered upper division by the standards set forth by the UC Davis Study Abroad Program, and (c) the course should be in the field of History. S",
+    "American History & Institutions: This University requirement can be satisfied by passing any one of the following HIS courses: Course List Code Title Units HIS 017AHistory of the United States4 HIS 017BHistory of the United States4 HIS 072AWomen & Gender in America, to 18654 HIS 072BWomen & Gender in America, 1865-Present4 HIS 170AColonial America4 HIS 170BThe American Revolution4 HIS 170CThe Early National Period, 1789-18154 HIS 171ASlavery, Society & Expansion in the Early U.S.4 HIS 171BCivil War Era4 HIS 172American Environmental History4 HIS 173Becoming an American: Immigration & American Culture4 HIS 174AThe Gilded Age & Progressive Era: United States, 1876-19174 HIS 174BWar, Prosperity, & Depression: United States, 1917-19454 HIS 174CThe United States Since World War II, 1945 to the Present4 HIS 174DSelected Themes "
   ],
-  "total_units": "60"
+  "total_units": "60",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.125Z"
 }

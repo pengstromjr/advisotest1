@@ -1,0 +1,184 @@
+{
+  "course_id": "CHI150",
+  "course_title": "The Chicana & Chicano Movement",
+  "overall_grades": {
+    "A+": 472,
+    "A": 189,
+    "A-": 105,
+    "B+": 54,
+    "B": 50,
+    "B-": 22,
+    "C+": 8,
+    "C": 17,
+    "C-": 9,
+    "D+": 8,
+    "D": 6,
+    "D-": 3,
+    "F": 23,
+    "P*": 9,
+    "NP*": 2
+  },
+  "overall_gpa": 3.63,
+  "overall_enrolled": 977,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lorena Marquez",
+      "professor_slug": "lorena-marquez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 333,
+            "A": 93,
+            "A-": 63,
+            "B+": 33,
+            "B": 30,
+            "B-": 12,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 585
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 153,
+            "A": 48,
+            "A-": 27,
+            "B+": 21,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 279
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 180,
+            "A": 45,
+            "A-": 36,
+            "B+": 12,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 306
+        }
+      }
+    },
+    {
+      "professor_name": "Yvonne Hurtado Allen",
+      "professor_slug": "yvonne-hurtado-allen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 139,
+            "A": 96,
+            "A-": 42,
+            "B+": 21,
+            "B": 20,
+            "B-": 10,
+            "C+": 8,
+            "C": 14,
+            "C-": 9,
+            "D+": 8,
+            "D": 0,
+            "D-": 3,
+            "F": 14,
+            "P*": 6,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 392
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 48,
+            "A-": 21,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 12,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 246
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 11,
+            "A-": 14,
+            "B+": 12,
+            "B": 5,
+            "B-": 5,
+            "C+": 5,
+            "C": 0,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 65
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 37,
+            "A-": 7,
+            "B+": 3,
+            "B": 6,
+            "B-": 2,
+            "C+": 0,
+            "C": 2,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 81
+        }
+      }
+    }
+  ]
+}

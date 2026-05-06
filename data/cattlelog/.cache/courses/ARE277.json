@@ -1,0 +1,90 @@
+{
+  "course_id": "ARE277",
+  "course_title": "Natural Resource Economics",
+  "overall_grades": {
+    "A+": 0,
+    "A": 34,
+    "A-": 13,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.92,
+  "overall_enrolled": 47,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "James Sanchirico",
+      "professor_slug": "james-sanchirico",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 34,
+            "A-": 13,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 47
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 27,
+            "A-": 9,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 36
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 7,
+            "A-": 4,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 11
+        }
+      }
+    }
+  ]
+}

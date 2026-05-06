@@ -1,0 +1,115 @@
+{
+  "course_id": "ABG401",
+  "course_title": "Ethics & Professionalism in Animal Biology",
+  "overall_grades": {
+    "A+": 63,
+    "A": 12,
+    "A-": 4,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.98,
+  "overall_enrolled": 79,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Joy Mench",
+      "professor_slug": "joy-mench",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 0,
+            "A-": 1,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 13
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 0,
+            "A-": 1,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 13
+        }
+      }
+    },
+    {
+      "professor_name": "Kristina Horback",
+      "professor_slug": "kristina-horback",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 12,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 66
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 12,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 66
+        }
+      }
+    }
+  ]
+}

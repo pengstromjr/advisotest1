@@ -1,0 +1,118 @@
+{
+  "course_id": "CHI165",
+  "course_title": "Chicanas, Latinas & Mexicanas in Commercial Media",
+  "overall_grades": {
+    "A+": 147,
+    "A": 35,
+    "A-": 9,
+    "B+": 6,
+    "B": 13,
+    "B-": 6,
+    "C+": 3,
+    "C": 1,
+    "C-": 6,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 4
+  },
+  "overall_gpa": 3.77,
+  "overall_enrolled": 231,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gilda Posada",
+      "professor_slug": "gilda-posada",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 147,
+            "A": 9,
+            "A-": 9,
+            "B+": 6,
+            "B": 0,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 186
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 147,
+            "A": 9,
+            "A-": 9,
+            "B+": 6,
+            "B": 0,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 186
+        }
+      }
+    },
+    {
+      "professor_name": "Virginia Diaz",
+      "professor_slug": "virginia-diaz",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 26,
+            "A-": 0,
+            "B+": 0,
+            "B": 13,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 45
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 26,
+            "A-": 0,
+            "B+": 0,
+            "B": 13,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 45
+        }
+      }
+    }
+  ]
+}

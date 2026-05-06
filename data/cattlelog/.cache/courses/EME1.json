@@ -1,0 +1,219 @@
+{
+  "course_id": "EME1",
+  "course_title": "Mechanical Engineering",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 331,
+    "NP": 15
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 346,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Farhad Assadian",
+      "professor_slug": "farhad-assadian",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 78,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 84
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 78,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 84
+        }
+      }
+    },
+    {
+      "professor_name": "Harry Cheng",
+      "professor_slug": "harry-cheng",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 132
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 132
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 132
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Paul Erickson",
+      "professor_slug": "paul-erickson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 22
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 22
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 22
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 22
+        }
+      }
+    },
+    {
+      "professor_name": "Vinod Narayanan",
+      "professor_slug": "vinod-narayanan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 99,
+            "NP": 9
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 108
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 99,
+            "NP": 9
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 108
+        }
+      }
+    }
+  ]
+}

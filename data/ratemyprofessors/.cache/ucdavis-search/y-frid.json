@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "American Studies",
+    "firstName": "Ari Y",
+    "id": "VGVhY2hlci0xMTg2MjA3",
+    "lastName": "Kelman",
+    "legacyId": 1186207,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.7,
+    "department": "Computer Science",
+    "firstName": "Yelena",
+    "id": "VGVhY2hlci0yMjQxMzIz",
+    "lastName": "Frid",
+    "legacyId": 2241323,
+    "numRatings": 204,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.9608
+  }
+]

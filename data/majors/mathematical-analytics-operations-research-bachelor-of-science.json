@@ -21,15 +21,16 @@
       "courses": [
         "MAT 022A",
         "MAT 108",
-        "MAT 108V",
-        "MAT/BIS 027A",
-        "MAT 108",
-        "MAT 108V",
-        "MAT 067"
+        "or MAT 108V",
+        "or MAT/BIS 027A",
+        "or MAT 067"
       ],
       "units": "4-8",
       "notes": [
-        "Choose one option:"
+        "Choose one option:",
+        "(a)",
+        "or",
+        "(b)"
       ]
     },
     {
@@ -39,14 +40,14 @@
       ],
       "units": "0-1",
       "notes": [
-        "Equivalent MATLAB knowledge."
+        "Equivalent MATLAB knowledge. 1"
       ]
     },
     {
       "heading": "Differential Equations",
       "courses": [
         "MAT/BIS 027B",
-        "MAT 022B"
+        "or MAT 022B"
       ],
       "units": "3-4",
       "notes": []
@@ -55,8 +56,8 @@
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ENG 006"
+        "or ECS 032AV",
+        "or ENG 006"
       ],
       "units": "4",
       "notes": []
@@ -65,10 +66,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "4",
       "notes": []
@@ -77,11 +78,11 @@
       "heading": "Statistics",
       "courses": [
         "STA 032",
-        "STA 100"
+        "or STA 100"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (39-45 units)"
       ]
     },
     {
@@ -94,7 +95,14 @@
         "MAT 135B",
         "MAT 150A",
         "MAT 168",
-        "MAT 170",
+        "MAT 170"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
         "MAT 128A",
         "MAT 128B",
         "MAT 128C"
@@ -107,33 +115,40 @@
     {
       "heading": "B. Enrichment Courses",
       "courses": [
-        "MAT 111",
-        "MAT 185B",
         "STA 131B",
         "STA 131C",
         "STA 137",
         "STA 141A",
         "STA 141B",
-        "STA 141C",
+        "STA 141C"
+      ],
+      "units": "8",
+      "notes": [
+        "1. Enrichment A",
+        "Choose two:",
+        "MAT 111-MAT 185B 3",
+        "2. Enrichment B"
+      ]
+    },
+    {
+      "heading": "B. Enrichment Courses",
+      "courses": [
         "ECN 100A",
-        "ECN 100AV",
-        "ARE 100A",
+        "or ECN 100AV",
+        "or ARE 100A",
         "ECN 100B",
-        "ARE 100B",
+        "or ARE 100B",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ARE 155",
         "ARE 156",
         "ARE 157"
       ],
       "units": "8",
       "notes": [
-        "1. Enrichment A",
-        "Choose two:",
-        "2. Enrichment B",
         "Choose two:"
       ]
     },
@@ -156,7 +171,7 @@
       "units": "3-4",
       "notes": [
         "Choose one:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (55-56 units)"
       ]
     }
   ],
@@ -164,5 +179,7 @@
   "advising_notes": [
     "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
   ],
-  "total_units": "94"
+  "total_units": "94",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.566Z"
 }

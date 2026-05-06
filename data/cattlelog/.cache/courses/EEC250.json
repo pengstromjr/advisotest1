@@ -1,0 +1,155 @@
+{
+  "course_id": "EEC250",
+  "course_title": "Linear Systems & Signals",
+  "overall_grades": {
+    "A+": 3,
+    "A": 57,
+    "A-": 40,
+    "B+": 44,
+    "B": 27,
+    "B-": 27,
+    "C+": 12,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 6
+  },
+  "overall_gpa": 3.31,
+  "overall_enrolled": 216,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "A Gundes",
+      "professor_slug": "a-gundes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 19,
+            "B+": 26,
+            "B": 21,
+            "B-": 24,
+            "C+": 12,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 126
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 7,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 21
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 12,
+            "B+": 24,
+            "B": 21,
+            "B-": 24,
+            "C+": 12,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 105
+        }
+      }
+    },
+    {
+      "professor_name": "Bernard Levy",
+      "professor_slug": "bernard-levy",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 21,
+            "B+": 18,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 90
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 30
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 15,
+            "B+": 15,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 60
+        }
+      }
+    }
+  ]
+}

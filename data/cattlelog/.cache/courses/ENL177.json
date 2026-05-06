@@ -1,0 +1,163 @@
+{
+  "course_id": "ENL177",
+  "course_title": "Study of an Individual Author",
+  "overall_grades": {
+    "A+": 21,
+    "A": 63,
+    "A-": 36,
+    "B+": 17,
+    "B": 7,
+    "B-": 1,
+    "C+": 0,
+    "C": 3,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 2,
+    "P*": 6
+  },
+  "overall_gpa": 3.66,
+  "overall_enrolled": 159,
+  "available_quarters": [
+    "Fall_2023",
+    "Spring_2023",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hillary Cheramie",
+      "professor_slug": "hillary-cheramie",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 9,
+            "B+": 2,
+            "B": 1,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 27
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 9,
+            "B+": 2,
+            "B": 1,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 27
+        }
+      }
+    },
+    {
+      "professor_name": "Sal Nicolazzo",
+      "professor_slug": "sal-nicolazzo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 12,
+            "B+": 9,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 54
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 12,
+            "B+": 9,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 54
+        }
+      }
+    },
+    {
+      "professor_name": "Wally Wallis",
+      "professor_slug": "wally-wallis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 39,
+            "A-": 15,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 78
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 39,
+            "A-": 15,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 78
+        }
+      }
+    }
+  ]
+}

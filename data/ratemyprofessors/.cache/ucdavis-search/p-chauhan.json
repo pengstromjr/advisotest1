@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.2,
+    "department": "Languages",
+    "firstName": "Poonam",
+    "id": "VGVhY2hlci0xNzA0NzYx",
+    "lastName": "Chauhan",
+    "legacyId": 1704761,
+    "numRatings": 43,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 5,
+    "department": "Chinese",
+    "firstName": "Haiqing",
+    "id": "VGVhY2hlci0yMzgxODI2",
+    "lastName": "Yin",
+    "legacyId": 2381826,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Comparative Literature",
+    "firstName": "Ruinong",
+    "id": "VGVhY2hlci0zMTU2MDUz",
+    "lastName": "Yin",
+    "legacyId": 3156053,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.2,
+    "department": "Geology",
+    "firstName": "Qing-Zhu",
+    "id": "VGVhY2hlci0xOTYxOTI5",
+    "lastName": "Yin",
+    "legacyId": 1961929,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Nicholas",
+    "id": "VGVhY2hlci0yMzIxMDM1",
+    "lastName": "Yingling",
+    "legacyId": 2321035,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 1,
+    "department": "Economics",
+    "firstName": "Lijuan",
+    "id": "VGVhY2hlci0yMjU0NTIy",
+    "lastName": "Yin",
+    "legacyId": 2254522,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 1.9,
+    "department": "Mathematics",
+    "firstName": "Ying",
+    "id": "VGVhY2hlci0xOTI5Mjg4",
+    "lastName": "He",
+    "legacyId": 1929288,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  }
+]

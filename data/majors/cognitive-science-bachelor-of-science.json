@@ -11,7 +11,9 @@
         "CGS 001/PHI 010"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Introduction to Mathematical Abstraction",
@@ -19,51 +21,74 @@
         "ECS 020"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032AV",
         "ECS 032B",
         "ECS 034",
-        "ECS 036AECS 036BECS 036C"
+        "or ECS 036A",
+        "or ECS 036B",
+        "or ECS 036C"
       ],
       "units": "12",
       "notes": [
-        "Choose a series:"
-      ]
+        "Choose a series:",
+        "AND",
+        "OR"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Linguistics",
       "courses": [
         "LIN 001",
-        "LIN 001Y"
+        "or LIN 001Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Calculus",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 019A",
+        "or MAT 019B",
+        "or MAT 019C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "12",
       "notes": [
-        "Choose a series:"
-      ]
+        "Choose a series:",
+        "OR"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Linear Algebra & MATLAB",
       "courses": [
-        "MAT 022A022AL",
-        "MAT/BIS 027A"
+        "MAT 022A",
+        "or MAT/BIS 027A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "OR"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
@@ -72,48 +97,69 @@
         "PHI 013G"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 100"
+        "or STA 013V",
+        "or STA 013Y",
+        "or STA 100"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (60 units)"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Take each of the courses below:",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PHI 112"
       ],
       "units": "8",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Group A: Cognitive Science Topical Courses",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "CGS Topical Course: choose one upper division course from this list. 1"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group B: Computation",
@@ -126,9 +172,10 @@
       ],
       "units": "12",
       "notes": [
-        "CGS Topical Course: choose one upper division course from this list.",
         "Choose three from Group B:"
-      ]
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group C: Neuroscience",
@@ -142,9 +189,20 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one from Group C:",
+        "Choose one from Group C:"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Group C: Neuroscience",
+      "courses": [],
+      "units": "4",
+      "notes": [
         "Choose one from Group D or E:"
-      ]
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group D: Philosophy",
@@ -155,19 +213,23 @@
         "PHI 136"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group E: Linguistics",
       "courses": [
         "LIN 103A",
-        "LIN 103AV",
+        "or LIN 103AV",
         "LIN 103B",
         "LIN 150",
         "LIN 182"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group F: Psychology",
@@ -184,15 +246,17 @@
         "PSC 136",
         "PSC 137",
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
+        "or PSC 140V",
+        "or PSC 140Y",
         "PSC 141"
       ],
       "units": "15-18",
       "notes": [
         "Choose four from Group F:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (47-50 units)"
+      ],
+      "group": "Computational Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Cognitive Science",
@@ -200,38 +264,59 @@
         "CGS 001/PHI 010"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 002B",
         "BIS 002C",
-        "BIS 002A"
+        "BIS 002A",
+        "or BIO 001",
+        "or BIO 002",
+        "or BIO 002L",
+        "or BIO 003"
       ],
-      "units": "5",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Linguistics",
       "courses": [
         "LIN 001",
-        "LIN 001Y"
+        "or LIN 001Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 019A",
+        "or MAT 019B",
+        "or MAT 019C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "12",
       "notes": [
-        "Choose a series:"
-      ]
+        "Choose a series:",
+        "OR"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
@@ -239,49 +324,65 @@
         "PHI 013G"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C",
-        "PHY 009APHY 009BPHY 009C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C",
+        "or PHY 009A",
+        "or PHY 009B",
+        "or PHY 009C"
       ],
       "units": "12-15",
       "notes": [
-        "Choose a series:"
-      ]
+        "Choose a series:",
+        "OR"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 100"
+        "or STA 013V",
+        "or STA 013Y",
+        "or STA 100"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (62-66 units)"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Take each of these courses below:",
@@ -290,7 +391,19 @@
         "PSC 103A"
       ],
       "units": "9",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Group A: Cognitive Science Topical Courses",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "CGS Topical Course: choose one upper division course from this list. 1"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group B: Computation",
@@ -300,9 +413,10 @@
       ],
       "units": "4-5",
       "notes": [
-        "CGS Topical Course: choose one upper division course from this list.",
         "Choose one from Group B:"
-      ]
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group C: Neuroscience",
@@ -323,9 +437,20 @@
       ],
       "units": "12-13",
       "notes": [
-        "Choose 12-13 units from Group C:",
+        "Choose 12-13 units from Group C:"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Group C: Neuroscience",
+      "courses": [],
+      "units": "8",
+      "notes": [
         "Choose two from Groups D or E:"
-      ]
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group D: Philosophy",
@@ -336,25 +461,29 @@
         "PHI 136"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group E: Linguistics",
       "courses": [
         "LIN 103A",
-        "LIN 103AV",
+        "or LIN 103AV",
         "LIN 103B",
         "LIN 150",
         "LIN 182"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Group F: Psychology",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 101",
         "PSC 113",
         "PSC 121",
@@ -366,18 +495,25 @@
         "PSC 136",
         "PSC 137",
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
+        "or PSC 140V",
+        "or PSC 140Y",
         "PSC 141"
       ],
       "units": "7",
       "notes": [
         "Choose two from Group F:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (44-46 units)"
+      ],
+      "group": "Neuroscience Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Computational Emphasis",
+    "Neuroscience Emphasis"
+  ],
   "advising_notes": [],
-  "total_units": "107"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.186Z"
 }

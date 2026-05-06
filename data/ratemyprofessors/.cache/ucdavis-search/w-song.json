@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Statistics",
+    "firstName": "Dogyoon",
+    "id": "VGVhY2hlci0zMDYxNTM3",
+    "lastName": "Song",
+    "legacyId": 3061537,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 2.3,
+    "department": "Computer Science",
+    "firstName": "Jinyue",
+    "id": "VGVhY2hlci0yOTk5NzA3",
+    "lastName": "Song",
+    "legacyId": 2999707,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 16.6667
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.7,
+    "department": "Mathematics",
+    "firstName": "Ruifang",
+    "id": "VGVhY2hlci0yMDI0OTkw",
+    "lastName": "Song",
+    "legacyId": 2024990,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.1429
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Civil Engineering",
+    "firstName": "Shin Tai",
+    "id": "VGVhY2hlci03MjkzNjQ=",
+    "lastName": "Song",
+    "legacyId": 729364,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Mathematics",
+    "firstName": "Dogyoon",
+    "id": "VGVhY2hlci0zMTA3NzUz",
+    "lastName": "Song",
+    "legacyId": 3107753,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chemistry",
+    "firstName": "Chenchen",
+    "id": "VGVhY2hlci0zMDAzNzc1",
+    "lastName": "Song",
+    "legacyId": 3003775,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

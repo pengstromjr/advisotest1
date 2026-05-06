@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.2,
+    "department": "Geology",
+    "firstName": "Magali",
+    "id": "VGVhY2hlci0xNTAwMjE3",
+    "lastName": "Billen",
+    "legacyId": 1500217,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.75
+  }
+]

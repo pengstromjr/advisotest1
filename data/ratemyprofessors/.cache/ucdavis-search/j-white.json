@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.8,
+    "department": "Statistics",
+    "firstName": "JoAnna",
+    "id": "VGVhY2hlci0yMTczNjMx",
+    "lastName": "Whitener",
+    "legacyId": 2173631,
+    "numRatings": 261,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.8473
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2,
+    "department": "English",
+    "firstName": "Shaoni",
+    "id": "VGVhY2hlci0zMTUzNTA4",
+    "lastName": "White",
+    "legacyId": 3153508,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 25
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.5,
+    "department": "Art",
+    "firstName": "Deirdre",
+    "id": "VGVhY2hlci0yODg3NTc2",
+    "lastName": "White",
+    "legacyId": 2887576,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.5,
+    "department": "African-American Studies",
+    "firstName": "Elisa",
+    "id": "VGVhY2hlci0yMjAwNDA5",
+    "lastName": "White",
+    "legacyId": 2200409,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.2,
+    "department": "Chemical Engineering",
+    "firstName": "Jason",
+    "id": "VGVhY2hlci0yMTQ3OTk0",
+    "lastName": "White",
+    "legacyId": 2147994,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 73.6842
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 5,
+    "department": "Native American Studies",
+    "firstName": "Kathleen",
+    "id": "VGVhY2hlci0yNzQ2NTk1",
+    "lastName": "Whiteley",
+    "legacyId": 2746595,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3,
+    "department": "Environmental Toxicology",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0yOTAwNTYw",
+    "lastName": "Whitehead",
+    "legacyId": 2900560,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Education",
+    "firstName": "Tobin",
+    "id": "VGVhY2hlci0yMzUwOTQz",
+    "lastName": "White",
+    "legacyId": 2350943,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Whitney",
+    "id": "VGVhY2hlci0xNjk3MjQ3",
+    "lastName": "Whitener",
+    "legacyId": 1697247,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Science",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0zMDM1NzA2",
+    "lastName": "Whitehead",
+    "legacyId": 3035706,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.7,
+    "department": "Psychology",
+    "firstName": "Evan",
+    "id": "VGVhY2hlci0yNTA3NDY5",
+    "lastName": "Antzoulatos",
+    "legacyId": 2507469,
+    "numRatings": 296,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.9189
+  }
+]

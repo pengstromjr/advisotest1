@@ -1,0 +1,115 @@
+{
+  "course_id": "HIS146A",
+  "course_title": "Europe in the 20th Century",
+  "overall_grades": {
+    "A+": 4,
+    "A": 114,
+    "A-": 155,
+    "B+": 116,
+    "B": 92,
+    "B-": 12,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 25
+  },
+  "overall_gpa": 3.52,
+  "overall_enrolled": 521,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Edward Dickinson",
+      "professor_slug": "edward-dickinson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 114,
+            "A-": 155,
+            "B+": 116,
+            "B": 92,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 25
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 521
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 51,
+            "A-": 69,
+            "B+": 36,
+            "B": 36,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 207
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 27,
+            "A-": 23,
+            "B+": 23,
+            "B": 5,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 80
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 63,
+            "B+": 57,
+            "B": 51,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 234
+        }
+      }
+    }
+  ]
+}

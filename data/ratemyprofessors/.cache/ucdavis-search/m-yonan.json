@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.7,
+    "department": "Art & Art History",
+    "firstName": "Michael",
+    "id": "VGVhY2hlci0yNzgyNDc1",
+    "lastName": "Yonan",
+    "legacyId": 2782475,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  }
+]

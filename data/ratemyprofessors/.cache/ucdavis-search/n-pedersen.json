@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.7,
+    "department": "Philosophy",
+    "firstName": "Johnnie",
+    "id": "VGVhY2hlci0xNjE2NzA1",
+    "lastName": "Pedersen",
+    "legacyId": 1616705,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 3.7,
+    "department": "English",
+    "firstName": "Tara",
+    "id": "VGVhY2hlci0zMjc3NjU=",
+    "lastName": "Pedersen",
+    "legacyId": 327765,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

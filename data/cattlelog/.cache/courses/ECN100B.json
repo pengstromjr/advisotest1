@@ -1,0 +1,327 @@
+{
+  "course_id": "ECN100B",
+  "course_title": "Intermediate Micro Theory: Imperfect Competition & Market Failure",
+  "overall_grades": {
+    "A+": 231,
+    "A": 870,
+    "A-": 564,
+    "B+": 391,
+    "B": 481,
+    "B-": 371,
+    "C+": 265,
+    "C": 208,
+    "C-": 245,
+    "D+": 72,
+    "D": 73,
+    "D-": 51,
+    "F": 105,
+    "P*": 166,
+    "NP*": 76
+  },
+  "overall_gpa": 3.02,
+  "overall_enrolled": 4169,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anujit Chakraborty",
+      "professor_slug": "anujit-chakraborty",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 176,
+            "A": 203,
+            "A-": 131,
+            "B+": 98,
+            "B": 98,
+            "B-": 105,
+            "C+": 69,
+            "C": 61,
+            "C-": 78,
+            "D+": 42,
+            "D": 63,
+            "D-": 48,
+            "F": 50,
+            "P*": 82,
+            "NP*": 52
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 1356
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 29,
+            "A-": 23,
+            "B+": 17,
+            "B": 11,
+            "B-": 18,
+            "C+": 6,
+            "C": 4,
+            "C-": 15,
+            "D+": 9,
+            "D": 12,
+            "D-": 0,
+            "F": 14,
+            "P*": 13,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 195
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 84,
+            "A-": 51,
+            "B+": 33,
+            "B": 45,
+            "B-": 24,
+            "C+": 30,
+            "C": 36,
+            "C-": 15,
+            "D+": 18,
+            "D": 18,
+            "D-": 30,
+            "F": 24,
+            "P*": 21,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 477
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 42,
+            "A-": 27,
+            "B+": 30,
+            "B": 21,
+            "B-": 27,
+            "C+": 18,
+            "C": 9,
+            "C-": 30,
+            "D+": 9,
+            "D": 18,
+            "D-": 3,
+            "F": 9,
+            "P*": 15,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 339
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 48,
+            "A-": 30,
+            "B+": 18,
+            "B": 21,
+            "B-": 36,
+            "C+": 15,
+            "C": 12,
+            "C-": 18,
+            "D+": 6,
+            "D": 15,
+            "D-": 15,
+            "F": 3,
+            "P*": 33,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 345
+        }
+      }
+    },
+    {
+      "professor_name": "Arman Rezaee",
+      "professor_slug": "arman-rezaee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 38,
+            "A": 392,
+            "A-": 176,
+            "B+": 128,
+            "B": 197,
+            "B-": 133,
+            "C+": 67,
+            "C": 100,
+            "C-": 111,
+            "D+": 9,
+            "D": 9,
+            "D-": 3,
+            "F": 38,
+            "P*": 38,
+            "NP*": 20
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 1459
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 159,
+            "A-": 57,
+            "B+": 54,
+            "B": 81,
+            "B-": 60,
+            "C+": 30,
+            "C": 36,
+            "C-": 45,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 24,
+            "P*": 21,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 597
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 138,
+            "A-": 78,
+            "B+": 57,
+            "B": 99,
+            "B-": 60,
+            "C+": 24,
+            "C": 51,
+            "C-": 57,
+            "D+": 9,
+            "D": 9,
+            "D-": 3,
+            "F": 12,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 633
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 95,
+            "A-": 41,
+            "B+": 17,
+            "B": 17,
+            "B-": 13,
+            "C+": 13,
+            "C": 13,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 5,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 229
+        }
+      }
+    },
+    {
+      "professor_name": "Erich Muehlegger",
+      "professor_slug": "erich-muehlegger",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 275,
+            "A-": 257,
+            "B+": 165,
+            "B": 186,
+            "B-": 133,
+            "C+": 129,
+            "C": 47,
+            "C-": 56,
+            "D+": 21,
+            "D": 1,
+            "D-": 0,
+            "F": 17,
+            "P*": 46,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 1354
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 117,
+            "A-": 132,
+            "B+": 66,
+            "B": 114,
+            "B-": 48,
+            "C+": 45,
+            "C": 27,
+            "C-": 21,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 615
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 126,
+            "A-": 96,
+            "B+": 81,
+            "B": 57,
+            "B-": 66,
+            "C+": 72,
+            "C": 15,
+            "C-": 30,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 582
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 32,
+            "A-": 29,
+            "B+": 18,
+            "B": 15,
+            "B-": 19,
+            "C+": 12,
+            "C": 5,
+            "C-": 5,
+            "D+": 3,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 13,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 157
+        }
+      }
+    }
+  ]
+}

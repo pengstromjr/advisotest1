@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.8,
+    "department": "Engineering",
+    "firstName": "Bernard",
+    "id": "VGVhY2hlci0xNzcxNjQ=",
+    "lastName": "Levy",
+    "legacyId": 177164,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.3,
+    "department": "Music",
+    "firstName": "Beth",
+    "id": "VGVhY2hlci0yNTM1NTE=",
+    "lastName": "Levy",
+    "legacyId": 253551,
+    "numRatings": 46,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 37.5
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "course_id": "MAE265",
+  "course_title": "Aeroacoustics",
+  "overall_grades": {
+    "A+": 15,
+    "A": 6,
+    "A-": 9,
+    "B+": 3,
+    "B": 0,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 36,
+  "available_quarters": [
+    "Spring_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Seongkyu Lee",
+      "professor_slug": "seongkyu-lee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 6,
+            "A-": 9,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 36
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 6,
+            "A-": 9,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 36
+        }
+      }
+    }
+  ]
+}

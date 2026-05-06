@@ -1,0 +1,138 @@
+{
+  "course_id": "CHI157",
+  "course_title": "Chicana & Chicano Narrative",
+  "overall_grades": {
+    "A+": 45,
+    "A": 133,
+    "A-": 26,
+    "B+": 4,
+    "B": 1,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "P*": 3
+  },
+  "overall_gpa": 3.93,
+  "overall_enrolled": 213,
+  "available_quarters": [
+    "Fall_2024",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": " ",
+      "professor_slug": "",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 13,
+            "A-": 2,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 30
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 13,
+            "A-": 2,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 30
+        }
+      }
+    },
+    {
+      "professor_name": "Maceo Montoya",
+      "professor_slug": "maceo-montoya",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 120,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 183
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 48,
+            "A-": 24,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 90
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 72,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 93
+        }
+      }
+    }
+  ]
+}

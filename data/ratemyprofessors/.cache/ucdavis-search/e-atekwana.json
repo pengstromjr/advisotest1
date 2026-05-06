@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 2.8,
+    "department": "Geology",
+    "firstName": "Elliot",
+    "id": "VGVhY2hlci0yODAyMDE3",
+    "lastName": "Atekwana",
+    "legacyId": 2802017,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 46.1538
+  }
+]

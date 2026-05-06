@@ -1,0 +1,90 @@
+{
+  "course_id": "PHY230B",
+  "course_title": "Quantum Theory of Fields",
+  "overall_grades": {
+    "A+": 9,
+    "A": 33,
+    "A-": 42,
+    "B+": 3,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.8,
+  "overall_enrolled": 90,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Markus Luty",
+      "professor_slug": "markus-luty",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 33,
+            "A-": 42,
+            "B+": 3,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 90
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 18,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 36
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 18,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 54
+        }
+      }
+    }
+  ]
+}

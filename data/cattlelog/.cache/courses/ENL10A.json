@@ -1,0 +1,330 @@
+{
+  "course_id": "ENL10A",
+  "course_title": "Literatures in English I: To 1700",
+  "overall_grades": {
+    "A+": 128,
+    "A": 285,
+    "A-": 211,
+    "B+": 135,
+    "B": 221,
+    "B-": 98,
+    "C+": 52,
+    "C": 68,
+    "C-": 20,
+    "D+": 24,
+    "D": 15,
+    "D-": 3,
+    "F": 45,
+    "P*": 35,
+    "NP*": 18
+  },
+  "overall_gpa": 3.18,
+  "overall_enrolled": 1358,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kenneth Connally",
+      "professor_slug": "kenneth-connally",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 60,
+            "A-": 57,
+            "B+": 39,
+            "B": 60,
+            "B-": 21,
+            "C+": 15,
+            "C": 27,
+            "C-": 6,
+            "D+": 12,
+            "D": 3,
+            "D-": 0,
+            "F": 24,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 387
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 36,
+            "A-": 39,
+            "B+": 33,
+            "B": 27,
+            "B-": 18,
+            "C+": 6,
+            "C": 24,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 15,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 240
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 24,
+            "A-": 18,
+            "B+": 6,
+            "B": 33,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 147
+        }
+      }
+    },
+    {
+      "professor_name": "Matthew Vernon",
+      "professor_slug": "matthew-vernon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 15,
+            "B+": 15,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 87
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 15,
+            "B+": 15,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 87
+        }
+      }
+    },
+    {
+      "professor_name": "Nicholas Talbott",
+      "professor_slug": "nicholas-talbott",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 108,
+            "A-": 54,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 237
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 108,
+            "A-": 54,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 237
+        }
+      }
+    },
+    {
+      "professor_name": "Tiffany Werth",
+      "professor_slug": "tiffany-werth",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 84,
+            "A-": 66,
+            "B+": 60,
+            "B": 119,
+            "B-": 73,
+            "C+": 32,
+            "C": 36,
+            "C-": 11,
+            "D+": 12,
+            "D": 12,
+            "D-": 3,
+            "F": 7,
+            "P*": 23,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 576
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 42,
+            "A-": 21,
+            "B+": 36,
+            "B": 54,
+            "B-": 36,
+            "C+": 12,
+            "C": 21,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 15,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 276
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 27,
+            "A-": 36,
+            "B+": 15,
+            "B": 54,
+            "B-": 30,
+            "C+": 12,
+            "C": 9,
+            "C-": 3,
+            "D+": 9,
+            "D": 6,
+            "D-": 3,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 225
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 9,
+            "B+": 9,
+            "B": 11,
+            "B-": 7,
+            "C+": 8,
+            "C": 6,
+            "C-": 2,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 75
+        }
+      }
+    },
+    {
+      "professor_name": "Wally Wallis",
+      "professor_slug": "wally-wallis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 19,
+            "B+": 15,
+            "B": 9,
+            "B-": 1,
+            "C+": 2,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 71
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 19,
+            "B+": 15,
+            "B": 9,
+            "B-": 1,
+            "C+": 2,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 71
+        }
+      }
+    }
+  ]
+}

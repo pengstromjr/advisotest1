@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.2,
+    "department": "History",
+    "firstName": "Stacy",
+    "id": "VGVhY2hlci0yNTc5NDIw",
+    "lastName": "Fahrenthold",
+    "legacyId": 2579420,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.2353
+  }
+]

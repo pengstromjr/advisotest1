@@ -1,0 +1,142 @@
+{
+  "course_id": "AHI1A",
+  "course_title": "Ancient Mediterranean Art",
+  "overall_grades": {
+    "A+": 410,
+    "A": 628,
+    "A-": 294,
+    "B+": 168,
+    "B": 122,
+    "B-": 39,
+    "C+": 31,
+    "C": 26,
+    "C-": 12,
+    "D+": 3,
+    "D": 9,
+    "D-": 0,
+    "F": 23,
+    "P*": 49,
+    "NP*": 19
+  },
+  "overall_gpa": 3.64,
+  "overall_enrolled": 1833,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alexandra Sofroniew",
+      "professor_slug": "alexandra-sofroniew",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 410,
+            "A": 628,
+            "A-": 294,
+            "B+": 168,
+            "B": 122,
+            "B-": 39,
+            "C+": 31,
+            "C": 26,
+            "C-": 12,
+            "D+": 3,
+            "D": 9,
+            "D-": 0,
+            "F": 23,
+            "P*": 49,
+            "NP*": 19
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 1833
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 32,
+            "A": 82,
+            "A-": 30,
+            "B+": 18,
+            "B": 8,
+            "B-": 6,
+            "C+": 4,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 10,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 195
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 183,
+            "A": 171,
+            "A-": 81,
+            "B+": 36,
+            "B": 15,
+            "B-": 6,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 531
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 93,
+            "A": 177,
+            "A-": 99,
+            "B+": 39,
+            "B": 54,
+            "B-": 15,
+            "C+": 3,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 12,
+            "P*": 18,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 537
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 198,
+            "A-": 84,
+            "B+": 75,
+            "B": 45,
+            "B-": 12,
+            "C+": 9,
+            "C": 6,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 570
+        }
+      }
+    }
+  ]
+}

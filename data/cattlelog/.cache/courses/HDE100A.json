@@ -1,0 +1,251 @@
+{
+  "course_id": "HDE100A",
+  "course_title": "Infancy & Early Childhood",
+  "overall_grades": {
+    "A+": 1433,
+    "A": 1227,
+    "A-": 526,
+    "B+": 317,
+    "B": 267,
+    "B-": 85,
+    "C+": 82,
+    "C": 33,
+    "C-": 20,
+    "D+": 8,
+    "D": 8,
+    "D-": 4,
+    "F": 39,
+    "P*": 20,
+    "NP*": 3
+  },
+  "overall_gpa": 3.7,
+  "overall_enrolled": 4072,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anne Iaccopucci",
+      "professor_slug": "anne-iaccopucci",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1160,
+            "A": 885,
+            "A-": 259,
+            "B+": 128,
+            "B": 87,
+            "B-": 28,
+            "C+": 25,
+            "C": 15,
+            "C-": 11,
+            "D+": 8,
+            "D": 5,
+            "D-": 4,
+            "F": 9,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 2629
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 450,
+            "A": 168,
+            "A-": 33,
+            "B+": 21,
+            "B": 30,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 720
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 198,
+            "A": 309,
+            "A-": 99,
+            "B+": 51,
+            "B": 18,
+            "B-": 18,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 714
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 119,
+            "A-": 43,
+            "B+": 11,
+            "B": 10,
+            "B-": 4,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 236
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 414,
+            "A": 174,
+            "A-": 51,
+            "B+": 33,
+            "B": 18,
+            "B-": 0,
+            "C+": 12,
+            "C": 9,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 720
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 56,
+            "A": 115,
+            "A-": 33,
+            "B+": 12,
+            "B": 11,
+            "B-": 3,
+            "C+": 0,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 239
+        }
+      }
+    },
+    {
+      "professor_name": "Chi Yun Moon",
+      "professor_slug": "chi-yun-moon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 162,
+            "A-": 171,
+            "B+": 114,
+            "B": 105,
+            "B-": 42,
+            "C+": 24,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 24,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 723
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 162,
+            "A-": 171,
+            "B+": 114,
+            "B": 105,
+            "B-": 42,
+            "C+": 24,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 24,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 723
+        }
+      }
+    },
+    {
+      "professor_name": "Kristina Armstrong",
+      "professor_slug": "kristina-armstrong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 207,
+            "A": 180,
+            "A-": 96,
+            "B+": 75,
+            "B": 75,
+            "B-": 15,
+            "C+": 33,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 720
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 207,
+            "A": 180,
+            "A-": 96,
+            "B+": 75,
+            "B": 75,
+            "B-": 15,
+            "C+": 33,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 720
+        }
+      }
+    }
+  ]
+}

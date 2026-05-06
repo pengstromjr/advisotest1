@@ -10,24 +10,31 @@
       "courses": [
         "ENT 100",
         "ENT 100L",
-        "ENT 110",
+        "ENT 110"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "NEM 100",
         "PLS 105",
         "PLS 176",
         "PLP 120",
         "ENT 135",
-        "ENT 123",
-        "PLB 123",
-        "PLP 123",
         "ENT/PLB/PLP 123"
       ],
-      "units": "Units",
+      "units": "9-12",
       "notes": [
-        "Choose at least three:"
+        "Choose at least three:",
+        "Of the three, one can be ENT 123 or PLB 123 or PLP 123:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.536Z"
 }

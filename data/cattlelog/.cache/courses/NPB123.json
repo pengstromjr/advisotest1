@@ -1,0 +1,155 @@
+{
+  "course_id": "NPB123",
+  "course_title": "Comparative Vertebrate Organology",
+  "overall_grades": {
+    "A+": 130,
+    "A": 189,
+    "A-": 117,
+    "B+": 102,
+    "B": 143,
+    "B-": 79,
+    "C+": 47,
+    "C": 56,
+    "C-": 16,
+    "D+": 5,
+    "D": 10,
+    "D-": 3,
+    "F": 6
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 903,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Crystal Rogers",
+      "professor_slug": "crystal-rogers",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 115,
+            "A": 111,
+            "A-": 75,
+            "B+": 78,
+            "B": 74,
+            "B-": 40,
+            "C+": 41,
+            "C": 38,
+            "C-": 10,
+            "D+": 2,
+            "D": 4,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 597
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 48,
+            "A-": 30,
+            "B+": 39,
+            "B": 39,
+            "B-": 21,
+            "C+": 15,
+            "C": 15,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 285
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 51,
+            "A-": 36,
+            "B+": 33,
+            "B": 27,
+            "B-": 15,
+            "C+": 24,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 252
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 12,
+            "A-": 9,
+            "B+": 6,
+            "B": 8,
+            "B-": 4,
+            "C+": 2,
+            "C": 2,
+            "C-": 1,
+            "D+": 2,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 60
+        }
+      }
+    },
+    {
+      "professor_name": "Damian Genetos",
+      "professor_slug": "damian-genetos",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 78,
+            "A-": 42,
+            "B+": 24,
+            "B": 69,
+            "B-": 39,
+            "C+": 6,
+            "C": 18,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 306
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 78,
+            "A-": 42,
+            "B+": 24,
+            "B": 69,
+            "B-": 39,
+            "C+": 6,
+            "C": 18,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 306
+        }
+      }
+    }
+  ]
+}

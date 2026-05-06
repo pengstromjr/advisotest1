@@ -1,0 +1,181 @@
+{
+  "course_id": "AMS152",
+  "course_title": "The Lives of Children in America",
+  "overall_grades": {
+    "A+": 418,
+    "A": 175,
+    "A-": 105,
+    "B+": 63,
+    "B": 66,
+    "B-": 28,
+    "C+": 6,
+    "C": 7,
+    "C-": 5,
+    "D+": 1,
+    "D": 3,
+    "D-": 1,
+    "F": 4,
+    "P*": 15
+  },
+  "overall_gpa": 3.72,
+  "overall_enrolled": 897,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Smoodin",
+      "professor_slug": "eric-smoodin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 36,
+            "A-": 60,
+            "B+": 30,
+            "B": 39,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 174
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 36,
+            "A-": 60,
+            "B+": 30,
+            "B": 39,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 174
+        }
+      }
+    },
+    {
+      "professor_name": "Megan Bayles",
+      "professor_slug": "megan-bayles",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 418,
+            "A": 139,
+            "A-": 45,
+            "B+": 33,
+            "B": 27,
+            "B-": 19,
+            "C+": 6,
+            "C": 7,
+            "C-": 5,
+            "D+": 1,
+            "D": 3,
+            "D-": 1,
+            "F": 4,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 723
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 153,
+            "A": 42,
+            "A-": 18,
+            "B+": 15,
+            "B": 12,
+            "B-": 15,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 276
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 177,
+            "A": 54,
+            "A-": 9,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 270
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 43,
+            "A": 24,
+            "A-": 9,
+            "B+": 2,
+            "B": 4,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 89
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 19,
+            "A-": 9,
+            "B+": 1,
+            "B": 2,
+            "B-": 3,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 88
+        }
+      }
+    }
+  ]
+}

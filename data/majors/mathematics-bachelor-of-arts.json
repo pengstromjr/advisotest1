@@ -21,15 +21,16 @@
       "courses": [
         "MAT 022A",
         "MAT 108",
-        "MAT 108V",
+        "or MAT 108V",
         "MAT/BIS 027A",
-        "MAT 108",
-        "MAT 108V",
         "MAT 067"
       ],
       "units": "4-8",
       "notes": [
-        "Choose one option:"
+        "Choose one option:",
+        "(a)",
+        "(b)",
+        "(c)"
       ]
     },
     {
@@ -46,7 +47,7 @@
       "heading": "Differential Equations",
       "courses": [
         "MAT/BIS 027B",
-        "MAT 022B"
+        "or MAT 022B"
       ],
       "units": "3-4",
       "notes": []
@@ -55,24 +56,31 @@
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ENG 006"
+        "or ECS 032AV",
+        "or ENG 006"
       ],
       "units": "4",
       "notes": []
+    },
+    {
+      "heading": "Additional Non-Mathematics Courses",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Chosen from the L&S Natural Sciences & Mathematics List. (12 units)",
+        "Preparatory Subject Matter Subtotal (39-45 units)"
+      ]
     },
     {
       "heading": "Plans",
       "courses": [],
       "units": "39-40",
       "notes": [
-        "Chosen from the L&S Natural Sciences & Mathematics List.",
-        "Preparatory Subject Matter Subtotal",
         "Choose one:",
         "Plan 1: General Mathematics",
         "Plan 2: Secondary Teaching",
         "Note: Students who wish to satisfy the single subject matter waiver for the teaching credential should see an advisor as early as possible.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (39-40 units)"
       ]
     },
     {
@@ -85,21 +93,23 @@
         "MAT 150A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
       "heading": "B. Enrichment Courses",
-      "courses": [
-        "MAT 111",
-        "MAT 185B"
-      ],
+      "courses": [],
       "units": "16",
       "notes": [
-        "Choose four:"
-      ]
+        "Choose four:",
+        "MAT 111-MAT 185B; up to four of these 16 units may be approved upper division courses outside of the Department of Mathematics with extensive use of mathematics. 1"
+      ],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
-      "heading": "C. Captstone Course",
+      "heading": "C. Capstone Course",
       "courses": [
         "MAT 115B",
         "MAT 118B",
@@ -117,7 +127,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
       "heading": "A. Core Courses",
@@ -132,18 +144,20 @@
         "MAT 150A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Plan 2: Secondary Teaching",
+      "group_kind": "path"
     },
     {
       "heading": "B. Enrichment Course",
-      "courses": [
-        "MAT 111",
-        "MAT 185B"
-      ],
+      "courses": [],
       "units": "4",
       "notes": [
-        "Choose one:"
-      ]
+        "Choose one:",
+        "MAT 111-MAT 185B. 1"
+      ],
+      "group": "Plan 2: Secondary Teaching",
+      "group_kind": "path"
     },
     {
       "heading": "C. Capstone Course",
@@ -166,12 +180,19 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Plan 2: Secondary Teaching",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Plan 1: General Mathematics",
+    "Plan 2: Secondary Teaching"
+  ],
   "advising_notes": [
     "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Mathematics."
   ],
-  "total_units": "78"
+  "total_units": "78",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.579Z"
 }

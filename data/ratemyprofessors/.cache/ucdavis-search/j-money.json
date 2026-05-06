@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.7,
+    "department": "International Studies",
+    "firstName": "Jeanette",
+    "id": "VGVhY2hlci00NzcyNjI=",
+    "lastName": "Money",
+    "legacyId": 477262,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 36.3636
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Political Science",
+    "firstName": "Jeanette",
+    "id": "VGVhY2hlci0yMDYwNzE2",
+    "lastName": "Money",
+    "legacyId": 2060716,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

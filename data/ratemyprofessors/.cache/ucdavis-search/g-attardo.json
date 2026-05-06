@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Entomology",
+    "firstName": "Geoff",
+    "id": "VGVhY2hlci0yNDgxODQw",
+    "lastName": "Attardo",
+    "legacyId": 2481840,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "course_id": "EPI205",
+  "course_title": "Principles of Epidemiology",
+  "overall_grades": {
+    "A+": 180,
+    "A": 176,
+    "A-": 76,
+    "B+": 35,
+    "B": 34,
+    "B-": 4,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 508,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Pranav Pandit",
+      "professor_slug": "pranav-pandit",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 180,
+            "A": 176,
+            "A-": 76,
+            "B+": 35,
+            "B": 34,
+            "B-": 4,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 508
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 63,
+            "A-": 27,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 168
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 57,
+            "A-": 18,
+            "B+": 9,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 150
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 48,
+            "A-": 24,
+            "B+": 9,
+            "B": 18,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 156
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 8,
+            "A-": 7,
+            "B+": 2,
+            "B": 1,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 34
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "course_id": "HIS102F",
+  "course_title": "Undergraduate Proseminar in History: Russia",
+  "overall_grades": {
+    "A+": 0,
+    "A": 12,
+    "A-": 9,
+    "B+": 3,
+    "B": 12,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.26,
+  "overall_enrolled": 39,
+  "available_quarters": [
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ian Campbell",
+      "professor_slug": "ian-campbell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 9,
+            "B+": 3,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 39
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 9,
+            "B+": 3,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "course_id": "EEC239A",
+  "course_title": "Optical Communication Technologies  for High-Speed Data Networking",
+  "overall_grades": {
+    "A+": 2,
+    "A": 12,
+    "A-": 3,
+    "B+": 10,
+    "B": 4,
+    "B-": 3,
+    "C+": 0,
+    "C": 2,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.45,
+  "overall_enrolled": 36,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Sung Joo Yoo",
+      "professor_slug": "sung-joo-yoo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 12,
+            "A-": 3,
+            "B+": 10,
+            "B": 4,
+            "B-": 3,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 36
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 1,
+            "B+": 5,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 13
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 8,
+            "A-": 2,
+            "B+": 5,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 23
+        }
+      }
+    }
+  ]
+}

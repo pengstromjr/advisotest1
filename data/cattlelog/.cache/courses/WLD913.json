@@ -1,0 +1,211 @@
+{
+  "course_id": "WLD913",
+  "course_title": "Wkload - Math Co 16C",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 350,
+    "NP": 22
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 372,
+  "available_quarters": [
+    "Fall_2022",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Grant Acosta",
+      "professor_slug": "grant-acosta",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 231,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 234
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 111
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 111
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 120,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 123
+        }
+      }
+    },
+    {
+      "professor_name": "James Parmenter",
+      "professor_slug": "james-parmenter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 119,
+            "NP": 19
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 138
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 39,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 45
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 27,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 33
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 17,
+            "NP": 1
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 18
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 36,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 42
+        }
+      }
+    }
+  ]
+}

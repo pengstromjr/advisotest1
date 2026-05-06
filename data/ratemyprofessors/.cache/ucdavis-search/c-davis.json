@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.8,
+    "department": "Mechanical Engineering",
+    "firstName": "Cristina",
+    "id": "VGVhY2hlci0xNTkwMjk0",
+    "lastName": "Davis",
+    "legacyId": 1590294,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.8,
+    "department": "Mathematics",
+    "firstName": "Claire",
+    "id": "VGVhY2hlci0yNTgwNzc2",
+    "lastName": "Davis",
+    "legacyId": 2580776,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.3333
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.4,
+    "department": "University Writing Program",
+    "firstName": "Cynthia",
+    "id": "VGVhY2hlci0yMTIyNzU0",
+    "lastName": "Davis",
+    "legacyId": 2122754,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 42.3077
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 3.3,
+    "department": "History",
+    "firstName": "Diana",
+    "id": "VGVhY2hlci0xNzAxMjg1",
+    "lastName": "Davis",
+    "legacyId": 1701285,
+    "numRatings": 30,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  },
+  {
+    "avgDifficulty": 4.8,
+    "avgRating": 1.1,
+    "department": "African-American Studies",
+    "firstName": "Hodari",
+    "id": "VGVhY2hlci0yOTQ5OTEw",
+    "lastName": "Davis",
+    "legacyId": 2949910,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 4,
+    "department": "Computer Science",
+    "firstName": "Sean",
+    "id": "VGVhY2hlci0zNTEyNQ==",
+    "lastName": "Davis",
+    "legacyId": 35125,
+    "numRatings": 291,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80.5556
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.2,
+    "department": "Linguistics",
+    "firstName": "James",
+    "id": "VGVhY2hlci0xNzMyMzE=",
+    "lastName": "Davis",
+    "legacyId": 173231,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 2,
+    "department": "History",
+    "firstName": "BL",
+    "id": "VGVhY2hlci0xNjg5Nzkw",
+    "lastName": "Davis",
+    "legacyId": 1689790,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3,
+    "department": "Engineering",
+    "firstName": "Roger",
+    "id": "VGVhY2hlci00NzAzODU=",
+    "lastName": "Davis",
+    "legacyId": 470385,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

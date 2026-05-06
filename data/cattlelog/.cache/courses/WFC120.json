@@ -1,0 +1,160 @@
+{
+  "course_id": "WFC120",
+  "course_title": "Biology & Conservation of Fishes",
+  "overall_grades": {
+    "A+": 167,
+    "A": 794,
+    "A-": 233,
+    "B+": 89,
+    "B": 210,
+    "B-": 32,
+    "C+": 18,
+    "C": 44,
+    "C-": 12,
+    "D+": 0,
+    "D": 7,
+    "D-": 3,
+    "F": 0,
+    "P*": 4
+  },
+  "overall_gpa": 3.65,
+  "overall_enrolled": 1613,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrew Rypel",
+      "professor_slug": "andrew-rypel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 165,
+            "A": 438,
+            "A-": 201,
+            "B+": 66,
+            "B": 51,
+            "B-": 9,
+            "C+": 9,
+            "C": 18,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 972
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 219,
+            "A-": 87,
+            "B+": 24,
+            "B": 24,
+            "B-": 6,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 465
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 219,
+            "A-": 114,
+            "B+": 42,
+            "B": 27,
+            "B-": 3,
+            "C+": 0,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 507
+        }
+      }
+    },
+    {
+      "professor_name": "John Durand",
+      "professor_slug": "john-durand",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 356,
+            "A-": 32,
+            "B+": 23,
+            "B": 159,
+            "B-": 23,
+            "C+": 9,
+            "C": 26,
+            "C-": 6,
+            "D+": 0,
+            "D": 1,
+            "D-": 3,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 641
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 339,
+            "A-": 0,
+            "B+": 0,
+            "B": 129,
+            "B-": 0,
+            "C+": 0,
+            "C": 15,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 483
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 17,
+            "A-": 32,
+            "B+": 23,
+            "B": 30,
+            "B-": 23,
+            "C+": 9,
+            "C": 11,
+            "C-": 6,
+            "D+": 0,
+            "D": 1,
+            "D-": 3,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 158
+        }
+      }
+    }
+  ]
+}

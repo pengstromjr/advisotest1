@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3,
+    "department": "Comparative Literature",
+    "firstName": "Noha",
+    "id": "VGVhY2hlci0xNTUxNTI2",
+    "lastName": "Radwan",
+    "legacyId": 1551526,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.75
+  }
+]

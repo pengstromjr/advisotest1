@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.4,
+    "department": "Art",
+    "firstName": "Bryce",
+    "id": "VGVhY2hlci01ODgzNjM=",
+    "lastName": "Vinokurov",
+    "legacyId": 588363,
+    "numRatings": 37,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  }
+]

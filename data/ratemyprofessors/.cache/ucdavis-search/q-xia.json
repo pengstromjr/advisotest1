@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.4,
+    "department": "Physics",
+    "firstName": "Xiang Dong",
+    "id": "VGVhY2hlci0zNTEyMjU=",
+    "lastName": "Zhu",
+    "legacyId": 351225,
+    "numRatings": 95,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 24.5614
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Engineering",
+    "firstName": "Xianglong",
+    "id": "VGVhY2hlci0yOTc3NzQ3",
+    "lastName": "Wang",
+    "legacyId": 2977747,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.5
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2,
+    "department": "Plant Biology",
+    "firstName": "Xiaosa (Jack)",
+    "id": "VGVhY2hlci0zMTYwODMy",
+    "lastName": "Xu ",
+    "legacyId": 3160832,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4,
+    "department": "Statistics",
+    "firstName": "Xiao Hui",
+    "id": "VGVhY2hlci0yODU0NDUz",
+    "lastName": "Tai",
+    "legacyId": 2854453,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2,
+    "department": "Statistics",
+    "firstName": "Xiaodong",
+    "id": "VGVhY2hlci0yMTUxOTAx",
+    "lastName": "Li",
+    "legacyId": 2151901,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 28.5714
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.3,
+    "department": "Mathematics",
+    "firstName": "Qinglan",
+    "id": "VGVhY2hlci04NzYwODY=",
+    "lastName": "Xia",
+    "legacyId": 876086,
+    "numRatings": 125,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 65.625
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "Environmental Science & Policy",
+    "firstName": "Xiaoli",
+    "id": "VGVhY2hlci0yNDM3Nzgz",
+    "lastName": "Dong",
+    "legacyId": 2437783,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.6207
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.4,
+    "department": "Economics",
+    "firstName": "Xian",
+    "id": "VGVhY2hlci0yODgxMTE5",
+    "lastName": "Jiang",
+    "legacyId": 2881119,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Animal Science",
+    "firstName": "Xiang",
+    "id": "VGVhY2hlci0yNDQ0NDY0",
+    "lastName": "Yang",
+    "legacyId": 2444464,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "Sociology",
+    "firstName": "Xiaoling",
+    "id": "VGVhY2hlci01MjQ5MDI=",
+    "lastName": "Shu",
+    "legacyId": 524902,
+    "numRatings": 31,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

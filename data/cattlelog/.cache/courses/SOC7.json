@@ -1,0 +1,256 @@
+{
+  "course_id": "SOC7",
+  "course_title": "Race & Ethnicity",
+  "overall_grades": {
+    "A+": 10,
+    "A": 156,
+    "A-": 171,
+    "B+": 157,
+    "B": 125,
+    "B-": 73,
+    "C+": 32,
+    "C": 26,
+    "C-": 27,
+    "D+": 16,
+    "D": 9,
+    "D-": 3,
+    "F": 5,
+    "P*": 41,
+    "NP*": 7
+  },
+  "overall_gpa": 3.2,
+  "overall_enrolled": 858,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brent Clark",
+      "professor_slug": "brent-clark",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 49,
+            "A-": 21,
+            "B+": 4,
+            "B": 7,
+            "B-": 4,
+            "C+": 1,
+            "C": 1,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 92
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 49,
+            "A-": 21,
+            "B+": 4,
+            "B": 7,
+            "B-": 4,
+            "C+": 1,
+            "C": 1,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 92
+        }
+      }
+    },
+    {
+      "professor_name": "Bruce Haynes",
+      "professor_slug": "bruce-haynes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 10,
+            "A-": 30,
+            "B+": 24,
+            "B": 33,
+            "B-": 24,
+            "C+": 12,
+            "C": 18,
+            "C-": 15,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 1,
+            "P*": 24,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 208
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 15,
+            "B+": 18,
+            "B": 12,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 84
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 9,
+            "B+": 3,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 15,
+            "C-": 9,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 105
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 1,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 19
+        }
+      }
+    },
+    {
+      "professor_name": "Orly Clerge",
+      "professor_slug": "orly-clerge",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 97,
+            "A-": 120,
+            "B+": 129,
+            "B": 85,
+            "B-": 45,
+            "C+": 19,
+            "C": 7,
+            "C-": 9,
+            "D+": 13,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 16,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 558
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 24,
+            "B+": 63,
+            "B": 51,
+            "B-": 42,
+            "C+": 12,
+            "C": 6,
+            "C-": 6,
+            "D+": 12,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 240
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 19,
+            "A-": 21,
+            "B+": 9,
+            "B": 10,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 72
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 63,
+            "A-": 75,
+            "B+": 57,
+            "B": 24,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 246
+        }
+      }
+    }
+  ]
+}

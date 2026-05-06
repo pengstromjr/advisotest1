@@ -1,0 +1,70 @@
+{
+  "course_id": "HDE131V",
+  "course_title": "Thriving Across the Lifespan",
+  "overall_grades": {
+    "A+": 4,
+    "A": 44,
+    "A-": 69,
+    "B+": 25,
+    "B": 5,
+    "B-": 5,
+    "C+": 4,
+    "C": 1,
+    "C-": 1,
+    "D+": 1,
+    "D": 1,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.56,
+  "overall_enrolled": 161,
+  "available_quarters": [
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Maciel Hernandez",
+      "professor_slug": "maciel-hernandez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 44,
+            "A-": 69,
+            "B+": 25,
+            "B": 5,
+            "B-": 5,
+            "C+": 4,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 161
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 44,
+            "A-": 69,
+            "B+": 25,
+            "B": 5,
+            "B-": 5,
+            "C+": 4,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 161
+        }
+      }
+    }
+  ]
+}

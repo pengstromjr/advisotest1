@@ -9,16 +9,29 @@
       "heading": "General Requirements",
       "courses": [
         "ANT/ESP 101",
+        "ANT 102",
         "ANT 103",
         "ANT 122A",
         "ANT 128A",
+        "ANT 150",
         "ANT 151",
         "ANT 152",
         "ANT 153",
         "ANT 154A",
         "ANT 155",
         "ANT 157",
-        "ANT 158",
+        "ANT 158"
+      ],
+      "units": "2-5",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 170",
         "ANT 172",
         "ANT 174",
@@ -33,9 +46,21 @@
         "ANT 184",
         "ANT 185",
         "ANT 187",
+        "ANT 188"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 133",
+        "ANT 140A",
         "ANT 140B",
-        "ANT 141C",
         "ANT 141",
         "ANT 142",
         "ANT 143A",
@@ -44,21 +69,36 @@
         "ANT 146N",
         "ANT 147/MSA 131B/CTS 146B",
         "ANT 148A",
-        "ANT 178",
+        "ANT 178"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one from below or any other sociocultural track course that refers in its title to one or more peoples or regions of the world:"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 100",
         "ANT 104N",
         "ANT 107",
         "ANT/STS 109",
+        "ANT/STS 111",
+        "ANT 117",
         "ANT 120",
         "ANT/STS 121",
         "ANT 122A",
         "ANT 122B",
         "ANT 123AN",
         "ANT 124",
+        "ANT 125A",
         "ANT 125B",
         "ANT 126A",
         "ANT 126B",
         "ANT 127",
+        "ANT 128B",
         "ANT/STS 129",
         "ANT 130A",
         "ANT 130BN",
@@ -73,25 +113,44 @@
         "ANT 139AN",
         "ANT 139BN"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
-        "Choose one:",
-        "Choose one:",
-        "Choose one from below or any other sociocultural track course that refers in its title to one or more peoples or regions of the world:",
         "Choose two:"
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ANT 170",
+        "ANT 170"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Archaeology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 172",
         "ANT 174",
         "ANT 175",
         "ANT 176",
         "ANT 177",
         "ANT 178",
-        "ANT 179",
+        "ANT 179"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ],
+      "group": "Archaeology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 156A",
         "ANT 156B",
         "ANT 180",
@@ -101,40 +160,86 @@
         "ANT 183",
         "ANT 184",
         "ANT 185",
-        "ANT 187"
+        "ANT 187",
+        "ANT 188"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
-        "Choose two:",
         "Choose two:"
-      ]
+      ],
+      "group": "Archaeology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANT 101",
-        "ANT 103",
+        "ANT 102",
         "ANT 122A",
         "ANT 128A",
         "ANT 141C",
-        "ANT 141",
+        "or ANT 141",
+        "ANT 150",
         "ANT 151",
-        "ANT 187"
+        "ANT 152",
+        "ANT 153",
+        "ANT 154A",
+        "ANT 154C",
+        "ANT 154CL",
+        "ANT 155",
+        "ANT 156A",
+        "ANT 156B",
+        "ANT 157",
+        "ANT 157L",
+        "ANT 158",
+        "ANT 159",
+        "ANT 160",
+        "ANT 170",
+        "ANT 172",
+        "ANT 174",
+        "ANT 175",
+        "ANT 176",
+        "ANT 177",
+        "ANT 178",
+        "ANT 180",
+        "ANT 181",
+        "ANT 181L",
+        "ANT 182",
+        "ANT 183",
+        "ANT 184",
+        "ANT 185",
+        "ANT 187",
+        "ANT 188"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "18-25",
+      "notes": [
+        "Any five upper division Evolutionary Anthropology courses; Evolutionary track courses at the upper division level are:"
+      ],
+      "group": "Evolutionary Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ANT 015",
+        "ANT 015"
+      ],
+      "units": "5",
+      "notes": [],
+      "group": "Global Human Health Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 101",
+        "ANT 102",
         "ANT 104N",
         "ANT/STS 121",
         "ANT/STS 129",
         "ANT 132",
         "ANT 138",
         "ANT 139BN",
+        "ANT 150",
         "ANT 152",
         "ANT 153",
         "ANT 154A",
@@ -145,35 +250,46 @@
         "ANT 158",
         "ANT 159"
       ],
-      "units": "Units",
+      "units": "14-21",
       "notes": [
         "Choose four; minimum 16 upper division units:"
-      ]
+      ],
+      "group": "Global Human Health Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ANT 100",
-        "ANT 140A",
-        "ANT 148A",
-        "ANT 100",
-        "ANT 148A",
-        "ANT 101",
-        "ANT 103",
-        "ANT 128A",
+        "ANT 100"
+      ],
+      "units": "4",
+      "notes": [
+        "One upper division area-focus Sociocultural track course; area-focus Sociocultural track courses are ANT 140A (Discontinued for winter 2025) **-ANT 148A. (4 units)",
+        "One additional upper division Sociocultural Anthropology course. Sociocultural track courses at the upper division level are numbered ANT 100-ANT 148A, with the exception of ANT 101, ANT 103 (Discontinued for winter 2025) **, & ANT 128A. (4 units)"
+      ],
+      "group": "Sociocultural Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 104N",
         "ANT 107",
         "ANT/STS 109",
+        "ANT/STS 111",
+        "ANT 117",
         "ANT 120",
         "ANT/STS 121",
         "ANT 122A",
         "ANT 122B",
         "ANT 123AN",
         "ANT 124",
+        "ANT 125A",
         "ANT 125B",
         "ANT 126A",
         "ANT 126B",
         "ANT 127",
+        "ANT 128B",
         "ANT/STS 129",
         "ANT 130A",
         "ANT 130BN",
@@ -188,13 +304,23 @@
         "ANT 139AN",
         "ANT 139BN"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Sociocultural Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "General Emphasis",
+    "Archaeology Emphasis",
+    "Evolutionary Emphasis",
+    "Global Human Health Emphasis",
+    "Sociocultural Emphasis"
+  ],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.452Z"
 }

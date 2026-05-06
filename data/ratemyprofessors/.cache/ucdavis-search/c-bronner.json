@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.7,
+    "department": "Civil Engineering",
+    "firstName": "Colleen",
+    "id": "VGVhY2hlci0yMTUxMjM5",
+    "lastName": "Bronner",
+    "legacyId": 2151239,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.2381
+  }
+]

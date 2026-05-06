@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Mechanical Engineering",
+    "firstName": "Christina",
+    "id": "VGVhY2hlci0zMDc3Mzk3",
+    "lastName": "Harvey",
+    "legacyId": 3077397,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.6,
+    "department": "Civil Engineering",
+    "firstName": "John",
+    "id": "VGVhY2hlci04MTc5NDI=",
+    "lastName": "Harvey",
+    "legacyId": 817942,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

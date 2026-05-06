@@ -8,18 +8,19 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose one lower division Native American Studies course.",
+        "Choose one lower division Native American Studies course. (4 units)",
         "Native American Studies (NAS) courses.",
-        "Choose five upper division Native American Studies courses.",
-        "Native American Studies (NAS) courses.",
-        "UC Davis students should take at least two courses from UC Davis faculty to earn a minor. With approval of an advisor, UC Davis students may take some or the rest of their classes via the NAS/AIS/NAIS courses offered via UC Online from any campus in the system.",
-        "Students from other campuses may also consult their departmental advisors about counting UC Online courses towards their regular degrees if NAS, AIS, or NAIS majors or minors are offered at their universities"
+        "Choose five upper division Native American Studies courses. (20 units)",
+        "UC Davis students should take at least two UC Davis courses in fulfillment of the minor requirements. With approval of the minor advisor, the remainder of the minor requirements can be fulfilled via UC Davis courses and/or NAS/AIS/NAIS courses offered via UC Online from any campus in the UC system.",
+        "Students from other campuses may also consult their departmental advisors about counting UC Online courses towards their regular degrees if NAS, AIS, or NAIS majors or minors are offered at their universities."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.770Z"
 }

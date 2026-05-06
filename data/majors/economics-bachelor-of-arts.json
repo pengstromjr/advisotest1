@@ -9,10 +9,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "8",
       "notes": []
@@ -21,7 +21,8 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032"
       ],
       "units": "4",
@@ -32,37 +33,54 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021B"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 021A",
+        "MAT 021B"
       ],
       "units": "8-12",
       "notes": [
         "Choose one series:",
-        "Discontinued for spring 2025",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (20-24 units)"
       ]
     },
     {
       "heading": "Economics",
       "courses": [
         "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100AV",
         "ECN 100B",
         "ECN 101",
-        "ECN 102",
+        "ECN 102"
+      ],
+      "units": "20",
+      "notes": []
+    },
+    {
+      "heading": "Economics",
+      "courses": [
         "ECN 110A",
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "ECN 111A",
-        "ECN 111AV",
-        "ECN 111AY",
+        "or ECN 111AV",
+        "or ECN 111AY",
         "ECN 111B",
         "ECN 117"
       ],
-      "units": "20",
+      "units": "",
       "notes": [
-        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [],
+      "units": "24",
+      "notes": [
         "Choose one specialization below:",
         "Specialization: General",
         "Specialization: Behavior & Strategy",
@@ -71,7 +89,7 @@
         "Specialization: Policy",
         "Specialization: Poverty & Inequality",
         "Specialization: Economic History",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     },
     {
@@ -79,39 +97,39 @@
       "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 138",
         "ECN 140",
         "ECN 141",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 145",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 164",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y",
         "ECN 190",
         "ECN 194HA",
         "ECN 194HB",
@@ -121,60 +139,84 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
         "Choose 12 units:",
-        "Additional upper division Economics courses."
-      ]
+        "Additional upper division Economics courses. (12 units)"
+      ],
+      "group": "Specialization: General",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 121A",
-        "ECN 122",
+        "ECN 122"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Specialization: Behavior & Strategy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 107/PSC 133/CGS 107",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
-        "ARE 133",
+        "ARE 133"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ],
+      "group": "Specialization: Behavior & Strategy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 138",
         "ECN 140",
         "ECN 141",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 145",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 164",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y",
         "ECN 190",
         "ECN 194HA",
         "ECN 194HB",
@@ -184,88 +226,110 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Choose two:",
-        "Choose one:",
-        "Additional upper division Economics courses."
-      ]
+        "Additional upper division Economics courses. (8 units)"
+      ],
+      "group": "Specialization: Behavior & Strategy",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ECN 140",
+        "ECN 140"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Specialization: Data Analytics & Economics Analysis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 122",
         "ECN 132",
         "ECN 140",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 145",
         "ECN 190"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
         "Choose two:",
-        "Additional upper division Economics courses."
-      ]
+        "Additional upper division Economics courses. (12 units)"
+      ],
+      "group": "Specialization: Data Analytics & Economics Analysis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "ECN/ARE 115A",
         "ECN/ARE 115B",
-        "ECN/ARE 115BY",
+        "or ECN/ARE 115BY",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 141",
         "ECN 160B",
         "ECN 164",
-        "ECN 171",
+        "ECN 171"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ],
+      "group": "Specialization: International Macro-Finance",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 138",
         "ECN 140",
         "ECN 141",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 145",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 164",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y",
         "ECN 190",
         "ECN 194HA",
         "ECN 194HB",
@@ -275,83 +339,97 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose three:",
         "Choose three:"
-      ]
+      ],
+      "group": "Specialization: International Macro-Finance",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 138",
         "ECN 145",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 190"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
         "Choose three:",
-        "Additional upper division Economics courses."
-      ]
+        "Additional upper division Economics courses. (12 units)"
+      ],
+      "group": "Specialization: Policy",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN/ARE 115A",
         "ECN/ARE 115B",
-        "ECN/ARE 115BY",
+        "or ECN/ARE 115BY",
         "ECN 117",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 138",
         "ECN 151B",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ],
+      "group": "Specialization: Poverty & Inequality",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 138",
         "ECN 140",
         "ECN 141",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 164",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y",
         "ECN 190",
         "ECN 194HA",
         "ECN 194HB",
@@ -361,21 +439,22 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose three:",
         "Choose three:"
-      ]
+      ],
+      "group": "Specialization: Poverty & Inequality",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 110A",
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "ECN 111A",
-        "ECN 111AV",
-        "ECN 111AY",
+        "or ECN 111AV",
+        "or ECN 111AY",
         "ECN 111B",
         "ECN 117",
         "HIS 107",
@@ -443,6 +522,7 @@
         "HIS 151C",
         "HIS 151D",
         "HIS 156",
+        "or HIS 165V",
         "HIS 157",
         "HIS 158",
         "HIS 159",
@@ -453,7 +533,6 @@
         "HIS 163B",
         "HIS 164",
         "HIS 165",
-        "HIS 165V",
         "HIS 166A",
         "HIS 166B",
         "HIS 167",
@@ -508,6 +587,7 @@
         "HIS 191J",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "HIS 193C",
         "HIS 193D",
         "HIS 194A",
@@ -518,42 +598,54 @@
         "HIS 195B",
         "HIS 195C",
         "HIS 196A",
-        "HIS 196B",
+        "HIS 196B"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:",
+        "One of which may be from:"
+      ],
+      "group": "Specialization: Economic History",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 138",
         "ECN 140",
         "ECN 141",
         "ECN 142",
-        "ECN 142Y",
+        "or ECN 142Y",
         "ECN 145",
         "ECN 151A",
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 164",
         "ECN 167",
-        "ECN 167Y",
+        "or ECN 167Y",
         "ECN 190",
         "ECN 194HA",
         "ECN 194HB",
@@ -563,12 +655,12 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose three:",
-        "One of which may be from:",
         "Choose three:"
-      ]
+      ],
+      "group": "Specialization: Economic History",
+      "group_kind": "path"
     }
   ],
   "specializations": [
@@ -581,10 +673,12 @@
     "Specialization: Economic History"
   ],
   "advising_notes": [
-    "Course Limits: Students are expected to take ECN 100A, ECN 100B, and ECN 101 at UC Davis. Students may receive one specialization only for the major.Except under extraordinary circumstances, not more than two economics courses should be taken in any one quarter. In special cases, the department will accept a limited number of related upper division courses from other departments in satisfaction of the economics upper division course requirements. Approval from a departmental advisor is required in all such cas",
-    "Study Abroad: The Economics Department wishes to accommodate students who would like to complement their economics degree with a study abroad experience. Up to 20 units of upper division credit from foreign campuses (excluding ECN 100A, ECN 100B, and ECN 101) may be used towards the completion of the degree. To ensure that foreign courses will apply towards the economics degree, students need to select courses from the pre-approved list at the UC Davis Study Abroad office or seek pre-approval in the economics",
+    "Course Limits: Students are expected to take ECN 100A, ECN 100B, and ECN 101 at UC Davis. Students may receive one specialization only for the major.Except under extraordinary circumstances, not more than two economics courses should be taken in any one quarter. In special cases, the department will accept a limited number of related upper division courses from other departments in satisfaction of the economics upper division course requirements. Approval from a departmental advisor is required in all such cases.Graduation with High or Highest Honors. To be eligible for departmental recommendation for High or Highest Honors in Economics at graduation, a student must take all upper division courses in Economics for a letter grade, earn at least a 3.500 grade point average in those courses, and complete at",
+    "Study Abroad: The Economics Department wishes to accommodate students who would like to complement their economics degree with a study abroad experience. Up to 20 units of upper division credit from foreign campuses (excluding ECN 100A, ECN 100B, and ECN 101) may be used towards the completion of the degree. To ensure that foreign courses will apply towards the economics degree, students need to select courses from the pre-approved list at the UC Davis Study Abroad office or seek pre-approval in the economics department for the foreign courses they wish to complete.",
     "Recommended: Students considering graduate study in economics are strongly urged to take MAT 021A-MAT 021B-MAT 021C and MAT 022A.",
     "American History & Institutions: This University requirement can be satisfied by completion of ECN 111A, ECN 111B; see also under Bachelor’s Degree Requirements."
   ],
-  "total_units": "64"
+  "total_units": "64",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.491Z"
 }

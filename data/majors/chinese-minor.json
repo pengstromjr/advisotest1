@@ -13,15 +13,15 @@
         "CHN 011",
         "CHN 050",
         "CHN 003BL",
-        "CHN 006",
+        "or CHN 006",
         "CHN 192",
         "CHN 197T",
         "CHN 198",
         "CHN 199"
       ],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "All upper division CHN courses, including both language courses and literature in translation courses, may be used to meet this requirement.",
+        "All upper division CHN courses, including both language courses and literature in translation courses, may be used to meet this requirement. (20 units)",
         "One approved lower division course may also be used:",
         "In addition, students must demonstrate their language proficiency, normally through completion of:",
         "Only 4 units from the following may be applied to the minor:",
@@ -31,5 +31,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.073Z"
 }

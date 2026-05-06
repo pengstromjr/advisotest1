@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4,
+    "department": "Molecular/Cellular Biology",
+    "firstName": "Martine",
+    "id": "VGVhY2hlci0zMTYwMzQy",
+    "lastName": "Therrien",
+    "legacyId": 3160342,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

@@ -6,6 +6,14 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "Lower Division Required Courses",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed."
+      ]
+    },
+    {
       "heading": "Mathematics",
       "courses": [
         "MAT 021A",
@@ -13,22 +21,20 @@
         "MAT 021C",
         "MAT 021D",
         "MAT 022A",
-        "MAT 027A",
-        "BIS 027A",
+        "or MAT 027A",
+        "or BIS 027A",
         "MAT 022B",
-        "MAT 027B",
-        "BIS 027B"
+        "or MAT 027B",
+        "or BIS 027B"
       ],
       "units": "4",
-      "notes": [
-        "Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed."
-      ]
+      "notes": []
     },
     {
       "heading": "Physics",
       "courses": [
         "PHY 009A",
-        "PHY 009HA",
+        "or PHY 009HA",
         "PHY 009B",
         "PHY 009C"
       ],
@@ -38,11 +44,13 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
         "CHE 008A",
-        "CHE 118A",
+        "or CHE 118A",
         "CHE 008B",
-        "CHE 118B"
+        "or CHE 118B"
       ],
       "units": "15",
       "notes": []
@@ -52,7 +60,7 @@
       "courses": [
         "ENG 006",
         "ENG 017",
-        "ENG 017V"
+        "or ENG 017V"
       ],
       "units": "4",
       "notes": []
@@ -60,10 +68,13 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A"
+        "BIS 002A",
+        "or BIO 002"
       ],
-      "units": "5",
-      "notes": []
+      "units": "4-5",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Biomedical Engineering",
@@ -76,9 +87,9 @@
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
         "UWP 001V",
         "UWP 001Y"
@@ -86,14 +97,14 @@
       "units": "2",
       "notes": [
         "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (83-87 units)"
       ]
     },
     {
       "heading": "Engineering",
       "courses": [
         "ENG 100",
-        "EEC 100",
+        "or EEC 100",
         "ENG 105",
         "ENG 190"
       ],
@@ -113,7 +124,7 @@
         "BIM 110C",
         "BIM 111",
         "BIM 116",
-        "NPB 101"
+        "or NPB 101"
       ],
       "units": "4",
       "notes": [
@@ -129,11 +140,11 @@
         "BIM 161A",
         "BIM 161L",
         "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032AV",
         "ECS 032B",
         "PHY 009D",
         "BIM 192",
-        "BIM 199"
+        "or BIM 199"
       ],
       "units": "7",
       "notes": [
@@ -145,17 +156,8 @@
     {
       "heading": "Engineering Electives",
       "courses": [
-        "BIM 102",
-        "BIM 161A",
-        "BIM 161L",
-        "BIM 099",
         "BIM 192",
-        "BIM 189A",
-        "BIM 189B",
-        "BIM 189C",
-        "BIM 199",
-        "BIM 192",
-        "BIM 199",
+        "or BIM 199",
         "EBS 128",
         "EBS 130",
         "EBS 165",
@@ -166,6 +168,8 @@
         "ECH 145B",
         "ECH 155",
         "ECH 160",
+        "ECH 161A",
+        "ECH 161B",
         "ECH 161L",
         "ECH 170",
         "ECS 124",
@@ -175,13 +179,13 @@
         "EEC 130A",
         "EEC 130B",
         "EEC 140A",
-        "EEC 140AV",
+        "or EEC 140AV",
         "EEC 140B",
         "EEC 151",
         "EEC 157A",
-        "EEC 157AV",
+        "or EEC 157AV",
         "EEC 157B",
-        "EEC 157BY",
+        "or EEC 157BY",
         "EEC 160",
         "EME 150A",
         "EME 150B",
@@ -205,16 +209,17 @@
         "EMS 182",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y",
+        "or ENG 045Y",
         "ENG 102",
         "ENG 103",
         "ENG 104",
-        "ENG 104V",
+        "or ENG 104V",
         "ENG 104L",
         "ENG 106"
       ],
       "units": "20",
       "notes": [
+        "Any letter graded upper division Biomedical Engineering course that is not required. Courses that do not count are BIM 102, BIM 161A, BIM 161L, and select variable unit classes from BIM 099, BIM 192, BIM 189A, BIM 189B, BIM 189C, BIM 199.",
         "With the approval of the Biomedical Engineering Undergraduate Committee; 4 units:",
         "No more than 4 units allowed from lower division coursework."
       ]
@@ -223,17 +228,17 @@
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102B",
         "UWP 102E",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY",
+        "or UWP 104FV",
+        "or UWP 104FY",
         "UWP 104I",
         "UWP 104T"
       ],
@@ -241,11 +246,13 @@
       "notes": [
         "Choose one; grade of C- or better is required:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (75-81 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "158"
+  "total_units": "157",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.911Z"
 }

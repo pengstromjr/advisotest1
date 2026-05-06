@@ -1,0 +1,73 @@
+{
+  "course_id": "CDM40A",
+  "course_title": "Media History 1: Gutenberg to Oppenheimer",
+  "overall_grades": {
+    "A+": 4,
+    "A": 12,
+    "A-": 2,
+    "B+": 3,
+    "B": 9,
+    "B-": 1,
+    "C+": 2,
+    "C": 2,
+    "C-": 0,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 5
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 44,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Colin Johnson",
+      "professor_slug": "colin-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 12,
+            "A-": 2,
+            "B+": 3,
+            "B": 9,
+            "B-": 1,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 44
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 12,
+            "A-": 2,
+            "B+": 3,
+            "B": 9,
+            "B-": 1,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 44
+        }
+      }
+    }
+  ]
+}

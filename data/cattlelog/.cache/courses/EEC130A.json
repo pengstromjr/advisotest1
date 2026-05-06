@@ -1,0 +1,245 @@
+{
+  "course_id": "EEC130A",
+  "course_title": "Electromagnetics I",
+  "overall_grades": {
+    "A+": 94,
+    "A": 307,
+    "A-": 34,
+    "B+": 83,
+    "B": 236,
+    "B-": 37,
+    "C+": 58,
+    "C": 226,
+    "C-": 52,
+    "D+": 4,
+    "D": 127,
+    "D-": 6,
+    "F": 61
+  },
+  "overall_gpa": 2.73,
+  "overall_enrolled": 1325,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anhvu Pham",
+      "professor_slug": "anhvu-pham",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 45,
+            "A-": 21,
+            "B+": 66,
+            "B": 27,
+            "B-": 12,
+            "C+": 33,
+            "C": 63,
+            "C-": 21,
+            "D+": 0,
+            "D": 27,
+            "D-": 0,
+            "F": 21
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 339
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 45,
+            "A-": 21,
+            "B+": 66,
+            "B": 27,
+            "B-": 12,
+            "C+": 33,
+            "C": 63,
+            "C-": 21,
+            "D+": 0,
+            "D": 27,
+            "D-": 0,
+            "F": 21
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 339
+        }
+      }
+    },
+    {
+      "professor_name": "Brian Kolner",
+      "professor_slug": "brian-kolner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 12,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.04,
+          "quarter_enrolled": 48
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 12,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.04,
+          "quarter_enrolled": 48
+        }
+      }
+    },
+    {
+      "professor_name": "Weijian Yang",
+      "professor_slug": "weijian-yang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 7,
+            "A-": 1,
+            "B+": 8,
+            "B": 2,
+            "B-": 1,
+            "C+": 4,
+            "C": 7,
+            "C-": 1,
+            "D+": 1,
+            "D": 4,
+            "D-": 6,
+            "F": 16
+          },
+          "quarter_average_gpa": 2.08,
+          "quarter_enrolled": 68
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 7,
+            "A-": 1,
+            "B+": 8,
+            "B": 2,
+            "B-": 1,
+            "C+": 4,
+            "C": 7,
+            "C-": 1,
+            "D+": 1,
+            "D": 4,
+            "D-": 6,
+            "F": 16
+          },
+          "quarter_average_gpa": 2.08,
+          "quarter_enrolled": 68
+        }
+      }
+    },
+    {
+      "professor_name": "William Putnam",
+      "professor_slug": "william-putnam",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 252,
+            "A-": 9,
+            "B+": 9,
+            "B": 195,
+            "B-": 24,
+            "C+": 21,
+            "C": 147,
+            "C-": 27,
+            "D+": 0,
+            "D": 84,
+            "D-": 0,
+            "F": 21
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 870
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 78,
+            "A-": 9,
+            "B+": 6,
+            "B": 75,
+            "B-": 12,
+            "C+": 3,
+            "C": 39,
+            "C-": 12,
+            "D+": 0,
+            "D": 18,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 288
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 132,
+            "A-": 0,
+            "B+": 3,
+            "B": 96,
+            "B-": 12,
+            "C+": 18,
+            "C": 60,
+            "C-": 15,
+            "D+": 0,
+            "D": 42,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 420
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 42,
+            "A-": 0,
+            "B+": 0,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 48,
+            "C-": 0,
+            "D+": 0,
+            "D": 24,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 162
+        }
+      }
+    }
+  ]
+}

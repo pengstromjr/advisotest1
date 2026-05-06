@@ -1,0 +1,233 @@
+{
+  "course_id": "CDM20",
+  "course_title": "Filmmaking Foundations",
+  "overall_grades": {
+    "A+": 217,
+    "A": 299,
+    "A-": 120,
+    "B+": 54,
+    "B": 69,
+    "B-": 31,
+    "C+": 15,
+    "C": 11,
+    "C-": 4,
+    "D+": 3,
+    "D": 1,
+    "D-": 0,
+    "F": 13,
+    "P*": 18,
+    "NP*": 3
+  },
+  "overall_gpa": 3.64,
+  "overall_enrolled": 858,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrew Smith",
+      "professor_slug": "andrew-smith",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 132,
+            "A-": 27,
+            "B+": 14,
+            "B": 22,
+            "B-": 10,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 272
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 111,
+            "A-": 15,
+            "B+": 9,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 216
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 21,
+            "A-": 12,
+            "B+": 5,
+            "B": 7,
+            "B-": 4,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 56
+        }
+      }
+    },
+    {
+      "professor_name": "Branwen Okpako",
+      "professor_slug": "branwen-okpako",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 80,
+            "A-": 60,
+            "B+": 25,
+            "B": 26,
+            "B-": 6,
+            "C+": 3,
+            "C": 5,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 235
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 14,
+            "A-": 21,
+            "B+": 13,
+            "B": 8,
+            "B-": 0,
+            "C+": 0,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 64
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 66,
+            "A-": 39,
+            "B+": 12,
+            "B": 18,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 171
+        }
+      }
+    },
+    {
+      "professor_name": "Julian Gatto",
+      "professor_slug": "julian-gatto",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 150,
+            "A": 87,
+            "A-": 33,
+            "B+": 15,
+            "B": 21,
+            "B-": 15,
+            "C+": 12,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 351
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 42,
+            "A-": 18,
+            "B+": 3,
+            "B": 9,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 147
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 45,
+            "A-": 15,
+            "B+": 12,
+            "B": 12,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 204
+        }
+      }
+    }
+  ]
+}

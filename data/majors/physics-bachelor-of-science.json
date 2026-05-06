@@ -8,8 +8,15 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 040",
         "PHY 080"
       ],
@@ -30,7 +37,7 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (48-54 units)"
       ]
     },
     {
@@ -46,7 +53,7 @@
         "PHY 115A",
         "PHY 115B",
         "PHY 102",
-        "PHY 104B"
+        "or PHY 104B"
       ],
       "units": "4",
       "notes": []
@@ -55,12 +62,16 @@
       "heading": "Laboratory Requirement",
       "courses": [
         "PHY 122A",
-        "PHY 122A",
-        "PHY 122B",
-        "PHY 116APHY 116BPHY 116C"
+        "or PHY 122B",
+        "or PHY 116A",
+        "or PHY 116B",
+        "or PHY 116C"
       ],
       "units": "4-12",
-      "notes": []
+      "notes": [
+        "Choose PHY 122A or 122B or 116 series:",
+        "OR"
+      ]
     },
     {
       "heading": "Concentration Courses",
@@ -84,29 +95,39 @@
     {
       "heading": "Additional Upper Division Physics Courses",
       "courses": [
-        "PHY 194HAPHY 194HB",
+        "PHY 194HA",
+        "PHY 194HB",
         "PHY 195",
         "PHY 198",
         "PHY 199"
       ],
       "units": "0-12",
       "notes": [
-        "Additional upper division Physics courses1, for a total of 15 upper-division Physics courses of 3 or more units each. With prior departmental approval, one  course from mathematics, engineering, or natural science may be used to meet this  requirement. May include only one from:",
-        "Depth Subject Matter Subtotal"
+        "Additional upper division Physics courses ¹, for a total of 15 upper-division Physics courses of 3 or more units each. With prior departmental approval, one course from mathematics, engineering, or natural science may be used to meet this requirement. May include only one from",
+        "Depth Subject Matter Subtotal (53-76 units)"
       ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 040",
         "PHY 080"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -120,8 +141,10 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (48-54 units)"
+      ],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -135,15 +158,17 @@
         "PHY 112",
         "PHY 115A",
         "PHY 115B",
-        "PHY 102",
-        "PHY 104B",
         "PHY 151",
         "PHY 152",
         "PHY 153",
-        "PHY 156"
+        "PHY 156",
+        "PHY 102",
+        "or PHY 104B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
@@ -155,7 +180,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Electives",
@@ -170,7 +197,9 @@
         "PHY 154",
         "PHY 155",
         "GEL 163",
-        "PHY 194HAPHY 194HB",
+        "or EPS 163",
+        "PHY 194HA",
+        "PHY 194HB",
         "PHY 195",
         "PHY 198",
         "PHY 199"
@@ -179,19 +208,27 @@
       "notes": [
         "Choose two:",
         "May include only one from:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (59-68 units)"
+      ],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Recommended",
       "courses": [
         "AST 025"
       ],
-      "units": "107-122",
-      "notes": []
+      "units": "",
+      "notes": [],
+      "group": "Astrophysics Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Astrophysics Emphasis"
+  ],
   "advising_notes": [],
-  "total_units": "101"
+  "total_units": "101",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.914Z"
 }

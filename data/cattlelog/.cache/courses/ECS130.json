@@ -1,0 +1,145 @@
+{
+  "course_id": "ECS130",
+  "course_title": "Scientific Computation",
+  "overall_grades": {
+    "A+": 24,
+    "A": 95,
+    "A-": 53,
+    "B+": 55,
+    "B": 43,
+    "B-": 26,
+    "C+": 17,
+    "C": 18,
+    "C-": 15,
+    "D+": 9,
+    "D": 7,
+    "D-": 0,
+    "F": 11,
+    "P*": 72,
+    "NP*": 30
+  },
+  "overall_gpa": 3.14,
+  "overall_enrolled": 475,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Julian Panetta",
+      "professor_slug": "julian-panetta",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 90,
+            "A-": 42,
+            "B+": 51,
+            "B": 33,
+            "B-": 15,
+            "C+": 12,
+            "C": 12,
+            "C-": 6,
+            "D+": 9,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 66,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 405
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 27,
+            "B+": 21,
+            "B": 12,
+            "B-": 3,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 51,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 213
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 42,
+            "A-": 15,
+            "B+": 30,
+            "B": 21,
+            "B-": 12,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 15,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 192
+        }
+      }
+    },
+    {
+      "professor_name": "Zhaojun Bai",
+      "professor_slug": "zhaojun-bai",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 11,
+            "B+": 4,
+            "B": 10,
+            "B-": 11,
+            "C+": 5,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 70
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 11,
+            "B+": 4,
+            "B": 10,
+            "B-": 11,
+            "C+": 5,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 70
+        }
+      }
+    }
+  ]
+}

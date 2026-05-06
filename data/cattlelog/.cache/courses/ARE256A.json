@@ -1,0 +1,130 @@
+{
+  "course_id": "ARE256A",
+  "course_title": "Applied Econometrics I",
+  "overall_grades": {
+    "A+": 23,
+    "A": 33,
+    "A-": 38,
+    "B+": 27,
+    "B": 36,
+    "B-": 4,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.56,
+  "overall_enrolled": 161,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Timothy Beatty",
+      "professor_slug": "timothy-beatty",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 23,
+            "A": 33,
+            "A-": 38,
+            "B+": 27,
+            "B": 36,
+            "B-": 4,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 161
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 12,
+            "B+": 9,
+            "B": 12,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 48
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 18,
+            "B+": 6,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 57
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 6,
+            "B+": 9,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 42
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 3,
+            "A-": 2,
+            "B+": 3,
+            "B": 3,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 14
+        }
+      }
+    }
+  ]
+}

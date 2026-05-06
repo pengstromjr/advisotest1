@@ -1,0 +1,386 @@
+{
+  "course_id": "EDU81",
+  "course_title": "Learning in Science & Mathematics",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 1293,
+    "NP": 102
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 1395,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alvin Mendle",
+      "professor_slug": "alvin-mendle",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 261,
+            "NP": 6
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 267
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 123,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 126
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 99,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 102
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 39
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 39
+        }
+      }
+    },
+    {
+      "professor_name": "Kathlan Latimer",
+      "professor_slug": "kathlan-latimer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 845,
+            "NP": 96
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 941
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 165,
+            "NP": 21
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 186
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 147,
+            "NP": 21
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 168
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 162,
+            "NP": 9
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 171
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 46,
+            "NP": 5
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 51
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 156,
+            "NP": 12
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 168
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 111,
+            "NP": 27
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 138
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 58,
+            "NP": 1
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 59
+        }
+      }
+    },
+    {
+      "professor_name": "Megan Bettis",
+      "professor_slug": "megan-bettis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 187
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 187
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 63
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 63
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 93
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 93
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 31
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 31
+        }
+      }
+    }
+  ]
+}

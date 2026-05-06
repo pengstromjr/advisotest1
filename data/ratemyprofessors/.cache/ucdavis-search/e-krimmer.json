@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.1,
+    "department": "Languages",
+    "firstName": "Elisabeth",
+    "id": "VGVhY2hlci00OTcwMTE=",
+    "lastName": "Krimmer",
+    "legacyId": 497011,
+    "numRatings": 85,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80.4348
+  }
+]

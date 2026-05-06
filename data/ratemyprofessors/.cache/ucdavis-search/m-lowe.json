@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.5,
+    "department": "Plant Pathology",
+    "firstName": "Tiffany",
+    "id": "VGVhY2hlci0yOTkxNTAx",
+    "lastName": "Lowe-Power",
+    "legacyId": 2991501,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.8,
+    "department": "Computer Science",
+    "firstName": "Jason",
+    "id": "VGVhY2hlci0yNDY4MzYx",
+    "lastName": "Lowe-Power",
+    "legacyId": 2468361,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.7273
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Learning Center",
+    "firstName": "Palma",
+    "id": "VGVhY2hlci0xMzA4MjAx",
+    "lastName": "Lower",
+    "legacyId": 1308201,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Veterinary Sciences",
+    "firstName": "Linda",
+    "id": "VGVhY2hlci0xMjIzNzE3",
+    "lastName": "Lowestine",
+    "legacyId": 1223717,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "course_id": "FOR220",
+  "course_title": "Analysis of Toxicants",
+  "overall_grades": {
+    "A+": 0,
+    "A": 18,
+    "A-": 0,
+    "B+": 9,
+    "B": 18,
+    "B-": 15,
+    "C+": 9,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 3,
+    "F": 6
+  },
+  "overall_gpa": 2.81,
+  "overall_enrolled": 78,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Qi Zhang",
+      "professor_slug": "qi-zhang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 0,
+            "B+": 9,
+            "B": 18,
+            "B-": 15,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 78
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 6,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 30
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 0,
+            "B+": 9,
+            "B": 12,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

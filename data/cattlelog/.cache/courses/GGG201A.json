@@ -1,0 +1,155 @@
+{
+  "course_id": "GGG201A",
+  "course_title": "Advanced Genetic Analysis",
+  "overall_grades": {
+    "A+": 21,
+    "A": 134,
+    "A-": 0,
+    "B+": 6,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.97,
+  "overall_enrolled": 161,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "David Segal",
+      "professor_slug": "david-segal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 108,
+            "A-": 0,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 129
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 60,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 72
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 48,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 57
+        }
+      }
+    },
+    {
+      "professor_name": "Luis Carvajal Carmona",
+      "professor_slug": "luis-carvajal-carmona",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 26,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 32
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 10,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 12
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 16,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 20
+        }
+      }
+    }
+  ]
+}

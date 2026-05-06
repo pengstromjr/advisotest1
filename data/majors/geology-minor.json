@@ -8,7 +8,7 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "19-24",
       "notes": [
         "Choose one of four emphases:",
         "General Geology Emphasis",
@@ -20,62 +20,123 @@
     {
       "heading": "General Requirements",
       "courses": [
+        "ESP 001/EPS 050/GEL 050",
+        "EPS 102",
+        "or GEL 101",
         "GEL 050L",
+        "or EPS 050L",
         "GEL 107",
+        "or EPS 107",
         "GEL 108",
+        "or EPS 108",
         "GEL 109",
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026"
+        "or EPS 109",
+        "GEL 116N/ESP 116N",
+        "or EPS 116",
+        "or EPS 134",
+        "or GEL 134"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "3-4",
+      "notes": [],
+      "group": "General Geology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ECI 171171L",
-        "GEL 050050L",
+        "ECI 171",
+        "GEL 050",
+        "GEL 050L",
+        "or EPS 050",
+        "or EPS 050L"
+      ],
+      "units": "5",
+      "notes": [
+        "OR"
+      ],
+      "group": "Engineering Geology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "GEL 134",
+        "or EPS 134",
         "GEL 156",
         "GEL 161",
+        "or EPS 161",
         "GEL 162",
+        "or EPS 162",
         "HYD 103N/EBS 103",
         "HYD/EBS 144",
         "HYD 146",
         "SSC 118",
         "SSC 120"
       ],
-      "units": "Units",
+      "units": "9-14",
       "notes": [
         "Choose three:"
-      ]
+      ],
+      "group": "Engineering Geology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "GEL 060",
         "GEL 146",
-        "GEL 148",
+        "or EPS 146",
+        "or EPS 148",
+        "or GEL 148",
         "CHE 110A",
-        "CHE 110B",
+        "CHE 110B"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Geochemistry Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "CHE 110C",
         "GEL 108",
         "GEL 146",
+        "or EPS 146",
         "GEL 148",
+        "or EPS 148",
         "HYD 134",
         "SSC 102"
       ],
-      "units": "Units",
+      "units": "6-9",
       "notes": [
         "Choose two electives:"
-      ]
+      ],
+      "group": "Geochemistry Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "GEL 107",
+        "or EPS 107",
         "GEL 107L",
+        "or EPS 107L",
         "GEL 108",
+        "or EPS 108",
         "GEL 141",
+        "or EPS 141",
+        "or EPS 144",
+        "or GEL 144"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Paleobiology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANT 151",
         "ANT 152",
         "EVE 100",
@@ -87,15 +148,26 @@
         "EVE 140",
         "EVE 149",
         "GEL 109",
-        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **"
+        "or EPS 109",
+        "GEL 150C/ESP 150C",
+        "or EPS 150C"
       ],
-      "units": "Units",
+      "units": "9",
       "notes": [
-        "Choose at least 9 addtional units:"
-      ]
+        "Choose at least 9 additional units:"
+      ],
+      "group": "Paleobiology Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "General Geology Emphasis",
+    "Engineering Geology Emphasis",
+    "Geochemistry Emphasis",
+    "Paleobiology Emphasis"
+  ],
   "advising_notes": [],
-  "total_units": "19"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.004Z"
 }

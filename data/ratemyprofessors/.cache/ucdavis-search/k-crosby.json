@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.7,
+    "department": "University Writing Program",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0xOTc1OTE1",
+    "lastName": "Crosby",
+    "legacyId": 1975915,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.4737
+  }
+]

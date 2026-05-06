@@ -8,41 +8,67 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C",
-        "MAT 021",
-        "MAT 022A"
+        "MAT 021A",
+        "or MAT 019A",
+        "or MAT 017A",
+        "MAT 021B",
+        "or MAT 019B",
+        "or MAT 017B",
+        "MAT 021C",
+        "or MAT 019C",
+        "or MAT 017C",
+        "MAT 022A",
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
-      "units": "9-12",
-      "notes": [
-        "Choose a series:"
-      ]
+      "units": "4",
+      "notes": [],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "STA 032",
+        "STA 035A",
+        "STA 035B",
         "STA 100"
       ],
-      "units": "4",
+      "units": "4-8",
       "notes": [
-        "Choose one:"
-      ]
+        "Choose one:",
+        "STA 013 or STA 013V or STA 013Y NOT recommended."
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Domain Emphasis Prerequisites",
+      "courses": [],
+      "units": "7-8",
+      "notes": [
+        "Two introductory courses serving as the prerequisites to the chosen Domain Emphasis; see Domain Emphasis section, below. (7-8 units)",
+        "Note: Additional coursework beyond this requirement may be needed to fulfill the Domain Emphasis prerequisites.",
+        "Preparatory Subject Matter Subtotal (31-36 units)"
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Core Coursework",
@@ -56,22 +82,17 @@
       ],
       "units": "24",
       "notes": [
-        "Two introductory courses serving as the prerequisites to the chosen Cluster Electives (see Cluster Electives section below).",
-        "Note: Additional coursework beyond this requirement may be needed to fulfill the Cluster Elective prerequisites.",
-        "Preparatory Subject Matter Subtotal",
-        "Statistics"
-      ]
+        "Statistics (24 units)"
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Advanced Electives",
       "courses": [
         "STA 104",
         "STA 135",
         "STA 137",
-        "STA 141B",
-        "STA 141B",
-        "STA 141C",
-        "STA 141C",
         "STA 141B",
         "STA 141C",
         "STA 144",
@@ -80,26 +101,40 @@
         "MAT 168",
         "STA 194HA",
         "STA 194HB",
-        "STA 199",
-        "STA 194HA",
-        "STA 194HB",
         "STA 199"
       ],
       "units": "12",
       "notes": [
-        "Choose three:"
-      ]
+        "Choose three:",
+        "Only one of STA 141B or STA 141C can be used as an elective.",
+        "With advisor approval, one of STA 194HA or STA 194HB or STA 199 may be used as an elective. The course must be taken for four units."
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Cluster Electives",
+      "heading": "Domain Emphasis",
       "courses": [],
       "units": "12-16",
       "notes": [
-        "Choose four upper division elective courses outside of statistics:",
-        "Cluster electives are chosen with and must be approved by the major advisor. Electives must follow a coherent sequence in one single disciple/cluster where statistical methods and models are applied. At least three of the cluster electives must cover the quantitative aspects of the discipline. A list of pre-approved electives can be found on the Statistics Department website.",
-        "Pre-Approved Electives List",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Choose four upper division courses outside of statistics:",
+        "A list of pre-approved elective courses can be found at:",
+        "Pre-Approved Applied AB Electives",
+        "Depth Subject Matter Subtotal (48-52 units)"
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Major GPA Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Minimum 2.0 GPA in UC Davis courses used in the major.",
+        "Minimum 2.0 GPA in Upper Division UC Davis courses used in the major."
+      ],
+      "group": "Applied Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -109,36 +144,46 @@
         "MAT 021C",
         "MAT 021D",
         "MAT 022A",
-        "MAT 067"
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "STA 032",
+        "STA 035A",
+        "STA 035B",
         "STA 100"
       ],
-      "units": "4",
+      "units": "4-8",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "STA 013 or STA 013V or STA 013Y NOT recommended.",
+        "Preparatory Subject Matter Subtotal (28-32 units)"
+      ],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Core Coursework",
@@ -150,29 +195,27 @@
         "STA 131C",
         "STA 138",
         "MAT 108",
-        "MAT 108V",
-        "MAT 127C",
+        "or MAT 108V",
+        "or MAT 127C",
         "MAT 127A",
         "MAT 127B",
         "MAT 167"
       ],
       "units": "24",
       "notes": [
-        "Statistics",
-        "Mathematics"
-      ]
+        "Statistics (24 units)",
+        "Mathematics (16 units)"
+      ],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Advanced Electives",
       "courses": [
         "STA 104",
         "STA 135",
         "STA 137",
         "STA 141A",
-        "STA 141B",
-        "STA 141B",
-        "STA 141C",
-        "STA 141C",
         "STA 141B",
         "STA 141C",
         "STA 142A",
@@ -183,25 +226,39 @@
         "MAT 168",
         "STA 194HA",
         "STA 194HB",
-        "STA 199",
-        "STA 194HA",
-        "STA 194HB",
         "STA 199"
       ],
       "units": "12",
       "notes": [
-        "Choose three:"
-      ]
+        "Choose three:",
+        "Only one of STA 141B or STA 141C can be used as an elective.",
+        "With advisor approval, one of STA 194HA or STA 194HB or STA 199 may be used as an elective. The course must be taken for four units."
+      ],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Related Elective Course",
       "courses": [],
       "units": "3-4",
       "notes": [
-        "One upper division course outside of Statistics approved by major advisor. The Related Elective should be in mathematics, computer science or cover quantitative aspects of a substantive discipline. A list of pre-approved electives can be found on the Statistics Department website.",
+        "One upper division course approved by faculty advisor. A list of pre-approved electives can be found at:",
         "Pre-Approved Electives List",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (55-56 units)"
+      ],
+      "group": "General Statistics Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Major GPA Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Minimum 2.0 GPA in UC Davis courses used in the major.",
+        "Minimum 2.0 GPA in Upper Division UC Davis courses used in the major."
+      ],
+      "group": "General Statistics Track",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -210,37 +267,49 @@
         "MAT 021B",
         "MAT 021C",
         "MAT 021D",
-        "MAT 022A"
+        "MAT 022A",
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A",
-        "ECS 032B"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "Note: Additional coursework in Python is strongly recommended; e.g., ECS 032B."
+      ],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "STA 032",
+        "STA 035A",
+        "STA 035B",
         "STA 100"
       ],
-      "units": "4",
+      "units": "4-8",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "STA 013 or STA 013V or STA 013Y NOT recommended.",
+        "Preparatory Subject Matter Subtotal (28-32 units)"
+      ],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
     },
     {
       "heading": "Core Coursework",
@@ -254,18 +323,20 @@
         "STA 142A",
         "STA 142B",
         "STA 144",
-        "STA 145",
+        "or STA 145",
         "MAT 167",
-        "MAT 168"
+        "or MAT 168"
       ],
       "units": "36",
       "notes": [
-        "Statistics",
-        "Mathematics"
-      ]
+        "Statistics (36 units)",
+        "Mathematics (4 units)"
+      ],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Advanced Electives",
       "courses": [
         "STA 104",
         "STA 135",
@@ -278,15 +349,15 @@
         "MAT 127A",
         "MAT 128A",
         "MAT 170",
+        "ECS 119",
         "ECS 122A",
+        "or ECS 117",
         "ECS 158",
         "ECS 163",
         "ECS 165A",
+        "or ECS 116",
         "ECS 170",
         "ECS 174",
-        "STA 194HA",
-        "STA 194HB",
-        "STA 199",
         "STA 194HA",
         "STA 194HB",
         "STA 199"
@@ -294,9 +365,23 @@
       "units": "12",
       "notes": [
         "Choose three:",
-        "Note: A course used to fulfill the core requirement cannot be used as an elective.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "With advisor approval, one of STA 194HA or STA 194HB or STA 199 may be used as an elective. The course must be taken for four units.",
+        "Note: A course used to fulfill a core requirement cannot be used as an elective.",
+        "Depth Subject Matter Subtotal (52 units)"
+      ],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Major GPA Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Minimum 2.0 GPA in UC Davis courses used in the major.",
+        "Minimum 2.0 GPA in Upper Division UC Davis courses used in the major."
+      ],
+      "group": "Machine Learning Track",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -305,37 +390,49 @@
         "MAT 021B",
         "MAT 021C",
         "MAT 021D",
-        "MAT 022A"
+        "MAT 022A",
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A",
-        "ECS 032B"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "Note: Additional coursework in Python is strongly recommended; e.g., ECS 032B."
+      ],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "STA 032",
+        "STA 035A",
+        "STA 035B",
         "STA 100"
       ],
-      "units": "4",
+      "units": "4-8",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "STA 013 or STA 013V or STA 013Y NOT recommended.",
+        "Preparatory Subject Matter Subtotal (28-32 units)"
+      ],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
     },
     {
       "heading": "Core Coursework",
@@ -343,28 +440,32 @@
         "STA 106",
         "STA 108",
         "STA 131A",
-        "STA 130A",
+        "or STA 130A",
         "STA 131B",
-        "STA 130B",
+        "or STA 130B",
         "STA 135",
         "STA 141A",
         "STA 141B",
         "STA 141C",
         "STA 160",
         "STA 142A",
-        "ECS 171",
+        "or STA 142B",
+        "or ECS 111",
+        "or ECS 171",
         "MAT 167",
-        "MAT 168"
+        "or MAT 168"
       ],
       "units": "36",
       "notes": [
-        "Statistics",
-        "Machine Learning",
-        "Mathematics"
-      ]
+        "Statistics (36 units)",
+        "Machine Learning (4 units)",
+        "Mathematics (4 units)"
+      ],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Advanced Electives",
       "courses": [
         "STA 104",
         "STA 137",
@@ -375,13 +476,13 @@
         "STA 145",
         "MAT 128A",
         "MAT 170",
+        "ECS 119",
         "ECS 122A",
+        "or ECS 117",
         "ECS 158",
         "ECS 163",
         "ECS 165A",
-        "STA 194HA",
-        "STA 194HB",
-        "STA 199",
+        "or ECS 116",
         "STA 194HA",
         "STA 194HB",
         "STA 199"
@@ -389,12 +490,33 @@
       "units": "8",
       "notes": [
         "Choose two:",
-        "Note: A course used to fulfill a core requirement cannot be used as a restricted elective.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "With advisor approval, one of STA 194HA or STA 194HB or STA 199 may be used as an elective. The course must be taken for four units.",
+        "Note: A course used to fulfill a core requirement cannot be used as an advanced elective.",
+        "Depth Subject Matter Subtotal (52 units)"
+      ],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Major GPA Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Minimum 2.0 GPA in UC Davis courses used in the major.",
+        "Minimum 2.0 GPA in Upper Division UC Davis courses used in the major."
+      ],
+      "group": "Statistical Data Science Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Applied Statistics Track",
+    "General Statistics Track",
+    "Machine Learning Track",
+    "Statistical Data Science Track"
+  ],
   "advising_notes": [],
-  "total_units": "75"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.366Z"
 }

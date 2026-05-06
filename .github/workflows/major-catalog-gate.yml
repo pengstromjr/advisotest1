@@ -1,0 +1,26 @@
+name: Major catalog gate
+
+on:
+  pull_request:
+    paths:
+      - "data/majors/**"
+      - "lib/requirement-normalizer.ts"
+      - "scripts/scrape-programs-official.ts"
+      - "scripts/verify-major-catalog.ts"
+      - "package.json"
+      - "package-lock.json"
+  workflow_dispatch:
+
+jobs:
+  verify-major-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx tsc --noEmit --pretty false
+      - run: npm run verify:majors
+      - run: npm run check:majors-format

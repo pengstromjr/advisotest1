@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.6,
+    "department": "Anthropology",
+    "firstName": "Jelmer",
+    "id": "VGVhY2hlci00MzczOA==",
+    "lastName": "Eerkens",
+    "legacyId": 43738,
+    "numRatings": 113,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.3548
+  }
+]

@@ -8,11 +8,12 @@
     {
       "heading": "General Requirements",
       "courses": [
-        "PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **",
+        "PHY 160",
+        "or ENG 160",
         "PHY 197T",
         "PHY 199"
       ],
-      "units": "Units",
+      "units": "24",
       "notes": [
         "Choose at least six upper division courses in Physics; excluding:",
         "Physics (PHY) courses."
@@ -21,5 +22,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.918Z"
 }

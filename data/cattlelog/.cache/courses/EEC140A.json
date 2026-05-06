@@ -1,0 +1,160 @@
+{
+  "course_id": "EEC140A",
+  "course_title": "Principles of Device Physics I",
+  "overall_grades": {
+    "A+": 47,
+    "A": 83,
+    "A-": 71,
+    "B+": 62,
+    "B": 68,
+    "B-": 41,
+    "C+": 27,
+    "C": 14,
+    "C-": 12,
+    "D+": 1,
+    "D": 1,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.31,
+  "overall_enrolled": 428,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jeremy Munday",
+      "professor_slug": "jeremy-munday",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 19,
+            "A-": 33,
+            "B+": 38,
+            "B": 27,
+            "B-": 11,
+            "C+": 18,
+            "C": 11,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 169
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 19,
+            "A-": 33,
+            "B+": 38,
+            "B": 27,
+            "B-": 11,
+            "C+": 18,
+            "C": 11,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 169
+        }
+      }
+    },
+    {
+      "professor_name": "Jerry Woodall",
+      "professor_slug": "jerry-woodall",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 42,
+            "A-": 27,
+            "B+": 15,
+            "B": 27,
+            "B-": 15,
+            "C+": 9,
+            "C": 3,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 183
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 42,
+            "A-": 27,
+            "B+": 15,
+            "B": 27,
+            "B-": 15,
+            "C+": 9,
+            "C": 3,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 183
+        }
+      }
+    },
+    {
+      "professor_name": "Semiu Olowogemo",
+      "professor_slug": "semiu-olowogemo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 22,
+            "A-": 11,
+            "B+": 9,
+            "B": 14,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 76
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 22,
+            "A-": 11,
+            "B+": 9,
+            "B": 14,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 76
+        }
+      }
+    }
+  ]
+}

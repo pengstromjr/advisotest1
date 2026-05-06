@@ -13,15 +13,24 @@
         "COM 003",
         "COM 004"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose one:",
-        "Choose at least five upper division literature courses, at least four of which are in Comparative Literature (COM)1. Courses should be chosen in consultation with the approval of the advisor.",
-        "Subtotal"
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Choose at least five upper division literature courses, at least four of which are in Comparative Literature (COM)1. Courses should be chosen in consultation with the approval of the advisor. (20 units)",
+        "Subtotal (24 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.280Z"
 }

@@ -6,11 +6,30 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Biological Science",
+      "heading": "Mathematics; choose a series:",
       "courses": [
-        "BIS 002A"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 019A",
+        "or MAT 019B",
+        "or MAT 019C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
-      "units": "5",
+      "units": "12",
+      "notes": [
+        "OR"
+      ]
+    },
+    {
+      "heading": "Biological Science; choose one:",
+      "courses": [
+        "BIS 002A",
+        "or BIO 002"
+      ],
+      "units": "4-5",
       "notes": []
     },
     {
@@ -19,13 +38,11 @@
         "CHE 002A",
         "CHE 002B",
         "CHE 002C",
-        "CHE 008A",
-        "CHE 008B"
+        "CHE 118A",
+        "CHE 118B"
       ],
-      "units": "21",
-      "notes": [
-        "OR a more advanced series."
-      ]
+      "units": "23",
+      "notes": []
     },
     {
       "heading": "Physics",
@@ -49,7 +66,8 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y"
+        "or STA 013V",
+        "or STA 013Y"
       ],
       "units": "4",
       "notes": []
@@ -58,23 +76,31 @@
       "heading": "Nutrition",
       "courses": [
         "NUT 010",
-        "NUT 010V",
-        "NUT 010Y"
+        "or NUT 010V",
+        "or NUT 010Y"
       ],
       "units": "3",
       "notes": [
-        "OR approved substitute.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (61-62 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 102",
-        "BIS 102V",
+        "or BIS 102V",
         "BIS 103"
       ],
       "units": "6",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102",
+        "or MIC 102"
+      ],
+      "units": "3",
       "notes": []
     },
     {
@@ -95,45 +121,73 @@
       ],
       "units": "39",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (48 units)"
       ]
     },
     {
       "heading": "Restricted Electives",
       "courses": [],
-      "units": "18",
+      "units": "",
+      "notes": [
+        "See below."
+      ]
+    },
+    {
+      "heading": "Specific Course Requirements",
+      "courses": [
+        "FST 160"
+      ],
+      "units": "",
+      "notes": [],
+      "group": "General Food Science Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "",
       "notes": [
         "See Major Advisor for approved course list."
-      ]
+      ],
+      "group": "General Food Science Option",
+      "group_kind": "path"
     },
     {
       "heading": "Specific Course Requirements",
       "courses": [
         "FST 102A",
         "FST 102B",
+        "FST 102C",
         "FST 123"
       ],
-      "units": "11",
-      "notes": []
+      "units": "",
+      "notes": [],
+      "group": "Brewing Science Option",
+      "group_kind": "path"
     },
     {
       "heading": "Restricted Electives",
       "courses": [
-        "FST 003",
-        "FST 003V",
         "FST 109",
         "FST/VEN 114",
         "FST 123L",
         "FST 159",
         "FST 160"
       ],
-      "units": "7",
+      "units": "5",
       "notes": [
         "Choose 2-3 additional courses:"
-      ]
+      ],
+      "group": "Brewing Science Option",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "General Food Science Option",
+    "Brewing Science Option"
+  ],
   "advising_notes": [],
-  "total_units": "123"
+  "total_units": "127",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.893Z"
 }

@@ -10,11 +10,19 @@
       "courses": [
         "ATM 116",
         "PLS 150",
-        "ARE 115B/115BY/ECN 115B/115BY"
+        "ARE 115B",
+        "ECN 115B"
       ],
-      "units": "7-8",
+      "units": "",
       "notes": [
-        "Focusing on broad range of global issues and their impacts on ecological and environmental resources and biodiversity, in addition to international policy and economics. Beyond the courses taken under each track, choose two out of the three courses listed below:",
+        "Focusing on broad range of global issues and their impacts on ecological and environmental resources and biodiversity, in addition to international policy and economics. Beyond the courses taken under each track, choose two out of the three courses listed below:"
+      ]
+    },
+    {
+      "heading": "Global Issue Course Requirement",
+      "courses": [],
+      "units": "16-17",
+      "notes": [
         "Choose one of the following tracks:",
         "Education Abroad Program courses taught overseas and relevant international internship activities will count towards the minor requirement with advisor's approval. For each track, students can take a maximum of 3 units from EAP courses, with a valid transcript, and 3 units from relevant international internship activities. The international internship activities would require a pre-approved study plan with the academic advisor before the maximum of 3 units can be awarded. Language and culture related courses are encouraged, but not required for the minor.",
         "Education Abroad Program (EAP) courses.",
@@ -41,16 +49,19 @@
         "HYD 143",
         "SSC 109"
       ],
-      "units": "Units",
+      "units": "16-17",
       "notes": [
         "Choose 16-17 units:"
-      ]
+      ],
+      "group": "(1) Ecological, Environmental, & Energy Studies Track",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ARE/ECN 115A",
-        "ARE 115B/115BY/ECN 115B/115BY",
+        "ARE 115B",
+        "ECN 115B",
         "ARE 138",
         "CRD 156",
         "CRD 180",
@@ -59,10 +70,12 @@
         "IAD 170",
         "IRE 190"
       ],
-      "units": "Units",
+      "units": "16-17",
       "notes": [
         "Choose 16-17 units:"
-      ]
+      ],
+      "group": "(2) Policy & Management Focus Track",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -81,13 +94,21 @@
         "PLS 150",
         "PLS/IAD 160"
       ],
-      "units": "Units",
+      "units": "16-17",
       "notes": [
         "Choose 16-17 units:"
-      ]
+      ],
+      "group": "(3) Agriculture, Food, & Fiber Systems Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "(1) Ecological, Environmental, & Energy Studies Track",
+    "(2) Policy & Management Focus Track",
+    "(3) Agriculture, Food, & Fiber Systems Track"
+  ],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.314Z"
 }

@@ -1,0 +1,118 @@
+{
+  "course_id": "COM141",
+  "course_title": "Introduction to Critical Theoretical Approaches to Literature & Culture",
+  "overall_grades": {
+    "A+": 3,
+    "A": 60,
+    "A-": 18,
+    "B+": 15,
+    "B": 0,
+    "B-": 3,
+    "C+": 0,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "NP*": 3
+  },
+  "overall_gpa": 3.75,
+  "overall_enrolled": 105,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Joshua Clover",
+      "professor_slug": "joshua-clover",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 27,
+            "A-": 0,
+            "B+": 9,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 45
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 27,
+            "A-": 0,
+            "B+": 9,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 45
+        }
+      }
+    },
+    {
+      "professor_name": "Stefan Uhlig",
+      "professor_slug": "stefan-uhlig",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 18,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 60
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 18,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 60
+        }
+      }
+    }
+  ]
+}

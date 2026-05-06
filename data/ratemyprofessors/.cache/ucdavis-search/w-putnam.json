@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4.3,
+    "department": "Electrical & Comp. Engineering",
+    "firstName": "William",
+    "id": "VGVhY2hlci0yNTAxNjY2",
+    "lastName": "Putnam",
+    "legacyId": 2501666,
+    "numRatings": 30,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  }
+]

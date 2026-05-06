@@ -1,0 +1,233 @@
+{
+  "course_id": "POL122",
+  "course_title": "International Law",
+  "overall_grades": {
+    "A+": 78,
+    "A": 313,
+    "A-": 216,
+    "B+": 251,
+    "B": 244,
+    "B-": 121,
+    "C+": 81,
+    "C": 59,
+    "C-": 24,
+    "D+": 9,
+    "D": 19,
+    "D-": 13,
+    "F": 57,
+    "P*": 73,
+    "NP*": 43
+  },
+  "overall_gpa": 3.12,
+  "overall_enrolled": 1601,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brandon Kinne",
+      "professor_slug": "brandon-kinne",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 143,
+            "A-": 141,
+            "B+": 200,
+            "B": 160,
+            "B-": 75,
+            "C+": 48,
+            "C": 35,
+            "C-": 9,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 26,
+            "P*": 24,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 906
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 8,
+            "A-": 15,
+            "B+": 23,
+            "B": 13,
+            "B-": 3,
+            "C+": 3,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 72
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 93,
+            "A-": 96,
+            "B+": 117,
+            "B": 93,
+            "B-": 36,
+            "C+": 18,
+            "C": 21,
+            "C-": 3,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 9,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 510
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 42,
+            "A-": 30,
+            "B+": 60,
+            "B": 54,
+            "B-": 36,
+            "C+": 27,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 15,
+            "P*": 12,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 324
+        }
+      }
+    },
+    {
+      "professor_name": "Heather Elko",
+      "professor_slug": "heather-elko",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 170,
+            "A-": 75,
+            "B+": 51,
+            "B": 84,
+            "B-": 46,
+            "C+": 33,
+            "C": 24,
+            "C-": 15,
+            "D+": 9,
+            "D": 7,
+            "D-": 13,
+            "F": 31,
+            "P*": 49,
+            "NP*": 28
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 695
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 51,
+            "A-": 24,
+            "B+": 18,
+            "B": 24,
+            "B-": 18,
+            "C+": 9,
+            "C": 6,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 9,
+            "F": 9,
+            "P*": 21,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 207
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 57,
+            "A-": 33,
+            "B+": 6,
+            "B": 15,
+            "B-": 9,
+            "C+": 12,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 201
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 48,
+            "A-": 12,
+            "B+": 21,
+            "B": 33,
+            "B-": 12,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 6,
+            "P*": 15,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 210
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 14,
+            "A-": 6,
+            "B+": 6,
+            "B": 12,
+            "B-": 7,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 4,
+            "P*": 7,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 77
+        }
+      }
+    }
+  ]
+}

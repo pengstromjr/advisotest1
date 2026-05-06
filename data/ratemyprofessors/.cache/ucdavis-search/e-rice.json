@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.5,
+    "department": "Environmental Science",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci01ODMxNTU=",
+    "lastName": "Rice",
+    "legacyId": 583155,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 16.6667
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Music",
+    "firstName": "Brian",
+    "id": "VGVhY2hlci0yNzc4Nzc5",
+    "lastName": "Rice",
+    "legacyId": 2778779,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.6,
+    "department": "Plant & Soil Science",
+    "firstName": "Kevin",
+    "id": "VGVhY2hlci0xNjkyNjIz",
+    "lastName": "Rice",
+    "legacyId": 1692623,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

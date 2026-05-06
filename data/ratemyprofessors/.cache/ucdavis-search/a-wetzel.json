@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.5,
+    "department": "Physics",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0yNDY3MjI5",
+    "lastName": "Wetzel",
+    "legacyId": 2467229,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 61.1111
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Science",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0yNTcxNjUz",
+    "lastName": "Wetzel",
+    "legacyId": 2571653,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

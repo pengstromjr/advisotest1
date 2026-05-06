@@ -1,0 +1,193 @@
+{
+  "course_id": "WFC111L",
+  "course_title": "Laboratory in Biology & Conservation of Wild Birds",
+  "overall_grades": {
+    "A+": 157,
+    "A": 95,
+    "A-": 101,
+    "B+": 57,
+    "B": 79,
+    "B-": 44,
+    "C+": 38,
+    "C": 26,
+    "C-": 39,
+    "D+": 12,
+    "D": 16,
+    "D-": 8,
+    "F": 8,
+    "P*": 11,
+    "NP*": 10
+  },
+  "overall_gpa": 3.19,
+  "overall_enrolled": 701,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Eadie",
+      "professor_slug": "john-eadie",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 66,
+            "A-": 63,
+            "B+": 48,
+            "B": 51,
+            "B-": 24,
+            "C+": 27,
+            "C": 18,
+            "C-": 27,
+            "D+": 9,
+            "D": 9,
+            "D-": 6,
+            "F": 3,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 423
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 24,
+            "A-": 33,
+            "B+": 30,
+            "B": 21,
+            "B-": 15,
+            "C+": 15,
+            "C": 12,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 207
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 42,
+            "A-": 30,
+            "B+": 18,
+            "B": 30,
+            "B-": 9,
+            "C+": 12,
+            "C": 6,
+            "C-": 15,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 216
+        }
+      }
+    },
+    {
+      "professor_name": "Kevin Ringelman",
+      "professor_slug": "kevin-ringelman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 11,
+            "A-": 8,
+            "B+": 3,
+            "B": 10,
+            "B-": 5,
+            "C+": 5,
+            "C": 2,
+            "C-": 3,
+            "D+": 0,
+            "D": 1,
+            "D-": 2,
+            "F": 2,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 83
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 11,
+            "A-": 8,
+            "B+": 3,
+            "B": 10,
+            "B-": 5,
+            "C+": 5,
+            "C": 2,
+            "C-": 3,
+            "D+": 0,
+            "D": 1,
+            "D-": 2,
+            "F": 2,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 83
+        }
+      }
+    },
+    {
+      "professor_name": "Lucia Gonzalez",
+      "professor_slug": "lucia-gonzalez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 18,
+            "A-": 30,
+            "B+": 6,
+            "B": 18,
+            "B-": 15,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 195
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 18,
+            "A-": 30,
+            "B+": 6,
+            "B": 18,
+            "B-": 15,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 195
+        }
+      }
+    }
+  ]
+}

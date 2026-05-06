@@ -1,0 +1,188 @@
+{
+  "course_id": "CHI121",
+  "course_title": "Chicana/o Community Mental Health ",
+  "overall_grades": {
+    "A+": 442,
+    "A": 435,
+    "A-": 155,
+    "B+": 72,
+    "B": 86,
+    "B-": 8,
+    "C+": 10,
+    "C": 10,
+    "C-": 3,
+    "D+": 10,
+    "D": 5,
+    "D-": 0,
+    "F": 6,
+    "P*": 5,
+    "NP*": 2
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 1249,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elio Gutierrez",
+      "professor_slug": "elio-gutierrez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 58,
+            "A": 300,
+            "A-": 122,
+            "B+": 33,
+            "B": 49,
+            "B-": 8,
+            "C+": 10,
+            "C": 4,
+            "C-": 0,
+            "D+": 10,
+            "D": 2,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 599
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 270,
+            "A-": 87,
+            "B+": 18,
+            "B": 21,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 471
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 30,
+            "A-": 35,
+            "B+": 15,
+            "B": 28,
+            "B-": 5,
+            "C+": 7,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 128
+        }
+      }
+    },
+    {
+      "professor_name": "Monica Torreiro Casal",
+      "professor_slug": "monica-torreiro-casal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 159,
+            "A": 6,
+            "A-": 0,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 170
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 159,
+            "A": 6,
+            "A-": 0,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 170
+        }
+      }
+    },
+    {
+      "professor_name": "Yvonne Hurtado Allen",
+      "professor_slug": "yvonne-hurtado-allen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 225,
+            "A": 129,
+            "A-": 33,
+            "B+": 39,
+            "B": 36,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 480
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 225,
+            "A": 129,
+            "A-": 33,
+            "B+": 39,
+            "B": 36,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 480
+        }
+      }
+    }
+  ]
+}

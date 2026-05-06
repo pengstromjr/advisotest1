@@ -1,0 +1,138 @@
+{
+  "course_id": "HDE110V",
+  "course_title": "Families in Communities",
+  "overall_grades": {
+    "A+": 313,
+    "A": 593,
+    "A-": 246,
+    "B+": 167,
+    "B": 69,
+    "B-": 44,
+    "C+": 15,
+    "C": 31,
+    "C-": 9,
+    "D+": 0,
+    "D": 0,
+    "D-": 6,
+    "F": 9,
+    "P*": 9
+  },
+  "overall_gpa": 3.68,
+  "overall_enrolled": 1511,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Karinna Hurley",
+      "professor_slug": "karinna-hurley",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 252,
+            "A": 285,
+            "A-": 72,
+            "B+": 39,
+            "B": 27,
+            "B-": 12,
+            "C+": 12,
+            "C": 24,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 747
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 252,
+            "A": 285,
+            "A-": 72,
+            "B+": 39,
+            "B": 27,
+            "B-": 12,
+            "C+": 12,
+            "C": 24,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 747
+        }
+      }
+    },
+    {
+      "professor_name": "Leah Hibel",
+      "professor_slug": "leah-hibel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 61,
+            "A": 308,
+            "A-": 174,
+            "B+": 128,
+            "B": 42,
+            "B-": 32,
+            "C+": 3,
+            "C": 7,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 764
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 189,
+            "A-": 153,
+            "B+": 120,
+            "B": 39,
+            "B-": 27,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 579
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 119,
+            "A-": 21,
+            "B+": 8,
+            "B": 3,
+            "B-": 5,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 185
+        }
+      }
+    }
+  ]
+}

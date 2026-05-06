@@ -8,11 +8,12 @@
     {
       "heading": "Statistics",
       "courses": [
+        "PLS 120",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "PLS 120"
+        "STA 100"
       ],
       "units": "4-5",
       "notes": [
@@ -22,7 +23,9 @@
     {
       "heading": "Plant Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C",
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C",
         "PLS 002"
       ],
       "units": "4-15",
@@ -45,41 +48,80 @@
       "heading": "General Requirements",
       "courses": [
         "PLS 150",
-        "SSC 100",
-        "PLS 105",
-        "PLS 176",
+        "SSC 100"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Sustainable Agriculture Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ENT 110",
+        "PLS 105",
+        "PLS 176"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Sustainable Agriculture Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "PLS 112",
         "PLS 113",
         "PLS 114",
         "PLS 170A",
         "PLS 170B"
       ],
-      "units": "Units",
+      "units": "6",
       "notes": [
-        "Choose one:",
         "Choose a minimum of 6 units:"
-      ]
+      ],
+      "group": "Sustainable Agriculture Track",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "PLS 130",
+        "PLS 130"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Range & Natural Resources Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ESP 123",
         "ESP 172",
         "PLS 112",
+        "PLS 131",
+        "PLS 135",
         "PLS 150",
         "PLS 163",
         "WFC 110",
         "WFC 151"
       ],
-      "units": "Units",
+      "units": "15",
       "notes": [
         "Choose a minimum of 15 units:"
-      ]
+      ],
+      "group": "Range & Natural Resources Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Sustainable Agriculture Track",
+    "Range & Natural Resources Track"
+  ],
   "advising_notes": [],
-  "total_units": "8"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.182Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.7,
+    "department": "Biochemistry",
+    "firstName": "Philipp",
+    "id": "VGVhY2hlci0yMDk0MjIy",
+    "lastName": "Zerbe",
+    "legacyId": 2094222,
+    "numRatings": 63,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.082
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4,
+    "department": "Mechanical Engineering",
+    "firstName": "Zhaodan",
+    "id": "VGVhY2hlci0yMDMyMzA2",
+    "lastName": "Kong",
+    "legacyId": 2032306,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  },
+  {
+    "avgDifficulty": 1.4,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Amanda",
+    "id": "VGVhY2hlci0yNjc0ODE1",
+    "lastName": "Kong",
+    "legacyId": 2674815,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

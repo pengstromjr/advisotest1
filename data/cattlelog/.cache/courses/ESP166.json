@@ -1,0 +1,138 @@
+{
+  "course_id": "ESP166",
+  "course_title": "Ocean & Coastal Policy",
+  "overall_grades": {
+    "A+": 18,
+    "A": 151,
+    "A-": 110,
+    "B+": 136,
+    "B": 102,
+    "B-": 71,
+    "C+": 37,
+    "C": 12,
+    "C-": 20,
+    "D+": 4,
+    "D": 0,
+    "D-": 3,
+    "F": 3,
+    "P*": 14,
+    "NP*": 3
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 684,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "James Sanchirico",
+      "professor_slug": "james-sanchirico",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 151,
+            "A-": 110,
+            "B+": 136,
+            "B": 102,
+            "B-": 71,
+            "C+": 37,
+            "C": 12,
+            "C-": 20,
+            "D+": 4,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 14,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 684
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 69,
+            "A-": 36,
+            "B+": 36,
+            "B": 21,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 189
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 33,
+            "A-": 24,
+            "B+": 30,
+            "B": 33,
+            "B-": 24,
+            "C+": 18,
+            "C": 6,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 195
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 42,
+            "B+": 51,
+            "B": 39,
+            "B-": 36,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 234
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 13,
+            "A-": 8,
+            "B+": 19,
+            "B": 9,
+            "B-": 5,
+            "C+": 7,
+            "C": 0,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 66
+        }
+      }
+    }
+  ]
+}

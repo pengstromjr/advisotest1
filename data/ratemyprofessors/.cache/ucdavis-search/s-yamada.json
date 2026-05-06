@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.4,
+    "department": "Biomedical",
+    "firstName": "Soichiro",
+    "id": "VGVhY2hlci0xMDQ1MDc2",
+    "lastName": "Yamada",
+    "legacyId": 1045076,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Biomedical Engineering",
+    "firstName": "Soichiro",
+    "id": "VGVhY2hlci0yNDM2MjUx",
+    "lastName": "Yamada",
+    "legacyId": 2436251,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4,
+    "department": "Spanish",
+    "firstName": "Aaron",
+    "id": "VGVhY2hlci0yMTEwMzk4",
+    "lastName": "Yamada",
+    "legacyId": 2110398,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.3,
+    "department": "Mathematics",
+    "firstName": "Hirofumi",
+    "id": "VGVhY2hlci04MDYyODI=",
+    "lastName": "Yamada",
+    "legacyId": 806282,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

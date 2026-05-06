@@ -1,0 +1,230 @@
+{
+  "course_id": "HDE100C",
+  "course_title": "Adulthood & Aging",
+  "overall_grades": {
+    "A+": 95,
+    "A": 1606,
+    "A-": 566,
+    "B+": 388,
+    "B": 530,
+    "B-": 291,
+    "C+": 130,
+    "C": 79,
+    "C-": 55,
+    "D+": 17,
+    "D": 8,
+    "D-": 4,
+    "F": 47,
+    "P*": 53,
+    "NP*": 23
+  },
+  "overall_gpa": 3.44,
+  "overall_enrolled": 3892,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lisa Miller",
+      "professor_slug": "lisa-miller",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 228,
+            "A-": 198,
+            "B+": 171,
+            "B": 282,
+            "B-": 207,
+            "C+": 96,
+            "C": 63,
+            "C-": 48,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 6,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 1407
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 150,
+            "A-": 105,
+            "B+": 63,
+            "B": 132,
+            "B-": 105,
+            "C+": 39,
+            "C": 15,
+            "C-": 27,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 705
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 78,
+            "A-": 93,
+            "B+": 108,
+            "B": 150,
+            "B-": 102,
+            "C+": 57,
+            "C": 48,
+            "C-": 21,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 702
+        }
+      }
+    },
+    {
+      "professor_name": "Nicole Hollis",
+      "professor_slug": "nicole-hollis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 1378,
+            "A-": 368,
+            "B+": 217,
+            "B": 248,
+            "B-": 84,
+            "C+": 34,
+            "C": 16,
+            "C-": 7,
+            "D+": 14,
+            "D": 5,
+            "D-": 4,
+            "F": 41,
+            "P*": 47,
+            "NP*": 11
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 2485
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 426,
+            "A-": 102,
+            "B+": 36,
+            "B": 48,
+            "B-": 30,
+            "C+": 3,
+            "C": 9,
+            "C-": 3,
+            "D+": 12,
+            "D": 3,
+            "D-": 3,
+            "F": 12,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 699
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 408,
+            "A-": 108,
+            "B+": 75,
+            "B": 63,
+            "B-": 21,
+            "C+": 9,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 714
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 363,
+            "A-": 90,
+            "B+": 63,
+            "B": 84,
+            "B-": 24,
+            "C+": 15,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 18,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 678
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 128,
+            "A-": 18,
+            "B+": 13,
+            "B": 11,
+            "B-": 4,
+            "C+": 3,
+            "C": 4,
+            "C-": 1,
+            "D+": 2,
+            "D": 1,
+            "D-": 0,
+            "F": 7,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 199
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 53,
+            "A-": 50,
+            "B+": 30,
+            "B": 42,
+            "B-": 5,
+            "C+": 4,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 4,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 195
+        }
+      }
+    }
+  ]
+}

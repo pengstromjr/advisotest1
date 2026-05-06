@@ -1,0 +1,155 @@
+{
+  "course_id": "PAS271A",
+  "course_title": "Advanced Pharmacology",
+  "overall_grades": {
+    "A+": 19,
+    "A": 336,
+    "A-": 98,
+    "B+": 88,
+    "B": 61,
+    "B-": 21,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.71,
+  "overall_enrolled": 626,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brent Luu",
+      "professor_slug": "brent-luu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 303,
+            "A-": 93,
+            "B+": 84,
+            "B": 60,
+            "B-": 21,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 564
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 84,
+            "A-": 30,
+            "B+": 36,
+            "B": 30,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 189
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 111,
+            "A-": 21,
+            "B+": 24,
+            "B": 21,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 183
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 108,
+            "A-": 42,
+            "B+": 24,
+            "B": 9,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 192
+        }
+      }
+    },
+    {
+      "professor_name": "Rebecca Gibson",
+      "professor_slug": "rebecca-gibson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 33,
+            "A-": 5,
+            "B+": 4,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 62
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 33,
+            "A-": 5,
+            "B+": 4,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 62
+        }
+      }
+    }
+  ]
+}

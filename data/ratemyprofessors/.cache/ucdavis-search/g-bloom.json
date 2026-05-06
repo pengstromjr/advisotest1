@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.7,
+    "department": "English",
+    "firstName": "Gina",
+    "id": "VGVhY2hlci0xNTQ0NjY4",
+    "lastName": "Bloom",
+    "legacyId": 1544668,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 42.1053
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.1,
+    "department": "Environmental Science",
+    "firstName": "Arnold",
+    "id": "VGVhY2hlci03NzU1Mzk=",
+    "lastName": "Bloom",
+    "legacyId": 775539,
+    "numRatings": 52,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 17.3913
+  }
+]

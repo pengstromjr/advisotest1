@@ -9,27 +9,34 @@
       "heading": "General Requirements",
       "courses": [
         "ECN 100A",
-        "ECN 100AV",
-        "ECN 101",
+        "or ECN 100AV",
+        "ECN 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ECN 100B",
         "ECN 103",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 116",
         "ECN 121A",
         "ECN 121B",
         "ECN 122",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 132",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 136",
         "ECN 137",
         "ECN 140",
@@ -39,17 +46,26 @@
         "ECN 151B",
         "ECN 152",
         "ECN 160A",
+        "or ECN 160AY",
         "ECN 160B",
         "ECN 167",
+        "or ECN 167Y",
         "ARE 139",
         "ARE 156",
         "ARE 166",
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
-        "Choose 8 units:",
+        "Choose 8 units:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "4",
+      "notes": [
         "Choose 4 units in upper division Economics (ECN) courses.",
         "Economics (ECN)"
       ]
@@ -57,5 +73,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.502Z"
 }

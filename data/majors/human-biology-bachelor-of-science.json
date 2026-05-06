@@ -8,55 +8,83 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C"
+        "BIO 001",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
       ],
-      "units": "15",
+      "units": "14",
       "notes": []
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002",
-        "CHE 004",
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C",
-        "CHE 008",
-        "CHE 118",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "or CHE 004A",
+        "or CHE 004B",
+        "or CHE 004C"
       ],
       "units": "15",
-      "notes": []
+      "notes": [
+        "Choose CHE 002 or CHE 004 series: 2 (15 units)",
+        "OR"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 118C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose CHE 008 or CHE 118 series: 3 (6-12 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017",
-        "MAT 021",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "8-12",
-      "notes": []
+      "notes": [
+        "Choose MAT 017 or MAT 021 series: 4 (8-12 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
       "units": "12",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (55-65 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 105",
-        "BIS 103"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
       "units": "4",
       "notes": []
@@ -64,15 +92,31 @@
     {
       "heading": "Statistics",
       "courses": [
-        "STA 100",
+        "STA 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Statistics",
+      "courses": [
         "EVE 100",
         "EVE 131",
         "MCB 162"
       ],
-      "units": "4",
+      "units": "3-4",
       "notes": [
         "Choose one:"
       ]
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102",
+        "or MIC 102"
+      ],
+      "units": "3",
+      "notes": []
     },
     {
       "heading": "Neurobiology, Physiology, & Behavior",
@@ -81,7 +125,7 @@
       ],
       "units": "5",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (25-29 units)"
       ]
     },
     {
@@ -89,11 +133,11 @@
       "courses": [],
       "units": "15-19",
       "notes": [
-        "Courses meeting this requirement must come from at least two of the following categories; any cross-listed courses taken will count for only one category; must include at least one approved lab course.",
+        "Courses meeting this requirement must come from at least two of the following categories; any cross-listed courses taken will count for only one category; must include at least one approved lab course. (15-19 units)",
         "Genetics, Genomics, & Development",
         "Physiology & Neurobiology",
         "Origins of Disease & Human Health",
-        "Restricted Electives Subtotal"
+        "Restricted Electives Subtotal (15-19 units)"
       ]
     },
     {
@@ -110,14 +154,12 @@
         "MCB 162",
         "MCB 163",
         "MCB 182",
-        "NPB 122",
         "NPB 132",
         "NPB 133",
-        "NPB 161",
         "MCB 160L",
-        "EVE 105"
+        "MMG 103L"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": [
         "Approved Laboratory Courses:"
       ]
@@ -135,28 +177,26 @@
         "NPB 109",
         "NPB 113",
         "NPB 114",
-        "NPB 122",
         "NPB 130",
         "NPB 132",
         "NPB 133",
         "NPB 134",
         "NPB 140",
+        "NPB 143",
         "NPB 152/PSC 123",
+        "NPB 154",
         "NPB/HPH 157",
-        "NPB 161",
         "NPB 163",
-        "NPB 164",
         "NPB 165",
         "NPB 167",
         "NPB 168",
         "NPB 171",
         "NPB 172",
         "NPB 173",
-        "EVE 105",
         "NPB 100L",
         "NPB 101L"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Approved Laboratory Courses:"
       ]
@@ -178,13 +218,16 @@
         "NPB 109",
         "NPB 132",
         "NPB 134",
+        "NPB 143",
+        "NPB 154",
         "NPB/HPH 157",
         "NPB 168",
         "NPB 171",
         "NPB 173",
-        "MCB 120L"
+        "MCB 120L",
+        "MMG 103L"
       ],
-      "units": "Units",
+      "units": "3",
       "notes": [
         "Approved Laboratory Courses:"
       ]
@@ -192,7 +235,9 @@
   ],
   "specializations": [],
   "advising_notes": [
-    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall; 530-752-0410."
   ],
-  "total_units": "96"
+  "total_units": "95",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.146Z"
 }

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.4,
+    "department": "Materials Science",
+    "firstName": "Susan",
+    "id": "VGVhY2hlci0yMDcxMzU0",
+    "lastName": "Gentry",
+    "legacyId": 2071354,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 46.6667
+  }
+]

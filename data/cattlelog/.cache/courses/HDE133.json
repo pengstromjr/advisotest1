@@ -1,0 +1,155 @@
+{
+  "course_id": "HDE133",
+  "course_title": "Stress, Adversity & Resilience",
+  "overall_grades": {
+    "A+": 169,
+    "A": 310,
+    "A-": 218,
+    "B+": 135,
+    "B": 131,
+    "B-": 75,
+    "C+": 62,
+    "C": 40,
+    "C-": 24,
+    "D+": 5,
+    "D": 9,
+    "D-": 6,
+    "F": 13
+  },
+  "overall_gpa": 3.38,
+  "overall_enrolled": 1197,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrea Cordero",
+      "professor_slug": "andrea-cordero",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 31,
+            "A-": 23,
+            "B+": 9,
+            "B": 23,
+            "B-": 6,
+            "C+": 5,
+            "C": 1,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 4
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 120
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 31,
+            "A-": 23,
+            "B+": 9,
+            "B": 23,
+            "B-": 6,
+            "C+": 5,
+            "C": 1,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 4
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 120
+        }
+      }
+    },
+    {
+      "professor_name": "Johnna Swartz",
+      "professor_slug": "johnna-swartz",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 156,
+            "A": 279,
+            "A-": 195,
+            "B+": 126,
+            "B": 108,
+            "B-": 69,
+            "C+": 57,
+            "C": 39,
+            "C-": 21,
+            "D+": 3,
+            "D": 9,
+            "D-": 6,
+            "F": 9
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 1077
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 99,
+            "A-": 57,
+            "B+": 36,
+            "B": 33,
+            "B-": 6,
+            "C+": 21,
+            "C": 12,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 360
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 90,
+            "A-": 54,
+            "B+": 66,
+            "B": 33,
+            "B-": 36,
+            "C+": 18,
+            "C": 18,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 363
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 90,
+            "A-": 84,
+            "B+": 24,
+            "B": 42,
+            "B-": 27,
+            "C+": 18,
+            "C": 9,
+            "C-": 9,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 9
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 354
+        }
+      }
+    }
+  ]
+}

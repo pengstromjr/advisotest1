@@ -8,32 +8,50 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "Upper division units in philosophy (100-199).",
+        "Upper division units in philosophy (100-199). 1",
         "Philosophy (PHI) courses."
-      ]
+      ],
+      "group": "Philosophy—General",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "PHI 012",
-        "MAT 108",
-        "MAT 108V",
-        "PHI 112",
+        "or MAT 108",
+        "or MAT 108V",
+        "PHI 112"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Philosophy—Logic",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "PHI 113",
         "PHI 131",
         "PHI 134",
         "PHI 135",
         "PHI 189K"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
         "Choose three:"
-      ]
+      ],
+      "group": "Philosophy—Logic",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Philosophy—General",
+    "Philosophy—Logic"
+  ],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.882Z"
 }

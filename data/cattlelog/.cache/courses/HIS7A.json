@@ -1,0 +1,164 @@
+{
+  "course_id": "HIS7A",
+  "course_title": "History of Latin America to 1700",
+  "overall_grades": {
+    "A+": 236,
+    "A": 210,
+    "A-": 141,
+    "B+": 82,
+    "B": 102,
+    "B-": 33,
+    "C+": 12,
+    "C": 12,
+    "C-": 6,
+    "D+": 3,
+    "D": 9,
+    "D-": 0,
+    "F": 6,
+    "P*": 14,
+    "NP*": 3
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 869,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andres Resendez",
+      "professor_slug": "andres-resendez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 215,
+            "A": 105,
+            "A-": 87,
+            "B+": 61,
+            "B": 57,
+            "B-": 30,
+            "C+": 12,
+            "C": 12,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 11
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 602
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 66,
+            "B+": 39,
+            "B": 48,
+            "B-": 24,
+            "C+": 6,
+            "C": 12,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 258
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 138,
+            "A": 48,
+            "A-": 21,
+            "B+": 21,
+            "B": 9,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 255
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 77,
+            "A": 9,
+            "A-": 0,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 89
+        }
+      }
+    },
+    {
+      "professor_name": "Charles Walker",
+      "professor_slug": "charles-walker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 105,
+            "A-": 54,
+            "B+": 21,
+            "B": 45,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 267
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 105,
+            "A-": 54,
+            "B+": 21,
+            "B": 45,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 267
+        }
+      }
+    }
+  ]
+}

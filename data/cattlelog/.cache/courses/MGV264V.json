@@ -1,0 +1,170 @@
+{
+  "course_id": "MGV264V",
+  "course_title": "Business Taxation",
+  "overall_grades": {
+    "A+": 177,
+    "A": 105,
+    "A-": 15,
+    "B+": 18,
+    "B": 6,
+    "B-": 9,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.89,
+  "overall_enrolled": 330,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Spring_2023",
+    "Summer_2023",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Robert Yetman",
+      "professor_slug": "robert-yetman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 177,
+            "A": 105,
+            "A-": 15,
+            "B+": 18,
+            "B": 6,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 330
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 18,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 75
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 27,
+            "A-": 0,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 48
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 9,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 45
+        },
+        "Summer_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 24,
+            "A-": 6,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 63
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 12,
+            "A-": 0,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 57
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 15,
+            "A-": 6,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 42
+        }
+      }
+    }
+  ]
+}

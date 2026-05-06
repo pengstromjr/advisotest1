@@ -1,0 +1,115 @@
+{
+  "course_id": "EEC116",
+  "course_title": "VLSI Design",
+  "overall_grades": {
+    "A+": 11,
+    "A": 28,
+    "A-": 27,
+    "B+": 30,
+    "B": 25,
+    "B-": 15,
+    "C+": 23,
+    "C": 25,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 4
+  },
+  "overall_gpa": 3.01,
+  "overall_enrolled": 194,
+  "available_quarters": [
+    "Fall_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Avesta Sasan",
+      "professor_slug": "avesta-sasan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 19,
+            "A-": 6,
+            "B+": 9,
+            "B": 13,
+            "B-": 6,
+            "C+": 2,
+            "C": 16,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 77
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 19,
+            "A-": 6,
+            "B+": 9,
+            "B": 13,
+            "B-": 6,
+            "C+": 2,
+            "C": 16,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 77
+        }
+      }
+    },
+    {
+      "professor_name": "Bevan Baas",
+      "professor_slug": "bevan-baas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 9,
+            "A-": 21,
+            "B+": 21,
+            "B": 12,
+            "B-": 9,
+            "C+": 21,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 117
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 9,
+            "A-": 21,
+            "B+": 21,
+            "B": 12,
+            "B-": 9,
+            "C+": 21,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 117
+        }
+      }
+    }
+  ]
+}

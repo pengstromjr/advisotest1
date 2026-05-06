@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.4,
+    "department": "Civil Engineering",
+    "firstName": "Holly",
+    "id": "VGVhY2hlci0yMzY1MTY3",
+    "lastName": "Oldroyd",
+    "legacyId": 2365167,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  }
+]

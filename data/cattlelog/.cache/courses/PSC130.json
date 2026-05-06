@@ -1,0 +1,350 @@
+{
+  "course_id": "PSC130",
+  "course_title": "Human Learning and Memory  ",
+  "overall_grades": {
+    "A+": 1061,
+    "A": 847,
+    "A-": 441,
+    "B+": 368,
+    "B": 349,
+    "B-": 272,
+    "C+": 215,
+    "C": 213,
+    "C-": 114,
+    "D+": 94,
+    "D": 85,
+    "D-": 111,
+    "F": 132,
+    "P*": 266,
+    "NP*": 148
+  },
+  "overall_gpa": 3.17,
+  "overall_enrolled": 4716,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrew Yonelinas",
+      "professor_slug": "andrew-yonelinas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 448,
+            "A": 299,
+            "A-": 235,
+            "B+": 217,
+            "B": 237,
+            "B-": 198,
+            "C+": 159,
+            "C": 159,
+            "C-": 90,
+            "D+": 69,
+            "D": 76,
+            "D-": 106,
+            "F": 108,
+            "P*": 226,
+            "NP*": 144
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 2771
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 55,
+            "A": 26,
+            "A-": 25,
+            "B+": 10,
+            "B": 9,
+            "B-": 24,
+            "C+": 6,
+            "C": 9,
+            "C-": 15,
+            "D+": 3,
+            "D": 7,
+            "D-": 4,
+            "F": 6,
+            "P*": 16,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 221
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 90,
+            "A-": 45,
+            "B+": 54,
+            "B": 93,
+            "B-": 57,
+            "C+": 57,
+            "C": 48,
+            "C-": 12,
+            "D+": 12,
+            "D": 15,
+            "D-": 24,
+            "F": 15,
+            "P*": 27,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 600
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 69,
+            "A-": 69,
+            "B+": 66,
+            "B": 54,
+            "B-": 36,
+            "C+": 39,
+            "C": 57,
+            "C-": 18,
+            "D+": 21,
+            "D": 18,
+            "D-": 24,
+            "F": 30,
+            "P*": 75,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 708
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 45,
+            "A-": 48,
+            "B+": 42,
+            "B": 42,
+            "B-": 45,
+            "C+": 33,
+            "C": 27,
+            "C-": 24,
+            "D+": 6,
+            "D": 18,
+            "D-": 27,
+            "F": 15,
+            "P*": 69,
+            "NP*": 51
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 537
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 201,
+            "A": 69,
+            "A-": 48,
+            "B+": 45,
+            "B": 39,
+            "B-": 36,
+            "C+": 24,
+            "C": 18,
+            "C-": 21,
+            "D+": 27,
+            "D": 18,
+            "D-": 27,
+            "F": 42,
+            "P*": 39,
+            "NP*": 51
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 705
+        }
+      }
+    },
+    {
+      "professor_name": "Ani Abovian",
+      "professor_slug": "ani-abovian",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 35,
+            "A-": 22,
+            "B+": 14,
+            "B": 16,
+            "B-": 12,
+            "C+": 7,
+            "C": 5,
+            "C-": 10,
+            "D+": 5,
+            "D": 2,
+            "D-": 1,
+            "F": 6,
+            "P*": 14,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 231
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 35,
+            "A-": 22,
+            "B+": 14,
+            "B": 16,
+            "B-": 12,
+            "C+": 7,
+            "C": 5,
+            "C-": 10,
+            "D+": 5,
+            "D": 2,
+            "D-": 1,
+            "F": 6,
+            "P*": 14,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 231
+        }
+      }
+    },
+    {
+      "professor_name": "Charan Ranganath",
+      "professor_slug": "charan-ranganath",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 165,
+            "A-": 106,
+            "B+": 68,
+            "B": 60,
+            "B-": 53,
+            "C+": 34,
+            "C": 28,
+            "C-": 8,
+            "D+": 20,
+            "D": 7,
+            "D-": 4,
+            "F": 15,
+            "P*": 20
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 619
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 102,
+            "A-": 69,
+            "B+": 48,
+            "B": 51,
+            "B-": 36,
+            "C+": 27,
+            "C": 21,
+            "C-": 3,
+            "D+": 18,
+            "D": 6,
+            "D-": 3,
+            "F": 12,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 444
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 63,
+            "A-": 37,
+            "B+": 20,
+            "B": 9,
+            "B-": 17,
+            "C+": 7,
+            "C": 7,
+            "C-": 5,
+            "D+": 2,
+            "D": 1,
+            "D-": 1,
+            "F": 3,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 175
+        }
+      }
+    },
+    {
+      "professor_name": "Evangelos Antzoulatos",
+      "professor_slug": "evangelos-antzoulatos",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 501,
+            "A": 348,
+            "A-": 78,
+            "B+": 69,
+            "B": 36,
+            "B-": 9,
+            "C+": 15,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 1095
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 375,
+            "A": 213,
+            "A-": 45,
+            "B+": 45,
+            "B": 15,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 720
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 126,
+            "A": 135,
+            "A-": 33,
+            "B+": 24,
+            "B": 21,
+            "B-": 6,
+            "C+": 6,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 375
+        }
+      }
+    }
+  ]
+}

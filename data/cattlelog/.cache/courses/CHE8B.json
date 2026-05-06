@@ -1,0 +1,262 @@
+{
+  "course_id": "CHE8B",
+  "course_title": "Organic Chemistry: Brief Course",
+  "overall_grades": {
+    "A+": 295,
+    "A": 692,
+    "A-": 516,
+    "B+": 543,
+    "B": 855,
+    "B-": 611,
+    "C+": 779,
+    "C": 1140,
+    "C-": 718,
+    "D+": 461,
+    "D": 427,
+    "D-": 187,
+    "F": 490,
+    "P*": 109,
+    "NP*": 82
+  },
+  "overall_gpa": 2.37,
+  "overall_enrolled": 7905,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Max Helix",
+      "professor_slug": "max-helix",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 104,
+            "A": 433,
+            "A-": 212,
+            "B+": 211,
+            "B": 448,
+            "B-": 263,
+            "C+": 406,
+            "C": 702,
+            "C-": 304,
+            "D+": 176,
+            "D": 212,
+            "D-": 68,
+            "F": 122,
+            "P*": 48,
+            "NP*": 40
+          },
+          "quarter_average_gpa": 2.47,
+          "quarter_enrolled": 3749
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 105,
+            "A-": 69,
+            "B+": 66,
+            "B": 141,
+            "B-": 102,
+            "C+": 99,
+            "C": 183,
+            "C-": 87,
+            "D+": 27,
+            "D": 27,
+            "D-": 9,
+            "F": 15,
+            "P*": 12,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 1005
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 102,
+            "A-": 57,
+            "B+": 48,
+            "B": 129,
+            "B-": 54,
+            "C+": 99,
+            "C": 195,
+            "C-": 99,
+            "D+": 66,
+            "D": 90,
+            "D-": 15,
+            "F": 24,
+            "P*": 12,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 1023
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 195,
+            "A-": 69,
+            "B+": 72,
+            "B": 144,
+            "B-": 81,
+            "C+": 180,
+            "C": 249,
+            "C-": 84,
+            "D+": 72,
+            "D": 72,
+            "D-": 33,
+            "F": 69,
+            "P*": 18,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.43,
+          "quarter_enrolled": 1377
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 31,
+            "A-": 17,
+            "B+": 25,
+            "B": 34,
+            "B-": 26,
+            "C+": 28,
+            "C": 75,
+            "C-": 34,
+            "D+": 11,
+            "D": 23,
+            "D-": 11,
+            "F": 14,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.35,
+          "quarter_enrolled": 344
+        }
+      }
+    },
+    {
+      "professor_name": "Melekeh Nasiri",
+      "professor_slug": "melekeh-nasiri",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 81,
+            "A-": 135,
+            "B+": 153,
+            "B": 138,
+            "B-": 168,
+            "C+": 171,
+            "C": 132,
+            "C-": 231,
+            "D+": 126,
+            "D": 75,
+            "D-": 45,
+            "F": 75,
+            "P*": 45,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.35,
+          "quarter_enrolled": 1638
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 81,
+            "A-": 135,
+            "B+": 153,
+            "B": 138,
+            "B-": 168,
+            "C+": 171,
+            "C": 132,
+            "C-": 231,
+            "D+": 126,
+            "D": 75,
+            "D-": 45,
+            "F": 75,
+            "P*": 45,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.35,
+          "quarter_enrolled": 1638
+        }
+      }
+    },
+    {
+      "professor_name": "Sarah Lievens",
+      "professor_slug": "sarah-lievens",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 140,
+            "A": 178,
+            "A-": 169,
+            "B+": 179,
+            "B": 269,
+            "B-": 180,
+            "C+": 202,
+            "C": 306,
+            "C-": 183,
+            "D+": 159,
+            "D": 140,
+            "D-": 74,
+            "F": 293,
+            "P*": 16,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 2.25,
+          "quarter_enrolled": 2518
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 126,
+            "A-": 135,
+            "B+": 132,
+            "B": 207,
+            "B-": 135,
+            "C+": 147,
+            "C": 228,
+            "C-": 138,
+            "D+": 111,
+            "D": 102,
+            "D-": 45,
+            "F": 219,
+            "P*": 12,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.26,
+          "quarter_enrolled": 1857
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 44,
+            "A": 52,
+            "A-": 34,
+            "B+": 47,
+            "B": 62,
+            "B-": 45,
+            "C+": 55,
+            "C": 78,
+            "C-": 45,
+            "D+": 48,
+            "D": 38,
+            "D-": 29,
+            "F": 74,
+            "P*": 4,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.23,
+          "quarter_enrolled": 661
+        }
+      }
+    }
+  ]
+}

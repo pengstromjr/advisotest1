@@ -1,0 +1,187 @@
+{
+  "course_id": "AMS59",
+  "course_title": "Music & American Culture",
+  "overall_grades": {
+    "A+": 494,
+    "A": 527,
+    "A-": 253,
+    "B+": 80,
+    "B": 57,
+    "B-": 24,
+    "C+": 10,
+    "C": 13,
+    "C-": 3,
+    "D+": 1,
+    "D": 7,
+    "D-": 0,
+    "F": 12,
+    "P*": 48
+  },
+  "overall_gpa": 3.77,
+  "overall_enrolled": 1529,
+  "available_quarters": [
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elizabeth Campbell",
+      "professor_slug": "elizabeth-campbell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 174,
+            "A": 271,
+            "A-": 157,
+            "B+": 40,
+            "B": 37,
+            "B-": 12,
+            "C+": 10,
+            "C": 13,
+            "C-": 3,
+            "D+": 1,
+            "D": 3,
+            "D-": 0,
+            "F": 12,
+            "P*": 32
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 765
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 135,
+            "A": 210,
+            "A-": 126,
+            "B+": 27,
+            "B": 15,
+            "B-": 3,
+            "C+": 6,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 27
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 576
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 61,
+            "A-": 31,
+            "B+": 13,
+            "B": 22,
+            "B-": 9,
+            "C+": 4,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 189
+        }
+      }
+    },
+    {
+      "professor_name": "Jemma DeCristo",
+      "professor_slug": "jemma-decristo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 240,
+            "A": 192,
+            "A-": 72,
+            "B+": 30,
+            "B": 15,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 573
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 240,
+            "A": 192,
+            "A-": 72,
+            "B+": 30,
+            "B": 15,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 573
+        }
+      }
+    },
+    {
+      "professor_name": "Jemma Decristo",
+      "professor_slug": "jemma-decristo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 80,
+            "A": 64,
+            "A-": 24,
+            "B+": 10,
+            "B": 5,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 191
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 80,
+            "A": 64,
+            "A-": 24,
+            "B+": 10,
+            "B": 5,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 191
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.1,
+    "department": "University Writing Program",
+    "firstName": "Beth",
+    "id": "VGVhY2hlci0xOTc1OTEz",
+    "lastName": "Pearsall",
+    "legacyId": 1975913,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.5,
+    "department": "Writing",
+    "firstName": "Nancy",
+    "id": "VGVhY2hlci0xODAzMDQ1",
+    "lastName": "Pearsall",
+    "legacyId": 1803045,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.3333
+  }
+]

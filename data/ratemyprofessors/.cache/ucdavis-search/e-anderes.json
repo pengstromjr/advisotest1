@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.5,
+    "department": "Statistics",
+    "firstName": "Ethan",
+    "id": "VGVhY2hlci05MDAzNjY=",
+    "lastName": "Anderes",
+    "legacyId": 900366,
+    "numRatings": 102,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 94.4444
+  }
+]

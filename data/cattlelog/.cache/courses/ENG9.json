@@ -1,0 +1,141 @@
+{
+  "course_id": "ENG9",
+  "course_title": "Technology Startup Speaker Series",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 121,
+    "NP": 17
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 138,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ralph Aldredge",
+      "professor_slug": "ralph-aldredge",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 121,
+            "NP": 17
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 138
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 66,
+            "NP": 12
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 78
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 27,
+            "NP": 4
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 31
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 10
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 10
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 18,
+            "NP": 1
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 19
+        }
+      }
+    }
+  ]
+}

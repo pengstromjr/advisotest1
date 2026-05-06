@@ -1,3 +1,6 @@
+import type { AdvisingGoalId } from "./advising-goals";
+import type { TimeBlock } from "./time-blocks";
+
 export interface Course {
   code: string;
   title: string;
@@ -49,6 +52,8 @@ export interface RequirementSection {
   courses: string[];
   units: string;
   notes: string[];
+  group?: string;
+  group_kind?: "path";
 }
 
 export interface ScrapedProgram {
@@ -109,7 +114,7 @@ export interface SectionMeeting {
 }
 
 export interface Section {
-  term: string; // e.g. "2026 Spring Quarter"
+  term: string; // e.g. "Fall Quarter 2026"
   subject: string; // "MAT"
   courseNumber: string; // "021B"
   courseCode: string; // "MAT 021B"
@@ -124,6 +129,7 @@ export interface Section {
   seatsAvailable: number | null;
   waitlistTotal: number | null;
   waitlistAvailable: number | null;
+  geAreas?: string[];
   rmp?: Record<string, {
     avgRating: number;
     avgDifficulty: number;
@@ -144,11 +150,15 @@ export interface Section {
   notes: string[];
 }
 
-import type { TimeBlock } from "./time-blocks";
-
 export interface StudentContext {
   major: string;
   year: string;
   completedCourses: string[];
+  advisingGoal?: AdvisingGoalId;
+  advisingGoals?: AdvisingGoalId[];
+  targetMajor?: string;
+  academicPlan?: "single-major" | "double-major" | "major-minor" | "double-major-minor";
+  secondaryMajor?: string;
+  minors?: string[];
   blockedTimes?: TimeBlock[];
 }

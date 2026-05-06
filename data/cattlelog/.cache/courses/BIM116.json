@@ -1,0 +1,155 @@
+{
+  "course_id": "BIM116",
+  "course_title": "Quantitative Physiology",
+  "overall_grades": {
+    "A+": 15,
+    "A": 55,
+    "A-": 42,
+    "B+": 44,
+    "B": 41,
+    "B-": 37,
+    "C+": 36,
+    "C": 12,
+    "C-": 18,
+    "D+": 0,
+    "D": 6,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.06,
+  "overall_enrolled": 309,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jie Zheng",
+      "professor_slug": "jie-zheng",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 12,
+            "B+": 5,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 36
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 12,
+            "B+": 5,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 36
+        }
+      }
+    },
+    {
+      "professor_name": "Steven George",
+      "professor_slug": "steven-george",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 42,
+            "A-": 30,
+            "B+": 39,
+            "B": 39,
+            "B-": 36,
+            "C+": 36,
+            "C": 12,
+            "C-": 18,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 273
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 6,
+            "B+": 12,
+            "B": 9,
+            "B-": 12,
+            "C+": 6,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 78
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 9,
+            "A-": 9,
+            "B+": 18,
+            "B": 21,
+            "B-": 15,
+            "C+": 30,
+            "C": 6,
+            "C-": 12,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 135
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 15,
+            "B+": 9,
+            "B": 9,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 60
+        }
+      }
+    }
+  ]
+}

@@ -9,16 +9,23 @@
       "heading": "General Requirements",
       "courses": [
         "LIN 001",
-        "LIN 001Y",
+        "or LIN 001Y",
         "LIN/ENL/UWP 106",
         "LIN 165",
         "LIN 160",
-        "LIN 163",
+        "or LIN 163"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "LIN/EDU 173",
         "LIN 180",
         "LIN 182"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
         "Choose two:"
       ]
@@ -26,5 +33,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.437Z"
 }

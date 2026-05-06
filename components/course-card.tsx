@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import type { Section } from "@/lib/course-data";
+import { CURRENT_TERM_LABEL } from "@/lib/current-term";
 import {
   dispatchScheduleAdd,
   subscribeScheduleAdd,
@@ -59,7 +60,7 @@ export function CourseCard({
     try {
       const params = new URLSearchParams();
       params.set("crn", crn);
-      params.set("term", "Spring Quarter 2026");
+      params.set("term", CURRENT_TERM_LABEL);
       const res = await fetch(`/api/sections?${params.toString()}`);
       const data = (await res.json()) as { sections?: Section[] };
       const section = data.sections?.[0];
@@ -72,7 +73,7 @@ export function CourseCard({
       } else {
         const parts = courseCode.match(/^([A-Z]{2,5})\s+(.+)$/i);
         const syntheticSection: Section = {
-          term: "Spring Quarter 2026",
+          term: CURRENT_TERM_LABEL,
           subject: parts?.[1]?.toUpperCase() ?? courseCode.split(" ")[0] ?? "",
           courseNumber: parts?.[2] ?? "",
           courseCode,
@@ -102,7 +103,7 @@ export function CourseCard({
     } catch {
       const parts = courseCode.match(/^([A-Z]{2,5})\s+(.+)$/i);
       const syntheticSection: Section = {
-        term: "Spring Quarter 2026",
+        term: CURRENT_TERM_LABEL,
         subject: parts?.[1]?.toUpperCase() ?? "",
         courseNumber: parts?.[2] ?? "",
         courseCode,

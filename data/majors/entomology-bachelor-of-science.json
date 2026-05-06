@@ -10,7 +10,21 @@
       "courses": [
         "BIS 002A",
         "BIS 002B",
-        "BIS 002C"
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 002",
+        "BIO 003"
+      ],
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B"
       ],
       "units": "5",
       "notes": []
@@ -18,23 +32,10 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002A",
-        "CHE 002B",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118B"
-      ],
-      "units": "5",
-      "notes": [
-        "Choose a series:"
-      ]
-    },
-    {
-      "heading": "Math",
-      "courses": [
-        "MAT 017A",
-        "MAT 017B",
-        "MAT 021A",
-        "MAT 021B"
+        "CHE 008A",
+        "CHE 008B",
+        "CHE 118A",
+        "CHE 118B"
       ],
       "units": "6-8",
       "notes": [
@@ -42,27 +43,60 @@
       ]
     },
     {
+      "heading": "Choose a series:",
+      "courses": [
+        "MAT 016A",
+        "MAT 016B",
+        "or MAT 017A",
+        "MAT 017B",
+        "or MAT 021A",
+        "MAT 021B"
+      ],
+      "units": "",
+      "notes": [
+        "OR"
+      ]
+    },
+    {
       "heading": "Physics",
       "courses": [
         "PHY 001A",
-        "PHY 001B",
+        "PHY 001B"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
         "STA 100",
         "PLS 120"
       ],
-      "units": "3",
+      "units": "3-4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (45-51 units)"
       ]
+    },
+    {
+      "heading": "General Entomology",
+      "courses": [
+        "ENT 100",
+        "ENT 100L",
+        "ENT 102"
+      ],
+      "units": "4",
+      "notes": []
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V"
+        "or BIS 101V"
       ],
       "units": "4",
       "notes": []
@@ -76,34 +110,61 @@
       "notes": []
     },
     {
-      "heading": "General Entomology",
+      "heading": "Evolution & Ecology",
       "courses": [
-        "ENT 100",
-        "ENT 100L",
-        "ENT 102",
+        "MMG 102",
+        "or MIC 102",
         "MMG 162",
+        "or MIC 162",
         "PLB/PLP 148",
-        "PLP 120",
+        "PLP 120"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
         "ENT 105",
         "ESP 100",
-        "EVE 101",
+        "EVE 101"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
         "BIS 105",
-        "BIS 105",
-        "BIS 102BIS 103",
-        "BIS 102VBIS 103",
-        "ABI 102ABI 103",
+        "or BIS 102",
+        "or BIS 103",
+        "or BIS 102V",
+        "or ABI 102",
+        "or ABI 103"
+      ],
+      "units": "3-10",
+      "notes": [
+        "Choose BIS 105 or a series:",
+        "OR"
+      ]
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
         "ENT 103",
         "ENT 104",
         "ENT 107",
         "ENT 109",
         "NEM 110"
       ],
-      "units": "4",
+      "units": "3-7",
       "notes": [
-        "Choose one:",
-        "Choose one:",
         "Choose at least 3 units:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (31-43 units)"
       ]
     },
     {
@@ -111,15 +172,19 @@
       "courses": [],
       "units": "14",
       "notes": [
-        "Upper division Entomology (ENT) & Nematology (NEM) courses.",
-        "Entomology (ENT)  courses.",
+        "Upper division Entomology (ENT) & Nematology (NEM) courses. (14 units)",
+        "Entomology (ENT) courses.",
         "Nematology (NEM) courses.",
-        "Upper division electives related to student's interest with approval of advisor. Any courses in the life sciences, scientific writing, or statistics will be automatically approved; see advisor for other choices.",
-        "Restricted Electives Subtotal"
+        "Upper division electives related to student's interest with approval of advisor. Any courses in the life sciences, scientific writing, or statistics will be automatically approved; see advisor for other choices. (9 units)",
+        "Restricted Electives Subtotal (23 units)"
       ]
     }
   ],
   "specializations": [],
-  "advising_notes": [],
-  "total_units": "100"
+  "advising_notes": [
+    "Undergraduate Advising: Advising Center for the major, including peer advising, located in 150 Hutchison Hall, 530-754-4131; Entomology AdvingLead Faculty AdvisorsShahid Siddique, Ph.D., Rachel L. Vannette, Ph.D., Vice ChairAcademic AdvisorElvira Galvan Hack; 160 Hutchison Hall; 530-754-7277; Entomology & Nematology Advising"
+  ],
+  "total_units": "99",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.602Z"
 }

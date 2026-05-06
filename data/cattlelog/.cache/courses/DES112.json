@@ -1,0 +1,500 @@
+{
+  "course_id": "DES112",
+  "course_title": "UI/UX Design: Principles & Practices",
+  "overall_grades": {
+    "A+": 833,
+    "A": 321,
+    "A-": 160,
+    "B+": 75,
+    "B": 49,
+    "B-": 34,
+    "C+": 21,
+    "C": 17,
+    "C-": 10,
+    "D+": 4,
+    "D": 4,
+    "D-": 4,
+    "F": 48,
+    "P*": 31,
+    "NP*": 9
+  },
+  "overall_gpa": 3.67,
+  "overall_enrolled": 1620,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Glenda Drew",
+      "professor_slug": "glenda-drew",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 15,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 81
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 15,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 81
+        }
+      }
+    },
+    {
+      "professor_name": "Jean Menezes",
+      "professor_slug": "jean-menezes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 19,
+            "A-": 24,
+            "B+": 6,
+            "B": 6,
+            "B-": 2,
+            "C+": 0,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 6,
+            "P*": 14
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 103
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 3,
+            "A-": 18,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 63
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 2,
+            "B+": 2,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 22
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 7,
+            "A-": 4,
+            "B+": 1,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 18
+        }
+      }
+    },
+    {
+      "professor_name": "Kathreen Fontecha",
+      "professor_slug": "kathreen-fontecha",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 648,
+            "A": 221,
+            "A-": 88,
+            "B+": 51,
+            "B": 37,
+            "B-": 26,
+            "C+": 15,
+            "C": 9,
+            "C-": 10,
+            "D+": 1,
+            "D": 3,
+            "D-": 4,
+            "F": 39,
+            "P*": 11,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 1172
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 9,
+            "A-": 0,
+            "B+": 9,
+            "B": 0,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 69
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 21,
+            "A-": 9,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 12
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 162
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 39,
+            "A-": 21,
+            "B+": 6,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 159
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 7,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 49
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 15,
+            "A-": 6,
+            "B+": 0,
+            "B": 3,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 159
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 99,
+            "A": 18,
+            "A-": 6,
+            "B+": 9,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 153
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 25,
+            "A": 8,
+            "A-": 2,
+            "B+": 2,
+            "B": 3,
+            "B-": 0,
+            "C+": 1,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 46
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 30,
+            "A-": 12,
+            "B+": 12,
+            "B": 3,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 150
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 60,
+            "A-": 24,
+            "B+": 6,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 174
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 14,
+            "A-": 5,
+            "B+": 1,
+            "B": 4,
+            "B-": 1,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 51
+        }
+      }
+    },
+    {
+      "professor_name": "Lloyd Wheeler",
+      "professor_slug": "lloyd-wheeler",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 39,
+            "A-": 27,
+            "B+": 6,
+            "B": 6,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 177
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 24,
+            "A-": 12,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 87
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 15,
+            "A-": 15,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 90
+        }
+      }
+    },
+    {
+      "professor_name": "William Mead",
+      "professor_slug": "william-mead",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 27,
+            "A-": 15,
+            "B+": 9,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 87
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 27,
+            "A-": 15,
+            "B+": 9,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 87
+        }
+      }
+    }
+  ]
+}

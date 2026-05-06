@@ -8,22 +8,28 @@
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "JPN 001JPN 002JPN 003JPN 004JPN 005JPN 006",
-        "CHN 010",
+        "JPN 001",
+        "JPN 002",
+        "JPN 003",
+        "JPN 004",
+        "JPN 005",
+        "JPN 006",
+        "or CHN 010",
         "CHN 011",
         "CHN/JPN 050",
         "HIS 009B",
         "JPN 010",
         "JPN 025",
         "LIN 001",
-        "LIN 001Y"
+        "or LIN 001Y"
       ],
       "units": "0-30",
       "notes": [
         "Complete 0-30 units:",
+        "OR",
         "Equivalent as determined by a language placement exam.",
         "Recommended but not required:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-30 units)"
       ]
     },
     {
@@ -35,7 +41,17 @@
         "JPN 111",
         "JPN 112",
         "JPN 113",
-        "JPN 151",
+        "JPN 151"
+      ],
+      "units": "4",
+      "notes": [
+        "Grading: Students may take up to two and no more than two (regular, letter-graded) courses for the major on a P/NP basis. Courses which are only offered on a P/NP basis do not count toward these limits.",
+        "Note: With prior approval of the undergraduate advisor, students already proficient in Japanese at any third-year level1 must take other upper division Japanese (JPN) courses to replace language course(s)."
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "JPN 104",
         "JPN 105",
         "JPN 106",
@@ -70,8 +86,9 @@
         "JPN 160",
         "JPN 162",
         "JPN 194H",
-        "JPN 198JPN 199",
+        "JPN 198",
         "JPN 199",
+        "or JPN 199",
         "AHI 164",
         "COM 112",
         "ECN 171",
@@ -80,24 +97,25 @@
         "HIS 194C",
         "HIS 194D",
         "POL 148B",
+        "RST 170",
         "RST 172"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
-        "Grading: Students may take up to two and no more than two (regular, letter-graded) courses for the major on a P/NP basis. Courses which are only offered on a P/NP basis do not count toward these limits.",
-        "Note: With prior approval of the undergraduate advisor, students already proficient in Japanese at any third-year level1 must take other upper division Japanese (JPN) courses to replace language course(s).",
         "Choose three; at least 12 units:",
         "Up to 4 units:",
-        "Up to 4 units:",
-        "Up to two (8 units) upper division Chinese courses",
+        "Up to two (8 units) upper division Chinese courses 2",
+        "OR",
         "Other advanced literature and culture courses selected in consultation with the undergraduate advisor.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors Program: To be eligible to receive high or highest honors in the Japanese major, students must complete a senior thesis project. A student interested in pursuing a senior thesis project must enroll in JPN 194H and complete a scholarly paper or similar research project under the direction of a senate faculty member. The thesis project will have a minimum duration of two quarters and carry a minimum of 6 units of credit. To qualify to undertake the senior thesis project, a student must have completed at le"
+    "Honors Program: To be eligible to receive high or highest honors in the Japanese major, students must complete a senior thesis project. A student interested in pursuing a senior thesis project must enroll in JPN 194H and complete a scholarly paper or similar research project under the direction of a senate faculty member. The thesis project will have a minimum duration of two quarters and carry a minimum of 6 units of credit. To qualify to undertake the senior thesis project, a student must have completed at least 135 units with a minimum GPA of 3.500 in courses counted toward the major. Interested students should consult with faculty in their field of interest by the quarter before they hope to commence work on the project (in most cases this will be the Spring Quarter of their junior year). Students who"
   ],
-  "total_units": "40"
+  "total_units": "40",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.344Z"
 }

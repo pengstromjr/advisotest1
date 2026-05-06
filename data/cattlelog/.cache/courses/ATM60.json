@@ -1,0 +1,159 @@
+{
+  "course_id": "ATM60",
+  "course_title": "Introduction to Atmospheric Science",
+  "overall_grades": {
+    "A+": 71,
+    "A": 69,
+    "A-": 41,
+    "B+": 50,
+    "B": 54,
+    "B-": 77,
+    "C+": 43,
+    "C": 14,
+    "C-": 4,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 0,
+    "P*": 18
+  },
+  "overall_gpa": 3.26,
+  "overall_enrolled": 442,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ian Faloona",
+      "professor_slug": "ian-faloona",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 62,
+            "A": 64,
+            "A-": 39,
+            "B+": 45,
+            "B": 49,
+            "B-": 69,
+            "C+": 41,
+            "C": 13,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 403
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 9,
+            "A-": 21,
+            "B+": 3,
+            "B": 12,
+            "B-": 30,
+            "C+": 21,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 129
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 48,
+            "A-": 12,
+            "B+": 30,
+            "B": 27,
+            "B-": 30,
+            "C+": 15,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 216
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 7,
+            "A-": 6,
+            "B+": 12,
+            "B": 10,
+            "B-": 9,
+            "C+": 5,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 58
+        }
+      }
+    },
+    {
+      "professor_name": "Shu Hua Chen",
+      "professor_slug": "shu-hua-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 5,
+            "A-": 2,
+            "B+": 5,
+            "B": 5,
+            "B-": 8,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 39
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 5,
+            "A-": 2,
+            "B+": 5,
+            "B": 5,
+            "B-": 8,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

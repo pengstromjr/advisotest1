@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.6,
+    "department": "Nutrition",
+    "firstName": "Steinberg",
+    "id": "VGVhY2hlci04OTg4NDI=",
+    "lastName": "Francene",
+    "legacyId": 898842,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 1.8,
+    "department": "Nutrition",
+    "firstName": "Francene",
+    "id": "VGVhY2hlci0xNzUyMDUy",
+    "lastName": "Steinberg",
+    "legacyId": 1752052,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

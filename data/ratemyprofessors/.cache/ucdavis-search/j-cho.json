@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.5,
+    "department": "Anthropology",
+    "firstName": "Timothy",
+    "id": "VGVhY2hlci0xNjAwNzgz",
+    "lastName": "Choy",
+    "legacyId": 1600783,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.1,
+    "department": "Human Development",
+    "firstName": "Daniel",
+    "id": "VGVhY2hlci0yMTc3ODYw",
+    "lastName": "Choe",
+    "legacyId": 2177860,
+    "numRatings": 34,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.9412
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.9,
+    "department": "Communication",
+    "firstName": "Jaeho",
+    "id": "VGVhY2hlci05MzIxNzI=",
+    "lastName": "Cho",
+    "legacyId": 932172,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 82.6087
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3,
+    "department": "Mathematics",
+    "firstName": "Holli",
+    "id": "VGVhY2hlci0zMTA5NjA0",
+    "lastName": "Chopra",
+    "legacyId": 3109604,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 1,
+    "department": "Economics",
+    "firstName": "Saloni ",
+    "id": "VGVhY2hlci0zMTEzNDk5",
+    "lastName": "Chopra",
+    "legacyId": 3113499,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4,
+    "department": "Biomedical Engineering",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci0yMDMzMzcx",
+    "lastName": "Choi",
+    "legacyId": 2033371,
+    "numRatings": 30,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.5,
+    "department": "Mathematics",
+    "firstName": "Euna",
+    "id": "VGVhY2hlci0xMTQ5NzQy",
+    "lastName": "Chong",
+    "legacyId": 1149742,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.8,
+    "department": "Statistics",
+    "firstName": "Cho-Jui",
+    "id": "VGVhY2hlci0yMjUyMTQ4",
+    "lastName": "Hsieh",
+    "legacyId": 2252148,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.8,
+    "department": "Statistics",
+    "firstName": "Hee min ",
+    "id": "VGVhY2hlci0xOTkzMzky",
+    "lastName": "Choi ",
+    "legacyId": 1993392,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4.5,
+    "department": "Economics",
+    "firstName": "Changho",
+    "id": "VGVhY2hlci0xNDY3MDI3",
+    "lastName": "Choi",
+    "legacyId": 1467027,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

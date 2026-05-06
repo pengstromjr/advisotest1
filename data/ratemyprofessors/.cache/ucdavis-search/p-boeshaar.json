@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.4,
+    "department": "Physics",
+    "firstName": "Patricia",
+    "id": "VGVhY2hlci01ODM1MjU=",
+    "lastName": "Boeshaar",
+    "legacyId": 583525,
+    "numRatings": 50,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

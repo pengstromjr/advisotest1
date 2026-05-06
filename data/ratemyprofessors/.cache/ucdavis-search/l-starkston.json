@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.8,
+    "department": "English",
+    "firstName": "Janet L",
+    "id": "VGVhY2hlci03MDMwMjk=",
+    "lastName": "Papale",
+    "legacyId": 703029,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.9,
+    "department": "Economics",
+    "firstName": "L Jay",
+    "id": "VGVhY2hlci05NTg2Ng==",
+    "lastName": "Helms",
+    "legacyId": 95866,
+    "numRatings": 135,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.2,
+    "department": "Mathematics",
+    "firstName": "Laura",
+    "id": "VGVhY2hlci0yNDI5NDc2",
+    "lastName": "Starkston",
+    "legacyId": 2429476,
+    "numRatings": 30,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

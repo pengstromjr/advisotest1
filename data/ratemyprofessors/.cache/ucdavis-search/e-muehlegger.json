@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.6,
+    "department": "Economics",
+    "firstName": "Erich",
+    "id": "VGVhY2hlci0xOTgyMzM5",
+    "lastName": "Muehlegger",
+    "legacyId": 1982339,
+    "numRatings": 37,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.0645
+  }
+]

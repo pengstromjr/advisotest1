@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.9,
+    "department": "Mathematics",
+    "firstName": "Rishidev",
+    "id": "VGVhY2hlci0yNjk0MDgw",
+    "lastName": "Chaudhuri",
+    "legacyId": 2694080,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Economics",
+    "firstName": "Kalyani",
+    "id": "VGVhY2hlci0yODEyMTg1",
+    "lastName": "Chaudhuri",
+    "legacyId": 2812185,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

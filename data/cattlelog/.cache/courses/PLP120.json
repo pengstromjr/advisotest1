@@ -1,0 +1,137 @@
+{
+  "course_id": "PLP120",
+  "course_title": "Introduction to Plant Pathology",
+  "overall_grades": {
+    "A+": 61,
+    "A": 82,
+    "A-": 10,
+    "B+": 21,
+    "B": 29,
+    "B-": 19,
+    "C+": 13,
+    "C": 19,
+    "C-": 13,
+    "D+": 7,
+    "D": 0,
+    "D-": 1,
+    "F": 9,
+    "P*": 5,
+    "NP*": 3
+  },
+  "overall_gpa": 3.23,
+  "overall_enrolled": 292,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Sara Dye",
+      "professor_slug": "sara-dye",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 61,
+            "A": 82,
+            "A-": 10,
+            "B+": 21,
+            "B": 29,
+            "B-": 19,
+            "C+": 13,
+            "C": 19,
+            "C-": 13,
+            "D+": 7,
+            "D": 0,
+            "D-": 1,
+            "F": 9,
+            "P*": 5,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 292
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 5,
+            "A-": 1,
+            "B+": 5,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 32
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 36,
+            "A-": 6,
+            "B+": 9,
+            "B": 6,
+            "B-": 3,
+            "C+": 6,
+            "C": 9,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 108
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 33,
+            "A-": 0,
+            "B+": 6,
+            "B": 15,
+            "B-": 9,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 117
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 8,
+            "A-": 3,
+            "B+": 1,
+            "B": 2,
+            "B-": 4,
+            "C+": 1,
+            "C": 4,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 35
+        }
+      }
+    }
+  ]
+}

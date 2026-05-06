@@ -1,0 +1,233 @@
+{
+  "course_id": "SAS13",
+  "course_title": "Disease & Society",
+  "overall_grades": {
+    "A+": 1015,
+    "A": 2423,
+    "A-": 1146,
+    "B+": 726,
+    "B": 706,
+    "B-": 294,
+    "C+": 189,
+    "C": 166,
+    "C-": 61,
+    "D+": 27,
+    "D": 21,
+    "D-": 11,
+    "F": 54,
+    "P*": 427,
+    "NP*": 17
+  },
+  "overall_gpa": 3.54,
+  "overall_enrolled": 7283,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Johan Leveau",
+      "professor_slug": "johan-leveau",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 416,
+            "A": 988,
+            "A-": 641,
+            "B+": 364,
+            "B": 343,
+            "B-": 130,
+            "C+": 92,
+            "C": 71,
+            "C-": 20,
+            "D+": 19,
+            "D": 12,
+            "D-": 3,
+            "F": 39,
+            "P*": 285,
+            "NP*": 13
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 3436
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 150,
+            "A": 522,
+            "A-": 348,
+            "B+": 171,
+            "B": 108,
+            "B-": 42,
+            "C+": 27,
+            "C": 21,
+            "C-": 6,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 18,
+            "P*": 81,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 1506
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 219,
+            "A": 348,
+            "A-": 216,
+            "B+": 141,
+            "B": 174,
+            "B-": 51,
+            "C+": 45,
+            "C": 30,
+            "C-": 9,
+            "D+": 9,
+            "D": 6,
+            "D-": 3,
+            "F": 12,
+            "P*": 165,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 1434
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 47,
+            "A": 118,
+            "A-": 77,
+            "B+": 52,
+            "B": 61,
+            "B-": 37,
+            "C+": 20,
+            "C": 20,
+            "C-": 5,
+            "D+": 4,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 39,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 496
+        }
+      }
+    },
+    {
+      "professor_name": "Sara Dye",
+      "professor_slug": "sara-dye",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 599,
+            "A": 1435,
+            "A-": 505,
+            "B+": 362,
+            "B": 363,
+            "B-": 164,
+            "C+": 97,
+            "C": 95,
+            "C-": 41,
+            "D+": 8,
+            "D": 9,
+            "D-": 8,
+            "F": 15,
+            "P*": 142,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 3847
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 174,
+            "A": 534,
+            "A-": 216,
+            "B+": 147,
+            "B": 159,
+            "B-": 81,
+            "C+": 60,
+            "C": 27,
+            "C-": 18,
+            "D+": 6,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 51,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 1488
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 111,
+            "A": 414,
+            "A-": 138,
+            "B+": 78,
+            "B": 75,
+            "B-": 30,
+            "C+": 6,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 894
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 246,
+            "A": 351,
+            "A-": 111,
+            "B+": 93,
+            "B": 90,
+            "B-": 36,
+            "C+": 24,
+            "C": 30,
+            "C-": 18,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 48
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 1059
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 68,
+            "A": 136,
+            "A-": 40,
+            "B+": 44,
+            "B": 39,
+            "B-": 17,
+            "C+": 7,
+            "C": 20,
+            "C-": 2,
+            "D+": 2,
+            "D": 0,
+            "D-": 2,
+            "F": 3,
+            "P*": 25,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 406
+        }
+      }
+    }
+  ]
+}

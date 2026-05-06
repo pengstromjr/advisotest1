@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1.4,
+    "avgRating": 5,
+    "department": "Fine Arts",
+    "firstName": "Christopher",
+    "id": "VGVhY2hlci0yOTE1MzUx",
+    "lastName": "Woodcock",
+    "legacyId": 2915351,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

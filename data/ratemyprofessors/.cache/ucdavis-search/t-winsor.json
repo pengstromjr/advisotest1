@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.9,
+    "department": "Environmental Science",
+    "firstName": "Tracy",
+    "id": "VGVhY2hlci0yMzYyMTAz",
+    "lastName": "Winsor",
+    "legacyId": 2362103,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

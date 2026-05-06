@@ -11,12 +11,12 @@
         "POL 012Y",
         "POL 051",
         "SOC 056",
-        "SOC 056Y"
+        "or SOC 056Y"
       ],
       "units": "4-5",
       "notes": [
         "Choose one:",
-        "Lower Division Requirements Subtotal"
+        "Lower Division Requirements Subtotal (4-5 units)"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "courses": [
         "ANT 109",
         "CMN 102",
-        "CMN 102V",
+        "or CMN 102V",
         "CMN 110",
         "CMN 150V",
         "CMN 151",
@@ -46,11 +46,13 @@
       "units": "20-23",
       "notes": [
         "Choose five:",
-        "Upper Division Requirements Subtotal"
+        "Upper Division Requirements Subtotal (20-23 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.191Z"
 }

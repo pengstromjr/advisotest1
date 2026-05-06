@@ -17,7 +17,7 @@
       "heading": "Linguistics",
       "courses": [
         "LIN 001",
-        "LIN 001Y"
+        "or LIN 001Y"
       ],
       "units": "4",
       "notes": []
@@ -35,8 +35,8 @@
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
       "notes": []
@@ -45,7 +45,7 @@
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
       "notes": []
@@ -54,23 +54,32 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 100"
+        "or STA 013V",
+        "or STA 013Y",
+        "or STA 100"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (28 units)"
       ]
     },
     {
       "heading": "Important: Each course may only be used to satisfy one Cognitive Science major requirement; the same course cannot be used for multiple groups.",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PHI 112"
       ],
       "units": "4",
       "notes": []
+    },
+    {
+      "heading": "Group A: Cognitive Science Topical Courses",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "CGS Topical Course: choose 1 upper division course from this list. 1"
+      ]
     },
     {
       "heading": "Group B: Computation",
@@ -82,30 +91,43 @@
       ],
       "units": "4",
       "notes": [
-        "CGS Topical Course: choose 1 upper division course from this list.",
         "Choose one from Group B:"
+      ]
+    },
+    {
+      "heading": "Concentration Areas",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose 16 units from your choice of two groups from Groups B-F"
+      ]
+    },
+    {
+      "heading": "CGS Electives",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Choose 12 additional units from Groups B-G"
       ]
     },
     {
       "heading": "Group C: Neuroscience",
       "courses": [
-        "CGS/ECN 107/PSC 133",
+        "CGS/ECN 107",
+        "PSC 133",
         "PSC 121",
         "PSC 135",
         "PSC 139",
         "PSC 145"
       ],
       "units": "",
-      "notes": [
-        "Choose 16 units from your choice of two groups from Groups B-F",
-        "Choose 12 additional units from Groups B-G"
-      ]
+      "notes": []
     },
     {
       "heading": "Group D: Linguistics",
       "courses": [
         "LIN 103A",
-        "LIN 103AV",
+        "or LIN 103AV",
         "LIN 103B",
         "LIN 131",
         "LIN 141",
@@ -136,9 +158,10 @@
         "PSC 136",
         "PSC 137",
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
-        "PSC 141"
+        "or PSC 140V",
+        "or PSC 140Y",
+        "PSC 141",
+        "or HDE 101"
       ],
       "units": "",
       "notes": []
@@ -147,8 +170,8 @@
       "heading": "Group G: Breadth Electives",
       "courses": [
         "CMN 101",
-        "CMN 101V",
-        "CMN 101Y",
+        "or CMN 101V",
+        "or CMN 101Y",
         "CMN 121",
         "EDU 110",
         "EDU/LIN 173",
@@ -170,6 +193,7 @@
         "PSC 113",
         "PSC/NPB 124",
         "PSC 142",
+        "or HDE 102",
         "PSC 148",
         "PSC 152",
         "STA 106",
@@ -177,11 +201,13 @@
       ],
       "units": "44",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "72"
+  "total_units": "72",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.160Z"
 }

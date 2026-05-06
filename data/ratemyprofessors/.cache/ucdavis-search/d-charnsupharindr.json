@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  }
+]

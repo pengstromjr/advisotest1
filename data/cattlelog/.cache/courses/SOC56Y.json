@@ -1,0 +1,76 @@
+{
+  "course_id": "SOC56Y",
+  "course_title": "Introduction to Social Statistics",
+  "overall_grades": {
+    "A+": 2,
+    "A": 17,
+    "A-": 21,
+    "B+": 15,
+    "B": 26,
+    "B-": 10,
+    "C+": 5,
+    "C": 7,
+    "C-": 2,
+    "D+": 1,
+    "D": 2,
+    "D-": 2,
+    "F": 3,
+    "P*": 5,
+    "NP*": 3
+  },
+  "overall_gpa": 3.02,
+  "overall_enrolled": 121,
+  "available_quarters": [
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jacob Hibel",
+      "professor_slug": "jacob-hibel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 17,
+            "A-": 21,
+            "B+": 15,
+            "B": 26,
+            "B-": 10,
+            "C+": 5,
+            "C": 7,
+            "C-": 2,
+            "D+": 1,
+            "D": 2,
+            "D-": 2,
+            "F": 3,
+            "P*": 5,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 121
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 17,
+            "A-": 21,
+            "B+": 15,
+            "B": 26,
+            "B-": 10,
+            "C+": 5,
+            "C": 7,
+            "C-": 2,
+            "D+": 1,
+            "D": 2,
+            "D-": 2,
+            "F": 3,
+            "P*": 5,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 121
+        }
+      }
+    }
+  ]
+}

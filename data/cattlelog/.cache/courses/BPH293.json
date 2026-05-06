@@ -1,0 +1,73 @@
+{
+  "course_id": "BPH293",
+  "course_title": "Introduction to Research Topics",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 3
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 3,
+  "available_quarters": [
+    "Fall_2022"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Voss",
+      "professor_slug": "john-voss",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 3
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 3
+        }
+      }
+    }
+  ]
+}

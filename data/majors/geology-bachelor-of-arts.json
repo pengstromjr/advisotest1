@@ -9,11 +9,16 @@
       "heading": "Geology",
       "courses": [
         "GEL 050",
+        "or EPS 050",
         "GEL 050L",
+        "or EPS 050L",
         "GEL 053",
+        "or EPS 142",
+        "or EPS 003",
+        "or GEL 003",
         "GEL 055",
-        "CHE 002C",
-        "CHE 004C",
+        "or CHE 002C",
+        "or CHE 004C",
         "GEL 060"
       ],
       "units": "3",
@@ -22,9 +27,14 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017B",
-        "MAT 019AMAT 019B",
-        "MAT 021AMAT 021B"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 021A",
+        "MAT 021B"
       ],
       "units": "6-8",
       "notes": [
@@ -34,8 +44,10 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002B",
-        "CHE 004ACHE 004B"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 004A",
+        "CHE 004B"
       ],
       "units": "10",
       "notes": [
@@ -45,9 +57,12 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007B",
-        "PHY 009APHY 009B",
-        "PHY 009HAPHY 009HB"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009HA",
+        "PHY 009HB"
       ],
       "units": "8-10",
       "notes": [
@@ -58,95 +73,108 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
         "STA 100"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (43-49 units)"
       ]
     },
     {
       "heading": "Geology",
       "courses": [
+        "EPS 102",
+        "or GEL 102",
+        "EPS 102L",
+        "or GEL 101L",
+        "EPS 103",
+        "or GEL 103",
+        "EPS 109",
+        "or GEL 109",
+        "EPS 109L",
+        "or GEL 109L",
         "GEL 107",
+        "or EPS 107",
         "GEL 107L",
-        "GEL 108"
+        "or EPS 107L",
+        "GEL 108",
+        "or EPS 108"
       ],
-      "units": "2",
+      "units": "3",
       "notes": []
     },
     {
       "heading": "Upper Division Electives",
       "courses": [
         "GEL 130",
-        "GEL 181/EDU 181",
-        "GEL 183/EDU 183",
-        "GEL 185A",
-        "CHE 100",
-        "ECI 171/ECI 171L",
-        "ECI 175",
-        "ESM 100",
-        "ESM 186",
-        "ESP 152",
-        "HYD 144",
-        "HYD 146",
-        "LED 150/LDA 150/ABT 150",
-        "SSC 100",
-        "WFC 102",
-        "GEL 115",
-        "GEL 120",
-        "GEL 192",
-        "GEL 194A",
-        "GEL 194B",
-        "GEL 194HA",
-        "GEL 194HB",
-        "GEL 194A",
-        "GEL 194B",
-        "GEL 194HA",
-        "GEL 194HB",
-        "GEL 130",
         "GEL 131",
+        "or EPS 131",
         "GEL 132",
         "GEL 133",
+        "or EPS 133",
         "GEL 134",
+        "or EPS 134",
         "GEL 136",
+        "or EPS 136",
         "GEL 138",
+        "or EPS 138",
         "GEL 139",
         "GEL 140",
+        "or EPS 140",
         "GEL 141",
+        "or EPS 141",
         "GEL 142",
+        "or EPS 142",
         "GEL 143",
         "GEL 144",
+        "or EPS 144",
         "GEL 145",
         "GEL 146",
+        "or EPS 146",
         "GEL 147",
         "GEL 148",
+        "or EPS 148",
         "GEL 149",
-        "GEL 150A",
-        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
-        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "GEL/ESP/EPS 150A",
+        "GEL 150B/ESP 150B",
+        "or EPS 150B",
+        "GEL 150C/ESP 150C",
+        "or EPS 150C",
         "GEL 152",
         "GEL 156",
         "GEL 160",
+        "or EPS 160",
         "GEL 161",
+        "or EPS 161",
         "GEL 162",
+        "or EPS 162",
         "GEL 163",
+        "or EPS 163",
         "GEL 175",
+        "or EPS 175",
         "GEL/EDU 181",
         "GEL 182",
-        "GEL 183",
+        "or EPS 176",
+        "GEL/EDU 183",
         "GEL 185A",
         "GEL 185B",
         "GEL 186",
+        "or EPS 186",
         "GEL 190",
         "GEL 192",
+        "or EPS 192",
         "GEL 194A",
+        "or EPS 194A",
         "GEL 194B",
+        "or EPS 194B",
         "GEL 194HA",
+        "or EPS 194HA",
         "GEL 194HB",
+        "or EPS 194HB",
         "CHE 100",
         "ECI 171",
         "ECI 171L",
@@ -155,9 +183,8 @@
         "ESP 152",
         "HYD/EBS 144",
         "HYD 146",
+        "LED/ABT 150",
         "LDA 150",
-        "ABT 150",
-        "LED 150",
         "SSC 100",
         "WFC 102",
         "WFC 102L"
@@ -165,14 +192,17 @@
       "units": "14",
       "notes": [
         "Choose 14 units:",
-        "Depth Subject Matter Subtotal"
+        "Choose from courses GEL 130-194 or pre-selected non-GEL courses. Only one of GEL 181/EDU 181 or GEL 183/EDU 183 or GEL 185A or 185B or 186 may be applied toward elective credit. Pre-selected non-GEL courses in related fields: CHE 100, ECI 171/ECI 171L, ECI 175, ESM 100, ESM 186, ESP 152, HYD 144, HYD 146, LED 150/LDA 150/ABT 150, SSC 100, WFC 102. Other courses in related fields must be approved in advance by the major advisor. No more than 3 units of upper division elective credit for courses GEL 115-GEL 120. No more than 6 units of upper division elective credit for GEL 192 or GEL 194A-GEL 194B or GEL 194HA-GEL 194HB. Students who receive approval to do a senior thesis for part of the capstone requirement may not use GEL 194A-GEL 194B or GEL 194HA-GEL 194HB for the upper division elective courses.",
+        "Depth Subject Matter Subtotal (36 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Graduation Honors: Students graduating from the College of Letters & Science are eligible for Departmental Honors, depending on their GPA and whether or not they complete a Senior Thesis. Students who graduate with a GPA in the top percentages of their college will automatically graduate with Honors. Students who qualify for Honors at graduation may also be eligible for High Honors or Highest Honors, based upon the quality of their Senior Thesis (course number 194A-194B) or Senior Honors Thesis (course number 194H",
-    "Advising: Visit the staff major advisor for help navigating major requirements and planning for your degree. Visit the faculty major advisors for additional advice on courses, careers, and graduate school. Faculty advisors: R. Motani, D. A. Osleger, M. Rudolph.Visit the College of Letters & Science advisors for help navigating university requirements and college requirements."
+    "Graduation Honors: Students graduating from the College of Letters & Science are eligible for Departmental Honors, depending on their GPA and whether or not they complete a Senior Thesis. Students who graduate with a GPA in the top percentages of their college will automatically graduate with Honors. Students who qualify for Honors at graduation may also be eligible for High Honors or Highest Honors, based upon the quality of their Senior Thesis (course number 194A-194B) or Senior Honors Thesis (course number 194HA-194HB). It is Department of Earth and Planetary Sciences policy that an \"A-\" grade on the thesis will earn the student High Honors, and an \"A\" grade will earn the student Highest Honors.",
+    "Advising: Visit the staff major advisor for help navigating major requirements and planning for your degree. Visit the faculty major advisors for additional advice on courses, careers, and graduate school.Faculty AdvisorsR. Motani, D. A. Osleger, M. Rudolph.Visit the College of Letters & Science advisors for help navigating university requirements and college requirements."
   ],
-  "total_units": "78"
+  "total_units": "79",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.976Z"
 }

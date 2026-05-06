@@ -1,0 +1,276 @@
+{
+  "course_id": "POL123",
+  "course_title": "The Politics of Interdependence",
+  "overall_grades": {
+    "A+": 179,
+    "A": 393,
+    "A-": 222,
+    "B+": 151,
+    "B": 184,
+    "B-": 112,
+    "C+": 93,
+    "C": 80,
+    "C-": 65,
+    "D+": 45,
+    "D": 14,
+    "D-": 23,
+    "F": 60,
+    "P*": 73,
+    "NP*": 26
+  },
+  "overall_gpa": 3.11,
+  "overall_enrolled": 1720,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Daniel Kono",
+      "professor_slug": "daniel-kono",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 70,
+            "A": 135,
+            "A-": 97,
+            "B+": 78,
+            "B": 94,
+            "B-": 43,
+            "C+": 51,
+            "C": 32,
+            "C-": 32,
+            "D+": 26,
+            "D": 7,
+            "D-": 11,
+            "F": 27,
+            "P*": 34,
+            "NP*": 14
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 751
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 75,
+            "A-": 60,
+            "B+": 51,
+            "B": 63,
+            "B-": 30,
+            "C+": 24,
+            "C": 27,
+            "C-": 12,
+            "D+": 15,
+            "D": 3,
+            "D-": 9,
+            "F": 12,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 435
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 45,
+            "A-": 27,
+            "B+": 18,
+            "B": 24,
+            "B-": 6,
+            "C+": 24,
+            "C": 0,
+            "C-": 15,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 24,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 228
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 15,
+            "A-": 10,
+            "B+": 9,
+            "B": 7,
+            "B-": 7,
+            "C+": 3,
+            "C": 5,
+            "C-": 5,
+            "D+": 2,
+            "D": 4,
+            "D-": 2,
+            "F": 3,
+            "P*": 1,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 88
+        }
+      }
+    },
+    {
+      "professor_name": "Heather Elko",
+      "professor_slug": "heather-elko",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 67,
+            "A": 120,
+            "A-": 59,
+            "B+": 31,
+            "B": 45,
+            "B-": 27,
+            "C+": 18,
+            "C": 18,
+            "C-": 12,
+            "D+": 10,
+            "D": 1,
+            "D-": 9,
+            "F": 18,
+            "P*": 39,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 486
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 54,
+            "A-": 33,
+            "B+": 9,
+            "B": 24,
+            "B-": 9,
+            "C+": 12,
+            "C": 9,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 213
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 51,
+            "A-": 21,
+            "B+": 9,
+            "B": 12,
+            "B-": 12,
+            "C+": 0,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 12,
+            "P*": 18,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 198
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 15,
+            "A-": 5,
+            "B+": 13,
+            "B": 9,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 75
+        }
+      }
+    },
+    {
+      "professor_name": "Lauren Peritz",
+      "professor_slug": "lauren-peritz",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 138,
+            "A-": 66,
+            "B+": 42,
+            "B": 45,
+            "B-": 42,
+            "C+": 24,
+            "C": 30,
+            "C-": 21,
+            "D+": 9,
+            "D": 6,
+            "D-": 3,
+            "F": 15
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 483
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 75,
+            "A-": 39,
+            "B+": 21,
+            "B": 24,
+            "B-": 21,
+            "C+": 15,
+            "C": 9,
+            "C-": 15,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 9
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 252
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 63,
+            "A-": 27,
+            "B+": 21,
+            "B": 21,
+            "B-": 21,
+            "C+": 9,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 231
+        }
+      }
+    }
+  ]
+}

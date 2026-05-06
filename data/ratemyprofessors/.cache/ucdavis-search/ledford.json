@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "Joel",
+    "id": "VGVhY2hlci0xODk1ODI5",
+    "lastName": "Ledford",
+    "legacyId": 1895829,
+    "numRatings": 222,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.4338
+  }
+]

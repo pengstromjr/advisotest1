@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Electrical Engineering",
+    "firstName": "Hussain",
+    "id": "VGVhY2hlci01NDExNTM=",
+    "lastName": "Al-Asaad",
+    "legacyId": 541153,
+    "numRatings": 93,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.9672
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "course_id": "ENT153L",
+  "course_title": "Lab Course in Medical Entomology",
+  "overall_grades": {
+    "A+": 2,
+    "A": 3,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.6,
+  "overall_enrolled": 9,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Geoffrey Attardo",
+      "professor_slug": "geoffrey-attardo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 9
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 9
+        }
+      }
+    }
+  ]
+}

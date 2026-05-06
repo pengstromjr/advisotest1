@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.6,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Nina C.",
+    "id": "VGVhY2hlci0xNTgzNDQ3",
+    "lastName": "Napawan",
+    "legacyId": 1583447,
+    "numRatings": 74,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 38.7097
+  }
+]

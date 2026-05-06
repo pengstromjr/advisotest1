@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.7,
+    "department": "Mathematics",
+    "firstName": "William",
+    "id": "VGVhY2hlci0xODA1NDYx",
+    "lastName": "Tavernetti",
+    "legacyId": 1805461,
+    "numRatings": 438,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.4894
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.6,
+    "department": "Mathematics",
+    "firstName": "Edward",
+    "id": "VGVhY2hlci0yNDYzMzEx",
+    "lastName": "Tavernetti",
+    "legacyId": 2463311,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

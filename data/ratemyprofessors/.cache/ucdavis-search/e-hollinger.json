@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Theatre & Dance",
+    "firstName": "Ethan",
+    "id": "VGVhY2hlci0zMDU2MzM4",
+    "lastName": "Hollinger",
+    "legacyId": 3056338,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

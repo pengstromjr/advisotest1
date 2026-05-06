@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 1.7,
+    "department": "Design",
+    "firstName": "Elizabeth",
+    "id": "VGVhY2hlci0yNjgxMjE5",
+    "lastName": "Marley",
+    "legacyId": 2681219,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 18.4211
+  }
+]

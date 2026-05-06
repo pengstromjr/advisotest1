@@ -1,0 +1,130 @@
+{
+  "course_id": "NRS356V",
+  "course_title": "Clinical Ethics",
+  "overall_grades": {
+    "A+": 80,
+    "A": 147,
+    "A-": 15,
+    "B+": 0,
+    "B": 6,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.96,
+  "overall_enrolled": 248,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Mark Fedyk",
+      "professor_slug": "mark-fedyk",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 80,
+            "A": 147,
+            "A-": 15,
+            "B+": 0,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 248
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 57,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 84
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 36,
+            "A-": 9,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 60
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 54,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 75
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 29
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "course_id": "BAX462",
+  "course_title": "Practicum Elaboration",
+  "overall_grades": {
+    "A+": 101,
+    "A": 340,
+    "A-": 227,
+    "B+": 128,
+    "B": 126,
+    "B-": 30,
+    "C+": 6,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.65,
+  "overall_enrolled": 958,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Carrie Beam",
+      "professor_slug": "carrie-beam",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 89,
+            "A": 232,
+            "A-": 44,
+            "B+": 11,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 379
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 204,
+            "A-": 33,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 312
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 28,
+            "A-": 11,
+            "B+": 5,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 67
+        }
+      }
+    },
+    {
+      "professor_name": "John Carter",
+      "professor_slug": "john-carter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 126,
+            "B+": 36,
+            "B": 48,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 294
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 126,
+            "B+": 36,
+            "B": 48,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 294
+        }
+      }
+    },
+    {
+      "professor_name": "Josue Martinez",
+      "professor_slug": "josue-martinez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 36,
+            "A-": 57,
+            "B+": 81,
+            "B": 75,
+            "B-": 30,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 285
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 36,
+            "A-": 57,
+            "B+": 81,
+            "B": 75,
+            "B-": 30,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 285
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "course_id": "CHN1BL",
+  "course_title": "Accelerated Written Chinese I",
+  "overall_grades": {
+    "A+": 39,
+    "A": 42,
+    "A-": 21,
+    "B+": 12,
+    "B": 6,
+    "B-": 0,
+    "C+": 6,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 3,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.65,
+  "overall_enrolled": 132,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Haiqing Yin",
+      "professor_slug": "haiqing-yin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 33,
+            "A-": 15,
+            "B+": 12,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 84
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 24,
+            "A-": 3,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 42
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 12,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 42
+        }
+      }
+    },
+    {
+      "professor_name": "Ling Cai",
+      "professor_slug": "ling-cai",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 9,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 48
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 9,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

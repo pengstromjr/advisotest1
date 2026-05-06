@@ -1,0 +1,316 @@
+{
+  "course_id": "PHY1A",
+  "course_title": "Principles of Physics",
+  "overall_grades": {
+    "A+": 99,
+    "A": 242,
+    "A-": 210,
+    "B+": 251,
+    "B": 442,
+    "B-": 303,
+    "C+": 341,
+    "C": 263,
+    "C-": 60,
+    "D+": 23,
+    "D": 19,
+    "D-": 13,
+    "F": 77,
+    "P*": 131,
+    "NP*": 33
+  },
+  "overall_gpa": 2.81,
+  "overall_enrolled": 2507,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anirudha Menon",
+      "professor_slug": "anirudha-menon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 27,
+            "A-": 42,
+            "B+": 39,
+            "B": 66,
+            "B-": 57,
+            "C+": 72,
+            "C": 21,
+            "C-": 18,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 36,
+            "P*": 33,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 444
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 27,
+            "A-": 42,
+            "B+": 39,
+            "B": 66,
+            "B-": 57,
+            "C+": 72,
+            "C": 21,
+            "C-": 18,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 36,
+            "P*": 33,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 444
+        }
+      }
+    },
+    {
+      "professor_name": "Ariadna Venegas Li",
+      "professor_slug": "ariadna-venegas-li",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 16,
+            "B+": 13,
+            "B": 28,
+            "B-": 15,
+            "C+": 21,
+            "C": 20,
+            "C-": 8,
+            "D+": 2,
+            "D": 3,
+            "D-": 4,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.66,
+          "quarter_enrolled": 163
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 16,
+            "B+": 13,
+            "B": 28,
+            "B-": 15,
+            "C+": 21,
+            "C": 20,
+            "C-": 8,
+            "D+": 2,
+            "D": 3,
+            "D-": 4,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.66,
+          "quarter_enrolled": 163
+        }
+      }
+    },
+    {
+      "professor_name": "Joseph Mitchell",
+      "professor_slug": "joseph-mitchell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 58,
+            "A": 95,
+            "A-": 113,
+            "B+": 131,
+            "B": 245,
+            "B-": 161,
+            "C+": 158,
+            "C": 70,
+            "C-": 33,
+            "D+": 16,
+            "D": 9,
+            "D-": 9,
+            "F": 31,
+            "P*": 57,
+            "NP*": 20
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 1206
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 27,
+            "A-": 51,
+            "B+": 48,
+            "B": 114,
+            "B-": 54,
+            "C+": 84,
+            "C": 33,
+            "C-": 15,
+            "D+": 6,
+            "D": 3,
+            "D-": 6,
+            "F": 18,
+            "P*": 33,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 528
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 48,
+            "A-": 45,
+            "B+": 63,
+            "B": 102,
+            "B-": 72,
+            "C+": 60,
+            "C": 30,
+            "C-": 15,
+            "D+": 6,
+            "D": 6,
+            "D-": 3,
+            "F": 9,
+            "P*": 21,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 510
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 20,
+            "A-": 17,
+            "B+": 20,
+            "B": 29,
+            "B-": 35,
+            "C+": 14,
+            "C": 7,
+            "C-": 3,
+            "D+": 4,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 168
+        }
+      }
+    },
+    {
+      "professor_name": "Richard Scalettar",
+      "professor_slug": "richard-scalettar",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 87,
+            "A-": 27,
+            "B+": 42,
+            "B": 78,
+            "B-": 42,
+            "C+": 66,
+            "C": 135,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 519
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 87,
+            "A-": 27,
+            "B+": 42,
+            "B": 78,
+            "B-": 42,
+            "C+": 66,
+            "C": 135,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 519
+        }
+      }
+    },
+    {
+      "professor_name": "Zachary Crawford",
+      "professor_slug": "zachary-crawford",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 21,
+            "A-": 12,
+            "B+": 26,
+            "B": 25,
+            "B-": 28,
+            "C+": 24,
+            "C": 17,
+            "C-": 1,
+            "D+": 2,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 175
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 21,
+            "A-": 12,
+            "B+": 26,
+            "B": 25,
+            "B-": 28,
+            "C+": 24,
+            "C": 17,
+            "C-": 1,
+            "D+": 2,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 175
+        }
+      }
+    }
+  ]
+}

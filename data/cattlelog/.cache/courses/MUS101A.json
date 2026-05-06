@@ -1,0 +1,70 @@
+{
+  "course_id": "MUS101A",
+  "course_title": "Advanced Theory, Part 1 ",
+  "overall_grades": {
+    "A+": 0,
+    "A": 18,
+    "A-": 9,
+    "B+": 9,
+    "B": 0,
+    "B-": 3,
+    "C+": 0,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.55,
+  "overall_enrolled": 42,
+  "available_quarters": [
+    "Fall_2022"
+  ],
+  "professors": [
+    {
+      "professor_name": "Mika Pelo",
+      "professor_slug": "mika-pelo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 9,
+            "B+": 9,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 42
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 9,
+            "B+": 9,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 42
+        }
+      }
+    }
+  ]
+}

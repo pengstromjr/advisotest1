@@ -1,0 +1,140 @@
+{
+  "course_id": "PSC150",
+  "course_title": "Relationship Science: Lust, Love, & Evolution",
+  "overall_grades": {
+    "A+": 81,
+    "A": 1391,
+    "A-": 624,
+    "B+": 416,
+    "B": 386,
+    "B-": 157,
+    "C+": 122,
+    "C": 63,
+    "C-": 22,
+    "D+": 23,
+    "D": 19,
+    "D-": 13,
+    "F": 22,
+    "P*": 148,
+    "NP*": 10
+  },
+  "overall_gpa": 3.49,
+  "overall_enrolled": 3497,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Paul Eastwick",
+      "professor_slug": "paul-eastwick",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 1391,
+            "A-": 624,
+            "B+": 416,
+            "B": 386,
+            "B-": 157,
+            "C+": 122,
+            "C": 63,
+            "C-": 22,
+            "D+": 23,
+            "D": 19,
+            "D-": 13,
+            "F": 22,
+            "P*": 148,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 3497
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 510,
+            "A-": 213,
+            "B+": 117,
+            "B": 120,
+            "B-": 36,
+            "C+": 42,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 60,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 1158
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 149,
+            "A-": 66,
+            "B+": 47,
+            "B": 47,
+            "B-": 22,
+            "C+": 11,
+            "C": 6,
+            "C-": 4,
+            "D+": 2,
+            "D": 1,
+            "D-": 1,
+            "F": 1,
+            "P*": 10,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 380
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 381,
+            "A-": 171,
+            "B+": 96,
+            "B": 105,
+            "B-": 42,
+            "C+": 36,
+            "C": 30,
+            "C-": 9,
+            "D+": 9,
+            "D": 6,
+            "D-": 6,
+            "F": 6,
+            "P*": 39
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 948
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 351,
+            "A-": 174,
+            "B+": 156,
+            "B": 114,
+            "B-": 57,
+            "C+": 33,
+            "C": 9,
+            "C-": 9,
+            "D+": 12,
+            "D": 12,
+            "D-": 6,
+            "F": 9,
+            "P*": 39
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 1011
+        }
+      }
+    }
+  ]
+}

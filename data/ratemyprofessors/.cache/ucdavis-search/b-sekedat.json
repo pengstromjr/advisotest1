@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.3,
+    "department": "University Writing Program",
+    "firstName": "Bradley",
+    "id": "VGVhY2hlci0xOTM1MDU1",
+    "lastName": "Sekedat",
+    "legacyId": 1935055,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

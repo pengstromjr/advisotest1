@@ -9,8 +9,23 @@
       "heading": "Biological Science",
       "courses": [
         "BIS 002A",
+        "or BIO 002",
         "BIS 002B",
-        "BIS 002C"
+        "or BIO 001",
+        "BIS 002C",
+        "or BIO 003"
+      ],
+      "units": "5",
+      "notes": [
+        "OR"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C"
       ],
       "units": "5",
       "notes": []
@@ -18,24 +33,26 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002A",
-        "CHE 002B",
-        "CHE 002C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118B",
-        "CHE 128ACHE 128BCHE 129A"
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 128A",
+        "or CHE 128B",
+        "or CHE 129A"
       ],
-      "units": "5",
+      "units": "6-8",
       "notes": [
-        "Choose a series:"
+        "Choose a series:",
+        "OR"
       ]
     },
     {
       "heading": "Nutrition",
       "courses": [
         "NUT 010",
-        "NUT 010V",
-        "NUT 010Y"
+        "or NUT 010V",
+        "or NUT 010Y"
       ],
       "units": "3",
       "notes": []
@@ -44,8 +61,8 @@
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V",
-        "SOC 046"
+        "or PSC 041V",
+        "or SOC 046"
       ],
       "units": "4",
       "notes": []
@@ -55,7 +72,8 @@
       "courses": [
         "PLS 120",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100"
       ],
       "units": "4",
@@ -64,26 +82,29 @@
         "The remaining preparatory subject matter is based on which major option you choose:",
         "Nutritional Biology Option",
         "Nutrition in Public Health Option",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (61-70 units)"
       ]
     },
     {
       "heading": "Biochemistry",
       "courses": [
-        "ABI 102ABI 103",
-        "BIS 102BIS 103",
-        "BIS 102VBIS 103"
+        "ABI 102",
+        "ABI 103",
+        "or BIS 102",
+        "or BIS 103",
+        "or BIS 102V"
       ],
       "units": "6-10",
       "notes": [
-        "Choose a series:"
+        "Choose a series:",
+        "OR"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V"
+        "or BIS 101V"
       ],
       "units": "4",
       "notes": []
@@ -95,6 +116,17 @@
         "FST 100B"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L"
+      ],
+      "units": "3",
       "notes": []
     },
     {
@@ -119,7 +151,7 @@
         "The remaining depth subject matter is based on which major option you chose when completing your preparatory courses:",
         "Nutritional Biology Option",
         "Nutrition in Public Health Option",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (76-80 units)"
       ]
     },
     {
@@ -127,71 +159,114 @@
       "courses": [
         "ANT 002",
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y",
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 003",
-        "SOC 003V",
-        "MAT 017AMAT 017B",
-        "PHY 001APHY 001B",
-        "PHY 007APHY 007B"
+        "or SOC 003V"
       ],
-      "units": "Units",
+      "units": "4-5",
       "notes": [
-        "Choose one:",
+        "Choose one:"
+      ],
+      "group": "Nutritional Biology Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "MAT 016A",
+        "or MAT 016B",
+        "or MAT 017A",
+        "or MAT 017B"
+      ],
+      "units": "6-8",
+      "notes": [
         "Choose a series:",
-        "Choose a series:"
-      ]
+        "OR"
+      ],
+      "group": "Nutritional Biology Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "PHY 001A",
+        "PHY 001B",
+        "or PHY 007A",
+        "or PHY 007B"
+      ],
+      "units": "6-8",
+      "notes": [
+        "Choose a series:",
+        "OR"
+      ],
+      "group": "Nutritional Biology Option",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANT 002",
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 003",
-        "SOC 003V",
+        "or SOC 003V",
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "AMS/FST 055",
         "CHI 010",
-        "CHI 010V",
+        "or CHI 010V",
         "CHI 021",
         "CHI 040",
         "CHI 042",
         "CRD 020",
         "ECN 001B",
-        "ECN 001BV",
+        "or ECN 001BV",
         "ETX 010",
         "FST 010",
-        "FST 010V",
+        "or FST 010V",
         "GSW 050",
-        "GSW 050V",
+        "or GSW 050V",
         "HDE 012",
-        "HDE 012V",
+        "or HDE 012V",
         "IAD 010",
+        "MMG 010",
+        "or MIC 010",
         "NAS 001",
         "NUT 011",
         "NUT 099",
         "PHI 015",
         "POL 001",
-        "POL 001Y",
+        "or POL 001Y",
         "POL 003",
         "POL 005",
         "SAS 002",
-        "SAS 002V",
+        "or SAS 002V",
         "SAS 090F"
       ],
-      "units": "Units",
+      "units": "3-5",
       "notes": [
-        "Choose one:",
         "Choose 3-5 units from:"
-      ]
+      ],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Requirements",
@@ -201,7 +276,9 @@
         "NUT 117"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Nutritional Biology Option",
+      "group_kind": "path"
     },
     {
       "heading": "Restricted Electives",
@@ -211,7 +288,7 @@
         "NUT 114",
         "NUT 115",
         "NUT 116B",
-        "NUT 116BY",
+        "or NUT 116BY",
         "NUT 118",
         "NUT 119A",
         "NUT 120AN",
@@ -237,15 +314,17 @@
         "FST 104",
         "GDB 103",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C",
         "MCB 120",
         "MCB 120L",
         "MCB 162",
         "MMG 111",
+        "or MIC 111",
         "MMG 162",
+        "or MIC 162",
         "MMI 130",
         "MMI 188A",
         "MMI 188B",
@@ -260,14 +339,16 @@
         "PMI 129Y",
         "UWP 102B",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY"
+        "or UWP 104FV",
+        "or UWP 104FY"
       ],
-      "units": "20",
+      "units": "",
       "notes": [
         "Choose at least 9 units from Nutrition:",
         "The remaining balance of restricted elective units may be chosen from any of the following courses:"
-      ]
+      ],
+      "group": "Nutritional Biology Option",
+      "group_kind": "path"
     },
     {
       "heading": "Requirements",
@@ -277,7 +358,9 @@
         "SPH 101"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Restricted Electives",
@@ -286,7 +369,7 @@
         "NUT 105",
         "NUT 114",
         "NUT 116B",
-        "NUT 116BY",
+        "or NUT 116BY",
         "NUT 117",
         "NUT 119A",
         "NUT 120AN",
@@ -296,11 +379,13 @@
         "NUT 192",
         "NUT 199"
       ],
-      "units": "22",
+      "units": "",
       "notes": [
         "Choose at least 9 units from Nutrition:",
         "The remaining balance of restricted elective units may be chosen from any of the following courses:"
-      ]
+      ],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Community Health & Education",
@@ -308,15 +393,17 @@
         "CMN 165",
         "EDU 110",
         "EDU 120",
-        "EDU 120V",
+        "or EDU 120V",
         "HDE 135",
-        "HDE 135V",
+        "or HDE 135V",
         "PLS 193",
         "PSC 126",
         "PSC 130"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Cultural Diversity & Community Change",
@@ -324,14 +411,16 @@
         "AAS 100",
         "ARE 112",
         "CMN 136",
-        "CMN 136V",
+        "or CMN 136V",
         "CRD 152",
         "CRD 176",
         "IAD 103",
         "SAS 130"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Health Policy",
@@ -340,7 +429,9 @@
         "POL 109"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Human & Applied Sciences",
@@ -353,13 +444,15 @@
         "EXB 110",
         "EXB 117",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Physiology & Applied Sciences",
@@ -369,7 +462,9 @@
         "NPB 132"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     },
     {
       "heading": "Public Health Sciences",
@@ -382,11 +477,20 @@
         "SPH 113",
         "SPH 120"
       ],
-      "units": "33",
-      "notes": []
+      "units": "",
+      "notes": [],
+      "group": "Nutrition in Public Health Option",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [],
-  "total_units": "138"
+  "specializations": [
+    "Nutritional Biology Option",
+    "Nutrition in Public Health Option"
+  ],
+  "advising_notes": [
+    "Advising Center: Advising Center for the major is located in 3202 Meyer Hall; 530-752-2512; 530-752-7094."
+  ],
+  "total_units": "137",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.844Z"
 }

@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.7,
+    "department": "Neurobiology amp Behavior",
+    "firstName": "Talitha",
+    "id": "VGVhY2hlci0yMzQ4NDA5",
+    "lastName": "Van Der Meulen",
+    "legacyId": 2348409,
+    "numRatings": 71,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.7887
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 1.9,
+    "department": "Electrical Engineering",
+    "firstName": "Mihaela",
+    "id": "VGVhY2hlci01MjA0OTk=",
+    "lastName": "Van Der Schaar",
+    "legacyId": 520499,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 12.5
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "Van",
+    "id": "VGVhY2hlci0xMzk2NjE0",
+    "lastName": "Benthem",
+    "legacyId": 1396614,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 2.6,
+    "department": "Mathematics",
+    "firstName": "Vinh Van",
+    "id": "VGVhY2hlci0yNjU1NzA5",
+    "lastName": "Nguyen",
+    "legacyId": 2655709,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  },
+  {
+    "avgDifficulty": 1.1,
+    "avgRating": 4.8,
+    "department": "Science",
+    "firstName": "Dana",
+    "id": "VGVhY2hlci0zNDk3NjQ=",
+    "lastName": "Van Liew",
+    "legacyId": 349764,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.6,
+    "department": "Mechanical Engineering",
+    "firstName": "Cornelis",
+    "id": "VGVhY2hlci02OTM2MjA=",
+    "lastName": "Van Dam",
+    "legacyId": 693620,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.5,
+    "department": "Agriculture",
+    "firstName": "Chris",
+    "id": "VGVhY2hlci01NjYyMjQ=",
+    "lastName": "Van Kessel",
+    "legacyId": 566224,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.9,
+    "department": "English",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yMTY2ODY=",
+    "lastName": "Van Leer",
+    "legacyId": 216686,
+    "numRatings": 34,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.4,
+    "department": "English",
+    "firstName": "Clara",
+    "id": "VGVhY2hlci02MzAxODU=",
+    "lastName": "Van Zanten",
+    "legacyId": 630185,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.6,
+    "department": "English",
+    "firstName": "Jill",
+    "id": "VGVhY2hlci0yMjE3NDAz",
+    "lastName": "Van Zanten",
+    "legacyId": 2217403,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

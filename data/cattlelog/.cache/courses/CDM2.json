@@ -1,0 +1,161 @@
+{
+  "course_id": "CDM2",
+  "course_title": "Introduction to Technocultural Studies",
+  "overall_grades": {
+    "A+": 325,
+    "A": 593,
+    "A-": 222,
+    "B+": 102,
+    "B": 40,
+    "B-": 13,
+    "C+": 14,
+    "C": 10,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 19,
+    "P*": 24
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 1365,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Finn Brunton",
+      "professor_slug": "finn-brunton",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 75,
+            "A": 171,
+            "A-": 102,
+            "B+": 30,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 393
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 75,
+            "A": 171,
+            "A-": 102,
+            "B+": 30,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 393
+        }
+      }
+    },
+    {
+      "professor_name": "Timothy Lenoir",
+      "professor_slug": "timothy-lenoir",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 250,
+            "A": 422,
+            "A-": 120,
+            "B+": 72,
+            "B": 31,
+            "B-": 10,
+            "C+": 14,
+            "C": 10,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 19,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 972
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 141,
+            "A": 189,
+            "A-": 21,
+            "B+": 15,
+            "B": 3,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 390
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 174,
+            "A-": 81,
+            "B+": 45,
+            "B": 24,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 462
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 59,
+            "A-": 18,
+            "B+": 12,
+            "B": 4,
+            "B-": 1,
+            "C+": 5,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 120
+        }
+      }
+    }
+  ]
+}

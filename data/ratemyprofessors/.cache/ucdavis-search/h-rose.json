@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 3.8,
+    "department": "Native American Studies",
+    "firstName": "Beth Rose",
+    "id": "VGVhY2hlci0xNzgxMDA4",
+    "lastName": "Middleton Manning",
+    "legacyId": 1781008,
+    "numRatings": 39,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 68.4211
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.7,
+    "department": "Fine Arts",
+    "firstName": "Annabeth",
+    "id": "VGVhY2hlci02Nzc1Mjk=",
+    "lastName": "Rosen",
+    "legacyId": 677529,
+    "numRatings": 36,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 59.0909
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.7,
+    "department": "Biology",
+    "firstName": "Lesilee",
+    "id": "VGVhY2hlci0yMjA2ODQ=",
+    "lastName": "Rose",
+    "legacyId": 220684,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Rosette",
+    "id": "VGVhY2hlci0yODQwMDUx",
+    "lastName": "Simityan",
+    "legacyId": 2840051,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 3.8,
+    "department": "Design",
+    "firstName": "Rose",
+    "id": "VGVhY2hlci0yMzQ5MDU3",
+    "lastName": "Kelly",
+    "legacyId": 2349057,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.1,
+    "department": "Finance",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0xNDk4NzU4",
+    "lastName": "Rose",
+    "legacyId": 1498758,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 3.2,
+    "department": "Theatre & Dance",
+    "firstName": "Rosemary",
+    "id": "VGVhY2hlci0yNTE2NzM2",
+    "lastName": "Hannon",
+    "legacyId": 2516736,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.4,
+    "department": "Entomology",
+    "firstName": "Jay",
+    "id": "VGVhY2hlci02NzQzNjI=",
+    "lastName": "Rosenheim",
+    "legacyId": 674362,
+    "numRatings": 138,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 82.0896
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.2,
+    "department": "Physics",
+    "firstName": "Rose",
+    "id": "VGVhY2hlci0yNDYxOTI3",
+    "lastName": "Baunach",
+    "legacyId": 2461927,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 4,
+    "department": "German",
+    "firstName": "Sven-Erik",
+    "id": "VGVhY2hlci0yMTkwNTMx",
+    "lastName": "Rose",
+    "legacyId": 2190531,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60
+  }
+]

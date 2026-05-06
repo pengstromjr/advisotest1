@@ -1,0 +1,143 @@
+{
+  "course_id": "ENL139",
+  "course_title": "Topics in Global Literatures & Cultures",
+  "overall_grades": {
+    "A+": 15,
+    "A": 29,
+    "A-": 45,
+    "B+": 51,
+    "B": 32,
+    "B-": 10,
+    "C+": 0,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 12,
+    "NP*": 6
+  },
+  "overall_gpa": 3.46,
+  "overall_enrolled": 203,
+  "available_quarters": [
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Akua Banful",
+      "professor_slug": "akua-banful",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 23,
+            "A-": 33,
+            "B+": 36,
+            "B": 23,
+            "B-": 4,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 131
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 24,
+            "B+": 18,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 78
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 8,
+            "A-": 9,
+            "B+": 18,
+            "B": 14,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 53
+        }
+      }
+    },
+    {
+      "professor_name": "Xavier Lee",
+      "professor_slug": "xavier-lee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 12,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 72
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 12,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 72
+        }
+      }
+    }
+  ]
+}

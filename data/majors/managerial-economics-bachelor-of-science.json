@@ -9,29 +9,30 @@
       "heading": "Major English Requirements",
       "courses": [
         "CMN 001",
-        "CMN 001V",
-        "CMN 003",
-        "CMN 003V",
-        "CMN 003Y",
+        "or CMN 001V",
+        "or CMN 003",
+        "or CMN 003V",
+        "or CMN 003Y",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY"
+        "or UWP 104AV",
+        "or UWP 104AY"
       ],
       "units": "4",
       "notes": [
         "The following must be completed with minimum C- (or PASS) grades.",
         "Communication; choose one:",
+        "OR",
         "Business Writing; choose one:",
-        "Major English Requirements Subtotal"
+        "Major English Requirements Subtotal (8 units)"
       ]
     },
     {
       "heading": "Preparatory Subject Matter",
-      "courses": [
-        "STA 103"
-      ],
+      "courses": [],
       "units": "",
-      "notes": []
+      "notes": [
+        "All lower-division preparatory coursework must be completed with minimum C- (or PASS) grades; however, STA 103 must be taken for a letter grade."
+      ]
     },
     {
       "heading": "Business Law",
@@ -45,8 +46,8 @@
       "heading": "Management (Accounting)",
       "courses": [
         "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY",
+        "or MGT 011AV",
+        "or MGT 011AY",
         "MGT 011B"
       ],
       "units": "8",
@@ -56,10 +57,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "8",
       "notes": []
@@ -67,18 +68,19 @@
     {
       "heading": "Mathematics; choose a series:",
       "courses": [
-        "MAT 019",
-        "MAT 016",
-        "PLS 021",
-        "PLS 021V",
-        "ECS 032A",
-        "MAT 016",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "or MAT 017A",
+        "or MAT 017B",
+        "or MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "12-13",
       "notes": [
+        "The preferred calculus series for Managerial Economics majors is MAT 019. The MAT 016 series is accepted if started prior to Fall 2024. PLS 021, PLS 021V, or ECS 032A is required with the MAT 016 series.",
         "Choose 019 series, 12 units:",
         "OR choose 017 series, 12 units:",
         "OR choose 021 series, 12 units:"
@@ -88,13 +90,14 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 032",
+        "or STA 013Y",
+        "or STA 013V",
+        "or STA 032",
         "STA 103"
       ],
       "units": "8",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (40-41 units)"
       ]
     },
     {
@@ -112,13 +115,13 @@
     {
       "heading": "Restricted Electives; choose at least one emphasis:",
       "courses": [],
-      "units": "32",
+      "units": "52",
       "notes": [
         "Business Economics",
         "International Business Economics",
         "Environmental & Resource Economics",
         "Agribusiness Economics",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (52 units)"
       ]
     },
     {
@@ -132,13 +135,25 @@
         "ARE 157",
         "ARE 171",
         "ARE 172",
-        "ARE 173",
+        "ARE 173"
+      ],
+      "units": "16",
+      "notes": [
+        "All restricted electives must be taken for a letter grade.",
+        "Choose 16 units:"
+      ],
+      "group": "Business Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARE 115A",
-        "ECN 115A",
+        "or ECN 115A",
         "ARE 115B",
-        "ARE 115BY",
-        "ECN 115B",
-        "ECN 115BY",
+        "or ARE 115BY",
+        "or ECN 115B",
+        "or ECN 115BY",
         "ARE 130",
         "ARE 132",
         "ARE 133",
@@ -157,38 +172,50 @@
         "ECN 121B",
         "ECN 151B"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
-        "All restricted electives must be taken for a letter grade.",
-        "Choose 16 units:",
         "Choose remaining 16 units from above or the following list:"
-      ]
+      ],
+      "group": "Business Economics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ARE 107",
         "ARE 115A",
-        "ECN 115A",
+        "or ECN 115A",
         "ARE 115B",
-        "ARE 115BY",
-        "ECN 115B",
-        "ECN 115BY",
+        "or ARE 115BY",
+        "or ECN 115B",
+        "or ECN 115BY",
         "ARE 138",
         "ARE 139",
         "ARE 146",
         "ARE 165",
         "ARE 166",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
-        "ECN 171",
+        "ECN 171"
+      ],
+      "units": "20",
+      "notes": [
+        "All restricted electives must be taken for a letter grade.",
+        "Choose 20 units:"
+      ],
+      "group": "International Business Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARE 130",
         "ARE 171",
         "ARE 172",
         "ARE 173",
         "ARE 175",
-        "ESP 175",
+        "or ESP 175",
         "ARE 176",
         "ARE 194HA",
         "ARE 194HB",
@@ -196,19 +223,31 @@
         "ECN 121B",
         "POL 130"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "All restricted electives must be taken for a letter grade.",
-        "Choose 20 units:",
         "Choose the remaining 12 units from above or the following list:"
-      ]
+      ],
+      "group": "International Business Economics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ARE 175",
-        "ESP 175",
-        "ARE 176",
+        "or ESP 175",
+        "ARE 176"
+      ],
+      "units": "8",
+      "notes": [
+        "All restricted electives must be taken for a letter grade.",
+        "Choose eight units:"
+      ],
+      "group": "Environmental & Resource Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARE 107",
         "ARE 120",
         "ARE 132",
@@ -222,34 +261,56 @@
         "ARE 194HB",
         "ECN 125",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ESP 168A",
         "ESP 168B",
-        "ESP 178",
+        "ESP 178"
+      ],
+      "units": "20",
+      "notes": [
+        "Choose 20 units:"
+      ],
+      "group": "Environmental & Resource Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ESP 160",
         "ESP 161",
         "ESP 163",
-        "ECI 163",
+        "or ECI 163",
         "ESP 167",
         "ESP 171",
         "ESP 172",
         "ESP 173",
         "ETX 138"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "All restricted electives must be taken for a letter grade.",
-        "Choose eight units:",
-        "Choose 20 units:",
         "Choose the remaining 4 units from above, from any upper division course in ARE or ECN, or from the following list:"
-      ]
+      ],
+      "group": "Environmental & Resource Economics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ARE 120",
         "ARE 140",
-        "ARE 150",
+        "ARE 150"
+      ],
+      "units": "8",
+      "notes": [
+        "All restricted electives must be taken for a letter grade.",
+        "Choose 8 units:"
+      ],
+      "group": "Agribusiness Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARE 107",
         "ARE 120",
         "ARE 121",
@@ -261,13 +322,22 @@
         "ARE 145",
         "ARE 150"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
-        "All restricted electives must be taken for a letter grade.",
-        "Choose 8 units:",
-        "Choose 16 units:",
+        "Choose 16 units:"
+      ],
+      "group": "Agribusiness Economics Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8",
+      "notes": [
         "Choose the remaining 8 units from above or from any upper division course in ARE or ECN."
-      ]
+      ],
+      "group": "Agribusiness Economics Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -279,18 +349,26 @@
         "ARE 147M",
         "ECN 102",
         "ECN 134",
-        "ECN 134Y",
+        "or ECN 134Y",
         "ECN 140",
         "ECN 151A",
-        "ECN 162"
+        "ECN 162",
+        "or ECN 162Y"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
-  "specializations": [],
-  "advising_notes": [
-    "Study Abroad: The Agricultural & Resource Economics department encourages students to complement their Managerial Economics degree with a study abroad experience. Students must seek pre-approval from a Managerial Economics staff advisor for major-related courses. A total of two upper-division courses (maximum four units each) may be applied to major requirements. However, core courses (ARE 100A, ARE 100B, ARE 106, ARE 155, and ECN 101) are excluded. Students are expected to complete ARE 100A and STA 103 prior"
+  "specializations": [
+    "Business Economics Emphasis",
+    "International Business Economics Emphasis",
+    "Environmental & Resource Economics Emphasis",
+    "Agribusiness Economics Emphasis"
   ],
-  "total_units": "100"
+  "advising_notes": [
+    "Study Abroad: The Agricultural & Resource Economics department encourages students to complement their Managerial Economics degree with a study abroad experience. Students must seek pre-approval from a Managerial Economics staff advisor for major-related courses. A total of two upper-division courses (maximum four units each) may be applied to major requirements. However, core courses (ARE 100A, ARE 100B, ARE 106, ARE 155, and ECN 101) are excluded. Students are expected to complete ARE 100A and STA 103 prior to taking upper-division classes abroad for the major. For more detailed instructions and a list of pre-approved Study Abroad courses, see Managerial Economics Study Abroad."
+  ],
+  "total_units": "100",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.492Z"
 }

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.2,
+    "department": "History",
+    "firstName": "Ali",
+    "id": "VGVhY2hlci0xMjk5NjIz",
+    "lastName": "Anooshahr",
+    "legacyId": 1299623,
+    "numRatings": 53,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.7273
+  }
+]

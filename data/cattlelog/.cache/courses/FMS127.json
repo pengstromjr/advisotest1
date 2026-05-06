@@ -1,0 +1,165 @@
+{
+  "course_id": "FMS127",
+  "course_title": "Film Theory",
+  "overall_grades": {
+    "A+": 15,
+    "A": 123,
+    "A-": 102,
+    "B+": 51,
+    "B": 38,
+    "B-": 11,
+    "C+": 6,
+    "C": 4,
+    "C-": 1,
+    "D+": 0,
+    "D": 4,
+    "D-": 0,
+    "F": 7,
+    "P*": 38,
+    "NP*": 3
+  },
+  "overall_gpa": 3.51,
+  "overall_enrolled": 403,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Colin Johnson",
+      "professor_slug": "colin-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 9,
+            "B+": 9,
+            "B": 18,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 117
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 9,
+            "B+": 9,
+            "B": 18,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 117
+        }
+      }
+    },
+    {
+      "professor_name": "Kristopher Fallon",
+      "professor_slug": "kristopher-fallon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 75,
+            "A-": 93,
+            "B+": 42,
+            "B": 20,
+            "B-": 5,
+            "C+": 0,
+            "C": 4,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 35,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 286
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 54,
+            "B+": 27,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 153
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 33,
+            "A-": 24,
+            "B+": 9,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 81
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 15,
+            "B+": 6,
+            "B": 5,
+            "B-": 2,
+            "C+": 0,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 52
+        }
+      }
+    }
+  ]
+}

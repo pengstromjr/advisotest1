@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.8,
+    "department": "Science & Technology Studies",
+    "firstName": "Gerardo",
+    "id": "VGVhY2hlci0yMzA4MDcz",
+    "lastName": "Diaz",
+    "legacyId": 2308073,
+    "numRatings": 32,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.625
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.6,
+    "department": "Molecular/Cellular Biology",
+    "firstName": "Elva",
+    "id": "VGVhY2hlci0yODgwODM0",
+    "lastName": "Diaz",
+    "legacyId": 2880834,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 36
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 1.7,
+    "department": "Chicano Studies",
+    "firstName": "Virginia",
+    "id": "VGVhY2hlci0yNzQzNTMw",
+    "lastName": "Diaz",
+    "legacyId": 2743530,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 13.3333
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.8,
+    "department": "Music",
+    "firstName": "Juan",
+    "id": "VGVhY2hlci0yNDY0MDU1",
+    "lastName": "Diaz",
+    "legacyId": 2464055,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Spanish",
+    "firstName": "Jesus",
+    "id": "VGVhY2hlci0yNzYyNzk2",
+    "lastName": "Galan Diaz",
+    "legacyId": 2762796,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.8,
+    "department": "English",
+    "firstName": "Janet L",
+    "id": "VGVhY2hlci03MDMwMjk=",
+    "lastName": "Papale",
+    "legacyId": 703029,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 3.8,
+    "department": "Electrical & Comp. Engineering",
+    "firstName": "Juan Sebastian",
+    "id": "VGVhY2hlci0yNTk4Njg4",
+    "lastName": "Gomez Diaz",
+    "legacyId": 2598688,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.9,
+    "department": "Economics",
+    "firstName": "L Jay",
+    "id": "VGVhY2hlci05NTg2Ng==",
+    "lastName": "Helms",
+    "legacyId": 95866,
+    "numRatings": 135,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.3,
+    "department": "Health Science",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci01ODY1MDY=",
+    "lastName": "Garcia",
+    "legacyId": 586506,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20.5882
+  },
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 2.8,
+    "department": "Biological Sciences",
+    "firstName": "Silvia",
+    "id": "VGVhY2hlci0yMDQ4NjEw",
+    "lastName": "Carrasco Garcia",
+    "legacyId": 2048610,
+    "numRatings": 80,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.7143
+  }
+]

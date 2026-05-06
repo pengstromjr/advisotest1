@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.9,
+    "department": "Neurobiology amp Behavior",
+    "firstName": "Timothy",
+    "id": "VGVhY2hlci0yMzg4MDc5",
+    "lastName": "Hanks",
+    "legacyId": 2388079,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

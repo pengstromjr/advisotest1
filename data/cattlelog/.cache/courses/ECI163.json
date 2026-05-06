@@ -1,0 +1,118 @@
+{
+  "course_id": "ECI163",
+  "course_title": "Energy & Environmental Aspects of Transportation",
+  "overall_grades": {
+    "A+": 39,
+    "A": 60,
+    "A-": 108,
+    "B+": 153,
+    "B": 177,
+    "B-": 111,
+    "C+": 54,
+    "C": 9,
+    "C-": 15,
+    "D+": 6,
+    "D": 6,
+    "D-": 3,
+    "F": 6,
+    "P*": 3
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 750,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Daniel Sperling",
+      "professor_slug": "daniel-sperling",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 42,
+            "A-": 69,
+            "B+": 87,
+            "B": 93,
+            "B-": 63,
+            "C+": 33,
+            "C": 3,
+            "C-": 9,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 435
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 42,
+            "A-": 69,
+            "B+": 87,
+            "B": 93,
+            "B-": 63,
+            "C+": 33,
+            "C": 3,
+            "C-": 9,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 435
+        }
+      }
+    },
+    {
+      "professor_name": "Gil Tal",
+      "professor_slug": "gil-tal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 18,
+            "A-": 39,
+            "B+": 66,
+            "B": 84,
+            "B-": 48,
+            "C+": 21,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 315
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 18,
+            "A-": 39,
+            "B+": 66,
+            "B": 84,
+            "B-": 48,
+            "C+": 21,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 315
+        }
+      }
+    }
+  ]
+}

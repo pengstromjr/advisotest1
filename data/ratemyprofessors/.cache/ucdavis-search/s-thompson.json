@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.3,
+    "department": "Women's Studies",
+    "firstName": "Sarah",
+    "id": "VGVhY2hlci0yOTEzNzAx",
+    "lastName": "Thompson",
+    "legacyId": 2913701,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 82.3529
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.6,
+    "department": "Mathematics",
+    "firstName": "Abigail",
+    "id": "VGVhY2hlci01OTE0OA==",
+    "lastName": "Thompson",
+    "legacyId": 59148,
+    "numRatings": 109,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 68.75
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.6,
+    "department": "Spanish",
+    "firstName": "Chandler",
+    "id": "VGVhY2hlci0yNzUxNzc1",
+    "lastName": "Thompson",
+    "legacyId": 2751775,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.6,
+    "department": "Psychology",
+    "firstName": "Ross",
+    "id": "VGVhY2hlci0zNTM0MzY=",
+    "lastName": "Thompson",
+    "legacyId": 353436,
+    "numRatings": 171,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.4545
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 3.9,
+    "department": "Psychology",
+    "firstName": "Dianne",
+    "id": "VGVhY2hlci0xNzM5MTc5",
+    "lastName": "Thompson",
+    "legacyId": 1739179,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "Matthew",
+    "id": "VGVhY2hlci0yNDA0MDY3",
+    "lastName": "Thompson",
+    "legacyId": 2404067,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

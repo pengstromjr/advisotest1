@@ -1,0 +1,281 @@
+{
+  "course_id": "SOC131",
+  "course_title": "The Family",
+  "overall_grades": {
+    "A+": 128,
+    "A": 147,
+    "A-": 168,
+    "B+": 156,
+    "B": 192,
+    "B-": 67,
+    "C+": 41,
+    "C": 27,
+    "C-": 13,
+    "D+": 8,
+    "D": 11,
+    "D-": 5,
+    "F": 9,
+    "P*": 57,
+    "NP*": 7
+  },
+  "overall_gpa": 3.28,
+  "overall_enrolled": 1036,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kim Shauman",
+      "professor_slug": "kim-shauman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 5,
+            "A-": 11,
+            "B+": 5,
+            "B": 7,
+            "B-": 7,
+            "C+": 14,
+            "C": 10,
+            "C-": 9,
+            "D+": 5,
+            "D": 5,
+            "D-": 2,
+            "F": 1,
+            "P*": 22,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 2.51,
+          "quarter_enrolled": 114
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 1,
+            "A-": 3,
+            "B+": 5,
+            "B": 2,
+            "B-": 1,
+            "C+": 11,
+            "C": 7,
+            "C-": 2,
+            "D+": 2,
+            "D": 2,
+            "D-": 2,
+            "F": 1,
+            "P*": 14,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.28,
+          "quarter_enrolled": 58
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 4,
+            "A-": 8,
+            "B+": 0,
+            "B": 5,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 7,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 8,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 56
+        }
+      }
+    },
+    {
+      "professor_name": "Rebecca Van Stokkum",
+      "professor_slug": "rebecca-van-stokkum",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 75,
+            "A-": 117,
+            "B+": 129,
+            "B": 147,
+            "B-": 45,
+            "C+": 24,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 3,
+            "P*": 24
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 585
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 33,
+            "B+": 48,
+            "B": 54,
+            "B-": 9,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 198
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 33,
+            "A-": 63,
+            "B+": 60,
+            "B": 60,
+            "B-": 15,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 255
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 21,
+            "B+": 21,
+            "B": 33,
+            "B-": 21,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Rowan Haus",
+      "professor_slug": "rowan-haus",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 45,
+            "A-": 33,
+            "B+": 9,
+            "B": 33,
+            "B-": 12,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 246
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 45,
+            "A-": 33,
+            "B+": 9,
+            "B": 33,
+            "B-": 12,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 246
+        }
+      }
+    },
+    {
+      "professor_name": "Zequn Tang",
+      "professor_slug": "zequn-tang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 34,
+            "A": 22,
+            "A-": 7,
+            "B+": 13,
+            "B": 5,
+            "B-": 3,
+            "C+": 0,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 91
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 34,
+            "A": 22,
+            "A-": 7,
+            "B+": 13,
+            "B": 5,
+            "B-": 3,
+            "C+": 0,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 91
+        }
+      }
+    }
+  ]
+}

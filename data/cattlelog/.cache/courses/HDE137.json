@@ -1,0 +1,175 @@
+{
+  "course_id": "HDE137",
+  "course_title": "Contextual Determinants of Health",
+  "overall_grades": {
+    "A+": 1078,
+    "A": 552,
+    "A-": 142,
+    "B+": 55,
+    "B": 22,
+    "B-": 6,
+    "C+": 1,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.93,
+  "overall_enrolled": 1862,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brittany Chambers Butcher",
+      "professor_slug": "brittany-chambers-butcher",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 760,
+            "A": 486,
+            "A-": 118,
+            "B+": 46,
+            "B": 19,
+            "B-": 6,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 1436
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 147,
+            "A": 102,
+            "A-": 27,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 285
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 234,
+            "A": 147,
+            "A-": 33,
+            "B+": 24,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 459
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 67,
+            "A": 81,
+            "A-": 13,
+            "B+": 4,
+            "B": 1,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 167
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 312,
+            "A": 156,
+            "A-": 45,
+            "B+": 12,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 525
+        }
+      }
+    },
+    {
+      "professor_name": "Rose Kagawa",
+      "professor_slug": "rose-kagawa",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 318,
+            "A": 66,
+            "A-": 24,
+            "B+": 9,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 426
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 318,
+            "A": 66,
+            "A-": 24,
+            "B+": 9,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 426
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "course_id": "PBI200A",
+  "course_title": "PBGG Core Course Series–Fall quarter",
+  "overall_grades": {
+    "A+": 4,
+    "A": 3,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 10,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Luca Comai",
+      "professor_slug": "luca-comai",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 10
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 3,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 10
+        }
+      }
+    }
+  ]
+}

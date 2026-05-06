@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.4,
+    "department": "Native Studies",
+    "firstName": "Brittani",
+    "id": "VGVhY2hlci0zMTI5ODM2",
+    "lastName": "Orona",
+    "legacyId": 3129836,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 55.5556
+  }
+]

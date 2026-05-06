@@ -10,7 +10,7 @@
       "courses": [
         "ANT/STS 129",
         "CHI 114",
-        "CHI 114V",
+        "or CHI 114V",
         "HIS 107",
         "RST 152",
         "RST 153",
@@ -18,26 +18,26 @@
         "SOC 164",
         "STS 122"
       ],
-      "units": "8",
+      "units": "",
       "notes": []
     },
     {
       "heading": "Electives",
       "courses": [
         "ANT 121",
-        "STS 121",
+        "or STS 121",
         "ANT 132",
         "HIS 109",
         "HIS 112A",
         "HIS 136",
         "HIS 172",
         "NAS 123",
-        "NAS 123V",
+        "or NAS 123V",
         "PHI 108",
         "PHI 115",
         "PHI 121",
         "RST 120",
-        "STS 120",
+        "or STS 120",
         "RST 150",
         "RST 160",
         "RST 162",
@@ -48,11 +48,13 @@
         "STS 130B",
         "STS 150"
       ],
-      "units": "12",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.619Z"
 }

@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "American Studies",
+    "firstName": "Ari Y",
+    "id": "VGVhY2hlci0xMTg2MjA3",
+    "lastName": "Kelman",
+    "legacyId": 1186207,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2,
+    "department": "Mathematics",
+    "firstName": "Albert",
+    "id": "VGVhY2hlci03NDE3ODQ=",
+    "lastName": "Fannjiang",
+    "legacyId": 741784,
+    "numRatings": 90,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.9,
+    "department": "Civil Engineering",
+    "firstName": "Yueyue",
+    "id": "VGVhY2hlci04MDgxMDk=",
+    "lastName": "Fan",
+    "legacyId": 808109,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.6667
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Environmental Science",
+    "firstName": "Kevin",
+    "id": "VGVhY2hlci0yMzUxNTMw",
+    "lastName": "Fang",
+    "legacyId": 2351530,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.8,
+    "department": "Engineering",
+    "firstName": "Julia",
+    "id": "VGVhY2hlci0yOTk3MzQy",
+    "lastName": "Fan",
+    "legacyId": 2997342,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3,
+    "department": "Wildlife",
+    "firstName": "Nann",
+    "id": "VGVhY2hlci0yMTA2NzAw",
+    "lastName": "Fangue",
+    "legacyId": 2106700,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Philosophy",
+    "firstName": "Da",
+    "id": "VGVhY2hlci0yNzExMTU1",
+    "lastName": "Fan",
+    "legacyId": 2711155,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3,
+    "department": "Communication",
+    "firstName": "Lu",
+    "id": "VGVhY2hlci0yNTI3MzU3",
+    "lastName": "Fan",
+    "legacyId": 2527357,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

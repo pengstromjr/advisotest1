@@ -8,14 +8,16 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "Five upper division (100 level) English (ENL) courses; at least four of these must be literature courses (numbered 107-186).",
+        "Five upper division (100 level) English (ENL) courses; at least four of these must be literature courses (numbered 107-186). (20 units)",
         "English (ENL)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.651Z"
 }

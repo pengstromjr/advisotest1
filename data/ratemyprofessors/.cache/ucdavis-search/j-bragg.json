@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.4,
+    "department": "Microbiology",
+    "firstName": "Jonathan",
+    "id": "VGVhY2hlci0yMTg2MDI4",
+    "lastName": "Bragg",
+    "legacyId": 2186028,
+    "numRatings": 122,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.5246
+  }
+]

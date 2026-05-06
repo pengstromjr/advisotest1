@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.3,
+    "department": "Pathology",
+    "firstName": "Amanda",
+    "id": "VGVhY2hlci0yOTk2OTc1",
+    "lastName": "Hodson",
+    "legacyId": 2996975,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

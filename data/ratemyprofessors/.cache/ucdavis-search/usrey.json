@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.4,
+    "department": "Biological Sciences",
+    "firstName": "Martin",
+    "id": "VGVhY2hlci01ODU3Nzc=",
+    "lastName": "Usrey",
+    "legacyId": 585777,
+    "numRatings": 48,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Neurobiology  Behavior",
+    "firstName": "Kimberly",
+    "id": "VGVhY2hlci0yMTE2Mzgz",
+    "lastName": "Usrey",
+    "legacyId": 2116383,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

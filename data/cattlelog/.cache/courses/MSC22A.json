@@ -1,0 +1,180 @@
+{
+  "course_id": "MSC22A",
+  "course_title": "Innovative Team Leadership",
+  "overall_grades": {
+    "A+": 104,
+    "A": 33,
+    "A-": 9,
+    "B+": 3,
+    "B": 3,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.85,
+  "overall_enrolled": 158,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Park",
+      "professor_slug": "eric-park",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 75,
+            "A": 15,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 108
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 39
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 15,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 69
+        }
+      }
+    },
+    {
+      "professor_name": "Jesse Peterson",
+      "professor_slug": "jesse-peterson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 17
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 17
+        }
+      }
+    },
+    {
+      "professor_name": "Nathan Rolls",
+      "professor_slug": "nathan-rolls",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 33
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 33
+        }
+      }
+    }
+  ]
+}

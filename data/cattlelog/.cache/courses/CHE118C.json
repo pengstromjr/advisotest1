@@ -1,0 +1,311 @@
+{
+  "course_id": "CHE118C",
+  "course_title": "Organic Chemistry for Health & Life Sciences",
+  "overall_grades": {
+    "A+": 274,
+    "A": 1353,
+    "A-": 485,
+    "B+": 633,
+    "B": 986,
+    "B-": 548,
+    "C+": 785,
+    "C": 1701,
+    "C-": 793,
+    "D+": 325,
+    "D": 636,
+    "D-": 201,
+    "F": 425,
+    "P*": 23,
+    "NP*": 55
+  },
+  "overall_gpa": 2.47,
+  "overall_enrolled": 9223,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Abdelbasset Farahat",
+      "professor_slug": "abdelbasset-farahat",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 192,
+            "A-": 0,
+            "B+": 78,
+            "B": 108,
+            "B-": 0,
+            "C+": 108,
+            "C": 468,
+            "C-": 0,
+            "D+": 0,
+            "D": 60,
+            "D-": 0,
+            "F": 135,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.31,
+          "quarter_enrolled": 1200
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 192,
+            "A-": 0,
+            "B+": 78,
+            "B": 108,
+            "B-": 0,
+            "C+": 108,
+            "C": 468,
+            "C-": 0,
+            "D+": 0,
+            "D": 60,
+            "D-": 0,
+            "F": 135,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.31,
+          "quarter_enrolled": 1200
+        }
+      }
+    },
+    {
+      "professor_name": "Max Helix",
+      "professor_slug": "max-helix",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 217,
+            "A": 842,
+            "A-": 369,
+            "B+": 375,
+            "B": 637,
+            "B-": 360,
+            "C+": 465,
+            "C": 837,
+            "C-": 424,
+            "D+": 183,
+            "D": 364,
+            "D-": 116,
+            "F": 189,
+            "P*": 8,
+            "NP*": 19
+          },
+          "quarter_average_gpa": 2.58,
+          "quarter_enrolled": 5405
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 111,
+            "A": 375,
+            "A-": 153,
+            "B+": 144,
+            "B": 261,
+            "B-": 141,
+            "C+": 201,
+            "C": 309,
+            "C-": 207,
+            "D+": 90,
+            "D": 150,
+            "D-": 36,
+            "F": 93,
+            "P*": 6,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.59,
+          "quarter_enrolled": 2289
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 375,
+            "A-": 168,
+            "B+": 183,
+            "B": 255,
+            "B-": 162,
+            "C+": 207,
+            "C": 399,
+            "C-": 159,
+            "D+": 60,
+            "D": 171,
+            "D-": 60,
+            "F": 63,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.59,
+          "quarter_enrolled": 2340
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 34,
+            "A": 92,
+            "A-": 48,
+            "B+": 48,
+            "B": 121,
+            "B-": 57,
+            "C+": 57,
+            "C": 129,
+            "C-": 58,
+            "D+": 33,
+            "D": 43,
+            "D-": 20,
+            "F": 33,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.52,
+          "quarter_enrolled": 776
+        }
+      }
+    },
+    {
+      "professor_name": "Melekeh Nasiri",
+      "professor_slug": "melekeh-nasiri",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 45,
+            "B+": 75,
+            "B": 48,
+            "B-": 96,
+            "C+": 51,
+            "C": 87,
+            "C-": 93,
+            "D+": 87,
+            "D": 105,
+            "D-": 57,
+            "F": 51,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.12,
+          "quarter_enrolled": 891
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 45,
+            "B+": 75,
+            "B": 48,
+            "B-": 96,
+            "C+": 51,
+            "C": 87,
+            "C-": 93,
+            "D+": 87,
+            "D": 105,
+            "D-": 57,
+            "F": 51,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.12,
+          "quarter_enrolled": 891
+        }
+      }
+    },
+    {
+      "professor_name": "Peter Beal",
+      "professor_slug": "peter-beal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 216,
+            "A-": 30,
+            "B+": 66,
+            "B": 117,
+            "B-": 36,
+            "C+": 99,
+            "C": 252,
+            "C-": 246,
+            "D+": 42,
+            "D": 96,
+            "D-": 21,
+            "F": 30,
+            "P*": 9,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.36,
+          "quarter_enrolled": 1278
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 216,
+            "A-": 30,
+            "B+": 66,
+            "B": 117,
+            "B-": 36,
+            "C+": 99,
+            "C": 252,
+            "C-": 246,
+            "D+": 42,
+            "D": 96,
+            "D-": 21,
+            "F": 30,
+            "P*": 9,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.36,
+          "quarter_enrolled": 1278
+        }
+      }
+    },
+    {
+      "professor_name": "Sarah Lievens",
+      "professor_slug": "sarah-lievens",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 31,
+            "A-": 41,
+            "B+": 39,
+            "B": 76,
+            "B-": 56,
+            "C+": 62,
+            "C": 57,
+            "C-": 30,
+            "D+": 13,
+            "D": 11,
+            "D-": 7,
+            "F": 20
+          },
+          "quarter_average_gpa": 2.56,
+          "quarter_enrolled": 449
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 31,
+            "A-": 41,
+            "B+": 39,
+            "B": 76,
+            "B-": 56,
+            "C+": 62,
+            "C": 57,
+            "C-": 30,
+            "D+": 13,
+            "D": 11,
+            "D-": 7,
+            "F": 20
+          },
+          "quarter_average_gpa": 2.56,
+          "quarter_enrolled": 449
+        }
+      }
+    }
+  ]
+}

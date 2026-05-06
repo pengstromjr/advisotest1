@@ -10,24 +10,29 @@
       "courses": [
         "BIS 002A",
         "BIS 002B",
-        "BIS 002C"
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 002",
+        "BIO 003"
       ],
-      "units": "5",
-      "notes": []
+      "units": "12-15",
+      "notes": [
+        "Choose a series:",
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 002AHCHE 002BHCHE 002CH",
-        "CHE 003ACHE 003BCHE 003C",
-        "CHE 118",
-        "CHE 128",
-        "CHE 129A",
-        "CHE 103",
-        "CHE 118ACHE 118BCHE 118C",
-        "CHE 128ACHE 128BCHE 128CCHE 129A",
-        "CHE 103ACHE 103B"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 002AH",
+        "CHE 002BH",
+        "CHE 002CH",
+        "CHE 003A",
+        "CHE 003B",
+        "CHE 003C"
       ],
       "units": "15",
       "notes": [
@@ -35,10 +40,33 @@
       ]
     },
     {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C",
+        "or CHE 128A",
+        "or CHE 128B",
+        "or CHE 128C",
+        "or CHE 129A",
+        "or CHE 103A",
+        "or CHE 103B"
+      ],
+      "units": "10-12",
+      "notes": [
+        "Choose CHE 118 series or CHE 128 series & CHE 129A or CHE 103 series:",
+        "OR"
+      ]
+    },
+    {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
       ],
       "units": "12",
       "notes": [
@@ -73,35 +101,35 @@
       "heading": "Upper Division Writing",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY",
+        "or UWP 104FV",
+        "or UWP 104FY",
         "UWP 104I"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
+        "Choose one: 1 (4 units)",
         "Satisfaction of the General Education requirement to include courses selected with advisor's approval to complement the major; courses in agricultural economics, environmental studies, political science, psychology, and sociology are particularly recommended.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (74-79 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
-        "BIS 103",
+        "or BIS 101V",
+        "or BIS 103",
         "BIS 102",
-        "BIS 102V"
+        "or BIS 102V"
       ],
       "units": "3-4",
       "notes": []
@@ -113,10 +141,16 @@
         "ETX 102A",
         "ETX 102B",
         "ETX 103A",
-        "ETX 103B",
-        "ETX 127",
+        "ETX 103B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Environmental Toxicology",
+      "courses": [
         "ETX/NUT 127",
-        "ETX/NUT 104",
+        "or ETX/NUT 104",
         "ETX 120",
         "ETX/FST 128",
         "ETX 130",
@@ -125,8 +159,11 @@
         "ETX 138",
         "ETX 146"
       ],
-      "units": "4",
-      "notes": []
+      "units": "6-10",
+      "notes": [
+        "Choose ETX 127 or two others:",
+        "OR"
+      ]
     },
     {
       "heading": "Restricted Electives",
@@ -135,11 +172,13 @@
       "notes": [
         "Choose three-four courses:",
         "Electives selected for area of Emphasis with faculty advisor's approval with 6 unit combined maximum of 190, 192, 198, and 199; see department website for details.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (46-55 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "118"
+  "total_units": "118",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.739Z"
 }

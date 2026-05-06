@@ -1,0 +1,175 @@
+{
+  "course_id": "NRS415Y",
+  "course_title": "PMHNP Clinical Residency",
+  "overall_grades": {
+    "A+": 84,
+    "A": 184,
+    "A-": 0,
+    "B+": 3,
+    "B": 0,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.96,
+  "overall_enrolled": 275,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2025",
+    "Summer_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Janet Meda",
+      "professor_slug": "janet-meda",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 65,
+            "A": 173,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 245
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 66,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 90
+        },
+        "Summer_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 90,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 99
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 8,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 31
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Vanndy Loth",
+      "professor_slug": "vanndy-loth",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 11,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 30
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 11,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

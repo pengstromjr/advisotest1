@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 1.9,
+    "department": "Chemistry",
+    "firstName": "Auddy ",
+    "id": "VGVhY2hlci0yOTMzODIy",
+    "lastName": "Anilao",
+    "legacyId": 2933822,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 14.2857
+  }
+]

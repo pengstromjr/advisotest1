@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.2,
+    "department": "Classics",
+    "firstName": "David ",
+    "id": "VGVhY2hlci0zMTQ2NjEw",
+    "lastName": "Wheeler",
+    "legacyId": 3146610,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20.5128
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.1,
+    "department": "Environmental Science",
+    "firstName": "Stephen",
+    "id": "VGVhY2hlci0xMjYxMDY1",
+    "lastName": "Wheeler",
+    "legacyId": 1261065,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.7273
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4,
+    "department": "Japanese",
+    "firstName": "(Carolyn) Miki",
+    "id": "VGVhY2hlci0xMjI0MjM2",
+    "lastName": "Wheeler",
+    "legacyId": 1224236,
+    "numRatings": 52,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.1,
+    "department": "Design",
+    "firstName": "Lloyd",
+    "id": "VGVhY2hlci0yODkyNTU2",
+    "lastName": "Wheeler",
+    "legacyId": 2892556,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 47.0588
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "German",
+    "firstName": "Madison",
+    "id": "VGVhY2hlci0yNjU1ODEw",
+    "lastName": "Wheeler",
+    "legacyId": 2655810,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -8,9 +8,10 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A"
+        "BIS 002A",
+        "or BIO 002"
       ],
-      "units": "5",
+      "units": "4-5",
       "notes": []
     },
     {
@@ -26,18 +27,22 @@
       "notes": []
     },
     {
-      "heading": "Mathematics; choose MAT 016A & MAT 016B or MAT 019A & MAT 019B:",
+      "heading": "Mathematics; choose MAT 016A & MAT 016B or MAT 019A & MAT 019B:",
       "courses": [
-        "MAT 019AMAT 019B"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 019A",
+        "MAT 019B"
       ],
       "units": "6-8",
       "notes": []
     },
     {
-      "heading": "Physics; choose PHY 001A & PHY 001B or PHY 007A:",
+      "heading": "Physics; choose PHY 001A & PHY 001B or PHY 007A:",
       "courses": [
         "PHY 007A",
-        "PHY 001APHY 001B"
+        "or PHY 001A",
+        "or PHY 001B"
       ],
       "units": "4-6",
       "notes": []
@@ -47,7 +52,7 @@
       "courses": [
         "PLS 002",
         "PLS 021",
-        "PLS 021V"
+        "or PLS 021V"
       ],
       "units": "7",
       "notes": []
@@ -60,14 +65,16 @@
       ],
       "units": "5",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (47-52 units)"
       ]
     },
     {
-      "heading": "Biological Science; choose BIS 105 or (BIS 102 or BIS 102V) & BIS 103:",
+      "heading": "Biological Science; choose BIS 105 or (BIS 102 or BIS 102V) & BIS 103:",
       "courses": [
         "BIS 105",
-        "BIS 103"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
       "units": "3-6",
       "notes": []
@@ -75,10 +82,21 @@
     {
       "heading": "Microbiology",
       "courses": [
-        "PLS 120",
-        "STA 106"
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L"
       ],
       "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "PLS 120",
+        "or STA 106"
+      ],
+      "units": "4",
       "notes": [
         "Choose one:"
       ]
@@ -106,9 +124,10 @@
       ],
       "units": "36-38",
       "notes": [
-        "In consultation with the advisor, choose three:  (6-8)",
+        "AND",
+        "In consultation with the advisor, choose three: (6-8)",
         "If more than three are taken, the extra courses will count as restricted electives in Area B.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (48-53 units)"
       ]
     },
     {
@@ -122,17 +141,18 @@
         "(C) Economics & Business Area",
         "(D) Language Area",
         "(E) Internship Area",
-        "Restricted Electives Subtotal"
+        "Restricted Electives Subtotal (28 units)"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ABT/IAD 142",
-        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ABT/LED 150",
+        "LDA 150",
         "ATM 133",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 101D",
         "BIT 160",
         "ENT 110",
@@ -159,14 +179,14 @@
         "VEN 216",
         "VEN 217"
       ],
-      "units": "Units",
+      "units": "2",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 101D",
         "FST 102A",
         "FST 102B",
@@ -180,9 +200,12 @@
         "VEN/FST 114",
         "VEN 140",
         "VEN 219",
-        "VEN 235"
+        "VEN 235",
+        "MIC 140",
+        "MIC 150",
+        "MIC 155L"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -196,43 +219,43 @@
         "ARE 140",
         "ARE 150",
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV",
+        "or ECN 001BV",
         "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY",
+        "or MGT 011AV",
+        "or MGT 011AY",
         "MGT 011B"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "FRE 021",
-        "FRE 021Y",
+        "or FRE 021Y",
         "FRE 022",
-        "FRE 022Y",
+        "or FRE 022Y",
         "FRE 023",
-        "FRE 023Y",
+        "or FRE 023Y",
         "GER/COM 011",
         "GER 020",
         "GER 021",
         "GER 022",
         "SPA 021",
-        "SPA 021V",
-        "SPA 021Y",
+        "or SPA 021V",
+        "or SPA 021Y",
         "SPA 022",
-        "SPA 022V",
-        "SPA 022Y",
+        "or SPA 022V",
+        "or SPA 022Y",
         "SPA 031",
         "SPA 032",
         "SPA 033",
-        "SPA 033V"
+        "or SPA 033V"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -245,7 +268,7 @@
         "VEN 290",
         "VEN 298"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
         "Choose a maximum of 8 units:",
         "May be increased to 12 units in exceptional circumstances."
@@ -254,5 +277,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "124"
+  "total_units": "123",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.462Z"
 }

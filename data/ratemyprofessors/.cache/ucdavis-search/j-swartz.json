@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.6,
+    "department": "Human Development",
+    "firstName": "Johnna",
+    "id": "VGVhY2hlci0yMzg0ODQz",
+    "lastName": "Swartz",
+    "legacyId": 2384843,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Psychology",
+    "firstName": "Johnna",
+    "id": "VGVhY2hlci0yMzg0ODQy",
+    "lastName": "Swartz",
+    "legacyId": 2384842,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

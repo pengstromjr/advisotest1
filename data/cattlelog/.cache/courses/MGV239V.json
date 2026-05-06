@@ -1,0 +1,334 @@
+{
+  "course_id": "MGV239V",
+  "course_title": "Digital Marketing",
+  "overall_grades": {
+    "A+": 152,
+    "A": 410,
+    "A-": 171,
+    "B+": 29,
+    "B": 8,
+    "B-": 9,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.88,
+  "overall_enrolled": 779,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Summer_2023",
+    "Summer_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kay Peters",
+      "professor_slug": "kay-peters",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 65,
+            "A": 359,
+            "A-": 141,
+            "B+": 20,
+            "B": 2,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 596
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 42,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 57
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 12,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 33
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 27,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 60
+        },
+        "Summer_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 51,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 60
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 69,
+            "A-": 36,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 126
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 45,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 72
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 39,
+            "A-": 24,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 66
+        },
+        "Summer_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 21,
+            "A-": 15,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 54
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 23
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 16,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 24
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 16,
+            "A-": 3,
+            "B+": 0,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 21
+        }
+      }
+    },
+    {
+      "professor_name": "Vanessa Errecarte",
+      "professor_slug": "vanessa-errecarte",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 51,
+            "A-": 30,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 183
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 18,
+            "A-": 12,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 69
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 33,
+            "A-": 18,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 114
+        }
+      }
+    }
+  ]
+}

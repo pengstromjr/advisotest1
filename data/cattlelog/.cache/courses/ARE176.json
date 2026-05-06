@@ -1,0 +1,155 @@
+{
+  "course_id": "ARE176",
+  "course_title": "Environmental Economics",
+  "overall_grades": {
+    "A+": 13,
+    "A": 78,
+    "A-": 37,
+    "B+": 25,
+    "B": 36,
+    "B-": 33,
+    "C+": 14,
+    "C": 20,
+    "C-": 12,
+    "D+": 5,
+    "D": 2,
+    "D-": 0,
+    "F": 2,
+    "P*": 7
+  },
+  "overall_gpa": 3.18,
+  "overall_enrolled": 284,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2025",
+    "Spring_2024",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jamie Hansen Lewis",
+      "professor_slug": "jamie-hansen-lewis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 78,
+            "A-": 37,
+            "B+": 25,
+            "B": 36,
+            "B-": 33,
+            "C+": 14,
+            "C": 20,
+            "C-": 12,
+            "D+": 5,
+            "D": 2,
+            "D-": 0,
+            "F": 2,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 284
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 8,
+            "B+": 4,
+            "B": 6,
+            "B-": 8,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 48
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 9,
+            "A-": 2,
+            "B+": 2,
+            "B": 3,
+            "B-": 3,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 26
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 29,
+            "A-": 10,
+            "B+": 5,
+            "B": 6,
+            "B-": 5,
+            "C+": 3,
+            "C": 3,
+            "C-": 4,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 68
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 11,
+            "A-": 9,
+            "B+": 9,
+            "B": 13,
+            "B-": 10,
+            "C+": 6,
+            "C": 10,
+            "C-": 4,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 82
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 14,
+            "A-": 8,
+            "B+": 5,
+            "B": 8,
+            "B-": 7,
+            "C+": 3,
+            "C": 2,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 60
+        }
+      }
+    }
+  ]
+}

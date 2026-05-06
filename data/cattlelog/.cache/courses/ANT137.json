@@ -1,0 +1,70 @@
+{
+  "course_id": "ANT137",
+  "course_title": "Meditation & Culture",
+  "overall_grades": {
+    "A+": 9,
+    "A": 21,
+    "A-": 9,
+    "B+": 6,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.79,
+  "overall_enrolled": 48,
+  "available_quarters": [
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alan Klima",
+      "professor_slug": "alan-klima",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 21,
+            "A-": 9,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 48
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 21,
+            "A-": 9,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

@@ -9,54 +9,84 @@
       "heading": "Required Core Courses",
       "courses": [
         "SPH 101",
+        "SPH 190"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Required Core Courses",
+      "courses": [
         "SPH 102",
-        "SPH 107V",
-        "SPH 190",
+        "SPH 107V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Required Core Courses",
+      "courses": [
         "SPH 104",
-        "VME 057V",
+        "SPH 105",
         "SPH 113",
-        "SPH 104",
-        "VME 057V",
-        "SPH 113"
+        "SPH 114",
+        "SPH 120"
       ],
       "units": "3",
       "notes": [
-        "Required Core Courses Subtotal"
+        "Choose one:",
+        "Required Core Courses Subtotal (11 units)"
       ]
     },
     {
       "heading": "Electives; 8-9 units minimum to fulfill 20 units total",
       "courses": [
-        "STA 013",
-        "STA 100",
-        "VME 057V",
-        "ANT/STS 129",
         "ANT 002",
+        "ANT 159",
         "ARE 106",
         "ASA/SPH 132",
         "BIM 105",
         "BIS 020Q",
         "BIS/MAT 027A",
-        "CHE 121",
         "CHI 021",
         "CHI 040",
         "CHI 114",
-        "CHI 114V",
+        "or CHI 114V",
+        "CHI 121",
+        "CHI 140A",
+        "CMN 147",
+        "or CMN 147V",
         "CMN 161",
         "CMN 165",
         "CRD 149",
+        "CRD 150",
         "ECN 132",
         "ECN 140",
         "ECS 124",
+        "ESP 106",
+        "ESP 161",
+        "ESP 162",
+        "ESP 174",
         "ETX 101",
+        "ETX 010",
+        "ETX 102A",
+        "ETX 117",
+        "ETX 131",
+        "ETX 135",
+        "ETX 138",
         "ETX 146",
-        "EXB 117",
+        "EVE 125",
         "FAP 192C",
         "FAP 195",
-        "HIS/SAS 109",
+        "GBD 106",
+        "HIS 109",
         "IMD 164",
         "IMD 194",
-        "NAS 240",
+        "LDA 150",
+        "or ABT 150",
+        "NPB 143",
         "NUT 111AY",
         "NUT 111B",
         "OBG 194",
@@ -76,33 +106,41 @@
         "SPH 106",
         "SPH 108",
         "SPH 109",
+        "SPH 111",
         "SPH 114",
+        "SPH 116V",
         "SPH 120",
         "SPH 121",
         "SPH 122",
-        "SPH/ASA 132",
         "SPH 180",
         "SPH 190",
         "SPH 192",
         "SPH 198",
         "SPH 199",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100",
         "STA 144",
-        "STS 129",
+        "STS 164/ENG 164",
+        "UWP 104F",
         "UWP 198",
-        "VME 057V"
+        "VMB 101V",
+        "or VMB 101Y",
+        "VME 158"
       ],
       "units": "8-9",
       "notes": [
+        "Either STA 013 or STA 100 can be used as an elective, not both.",
+        "Only one lower division course can be used overall to complete the minor..",
         "Only one approved study abroad course can be used as a minor elective.",
-        "Choose 8-9 units:",
-        "Electives Subtotal"
+        "Electives Subtotal (8-9 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "19"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.100Z"
 }

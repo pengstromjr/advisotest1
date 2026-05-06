@@ -1,0 +1,278 @@
+{
+  "course_id": "CHI182",
+  "course_title": "Race & Juvenile Justice",
+  "overall_grades": {
+    "A+": 667,
+    "A": 319,
+    "A-": 90,
+    "B+": 29,
+    "B": 16,
+    "B-": 0,
+    "C+": 4,
+    "C": 10,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 5,
+    "P*": 21,
+    "NP*": 3
+  },
+  "overall_gpa": 3.9,
+  "overall_enrolled": 1164,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Daniel Talamantes",
+      "professor_slug": "daniel-talamantes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 201,
+            "A": 78,
+            "A-": 15,
+            "B+": 12,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 327
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 201,
+            "A": 78,
+            "A-": 15,
+            "B+": 12,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 327
+        }
+      }
+    },
+    {
+      "professor_name": "Kirin Rajagopalan",
+      "professor_slug": "kirin-rajagopalan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 195,
+            "A": 18,
+            "A-": 24,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 276
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 195,
+            "A": 18,
+            "A-": 24,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 276
+        }
+      }
+    },
+    {
+      "professor_name": "Martha Gonzales",
+      "professor_slug": "martha-gonzales",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 240,
+            "A": 198,
+            "A-": 45,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 492
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 132,
+            "A": 102,
+            "A-": 12,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 252
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 96,
+            "A-": 33,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 240
+        }
+      }
+    },
+    {
+      "professor_name": "Ofelia Cuevas",
+      "professor_slug": "ofelia-cuevas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 18,
+            "A-": 1,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 22
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 18,
+            "A-": 1,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 22
+        }
+      }
+    },
+    {
+      "professor_name": "Vanessa Lauchland",
+      "professor_slug": "vanessa-lauchland",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 7,
+            "A-": 5,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 47
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 7,
+            "A-": 5,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 47
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Medicine",
+    "firstName": "Demosthenes",
+    "id": "VGVhY2hlci0xOTY2Mjg2",
+    "lastName": "Pappagianis ",
+    "legacyId": 1966286,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Languages",
+    "firstName": "melissa",
+    "id": "VGVhY2hlci0zMTIwOTQw",
+    "lastName": "demos",
+    "legacyId": 3120940,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Italian",
+    "firstName": "Melissa",
+    "id": "VGVhY2hlci0zMTU4ODg3",
+    "lastName": "Demos",
+    "legacyId": 3158887,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

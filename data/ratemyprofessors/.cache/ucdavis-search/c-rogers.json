@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4,
+    "department": "Mathematics",
+    "firstName": "Carson",
+    "id": "VGVhY2hlci0yMjg1NjM0",
+    "lastName": "Rogers",
+    "legacyId": 2285634,
+    "numRatings": 43,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.3721
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 5,
+    "department": "Cell Biology & Neuroanatomy",
+    "firstName": "Crystal",
+    "id": "VGVhY2hlci0yOTMwMDk5",
+    "lastName": "Rogers",
+    "legacyId": 2930099,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.6,
+    "department": "Philosophy",
+    "firstName": "Tristan",
+    "id": "VGVhY2hlci0yNjYxNzMz",
+    "lastName": "Rogers",
+    "legacyId": 2661733,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.6,
+    "department": "Civil Engineering",
+    "firstName": "Jason",
+    "id": "VGVhY2hlci04MDg3NTE=",
+    "lastName": "Dejong",
+    "legacyId": 808751,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3,
+    "department": "Pomology",
+    "firstName": "Theodore",
+    "id": "VGVhY2hlci0xMTM5MDAy",
+    "lastName": "DeJong",
+    "legacyId": 1139002,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

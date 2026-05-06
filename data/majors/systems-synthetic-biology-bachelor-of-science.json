@@ -8,24 +8,42 @@
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C",
+        "BIO 001",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003",
         "BIS 015L",
-        "BIS 015LV",
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C",
-        "PHY 007APHY 007BPHY 007C"
+        "or BIS 015LV",
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "or CHE 004A",
+        "or CHE 004B",
+        "or CHE 004C",
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 118C",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
-      "units": "17",
+      "units": "16",
       "notes": [
-        "Biological Sciences",
-        "Chemistry",
-        "Mathematics",
-        "Physics",
-        "Preparatory Subject Matter Subtotal"
+        "Biological Sciences (16 units)",
+        "Chemistry (21-27 units)",
+        "OR",
+        "AND",
+        "Mathematics (8-12 units)",
+        "Physics (12 units)",
+        "Preparatory Subject Matter Subtotal (57-67 units)"
       ]
     },
     {
@@ -33,23 +51,30 @@
       "courses": [
         "STA 100",
         "STA 101",
+        "or STA 106",
+        "or STA 108",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 105",
-        "BIS 103",
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103",
         "BIS 104",
+        "SSB 134",
         "BIM 143",
-        "BIS 185L"
+        "BIS 185L",
+        "MCB 121"
       ],
       "units": "8",
       "notes": [
-        "Statistics",
-        "Genetics",
-        "Biochemistry, Bioenergetics, & Metabolism",
-        "Cell Biology",
-        "Systems Biology",
-        "Biomolecular Systems Engineering",
-        "Systems & Synthetic Biology"
+        "Statistics (8 units)",
+        "Genetics (4 units)",
+        "Biochemistry, Bioenergetics, & Metabolism (3-6 units)",
+        "Cell Biology (3 units)",
+        "Systems Biology (3 units)",
+        "Biomolecular Systems Engineering (4 units)",
+        "Systems & Synthetic Biology (5 units)",
+        "Molecular & Cellular Biology (3 units)"
       ]
     },
     {
@@ -69,23 +94,30 @@
         "EBS 161",
         "MCB 120",
         "MCB 120L",
-        "MCB 121",
         "MCB 123",
         "MCB 124",
         "MCB/PLB 126",
         "MCB 160L",
         "MCB 182",
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L",
         "MMG 115",
-        "MMG 170"
+        "or MIC 115",
+        "MMG 170",
+        "or MIC 170"
       ],
-      "units": "9",
+      "units": "6",
       "notes": [
-        "Choose three or more upper division courses not used to satisfy another requirement; 9 unit minimum:",
-        "Depth Subject Matter Total"
+        "Choose at least 6 additional units from:",
+        "Depth Subject Matter Total (39-42 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "96"
+  "total_units": "96",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.394Z"
 }

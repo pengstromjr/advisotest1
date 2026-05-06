@@ -10,8 +10,18 @@
       "courses": [
         "HIS 009A",
         "HIS 009B",
-        "HIS 009C/EAS 088",
+        "HIS 009C/EAS 088"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "AHI 001D",
+        "or AHI 001DY",
         "CHN 007",
         "CHN 010",
         "CHN 011",
@@ -19,17 +29,26 @@
         "JPN 010",
         "JPN 025",
         "JPN/CHN 050",
-        "RST 075",
-        "CHN 001CHN 002",
-        "JPN 001JPN 002"
+        "RST 075"
       ],
-      "units": "8",
+      "units": "3-4",
       "notes": [
-        "Choose two:",
-        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "CHN 001",
+        "CHN 002",
+        "JPN 001",
+        "JPN 002"
+      ],
+      "units": "10",
+      "notes": [
         "Choose two (or the equivalent) of Chinese, Japanese, or other East Asian language study:",
         "Choose a series:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (21-22 units)"
       ]
     },
     {
@@ -119,6 +138,7 @@
         "MUS 129C",
         "POL 148B",
         "RST 165",
+        "RST 170",
         "RST 171/AHI 157",
         "RST 172",
         "RST 175A/CHN 100A",
@@ -129,7 +149,7 @@
       "units": "24",
       "notes": [
         "Choose 24 units:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (24 units)"
       ]
     },
     {
@@ -139,11 +159,13 @@
       "notes": [
         "Choose 16 units:",
         "Any EAS special course1; any CHN or JPN upper division course; any Depth Subject Matter course; any upper division EAP course focusing on East Asia or Southeast Asia.",
-        "Elective Requirement Subtotal"
+        "Elective Requirement Subtotal (16 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "61"
+  "total_units": "61",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.423Z"
 }

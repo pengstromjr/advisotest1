@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.4,
+    "avgRating": 2.6,
+    "department": "Physics",
+    "firstName": "Matthew",
+    "id": "VGVhY2hlci0yOTQ1ODY3",
+    "lastName": "Citron",
+    "legacyId": 2945867,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 35
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.7,
+    "department": "Writing",
+    "firstName": "Blair",
+    "id": "VGVhY2hlci0xMzk1MjYw",
+    "lastName": "Citron",
+    "legacyId": 1395260,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

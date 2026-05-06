@@ -1,0 +1,240 @@
+{
+  "course_id": "ENG4",
+  "course_title": "Engineering Graphics in Design",
+  "overall_grades": {
+    "A+": 92,
+    "A": 464,
+    "A-": 360,
+    "B+": 291,
+    "B": 269,
+    "B-": 173,
+    "C+": 63,
+    "C": 61,
+    "C-": 42,
+    "D+": 21,
+    "D": 8,
+    "D-": 4,
+    "F": 22
+  },
+  "overall_gpa": 3.3,
+  "overall_enrolled": 1870,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Masakazu Soshi",
+      "professor_slug": "masakazu-soshi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 220,
+            "A-": 175,
+            "B+": 104,
+            "B": 106,
+            "B-": 72,
+            "C+": 31,
+            "C": 20,
+            "C-": 21,
+            "D+": 12,
+            "D": 2,
+            "D-": 1,
+            "F": 14
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 806
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 162,
+            "A-": 96,
+            "B+": 45,
+            "B": 21,
+            "B-": 27,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 381
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 37,
+            "A-": 16,
+            "B+": 26,
+            "B": 16,
+            "B-": 9,
+            "C+": 7,
+            "C": 2,
+            "C-": 3,
+            "D+": 3,
+            "D": 2,
+            "D-": 1,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 128
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 21,
+            "A-": 63,
+            "B+": 33,
+            "B": 69,
+            "B-": 36,
+            "C+": 18,
+            "C": 15,
+            "C-": 12,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 12
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 297
+        }
+      }
+    },
+    {
+      "professor_name": "Mehdi Rahmati",
+      "professor_slug": "mehdi-rahmati",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 55,
+            "A": 151,
+            "A-": 59,
+            "B+": 70,
+            "B": 52,
+            "B-": 38,
+            "C+": 20,
+            "C": 11,
+            "C-": 15,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 476
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 123,
+            "A-": 42,
+            "B+": 60,
+            "B": 39,
+            "B-": 33,
+            "C+": 18,
+            "C": 6,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 384
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 28,
+            "A-": 17,
+            "B+": 10,
+            "B": 13,
+            "B-": 5,
+            "C+": 2,
+            "C": 5,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 92
+        }
+      }
+    },
+    {
+      "professor_name": "Weijun Zhang",
+      "professor_slug": "weijun-zhang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 93,
+            "A-": 126,
+            "B+": 117,
+            "B": 111,
+            "B-": 63,
+            "C+": 12,
+            "C": 30,
+            "C-": 6,
+            "D+": 6,
+            "D": 6,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 588
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 69,
+            "A-": 90,
+            "B+": 66,
+            "B": 78,
+            "B-": 33,
+            "C+": 6,
+            "C": 18,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 381
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 24,
+            "A-": 36,
+            "B+": 51,
+            "B": 33,
+            "B-": 30,
+            "C+": 6,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 207
+        }
+      }
+    }
+  ]
+}

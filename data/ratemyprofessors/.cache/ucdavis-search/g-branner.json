@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3.5,
+    "department": "Electrical Engineering",
+    "firstName": "George",
+    "id": "VGVhY2hlci0xMzEwNjg5",
+    "lastName": "Branner",
+    "legacyId": 1310689,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

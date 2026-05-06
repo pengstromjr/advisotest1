@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.7,
+    "avgRating": 3,
+    "department": "Chemical Engineering",
+    "firstName": "Surl-Hee",
+    "id": "VGVhY2hlci0zMTI2NDc4",
+    "lastName": "Ahn",
+    "legacyId": 3126478,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

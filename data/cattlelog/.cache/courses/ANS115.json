@@ -1,0 +1,130 @@
+{
+  "course_id": "ANS115",
+  "course_title": "Advanced Horse Production",
+  "overall_grades": {
+    "A+": 119,
+    "A": 124,
+    "A-": 31,
+    "B+": 3,
+    "B": 2,
+    "B-": 10,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 289,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Amy Mclean",
+      "professor_slug": "amy-mclean",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 119,
+            "A": 124,
+            "A-": 31,
+            "B+": 3,
+            "B": 2,
+            "B-": 10,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 289
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 13,
+            "A-": 4,
+            "B+": 0,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 28
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 63,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 120
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 39,
+            "A-": 9,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 69
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 9,
+            "A-": 12,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 72
+        }
+      }
+    }
+  ]
+}

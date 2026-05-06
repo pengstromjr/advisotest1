@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "generatedAt": "2026-05-05T22:17:09.939Z",
+    "programsChecked": 237,
+    "rawSections": 2243,
+    "rawCourseEntries": 17172,
+    "normalizedSections": 3287,
+    "normalizedItems": 13688,
+    "choiceItems": 2919,
+    "seriesItems": 137,
+    "errors": 0,
+    "warnings": 0
+  },
+  "issues": []
+}

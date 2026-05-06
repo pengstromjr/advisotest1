@@ -10,11 +10,27 @@
       "courses": [
         "WFC 100",
         "WFC 151",
-        "WFC 154",
+        "WFC 154"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "WFC 110",
         "WFC 111",
         "WFC 120",
-        "WFC 134",
+        "WFC 134"
+      ],
+      "units": "3",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "WFC 190",
         "WFC 191",
         "WFC 192",
@@ -23,14 +39,15 @@
         "WFC 198",
         "WFC 199"
       ],
-      "units": "Units",
+      "units": "5-16",
       "notes": [
-        "Choose one:",
         "Choose two-four upper division elective courses from the Wildlife, Fish & Conservation Biology curriculum; excluding:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.541Z"
 }

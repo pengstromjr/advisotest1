@@ -1,0 +1,90 @@
+{
+  "course_id": "DES180A",
+  "course_title": "Advanced Interior Design: Institutional Spaces",
+  "overall_grades": {
+    "A+": 0,
+    "A": 33,
+    "A-": 24,
+    "B+": 24,
+    "B": 6,
+    "B-": 4,
+    "C+": 0,
+    "C": 1,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.6,
+  "overall_enrolled": 92,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Akshita Sivakumar",
+      "professor_slug": "akshita-sivakumar",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 33,
+            "A-": 24,
+            "B+": 24,
+            "B": 6,
+            "B-": 4,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 92
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 23
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 18,
+            "B+": 21,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 69
+        }
+      }
+    }
+  ]
+}

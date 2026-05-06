@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3,
+    "department": "History",
+    "firstName": "Zekun",
+    "id": "VGVhY2hlci0zMTYwMDg3",
+    "lastName": "Zhang",
+    "legacyId": 3160087,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 54.5455
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.7,
+    "department": "Environmental Toxicology",
+    "firstName": "Qi",
+    "id": "VGVhY2hlci0yMjYyNjk0",
+    "lastName": "Zhang",
+    "legacyId": 2262694,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Electrical & Comp. Engineering",
+    "firstName": "Junshan ",
+    "id": "VGVhY2hlci0zMTYwNDU2",
+    "lastName": "Zhang",
+    "legacyId": 3160456,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 2.9,
+    "department": "Civil Engineering",
+    "firstName": "Michael",
+    "id": "VGVhY2hlci03OTM3MDg=",
+    "lastName": "Zhang",
+    "legacyId": 793708,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4,
+    "department": "Communication",
+    "firstName": "Jingwen",
+    "id": "VGVhY2hlci0yMjM2MzUz",
+    "lastName": "Zhang",
+    "legacyId": 2236353,
+    "numRatings": 37,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 5,
+    "department": "Materials Engineering",
+    "firstName": "Mingwei",
+    "id": "VGVhY2hlci0zMDIwNzY2",
+    "lastName": "Zhang",
+    "legacyId": 3020766,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.1,
+    "department": "Anthropology",
+    "firstName": "Li",
+    "id": "VGVhY2hlci0zNzQ2MTg=",
+    "lastName": "Zhang",
+    "legacyId": 374618,
+    "numRatings": 86,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 78.3333
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.2,
+    "department": "Computer Science",
+    "firstName": "Jiawei",
+    "id": "VGVhY2hlci0yNzc0MDI0",
+    "lastName": "Zhang",
+    "legacyId": 2774024,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.2,
+    "department": "Philosophy",
+    "firstName": "Zhexi",
+    "id": "VGVhY2hlci0zMDQyNjUx",
+    "lastName": "Zhang",
+    "legacyId": 3042651,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 4,
+    "department": "Design",
+    "firstName": "Adele",
+    "id": "VGVhY2hlci03OTMwMDM=",
+    "lastName": "Zhang",
+    "legacyId": 793003,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.5
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "course_id": "HDE130",
+  "course_title": "Developmental Psychopathology",
+  "overall_grades": {
+    "A+": 37,
+    "A": 280,
+    "A-": 176,
+    "B+": 142,
+    "B": 158,
+    "B-": 74,
+    "C+": 33,
+    "C": 20,
+    "C-": 16,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 25,
+    "P*": 10,
+    "NP*": 7
+  },
+  "overall_gpa": 3.33,
+  "overall_enrolled": 979,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Amanda Guyer",
+      "professor_slug": "amanda-guyer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 133,
+            "A-": 80,
+            "B+": 83,
+            "B": 61,
+            "B-": 21,
+            "C+": 13,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 4,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 435
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 93,
+            "A-": 36,
+            "B+": 27,
+            "B": 18,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 198
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 27,
+            "A-": 27,
+            "B+": 42,
+            "B": 33,
+            "B-": 12,
+            "C+": 6,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 174
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 13,
+            "A-": 17,
+            "B+": 14,
+            "B": 10,
+            "B-": 3,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 63
+        }
+      }
+    },
+    {
+      "professor_name": "Daniel Choe",
+      "professor_slug": "daniel-choe",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 57,
+            "A-": 81,
+            "B+": 53,
+            "B": 70,
+            "B-": 44,
+            "C+": 17,
+            "C": 11,
+            "C-": 10,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 16,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 382
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 30,
+            "A-": 42,
+            "B+": 27,
+            "B": 33,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 12
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 177
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 27,
+            "A-": 36,
+            "B+": 24,
+            "B": 30,
+            "B-": 27,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 180
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 3,
+            "B+": 2,
+            "B": 7,
+            "B-": 5,
+            "C+": 2,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Nicole Hollis",
+      "professor_slug": "nicole-hollis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 90,
+            "A-": 15,
+            "B+": 6,
+            "B": 27,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 162
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 90,
+            "A-": 15,
+            "B+": 6,
+            "B": 27,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 162
+        }
+      }
+    }
+  ]
+}

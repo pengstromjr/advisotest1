@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4,
+    "department": "Electrical  Comp. Engineering",
+    "firstName": "Omeed",
+    "id": "VGVhY2hlci0yMDcxMTQx",
+    "lastName": "Momeni",
+    "legacyId": 2071141,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  }
+]

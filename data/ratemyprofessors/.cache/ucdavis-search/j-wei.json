@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 4.5,
+    "avgRating": 2.3,
+    "department": "Physics",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci0xNzgzNDY3",
+    "lastName": "Weideman",
+    "legacyId": 1783467,
+    "numRatings": 310,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.2824
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 1.8,
+    "department": "Chemistry",
+    "firstName": "Jiahui",
+    "id": "VGVhY2hlci0zMDM1Njg3",
+    "lastName": "Wei",
+    "legacyId": 3035687,
+    "numRatings": 218,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 21.4612
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.6,
+    "department": "Mathematics",
+    "firstName": "Weizhe",
+    "id": "VGVhY2hlci0zMTI3OTQ3",
+    "lastName": "Shen",
+    "legacyId": 3127947,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 29.1667
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.1,
+    "department": "Mathematics",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0yODc0NzQ3",
+    "lastName": "Wein",
+    "legacyId": 2874747,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 4.2,
+    "department": "Mathematics",
+    "firstName": "Tait",
+    "id": "VGVhY2hlci0yODEyNDg1",
+    "lastName": "Weicht",
+    "legacyId": 2812485,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 4.2,
+    "department": "Electrical amp Comp. Engineering",
+    "firstName": "Weijian",
+    "id": "VGVhY2hlci0yMzk0MzYx",
+    "lastName": "Yang",
+    "legacyId": 2394361,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 79.3103
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.5,
+    "department": "Engineering",
+    "firstName": "Weijun",
+    "id": "VGVhY2hlci0yODgwNDAw",
+    "lastName": "Zhang",
+    "legacyId": 2880400,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Science",
+    "firstName": "Sandra",
+    "id": "VGVhY2hlci00MzA1Njg=",
+    "lastName": "Weisker",
+    "legacyId": 430568,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 1.8,
+    "department": "Physics",
+    "firstName": "Weixuan",
+    "id": "VGVhY2hlci0yNTg3MzMw",
+    "lastName": "Hu",
+    "legacyId": 2587330,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 22.2222
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 3.8,
+    "department": "Anthropology",
+    "firstName": "Joshua",
+    "id": "VGVhY2hlci0yMTY4NDA0",
+    "lastName": "Weiss",
+    "legacyId": 2168404,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

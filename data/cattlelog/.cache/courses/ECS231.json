@@ -1,0 +1,70 @@
+{
+  "course_id": "ECS231",
+  "course_title": "Large-Scale Scientific Computation",
+  "overall_grades": {
+    "A+": 0,
+    "A": 9,
+    "A-": 18,
+    "B+": 3,
+    "B": 6,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.62,
+  "overall_enrolled": 36,
+  "available_quarters": [
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Zhaojun Bai",
+      "professor_slug": "zhaojun-bai",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 18,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 36
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 18,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 36
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "course_id": "AMS10",
+  "course_title": "Introduction to American Studies",
+  "overall_grades": {
+    "A+": 431,
+    "A": 1570,
+    "A-": 306,
+    "B+": 110,
+    "B": 112,
+    "B-": 45,
+    "C+": 39,
+    "C": 23,
+    "C-": 22,
+    "D+": 9,
+    "D": 3,
+    "D-": 6,
+    "F": 28,
+    "P*": 175,
+    "NP*": 28
+  },
+  "overall_gpa": 3.75,
+  "overall_enrolled": 2907,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eleftheria Arapoglou",
+      "professor_slug": "eleftheria-arapoglou",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 156,
+            "A-": 51,
+            "B+": 39,
+            "B": 21,
+            "B-": 0,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 63
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 435
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 117,
+            "A-": 51,
+            "B+": 36,
+            "B": 21,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 63
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 360
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 39,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 75
+        }
+      }
+    },
+    {
+      "professor_name": "Grace Wang",
+      "professor_slug": "grace-wang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 381,
+            "A-": 42,
+            "B+": 3,
+            "B": 12,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 48,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 564
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 57,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 75
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 324,
+            "A-": 39,
+            "B+": 0,
+            "B": 12,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 48,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 489
+        }
+      }
+    },
+    {
+      "professor_name": "Julie Sze",
+      "professor_slug": "julie-sze",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 922,
+            "A-": 153,
+            "B+": 42,
+            "B": 45,
+            "B-": 33,
+            "C+": 18,
+            "C": 17,
+            "C-": 5,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 19,
+            "P*": 49,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 1331
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 507,
+            "A-": 21,
+            "B+": 3,
+            "B": 6,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 582
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 324,
+            "A-": 114,
+            "B+": 33,
+            "B": 27,
+            "B-": 21,
+            "C+": 9,
+            "C": 12,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 585
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 91,
+            "A-": 18,
+            "B+": 6,
+            "B": 12,
+            "B-": 6,
+            "C+": 3,
+            "C": 2,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 7,
+            "P*": 10,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 164
+        }
+      }
+    },
+    {
+      "professor_name": "Megan Bayles",
+      "professor_slug": "megan-bayles",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 73,
+            "A": 51,
+            "A-": 12,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 148
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 73,
+            "A": 51,
+            "A-": 12,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 148
+        }
+      }
+    },
+    {
+      "professor_name": "Theodore Geier",
+      "professor_slug": "theodore-geier",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 204,
+            "A": 60,
+            "A-": 48,
+            "B+": 24,
+            "B": 33,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 429
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 204,
+            "A": 60,
+            "A-": 48,
+            "B+": 24,
+            "B": 33,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 429
+        }
+      }
+    }
+  ]
+}

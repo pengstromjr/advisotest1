@@ -1,0 +1,113 @@
+{
+  "course_id": "HEB1",
+  "course_title": "Elementary Hebrew",
+  "overall_grades": {
+    "A+": 60,
+    "A": 30,
+    "A-": 15,
+    "B+": 0,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 6
+  },
+  "overall_gpa": 3.93,
+  "overall_enrolled": 114,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Itay Eisinger",
+      "professor_slug": "itay-eisinger",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 30,
+            "A-": 15,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 114
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 18,
+            "A-": 9,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 69
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 33
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 12
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "course_id": "HMR130",
+  "course_title": "Special Topics in Human Rights",
+  "overall_grades": {
+    "A+": 9,
+    "A": 4,
+    "A-": 5,
+    "B+": 8,
+    "B": 3,
+    "B-": 2,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "NP*": 3,
+    "P*": 2
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 39,
+  "available_quarters": [
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lucia Luna Victoria Indacochea",
+      "professor_slug": "lucia-luna-victoria-indacochea",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 4,
+            "A-": 5,
+            "B+": 8,
+            "B": 3,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 39
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 0,
+            "A-": 2,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 9
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 4,
+            "A-": 3,
+            "B+": 7,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

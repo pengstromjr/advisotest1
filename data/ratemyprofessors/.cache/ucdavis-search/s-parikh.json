@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "Environmental Science",
+    "firstName": "Sanjai",
+    "id": "VGVhY2hlci0xNTM5MjI5",
+    "lastName": "Parikh",
+    "legacyId": 1539229,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.4737
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 2.8,
+    "department": "Engineering",
+    "firstName": "Atul",
+    "id": "VGVhY2hlci01OTk0OQ==",
+    "lastName": "Parikh",
+    "legacyId": 59949,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

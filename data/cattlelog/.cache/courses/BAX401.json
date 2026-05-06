@@ -1,0 +1,180 @@
+{
+  "course_id": "BAX401",
+  "course_title": "Information, Insight & Impact",
+  "overall_grades": {
+    "A+": 60,
+    "A": 154,
+    "A-": 146,
+    "B+": 187,
+    "B": 241,
+    "B-": 98,
+    "C+": 60,
+    "C": 21,
+    "C-": 4,
+    "D+": 3,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.28,
+  "overall_enrolled": 974,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ashwin Nair",
+      "professor_slug": "ashwin-nair",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 51,
+            "B+": 90,
+            "B": 96,
+            "B-": 42,
+            "C+": 24,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 303
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 51,
+            "B+": 90,
+            "B": 96,
+            "B-": 42,
+            "C+": 24,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 303
+        }
+      }
+    },
+    {
+      "professor_name": "Josue Martinez",
+      "professor_slug": "josue-martinez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 30,
+            "A-": 42,
+            "B+": 45,
+            "B": 90,
+            "B-": 42,
+            "C+": 15,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 288
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 30,
+            "A-": 42,
+            "B+": 45,
+            "B": 90,
+            "B-": 42,
+            "C+": 15,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 288
+        }
+      }
+    },
+    {
+      "professor_name": "Michael Palazzolo",
+      "professor_slug": "michael-palazzolo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 124,
+            "A-": 53,
+            "B+": 52,
+            "B": 55,
+            "B-": 14,
+            "C+": 21,
+            "C": 9,
+            "C-": 4,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 383
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 93,
+            "A-": 45,
+            "B+": 45,
+            "B": 42,
+            "B-": 12,
+            "C+": 21,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 312
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 31,
+            "A-": 8,
+            "B+": 7,
+            "B": 13,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 71
+        }
+      }
+    }
+  ]
+}

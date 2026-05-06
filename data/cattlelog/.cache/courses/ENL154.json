@@ -1,0 +1,117 @@
+{
+  "course_id": "ENL154",
+  "course_title": "The Graphic Novel",
+  "overall_grades": {
+    "A+": 13,
+    "A": 129,
+    "A-": 66,
+    "B+": 71,
+    "B": 47,
+    "B-": 11,
+    "C+": 10,
+    "C": 1,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 15,
+    "P*": 24,
+    "NP*": 3
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 396,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Matthew Stratton",
+      "professor_slug": "matthew-stratton",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 129,
+            "A-": 66,
+            "B+": 71,
+            "B": 47,
+            "B-": 11,
+            "C+": 10,
+            "C": 1,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 396
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 69,
+            "A-": 36,
+            "B+": 39,
+            "B": 21,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 222
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 15,
+            "A-": 6,
+            "B+": 2,
+            "B": 2,
+            "B-": 2,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 30
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 45,
+            "A-": 24,
+            "B+": 30,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 144
+        }
+      }
+    }
+  ]
+}

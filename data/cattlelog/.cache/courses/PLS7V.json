@@ -1,0 +1,301 @@
+{
+  "course_id": "PLS7V",
+  "course_title": "Just Coffee: The Biology, Ecology & Socioeconomic Impacts of the World's Favorite Drink",
+  "overall_grades": {
+    "A+": 428,
+    "A": 1139,
+    "A-": 673,
+    "B+": 324,
+    "B": 315,
+    "B-": 145,
+    "C+": 106,
+    "C": 91,
+    "C-": 91,
+    "D+": 25,
+    "D": 38,
+    "D-": 12,
+    "F": 141,
+    "P*": 392,
+    "NP*": 171
+  },
+  "overall_gpa": 3.35,
+  "overall_enrolled": 4091,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Amanda Crump",
+      "professor_slug": "amanda-crump",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 168,
+            "A": 252,
+            "A-": 142,
+            "B+": 48,
+            "B": 75,
+            "B-": 23,
+            "C+": 7,
+            "C": 14,
+            "C-": 4,
+            "D+": 1,
+            "D": 10,
+            "D-": 0,
+            "F": 26,
+            "P*": 63,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 860
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 153,
+            "A-": 93,
+            "B+": 33,
+            "B": 54,
+            "B-": 12,
+            "C+": 3,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 18,
+            "P*": 36,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 516
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 52,
+            "A-": 32,
+            "B+": 8,
+            "B": 10,
+            "B-": 8,
+            "C+": 3,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 172
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 64,
+            "A": 47,
+            "A-": 17,
+            "B+": 7,
+            "B": 11,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 172
+        }
+      }
+    },
+    {
+      "professor_name": "Patrick Brown",
+      "professor_slug": "patrick-brown",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 260,
+            "A": 887,
+            "A-": 531,
+            "B+": 276,
+            "B": 240,
+            "B-": 122,
+            "C+": 99,
+            "C": 77,
+            "C-": 87,
+            "D+": 24,
+            "D": 28,
+            "D-": 12,
+            "F": 115,
+            "P*": 329,
+            "NP*": 144
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 3231
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 204,
+            "A-": 93,
+            "B+": 36,
+            "B": 24,
+            "B-": 21,
+            "C+": 3,
+            "C": 9,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 6,
+            "F": 21,
+            "P*": 24,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 510
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 138,
+            "A-": 99,
+            "B+": 51,
+            "B": 45,
+            "B-": 12,
+            "C+": 27,
+            "C": 18,
+            "C-": 18,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 9,
+            "P*": 51,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 519
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 114,
+            "A-": 63,
+            "B+": 27,
+            "B": 39,
+            "B-": 24,
+            "C+": 15,
+            "C": 3,
+            "C-": 15,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 18,
+            "P*": 93,
+            "NP*": 48
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 510
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 75,
+            "A": 132,
+            "A-": 63,
+            "B+": 45,
+            "B": 42,
+            "B-": 9,
+            "C+": 15,
+            "C": 12,
+            "C-": 9,
+            "D+": 3,
+            "D": 9,
+            "D-": 0,
+            "F": 15,
+            "P*": 60,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 510
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 105,
+            "A-": 90,
+            "B+": 66,
+            "B": 39,
+            "B-": 24,
+            "C+": 24,
+            "C": 27,
+            "C-": 21,
+            "D+": 6,
+            "D": 3,
+            "D-": 3,
+            "F": 21,
+            "P*": 36,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 489
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 147,
+            "A-": 99,
+            "B+": 33,
+            "B": 36,
+            "B-": 27,
+            "C+": 12,
+            "C": 6,
+            "C-": 12,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 27,
+            "P*": 57,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 519
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 38,
+            "A": 47,
+            "A-": 24,
+            "B+": 18,
+            "B": 15,
+            "B-": 5,
+            "C+": 3,
+            "C": 2,
+            "C-": 3,
+            "D+": 3,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 8,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 174
+        }
+      }
+    }
+  ]
+}

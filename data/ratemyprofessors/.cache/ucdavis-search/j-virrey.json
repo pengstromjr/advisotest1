@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.1,
+    "department": "Management",
+    "firstName": "Justin",
+    "id": "VGVhY2hlci0yNTk5MzQ3",
+    "lastName": "Virrey",
+    "legacyId": 2599347,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  }
+]

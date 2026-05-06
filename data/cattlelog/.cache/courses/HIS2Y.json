@@ -1,0 +1,141 @@
+{
+  "course_id": "HIS2Y",
+  "course_title": "Introduction to the History of Science & Technology",
+  "overall_grades": {
+    "A+": 43,
+    "A": 287,
+    "A-": 186,
+    "B+": 120,
+    "B": 89,
+    "B-": 72,
+    "C+": 33,
+    "C": 25,
+    "C-": 24,
+    "D+": 9,
+    "D": 11,
+    "D-": 0,
+    "F": 37,
+    "P*": 108,
+    "NP*": 8
+  },
+  "overall_gpa": 3.26,
+  "overall_enrolled": 1052,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Daniel Stolzenberg",
+      "professor_slug": "daniel-stolzenberg",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 43,
+            "A": 287,
+            "A-": 186,
+            "B+": 120,
+            "B": 89,
+            "B-": 72,
+            "C+": 33,
+            "C": 25,
+            "C-": 24,
+            "D+": 9,
+            "D": 11,
+            "D-": 0,
+            "F": 37,
+            "P*": 108,
+            "NP*": 8
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 1052
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 81,
+            "A-": 54,
+            "B+": 33,
+            "B": 45,
+            "B-": 33,
+            "C+": 6,
+            "C": 3,
+            "C-": 12,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 24,
+            "P*": 54,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 369
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 75,
+            "A-": 69,
+            "B+": 45,
+            "B": 15,
+            "B-": 18,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 33,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 294
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 90,
+            "A-": 48,
+            "B+": 30,
+            "B": 12,
+            "B-": 12,
+            "C+": 6,
+            "C": 12,
+            "C-": 6,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 264
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 41,
+            "A-": 15,
+            "B+": 12,
+            "B": 17,
+            "B-": 9,
+            "C+": 6,
+            "C": 4,
+            "C-": 3,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 4,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 125
+        }
+      }
+    }
+  ]
+}

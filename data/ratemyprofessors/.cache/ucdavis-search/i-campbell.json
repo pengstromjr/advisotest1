@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Civil Engineering",
+    "firstName": "I",
+    "id": "VGVhY2hlci04MzMzNTA=",
+    "lastName": "Idriss",
+    "legacyId": 833350,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4,
+    "department": "Music",
+    "firstName": "Elizabeth",
+    "id": "VGVhY2hlci0yOTk1NTA0",
+    "lastName": "Campbell",
+    "legacyId": 2995504,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.3,
+    "department": "History",
+    "firstName": "Ian",
+    "id": "VGVhY2hlci0xODAzMDI2",
+    "lastName": "Campbell",
+    "legacyId": 1803026,
+    "numRatings": 54,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.5
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Social Science",
+    "firstName": "Dave",
+    "id": "VGVhY2hlci0xMjQwMjE4",
+    "lastName": "Campbell",
+    "legacyId": 1240218,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

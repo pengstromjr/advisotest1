@@ -1,0 +1,98 @@
+{
+  "course_id": "HIS170A",
+  "course_title": "Colonial America",
+  "overall_grades": {
+    "A+": 0,
+    "A": 31,
+    "A-": 66,
+    "B+": 34,
+    "B": 21,
+    "B-": 8,
+    "C+": 10,
+    "C": 3,
+    "C-": 5,
+    "D+": 1,
+    "D": 3,
+    "D-": 3,
+    "F": 17,
+    "P*": 10,
+    "NP*": 16
+  },
+  "overall_gpa": 3.01,
+  "overall_enrolled": 228,
+  "available_quarters": [
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Smolenski",
+      "professor_slug": "john-smolenski",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 31,
+            "A-": 66,
+            "B+": 34,
+            "B": 21,
+            "B-": 8,
+            "C+": 10,
+            "C": 3,
+            "C-": 5,
+            "D+": 1,
+            "D": 3,
+            "D-": 3,
+            "F": 17,
+            "P*": 10,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 228
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 63,
+            "B+": 27,
+            "B": 15,
+            "B-": 6,
+            "C+": 9,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 12,
+            "P*": 9,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 195
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 1,
+            "A-": 3,
+            "B+": 7,
+            "B": 6,
+            "B-": 2,
+            "C+": 1,
+            "C": 0,
+            "C-": 2,
+            "D+": 1,
+            "D": 3,
+            "D-": 0,
+            "F": 5,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.31,
+          "quarter_enrolled": 33
+        }
+      }
+    }
+  ]
+}

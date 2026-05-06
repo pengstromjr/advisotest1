@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.3,
+    "department": "Engineering",
+    "firstName": "John",
+    "id": "VGVhY2hlci0xNzc4OTQ=",
+    "lastName": "Owens",
+    "legacyId": 177894,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 3.9,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Patsy",
+    "id": "VGVhY2hlci05NDUyMDU=",
+    "lastName": "Owens",
+    "legacyId": 945205,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.6667
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Music",
+    "firstName": "Jessie Ann",
+    "id": "VGVhY2hlci0yMTAyNzc0",
+    "lastName": "Owens",
+    "legacyId": 2102774,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Electrical amp Comp. Engineering",
+    "firstName": "James",
+    "id": "VGVhY2hlci0yNjYxNjM4",
+    "lastName": "Owens",
+    "legacyId": 2661638,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

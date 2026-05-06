@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.4,
+    "avgRating": 2.2,
+    "department": "Mathematics",
+    "firstName": "Joseph",
+    "id": "VGVhY2hlci03NTMwMzA=",
+    "lastName": "Biello",
+    "legacyId": 753030,
+    "numRatings": 272,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 21.3235
+  }
+]

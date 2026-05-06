@@ -1,0 +1,193 @@
+{
+  "course_id": "ENG3Y",
+  "course_title": "Introduction to Engineering Design",
+  "overall_grades": {
+    "A+": 944,
+    "A": 1478,
+    "A-": 259,
+    "B+": 82,
+    "B": 54,
+    "B-": 13,
+    "C+": 9,
+    "C": 8,
+    "C-": 7,
+    "D+": 3,
+    "D": 1,
+    "D-": 0,
+    "F": 12,
+    "NP*": 6
+  },
+  "overall_gpa": 3.89,
+  "overall_enrolled": 2876,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Vivian Vuong",
+      "professor_slug": "vivian-vuong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 944,
+            "A": 1478,
+            "A-": 259,
+            "B+": 82,
+            "B": 54,
+            "B-": 13,
+            "C+": 9,
+            "C": 8,
+            "C-": 7,
+            "D+": 3,
+            "D": 1,
+            "D-": 0,
+            "F": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 2876
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 393,
+            "A-": 108,
+            "B+": 15,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 573
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 288,
+            "A": 270,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 585
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 168,
+            "A-": 5,
+            "B+": 3,
+            "B": 4,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 191
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 369,
+            "A": 123,
+            "A-": 33,
+            "B+": 18,
+            "B": 6,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 567
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 136,
+            "A-": 6,
+            "B+": 7,
+            "B": 9,
+            "B-": 3,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 190
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 336,
+            "A-": 72,
+            "B+": 33,
+            "B": 24,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 576
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 121,
+            "A": 52,
+            "A-": 11,
+            "B+": 3,
+            "B": 5,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 194
+        }
+      }
+    }
+  ]
+}

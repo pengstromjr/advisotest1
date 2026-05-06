@@ -6,12 +6,21 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "The professional writing minor consists of 20 units of course work. Of these, 12 must be UWP courses. Students complete 8 units from Group A and/or B, 4 units from Group C, and 4 units from Group A, B, or C, accounting for 16 units. Students complete 4 additional units from Group D.",
+        "Choose two courses from Group A and/or B:"
+      ]
+    },
+    {
       "heading": "Group A: Writing in Academic Settings",
       "courses": [
         "ENL 100NF",
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102A",
         "UWP 102B",
         "UWP 102C",
@@ -27,24 +36,21 @@
         "UWP 102M"
       ],
       "units": "",
-      "notes": [
-        "The professional writing minor consists of 20 units of course work. Of these, 12 must be UWP courses. Students complete 8 units from Group A and/or B, 4 units from Group C, and 4 units from Group A, B, or C, accounting for 16 units. Students complete 4 additional units from Group D.",
-        "Choose two courses from Group A and/or B:"
-      ]
+      "notes": []
     },
     {
       "heading": "Group B: Writing in the Professions",
       "courses": [
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY",
+        "or UWP 104FV",
+        "or UWP 104FY",
         "UWP 104I",
         "UWP 104J",
         "UWP 104T",
@@ -54,6 +60,12 @@
         "UWP 111C",
         "UWP 112A"
       ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group B: Writing in the Professions",
+      "courses": [],
       "units": "4",
       "notes": [
         "Choose one course from Group C:"
@@ -65,14 +77,14 @@
         "ANT 120",
         "CLA 110",
         "CMN 101",
-        "CMN 101V",
-        "CMN 101Y",
+        "or CMN 101V",
+        "or CMN 101Y",
         "CMN 112",
         "CMN 123",
         "CMN 131",
-        "CMN 131V",
+        "or CMN 131V",
         "CMN 136",
-        "CMN 136V",
+        "or CMN 136V",
         "CMN 178",
         "DES 145",
         "DES 149",
@@ -93,12 +105,18 @@
         "UWP/ENL/LIN 106",
         "UWP 115",
         "UWP 120",
-        "UWP 121",
-        "UWP 192"
+        "UWP 121"
       ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Group C: Theory, History, & Design",
+      "courses": [],
       "units": "4",
       "notes": [
-        "Choose one additional course from Groups A, B, or C:"
+        "Choose one additional course from Groups A, B, or C:",
+        "Complete UWP 192: Internship in Writing from Group D:"
       ]
     },
     {
@@ -106,11 +124,13 @@
       "courses": [
         "UWP 192"
       ],
-      "units": "20",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.036Z"
 }

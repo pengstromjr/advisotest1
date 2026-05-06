@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.4,
+    "department": "Spanish",
+    "firstName": "Travis",
+    "id": "VGVhY2hlci0xMDI2Nzk3",
+    "lastName": "Bradley",
+    "legacyId": 1026797,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.6667
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.3,
+    "department": "University Writing Program",
+    "firstName": "Bradley",
+    "id": "VGVhY2hlci0xOTM1MDU1",
+    "lastName": "Sekedat",
+    "legacyId": 1935055,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.8,
+    "department": "Mathematics",
+    "firstName": "Bradley",
+    "id": "VGVhY2hlci03OTAxMTU=",
+    "lastName": "Safnuk",
+    "legacyId": 790115,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.8,
+    "avgRating": 1.9,
+    "department": "Philosophy",
+    "firstName": "Bradley",
+    "id": "VGVhY2hlci0xMTYwMjg3",
+    "lastName": "Morris",
+    "legacyId": 1160287,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

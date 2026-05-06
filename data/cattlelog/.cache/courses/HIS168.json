@@ -1,0 +1,94 @@
+{
+  "course_id": "HIS168",
+  "course_title": "History of Inter-American Relations",
+  "overall_grades": {
+    "A+": 3,
+    "A": 88,
+    "A-": 54,
+    "B+": 44,
+    "B": 39,
+    "B-": 11,
+    "C+": 8,
+    "C": 15,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 2,
+    "P*": 17
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 287,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Charles Walker",
+      "professor_slug": "charles-walker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 88,
+            "A-": 54,
+            "B+": 44,
+            "B": 39,
+            "B-": 11,
+            "C+": 8,
+            "C": 15,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 17
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 287
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 75,
+            "A-": 39,
+            "B+": 33,
+            "B": 24,
+            "B-": 6,
+            "C+": 6,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 213
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 15,
+            "B+": 11,
+            "B": 15,
+            "B-": 5,
+            "C+": 2,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 74
+        }
+      }
+    }
+  ]
+}

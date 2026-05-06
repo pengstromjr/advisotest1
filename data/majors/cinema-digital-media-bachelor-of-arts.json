@@ -10,32 +10,61 @@
       "courses": [
         "CDM 001",
         "CDM 002",
-        "CDM 003",
+        "CDM 003"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "CDM/ECS 012",
         "CDM 020",
-        "CDM 020V",
-        "CDM/ENL 072",
+        "or CDM 020V",
+        "CDM/ENL 072"
+      ],
+      "units": "8-9",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "CDM 040A",
-        "STS 040A",
+        "or STS 040A",
+        "or CTS 040A",
         "CDM 040B",
-        "STS 040B",
+        "or STS 040B",
+        "or CTS 040B",
         "CDM 041A",
         "CDM 041B",
-        "CDM 041BV"
+        "or CDM 041BV"
       ],
       "units": "8",
       "notes": [
         "Choose two:",
-        "Choose two:",
-        "Choose two:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24-25 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
+        "CDM 150",
         "CDM/STS 151",
-        "FMS 127",
+        "CTS 150",
+        "FMS 127"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "ART 114A",
         "ART 114B",
         "ART 114C",
@@ -46,12 +75,16 @@
         "CDM 104",
         "CDM 105/WMS 165",
         "CDM 107/DRA 174",
+        "CDM 108",
         "CDM 111",
+        "CDM 112",
         "CDM 113",
+        "CDM 116",
+        "CDM 117",
         "CDM 121",
-        "CDM 121V",
+        "or CDM 121V",
         "CDM 122",
-        "CDM 122V",
+        "or CDM 122V",
         "CDM 123",
         "CDM 125",
         "CDM 130",
@@ -71,18 +104,41 @@
         "CTS/DRA 116",
         "CTS/DRA 124E",
         "TCS 112",
-        "TCS/DRA 175",
+        "TCS/DRA 175"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two or more for a total of 8 units:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "CDM/STS 151",
         "CDM 156",
+        "CDM 155",
         "CDM/AMS 158",
+        "CDM 159",
+        "CDM 160",
         "CDM/STS 162",
         "CDM 163",
-        "CDM 163V",
+        "or CDM 163V",
+        "CDM 165A",
+        "CDM 165AS",
+        "CDM 165B",
+        "CDM 165C",
+        "CDM 165D",
         "CDM/GER 165E",
+        "CDM 165F",
+        "CDM 165G",
+        "CDM 165H",
+        "CDM 165I",
+        "CDM 165K",
+        "CDM 165O",
+        "CDM 165P",
         "CDM 166",
         "CDM 167",
-        "CDM 171",
-        "ENL 171",
+        "CDM/ENL 171",
         "CDM 172",
         "CDM 189",
         "CDM 190",
@@ -99,17 +155,24 @@
         "TCS 155",
         "TCS 159"
       ],
-      "units": "4-5",
+      "units": "8",
       "notes": [
-        "Choose one:",
-        "Choose two or more for a total of 8 units:",
-        "Choose two for a total of 8 units:",
+        "Choose two for a total of 8 units:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "16",
+      "notes": [
         "Choose four additional courses, chosen from the lists above, for a total of at least 16 units. Some courses are identified as fulfilling more than one requirement; a given course can only fulfill one such requirement.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36-37 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "60"
+  "total_units": "60",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.082Z"
 }

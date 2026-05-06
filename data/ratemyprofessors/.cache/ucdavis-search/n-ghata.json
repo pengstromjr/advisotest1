@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.7,
+    "department": "Engineering",
+    "firstName": "Narugopal",
+    "id": "VGVhY2hlci0yNzkzMzU2",
+    "lastName": "Ghata",
+    "legacyId": 2793356,
+    "numRatings": 32,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.75
+  }
+]

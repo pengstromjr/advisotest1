@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 3.9,
+    "department": "Anthropology",
+    "firstName": "Teresa",
+    "id": "VGVhY2hlci0xMDQyNTIz",
+    "lastName": "Steele",
+    "legacyId": 1042523,
+    "numRatings": 45,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "TA",
+    "firstName": "Julie",
+    "id": "VGVhY2hlci0xNDA3MDk1",
+    "lastName": "Steele",
+    "legacyId": 1407095,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

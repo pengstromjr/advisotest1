@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.4,
+    "avgRating": 2.7,
+    "department": "Agriculture",
+    "firstName": "Pierre",
+    "id": "VGVhY2hlci0xMjk2Nzgz",
+    "lastName": "Merel",
+    "legacyId": 1296783,
+    "numRatings": 65,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40.9091
+  }
+]

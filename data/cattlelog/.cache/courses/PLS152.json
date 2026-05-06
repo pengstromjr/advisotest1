@@ -1,0 +1,134 @@
+{
+  "course_id": "PLS152",
+  "course_title": "Plant Genetics",
+  "overall_grades": {
+    "A+": 481,
+    "A": 208,
+    "A-": 59,
+    "B+": 16,
+    "B": 13,
+    "B-": 6,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 4,
+    "P*": 5
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 793,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Monroe",
+      "professor_slug": "john-monroe",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 481,
+            "A": 208,
+            "A-": 59,
+            "B+": 16,
+            "B": 13,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 793
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 99,
+            "A-": 27,
+            "B+": 6,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 246
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 189,
+            "A": 51,
+            "A-": 3,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 252
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 153,
+            "A": 39,
+            "A-": 21,
+            "B+": 6,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 225
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 37,
+            "A": 19,
+            "A-": 8,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 70
+        }
+      }
+    }
+  ]
+}

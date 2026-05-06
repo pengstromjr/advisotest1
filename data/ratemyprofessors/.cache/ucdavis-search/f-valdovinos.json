@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.5,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Fernanda",
+    "id": "VGVhY2hlci0yNjU3MjYz",
+    "lastName": "Valdovinos",
+    "legacyId": 2657263,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 25
+  }
+]

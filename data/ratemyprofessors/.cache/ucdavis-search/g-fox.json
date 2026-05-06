@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.5,
+    "avgRating": 4.6,
+    "department": "Food Science & Technology",
+    "firstName": "Glen",
+    "id": "VGVhY2hlci0yNjMxOTg4",
+    "lastName": "Fox",
+    "legacyId": 2631988,
+    "numRatings": 68,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.5882
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.2,
+    "department": "Psychology",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0yMjAwMzQw",
+    "lastName": "Fox",
+    "legacyId": 2200340,
+    "numRatings": 72,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 79.1667
+  }
+]

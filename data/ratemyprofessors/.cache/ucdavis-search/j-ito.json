@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.9,
+    "department": "Japanese",
+    "firstName": "Junko",
+    "id": "VGVhY2hlci0xMzk2MjU5",
+    "lastName": "Ito",
+    "legacyId": 1396259,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

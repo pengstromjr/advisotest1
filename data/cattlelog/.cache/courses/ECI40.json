@@ -1,0 +1,155 @@
+{
+  "course_id": "ECI40",
+  "course_title": "Introduction to Environmental Engineering",
+  "overall_grades": {
+    "A+": 132,
+    "A": 340,
+    "A-": 196,
+    "B+": 128,
+    "B": 95,
+    "B-": 30,
+    "C+": 18,
+    "C": 20,
+    "C-": 10,
+    "D+": 0,
+    "D": 3,
+    "D-": 2,
+    "F": 6
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 980,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Colleen Bronner",
+      "professor_slug": "colleen-bronner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 129,
+            "A": 327,
+            "A-": 186,
+            "B+": 114,
+            "B": 72,
+            "B-": 21,
+            "C+": 15,
+            "C": 15,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 897
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 123,
+            "A-": 42,
+            "B+": 18,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 234
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 87,
+            "A-": 66,
+            "B+": 69,
+            "B": 30,
+            "B-": 12,
+            "C+": 6,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 315
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 117,
+            "A-": 78,
+            "B+": 27,
+            "B": 33,
+            "B-": 9,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 348
+        }
+      }
+    },
+    {
+      "professor_name": "Jasquelin Pena",
+      "professor_slug": "jasquelin-pena",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 10,
+            "B+": 14,
+            "B": 23,
+            "B-": 9,
+            "C+": 3,
+            "C": 5,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 2,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 83
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 10,
+            "B+": 14,
+            "B": 23,
+            "B-": 9,
+            "C+": 3,
+            "C": 5,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 2,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 83
+        }
+      }
+    }
+  ]
+}

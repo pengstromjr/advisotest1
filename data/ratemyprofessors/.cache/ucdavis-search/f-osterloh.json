@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.8,
+    "department": "Chemistry",
+    "firstName": "Frank",
+    "id": "VGVhY2hlci0xNDk2MjI=",
+    "lastName": "Osterloh",
+    "legacyId": 149622,
+    "numRatings": 41,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 18.75
+  }
+]

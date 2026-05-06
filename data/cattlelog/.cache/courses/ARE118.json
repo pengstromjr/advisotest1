@@ -1,0 +1,140 @@
+{
+  "course_id": "ARE118",
+  "course_title": "Tax Accounting",
+  "overall_grades": {
+    "A+": 68,
+    "A": 305,
+    "A-": 177,
+    "B+": 159,
+    "B": 117,
+    "B-": 37,
+    "C+": 25,
+    "C": 11,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "P*": 8
+  },
+  "overall_gpa": 3.56,
+  "overall_enrolled": 908,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Maxey",
+      "professor_slug": "john-maxey",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 255,
+            "A-": 126,
+            "B+": 99,
+            "B": 36,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 597
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 255,
+            "A-": 126,
+            "B+": 99,
+            "B": 36,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 597
+        }
+      }
+    },
+    {
+      "professor_name": "Selvi Stanislaus",
+      "professor_slug": "selvi-stanislaus",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 50,
+            "A-": 51,
+            "B+": 60,
+            "B": 81,
+            "B-": 28,
+            "C+": 22,
+            "C": 11,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 311
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 22,
+            "A-": 31,
+            "B+": 34,
+            "B": 42,
+            "B-": 13,
+            "C+": 10,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 161
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 28,
+            "A-": 20,
+            "B+": 26,
+            "B": 39,
+            "B-": 15,
+            "C+": 12,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 150
+        }
+      }
+    }
+  ]
+}

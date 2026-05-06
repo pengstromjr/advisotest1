@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.3,
+    "department": "Native American Studies",
+    "firstName": "Liza",
+    "id": "VGVhY2hlci0xODAzMDA1",
+    "lastName": "Grandia",
+    "legacyId": 1803005,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 42.8571
+  }
+]

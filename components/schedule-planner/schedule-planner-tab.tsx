@@ -1,7 +1,15 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { CalendarPlus, Download, ExternalLink } from "lucide-react";
 import type { StudentContext, Section } from "@/lib/course-data";
+import { createScheduleCalendar, downloadCalendarFile } from "@/lib/calendar-export";
+import {
+  CURRENT_BLOCKS_STORAGE_KEY,
+  CURRENT_SCHEDULE_STORAGE_KEY,
+  CURRENT_TERM_LABEL,
+  CURRENT_TERM_SHORT_LABEL,
+} from "@/lib/current-term";
 import { subscribeScheduleAdd } from "@/lib/schedule-store";
 import { TimeBlock, Weekday, blocksToIntervalsByDay, intervalsOverlap, loadTimeBlocks, BLOCK_COLORS, snapTo15Minutes, saveTimeBlocks, parseTimeToMinutes } from "@/lib/time-blocks";
 import { ScheduleSearchModal } from "./schedule-search-modal";
@@ -11,11 +19,12 @@ import { ScheduleHealthBanner } from "../schedule-health-banner";
 
 interface SchedulePlannerTabProps {
   studentContext: StudentContext;
+  aiPanelMinimized?: boolean;
 }
 
-const TERM = "Spring Quarter 2026";
-const STORAGE_KEY = "ucd-ai-schedule-spring-2026";
-const BLOCKS_STORAGE_KEY = "ucd-ai-blocked-times-spring-2026";
+const TERM = CURRENT_TERM_LABEL;
+const STORAGE_KEY = CURRENT_SCHEDULE_STORAGE_KEY;
+const BLOCKS_STORAGE_KEY = CURRENT_BLOCKS_STORAGE_KEY;
 
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const DAY_CODES: Record<string, string> = {
@@ -191,7 +200,10 @@ const COLORS = [
   "#FECACA",
 ];
 
-export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) {
+export function SchedulePlannerTab({
+  studentContext,
+  aiPanelMinimized = false,
+}: SchedulePlannerTabProps) {
   const [query, setQuery] = useState("");
   const [subject, setSubject] = useState("");
   const [openOnly, setOpenOnly] = useState(false);
@@ -203,6 +215,8 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
   const [blocked, setBlocked] = useState<TimeBlock[]>([]);
   const [autoGenOpen, setAutoGenOpen] = useState(false);
   const [copiedCrns, setCopiedCrns] = useState(false);
+  const [exportOpen, setExportOpen] = useState(false);
+  const [exportStatus, setExportStatus] = useState("");
   
   const [dragging, setDragging] = useState<{
     day: string;
@@ -294,6 +308,34 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
     setPlanned((prev) => prev.filter((p) => p.crn !== crn));
   };
 
+  const handleCalendarExport = (target: "apple" | "google") => {
+    const result = createScheduleCalendar(planned);
+    if (result.eventCount === 0) {
+      setExportStatus("Add sections with meeting times before exporting.");
+      setTimeout(() => setExportStatus(""), 3000);
+      return;
+    }
+
+    downloadCalendarFile(
+      result.calendarText,
+      `adviso-${CURRENT_TERM_SHORT_LABEL.toLowerCase().replace(/\s+/g, "-")}-schedule.ics`
+    );
+    setExportOpen(false);
+
+    const skippedText =
+      result.skippedCount > 0 ? ` ${result.skippedCount} TBA meeting${result.skippedCount === 1 ? "" : "s"} skipped.` : "";
+    setExportStatus(
+      target === "google"
+        ? `Downloaded ${result.eventCount} calendar event${result.eventCount === 1 ? "" : "s"}. Import the file in Google Calendar.${skippedText}`
+        : `Downloaded ${result.eventCount} calendar event${result.eventCount === 1 ? "" : "s"} for Apple Calendar.${skippedText}`
+    );
+    setTimeout(() => setExportStatus(""), 5000);
+
+    if (target === "google") {
+      window.open("https://calendar.google.com/calendar/u/0/r/settings/export", "_blank", "noopener,noreferrer");
+    }
+  };
+
   const handleSwapPick = useCallback((to: Section) => {
     setPlanned((prev) => {
       if (!swapFrom) return prev;
@@ -367,17 +409,17 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
         studentContext={{ ...studentContext, blockedTimes: blocked }}
       />
 
-      <div className="border-b border-gray-100 dark:border-slate-700 px-4 py-3">
-        <div className="flex items-center justify-between">
+      <div className="border-b border-gray-100 px-4 py-3 dark:border-slate-700">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h2 className="text-sm font-semibold text-gray-900 dark:text-white">
               Schedule Planner
             </h2>
             <p className="mt-0.5 text-xs text-gray-500 dark:text-slate-400">
-              Search sections and build your Spring 2026 weekly schedule.
+              Search sections and build your {CURRENT_TERM_SHORT_LABEL} weekly schedule.
             </p>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             {planned.length > 0 && (
               <button
                 onClick={() => {
@@ -392,6 +434,61 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
                 {copiedCrns ? "✓ Copied!" : "Copy CRNs"}
               </button>
             )}
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setExportOpen((open) => !open)}
+                disabled={planned.length === 0}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-[#002855] shadow-sm transition-all hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-45 dark:border-slate-700 dark:bg-slate-800 dark:text-[#DAAA00] dark:hover:bg-slate-700"
+              >
+                <CalendarPlus className="h-3.5 w-3.5" />
+                Export
+              </button>
+              {exportOpen && (
+                <div className="absolute right-0 z-30 mt-2 w-72 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl shadow-slate-900/10 dark:border-slate-700 dark:bg-slate-900">
+                  <div className="border-b border-gray-100 px-4 py-3 dark:border-slate-800">
+                    <p className="text-xs font-bold text-gray-900 dark:text-white">
+                      Export schedule
+                    </p>
+                    <p className="mt-0.5 text-[11px] leading-snug text-gray-500 dark:text-slate-400">
+                      Creates a recurring calendar file for {CURRENT_TERM_SHORT_LABEL}.
+                    </p>
+                  </div>
+                  <div className="p-2">
+                    <button
+                      type="button"
+                      onClick={() => handleCalendarExport("apple")}
+                      className="flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left transition hover:bg-gray-50 dark:hover:bg-slate-800"
+                    >
+                      <Download className="mt-0.5 h-4 w-4 flex-none text-[#002855] dark:text-[#DAAA00]" />
+                      <span>
+                        <span className="block text-xs font-semibold text-gray-900 dark:text-white">
+                          Apple Calendar
+                        </span>
+                        <span className="mt-0.5 block text-[11px] leading-snug text-gray-500 dark:text-slate-400">
+                          Download an .ics file you can open on Mac, iPhone, or iPad.
+                        </span>
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleCalendarExport("google")}
+                      className="flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left transition hover:bg-gray-50 dark:hover:bg-slate-800"
+                    >
+                      <ExternalLink className="mt-0.5 h-4 w-4 flex-none text-[#002855] dark:text-[#DAAA00]" />
+                      <span>
+                        <span className="block text-xs font-semibold text-gray-900 dark:text-white">
+                          Google Calendar
+                        </span>
+                        <span className="mt-0.5 block text-[11px] leading-snug text-gray-500 dark:text-slate-400">
+                          Download the .ics file and open Google&apos;s import page.
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
             <button
               onClick={() => setAutoGenOpen(true)}
               className="rounded-lg bg-gradient-to-r from-[#002855] to-[#003d7a] px-3 py-1.5 text-xs font-medium text-white shadow-sm hover:shadow-md transition-all"
@@ -406,10 +503,19 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
             </span>
           </div>
         </div>
+        {exportStatus && (
+          <p className="mt-2 text-[11px] font-medium text-gray-500 dark:text-slate-400">
+            {exportStatus}
+          </p>
+        )}
       </div>
 
-      <div className="flex min-h-0 flex-1 gap-4 p-4">
-        <div className="flex w-80 min-w-[18rem] flex-col rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/50">
+      <div
+        className={`flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-4 pb-24 transition-[padding] duration-300 lg:flex-row lg:overflow-hidden lg:pb-4 ${
+          aiPanelMinimized ? "lg:pl-8 xl:pl-10" : ""
+        }`}
+      >
+        <div className="flex w-full flex-none flex-col rounded-xl border border-gray-200 bg-white dark:border-slate-700 dark:bg-slate-800/50 lg:w-80 lg:min-w-[18rem]">
           <div className="border-b border-gray-100 dark:border-slate-700 px-4 py-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-slate-400">
               Add courses
@@ -611,7 +717,7 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
           </div>
         </div>
 
-        <div className="flex min-w-0 flex-1 flex-col rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900">
+        <div className="flex h-[560px] min-w-0 flex-none flex-col rounded-xl border border-gray-200 bg-white dark:border-slate-700 dark:bg-slate-900 lg:h-auto lg:flex-1">
           <div className="flex items-center justify-between border-b border-gray-100 dark:border-slate-800 px-4 py-3">
             <div className="flex items-center gap-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-slate-500">
@@ -964,4 +1070,3 @@ export function SchedulePlannerTab({ studentContext }: SchedulePlannerTabProps) 
     </div>
   );
 }
-

@@ -1,0 +1,181 @@
+{
+  "course_id": "CMN143",
+  "course_title": "Analysis of Media Messages",
+  "overall_grades": {
+    "A+": 31,
+    "A": 94,
+    "A-": 66,
+    "B+": 29,
+    "B": 59,
+    "B-": 54,
+    "C+": 36,
+    "C": 65,
+    "C-": 40,
+    "D+": 5,
+    "D": 5,
+    "D-": 3,
+    "F": 0,
+    "P*": 57,
+    "NP*": 4
+  },
+  "overall_gpa": 2.99,
+  "overall_enrolled": 548,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jaeho Cho",
+      "professor_slug": "jaeho-cho",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 94,
+            "A-": 66,
+            "B+": 29,
+            "B": 59,
+            "B-": 54,
+            "C+": 36,
+            "C": 65,
+            "C-": 40,
+            "D+": 5,
+            "D": 5,
+            "D-": 3,
+            "F": 0,
+            "P*": 57,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 548
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 5,
+            "B+": 5,
+            "B": 2,
+            "B-": 7,
+            "C+": 1,
+            "C": 5,
+            "C-": 1,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 47
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 9,
+            "B+": 12,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 24,
+            "C-": 15,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 123
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 21,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 18,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 27
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 141
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 5,
+            "A-": 5,
+            "B+": 1,
+            "B": 9,
+            "B-": 5,
+            "C+": 1,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 5,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 47
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 36,
+            "A-": 21,
+            "B+": 0,
+            "B": 15,
+            "B-": 21,
+            "C+": 3,
+            "C": 21,
+            "C-": 15,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 141
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 8,
+            "A-": 5,
+            "B+": 5,
+            "B": 6,
+            "B-": 6,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 8,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 49
+        }
+      }
+    }
+  ]
+}

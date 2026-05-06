@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 3.6,
+    "department": "Engineering",
+    "firstName": "John",
+    "id": "VGVhY2hlci00MDgzNjQ=",
+    "lastName": "Rundle",
+    "legacyId": 408364,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

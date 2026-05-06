@@ -1,0 +1,350 @@
+{
+  "course_id": "EME106",
+  "course_title": "Thermo-Fluid Dynamics",
+  "overall_grades": {
+    "A+": 116,
+    "A": 206,
+    "A-": 171,
+    "B+": 160,
+    "B": 220,
+    "B-": 151,
+    "C+": 164,
+    "C": 145,
+    "C-": 117,
+    "D+": 47,
+    "D": 50,
+    "D-": 27,
+    "F": 50
+  },
+  "overall_gpa": 2.78,
+  "overall_enrolled": 1624,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Chibuike Agba",
+      "professor_slug": "chibuike-agba",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 39,
+            "A-": 30,
+            "B+": 15,
+            "B": 51,
+            "B-": 30,
+            "C+": 15,
+            "C": 30,
+            "C-": 24,
+            "D+": 21,
+            "D": 12,
+            "D-": 12,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 315
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 39,
+            "A-": 30,
+            "B+": 15,
+            "B": 51,
+            "B-": 30,
+            "C+": 15,
+            "C": 30,
+            "C-": 24,
+            "D+": 21,
+            "D": 12,
+            "D-": 12,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 315
+        }
+      }
+    },
+    {
+      "professor_name": "Jae Wan Park",
+      "professor_slug": "jae-wan-park",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 37,
+            "A-": 47,
+            "B+": 47,
+            "B": 52,
+            "B-": 33,
+            "C+": 79,
+            "C": 49,
+            "C-": 49,
+            "D+": 19,
+            "D": 20,
+            "D-": 15,
+            "F": 25
+          },
+          "quarter_average_gpa": 2.46,
+          "quarter_enrolled": 487
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 0,
+            "A-": 3,
+            "B+": 3,
+            "B": 15,
+            "B-": 15,
+            "C+": 27,
+            "C": 18,
+            "C-": 21,
+            "D+": 0,
+            "D": 9,
+            "D-": 9,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.12,
+          "quarter_enrolled": 126
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 24,
+            "B+": 9,
+            "B": 21,
+            "B-": 0,
+            "C+": 15,
+            "C": 6,
+            "C-": 9,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 12
+          },
+          "quarter_average_gpa": 2.5,
+          "quarter_enrolled": 123
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 21,
+            "A-": 9,
+            "B+": 24,
+            "B": 12,
+            "B-": 9,
+            "C+": 30,
+            "C": 18,
+            "C-": 15,
+            "D+": 6,
+            "D": 6,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.59,
+          "quarter_enrolled": 165
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 10,
+            "A-": 11,
+            "B+": 11,
+            "B": 4,
+            "B-": 9,
+            "C+": 7,
+            "C": 7,
+            "C-": 4,
+            "D+": 4,
+            "D": 2,
+            "D-": 0,
+            "F": 4
+          },
+          "quarter_average_gpa": 2.7,
+          "quarter_enrolled": 73
+        }
+      }
+    },
+    {
+      "professor_name": "Jeanette Cobian",
+      "professor_slug": "jeanette-cobian",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 25,
+            "A-": 25,
+            "B+": 20,
+            "B": 30,
+            "B-": 13,
+            "C+": 10,
+            "C": 9,
+            "C-": 5,
+            "D+": 4,
+            "D": 3,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 156
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 6,
+            "A-": 6,
+            "B+": 7,
+            "B": 14,
+            "B-": 7,
+            "C+": 2,
+            "C": 4,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 55
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 19,
+            "A-": 19,
+            "B+": 13,
+            "B": 16,
+            "B-": 6,
+            "C+": 8,
+            "C": 5,
+            "C-": 2,
+            "D+": 4,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 101
+        }
+      }
+    },
+    {
+      "professor_name": "Narugopal Ghata",
+      "professor_slug": "narugopal-ghata",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 57,
+            "A-": 51,
+            "B+": 24,
+            "B": 63,
+            "B-": 54,
+            "C+": 27,
+            "C": 33,
+            "C-": 30,
+            "D+": 3,
+            "D": 15,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 414
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 9,
+            "A-": 6,
+            "B+": 6,
+            "B": 18,
+            "B-": 18,
+            "C+": 9,
+            "C": 6,
+            "C-": 21,
+            "D+": 3,
+            "D": 12,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.51,
+          "quarter_enrolled": 120
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 48,
+            "A-": 45,
+            "B+": 18,
+            "B": 45,
+            "B-": 36,
+            "C+": 18,
+            "C": 27,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 294
+        }
+      }
+    },
+    {
+      "professor_name": "Paul Erickson",
+      "professor_slug": "paul-erickson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 18,
+            "B+": 54,
+            "B": 24,
+            "B-": 21,
+            "C+": 33,
+            "C": 24,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 252
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 18,
+            "B+": 54,
+            "B": 24,
+            "B-": 21,
+            "C+": 33,
+            "C": 24,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 252
+        }
+      }
+    }
+  ]
+}

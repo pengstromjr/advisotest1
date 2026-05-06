@@ -11,7 +11,16 @@
         "AVS 011",
         "AVS 013",
         "AVS 014L",
-        "AVS 015L",
+        "AVS 015L"
+      ],
+      "units": "2-3",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "AVS 100",
         "AVS 103",
         "AVS 115",
@@ -25,9 +34,8 @@
         "WFC 111",
         "WFC 136"
       ],
-      "units": "Units",
+      "units": "15-16",
       "notes": [
-        "Choose one:",
         "Choose remaining units from:"
       ]
     },
@@ -36,13 +44,17 @@
       "courses": [
         "ARE 130",
         "ANS 143",
-        "MCB 150"
+        "MCB 150",
+        "NUT 123",
+        "NUT 123L"
       ],
-      "units": "17-19",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "17"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.686Z"
 }

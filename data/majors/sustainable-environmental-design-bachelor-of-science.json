@@ -17,8 +17,6 @@
         "UWP 101",
         "UWP 101Y",
         "UWP 101V",
-        "UWP 102",
-        "UWP 104",
         "CMN 001",
         "CMN 001V",
         "COM 001",
@@ -26,51 +24,108 @@
         "COM 003",
         "COM 004",
         "NAS 005",
-        "BIS 002B"
+        "BIS 002B",
+        "or BIO 001"
       ],
       "units": "8",
       "notes": [
-        "English Writing/Oral Communication–Also counts toward English Composition Requirement",
+        "English Writing/Oral Communication–Also counts toward English Composition Requirement (8 units)",
+        "Choose one:",
+        "UWP 102 series",
+        "UWP 104 series",
+        "AND one course selected from the courses not selected above, or:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "20",
+      "notes": [
         "Choose one 4-unit course from each area below:"
       ]
     },
     {
+      "heading": "Statistics",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Statistics (STA)"
+      ]
+    },
+    {
+      "heading": "Economics",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Economics (ECN)"
+      ]
+    },
+    {
+      "heading": "Political Science",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Political Science (POL)"
+      ]
+    },
+    {
+      "heading": "Sociology",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Sociology (SOC)"
+      ]
+    },
+    {
       "heading": "Physical Sciences",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Astronomy (AST)",
+        "Chemistry (CHE)",
+        "Earth & Planetary Sciences (EPS)",
+        "Geology (GEL)",
+        "Physics (PHY)",
+        "Soil Science (SSC)"
+      ]
+    },
+    {
+      "heading": "Environmental Design",
       "courses": [
-        "LDA 003",
-        "LDA 021",
-        "LDA 050",
         "LED 001",
+        "or LDA 001",
         "LED 002",
+        "or LDA 002",
+        "LED 003",
+        "or LDA 003",
+        "LED 021",
+        "or LDA 021",
         "LED 030",
-        "LDA 070"
+        "or LDA 030",
+        "LED 050",
+        "or LDA 050",
+        "LED 070",
+        "or LDA 070"
       ],
       "units": "4",
       "notes": [
-        "Statistics (STA)",
-        "Economics (ECN)",
-        "Political Science (POL)",
-        "Sociology (SOC)",
-        "Astronomy (AST)",
-        "Chemistry (CHE)",
-        "Geology (GEL)",
-        "Physics (PHY)",
-        "Soil Science (SSC)",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (60-61 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "LDA 141",
         "LED 140",
+        "or LDA 140",
+        "LED 141",
+        "or LDA 141",
         "LED 142",
-        "ESP 171",
-        "LDA 190"
+        "or LDA 142",
+        "ESP 171"
       ],
       "units": "4",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (20 units)"
       ]
     },
     {
@@ -79,14 +134,16 @@
       "units": "20",
       "notes": [
         "Choose 20 units of upper division courses chosen from courses related to Community Sustainability.",
-        "Internship; recommended",
-        "Restricted Electives Subtotal"
+        "Internship; recommended (0-5 units)",
+        "Restricted Electives Subtotal (20-25 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Advising Center: See Jana Krezo (Snjezana J Krezo), 530-752-9322; Galyna Erdman, 530-752-2244"
+    "Advising Center: Jana Krezo (Snjezana J Krezo), 530-752-9322 Galyna Erdman, 530-752-2244"
   ],
-  "total_units": "101"
+  "total_units": "100",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.727Z"
 }

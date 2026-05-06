@@ -9,9 +9,10 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "RST 001",
-        "RST 001",
+        "RST 001A",
         "RST 001B",
         "RST 001C",
+        "RST 001D",
         "RST 001E",
         "RST 001F",
         "RST 001G",
@@ -31,30 +32,42 @@
         "RST 031",
         "RST 032",
         "RST 033",
+        "RST 034",
         "RST 040",
         "RST 042",
         "RST 045",
         "RST 060",
+        "RST 062",
         "RST 065C",
         "RST 066",
         "RST 067",
         "RST 068",
         "RST 069",
         "RST 070",
+        "RST 073",
         "RST 075",
-        "RST 080"
+        "RST 080",
+        "RST 090"
       ],
       "units": "4",
       "notes": [
+        "(A) Choose one from the RST 001 series:",
         "(B) Choose four from other lower division RST offerings:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (20 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "RST 100",
-        "RST 190",
+        "or RST 190"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "RST 102",
         "RST 103",
         "RST 104",
@@ -84,6 +97,7 @@
         "RST 145",
         "RST 150",
         "RST 152",
+        "RST 153",
         "RST 154",
         "RST 155A",
         "RST 155B",
@@ -107,10 +121,10 @@
         "RST 182",
         "RST 189"
       ],
-      "units": "4",
+      "units": "36",
       "notes": [
         "Choose nine upper division RST courses. Four of these courses may be upper division courses related to religion that are offered by other departments and taken with the approval of a Religious Studies advisor:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
@@ -119,5 +133,7 @@
     "Recommended: A reading knowledge of a foreign language is highly recommended.",
     "Honors & Honors Program: A student becomes eligible for graduation with honors by meeting the minimum GPA and course requirements established by the College of Letters & Science. Upon successful completion of the additional requirements of the College of Letters & Science Honors Program, individual students may be recommended by the program for graduation with high honors or highest honors on the basis of an evaluation of their academic achievements in the major."
   ],
-  "total_units": "60"
+  "total_units": "60",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.121Z"
 }

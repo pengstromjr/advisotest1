@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 2.9,
+    "department": "Ethnic Studies",
+    "firstName": "Adela",
+    "id": "VGVhY2hlci0yNDYxNDU=",
+    "lastName": "De La Torre",
+    "legacyId": 246145,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.5,
+    "department": "MolecularCellular Biology",
+    "firstName": "Celina",
+    "id": "VGVhY2hlci0yMjYzNjQx",
+    "lastName": "Juliano",
+    "legacyId": 2263641,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.1034
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 1.3,
+    "department": "Fine Arts",
+    "firstName": "Craig",
+    "id": "VGVhY2hlci04MDYwNjY=",
+    "lastName": "Baldwin",
+    "legacyId": 806066,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.7,
+    "department": "Biology",
+    "firstName": "Enoch",
+    "id": "VGVhY2hlci00MzU1MjI=",
+    "lastName": "Baldwin",
+    "legacyId": 435522,
+    "numRatings": 93,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40.3846
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 1.8,
+    "department": "Art",
+    "firstName": "La Teesa ",
+    "id": "VGVhY2hlci0yMDE3NjQ1",
+    "lastName": "Walker",
+    "legacyId": 2017645,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3,
+    "department": "Mechanical Engineering",
+    "firstName": "Valeria",
+    "id": "VGVhY2hlci04MTE5NDI=",
+    "lastName": "La Saponara",
+    "legacyId": 811942,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 44.4444
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4,
+    "department": "Environmental Toxicology",
+    "firstName": "Michele",
+    "id": "VGVhY2hlci0yMTU4MzQ5",
+    "lastName": "La Merrill",
+    "legacyId": 2158349,
+    "numRatings": 32,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.7,
+    "department": "Humanities",
+    "firstName": "Carolyn",
+    "id": "VGVhY2hlci0zNDc4MTA=",
+    "lastName": "De La Pena",
+    "legacyId": 347810,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 3.8,
+    "department": "Film",
+    "firstName": "Sergio",
+    "id": "VGVhY2hlci02Njg3NzE=",
+    "lastName": "De La Mora",
+    "legacyId": 668771,
+    "numRatings": 51,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yMzUxNDI1",
+    "lastName": "De la Pena",
+    "legacyId": 2351425,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

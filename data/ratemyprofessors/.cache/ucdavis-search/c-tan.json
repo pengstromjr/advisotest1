@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.2,
+    "department": "Chinese",
+    "firstName": "Yutian",
+    "id": "VGVhY2hlci0yNDUzODE1",
+    "lastName": "Tan",
+    "legacyId": 2453815,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.8947
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.7,
+    "department": "Chemistry",
+    "firstName": "Dean",
+    "id": "VGVhY2hlci0zNjE3MTY=",
+    "lastName": "Tantillo",
+    "legacyId": 361716,
+    "numRatings": 85,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Biomedical Engineering",
+    "firstName": "Cheemeng",
+    "id": "VGVhY2hlci0yMzUxODI5",
+    "lastName": "Tan",
+    "legacyId": 2351829,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Health Science",
+    "firstName": "Tan",
+    "id": "VGVhY2hlci0yODA3MDEw",
+    "lastName": "Hua",
+    "legacyId": 2807010,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 3.7,
+    "department": "Physics",
+    "firstName": "Yifan",
+    "id": "VGVhY2hlci0yNzgxMTI1",
+    "lastName": "Tang",
+    "legacyId": 2781125,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.7059
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 1,
+    "department": "Engineering",
+    "firstName": "Liz",
+    "id": "VGVhY2hlci0yNjAwMjQ1",
+    "lastName": "Tang",
+    "legacyId": 2600245,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.4,
+    "department": "Human Development",
+    "firstName": "Teri",
+    "id": "VGVhY2hlci0xNTY1MjI5",
+    "lastName": "Tanaka",
+    "legacyId": 1565229,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Chinese",
+    "firstName": "Qiuyu",
+    "id": "VGVhY2hlci0yMjA4MTM1",
+    "lastName": "Tan",
+    "legacyId": 2208135,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "English",
+    "firstName": "Janice",
+    "id": "VGVhY2hlci0xMTAxMjA4",
+    "lastName": "Tanemura",
+    "legacyId": 1101208,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

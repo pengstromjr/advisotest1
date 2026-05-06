@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Environmental Toxicology",
+    "firstName": "Norman",
+    "id": "VGVhY2hlci0xODQ0OTg1",
+    "lastName": "Kado",
+    "legacyId": 1844985,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

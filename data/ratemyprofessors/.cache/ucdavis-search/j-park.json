@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Cory",
+    "id": "VGVhY2hlci0yODAzNjc2",
+    "lastName": "Parker",
+    "legacyId": 2803676,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.8,
+    "department": "History",
+    "firstName": "Traci",
+    "id": "VGVhY2hlci0zMDU0Nzc2",
+    "lastName": "Parker",
+    "legacyId": 3054776,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.8,
+    "department": "Environmental Science",
+    "firstName": "Cory",
+    "id": "VGVhY2hlci0yOTIwMDU4",
+    "lastName": "Parker",
+    "legacyId": 2920058,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 5,
+    "department": "Psychology",
+    "firstName": "Jonathan",
+    "id": "VGVhY2hlci0zMDQ5NTMx",
+    "lastName": "Park",
+    "legacyId": 3049531,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.7,
+    "department": "Engineering",
+    "firstName": "Jae Wan",
+    "id": "VGVhY2hlci0xMjY1NTM3",
+    "lastName": "Park",
+    "legacyId": 1265537,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 62.5
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Joshua",
+    "id": "VGVhY2hlci0yMjc5NDIw",
+    "lastName": "Parker",
+    "legacyId": 2279420,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.2,
+    "avgRating": 4.3,
+    "department": "Animal Science",
+    "firstName": "Kent",
+    "id": "VGVhY2hlci00MTQ2OTc=",
+    "lastName": "Parker",
+    "legacyId": 414697,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.6,
+    "department": "Languages",
+    "firstName": "Moises",
+    "id": "VGVhY2hlci00MjYxNDg=",
+    "lastName": "Park",
+    "legacyId": 426148,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Military Science",
+    "firstName": "ERIC",
+    "id": "VGVhY2hlci0yOTc2NDAy",
+    "lastName": "PARK",
+    "legacyId": 2976402,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Mathematics",
+    "firstName": "Jane",
+    "id": "VGVhY2hlci0zMDc4MTI0",
+    "lastName": "Park",
+    "legacyId": 3078124,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

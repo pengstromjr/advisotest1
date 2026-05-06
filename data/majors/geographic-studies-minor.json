@@ -9,9 +9,15 @@
       "heading": "General Requirements",
       "courses": [
         "LDA 010",
-        "LED 010"
+        "or LED 010"
       ],
-      "units": "Units",
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "17",
       "notes": [
         "Choose at least one course from three areas:"
       ]
@@ -39,7 +45,7 @@
     {
       "heading": "Physical Geography",
       "courses": [
-        "ESM 120",
+        "or ESM 120",
         "ESM/PLS 144",
         "EVE 147",
         "WFC 110",
@@ -56,12 +62,12 @@
     {
       "heading": "Methods in Geography",
       "courses": [
-        "ABT 181N",
+        "or ABT 181N",
         "ABT/HYD 182",
         "ESM 185",
         "ESM 186",
-        "LDA/ABT 150",
-        "LED/ABT 150"
+        "LED/ABT 150",
+        "LDA 150"
       ],
       "units": "",
       "notes": [
@@ -71,7 +77,7 @@
     {
       "heading": "Individual Study",
       "courses": [],
-      "units": "20",
+      "units": "",
       "notes": [
         "Select a maximum of 4 units of 192 (Internship) or 199 (Research) in any appropriate department."
       ]
@@ -79,5 +85,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.959Z"
 }

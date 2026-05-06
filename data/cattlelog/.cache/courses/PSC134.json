@@ -1,0 +1,97 @@
+{
+  "course_id": "PSC134",
+  "course_title": "Computational Cognitive Neuroscience",
+  "overall_grades": {
+    "A+": 27,
+    "A": 36,
+    "A-": 24,
+    "B+": 9,
+    "B": 6,
+    "B-": 6,
+    "C+": 12,
+    "C": 9,
+    "C-": 6,
+    "D+": 3,
+    "D": 0,
+    "D-": 3,
+    "F": 3,
+    "P*": 12,
+    "NP*": 3
+  },
+  "overall_gpa": 3.24,
+  "overall_enrolled": 159,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Yuko Munakata",
+      "professor_slug": "yuko-munakata",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 36,
+            "A-": 24,
+            "B+": 9,
+            "B": 6,
+            "B-": 6,
+            "C+": 12,
+            "C": 9,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 159
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 21,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 78
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 18,
+            "B+": 6,
+            "B": 6,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 81
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.7,
+    "department": "Psychology",
+    "firstName": "Paul",
+    "id": "VGVhY2hlci0yMTg4MTc4",
+    "lastName": "Eastwick",
+    "legacyId": 2188178,
+    "numRatings": 66,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.3939
+  }
+]

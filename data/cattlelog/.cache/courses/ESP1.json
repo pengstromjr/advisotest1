@@ -1,0 +1,140 @@
+{
+  "course_id": "ESP1",
+  "course_title": "Environmental Analysis",
+  "overall_grades": {
+    "A+": 0,
+    "A": 1854,
+    "A-": 366,
+    "B+": 181,
+    "B": 126,
+    "B-": 72,
+    "C+": 47,
+    "C": 25,
+    "C-": 27,
+    "D+": 6,
+    "D": 13,
+    "D-": 9,
+    "F": 45,
+    "P*": 24,
+    "NP*": 7
+  },
+  "overall_gpa": 3.67,
+  "overall_enrolled": 2802,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Xiaoli Dong",
+      "professor_slug": "xiaoli-dong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 1854,
+            "A-": 366,
+            "B+": 181,
+            "B": 126,
+            "B-": 72,
+            "C+": 47,
+            "C": 25,
+            "C-": 27,
+            "D+": 6,
+            "D": 13,
+            "D-": 9,
+            "F": 45,
+            "P*": 24,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 2802
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 681,
+            "A-": 57,
+            "B+": 12,
+            "B": 15,
+            "B-": 6,
+            "C+": 12,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 798
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 465,
+            "A-": 174,
+            "B+": 81,
+            "B": 45,
+            "B-": 27,
+            "C+": 12,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 6,
+            "F": 21,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 855
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 678,
+            "A-": 84,
+            "B+": 24,
+            "B": 18,
+            "B-": 9,
+            "C+": 15,
+            "C": 3,
+            "C-": 9,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 15,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 879
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 51,
+            "B+": 64,
+            "B": 48,
+            "B-": 30,
+            "C+": 8,
+            "C": 16,
+            "C-": 6,
+            "D+": 3,
+            "D": 1,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 270
+        }
+      }
+    }
+  ]
+}

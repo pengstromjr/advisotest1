@@ -1,0 +1,302 @@
+{
+  "course_id": "GDB101",
+  "course_title": "Epidemiology",
+  "overall_grades": {
+    "A+": 333,
+    "A": 463,
+    "A-": 194,
+    "B+": 101,
+    "B": 88,
+    "B-": 40,
+    "C+": 7,
+    "C": 18,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 14,
+    "P*": 2
+  },
+  "overall_gpa": 3.7,
+  "overall_enrolled": 1263,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Neil McRoberts",
+      "professor_slug": "neil-mcroberts",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 129,
+            "A-": 76,
+            "B+": 29,
+            "B": 43,
+            "B-": 21,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 377
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 39,
+            "B+": 21,
+            "B": 27,
+            "B-": 12,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 162
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 51,
+            "A-": 30,
+            "B+": 6,
+            "B": 15,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 150
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 30,
+            "A-": 7,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 65
+        }
+      }
+    },
+    {
+      "professor_name": "Neil Mcroberts",
+      "professor_slug": "neil-mcroberts",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 79,
+            "A-": 55,
+            "B+": 18,
+            "B": 15,
+            "B-": 7,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 229
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 16,
+            "A-": 25,
+            "B+": 7,
+            "B": 0,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 60
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 16,
+            "A-": 13,
+            "B+": 7,
+            "B": 9,
+            "B-": 4,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 54
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 17,
+            "A-": 10,
+            "B+": 2,
+            "B": 5,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 50
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 30,
+            "A-": 7,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 65
+        }
+      }
+    },
+    {
+      "professor_name": "Sara Dye",
+      "professor_slug": "sara-dye",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 222,
+            "A": 255,
+            "A-": 63,
+            "B+": 54,
+            "B": 30,
+            "B-": 12,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 657
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 93,
+            "A-": 24,
+            "B+": 18,
+            "B": 15,
+            "B-": 3,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 258
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 90,
+            "A-": 27,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 192
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 93,
+            "A": 72,
+            "A-": 12,
+            "B+": 21,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 207
+        }
+      }
+    }
+  ]
+}

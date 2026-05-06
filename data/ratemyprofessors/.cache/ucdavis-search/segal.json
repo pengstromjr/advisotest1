@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.3,
+    "avgRating": 4.5,
+    "department": "Medicine",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yNjU1NzE2",
+    "lastName": "Segal",
+    "legacyId": 2655716,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.9,
+    "department": "Social Science",
+    "firstName": "Louis",
+    "id": "VGVhY2hlci02MzU4NTg=",
+    "lastName": "Segal",
+    "legacyId": 635858,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

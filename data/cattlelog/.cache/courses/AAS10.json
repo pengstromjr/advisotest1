@@ -1,0 +1,282 @@
+{
+  "course_id": "AAS10",
+  "course_title": "African-American Culture & Society",
+  "overall_grades": {
+    "A+": 396,
+    "A": 157,
+    "A-": 67,
+    "B+": 53,
+    "B": 82,
+    "B-": 27,
+    "C+": 7,
+    "C": 28,
+    "C-": 6,
+    "D+": 3,
+    "D": 0,
+    "D-": 0,
+    "F": 10,
+    "P*": 76
+  },
+  "overall_gpa": 3.64,
+  "overall_enrolled": 912,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Angelo Williams",
+      "professor_slug": "angelo-williams",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 297,
+            "A": 18,
+            "A-": 0,
+            "B+": 9,
+            "B": 21,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 42
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 393
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 126,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 132
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 171,
+            "A": 18,
+            "A-": 0,
+            "B+": 9,
+            "B": 18,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 39
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 261
+        }
+      }
+    },
+    {
+      "professor_name": "Benjamin Weber",
+      "professor_slug": "benjamin-weber",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 57,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 165
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 57,
+            "A-": 24,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 165
+        }
+      }
+    },
+    {
+      "professor_name": "Dante Barksdale",
+      "professor_slug": "dante-barksdale",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 28,
+            "A-": 10,
+            "B+": 5,
+            "B": 4,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 7,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 90
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 28,
+            "A-": 10,
+            "B+": 5,
+            "B": 4,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 7,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 90
+        }
+      }
+    },
+    {
+      "professor_name": "Dorian Brown",
+      "professor_slug": "dorian-brown",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 12,
+            "B+": 12,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 21,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 120
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 12,
+            "B+": 12,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 21,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 120
+        }
+      }
+    },
+    {
+      "professor_name": "Tometi Gbedema",
+      "professor_slug": "tometi-gbedema",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 21,
+            "B+": 24,
+            "B": 42,
+            "B-": 21,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 144
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 21,
+            "B+": 24,
+            "B": 42,
+            "B-": 21,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 144
+        }
+      }
+    }
+  ]
+}

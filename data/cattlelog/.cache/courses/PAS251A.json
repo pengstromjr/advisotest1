@@ -1,0 +1,155 @@
+{
+  "course_id": "PAS251A",
+  "course_title": "Primary Health Care",
+  "overall_grades": {
+    "A+": 0,
+    "A": 261,
+    "A-": 130,
+    "B+": 83,
+    "B": 81,
+    "B-": 64,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 6,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.55,
+  "overall_enrolled": 628,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cara Sandholdt",
+      "professor_slug": "cara-sandholdt",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 231,
+            "A-": 117,
+            "B+": 75,
+            "B": 69,
+            "B-": 63,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 564
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 90,
+            "A-": 39,
+            "B+": 21,
+            "B": 21,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 183
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 75,
+            "A-": 27,
+            "B+": 33,
+            "B": 24,
+            "B-": 30,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 189
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 66,
+            "A-": 51,
+            "B+": 21,
+            "B": 24,
+            "B-": 24,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 192
+        }
+      }
+    },
+    {
+      "professor_name": "Nitsa Sebat",
+      "professor_slug": "nitsa-sebat",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 13,
+            "B+": 8,
+            "B": 12,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 64
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 13,
+            "B+": 8,
+            "B": 12,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 64
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.4,
+    "department": "Physics",
+    "firstName": "Xiang Dong",
+    "id": "VGVhY2hlci0zNTEyMjU=",
+    "lastName": "Zhu",
+    "legacyId": 351225,
+    "numRatings": 95,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 24.5614
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.7,
+    "department": "Physics",
+    "firstName": "Dong",
+    "id": "VGVhY2hlci0xMjU0NTk2",
+    "lastName": "Yu",
+    "legacyId": 1254596,
+    "numRatings": 50,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "Environmental Science & Policy",
+    "firstName": "Xiaoli",
+    "id": "VGVhY2hlci0yNDM3Nzgz",
+    "lastName": "Dong",
+    "legacyId": 2437783,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.6207
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.7,
+    "department": "Mathematics",
+    "firstName": "Stella",
+    "id": "VGVhY2hlci0xOTI3MTMy",
+    "lastName": "Dong",
+    "legacyId": 1927132,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Computer Science",
+    "firstName": " Dongyu",
+    "id": "VGVhY2hlci0zMDY4OTg2",
+    "lastName": "Li",
+    "legacyId": 3068986,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

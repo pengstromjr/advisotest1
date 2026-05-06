@@ -1,0 +1,70 @@
+{
+  "course_id": "POL215",
+  "course_title": "Introduction to Modeling Political Behavior",
+  "overall_grades": {
+    "A+": 9,
+    "A": 15,
+    "A-": 12,
+    "B+": 0,
+    "B": 3,
+    "B-": 0,
+    "C+": 6,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.63,
+  "overall_enrolled": 45,
+  "available_quarters": [
+    "Fall_2022"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ryan Hubert",
+      "professor_slug": "ryan-hubert",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 12,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 45
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 12,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 45
+        }
+      }
+    }
+  ]
+}

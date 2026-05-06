@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "University Writing Program",
+    "firstName": "Lindsey",
+    "id": "VGVhY2hlci0yOTM1OTM1",
+    "lastName": "de Genova",
+    "legacyId": 2935935,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Ana",
+    "id": "VGVhY2hlci0yNzc3NDMz",
+    "lastName": "De Leon",
+    "legacyId": 2777433,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.4,
+    "department": "History",
+    "firstName": "Wendy",
+    "id": "VGVhY2hlci0xODAzNDkw",
+    "lastName": "De Souza",
+    "legacyId": 1803490,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Select department",
+    "firstName": "Roberto",
+    "id": "VGVhY2hlci0yMDQzNDUw",
+    "lastName": "De Vogli",
+    "legacyId": 2043450,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3,
+    "department": "Engineering",
+    "firstName": "Casey",
+    "id": "VGVhY2hlci0zMDcxNTk0",
+    "lastName": "De Finnda",
+    "legacyId": 3071594,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 1.5,
+    "avgRating": 5,
+    "department": "Physics",
+    "firstName": "Julius",
+    "id": "VGVhY2hlci0xODAzMDEy",
+    "lastName": "De Rojas",
+    "legacyId": 1803012,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 3.8,
+    "department": "Film",
+    "firstName": "Sergio",
+    "id": "VGVhY2hlci02Njg3NzE=",
+    "lastName": "De La Mora",
+    "legacyId": 668771,
+    "numRatings": 51,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yMzUxNDI1",
+    "lastName": "De la Pena",
+    "legacyId": 2351425,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 2.8,
+    "department": "Anthropology",
+    "firstName": "Marisol",
+    "id": "VGVhY2hlci0yNDUxMzQ=",
+    "lastName": "De La Cadena",
+    "legacyId": 245134,
+    "numRatings": 135,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 47.8873
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Food Science & Technology",
+    "firstName": "Juliana",
+    "id": "VGVhY2hlci0yOTQ4NDU2",
+    "lastName": "De Moura Bell",
+    "legacyId": 2948456,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

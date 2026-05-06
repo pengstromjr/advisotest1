@@ -1,0 +1,211 @@
+{
+  "course_id": "ECN151B",
+  "course_title": "Economics of Human Resources",
+  "overall_grades": {
+    "A+": 62,
+    "A": 174,
+    "A-": 119,
+    "B+": 100,
+    "B": 112,
+    "B-": 91,
+    "C+": 68,
+    "C": 84,
+    "C-": 91,
+    "D+": 25,
+    "D": 39,
+    "D-": 16,
+    "F": 50,
+    "P*": 106,
+    "NP*": 37
+  },
+  "overall_gpa": 2.77,
+  "overall_enrolled": 1174,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Marianne Page",
+      "professor_slug": "marianne-page",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 37,
+            "A-": 40,
+            "B+": 27,
+            "B": 29,
+            "B-": 40,
+            "C+": 21,
+            "C": 27,
+            "C-": 33,
+            "D+": 4,
+            "D": 18,
+            "D-": 0,
+            "F": 11,
+            "P*": 28,
+            "NP*": 13
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 363
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 21,
+            "A-": 30,
+            "B+": 9,
+            "B": 12,
+            "B-": 21,
+            "C+": 9,
+            "C": 15,
+            "C-": 21,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 9,
+            "P*": 12,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 204
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 8,
+            "A-": 3,
+            "B+": 7,
+            "B": 9,
+            "B-": 7,
+            "C+": 10,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 1,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 70
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 8,
+            "A-": 7,
+            "B+": 11,
+            "B": 8,
+            "B-": 12,
+            "C+": 2,
+            "C": 6,
+            "C-": 9,
+            "D+": 4,
+            "D": 2,
+            "D-": 0,
+            "F": 1,
+            "P*": 10,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 89
+        }
+      }
+    },
+    {
+      "professor_name": "Shahar Sansani",
+      "professor_slug": "shahar-sansani",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 137,
+            "A-": 79,
+            "B+": 73,
+            "B": 83,
+            "B-": 51,
+            "C+": 47,
+            "C": 57,
+            "C-": 58,
+            "D+": 21,
+            "D": 21,
+            "D-": 16,
+            "F": 39,
+            "P*": 78,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 811
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 2,
+            "A-": 4,
+            "B+": 1,
+            "B": 2,
+            "B-": 3,
+            "C+": 2,
+            "C": 6,
+            "C-": 1,
+            "D+": 0,
+            "D": 3,
+            "D-": 1,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.49,
+          "quarter_enrolled": 28
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 54,
+            "A-": 51,
+            "B+": 42,
+            "B": 45,
+            "B-": 33,
+            "C+": 21,
+            "C": 24,
+            "C-": 27,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 333
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 81,
+            "A-": 24,
+            "B+": 30,
+            "B": 36,
+            "B-": 15,
+            "C+": 24,
+            "C": 27,
+            "C-": 30,
+            "D+": 21,
+            "D": 18,
+            "D-": 12,
+            "F": 39,
+            "P*": 45,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 2.56,
+          "quarter_enrolled": 450
+        }
+      }
+    }
+  ]
+}

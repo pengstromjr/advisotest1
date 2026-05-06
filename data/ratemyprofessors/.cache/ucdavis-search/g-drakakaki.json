@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.7,
+    "department": "Plant & Soil Science",
+    "firstName": "Georgia",
+    "id": "VGVhY2hlci0xNzk3NTE2",
+    "lastName": "Drakakaki",
+    "legacyId": 1797516,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  }
+]

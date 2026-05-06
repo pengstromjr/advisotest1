@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.4,
+    "department": "Biological Sciences",
+    "firstName": "Gerald",
+    "id": "VGVhY2hlci0zMDE0NzMw",
+    "lastName": "Zavorsky",
+    "legacyId": 3014730,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  }
+]

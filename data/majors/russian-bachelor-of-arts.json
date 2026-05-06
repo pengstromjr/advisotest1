@@ -19,13 +19,13 @@
       "notes": [
         "Choose 0-27 units:",
         "OR the equivalent.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-27 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "RUS 101A",
+        "or RUS 101A",
         "RUS 101B",
         "RUS 101C",
         "RUS 102",
@@ -47,11 +47,9 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
         "Additional upper division units chosen in consultation with advisor from the following selection of Literature and Culture courses taught in Russian and English.",
         "The elective upper division courses in English can be satisfied in part by one or more courses in History, Political Science, Comparative Literature and other departments after consultation with, and prior approval of, the major advisor.",
-        "The total of 36 upper division units may include units earned in the Education Abroad Program.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36 units)"
       ]
     }
   ],
@@ -60,5 +58,7 @@
     "Honors & Honors Program: The honors program comprises at least one quarter of study under course 194H, which will include a research paper. For details, consult the major advisor.",
     "Study Abroad: Students who have completed one or two years of Russian language study can participate in the Education Abroad Program (EAP) in Moscow. Many of our students also participate in summer, semester, and yearlong programs sponsored by CIEE and ACTR in St. Petersburg and Moscow. Consult with the Russian Department for global learning opportunities."
   ],
-  "total_units": "36"
+  "total_units": "36",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.150Z"
 }

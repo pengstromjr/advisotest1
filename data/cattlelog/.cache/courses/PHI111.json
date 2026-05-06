@@ -1,0 +1,141 @@
+{
+  "course_id": "PHI111",
+  "course_title": "Philosophy of Space & Time",
+  "overall_grades": {
+    "A+": 28,
+    "A": 32,
+    "A-": 30,
+    "B+": 32,
+    "B": 26,
+    "B-": 17,
+    "C+": 20,
+    "C": 3,
+    "C-": 2,
+    "D+": 13,
+    "D": 0,
+    "D-": 0,
+    "F": 6,
+    "P*": 22
+  },
+  "overall_gpa": 3.12,
+  "overall_enrolled": 231,
+  "available_quarters": [
+    "Spring_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cody Gilmore",
+      "professor_slug": "cody-gilmore",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 17,
+            "A-": 15,
+            "B+": 17,
+            "B": 2,
+            "B-": 5,
+            "C+": 14,
+            "C": 0,
+            "C-": 2,
+            "D+": 13,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 16
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 114
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 12,
+            "B+": 12,
+            "B": 0,
+            "B-": 3,
+            "C+": 12,
+            "C": 0,
+            "C-": 0,
+            "D+": 12,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 87
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 2,
+            "A-": 3,
+            "B+": 5,
+            "B": 2,
+            "B-": 2,
+            "C+": 2,
+            "C": 0,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 27
+        }
+      }
+    },
+    {
+      "professor_name": "David Glick",
+      "professor_slug": "david-glick",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 15,
+            "A-": 15,
+            "B+": 15,
+            "B": 24,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 117
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 15,
+            "A-": 15,
+            "B+": 15,
+            "B": 24,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 117
+        }
+      }
+    }
+  ]
+}

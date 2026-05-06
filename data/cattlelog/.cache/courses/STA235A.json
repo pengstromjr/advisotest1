@@ -1,0 +1,73 @@
+{
+  "course_id": "STA235A",
+  "course_title": "Probability Theory",
+  "overall_grades": {
+    "A+": 3,
+    "A": 3,
+    "A-": 6,
+    "B+": 3,
+    "B": 6,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 3
+  },
+  "overall_gpa": 3.09,
+  "overall_enrolled": 27,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Can Le",
+      "professor_slug": "can-le",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 6,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 27
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 6,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 27
+        }
+      }
+    }
+  ]
+}

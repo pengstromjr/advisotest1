@@ -1,0 +1,113 @@
+{
+  "course_id": "EMS170",
+  "course_title": "Sustainable Energy Technologies: Batteries, Fuel Cells, & Photovoltaic Cells",
+  "overall_grades": {
+    "A+": 42,
+    "A": 48,
+    "A-": 56,
+    "B+": 33,
+    "B": 33,
+    "B-": 16,
+    "C+": 11,
+    "C": 3,
+    "C-": 1,
+    "D+": 1,
+    "D": 2,
+    "D-": 0,
+    "F": 3,
+    "P*": 3
+  },
+  "overall_gpa": 3.43,
+  "overall_enrolled": 252,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Marina Leite",
+      "professor_slug": "marina-leite",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 48,
+            "A-": 56,
+            "B+": 33,
+            "B": 33,
+            "B-": 16,
+            "C+": 11,
+            "C": 3,
+            "C-": 1,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 252
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 27,
+            "A-": 21,
+            "B+": 9,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 105
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 18,
+            "A-": 30,
+            "B+": 21,
+            "B": 12,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 108
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 5,
+            "B+": 3,
+            "B": 12,
+            "B-": 7,
+            "C+": 5,
+            "C": 0,
+            "C-": 1,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

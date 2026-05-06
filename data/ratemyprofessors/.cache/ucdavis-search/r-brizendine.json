@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.4,
+    "department": "Religious Studies",
+    "firstName": "Ryan",
+    "id": "VGVhY2hlci0yNjkyOTc1",
+    "lastName": "Brizendine",
+    "legacyId": 2692975,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  }
+]

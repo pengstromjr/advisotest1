@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Biology",
+    "firstName": "Francis",
+    "id": "VGVhY2hlci0zNDYxOTE=",
+    "lastName": "McNally",
+    "legacyId": 346191,
+    "numRatings": 37,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.8333
+  }
+]

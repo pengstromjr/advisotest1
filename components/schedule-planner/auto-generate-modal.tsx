@@ -4,6 +4,12 @@ import { useState, useEffect } from "react";
 import { generateSchedule } from "@/lib/schedule-generator";
 import { isEligible } from "@/lib/eligibility";
 import type { Section, StudentContext, RequirementSection } from "@/lib/course-data";
+import {
+  filterRequirementSectionsByPath,
+  getDefaultRequirementPath,
+  getRequirementItemProgress,
+  normalizeRequirementSections,
+} from "@/lib/requirement-normalizer";
 
 interface AutoGenerateModalProps {
   open: boolean;
@@ -53,13 +59,18 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
           const res = await fetch(`/api/data/program?name=${encodeURIComponent(studentContext.major!)}`);
           if (!res.ok) throw new Error("Failed to load");
           const data: ProgramResponse = await res.json();
-          
+          const defaultPath = getDefaultRequirementPath(data.requirements);
+          const activeRequirements = filterRequirementSectionsByPath(data.requirements, defaultPath);
 
           // 1. Major Pool
           const allRequired = new Set<string>();
-          for (const req of data.requirements) {
-            for (const course of req.courses) {
-              allRequired.add(course.trim());
+          for (const req of normalizeRequirementSections(activeRequirements)) {
+            for (const item of req.items) {
+              const done = getRequirementItemProgress(item, studentContext.completedCourses);
+              if (done >= item.requiredCount) continue;
+              for (const course of item.courses) {
+                allRequired.add(course.trim());
+              }
             }
           }
           const majorUncompleted = Array.from(allRequired).filter(

@@ -1,0 +1,155 @@
+{
+  "course_id": "BIM111",
+  "course_title": "Biomedical Instrumentation Laboratory",
+  "overall_grades": {
+    "A+": 214,
+    "A": 180,
+    "A-": 168,
+    "B+": 112,
+    "B": 102,
+    "B-": 24,
+    "C+": 24,
+    "C": 3,
+    "C-": 3,
+    "D+": 3,
+    "D": 3,
+    "D-": 0,
+    "F": 6
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 842,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Sun Il Kwon",
+      "professor_slug": "sun-il-kwon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 39,
+            "A-": 30,
+            "B+": 4,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 83
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 39,
+            "A-": 30,
+            "B+": 4,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 83
+        }
+      }
+    },
+    {
+      "professor_name": "Xianglong Wang",
+      "professor_slug": "xianglong-wang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 204,
+            "A": 141,
+            "A-": 138,
+            "B+": 108,
+            "B": 102,
+            "B-": 24,
+            "C+": 24,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 759
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 27,
+            "A-": 51,
+            "B+": 39,
+            "B": 36,
+            "B-": 21,
+            "C+": 15,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 255
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 105,
+            "A": 42,
+            "A-": 48,
+            "B+": 42,
+            "B": 18,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 264
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 72,
+            "A-": 39,
+            "B+": 27,
+            "B": 48,
+            "B-": 3,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 240
+        }
+      }
+    }
+  ]
+}

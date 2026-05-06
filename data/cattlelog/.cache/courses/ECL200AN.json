@@ -1,0 +1,90 @@
+{
+  "course_id": "ECL200AN",
+  "course_title": "Principles & Applications of Ecology",
+  "overall_grades": {
+    "A+": 39,
+    "A": 15,
+    "A-": 3,
+    "B+": 0,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.94,
+  "overall_enrolled": 60,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Fernanda Valdovinos",
+      "professor_slug": "fernanda-valdovinos",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 15,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 60
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 30
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 6,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

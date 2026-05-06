@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "Design",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci0yMzA1NDY2",
+    "lastName": "Maiorana",
+    "legacyId": 2305466,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  }
+]

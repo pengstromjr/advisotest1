@@ -1,0 +1,155 @@
+{
+  "course_id": "MGT400A",
+  "course_title": "Financial Accounting",
+  "overall_grades": {
+    "A+": 149,
+    "A": 69,
+    "A-": 65,
+    "B+": 22,
+    "B": 42,
+    "B-": 6,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 353,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Summer_2023",
+    "Summer_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Michelle Higgins",
+      "professor_slug": "michelle-higgins",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 27,
+            "A-": 23,
+            "B+": 22,
+            "B": 39,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 125
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 21,
+            "A-": 12,
+            "B+": 12,
+            "B": 30,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 87
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 6,
+            "A-": 11,
+            "B+": 10,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 38
+        }
+      }
+    },
+    {
+      "professor_name": "Paul Wong",
+      "professor_slug": "paul-wong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 141,
+            "A": 42,
+            "A-": 42,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 228
+        },
+        "Summer_2023": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 21,
+            "A-": 21,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 102
+        },
+        "Summer_2024": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 21,
+            "A-": 21,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 126
+        }
+      }
+    }
+  ]
+}

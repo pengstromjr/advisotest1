@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.8,
+    "department": "Design",
+    "firstName": "Barbara",
+    "id": "VGVhY2hlci0yOTg1MTEx",
+    "lastName": "Hughes",
+    "legacyId": 2985111,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.6,
+    "department": "English",
+    "firstName": "William",
+    "id": "VGVhY2hlci0yMTg2ODY2",
+    "lastName": "Hughes",
+    "legacyId": 2186866,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.6667
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Food Science & Technology",
+    "firstName": "Jonathan",
+    "id": "VGVhY2hlci0yNTU4MDc5",
+    "lastName": "Hughes",
+    "legacyId": 2558079,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Political Science",
+    "firstName": "Niki",
+    "id": "VGVhY2hlci0xNTE5NzE3",
+    "lastName": "Kalaf Hughes",
+    "legacyId": 1519717,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.8,
+    "department": "Communication",
+    "firstName": "Mikayla",
+    "id": "VGVhY2hlci02MjYxMjI=",
+    "lastName": "Hughes",
+    "legacyId": 626122,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "English",
+    "firstName": "Emily",
+    "id": "VGVhY2hlci0xMzMzMjgw",
+    "lastName": "Hughes",
+    "legacyId": 1333280,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

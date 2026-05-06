@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.1,
+    "department": "Mathematics",
+    "firstName": "Melissa",
+    "id": "VGVhY2hlci0zMDI1MDIz",
+    "lastName": "Sherman-Bennett",
+    "legacyId": 3025023,
+    "numRatings": 58,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 17.2414
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.9,
+    "department": "Psychology",
+    "firstName": "Jeffrey",
+    "id": "VGVhY2hlci03NDc1ODQ=",
+    "lastName": "Sherman",
+    "legacyId": 747584,
+    "numRatings": 62,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 32
+  }
+]

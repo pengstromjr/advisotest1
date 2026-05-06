@@ -9,10 +9,10 @@
       "heading": "Required Courses:",
       "courses": [
         "ENG 105",
-        "ECH 152B",
+        "or ECH 152B",
         "ENG 188"
       ],
-      "units": "8",
+      "units": "",
       "notes": []
     },
     {
@@ -23,21 +23,26 @@
         "ATM 116",
         "EBS 161",
         "ECH 158C",
+        "ECH 161A",
+        "ECH 161B",
         "ECH 161L",
         "ECH 166",
+        "ECI 125",
         "ECI/ESP 163",
         "EME 161",
         "FST 123",
         "ESP 167",
         "PLS 101"
       ],
-      "units": "12",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found on the departmental website."
+    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found at Undergraduate Advising."
   ],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.568Z"
 }

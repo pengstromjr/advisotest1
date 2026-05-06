@@ -9,26 +9,35 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "ANT 004",
-        "LIN 001",
-        "LIN 001Y",
+        "or LIN 001",
+        "or LIN 001Y",
         "CMN 010Y",
-        "CMN 010V",
+        "or CMN 010V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "CMN 001",
-        "CMN 001V",
+        "or CMN 001V",
         "CMN 003",
-        "CMN 003V",
-        "CMN 003Y",
+        "or CMN 003V",
+        "or CMN 003Y",
         "CMN/LIN 005",
         "PHI 012",
+        "or ECS 015",
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y",
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "STA 013",
-        "STA 013Y",
-        "SOC 056",
-        "SOC 056Y"
+        "or STA 013V",
+        "or STA 013Y",
+        "or SOC 056",
+        "or SOC 056Y"
       ],
       "units": "4",
       "notes": [
@@ -40,17 +49,33 @@
       "heading": "Depth Subject Matter",
       "courses": [
         "CMN 101",
-        "CMN 101V",
-        "CMN 101Y",
+        "or CMN 101V",
+        "or CMN 101Y",
         "CMN 102",
-        "CMN 102V",
+        "or CMN 102V",
         "CMN 120",
-        "CMN 120V",
-        "CMN 140",
+        "or CMN 120V",
+        "CMN 140"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "CMN 170",
-        "CMN 170V",
+        "or CMN 170V",
         "CMN 172",
-        "CMN 172V",
+        "or CMN 172V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "ANT 120",
         "CMN 110",
         "CMN 111",
@@ -62,10 +87,11 @@
         "CMN 124",
         "CMN 130",
         "CMN 131",
-        "CMN 131V",
+        "or CMN 131V",
         "CMN 132",
         "CMN 136",
-        "CMN 136V",
+        "or CMN 136V",
+        "CMN 139",
         "CMN 141",
         "CMN 142",
         "CMN 143",
@@ -73,19 +99,19 @@
         "CMN 145",
         "CMN 146",
         "CMN 147",
-        "CMN 147V",
+        "or CMN 147V",
         "CMN 148",
         "CMN 150V",
         "CMN 151",
         "CMN 161",
         "CMN 165",
         "CMN 170",
-        "CMN 170V",
+        "or CMN 170V",
         "CMN 172",
-        "CMN 172V",
+        "or CMN 172V",
         "CMN 174",
         "CMN 176",
-        "CMN 176V",
+        "or CMN 176V",
         "CMN 178",
         "CMN 180",
         "CMN 189A",
@@ -97,20 +123,19 @@
         "LIN 177",
         "LIN 182",
         "POL 165",
-        "POL 165V",
+        "or POL 165V",
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 107",
         "PSC 152",
         "PSC 154",
-        "PSC 154V",
+        "or PSC 154V",
         "SOC 126",
         "STA 106",
         "STA 108"
       ],
-      "units": "4",
+      "units": "20-22",
       "notes": [
-        "Choose one:",
         "Choose five:",
         "Depth Subject Matter Subtotal:"
       ]
@@ -118,5 +143,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "69"
+  "total_units": "69",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.194Z"
 }

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.6,
+    "department": "Science",
+    "firstName": "Emily",
+    "id": "VGVhY2hlci0yNDU2MTgz",
+    "lastName": "Merchant",
+    "legacyId": 2456183,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.6667
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Cultural Studies",
+    "firstName": "Ernest",
+    "id": "VGVhY2hlci0yNjM0MzI4",
+    "lastName": "Merchant",
+    "legacyId": 2634328,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

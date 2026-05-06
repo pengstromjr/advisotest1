@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.6,
+    "department": "Political Science",
+    "firstName": "Hanno",
+    "id": "VGVhY2hlci0yOTc4NDg4",
+    "lastName": "Hilbig",
+    "legacyId": 2978488,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 92.8571
+  }
+]

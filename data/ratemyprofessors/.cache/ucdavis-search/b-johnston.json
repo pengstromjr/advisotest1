@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.6,
+    "department": "University Writing Program",
+    "firstName": "Brendan ",
+    "id": "VGVhY2hlci0yOTA1OTM2",
+    "lastName": "Johnston ",
+    "legacyId": 2905936,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Lisa",
+    "id": "VGVhY2hlci0zMTE1MzYw",
+    "lastName": "Johnston",
+    "legacyId": 3115360,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.8,
+    "department": "Native American Studies",
+    "firstName": "Tory",
+    "id": "VGVhY2hlci0yNjY3MTA4",
+    "lastName": "Johnston",
+    "legacyId": 2667108,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 3.8,
+    "department": "TA",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci04OTAwMDU=",
+    "lastName": "Johnston",
+    "legacyId": 890005,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Agriculture",
+    "firstName": "Warren",
+    "id": "VGVhY2hlci04MzM2Mzc=",
+    "lastName": "Johnston",
+    "legacyId": 833637,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

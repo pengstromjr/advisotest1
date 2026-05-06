@@ -1,0 +1,70 @@
+{
+  "course_id": "CTS146B",
+  "course_title": "Modern South Asia Cinema",
+  "overall_grades": {
+    "A+": 3,
+    "A": 6,
+    "A-": 9,
+    "B+": 3,
+    "B": 3,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.21,
+  "overall_enrolled": 30,
+  "available_quarters": [
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Nicole Ranganath",
+      "professor_slug": "nicole-ranganath",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 9,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 30
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 9,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

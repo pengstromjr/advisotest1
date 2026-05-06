@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.2,
+    "department": "Microbiology",
+    "firstName": "Scott",
+    "id": "VGVhY2hlci0xNzA0MjE0",
+    "lastName": "Dawson",
+    "legacyId": 1704214,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.5294
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.4,
+    "department": "Statistics",
+    "firstName": "Matthew ",
+    "id": "VGVhY2hlci0xOTcyODA4",
+    "lastName": "Dawson",
+    "legacyId": 1972808,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -13,7 +13,7 @@
       ],
       "units": "4",
       "notes": [
-        "Required Courses Subtotal"
+        "Required Courses Subtotal (8 units)"
       ]
     },
     {
@@ -23,8 +23,10 @@
         "AHI/HMR 120A",
         "AHI 123",
         "AHI 190L",
+        "ANT 186A",
         "ARE 113",
         "CMN 131",
+        "or CMN 131V",
         "DES 185",
         "DES 187",
         "DRA 124A",
@@ -35,11 +37,13 @@
       "units": "12",
       "notes": [
         "Choose three:",
-        "Electives Subtotal"
+        "Electives Subtotal (12 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.715Z"
 }

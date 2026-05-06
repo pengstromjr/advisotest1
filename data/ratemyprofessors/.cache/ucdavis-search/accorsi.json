@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.4,
+    "department": "Microbiology",
+    "firstName": "Alice",
+    "id": "VGVhY2hlci0zMTU5OTcx",
+    "lastName": "Accorsi",
+    "legacyId": 3159971,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

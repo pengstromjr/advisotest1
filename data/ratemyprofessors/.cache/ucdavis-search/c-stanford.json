@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.5,
+    "department": "Computer Science",
+    "firstName": "Caleb",
+    "id": "VGVhY2hlci0zMDE5MDgy",
+    "lastName": "Stanford",
+    "legacyId": 3019082,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Human Development",
+    "firstName": "Trina",
+    "id": "VGVhY2hlci0zMDI1ODAw",
+    "lastName": "Stanford",
+    "legacyId": 3025800,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

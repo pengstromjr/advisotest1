@@ -33,11 +33,11 @@
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
-        "CHE 002AH",
+        "or CHE 002AH",
         "CHE 002B",
-        "CHE 002BH",
+        "or CHE 002BH",
         "CHE 002C",
-        "CHE 002CH"
+        "or CHE 002CH"
       ],
       "units": "5",
       "notes": []
@@ -46,12 +46,19 @@
       "heading": "Engineering",
       "courses": [
         "ENG 003",
-        "ENG 003Y",
+        "or ENG 003Y"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Engineering",
+      "courses": [
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y"
+        "or ENG 045Y"
       ],
       "units": "4",
       "notes": [
@@ -70,24 +77,24 @@
       "heading": "Programming",
       "courses": [
         "ECH 060",
-        "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032A",
+        "or ECS 032AV",
         "COM 001",
         "COM 002",
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
-        "UWP 001Y",
-        "UWP 001V"
+        "or UWP 001Y",
+        "or UWP 001V"
       ],
       "units": "4",
       "notes": [
         "Lower Division Composition/Writing; choose one: a grade of C- or better is required:",
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (79 units)"
       ]
     },
     {
@@ -114,10 +121,17 @@
         "EMS 180",
         "EMS 182",
         "EMS 181",
-        "EMS 183",
+        "or EMS 183",
         "EMS 186A",
         "EMS 186B",
-        "EMS 186C",
+        "EMS 186C"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Materials Science Engineering",
+      "courses": [
         "ECH 140",
         "ECI 114",
         "EME 115",
@@ -131,19 +145,27 @@
         "MAT 167",
         "MAT 168",
         "PHY 104A",
-        "STA 131A",
-        "CHE 110A",
-        "CHE 124A",
-        "CHE 128A",
-        "PHY 108108L",
-        "PHY 110A",
-        "PHY 122A",
-        "PHY 151",
-        "PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **"
+        "STA 131A"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Materials Science Engineering",
+      "courses": [
+        "CHE 110A",
+        "CHE 124A",
+        "CHE 128A",
+        "PHY 108",
+        "PHY 110A",
+        "PHY 122A",
+        "PHY 151",
+        "PHY 160/ENG 160"
+      ],
+      "units": "3-4",
+      "notes": [
         "Choose one:"
       ]
     },
@@ -152,46 +174,58 @@
       "courses": [
         "BIM 020",
         "BIS 002A",
+        "or BIO 002",
         "EBS 075",
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "BIM 106",
         "BIM 109",
         "ECI 130",
         "ECI 132",
         "EEC 140A",
-        "EEC 140AV",
+        "or EEC 140AV",
         "EEC 140B",
         "EEC 146A",
         "ENG 100",
         "ENG 102",
         "ENG 103",
         "ENG 104",
-        "ENG 104V",
-        "UWP 102E",
-        "UWP 102F",
-        "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
-        "UWP 104E",
-        "UWP 104T"
+        "or ENG 104V"
       ],
       "units": "12",
       "notes": [
-        "Courses used to satisfy degree requirements are not eligible to be used to satisfy the elective requirement.",
+        "Courses used to satisfy degree requirements are not eligible to be used to satisfy the elective requirement. (12 units)",
         "Students may elect to choose up to 5 units from the following lower division courses:",
         "Remaining units must be satisfied by the following:",
-        "Any upper division courses in Materials Science & Engineering (EMS); a maximum of 4 units combined in Materials Science & Engineering (EMS) courses numbered 190-197 or 199 can be used to satisfy focused electives requirement.",
+        "OR",
+        "Any upper division courses in Materials Science & Engineering (EMS); a maximum of 4 units combined in Materials Science & Engineering (EMS) courses numbered 190-197 or 199 can be used to satisfy focused electives requirement."
+      ]
+    },
+    {
+      "heading": "Focused Electives",
+      "courses": [
+        "or UWP 102E",
+        "UWP 102F",
+        "UWP 104A",
+        "or UWP 104AV",
+        "or UWP 104AY",
+        "UWP 104E",
+        "UWP 104T"
+      ],
+      "units": "0-4",
+      "notes": [
         "Choose one; grade of C- or better is required:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (78-83 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors Program: An Honors Program is available to qualified students in Materials Science & Engineering. It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will"
+    "Honors Program: An Honors Program is available to qualified students in Materials Science & Engineering. It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will be acknowledged on the student's transcript."
   ],
-  "total_units": "157"
+  "total_units": "157",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.536Z"
 }

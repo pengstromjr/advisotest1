@@ -1,0 +1,93 @@
+{
+  "course_id": "URD1",
+  "course_title": "Elementary Urdu",
+  "overall_grades": {
+    "A+": 56,
+    "A": 12,
+    "A-": 1,
+    "B+": 1,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 2
+  },
+  "overall_gpa": 3.99,
+  "overall_enrolled": 72,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Shagufta Fatema",
+      "professor_slug": "shagufta-fatema",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 56,
+            "A": 12,
+            "A-": 1,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 72
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 51
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 3,
+            "A-": 1,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 21
+        }
+      }
+    }
+  ]
+}

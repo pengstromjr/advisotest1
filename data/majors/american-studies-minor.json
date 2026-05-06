@@ -7,19 +7,20 @@
   "requirements": [
     {
       "heading": "General Requirements",
-      "courses": [
-        "AMS 192"
-      ],
-      "units": "Units",
+      "courses": [],
+      "units": "20",
       "notes": [
-        "Five upper division American Studies (AMS) courses",
-        "American Studies (AMS) courses."
+        "Five upper division American Studies (AMS) courses (20 units)",
+        "American Studies (AMS) courses.",
+        "No more than 8 units of AMS 192 may be counted toward this total."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Minor Advising: American Studies Advising; ams-advising@ucdavis.edu or 530-752-6429"
+    "Minor Advising: American Studies Advising; AMS Advising or 530-752-6429"
   ],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.265Z"
 }

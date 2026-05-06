@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4.1,
+    "department": "Mathematics",
+    "firstName": "John",
+    "id": "VGVhY2hlci0yMjczNjMx",
+    "lastName": "Challenor",
+    "legacyId": 2273631,
+    "numRatings": 307,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.2215
+  }
+]

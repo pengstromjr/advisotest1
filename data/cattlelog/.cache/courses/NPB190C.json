@@ -1,0 +1,73 @@
+{
+  "course_id": "NPB190C",
+  "course_title": "Research Conference",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 10
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 10,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Stacey Combes",
+      "professor_slug": "stacey-combes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 10
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 10
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 10
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 10
+        }
+      }
+    }
+  ]
+}

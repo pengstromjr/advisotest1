@@ -1,0 +1,168 @@
+{
+  "course_id": "PSC151V",
+  "course_title": "Social Psychology",
+  "overall_grades": {
+    "A+": 1557,
+    "A": 647,
+    "A-": 144,
+    "B+": 154,
+    "B": 120,
+    "B-": 42,
+    "C+": 52,
+    "C": 29,
+    "C-": 13,
+    "D+": 18,
+    "D": 18,
+    "D-": 12,
+    "F": 35,
+    "P*": 45,
+    "NP*": 12
+  },
+  "overall_gpa": 3.72,
+  "overall_enrolled": 2898,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alison Ledgerwood",
+      "professor_slug": "alison-ledgerwood",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 194,
+            "A": 586,
+            "A-": 66,
+            "B+": 72,
+            "B": 102,
+            "B-": 27,
+            "C+": 33,
+            "C": 23,
+            "C-": 7,
+            "D+": 9,
+            "D": 15,
+            "D-": 9,
+            "F": 23,
+            "P*": 19,
+            "NP*": 11
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 1196
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 168,
+            "A": 426,
+            "A-": 45,
+            "B+": 42,
+            "B": 84,
+            "B-": 18,
+            "C+": 24,
+            "C": 18,
+            "C-": 3,
+            "D+": 3,
+            "D": 9,
+            "D-": 6,
+            "F": 15,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 879
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 26,
+            "A": 160,
+            "A-": 21,
+            "B+": 30,
+            "B": 18,
+            "B-": 9,
+            "C+": 9,
+            "C": 5,
+            "C-": 4,
+            "D+": 6,
+            "D": 6,
+            "D-": 3,
+            "F": 8,
+            "P*": 7,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 317
+        }
+      }
+    },
+    {
+      "professor_name": "Ariel Mosley",
+      "professor_slug": "ariel-mosley",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1363,
+            "A": 61,
+            "A-": 78,
+            "B+": 82,
+            "B": 18,
+            "B-": 15,
+            "C+": 19,
+            "C": 6,
+            "C-": 6,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 12,
+            "P*": 26,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 1702
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 981,
+            "A": 57,
+            "A-": 78,
+            "B+": 42,
+            "B": 18,
+            "B-": 15,
+            "C+": 12,
+            "C": 6,
+            "C-": 6,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 9,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 1257
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 382,
+            "A": 4,
+            "A-": 0,
+            "B+": 40,
+            "B": 0,
+            "B-": 0,
+            "C+": 7,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 8,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 445
+        }
+      }
+    }
+  ]
+}

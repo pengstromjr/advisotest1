@@ -1,0 +1,110 @@
+{
+  "course_id": "ACC253",
+  "course_title": "Accounting Information & Control Systems",
+  "overall_grades": {
+    "A+": 36,
+    "A": 132,
+    "A-": 54,
+    "B+": 39,
+    "B": 45,
+    "B-": 24,
+    "C+": 3,
+    "C": 3,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.59,
+  "overall_enrolled": 339,
+  "available_quarters": [
+    "Fall_2024",
+    "Spring_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Janie Chang",
+      "professor_slug": "janie-chang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 132,
+            "A-": 54,
+            "B+": 39,
+            "B": 45,
+            "B-": 24,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 339
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 42,
+            "A-": 27,
+            "B+": 0,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 93
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 27,
+            "A-": 18,
+            "B+": 15,
+            "B": 21,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 99
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 63,
+            "A-": 9,
+            "B+": 24,
+            "B": 9,
+            "B-": 15,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 147
+        }
+      }
+    }
+  ]
+}

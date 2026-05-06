@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 5,
+    "department": "Biological Sciences",
+    "firstName": "Kassandra",
+    "id": "VGVhY2hlci0yNDE4MjMx",
+    "lastName": "Ori-McKenney",
+    "legacyId": 2418231,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

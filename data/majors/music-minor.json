@@ -23,11 +23,20 @@
         "MUS 117",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
-        "MUS 129D",
+        "MUS 129D"
+      ],
+      "units": "16",
+      "notes": [
+        "Choose a minimum of 16 units of upper division electives:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -44,14 +53,15 @@
         "MUS 153",
         "MUS 155"
       ],
-      "units": "Units",
+      "units": "6",
       "notes": [
-        "Choose a minimum of 16 units:",
-        "Choose a minimum of 6 units:"
+        "Choose a minimum of 6 units of ensembles:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "22"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.758Z"
 }

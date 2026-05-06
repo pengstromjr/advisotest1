@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.8,
+    "department": "Mathematics",
+    "firstName": "Janko",
+    "id": "VGVhY2hlci0yNjExMg==",
+    "lastName": "Gravner",
+    "legacyId": 26112,
+    "numRatings": 289,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.2039
+  }
+]

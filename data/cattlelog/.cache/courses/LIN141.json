@@ -1,0 +1,140 @@
+{
+  "course_id": "LIN141",
+  "course_title": "Semantics",
+  "overall_grades": {
+    "A+": 115,
+    "A": 118,
+    "A-": 47,
+    "B+": 34,
+    "B": 34,
+    "B-": 12,
+    "C+": 15,
+    "C": 24,
+    "C-": 14,
+    "D+": 6,
+    "D": 0,
+    "D-": 0,
+    "F": 14,
+    "P*": 35,
+    "NP*": 6
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 474,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Masoud Jasbi",
+      "professor_slug": "masoud-jasbi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 115,
+            "A": 118,
+            "A-": 47,
+            "B+": 34,
+            "B": 34,
+            "B-": 12,
+            "C+": 15,
+            "C": 24,
+            "C-": 14,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 14,
+            "P*": 35,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 474
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 54,
+            "A-": 30,
+            "B+": 15,
+            "B": 21,
+            "B-": 6,
+            "C+": 9,
+            "C": 18,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 210
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 36,
+            "A-": 6,
+            "B+": 12,
+            "B": 3,
+            "B-": 3,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 156
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 9,
+            "A-": 2,
+            "B+": 2,
+            "B": 4,
+            "B-": 2,
+            "C+": 0,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 38
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 19,
+            "A-": 9,
+            "B+": 5,
+            "B": 6,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 70
+        }
+      }
+    }
+  ]
+}

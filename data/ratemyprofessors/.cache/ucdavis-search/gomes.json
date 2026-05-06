@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4,
+    "department": "Biological Sciences",
+    "firstName": "Aldrin",
+    "id": "VGVhY2hlci0xMjkzODU4",
+    "lastName": "Gomes",
+    "legacyId": 1293858,
+    "numRatings": 84,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 79.1045
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 1.9,
+    "department": "Linguistics",
+    "firstName": "Benjamin",
+    "id": "VGVhY2hlci0yNjIwMzM4",
+    "lastName": "Gomes",
+    "legacyId": 2620338,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 21.4286
+  }
+]

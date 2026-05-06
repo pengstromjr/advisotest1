@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.7,
+    "department": "Communication",
+    "firstName": "Drew",
+    "id": "VGVhY2hlci0yMTk5OTE4",
+    "lastName": "Cingel",
+    "legacyId": 2199918,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  }
+]

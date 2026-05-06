@@ -9,13 +9,26 @@
       "heading": "Gender, Sexuality & Women's Studies",
       "courses": [
         "GSW 050",
-        "GSW 050V",
+        "or GSW 050V",
         "GSW 070",
         "WMS 060",
         "GSW 090X",
         "GSW 098",
         "GSW 099",
         "WMS 025",
+        "or GSW 025"
+      ],
+      "units": "4",
+      "notes": [
+        "One additional lower division GSW/WMS course:",
+        "Lower-division GSW/WMS courses used to meet this requirement may not duplicate those used to meet other GSW requirements.",
+        "GSW courses",
+        "WMS courses"
+      ]
+    },
+    {
+      "heading": "Gender, Sexuality & Women's Studies",
+      "courses": [
         "AAS 010",
         "AAS 017",
         "AMS 021",
@@ -26,13 +39,13 @@
         "ASA 001",
         "ASA 002",
         "CHI 010",
-        "CHI 010V",
+        "or CHI 010V",
         "CHI 021S",
         "CHI 050",
         "COM 012",
         "DRA 001",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "GSW 080",
         "HIS 072A",
         "HIS 072B",
@@ -40,29 +53,25 @@
         "NAS 010",
         "NAS 032",
         "POL 007",
-        "POL 007V",
+        "or POL 007V",
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y",
         "STS 001",
         "STS/HIS 002",
-        "STS/HIS 002Y",
+        "or STS/HIS 002Y",
         "STS/ANT 032",
         "SOC 002",
-        "SOC 002V",
+        "or SOC 002V",
         "SOC 003",
-        "SOC 003V",
+        "or SOC 003V",
         "SOC 011",
         "WMS 020"
       ],
       "units": "4",
       "notes": [
-        "One additional lower division GSW/WMS course:",
-        "Lower-division GSW/WMS courses used to meet this requirement may not duplicate those used to meet other GSW requirements.",
-        "GSW courses",
-        "WMS courses",
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (20 units)"
       ]
     },
     {
@@ -70,7 +79,9 @@
       "courses": [
         "GSW 103",
         "GSW 104",
+        "or WMS 104",
         "GSW 170",
+        "or WMS 170",
         "GSW 190",
         "WMS 137"
       ],
@@ -86,6 +97,7 @@
         "AAS 133",
         "AAS 181",
         "ANT 126B",
+        "ANT 128B",
         "ANT 130A",
         "ANT 139AN",
         "ANT 139BN",
@@ -100,6 +112,7 @@
         "CHI 131",
         "CHI 131S",
         "CHI 150",
+        "or CHI 150V",
         "CHI 154",
         "CHI 160",
         "CHI 170",
@@ -128,6 +141,7 @@
         "HIS 184",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "HIS 193C",
         "LIN 163",
         "NAS 134",
@@ -146,13 +160,15 @@
       ],
       "units": "24",
       "notes": [
-        "In consultation with the Faculty Advisor & Major Advisor, choose four upper division Gender, Sexuality, & Women’s Studies courses (WMS) and two elective courses that can be taken outside of the department (see options below) addressing a specific theme or topic; courses used to meet this requirement may not duplicate those used to meet other GSW Requirements.",
+        "In consultation with the Faculty Advisor & Major Advisor, choose four upper division Gender, Sexuality, & Women’s Studies courses (WMS) and two elective courses that can be taken outside of the department (see options below) addressing a specific theme or topic; courses used to meet this requirement may not duplicate those used to meet other GSW Requirements. (24 units)",
         "Choose two:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "64"
+  "total_units": "64",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.903Z"
 }

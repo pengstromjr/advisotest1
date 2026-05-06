@@ -1,0 +1,70 @@
+{
+  "course_id": "PHY104C",
+  "course_title": "Intermediate Methods of Mathematical Physics",
+  "overall_grades": {
+    "A+": 3,
+    "A": 6,
+    "A-": 3,
+    "B+": 12,
+    "B": 18,
+    "B-": 3,
+    "C+": 3,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.17,
+  "overall_enrolled": 51,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Rena Zieve",
+      "professor_slug": "rena-zieve",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 3,
+            "B+": 12,
+            "B": 18,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 51
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 3,
+            "B+": 12,
+            "B": 18,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 51
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "course_id": "PLP201A",
+  "course_title": "Impacts, Mechanisms & Control of Plant Disease",
+  "overall_grades": {
+    "A+": 7,
+    "A": 7,
+    "A-": 5,
+    "B+": 1,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.89,
+  "overall_enrolled": 20,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Tiffany Lowe Power",
+      "professor_slug": "tiffany-lowe-power",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 7,
+            "A-": 5,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 20
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 5,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 10
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 2,
+            "A-": 5,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 10
+        }
+      }
+    }
+  ]
+}

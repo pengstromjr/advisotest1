@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.8,
+    "department": "Philosophy",
+    "firstName": "Thor",
+    "id": "VGVhY2hlci0yMzIyNDU2",
+    "lastName": "Harris",
+    "legacyId": 2322456,
+    "numRatings": 56,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 67.8571
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.1,
+    "department": "History",
+    "firstName": "Alice",
+    "id": "VGVhY2hlci02OTkyODE=",
+    "lastName": "Harris",
+    "legacyId": 699281,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.8,
+    "department": "Ecology amp Evolutionary Biology",
+    "firstName": "Harris",
+    "id": "VGVhY2hlci0yMzUzMjY4",
+    "lastName": "Lewin",
+    "legacyId": 2353268,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.7,
+    "department": "Environmental Science & Policy",
+    "firstName": "Susan",
+    "id": "VGVhY2hlci0yNDQwMjMx",
+    "lastName": "Harrison",
+    "legacyId": 2440231,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 61.5385
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.4,
+    "department": "African-American Studies",
+    "firstName": "Milmon",
+    "id": "VGVhY2hlci0xOTkyNjgy",
+    "lastName": "Harrison",
+    "legacyId": 1992682,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.4,
+    "department": "Physics",
+    "firstName": "Randy",
+    "id": "VGVhY2hlci03ODU0Mw==",
+    "lastName": "Harris",
+    "legacyId": 78543,
+    "numRatings": 92,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.1,
+    "department": "Ethnic Studies",
+    "firstName": "Milmon",
+    "id": "VGVhY2hlci03NzgzMg==",
+    "lastName": "Harrison",
+    "legacyId": 77832,
+    "numRatings": 54,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.9,
+    "department": "Science",
+    "firstName": "Samantha",
+    "id": "VGVhY2hlci0xNTQ1Njkw",
+    "lastName": "Harris",
+    "legacyId": 1545690,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.8,
+    "department": "Human Development",
+    "firstName": "Michelle",
+    "id": "VGVhY2hlci0xNzUzNjA3",
+    "lastName": "Harris",
+    "legacyId": 1753607,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "Chemistry",
+    "firstName": "Jason",
+    "id": "VGVhY2hlci0xNjk1MDY5",
+    "lastName": "Harrison",
+    "legacyId": 1695069,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

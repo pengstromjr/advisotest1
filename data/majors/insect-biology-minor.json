@@ -9,7 +9,14 @@
       "heading": "Entomology",
       "courses": [
         "ENT 100",
-        "ENT 100L",
+        "ENT 100L"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Entomology",
+      "courses": [
         "ENT 102",
         "ENT 103",
         "ENT 104",
@@ -17,9 +24,16 @@
         "ENT 107",
         "ENT 109"
       ],
-      "units": "4",
+      "units": "7-9",
       "notes": [
-        "Choose at least 7 units:",
+        "Choose at least 7 units:"
+      ]
+    },
+    {
+      "heading": "Entomology",
+      "courses": [],
+      "units": "6-12",
+      "notes": [
         "Choose at least two additional upper division Entomology (ENT) courses (except 192, 198, 199) adding to at least 6 units.",
         "Upper division Entomology (ENT) courses."
       ]
@@ -27,5 +41,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "19"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.225Z"
 }

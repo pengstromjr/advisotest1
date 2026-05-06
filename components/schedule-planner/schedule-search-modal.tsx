@@ -2,11 +2,12 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Section } from "@/lib/course-data";
+import { CURRENT_TERM_LABEL } from "@/lib/current-term";
 import { PrerequisiteChain } from "@/components/prerequisite-chain";
 import { GPABadge } from "./gpa-display";
 import { CourseDetailModal } from "./course-detail-modal";
 
-const TERM = "Spring Quarter 2026";
+const TERM = CURRENT_TERM_LABEL;
 const PAGE_SIZE = 100;
 
 const GE_OPTIONS = [
@@ -686,15 +687,9 @@ export function ScheduleSearchModal({
                                   {s.seatsAvailable}/{s.seatsTotal} seats
                                 </span>
                               ) : (
-                                <a 
-                                  href={`https://my.ucdavis.edu/schedulebuilder/index.cfm?termCode=202603`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
-                                  onClick={(e) => e.stopPropagation()}
-                                >
-                                  Check live availability →
-                                </a>
+                                <span className="text-gray-500 dark:text-slate-400 font-medium">
+                                  Check live availability
+                                </span>
                               )}
                             </p>
                           </div>

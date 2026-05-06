@@ -8,10 +8,29 @@
     {
       "heading": "General Requirements",
       "courses": [
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
-        "GEL/ESP 150A",
-        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
-        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "GEL 116N/ESP 116N",
+        "or EPS 116"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "GEL/ESP/EPS 150A",
+        "GEL 150B/ESP 150B",
+        "or EPS 150B",
+        "GEL 150C/ESP 150C",
+        "or EPS 150C"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ATM 121A",
         "ATM 121B",
         "ATM 158",
@@ -24,19 +43,22 @@
         "EVE 114",
         "EVE 115",
         "GEL 108",
+        "or EPS 108",
         "GEL 109",
+        "or EPS 109",
         "GEL 152",
         "WFC 120",
         "WFC 157"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
-        "Choose two:",
         "Choose additional courses from above and/or from the following list to reach at least 18 total units for the minor:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.849Z"
 }

@@ -35,7 +35,11 @@
         "ATM 133",
         "BIS 002A",
         "BIS 002B",
-        "GEL 050050L",
+        "BIO 001",
+        "BIO 002",
+        "EPS 050",
+        "GEL 050",
+        "GEL 050L",
         "ECS 111",
         "ECS 115",
         "ECS 116",
@@ -51,9 +55,9 @@
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
-        "CHE 002AH",
+        "or CHE 002AH",
         "CHE 002B",
-        "CHE 002BH"
+        "or CHE 002BH"
       ],
       "units": "5",
       "notes": []
@@ -61,23 +65,33 @@
     {
       "heading": "Civil Engineering",
       "courses": [
-        "ECI 016",
-        "ECI 003",
-        "ECI 101"
+        "ECI 016"
       ],
       "units": "2-6",
       "notes": [
-        "AND choose one:"
+        "AND"
+      ]
+    },
+    {
+      "heading": "Civil Engineering",
+      "courses": [
+        "ECI 003",
+        "or ECI 101"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one: 1",
+        "OR"
       ]
     },
     {
       "heading": "Engineering",
       "courses": [
         "ENG 003",
-        "ENG 003Y",
+        "or ENG 003Y",
         "ENG 006",
-        "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032A",
+        "or ECS 032AV",
         "ENG 035"
       ],
       "units": "4",
@@ -91,34 +105,34 @@
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y"
+        "or UWP 001V",
+        "or UWP 001Y"
       ],
       "units": "4",
       "notes": [
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (69-74 units)"
       ]
     },
     {
       "heading": "Engineering",
       "courses": [
         "ECI 100",
-        "ENG 103",
+        "or ENG 103",
         "ENG 102",
-        "ENG 105",
-        "ENG 102",
-        "ENG 105",
+        "or ENG 105",
         "ENG 104",
-        "ENG 104V",
+        "or ENG 104V",
         "ENG 104L",
         "ENG 106"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "If both ENG 102 & ENG 105 are completed, the additional 4 units will be considered towards the ECI elective requirement."
+      ]
     },
     {
       "heading": "Civil Engineering",
@@ -142,16 +156,22 @@
       "notes": []
     },
     {
+      "heading": "Civil & Environmental Engineering Breadth",
+      "courses": [],
+      "units": "16-18",
+      "notes": [
+        "Choose one course from five of the following group options:",
+        "To satisfy Geotechnical & Water Resources breadth area groups, both lecture and lab courses must be completed."
+      ]
+    },
+    {
       "heading": "Construction Engineering & Management",
       "courses": [
         "ECI 137",
         "ECI 153"
       ],
       "units": "",
-      "notes": [
-        "Choose one course from five of the following group options:",
-        "To satisfy Geotechnical & Water Resources breadth area groups, both lecture and lab courses must be completed."
-      ]
+      "notes": []
     },
     {
       "heading": "Environment",
@@ -203,6 +223,14 @@
       "notes": []
     },
     {
+      "heading": "Civil & Environmental Engineering Depth",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose two courses from two of the following group options selected from Civil & Environmental Engineering Breadth:"
+      ]
+    },
+    {
       "heading": "Construction Engineering & Management",
       "courses": [
         "ECI 133",
@@ -211,12 +239,11 @@
         "ECI 178",
         "ECI 179",
         "ECI 181",
-        "ECI 182"
+        "ECI 182",
+        "ECI 183"
       ],
       "units": "",
-      "notes": [
-        "Choose two courses from two of the following group options selected from Civil & Environmental Engineering Breadth:"
-      ]
+      "notes": []
     },
     {
       "heading": "Environment",
@@ -233,6 +260,7 @@
       "courses": [
         "ECI 173",
         "ECI 175",
+        "ECI 178",
         "ECI 179"
       ],
       "units": "",
@@ -259,6 +287,7 @@
         "ECI 161",
         "ECI 162",
         "ECI 164",
+        "ECI 178",
         "ECI 179"
       ],
       "units": "",
@@ -277,29 +306,39 @@
       "notes": []
     },
     {
+      "heading": "Civil & Environmental Engineering Electives",
+      "courses": [],
+      "units": "12-16",
+      "notes": [
+        "Civil & Environmental Engineering electives may include any upper division, letter-graded Civil & Environmental Engineering courses; e.g., not already used towards the ECI breadth, ECI depth, and Numerical Methods requirements. (12-16 units)"
+      ]
+    },
+    {
+      "heading": "Civil Engineering Competency Requirement",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "No additional units are necessary as students can count these as competency and another major requirement."
+      ]
+    },
+    {
       "heading": "Material Science Competency; complete one of the following options:",
       "courses": [
         "ECI 133",
-        "ECI 132",
+        "or ECI 132",
         "ECI 135",
         "ECI 171",
-        "ECI 173",
-        "ECI 178",
-        "ECI 145",
-        "ECI 149L",
-        "ECI 162",
         "ECI 173",
         "ECI 178"
       ],
       "units": "0-4",
       "notes": [
-        "Civil & Environmental Engineering electives may include any upper division, letter-graded Civil & Environmental Engineering courses; e.g., not already used towards the ECI breadth, ECI depth, and Numerical Methods requirements.",
-        "No additional units are necessary as students can count these as competency and another major requirement.",
+        "OR",
         "Complete two of the following courses:"
       ]
     },
     {
-      "heading": "Design Competency; complete one of the following:",
+      "heading": "Design Competency; complete one of the following courses:",
       "courses": [
         "ECI 140CN",
         "ECI 145",
@@ -313,28 +352,28 @@
     },
     {
       "heading": "Career Development Competency; complete one of the following:",
-      "courses": [
-        "ECI 192",
-        "ECI 199",
-        "ECI 198"
-      ],
+      "courses": [],
       "units": "0-1",
       "notes": [
-        "CEE Career Development Seminar; winter quarter – 10 weeks, 1 unit",
-        "Construction Engineering & Management Seminar; fall, spring – 10 weeks, 1 unit."
+        "Internship or Relevant Work Experience; minimum ECI 192, 1 unit.",
+        "Research experience with faculty member; minimum ECI 199, 1 quarter.",
+        "Participation in an Engineering Student Professional Organization in a design or project team (American Society of Civil Engineering competition teams, Engineers Without Borders projects, Construction Engineering and Management Teams, etc.); minimum 1 unit of ECI 198 units.",
+        "ECI 191A: Advocating for Equity in Engineering; 10 weeks, 1 unit.",
+        "ECI 191B: Construction Engineering & Management Seminar; 10 weeks, 1 unit.",
+        "ECI 191C: CEE Career Development Seminar; 10 weeks, 1 unit"
       ]
     },
     {
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102E",
         "UWP 102G",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
@@ -342,11 +381,13 @@
       "notes": [
         "Choose one: a grade of C- or better is required:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Requirements Subtotal"
+        "Upper Division Requirements Subtotal (77-90 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "150"
+  "total_units": "150",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.108Z"
 }

@@ -1,0 +1,73 @@
+{
+  "course_id": "ANT133",
+  "course_title": "Anthropology of Ocean Worlds",
+  "overall_grades": {
+    "A+": 2,
+    "A": 32,
+    "A-": 13,
+    "B+": 8,
+    "B": 2,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 2,
+    "P*": 2
+  },
+  "overall_gpa": 3.67,
+  "overall_enrolled": 61,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jeffrey Kahn",
+      "professor_slug": "jeffrey-kahn",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 32,
+            "A-": 13,
+            "B+": 8,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 61
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 32,
+            "A-": 13,
+            "B+": 8,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 61
+        }
+      }
+    }
+  ]
+}

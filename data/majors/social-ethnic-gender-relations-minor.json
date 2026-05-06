@@ -6,22 +6,31 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Restriction",
+      "heading": "General Requirements",
       "courses": [],
       "units": "20",
       "notes": [
         "Choose one upper division course from five of the following six groups to total 20 units:",
-        "(1) African American & African Studies.",
-        "(2) Asian American Studies.",
-        "(3) Chicana/o Studies.",
+        "(1) African American & African Studies (AAS).",
+        "(2) Asian American Studies (ASA).",
+        "(3) Chicana/o Studies (CHI).",
         "(4) Gender, Sexuality & Women's Studies.",
-        "(5) Native American Studies.",
-        "(6) American Studies; with Domestic Diversity GE designation.",
+        "(5) Native American Studies (NAS).",
+        "(6) American Studies (AMS); with Domestic Diversity GE designation."
+      ]
+    },
+    {
+      "heading": "Restriction",
+      "courses": [],
+      "units": "",
+      "notes": [
         "No more than one course applied toward the satisfaction of a major may be offered in satisfaction of the minor."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.214Z"
 }

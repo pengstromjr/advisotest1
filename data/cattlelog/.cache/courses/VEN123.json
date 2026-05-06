@@ -1,0 +1,180 @@
+{
+  "course_id": "VEN123",
+  "course_title": "Analysis of Musts & Wines",
+  "overall_grades": {
+    "A+": 14,
+    "A": 50,
+    "A-": 39,
+    "B+": 34,
+    "B": 69,
+    "B-": 19,
+    "C+": 13,
+    "C": 23,
+    "C-": 20,
+    "D+": 6,
+    "D": 13,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3,
+  "overall_enrolled": 300,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ben Montpetit",
+      "professor_slug": "ben-montpetit",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 12,
+            "B+": 9,
+            "B": 30,
+            "B-": 3,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 93
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 12,
+            "B+": 9,
+            "B": 30,
+            "B-": 3,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 93
+        }
+      }
+    },
+    {
+      "professor_name": "Liang Chen",
+      "professor_slug": "liang-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 2,
+            "A-": 3,
+            "B+": 4,
+            "B": 6,
+            "B-": 1,
+            "C+": 1,
+            "C": 2,
+            "C-": 8,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 30
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 2,
+            "A-": 3,
+            "B+": 4,
+            "B": 6,
+            "B-": 1,
+            "C+": 1,
+            "C": 2,
+            "C-": 8,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 30
+        }
+      }
+    },
+    {
+      "professor_name": "Patricia Howe",
+      "professor_slug": "patricia-howe",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 30,
+            "A-": 24,
+            "B+": 21,
+            "B": 33,
+            "B-": 15,
+            "C+": 6,
+            "C": 18,
+            "C-": 12,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 177
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 21,
+            "A-": 15,
+            "B+": 12,
+            "B": 21,
+            "B-": 6,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 93
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 9,
+            "B+": 9,
+            "B": 12,
+            "B-": 9,
+            "C+": 3,
+            "C": 12,
+            "C-": 9,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 84
+        }
+      }
+    }
+  ]
+}

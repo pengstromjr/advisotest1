@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.6,
+    "department": "Economics",
+    "firstName": "John",
+    "id": "VGVhY2hlci0yMDI2OA==",
+    "lastName": "Constantine",
+    "legacyId": 20268,
+    "numRatings": 253,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 54.8387
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.2,
+    "department": "Agricultural Economics",
+    "firstName": "John",
+    "id": "VGVhY2hlci0xOTM4NTEz",
+    "lastName": "Constantine ",
+    "legacyId": 1938513,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 63.6364
+  }
+]

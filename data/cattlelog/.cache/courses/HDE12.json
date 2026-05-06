@@ -1,0 +1,208 @@
+{
+  "course_id": "HDE12",
+  "course_title": "Human Sexuality",
+  "overall_grades": {
+    "A+": 483,
+    "A": 1809,
+    "A-": 1420,
+    "B+": 1183,
+    "B": 1022,
+    "B-": 498,
+    "C+": 304,
+    "C": 200,
+    "C-": 90,
+    "D+": 37,
+    "D": 31,
+    "D-": 6,
+    "F": 38,
+    "P*": 717,
+    "NP*": 67
+  },
+  "overall_gpa": 3.38,
+  "overall_enrolled": 7905,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lisa Rapalyea",
+      "professor_slug": "lisa-rapalyea",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 483,
+            "A": 1809,
+            "A-": 1420,
+            "B+": 1183,
+            "B": 1022,
+            "B-": 498,
+            "C+": 304,
+            "C": 200,
+            "C-": 90,
+            "D+": 37,
+            "D": 31,
+            "D-": 6,
+            "F": 38,
+            "P*": 717,
+            "NP*": 67
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 7905
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 336,
+            "A-": 276,
+            "B+": 264,
+            "B": 165,
+            "B-": 75,
+            "C+": 60,
+            "C": 36,
+            "C-": 9,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 3,
+            "P*": 129,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 1407
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 123,
+            "A": 288,
+            "A-": 210,
+            "B+": 141,
+            "B": 204,
+            "B-": 90,
+            "C+": 48,
+            "C": 48,
+            "C-": 27,
+            "D+": 15,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 120,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 1350
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 330,
+            "A-": 270,
+            "B+": 234,
+            "B": 219,
+            "B-": 96,
+            "C+": 57,
+            "C": 36,
+            "C-": 18,
+            "D+": 9,
+            "D": 9,
+            "D-": 0,
+            "F": 12,
+            "P*": 90,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 1431
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 99,
+            "A-": 76,
+            "B+": 60,
+            "B": 67,
+            "B-": 46,
+            "C+": 18,
+            "C": 11,
+            "C-": 8,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 34,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 463
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 138,
+            "A": 300,
+            "A-": 249,
+            "B+": 213,
+            "B": 168,
+            "B-": 93,
+            "C+": 69,
+            "C": 27,
+            "C-": 3,
+            "D+": 9,
+            "D": 6,
+            "D-": 3,
+            "F": 3,
+            "P*": 132,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 1428
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 360,
+            "A-": 249,
+            "B+": 198,
+            "B": 135,
+            "B-": 66,
+            "C+": 33,
+            "C": 30,
+            "C-": 18,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 171,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 1368
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 96,
+            "A-": 90,
+            "B+": 73,
+            "B": 64,
+            "B-": 32,
+            "C+": 19,
+            "C": 12,
+            "C-": 7,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 41,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 458
+        }
+      }
+    }
+  ]
+}

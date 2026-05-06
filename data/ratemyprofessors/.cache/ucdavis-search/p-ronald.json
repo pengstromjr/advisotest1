@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chemical Engineering",
+    "firstName": "Ron",
+    "id": "VGVhY2hlci0zMTE1NjQz",
+    "lastName": "Runnebaum",
+    "legacyId": 3115643,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.2,
+    "department": "Computer Science",
+    "firstName": "Ron",
+    "id": "VGVhY2hlci0zODYwNjc=",
+    "lastName": "Olsson",
+    "legacyId": 386067,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.1,
+    "department": "Environmental Toxicology",
+    "firstName": "Ronald",
+    "id": "VGVhY2hlci0zNjg2ODg=",
+    "lastName": "Tjeerdema",
+    "legacyId": 368688,
+    "numRatings": 59,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.4,
+    "department": "Engineering",
+    "firstName": "Ron",
+    "id": "VGVhY2hlci0zNTg3ODk=",
+    "lastName": "Hess",
+    "legacyId": 358789,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.6,
+    "department": "Pathology",
+    "firstName": "Pamela",
+    "id": "VGVhY2hlci0xMTc1NjQ1",
+    "lastName": "Ronald",
+    "legacyId": 1175645,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4.8,
+    "department": "Physical Education",
+    "firstName": "Ron",
+    "id": "VGVhY2hlci0xMTgzMzA3",
+    "lastName": "Manara",
+    "legacyId": 1183307,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.8,
+    "department": "Engineering",
+    "firstName": "Ronald",
+    "id": "VGVhY2hlci0zNzY3NTk=",
+    "lastName": "Phillips",
+    "legacyId": 376759,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Fine Arts",
+    "firstName": "Ronald",
+    "id": "VGVhY2hlci05NDQ2NzE=",
+    "lastName": "Cunningham",
+    "legacyId": 944671,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 2.4,
+    "department": "Chemistry",
+    "firstName": "W. Ronald",
+    "id": "VGVhY2hlci0xNTgzNjk=",
+    "lastName": "Fawcett",
+    "legacyId": 158369,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.9,
+    "department": "Agriculture",
+    "firstName": "Aaron",
+    "id": "VGVhY2hlci04MzM2Mzk=",
+    "lastName": "Smith",
+    "legacyId": 833639,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

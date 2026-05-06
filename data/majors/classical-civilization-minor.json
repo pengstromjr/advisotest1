@@ -13,22 +13,30 @@
         "CLA 003",
         "CLA 004"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose one:",
-        "Choose one upper division course in:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "Choose one upper division course in: 1 (4 units)",
         "Latin (LAT)",
+        "OR",
         "Greek (GRK)",
         "Choose two additional upper division courses in:",
         "Classics (CLA)",
-        "Greek (GRK)",
-        "Latin (LAT)",
-        "Choose one additional upper division course selected from either group (a) or (b) in the Classical Civilization major in either track.",
+        "Choose one additional upper division course selected from either group (a) or (b) in the Classical Civilization major in either track. (4 units)",
         "Classical Civilization"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.128Z"
 }

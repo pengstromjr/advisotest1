@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3.1,
+    "department": "English",
+    "firstName": "DJ",
+    "id": "VGVhY2hlci0yMzk1NTIz",
+    "lastName": "Quinn",
+    "legacyId": 2395523,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.4545
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.8,
+    "department": "History",
+    "firstName": "Quinn",
+    "id": "VGVhY2hlci0xODczNjE2",
+    "lastName": "Javers",
+    "legacyId": 1873616,
+    "numRatings": 46,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 59.4595
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Writing",
+    "firstName": "Dennis",
+    "id": "VGVhY2hlci0yMzQ4Mjg0",
+    "lastName": "Quinn",
+    "legacyId": 2348284,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "University Writing Program",
+    "firstName": "Dennis",
+    "id": "VGVhY2hlci0yNjYxNDg0",
+    "lastName": "Quinn",
+    "legacyId": 2661484,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

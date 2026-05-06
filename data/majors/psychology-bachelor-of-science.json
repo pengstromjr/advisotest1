@@ -9,103 +9,155 @@
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
         "PSC/CMN/SOC/POL 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017B",
-        "MAT 021AMAT 021B"
+        "MAT 016A",
+        "or MAT 016B",
+        "or MAT 017A",
+        "or MAT 017B",
+        "or MAT 021A",
+        "or MAT 021B"
       ],
       "units": "6-8",
       "notes": [
-        "Choose one series:"
-      ]
+        "Choose one series:",
+        "OR"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
         "PHY 007A",
         "PHY 007B",
-        "PHY 010",
-        "PHY 010C",
-        "PHY 010CY",
-        "PHY 007APHY 007B",
-        "PHY 010",
-        "PHY 010C",
-        "PHY 010CY"
+        "or PHY 010",
+        "or PHY 010C",
+        "or PHY 010CY"
       ],
       "units": "3-8",
-      "notes": []
+      "notes": [
+        "Choose (PHY 007A & PHY 007B) or (PHY 010 or PHY 010C or PHY 010CY):",
+        "OR"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
-      "heading": "Biological Science",
+      "heading": "Biological Science; choose an option: Option 1",
       "courses": [
         "BIS 002A",
         "BIS 002B",
         "BIS 002C"
       ],
-      "units": "5",
-      "notes": []
+      "units": "",
+      "notes": [
+        "Biological Science; choose an option: choose an option"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Biological Science; choose an option: Option 2",
+      "courses": [
+        "BIO 001",
+        "BIO 001L",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
+      ],
+      "units": "",
+      "notes": [
+        "Biological Science; choose an option: choose an option"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
-        "CHE 002B",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118B",
-        "CHE 128ACHE 128B"
+        "CHE 002B"
       ],
       "units": "5",
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 128A",
+        "or CHE 128B"
+      ],
+      "units": "6-8",
       "notes": [
         "Choose one series:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "OR",
+        "Preparatory Subject Matter Subtotal (51-61 units)"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "NPB 101"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience; choose two:",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 130",
         "PSC 131",
         "PSC 132",
@@ -115,7 +167,9 @@
         "PSC 139"
       ],
       "units": "8",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group B: Psychobiology; choose three:",
@@ -132,16 +186,18 @@
         "PSC 159"
       ],
       "units": "10-12",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group C: Social/Personality; choose one:",
       "courses": [
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "PSC 152",
         "PSC 154",
-        "PSC 154V",
+        "or PSC 154V",
         "PSC 158",
         "PSC 161",
         "PSC 162",
@@ -149,18 +205,20 @@
         "PSC 168"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group D: Developmental; choose one:",
       "courses": [
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
-        "HDE 100A",
-        "HDE 100AV",
-        "HDE 100B",
-        "HDE 100BV",
+        "or PSC 140V",
+        "or PSC 140Y",
+        "or HDE 100A",
+        "or HDE 100AV",
+        "or HDE 100B",
+        "or HDE 100BV",
         "PSC 141",
         "PSC 142",
         "PSC 143",
@@ -169,12 +227,13 @@
         "PSC 148"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Approved Psychology Electives",
       "courses": [
-        "PSC 197T",
         "PSC 103A",
         "PSC 103B",
         "PSC 104",
@@ -184,7 +243,7 @@
         "PSC 134",
         "PSC 138",
         "PSC 150",
-        "PSC 150V",
+        "or PSC 150V",
         "PSC 153",
         "PSC 155",
         "PSC 156",
@@ -207,8 +266,11 @@
       ],
       "units": "",
       "notes": [
+        "Any upper division Psychology (PSC) course(s), except PSC 197T, including:",
         "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
-      ]
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Non-Psychology Elective Options",
@@ -220,15 +282,15 @@
         "CHI 122",
         "CHI 123",
         "CMN 120",
-        "CMN 120V",
+        "or CMN 120V",
         "CMN 122",
         "CNS 100",
         "EDU 110",
         "EXB 102",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C",
         "HDE/ENT 117",
         "HDE 163",
@@ -241,44 +303,54 @@
         "SOC 152",
         "SOC 171"
       ],
-      "units": "47-51",
+      "units": "49-51",
       "notes": [
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (49-51 units)"
+      ],
+      "group": "Biological Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
-        "PSC/CMN/SOC/POL 012Y",
+        "PSC/CMN/POL 012Y",
+        "SOC 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -288,92 +360,139 @@
         "MAT 021C"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
         "CHE 002B",
-        "CHE 002AH",
-        "CHE 002BH",
-        "CHE 010",
-        "CHE 002ACHE 002B",
-        "CHE 002AHCHE 002BH",
-        "CHE 010"
+        "or CHE 002AH",
+        "or CHE 002BH",
+        "or CHE 010"
       ],
       "units": "4-10",
-      "notes": []
+      "notes": [
+        "Choose (CHE 002A & CHE 002B) or (CHE 002AH & CHE 002BH) or CHE 010:",
+        "OR"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
         "PHY 007A",
         "PHY 007B",
-        "PHY 010",
-        "PHY 010C",
-        "PHY 010CY",
-        "PHY 007APHY 007B",
-        "PHY 010",
-        "PHY 010C",
-        "PHY 010CY"
+        "or PHY 010",
+        "or PHY 010C",
+        "or PHY 010CY"
       ],
       "units": "3-8",
-      "notes": []
+      "notes": [
+        "Choose (PHY 007A & PHY 007B) or (PHY 010 or PHY 010C or PHY 010CY):",
+        "OR"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
-      "heading": "Biology",
+      "heading": "Biology; choose an option: Option 1",
       "courses": [
-        "BIS 002A",
-        "BIS 002A",
         "BIS 010",
         "ANT 001",
-        "MCB 010",
-        "NPB 010"
+        "or MCB 010",
+        "or NPB 010",
+        "or ANT 001Y"
       ],
-      "units": "5-8",
+      "units": "",
       "notes": [
-        "OR a combination of:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Biology; choose an option: choose an option",
+        "AND"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Biology; choose an option: Option 2",
+      "courses": [
+        "BIO 001",
+        "or BIO 002",
+        "or BIO 003"
+      ],
+      "units": "",
+      "notes": [
+        "Biology; choose an option: choose an option",
+        "OR, if prerequisites are met, choose:"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Biology; choose an option: Option 3",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "39-54",
+      "notes": [
+        "Biology; choose an option: choose an option",
+        "Recommended, not required:",
+        "BIO 001LIntroductory Biology Lab: Ecology & Evolution",
+        "BIO 002LIntroductory Biology Lab: Molecules to Cells",
+        "Preparatory Subject Matter Subtotal (39-54 units)"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology Statistical Analysis and Applied Psychometrics Courses",
       "courses": [
         "PSC 103A",
         "PSC 103B",
-        "PSC 104"
+        "or PSC 104"
       ],
       "units": "5",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
       "courses": [
-        "STA 106STA 108",
-        "STA 130ASTA 130B",
-        "STA 131ASTA 131B"
+        "STA 106",
+        "STA 108",
+        "or STA 130A",
+        "or STA 130B",
+        "or STA 131A",
+        "or STA 131B"
       ],
       "units": "8",
       "notes": [
-        "Choose one series:"
-      ]
+        "Choose one series:",
+        "OR"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience; choose two:",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 130",
         "PSC 131",
         "PSC 132",
@@ -383,7 +502,9 @@
         "PSC 139"
       ],
       "units": "8",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group B: Psychobiology: choose two:",
@@ -400,16 +521,18 @@
         "PSC 159"
       ],
       "units": "6-8",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group C: Social/Personality",
       "courses": [
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "PSC 152",
         "PSC 154",
-        "PSC 154V",
+        "or PSC 154V",
         "PSC 158",
         "PSC 161",
         "PSC 162",
@@ -417,18 +540,20 @@
         "PSC 168"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Core Group D: Developmental",
       "courses": [
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
-        "HDE 100A",
-        "HDE 100AV",
-        "HDE 100B",
-        "HDE 100BV",
+        "or PSC 140V",
+        "or PSC 140Y",
+        "or HDE 100A",
+        "or HDE 100AV",
+        "or HDE 100B",
+        "or HDE 100BV",
         "PSC 141",
         "PSC 142",
         "PSC 143",
@@ -437,18 +562,19 @@
         "PSC 148"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Approved Psychology Electives",
       "courses": [
-        "PSC 197T",
         "PSC 120",
         "PSC 124L",
         "PSC 134",
         "PSC 138",
         "PSC 150",
-        "PSC 150V",
+        "or PSC 150V",
         "PSC 153",
         "PSC 155",
         "PSC 156",
@@ -471,8 +597,11 @@
       ],
       "units": "",
       "notes": [
+        "Any upper division Psychology (PSC) course(s), except PSC 197T, including:",
         "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
-      ]
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Non-Psychology Elective Options",
@@ -484,18 +613,18 @@
         "CHI 122",
         "CHI 123",
         "CMN 120",
-        "CMN 120V",
+        "or CMN 120V",
         "CMN 122",
         "CNS 100",
         "EDU 110",
         "EXB 102",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C",
         "HDE 117",
-        "ENT 117",
+        "or ENT 117",
         "HDE 163",
         "LIN 171",
         "NPB 102",
@@ -506,16 +635,24 @@
         "SOC 152",
         "SOC 171"
       ],
-      "units": "45-51",
+      "units": "48-51",
       "notes": [
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (48-51 units)"
+      ],
+      "group": "Quantitative Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [
-    "Honors & Honors Program: In order to be eligible for high or highest honors in Psychology, the student must both meet the college criteria for honors and complete a research project involving a minimum of 6 units of coursework over at least two quarters which represents an original analysis of data on psychological phenomena. Courses PSC 194HA-PSC 194HB or other approved courses can be used to satisfy the unit requirement. This project is to be written in thesis form and approved by the department. The quality of the th",
-    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities."
+  "specializations": [
+    "Biological Emphasis",
+    "Quantitative Emphasis"
   ],
-  "total_units": "99"
+  "advising_notes": [
+    "Honors & Honors Program: In order to be eligible for high or highest honors in Psychology, the student must both meet the college criteria for honors and complete a research project involving a minimum of 6 units of coursework over at least two quarters which represents an original analysis of data on psychological phenomena. Courses PSC 194HA-PSC 194HB or other approved courses can be used to satisfy the unit requirement. This project is to be written in thesis form and approved by the department. The quality of the thesis work will be the primary determinant for designating high or highest honors at graduation.",
+    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities.",
+    "Major Advising: For information about how to contact a major advisor, see Major Advising."
+  ],
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.084Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.7,
+    "department": "Environmental Science & Policy",
+    "firstName": "James",
+    "id": "VGVhY2hlci0xMjk4Nzk3",
+    "lastName": "Sanchirico",
+    "legacyId": 1298797,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  }
+]

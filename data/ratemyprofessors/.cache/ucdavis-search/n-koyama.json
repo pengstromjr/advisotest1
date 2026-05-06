@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.6,
+    "department": "Japanese",
+    "firstName": "Nobuko",
+    "id": "VGVhY2hlci0xODgxMjMx",
+    "lastName": "Koyama",
+    "legacyId": 1881231,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

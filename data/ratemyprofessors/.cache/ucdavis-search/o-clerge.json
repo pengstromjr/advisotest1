@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.7,
+    "department": "Sociology",
+    "firstName": "Orly",
+    "id": "VGVhY2hlci0yNDU4NjUz",
+    "lastName": "Clerge",
+    "legacyId": 2458653,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 31.8182
+  }
+]

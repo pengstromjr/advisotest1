@@ -1,0 +1,133 @@
+{
+  "course_id": "EEC160",
+  "course_title": "Signal Analysis & Communications",
+  "overall_grades": {
+    "A+": 3,
+    "A": 69,
+    "A-": 60,
+    "B+": 54,
+    "B": 66,
+    "B-": 41,
+    "C+": 37,
+    "C": 50,
+    "C-": 18,
+    "D+": 6,
+    "D": 19,
+    "D-": 6,
+    "F": 3,
+    "P*": 3
+  },
+  "overall_gpa": 2.88,
+  "overall_enrolled": 435,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Zhi Ding",
+      "professor_slug": "zhi-ding",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 69,
+            "A-": 60,
+            "B+": 54,
+            "B": 66,
+            "B-": 41,
+            "C+": 37,
+            "C": 50,
+            "C-": 18,
+            "D+": 6,
+            "D": 19,
+            "D-": 6,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 435
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 18,
+            "B+": 9,
+            "B": 18,
+            "B-": 3,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 81
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 21,
+            "B+": 18,
+            "B": 27,
+            "B-": 18,
+            "C+": 3,
+            "C": 15,
+            "C-": 3,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 135
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 15,
+            "B+": 18,
+            "B": 9,
+            "B-": 15,
+            "C+": 9,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 123
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 6,
+            "B+": 9,
+            "B": 12,
+            "B-": 5,
+            "C+": 19,
+            "C": 17,
+            "C-": 6,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 96
+        }
+      }
+    }
+  ]
+}

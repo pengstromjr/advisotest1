@@ -1,0 +1,70 @@
+{
+  "course_id": "AAS152",
+  "course_title": "Major Voices in Black World Literature",
+  "overall_grades": {
+    "A+": 6,
+    "A": 1,
+    "A-": 0,
+    "B+": 1,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 8,
+  "available_quarters": [
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Margaret Kemp",
+      "professor_slug": "margaret-kemp",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 1,
+            "A-": 0,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 8
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 1,
+            "A-": 0,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 8
+        }
+      }
+    }
+  ]
+}

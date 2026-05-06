@@ -1,0 +1,226 @@
+{
+  "course_id": "ANS104",
+  "course_title": "Principles & Applications of Domestic Animal Behavior",
+  "overall_grades": {
+    "A+": 172,
+    "A": 649,
+    "A-": 655,
+    "B+": 348,
+    "B": 413,
+    "B-": 264,
+    "C+": 147,
+    "C": 110,
+    "C-": 53,
+    "D+": 17,
+    "D": 20,
+    "D-": 3,
+    "F": 13,
+    "P*": 13,
+    "NP*": 6
+  },
+  "overall_gpa": 3.32,
+  "overall_enrolled": 2883,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cassandra Tucker",
+      "professor_slug": "cassandra-tucker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 40,
+            "A": 328,
+            "A-": 435,
+            "B+": 239,
+            "B": 285,
+            "B-": 169,
+            "C+": 92,
+            "C": 68,
+            "C-": 28,
+            "D+": 7,
+            "D": 10,
+            "D-": 1,
+            "F": 5,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 1722
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 78,
+            "A-": 84,
+            "B+": 75,
+            "B": 54,
+            "B-": 18,
+            "C+": 18,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 363
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 99,
+            "A-": 138,
+            "B+": 69,
+            "B": 114,
+            "B-": 60,
+            "C+": 39,
+            "C": 24,
+            "C-": 12,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 585
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 120,
+            "A-": 168,
+            "B+": 75,
+            "B": 87,
+            "B-": 66,
+            "C+": 21,
+            "C": 21,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 579
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 31,
+            "A-": 45,
+            "B+": 20,
+            "B": 30,
+            "B-": 25,
+            "C+": 14,
+            "C": 14,
+            "C-": 7,
+            "D+": 1,
+            "D": 1,
+            "D-": 1,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 195
+        }
+      }
+    },
+    {
+      "professor_name": "Kristina Horback",
+      "professor_slug": "kristina-horback",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 132,
+            "A": 321,
+            "A-": 220,
+            "B+": 109,
+            "B": 128,
+            "B-": 95,
+            "C+": 55,
+            "C": 42,
+            "C-": 25,
+            "D+": 10,
+            "D": 10,
+            "D-": 2,
+            "F": 8,
+            "NP*": 3,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 1161
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 111,
+            "A-": 60,
+            "B+": 48,
+            "B": 30,
+            "B-": 42,
+            "C+": 18,
+            "C": 0,
+            "C-": 15,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 381
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 162,
+            "A-": 117,
+            "B+": 39,
+            "B": 72,
+            "B-": 42,
+            "C+": 30,
+            "C": 27,
+            "C-": 6,
+            "D+": 3,
+            "D": 9,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 582
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 43,
+            "B+": 22,
+            "B": 26,
+            "B-": 11,
+            "C+": 7,
+            "C": 15,
+            "C-": 4,
+            "D+": 4,
+            "D": 1,
+            "D-": 2,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 198
+        }
+      }
+    }
+  ]
+}

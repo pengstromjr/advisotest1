@@ -1,0 +1,186 @@
+{
+  "course_id": "FST10",
+  "course_title": "Food Science, Folklore & Health",
+  "overall_grades": {
+    "A+": 1857,
+    "A": 1637,
+    "A-": 779,
+    "B+": 553,
+    "B": 447,
+    "B-": 251,
+    "C+": 161,
+    "C": 104,
+    "C-": 77,
+    "D+": 30,
+    "D": 27,
+    "D-": 15,
+    "F": 67,
+    "P*": 548,
+    "NP*": 69
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 6622,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Bwalya Lungu",
+      "professor_slug": "bwalya-lungu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1857,
+            "A": 1637,
+            "A-": 779,
+            "B+": 553,
+            "B": 447,
+            "B-": 251,
+            "C+": 161,
+            "C": 104,
+            "C-": 77,
+            "D+": 30,
+            "D": 27,
+            "D-": 15,
+            "F": 67,
+            "P*": 548,
+            "NP*": 69
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 6622
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 549,
+            "A": 390,
+            "A-": 126,
+            "B+": 81,
+            "B": 81,
+            "B-": 36,
+            "C+": 30,
+            "C": 12,
+            "C-": 18,
+            "D+": 3,
+            "D": 9,
+            "D-": 0,
+            "F": 12,
+            "P*": 114,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 1464
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 318,
+            "A": 126,
+            "A-": 72,
+            "B+": 63,
+            "B": 69,
+            "B-": 42,
+            "C+": 27,
+            "C": 15,
+            "C-": 21,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 12,
+            "P*": 84,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 876
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 318,
+            "A": 465,
+            "A-": 258,
+            "B+": 156,
+            "B": 102,
+            "B-": 63,
+            "C+": 42,
+            "C": 21,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 12,
+            "P*": 54,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 1512
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 258,
+            "A": 255,
+            "A-": 96,
+            "B+": 72,
+            "B": 60,
+            "B-": 48,
+            "C+": 33,
+            "C": 27,
+            "C-": 21,
+            "D+": 6,
+            "D": 12,
+            "D-": 3,
+            "F": 18,
+            "P*": 81,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 1011
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 56,
+            "A-": 38,
+            "B+": 28,
+            "B": 36,
+            "B-": 14,
+            "C+": 14,
+            "C": 8,
+            "C-": 5,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 4,
+            "P*": 32,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 304
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 360,
+            "A": 345,
+            "A-": 189,
+            "B+": 153,
+            "B": 99,
+            "B-": 48,
+            "C+": 15,
+            "C": 21,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 6,
+            "F": 9,
+            "P*": 183,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 1455
+        }
+      }
+    }
+  ]
+}

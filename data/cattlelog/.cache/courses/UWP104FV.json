@@ -1,0 +1,348 @@
+{
+  "course_id": "UWP104FV",
+  "course_title": "Writing in the Professions: Health",
+  "overall_grades": {
+    "A+": 188,
+    "A": 439,
+    "A-": 41,
+    "B+": 10,
+    "B": 3,
+    "B-": 10,
+    "C+": 0,
+    "C": 5,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 5,
+    "P*": 6,
+    "NP*": 3
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 710,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brendan Johnston",
+      "professor_slug": "brendan-johnston",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 96,
+            "A-": 13,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 149
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 48,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 75
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 18,
+            "A-": 2,
+            "B+": 0,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 25
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 30,
+            "A-": 5,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Jane Beal",
+      "professor_slug": "jane-beal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 103,
+            "A": 68,
+            "A-": 14,
+            "B+": 0,
+            "B": 0,
+            "B-": 4,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 197
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 21,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 75
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 9,
+            "A-": 1,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 25
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 30,
+            "A-": 9,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 72
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 8,
+            "A-": 1,
+            "B+": 0,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Sarah Faye",
+      "professor_slug": "sarah-faye",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 55,
+            "A": 120,
+            "A-": 13,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 194
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 81,
+            "A-": 12,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 144
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 39,
+            "A-": 1,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 50
+        }
+      }
+    },
+    {
+      "professor_name": "Theresa Walsh",
+      "professor_slug": "theresa-walsh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 155,
+            "A-": 1,
+            "B+": 4,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 170
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 135,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 147
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 20,
+            "A-": 1,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 23
+        }
+      }
+    }
+  ]
+}

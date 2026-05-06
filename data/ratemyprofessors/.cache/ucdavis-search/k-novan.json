@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4.3,
+    "department": "Agricultural & Resource Economics",
+    "firstName": "Kevin",
+    "id": "VGVhY2hlci0yNDIyMDcy",
+    "lastName": "Novan",
+    "legacyId": 2422072,
+    "numRatings": 49,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.6327
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "course_id": "EEC266",
+  "course_title": "Information Theory & Coding",
+  "overall_grades": {
+    "A+": 13,
+    "A": 23,
+    "A-": 30,
+    "B+": 10,
+    "B": 16,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 96,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lifeng Lai",
+      "professor_slug": "lifeng-lai",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 23,
+            "A-": 30,
+            "B+": 10,
+            "B": 16,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 96
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 21,
+            "B+": 9,
+            "B": 12,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 69
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 8,
+            "A-": 9,
+            "B+": 1,
+            "B": 4,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 27
+        }
+      }
+    }
+  ]
+}

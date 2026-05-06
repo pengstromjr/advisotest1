@@ -1,0 +1,161 @@
+{
+  "course_id": "MUS7A",
+  "course_title": "Intermediate Theory, Part 1",
+  "overall_grades": {
+    "A+": 35,
+    "A": 91,
+    "A-": 34,
+    "B+": 19,
+    "B": 27,
+    "B-": 14,
+    "C+": 16,
+    "C": 4,
+    "C-": 0,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "NP*": 6,
+    "P*": 6
+  },
+  "overall_gpa": 3.54,
+  "overall_enrolled": 254,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Bryndan Moondy",
+      "professor_slug": "bryndan-moondy",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 9,
+            "B+": 0,
+            "B": 3,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 51
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 9,
+            "B+": 0,
+            "B": 3,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 51
+        }
+      }
+    },
+    {
+      "professor_name": "Kurt Rohde",
+      "professor_slug": "kurt-rohde",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 32,
+            "A": 64,
+            "A-": 25,
+            "B+": 19,
+            "B": 24,
+            "B-": 11,
+            "C+": 13,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 6,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 203
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 33,
+            "A-": 6,
+            "B+": 6,
+            "B": 9,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 81
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 24,
+            "A-": 12,
+            "B+": 9,
+            "B": 12,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 93
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 7,
+            "A-": 7,
+            "B+": 4,
+            "B": 3,
+            "B-": 2,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 29
+        }
+      }
+    }
+  ]
+}

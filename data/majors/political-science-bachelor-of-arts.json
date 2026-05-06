@@ -6,62 +6,76 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "General Requirements",
+      "heading": "Political Science",
       "courses": [
-        "POL 001",
-        "POL 001Y",
-        "POL 005",
-        "POL 100",
-        "POL 102",
-        "POL 104",
-        "POL 105",
-        "POL 106",
-        "POL 108",
-        "POL 109",
-        "POL 113",
-        "POL 130",
-        "POL 131",
-        "POL 160",
-        "POL 163"
+        "POL 051"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "Political Science",
       "courses": [
-        "POL 051",
         "POL 001",
-        "POL 001Y",
+        "or POL 001Y",
         "POL 002",
         "POL 003",
-        "POL 004",
+        "POL 004"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three: 1 (12 units)"
+      ]
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
         "POL 001",
-        "POL 001Y",
+        "or POL 001Y",
         "POL 002",
         "POL 003",
         "POL 004",
         "POL 005",
         "POL 007",
-        "POL 007V",
+        "or POL 007V",
         "POL 011A",
-        "POL 011AV",
+        "or POL 011AV",
         "POL 011B",
         "POL 011C",
         "POL 011D",
         "POL 012A",
-        "POL 012B",
-        "POL/CMN/SOC/PSC 012Y",
+        "POL 012B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one: 1 (4 units)"
+      ]
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "POL/CMN/PSC 012Y",
+        "SOC 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032"
       ],
       "units": "4",
       "notes": [
-        "Choose three:",
         "Choose one:",
-        "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24 units)"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Four courses in one of the fields of concentration listed below. (16 units)",
+        "Three courses in another field of concentration listed below. (12 units)",
+        "Two courses in another field of concentration listed below. (8 units)",
+        "Two other upper division courses in Political Science. 2 (8-9 units)"
       ]
     },
     {
@@ -69,15 +83,11 @@
       "courses": [],
       "units": "44-45",
       "notes": [
-        "Four courses in one of the fields of concentration listed below.",
-        "Three courses in another field of concentration listed below.",
-        "Two courses in another field of concentration listed below.",
-        "Two other upper division courses in Political Science.",
         "American Politics",
         "Comparative Politics",
         "International Relations",
         "Political Theory",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44-45 units)"
       ]
     },
     {
@@ -103,7 +113,7 @@
         "POL 163",
         "POL 164",
         "POL 165",
-        "POL 165V",
+        "or POL 165V",
         "POL 166",
         "POL 168",
         "POL 170",
@@ -118,7 +128,7 @@
         "POL 195",
         "POL 196A"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -149,7 +159,7 @@
         "POL 179",
         "POL 196B"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -173,7 +183,7 @@
         "POL 190",
         "POL 196C"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -193,13 +203,15 @@
         "POL 187",
         "POL 196D"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "American History & Institutions: This University requirement may be satisfied by passing any one of the following Political Science (POL) courses:1 Course List Code Title Units POL 001American National Government4 or POL 001Y American National Government POL 005Contemporary Problems of the American Political System4 POL 100Local Government & Politics4 POL 102Urban Public Policy4 POL 104California State Government & Politics4 POL 105The Legislative Process4 POL 106The Presidency4 POL 108Policy Making in the Public Sector4 POL 10"
+    "American History & Institutions: This University requirement may be satisfied by passing any one of the following Political Science (POL) courses:1 Course List Code Title Units POL 001American National Government4 or POL 001Y American National Government POL 005Contemporary Problems of the American Political System4 POL 100Local Government & Politics4 POL 102Urban Public Policy & Local Politics4 POL 104California State Government & Politics4 POL 105The Legislative Process4 POL 106The Presidency4 POL 108Policy Making in the Public Sector4 POL 109Public Policy & the Governmental Process4 POL 113American Political Thought4 POL 130Recent U.S. Foreign Policy4 POL 131Analysis of U.S. Foreign Policy4 POL 160American Political Parties4 POL 163Group Politics4 1 See also under American History & Institutions Requirement."
   ],
-  "total_units": "68"
+  "total_units": "68",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.002Z"
 }

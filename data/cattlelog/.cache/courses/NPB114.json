@@ -1,0 +1,141 @@
+{
+  "course_id": "NPB114",
+  "course_title": "Gastrointestinal Physiology",
+  "overall_grades": {
+    "A+": 22,
+    "A": 181,
+    "A-": 116,
+    "B+": 74,
+    "B": 127,
+    "B-": 40,
+    "C+": 44,
+    "C": 79,
+    "C-": 26,
+    "D+": 36,
+    "D": 29,
+    "D-": 39,
+    "F": 49,
+    "P*": 24,
+    "NP*": 15
+  },
+  "overall_gpa": 2.76,
+  "overall_enrolled": 901,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Erwin Bautista",
+      "professor_slug": "erwin-bautista",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 181,
+            "A-": 116,
+            "B+": 74,
+            "B": 127,
+            "B-": 40,
+            "C+": 44,
+            "C": 79,
+            "C-": 26,
+            "D+": 36,
+            "D": 29,
+            "D-": 39,
+            "F": 49,
+            "P*": 24,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 901
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 39,
+            "A-": 39,
+            "B+": 21,
+            "B": 30,
+            "B-": 12,
+            "C+": 15,
+            "C": 15,
+            "C-": 3,
+            "D+": 12,
+            "D": 15,
+            "D-": 27,
+            "F": 6,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.63,
+          "quarter_enrolled": 249
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 36,
+            "A-": 12,
+            "B+": 24,
+            "B": 39,
+            "B-": 12,
+            "C+": 9,
+            "C": 33,
+            "C-": 6,
+            "D+": 9,
+            "D": 3,
+            "D-": 9,
+            "F": 15,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 225
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 81,
+            "A-": 42,
+            "B+": 18,
+            "B": 42,
+            "B-": 12,
+            "C+": 18,
+            "C": 21,
+            "C-": 12,
+            "D+": 12,
+            "D": 6,
+            "D-": 0,
+            "F": 24,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 309
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 25,
+            "A-": 23,
+            "B+": 11,
+            "B": 16,
+            "B-": 4,
+            "C+": 2,
+            "C": 10,
+            "C-": 5,
+            "D+": 3,
+            "D": 5,
+            "D-": 3,
+            "F": 4,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 118
+        }
+      }
+    }
+  ]
+}

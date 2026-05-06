@@ -12,19 +12,36 @@
         "PLB/EVE 117",
         "PLS/PLB/EVE 127",
         "PLS 147",
-        "PLS/ESM 144",
+        "PLS/ESM 144"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ENH 100",
         "ENH 133",
         "PLB/EVE 119",
-        "PLS 176",
+        "PLS 176"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 150",
         "ESP 155L",
         "PLS 130",
         "WFC 155"
       ],
-      "units": "Units",
+      "units": "3",
       "notes": [
-        "Choose one:",
-        "Choose one:",
         "Choose one:"
       ]
     },
@@ -32,7 +49,7 @@
       "heading": "Soil Sciences",
       "courses": [
         "SSC 010",
-        "SSC 100"
+        "or SSC 100"
       ],
       "units": "3-5",
       "notes": []
@@ -47,17 +64,17 @@
       "notes": []
     },
     {
-      "heading": "Internship (3 units required)",
+      "heading": "Internship; 3 units required:",
       "courses": [
         "PLS 192"
       ],
-      "units": "1-12",
-      "notes": [
-        "Total Units"
-      ]
+      "units": "3",
+      "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.450Z"
 }

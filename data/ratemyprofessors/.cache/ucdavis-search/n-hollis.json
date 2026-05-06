@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.2,
+    "department": "Human Development",
+    "firstName": "Nicole",
+    "id": "VGVhY2hlci0xNzMwNDU0",
+    "lastName": "Hollis-Woo",
+    "legacyId": 1730454,
+    "numRatings": 148,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 25.6881
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Management",
+    "firstName": "Hollis",
+    "id": "VGVhY2hlci0yMTYyMjky",
+    "lastName": "Skaife",
+    "legacyId": 2162292,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

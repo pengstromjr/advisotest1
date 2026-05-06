@@ -32,9 +32,9 @@
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
-        "CHE 002AH",
+        "or CHE 002AH",
         "CHE 002B",
-        "CHE 002BH"
+        "or CHE 002BH"
       ],
       "units": "5",
       "notes": []
@@ -45,10 +45,10 @@
         "ENG 004",
         "ENG 006",
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y"
+        "or ENG 045Y"
       ],
       "units": "3",
       "notes": []
@@ -61,9 +61,9 @@
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005",
         "UWP 001",
         "UWP 001V",
         "UWP 001Y"
@@ -77,14 +77,14 @@
       "heading": "Communication",
       "courses": [
         "CMN 001",
-        "CMN 001V",
+        "or CMN 001V",
         "ENG 003",
-        "ENG 003Y"
+        "or ENG 003Y"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (74 units)"
       ]
     },
     {
@@ -102,8 +102,10 @@
     {
       "heading": "Senior Design Capstone, choose one series (Winter & Spring Quarter Only):",
       "courses": [
-        "EAE 130AEAE 130B",
-        "EAE 143AEAE 143B"
+        "EAE 130A",
+        "EAE 130B",
+        "EAE 143A",
+        "EAE 143B"
       ],
       "units": "",
       "notes": []
@@ -115,7 +117,7 @@
         "ENG 102",
         "ENG 103",
         "ENG 104",
-        "ENG 104V",
+        "or ENG 104V",
         "ENG 105",
         "ENG 190"
       ],
@@ -138,10 +140,10 @@
       "heading": "Applied Mathematics Elective",
       "courses": [
         "ENG 180",
-        "EME 115",
-        "MAT 128A",
-        "MAT 128C",
-        "ECS 130"
+        "or EME 115",
+        "or MAT 128A",
+        "or MAT 128C",
+        "or ECS 130"
       ],
       "units": "4",
       "notes": [
@@ -165,31 +167,34 @@
         "From the above Astronautics Elective list if not used in satisfaction of other degree requirements.",
         "Technical Elective; choose one:",
         "From the above Aeronautics Elective list if not used in satisfaction of other degree requirements.",
-        "Up to 4 units may be selected from any upper division engineering course including any engineering 192 or 199 not used in satisfaction of other degree requirements."
+        "Up to 4 units may be selected from any upper division engineering course including any engineering 192 or 199 not used in satisfaction of other degree requirements. 1"
       ]
     },
     {
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102E",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
       "units": "0-4",
       "notes": [
         "Choose one; grade of C- or better is required:",
+        "OR",
         "Passing the Upper Division Composition Exam",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (86-90 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "160"
+  "total_units": "160",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.157Z"
 }

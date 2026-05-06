@@ -1,0 +1,167 @@
+{
+  "course_id": "ENT100L",
+  "course_title": "General Entomology Laboratory ",
+  "overall_grades": {
+    "A+": 33,
+    "A": 101,
+    "A-": 37,
+    "B+": 26,
+    "B": 23,
+    "B-": 31,
+    "C+": 28,
+    "C": 13,
+    "C-": 12,
+    "D+": 3,
+    "D": 9,
+    "D-": 9,
+    "F": 12,
+    "P*": 13,
+    "NP*": 11
+  },
+  "overall_gpa": 3.09,
+  "overall_enrolled": 361,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Fran Keller",
+      "professor_slug": "fran-keller",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 32,
+            "A-": 25,
+            "B+": 20,
+            "B": 11,
+            "B-": 10,
+            "C+": 4,
+            "C": 1,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 145
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 24,
+            "A-": 18,
+            "B+": 15,
+            "B": 9,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 111
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 8,
+            "A-": 7,
+            "B+": 5,
+            "B": 2,
+            "B-": 1,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 34
+        }
+      }
+    },
+    {
+      "professor_name": "Lynn Kimsey",
+      "professor_slug": "lynn-kimsey",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 69,
+            "A-": 12,
+            "B+": 6,
+            "B": 12,
+            "B-": 21,
+            "C+": 24,
+            "C": 12,
+            "C-": 6,
+            "D+": 3,
+            "D": 9,
+            "D-": 9,
+            "F": 12,
+            "P*": 12,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 216
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 6,
+            "B+": 6,
+            "B": 6,
+            "B-": 6,
+            "C+": 18,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.63,
+          "quarter_enrolled": 90
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 51,
+            "A-": 6,
+            "B+": 0,
+            "B": 6,
+            "B-": 15,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 126
+        }
+      }
+    }
+  ]
+}

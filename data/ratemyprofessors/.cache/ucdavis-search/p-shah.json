@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.7,
+    "department": "Economics",
+    "firstName": "Shahar",
+    "id": "VGVhY2hlci0yNjcwMjQ3",
+    "lastName": "Sansani",
+    "legacyId": 2670247,
+    "numRatings": 96,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 44.3299
+  },
+  {
+    "avgDifficulty": 1.6,
+    "avgRating": 4.8,
+    "department": "Entomology",
+    "firstName": "Shahid",
+    "id": "VGVhY2hlci0yOTE2NzA5",
+    "lastName": "Siddique",
+    "legacyId": 2916709,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.2,
+    "department": "Microbiology",
+    "firstName": "Priya",
+    "id": "VGVhY2hlci0yNjczMzY1",
+    "lastName": "Shah",
+    "legacyId": 2673365,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.25
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Computer Science",
+    "firstName": "Rayum",
+    "id": "VGVhY2hlci0yODA3ODc5",
+    "lastName": "Shahed",
+    "legacyId": 2807879,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Social Science",
+    "firstName": "Zach",
+    "id": "VGVhY2hlci0yOTE2MDQ3",
+    "lastName": "Shahar",
+    "legacyId": 2916047,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

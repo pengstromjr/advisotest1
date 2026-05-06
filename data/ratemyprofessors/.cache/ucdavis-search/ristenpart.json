@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4,
+    "department": "Chemical Engineering",
+    "firstName": "William",
+    "id": "VGVhY2hlci0xNDM3MjIx",
+    "lastName": "Ristenpart",
+    "legacyId": 1437221,
+    "numRatings": 39,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  }
+]

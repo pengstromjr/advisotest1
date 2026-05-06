@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.7,
+    "department": "Biology",
+    "firstName": "Enoch",
+    "id": "VGVhY2hlci00MzU1MjI=",
+    "lastName": "Baldwin",
+    "legacyId": 435522,
+    "numRatings": 93,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40.3846
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 1.3,
+    "department": "Fine Arts",
+    "firstName": "Craig",
+    "id": "VGVhY2hlci04MDYwNjY=",
+    "lastName": "Baldwin",
+    "legacyId": 806066,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

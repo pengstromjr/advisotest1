@@ -1,0 +1,93 @@
+{
+  "course_id": "MUS13",
+  "course_title": "Introduction to Musicianship,  Part 1",
+  "overall_grades": {
+    "A+": 78,
+    "A": 33,
+    "A-": 16,
+    "B+": 13,
+    "B": 6,
+    "B-": 1,
+    "C+": 1,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 0,
+    "NP*": 1
+  },
+  "overall_gpa": 3.83,
+  "overall_enrolled": 150,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Christopher Froh",
+      "professor_slug": "christopher-froh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 33,
+            "A-": 16,
+            "B+": 13,
+            "B": 6,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 150
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 6,
+            "A-": 7,
+            "B+": 4,
+            "B": 0,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 36
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 27,
+            "A-": 9,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 114
+        }
+      }
+    }
+  ]
+}

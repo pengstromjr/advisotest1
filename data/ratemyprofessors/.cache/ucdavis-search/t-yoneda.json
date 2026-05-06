@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.3,
+    "department": "Psychology",
+    "firstName": "Tomiko",
+    "id": "VGVhY2hlci0yOTY1MzU2",
+    "lastName": "Yoneda",
+    "legacyId": 2965356,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.25
+  }
+]

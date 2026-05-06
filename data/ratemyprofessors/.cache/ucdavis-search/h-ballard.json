@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 2,
+    "department": "Education",
+    "firstName": "Heidi",
+    "id": "VGVhY2hlci0yNzkwOTY2",
+    "lastName": "Ballard",
+    "legacyId": 2790966,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20
+  }
+]

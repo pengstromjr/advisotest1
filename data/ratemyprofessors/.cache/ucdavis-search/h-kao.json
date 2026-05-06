@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 1,
+    "department": "Philosophy",
+    "firstName": "Hanti",
+    "id": "VGVhY2hlci0yNzczNDYy",
+    "lastName": "Lin Kao",
+    "legacyId": 2773462,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Physics",
+    "firstName": "Howard",
+    "id": "VGVhY2hlci0yNzg3Mzkz",
+    "lastName": "Kao",
+    "legacyId": 2787393,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

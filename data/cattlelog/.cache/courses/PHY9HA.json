@@ -1,0 +1,142 @@
+{
+  "course_id": "PHY9HA",
+  "course_title": "Honors Physics",
+  "overall_grades": {
+    "A+": 27,
+    "A": 45,
+    "A-": 57,
+    "B+": 72,
+    "B": 69,
+    "B-": 75,
+    "C+": 27,
+    "C": 24,
+    "C-": 39,
+    "D+": 9,
+    "D": 21,
+    "D-": 3,
+    "F": 6,
+    "P*": 6,
+    "NP*": 3
+  },
+  "overall_gpa": 2.86,
+  "overall_enrolled": 483,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Matthew Citron",
+      "professor_slug": "matthew-citron",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 15,
+            "A-": 21,
+            "B+": 21,
+            "B": 24,
+            "B-": 27,
+            "C+": 6,
+            "C": 6,
+            "C-": 12,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 153
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 15,
+            "A-": 21,
+            "B+": 21,
+            "B": 24,
+            "B-": 27,
+            "C+": 6,
+            "C": 6,
+            "C-": 12,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 153
+        }
+      }
+    },
+    {
+      "professor_name": "Valentin Taufour",
+      "professor_slug": "valentin-taufour",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 30,
+            "A-": 36,
+            "B+": 51,
+            "B": 45,
+            "B-": 48,
+            "C+": 21,
+            "C": 18,
+            "C-": 27,
+            "D+": 6,
+            "D": 15,
+            "D-": 3,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 330
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 18,
+            "A-": 24,
+            "B+": 33,
+            "B": 12,
+            "B-": 27,
+            "C+": 18,
+            "C": 9,
+            "C-": 6,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 177
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 12,
+            "A-": 12,
+            "B+": 18,
+            "B": 33,
+            "B-": 21,
+            "C+": 3,
+            "C": 9,
+            "C-": 21,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 153
+        }
+      }
+    }
+  ]
+}

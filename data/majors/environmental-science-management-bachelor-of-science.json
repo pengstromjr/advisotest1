@@ -9,26 +9,23 @@
       "heading": "English Composition & Communication Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
-        "UWP 102",
-        "UWP 104",
-        "UWP 102B",
-        "UWP 102G",
-        "UWP 104E",
-        "CMN 001",
-        "CMN 001V",
+        "or UWP 101V",
+        "or UWP 101Y",
+        "or CMN 001",
+        "or CMN 001V",
         "CMN 003",
-        "CMN 003V",
-        "CMN 003Y",
+        "or CMN 003V",
+        "or CMN 003Y",
         "DRA 010"
       ],
       "units": "0-4",
       "notes": [
         "Choose one:",
+        "OR any course from the UWP 102 or UWP 104 series.",
+        "UWP 102B, UWP 102G, or UWP 104E recommended",
         "Passing the Upper Division English Composition Exam.",
         "Communication; choose one:",
-        "English Composition & Communication Requirement Subtotal"
+        "English Composition & Communication Requirement Subtotal (4-8 units)"
       ]
     },
     {
@@ -36,17 +33,26 @@
       "courses": [
         "BIS 002A",
         "BIS 002B",
-        "BIS 002C"
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 001L",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
       ],
-      "units": "5",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "Choose a series:",
+        "OR"
+      ]
     },
     {
       "heading": "Geology",
       "courses": [
-        "ESP 001",
         "GEL 001",
-        "GEL 050"
+        "or EPS 001",
+        "GEL 050",
+        "or EPS 050"
       ],
       "units": "3-4",
       "notes": [
@@ -56,22 +62,35 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002B",
-        "CHE 002AHCHE 002BH",
-        "CHE 002C",
-        "CHE 002CH"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002AH",
+        "CHE 002BH"
       ],
       "units": "10",
       "notes": [
-        "Choose a series:",
-        "Choose one; not required:"
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 002C",
+        "or CHE 002CH"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one; not required: 1"
       ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 001APHY 001B",
-        "PHY 007APHY 007BPHY 007C"
+        "PHY 001A",
+        "PHY 001B",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
       "units": "6-12",
       "notes": [
@@ -82,8 +101,8 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY"
+        "or ECN 001AV",
+        "or ECN 001AY"
       ],
       "units": "4",
       "notes": [
@@ -93,9 +112,15 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017B",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021B"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 021A",
+        "MAT 021B"
       ],
       "units": "6-12",
       "notes": [
@@ -110,7 +135,7 @@
       "units": "4",
       "notes": [
         "Satisfaction of the General Education requirement.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (47-61 units)"
       ]
     },
     {
@@ -125,7 +150,7 @@
       "heading": "Ecology",
       "courses": [
         "ESP 100",
-        "EVE 101"
+        "or EVE 101"
       ],
       "units": "4",
       "notes": [
@@ -144,15 +169,14 @@
       "heading": "Statistics",
       "courses": [
         "STA 100",
-        "STA 013",
-        "STA 013Y",
-        "STA 032",
-        "STA 013",
-        "STA 013V",
-        "STA 013Y"
+        "or STA 013",
+        "or STA 013V",
+        "or STA 013Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "Students completing the Environmental Data Science specialized track may also choose STA 032 and cannot choose STA 013, STA 013V, or STA 013Y."
+      ]
     },
     {
       "heading": "Environmental Monitoring",
@@ -160,19 +184,20 @@
         "ATM 124",
         "ESM 108",
         "ESP 151L",
-        "ESP 179",
         "ESP 179"
       ],
       "units": "3-4",
       "notes": [
-        "Choose one:"
+        "Choose one:",
+        "Students need a unique course for each requirement and cannot double-count a class towards two requirements. For example, ESP 179 can be used for either the environmental monitoring requirement or towards the environmental policy course for the student's specialized track, but not both."
       ]
     },
     {
       "heading": "Environmental Data Science",
       "courses": [
-        "ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
-        "ESP 106"
+        "ABT/LED 150",
+        "LDA 150",
+        "or ESP 106"
       ],
       "units": "4",
       "notes": []
@@ -205,7 +230,7 @@
       ],
       "units": "0-3",
       "notes": [
-        "Core Subject Matter Subtotal"
+        "Core Subject Matter Subtotal (28-32 units)"
       ]
     },
     {
@@ -219,8 +244,8 @@
         "Environmental Data Science Specialized Track",
         "Natural Resource Management Specialized Track",
         "Soils & Biogeochemistry Specialized Track",
-        "Watershed Science  Specialized Track",
-        "Specialized Tracks Subtotal"
+        "Watershed Science Specialized Track",
+        "Specialized Tracks Subtotal (31-49 units)"
       ]
     },
     {
@@ -231,7 +256,9 @@
         "ESM 131"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Climate Change & Air Quality Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Climate Science & Meteorology",
@@ -240,19 +267,23 @@
         "ATM 115",
         "ATM 133",
         "ATM 160",
-        "GEL 108"
+        "GEL 108",
+        "or EPS 108"
       ],
       "units": "6-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Climate Change & Air Quality Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Science",
       "courses": [
         "ESM 100",
         "ESM 121",
-        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 116N/GEL 116N",
+        "or EPS 116",
         "ESP 152",
         "HYD 141",
         "HYD 143",
@@ -261,7 +292,8 @@
         "ESM 141",
         "ESM/PLS 144",
         "ESP 124",
-        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 150C/GEL 150C",
+        "or EPS 150C",
         "ESP 151",
         "ESP 155",
         "EVE 115",
@@ -269,6 +301,7 @@
         "EVE 147",
         "EVE 149",
         "GEL 136",
+        "or EPS 136",
         "PLS 101",
         "PLS 130",
         "PLS 162",
@@ -276,10 +309,12 @@
       ],
       "units": "9-14",
       "notes": [
-        "Choose three environmental science courses, must select at least one from section A and one from section B",
+        "Choose three environmental science courses, must select at least one from section A and one from section B (9-14 units)",
         "A—Physical",
         "B—Biomes"
-      ]
+      ],
+      "group": "Climate Change & Air Quality Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Policy",
@@ -296,7 +331,19 @@
       "units": "7-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Climate Change & Air Quality Specialized Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section."
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Physical Processes",
@@ -308,14 +355,16 @@
         "ESM 131",
         "ESP 152",
         "GEL 134",
+        "or EPS 134",
         "HYD 143",
         "SSC 100"
       ],
       "units": "3-5",
       "notes": [
-        "Courses appearing in more than one section can only be used to fulfill one section.",
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Policy",
@@ -335,7 +384,9 @@
       "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Evolution",
@@ -343,18 +394,22 @@
         "EVE 100"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Conservation Biology",
       "courses": [
         "WFC 154",
-        "ESP 127"
+        "or ESP 127"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Field Methods",
@@ -365,24 +420,28 @@
         "EVE/ENT 180A",
         "WFC 100",
         "WFC 126",
-        "ENH 160160L",
-        "PLS 147147L"
+        "ENH 160",
+        "PLS 147"
       ],
       "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Population Ecology",
       "courses": [
         "ESP 121",
-        "WFC 122"
+        "or WFC 122"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Community Ecology",
@@ -396,7 +455,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Ecosystems",
@@ -412,7 +473,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Choose one cross-cutting ecology course",
@@ -420,7 +483,8 @@
         "ESM 141",
         "ESM/PLS 144",
         "ESP 124",
-        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 150C/GEL 150C",
+        "or EPS 150C",
         "ESP 151",
         "ESP 155",
         "ETX 150",
@@ -433,14 +497,18 @@
         "WFC 168"
       ],
       "units": "3-5",
-      "notes": []
+      "notes": [],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Choose one organismal biology course",
       "courses": [
         "ENT 103",
+        "ENT 116",
         "EVE 112",
         "EVE 114",
+        "PLB 102/PLS 102",
         "PLB/PLS 116",
         "PLB/EVE 119",
         "WFC 110",
@@ -449,11 +517,14 @@
         "WFC 134"
       ],
       "units": "3-5",
-      "notes": []
+      "notes": [],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Complete one lab associated with either the cross-cutting ecology or organismal biology course:",
       "courses": [
+        "ENT 116L",
         "ESP 151L",
         "ESP 155L",
         "EVE 112L",
@@ -464,7 +535,9 @@
         "WFC 134L"
       ],
       "units": "0-4",
-      "notes": []
+      "notes": [],
+      "group": "Ecology, Biodiversity & Conservation Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Data Science",
@@ -472,16 +545,20 @@
         "ESP 106"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV"
+        "or ECS 032AV"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Data Analysis",
@@ -492,7 +569,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Remote Sensing",
@@ -503,7 +582,9 @@
       "units": "4-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Policy",
@@ -521,7 +602,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Quantitative Environmental Science",
@@ -535,7 +618,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistical Analysis",
@@ -554,7 +639,9 @@
       "units": "8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Physical Processes",
@@ -570,19 +657,23 @@
       "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Processes",
       "courses": [
         "ESP 124",
-        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 150C/GEL 150C",
+        "or EPS 150C",
         "ESP 151",
         "ESP 152",
         "ESP 155",
         "EVE/PLB 117",
         "EVE 147",
         "GEL 136",
+        "or EPS 136",
         "PLS 101",
         "PLS 130",
         "PLS 163",
@@ -592,7 +683,19 @@
       "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Environmental Data Science Specialized Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section."
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Policy",
@@ -614,20 +717,23 @@
       ],
       "units": "9-13",
       "notes": [
-        "Courses appearing in more than one section can only be used to fulfill one section.",
         "Choose three:"
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Law",
       "courses": [
         "ESP 161",
-        "HYD 150"
+        "or HYD 150"
       ],
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Statistics",
@@ -645,12 +751,14 @@
       "notes": [
         "Choose one:",
         "Or equivalent upper division statistics."
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Processes",
       "courses": [
-        "ENT 104",
+        "or ENT 104",
         "ESM 141",
         "ESM/PLS 144",
         "ESP 151",
@@ -666,7 +774,9 @@
       "units": "6-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Physical Processes",
@@ -675,7 +785,8 @@
         "ATM 133",
         "ESM 121",
         "ESM 131",
-        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 116N/GEL 116N",
+        "or EPS 116",
         "ESP 152",
         "HYD 143",
         "SSC 100"
@@ -683,18 +794,22 @@
       "units": "6-9",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Remote Sensing",
       "courses": [
         "ESM 185",
-        "ESM 186"
+        "or ESM 186"
       ],
       "units": "4-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Natural Resource Management Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Soil Science",
@@ -704,7 +819,9 @@
       "units": "5",
       "notes": [
         "Courses appearing in more than one section can only be used to fulfill one section."
-      ]
+      ],
+      "group": "Soils & Biogeochemistry Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Soil Science",
@@ -723,7 +840,9 @@
       "units": "16-21",
       "notes": [
         "Choose four:"
-      ]
+      ],
+      "group": "Soils & Biogeochemistry Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Science & Policy",
@@ -740,39 +859,60 @@
       "units": "6-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Soils & Biogeochemistry Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Land Use Analysis",
       "courses": [
         "ESM 185",
         "GEL 134",
+        "or EPS 134",
         "HYD/EBS 147",
         "SSC 118"
       ],
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Soils & Biogeochemistry Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Physical & Biological Processes",
       "courses": [
         "ATM 160",
         "ESM/PLS 144",
-        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
-        "ESP/GEL 150A",
-        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 116N/GEL 116N",
+        "or EPS 116",
+        "ESP/EPS 150A",
+        "GEL 150A",
+        "ESP 150C/GEL 150C",
+        "or EPS 150C",
         "ESP 151",
         "ESP 155",
         "EVE/PLB 117",
         "GEL 132",
+        "or EPS 132",
         "PLS 130"
       ],
       "units": "6-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Soils & Biogeochemistry Specialized Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Courses appearing in more than one section can only be used to fulfill one section."
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Complete both introductory hydrologic and soil science courses.",
@@ -781,9 +921,9 @@
         "ESM 100"
       ],
       "units": "",
-      "notes": [
-        "Courses appearing in more than one section can only be used to fulfill one section."
-      ]
+      "notes": [],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Water Management",
@@ -795,7 +935,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Hydrologic Science",
@@ -803,7 +945,8 @@
         "ATM 133",
         "HYD/ESM/ABT 110",
         "HYD 118/EBS 148/ESM 118",
-        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
+        "ESP 116N/GEL 116N",
+        "or EPS 116",
         "HYD 124",
         "HYD 143",
         "HYD/EBS 144",
@@ -812,21 +955,30 @@
       "units": "7-8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Physical Environments",
       "courses": [
+        "EPS 109",
+        "or GEL 109",
         "ESP 151L",
         "ESP 152",
         "GEL 035",
+        "or EPS 035",
         "GEL 136",
-        "GEL 140"
+        "or EPS 136",
+        "GEL 140",
+        "or EPS 140"
       ],
       "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Data Science",
@@ -839,7 +991,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Policy",
@@ -855,7 +1009,9 @@
       "units": "6-11",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Soil Science",
@@ -867,11 +1023,14 @@
       "units": "4-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     },
     {
       "heading": "Aquatic Organisms & Habitats",
       "courses": [
+        "ENT 116",
         "ESP 151",
         "ESP 155",
         "EVE 115",
@@ -881,10 +1040,21 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Watershed Science Specialized Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Climate Change & Air Quality Specialized Track",
+    "Ecology, Biodiversity & Conservation Specialized Track",
+    "Environmental Data Science Specialized Track",
+    "Natural Resource Management Specialized Track",
+    "Soils & Biogeochemistry Specialized Track",
+    "Watershed Science Specialized Track"
+  ],
   "advising_notes": [],
-  "total_units": "111"
+  "total_units": "110",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.730Z"
 }

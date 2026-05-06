@@ -1,0 +1,135 @@
+{
+  "course_id": "EDU152",
+  "course_title": "Academic Spanish for Bilingual Teachers",
+  "overall_grades": {
+    "A+": 66,
+    "A": 15,
+    "A-": 0,
+    "B+": 1,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.94,
+  "overall_enrolled": 83,
+  "available_quarters": [
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gustavo Gonzalez",
+      "professor_slug": "gustavo-gonzalez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 48
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 48
+        }
+      }
+    },
+    {
+      "professor_name": "Margarita Jimenez Silva",
+      "professor_slug": "margarita-jimenez-silva",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 6,
+            "A-": 0,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 35
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 0,
+            "A-": 0,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 20
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 6,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 15
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.4,
+    "department": "Wildlife",
+    "firstName": "Robin",
+    "id": "VGVhY2hlci0zMTA0MzAz",
+    "lastName": "Decker",
+    "legacyId": 3104303,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4,
+    "department": "History",
+    "firstName": "Corrie",
+    "id": "VGVhY2hlci0xNDQ1NDk5",
+    "lastName": "Decker",
+    "legacyId": 1445499,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.6667
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3,
+    "department": "Mathematics",
+    "firstName": "Dirk A.",
+    "id": "VGVhY2hlci0xNzA1MTg5",
+    "lastName": "Deckert",
+    "legacyId": 1705189,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Nutrition",
+    "firstName": "Noah",
+    "id": "VGVhY2hlci0xNDEwMzQx",
+    "lastName": "Decker",
+    "legacyId": 1410341,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

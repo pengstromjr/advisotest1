@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.7,
+    "avgRating": 2.7,
+    "department": "Computer Science",
+    "firstName": "Nicholas",
+    "id": "VGVhY2hlci0yOTY0NDIz",
+    "lastName": "Weaver",
+    "legacyId": 2964423,
+    "numRatings": 49,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.75
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.4,
+    "department": "Anthropology",
+    "firstName": "Timothy",
+    "id": "VGVhY2hlci05NDc2MDM=",
+    "lastName": "Weaver",
+    "legacyId": 947603,
+    "numRatings": 63,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 56
+  }
+]

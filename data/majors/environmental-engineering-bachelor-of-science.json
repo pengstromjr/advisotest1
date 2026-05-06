@@ -38,30 +38,37 @@
       "notes": []
     },
     {
-      "heading": "Choose GEL 050 & GEL 050L or ATM 060:",
+      "heading": "Choose EPS 050 & EPS 050L or GEL 050 & GEL 050L or ATM 060:",
       "courses": [
-        "GEL 050050L",
-        "ATM 060"
+        "EPS 050",
+        "or GEL 050",
+        "or GEL 050L",
+        "or ATM 060"
       ],
       "units": "4-5",
-      "notes": []
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Biological Sciences",
       "courses": [
-        "BIS 002A"
+        "BIS 002A",
+        "BIO 002"
       ],
-      "units": "5",
-      "notes": []
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
     },
     {
       "heading": "Engineering",
       "courses": [
         "ENG 003",
-        "ENG 003Y",
+        "or ENG 003Y",
         "ENG 006",
-        "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032A",
+        "or ECS 032AV",
         "ENG 035"
       ],
       "units": "4",
@@ -71,15 +78,15 @@
       "heading": "Civil & Environmental Engineering",
       "courses": [
         "ECI 003",
-        "ECI 101",
-        "ECI 003",
-        "ECI 101",
-        "ECI 016",
+        "or ECI 101",
+        "or ECI 016",
         "ECI 040"
       ],
       "units": "4",
       "notes": [
-        "Choose one:"
+        "Choose one: 1 (4 units)",
+        "OR",
+        "ECI Elective: 4 units of upper division ECI electives; seniors who did not take ECI 003 nor ECI 101."
       ]
     },
     {
@@ -90,17 +97,25 @@
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y"
+        "or UWP 001V",
+        "or UWP 001Y"
       ],
       "units": "4",
       "notes": [
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (78-80 units)"
       ]
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102"
+      ],
+      "units": "3",
+      "notes": []
     },
     {
       "heading": "Engineering",
@@ -126,9 +141,25 @@
         "ECI/ATM 149N",
         "ECI 149L",
         "ECI 193A",
-        "ECI 193B",
+        "ECI 193B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Civil & Environmental Engineering",
+      "courses": [
         "ECI 153",
-        "ECI 155",
+        "ECI 155"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Civil & Environmental Engineering",
+      "courses": [
         "ECI 142",
         "ECI 145",
         "ECI 146",
@@ -143,7 +174,6 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
         "Choose one:"
       ]
     },
@@ -151,25 +181,51 @@
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102E",
         "UWP 102G",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
       "units": "0-4",
       "notes": [
         "Choose one; a grade of C- or better is required:",
-        "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Courses Subtotal"
+        "Passing the Upper Division Composition Exam."
+      ]
+    },
+    {
+      "heading": "Environmental Engineering Required Competencies",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "The purpose of these competencies to help us prepare you for your future careers without adding additional units. Unlike other major requirements, you can demonstrate achieving the required competencies, while also meeting your major requirements."
+      ]
+    },
+    {
+      "heading": "Career Development Competency",
+      "courses": [
+        "ECI 191A",
+        "ECI 191B",
+        "ECI 191C"
+      ],
+      "units": "0-1",
+      "notes": [
+        "Note: Students may propose a similar activity for the Career Development Competency to be reviewed by faculty on a case-by-case basis by emailing civiladvising@ucdavis.edu.",
+        "Complete one of the following options:",
+        "Internship or relevant work experience; minimum 1 unit of ECI 192.",
+        "Research experience with faculty member; minimum 1 quarter of ECI 199 units.",
+        "Participation in an Engineering Student Professional Organization in a design or project team; American Society of Civil Engineering competition teams, Engineers Without Borders projects, Construction Engineering and Management Teams, etc.; minimum 1 unit of ECI 198 units.",
+        "Upper Division Required Courses Subtotal (64-69 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "144"
+  "total_units": "142",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.612Z"
 }

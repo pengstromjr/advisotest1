@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 5,
+    "department": "Chemical Engineering",
+    "firstName": ".",
+    "id": "VGVhY2hlci05NjgwMDQ=",
+    "lastName": "El-Farra",
+    "legacyId": 968004,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -2,6 +2,22 @@
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import type { RequirementSection } from "@/lib/course-data";
+import {
+  getRequirementItemProgress,
+  getRequirementSectionProgress,
+  getDefaultRequirementPath,
+  getRequirementPathGroups,
+  filterRequirementSectionsByPath,
+  normalizeRequirementSections,
+  type NormalizedRequirementItem,
+  type NormalizedRequirementSection,
+} from "@/lib/requirement-normalizer";
+import {
+  cleanRequirementPathLabel,
+  pathKindWithArticle,
+  RequirementPathSelector,
+  requirementPathKind,
+} from "./requirement-path-selector";
 
 interface DegreeAuditDrawerProps {
   programName: string;
@@ -9,13 +25,6 @@ interface DegreeAuditDrawerProps {
   onToggleCourse: (code: string) => void;
   isOpen: boolean;
   onClose: () => void;
-}
-
-interface DisplaySection {
-  heading: string;
-  notes: string[];
-  units: string;
-  courses: string[];
 }
 
 interface GEArea {
@@ -42,39 +51,11 @@ interface ProgramData {
   ge: {
     categories: GECategory[];
     notes: string[];
-    courseGeMap: Record<string, GECourseInfo>;
+    courseInfoMap: Record<string, GECourseInfo>;
   };
 }
 
 type Tab = "major" | "ge";
-
-function deduplicateSections(
-  sections: RequirementSection[]
-): DisplaySection[] {
-  const seen = new Set<string>();
-  const result: DisplaySection[] = [];
-
-  for (const section of sections) {
-    const uniqueCourses: string[] = [];
-    for (const code of section.courses) {
-      const normalized = code.trim();
-      if (normalized && !seen.has(normalized)) {
-        seen.add(normalized);
-        uniqueCourses.push(normalized);
-      }
-    }
-    if (uniqueCourses.length > 0 || section.notes.length > 0) {
-      result.push({
-        heading: section.heading,
-        notes: section.notes,
-        units: section.units,
-        courses: uniqueCourses,
-      });
-    }
-  }
-
-  return result.filter((s) => s.courses.length > 0);
-}
 
 function parseUnits(u: number | string): number {
   if (typeof u === "number") return u;
@@ -89,21 +70,33 @@ function SectionBlock({
   completedCourses,
   onToggle,
   defaultOpen,
+  requirementPaths,
+  selectedRequirementPath,
+  onSelectRequirementPath,
 }: {
-  section: DisplaySection;
+  section: NormalizedRequirementSection;
   completedCourses: string[];
   onToggle: (code: string) => void;
   defaultOpen: boolean;
+  requirementPaths: string[];
+  selectedRequirementPath: string;
+  onSelectRequirementPath: (path: string) => void;
 }) {
   const [open, setOpen] = useState(defaultOpen);
-  const completed = section.courses.filter((c) =>
-    completedCourses.includes(c)
-  ).length;
-  const total = section.courses.length;
+  const { completed, total } = getRequirementSectionProgress(section, completedCourses);
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
   const headingTrimmed = section.heading.trim();
   const isChooseOne = /^choose\s+one\b/i.test(headingTrimmed);
   const displayHeading = isChooseOne ? "" : headingTrimmed;
+  const informational = section.items.length === 0;
+  const shouldShowPathJumps =
+    informational &&
+    requirementPaths.length > 1 &&
+    /\b(?:depth|upper division|emphasis)\b/i.test(
+      `${section.heading} ${section.notes.join(" ")}`
+    );
+  const alternatePaths = requirementPaths.filter((path) => path !== selectedRequirementPath);
+  const pathKind = requirementPathKind(requirementPaths);
 
   return (
     <div className="border-b border-gray-100 last:border-b-0">
@@ -130,68 +123,188 @@ function SectionBlock({
               {displayHeading || "Course options"}
             </span>
             <span className="ml-2 shrink-0 text-xs text-gray-500">
-              {completed}/{total}
+              {informational ? (section.units ? `${section.units} units` : "Catalog note") : `${completed}/${total}`}
             </span>
           </div>
-          <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
-            <div
-              className="h-1.5 rounded-full bg-[#002855] transition-all duration-300"
-              style={{ width: `${pct}%` }}
-            />
-          </div>
+          {!informational && (
+            <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
+              <div
+                className="h-1.5 rounded-full bg-[#002855] transition-all duration-300"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+          )}
         </div>
       </button>
 
       {open && (
         <div className="px-5 pb-3">
-          {section.notes.length > 0 && (
-            <div className="mb-2 space-y-0.5">
+          {section.notes.length > 0 && !shouldShowPathJumps && (
+            <div className={informational ? "mb-2 space-y-1.5" : "mb-2 space-y-0.5"}>
               {section.notes.map((note, i) => (
-                <p key={i} className="text-xs italic text-gray-500">
-                  {note}
+                <p
+                  key={i}
+                  className={informational ? "text-sm leading-6 text-gray-600" : "text-xs italic text-gray-500"}
+                >
+                  {informational ? "• " : ""}{note}
                 </p>
               ))}
             </div>
           )}
-          <div className="flex flex-wrap gap-2 pt-2">
-            {section.courses.map((code) => {
-              const checked = completedCourses.includes(code);
-              return (
-                <button
-                  key={code}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onToggle(code);
-                  }}
-                  className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
-                    checked
-                      ? "bg-[#002855] text-white shadow-sm"
-                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  }`}
-                >
-                  {checked && (
-                    <svg
-                      className="h-3.5 w-3.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={3}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  )}
-                  {code}
-                </button>
-              );
-            })}
-          </div>
+          {shouldShowPathJumps && alternatePaths.length > 0 && (
+            <div className="mt-3 rounded-2xl border border-[#002855]/10 bg-blue-50/50 p-3">
+              <p className="text-xs font-medium text-gray-600">
+                Choose {pathKindWithArticle(pathKind)} to see the specific depth checklist.
+              </p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {alternatePaths.map((path) => (
+                  <button
+                    key={path}
+                    type="button"
+                    onClick={() => onSelectRequirementPath(path)}
+                    className="rounded-full bg-[#002855] px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                  >
+                    {cleanRequirementPathLabel(path)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {section.items.length > 0 && (
+            <div className="flex flex-wrap gap-2 pt-2">
+              {section.items.map((item) => (
+                <RequirementItem
+                  key={item.id}
+                  item={item}
+                  completedCourses={completedCourses}
+                  onToggle={onToggle}
+                />
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>
+  );
+}
+
+function RequirementItem({
+  item,
+  completedCourses,
+  onToggle,
+}: {
+  item: NormalizedRequirementItem;
+  completedCourses: string[];
+  onToggle: (code: string) => void;
+}) {
+  if (item.kind === "course") {
+    return (
+      <CourseButton
+        code={item.courses[0]}
+        checked={completedCourses.includes(item.courses[0])}
+        onToggle={onToggle}
+      />
+    );
+  }
+
+  const done = getRequirementItemProgress(item, completedCourses);
+  const complete = done >= item.requiredCount;
+  const label =
+    item.kind === "series"
+      ? item.label
+      : item.requiredCount === 1
+        ? "Choose one"
+        : `Choose ${item.requiredCount}`;
+
+  return (
+    <div
+      className={`flex max-w-full flex-col gap-2 rounded-xl border px-2.5 py-2 ${
+        complete ? "border-[#002855]/20 bg-[#002855]/5" : "border-gray-200 bg-gray-50"
+      }`}
+    >
+      <div className="flex items-center justify-between gap-3">
+        <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500">
+          {label}
+        </span>
+        <span className={`text-[10px] font-semibold ${complete ? "text-green-600" : "text-gray-400"}`}>
+          {done}/{item.requiredCount}
+        </span>
+      </div>
+
+      {item.kind === "series" && item.options?.length ? (
+        <div className="space-y-1.5">
+          {item.options.map((option, index) => (
+            <div key={`${item.id}-${index}`} className="rounded-lg bg-white/70 p-1.5">
+              <div className="mb-1 text-[10px] font-semibold text-gray-400">
+                Option {index + 1}
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {option.map((code) => (
+                  <CourseButton
+                    key={code}
+                    code={code}
+                    checked={completedCourses.includes(code)}
+                    onToggle={onToggle}
+                  />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-1.5">
+          {item.courses.map((code) => (
+            <CourseButton
+              key={code}
+              code={code}
+              checked={completedCourses.includes(code)}
+              onToggle={onToggle}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CourseButton({
+  code,
+  checked,
+  onToggle,
+}: {
+  code: string;
+  checked: boolean;
+  onToggle: (code: string) => void;
+}) {
+  return (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onToggle(code);
+      }}
+      className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
+        checked
+          ? "bg-[#002855] text-white shadow-sm"
+          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+      }`}
+    >
+      {checked && (
+        <svg
+          className="h-3.5 w-3.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={3}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M5 13l4 4L19 7"
+          />
+        </svg>
+      )}
+      {code}
+    </button>
   );
 }
 
@@ -363,7 +476,8 @@ export function DegreeAuditDrawer({
   isOpen,
   onClose,
 }: DegreeAuditDrawerProps) {
-  const [sections, setSections] = useState<DisplaySection[]>([]);
+  const [requirements, setRequirements] = useState<RequirementSection[]>([]);
+  const [selectedRequirementPath, setSelectedRequirementPath] = useState("");
   const [geCategories, setGeCategories] = useState<GECategory[]>([]);
   const [courseGeMap, setCourseGeMap] = useState<Record<string, GECourseInfo>>({});
   const [loading, setLoading] = useState(false);
@@ -379,9 +493,9 @@ export function DegreeAuditDrawer({
       );
       if (!res.ok) throw new Error("Failed to load");
       const data: ProgramData = await res.json();
-      setSections(deduplicateSections(data.requirements));
+      setRequirements(data.requirements);
       setGeCategories(data.ge.categories);
-      setCourseGeMap(data.ge.courseGeMap);
+      setCourseGeMap(data.ge.courseInfoMap);
     } catch {
       setError("Could not load program requirements.");
     } finally {
@@ -404,11 +518,31 @@ export function DegreeAuditDrawer({
     return () => document.removeEventListener("keydown", handleEsc);
   }, [isOpen, onClose]);
 
-  const allCourses = sections.flatMap((s) => s.courses);
-  const totalCompleted = allCourses.filter((c) =>
-    completedCourses.includes(c)
-  ).length;
-  const totalCourses = allCourses.length;
+  const requirementPaths = useMemo(() => getRequirementPathGroups(requirements), [requirements]);
+
+  useEffect(() => {
+    setSelectedRequirementPath((current) => {
+      if (requirementPaths.length <= 1) return "";
+      if (current && requirementPaths.includes(current)) return current;
+      return getDefaultRequirementPath(requirements);
+    });
+  }, [requirements, requirementPaths]);
+
+  const visibleRequirements = useMemo(
+    () => filterRequirementSectionsByPath(requirements, selectedRequirementPath),
+    [requirements, selectedRequirementPath]
+  );
+
+  const sections = useMemo(
+    () => normalizeRequirementSections(visibleRequirements),
+    [visibleRequirements]
+  );
+
+  const progress = sections.map((section) =>
+    getRequirementSectionProgress(section, completedCourses)
+  );
+  const totalCompleted = progress.reduce((sum, item) => sum + item.completed, 0);
+  const totalCourses = progress.reduce((sum, item) => sum + item.total, 0);
   const overallPct =
     totalCourses > 0
       ? Math.round((totalCompleted / totalCourses) * 100)
@@ -527,6 +661,13 @@ export function DegreeAuditDrawer({
 
           {!loading && !error && activeTab === "major" && (
             <>
+              {requirementPaths.length > 1 && (
+                <RequirementPathSelector
+                  paths={requirementPaths}
+                  selectedPath={selectedRequirementPath}
+                  onSelectPath={setSelectedRequirementPath}
+                />
+              )}
               {sections.length === 0 ? (
                 <div className="px-5 py-8 text-center text-sm text-gray-400">
                   No requirement data available for this program.
@@ -539,6 +680,9 @@ export function DegreeAuditDrawer({
                     completedCourses={completedCourses}
                     onToggle={onToggleCourse}
                     defaultOpen={i < 3}
+                    requirementPaths={requirementPaths}
+                    selectedRequirementPath={selectedRequirementPath}
+                    onSelectRequirementPath={setSelectedRequirementPath}
                   />
                 ))
               )}

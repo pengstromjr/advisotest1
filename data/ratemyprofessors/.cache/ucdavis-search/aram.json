@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 4.7,
+    "department": "Management",
+    "firstName": "Cyrus",
+    "id": "VGVhY2hlci0xODIxMzYz",
+    "lastName": "Aram",
+    "legacyId": 1821363,
+    "numRatings": 702,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.7143
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Diana",
+    "id": "VGVhY2hlci0yMzU2Mzc1",
+    "lastName": "Aramburu",
+    "legacyId": 2356375,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 2.6,
+    "department": "Anthropology",
+    "firstName": "Aram",
+    "id": "VGVhY2hlci05NTY4",
+    "lastName": "Yengoyan",
+    "legacyId": 9568,
+    "numRatings": 47,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

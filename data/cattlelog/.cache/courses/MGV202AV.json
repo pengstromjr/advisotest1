@@ -1,0 +1,290 @@
+{
+  "course_id": "MGV202AV",
+  "course_title": "Markets & the Firm",
+  "overall_grades": {
+    "A+": 78,
+    "A": 207,
+    "A-": 201,
+    "B+": 157,
+    "B": 221,
+    "B-": 48,
+    "C+": 1,
+    "C": 12,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.47,
+  "overall_enrolled": 928,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Summer_2023",
+    "Summer_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Victor Stango",
+      "professor_slug": "victor-stango",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 207,
+            "A-": 201,
+            "B+": 157,
+            "B": 221,
+            "B-": 48,
+            "C+": 1,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 928
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 33,
+            "B+": 21,
+            "B": 27,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 129
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 18,
+            "B+": 21,
+            "B": 15,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 69
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 27,
+            "B+": 15,
+            "B": 12,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 69
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 30,
+            "A-": 15,
+            "B+": 12,
+            "B": 36,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 108
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 24,
+            "A-": 30,
+            "B+": 6,
+            "B": 33,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 108
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 18,
+            "A-": 9,
+            "B+": 21,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 78
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 27,
+            "A-": 21,
+            "B+": 6,
+            "B": 30,
+            "B-": 12,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 102
+        },
+        "Summer_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 12,
+            "A-": 12,
+            "B+": 15,
+            "B": 18,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 81
+        },
+        "Summer_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 21,
+            "B+": 18,
+            "B": 24,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 96
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 8,
+            "A-": 2,
+            "B+": 6,
+            "B": 2,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 24
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 5,
+            "A-": 4,
+            "B+": 2,
+            "B": 7,
+            "B-": 2,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 23
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 5,
+            "A-": 9,
+            "B+": 14,
+            "B": 8,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 41
+        }
+      }
+    }
+  ]
+}

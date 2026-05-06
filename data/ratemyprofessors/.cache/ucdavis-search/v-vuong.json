@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.8,
+    "department": "Engineering",
+    "firstName": "Vivian",
+    "id": "VGVhY2hlci0yOTYwNDc1",
+    "lastName": "Vuong",
+    "legacyId": 2960475,
+    "numRatings": 34,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

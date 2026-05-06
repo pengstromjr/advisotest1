@@ -1,0 +1,141 @@
+{
+  "course_id": "ECN111A",
+  "course_title": "Economic History",
+  "overall_grades": {
+    "A+": 196,
+    "A": 885,
+    "A-": 209,
+    "B+": 218,
+    "B": 242,
+    "B-": 77,
+    "C+": 53,
+    "C": 101,
+    "C-": 16,
+    "D+": 2,
+    "D": 8,
+    "D-": 0,
+    "F": 7,
+    "P*": 171,
+    "NP*": 22
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 2207,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Janine Wilson",
+      "professor_slug": "janine-wilson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 196,
+            "A": 885,
+            "A-": 209,
+            "B+": 218,
+            "B": 242,
+            "B-": 77,
+            "C+": 53,
+            "C": 101,
+            "C-": 16,
+            "D+": 2,
+            "D": 8,
+            "D-": 0,
+            "F": 7,
+            "P*": 171,
+            "NP*": 22
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 2207
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 411,
+            "A-": 30,
+            "B+": 75,
+            "B": 66,
+            "B-": 9,
+            "C+": 6,
+            "C": 12,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 36
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 669
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 180,
+            "A-": 75,
+            "B+": 63,
+            "B": 102,
+            "B-": 36,
+            "C+": 24,
+            "C": 45,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 72,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 621
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 165,
+            "A": 258,
+            "A-": 57,
+            "B+": 45,
+            "B": 54,
+            "B-": 6,
+            "C+": 12,
+            "C": 27,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 48,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 687
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 36,
+            "A-": 47,
+            "B+": 35,
+            "B": 20,
+            "B-": 26,
+            "C+": 11,
+            "C": 17,
+            "C-": 4,
+            "D+": 2,
+            "D": 2,
+            "D-": 0,
+            "F": 1,
+            "P*": 15,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 230
+        }
+      }
+    }
+  ]
+}

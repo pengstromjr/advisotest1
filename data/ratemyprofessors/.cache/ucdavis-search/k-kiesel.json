@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.3,
+    "department": "Agricultural & Resource Economics",
+    "firstName": "Kristen",
+    "id": "VGVhY2hlci0yMTIwMTA1",
+    "lastName": "Kiesel",
+    "legacyId": 2120105,
+    "numRatings": 62,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 41.5094
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Agricultural Economics",
+    "firstName": "Kristin",
+    "id": "VGVhY2hlci0yMjM4Mjk1",
+    "lastName": "Kiesel",
+    "legacyId": 2238295,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.1,
+    "department": "Political Science",
+    "firstName": "Spencer",
+    "id": "VGVhY2hlci0yODgyNzIy",
+    "lastName": "Kiesel",
+    "legacyId": 2882722,
+    "numRatings": 46,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80.4348
+  }
+]

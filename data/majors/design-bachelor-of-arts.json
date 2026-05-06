@@ -10,7 +10,7 @@
       "courses": [
         "DES 001",
         "DES 014",
-        "DES 021",
+        "or DES 021",
         "DES 015",
         "DES 016"
       ],
@@ -23,11 +23,29 @@
         "UWP 011",
         "UWP 012",
         "UWP 048",
-        "UWP 049",
+        "UWP 049"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "University Writing Program",
+      "courses": [
         "DES 040A/SAS 043",
         "DES 040B",
         "DES 040C",
-        "DES 040D",
+        "DES 040D"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "University Writing Program",
+      "courses": [
         "ART 012",
         "DES 021",
         "DES 040A/SAS 043",
@@ -42,9 +60,7 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Choose one:",
-        "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (28 units)"
       ]
     },
     {
@@ -80,8 +96,6 @@
         "AHI 173",
         "AHI 175",
         "AHI 184",
-        "AHI 173",
-        "AHI 175",
         "AHI 176A",
         "AHI 176B",
         "AHI 176C",
@@ -95,7 +109,6 @@
         "AHI 183A",
         "AHI 183B",
         "AHI 183C",
-        "AHI 184",
         "AHI 185",
         "AHI 186",
         "AHI 187",
@@ -104,6 +117,7 @@
         "AHI 188C",
         "AHI 189",
         "DES 127A",
+        "or DES 127AV",
         "DES 128A",
         "DES 138",
         "DES 141",
@@ -114,18 +128,27 @@
         "DES 145",
         "DES 146",
         "DES 148",
-        "DES 148V",
+        "or DES 148V",
         "DES 149",
         "DRA 114",
         "DRA/CTS 116",
         "DRA 150",
         "DRA 155",
+        "CDM 155",
+        "CDM 159",
         "TCS 155",
         "TCS 159"
       ],
       "units": "12",
       "notes": [
-        "Choose three from list A:",
+        "Choose three from list A:"
+      ]
+    },
+    {
+      "heading": "List A:",
+      "courses": [],
+      "units": "20",
+      "notes": [
         "Choose five from lists B & C; one may be a non-Design (DES) course:"
       ]
     },
@@ -144,6 +167,7 @@
         "DES 128B",
         "DES 131",
         "DES 132A",
+        "DES 132B",
         "DES 134A",
         "DES 134B",
         "DES 135A",
@@ -212,18 +236,25 @@
         "DES 180B",
         "DES 187"
       ],
+      "units": "",
+      "notes": [
+        "Capstone Course Option; these courses are the most advanced in the major and prerequisites are strictly enforced:"
+      ]
+    },
+    {
+      "heading": "List C:",
+      "courses": [],
       "units": "8",
       "notes": [
-        "Capstone Course Option; these courses are the most advanced in the major and prerequisites are strictly enforced:",
-        "Choose two from list A, B, or C that have not been previously counted.",
+        "Choose two from list A, B, or C that have not been previously counted. (8 units)",
         "Note: Substitutions for the listed courses may be allowed under certain circumstances with prior departmental approval.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
   "specializations": [],
-  "advising_notes": [
-    "Internships, Careers, & Study Abroad: Design students are encouraged to supplement their coursework with internships in design firms, museums, and design-related businesses. Design graduates go directly from this program into further graduate study, or professional work including exhibition, fashion, information, interior architecture & product (lighting & furniture), textiles, visual communications (digital, environmental & print), and sustainable design. In addition, students have become entrepreneurs through freelance and commiss"
-  ],
-  "total_units": "68"
+  "advising_notes": [],
+  "total_units": "68",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.413Z"
 }

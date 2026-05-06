@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Ruicong",
+    "id": "VGVhY2hlci0yOTcyMTE4",
+    "lastName": "Zheng",
+    "legacyId": 2972118,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

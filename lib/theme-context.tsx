@@ -18,7 +18,7 @@ export function useTheme() {
   return useContext(ThemeContext);
 }
 
-const STORAGE_KEY = "ucd-ai-theme";
+const STORAGE_KEY = "adviso-theme";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");

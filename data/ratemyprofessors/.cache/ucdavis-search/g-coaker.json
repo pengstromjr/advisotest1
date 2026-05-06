@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 3.9,
+    "department": "Plant Pathology",
+    "firstName": "Gitta",
+    "id": "VGVhY2hlci0xMTgzNTcz",
+    "lastName": "Coaker",
+    "legacyId": 1183573,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

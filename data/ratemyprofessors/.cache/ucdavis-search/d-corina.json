@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.8,
+    "department": "Linguistics",
+    "firstName": "David",
+    "id": "VGVhY2hlci04MTAxODc=",
+    "lastName": "Corina",
+    "legacyId": 810187,
+    "numRatings": 69,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 67.3913
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.2,
+    "department": "Art & Art History",
+    "firstName": "Corina",
+    "id": "VGVhY2hlci0xODY1MDU1",
+    "lastName": "Weidinger",
+    "legacyId": 1865055,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.4,
+    "department": "Mathematics",
+    "firstName": "Corina",
+    "id": "VGVhY2hlci0xODI1Mzc0",
+    "lastName": "Ray",
+    "legacyId": 1825374,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

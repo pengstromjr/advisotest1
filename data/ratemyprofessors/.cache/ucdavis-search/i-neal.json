@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Civil Engineering",
+    "firstName": "I",
+    "id": "VGVhY2hlci04MzMzNTA=",
+    "lastName": "Idriss",
+    "legacyId": 833350,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.4,
+    "department": "Entomology",
+    "firstName": "Neal",
+    "id": "VGVhY2hlci0xNTUzNTk1",
+    "lastName": "Williams",
+    "legacyId": 1553595,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.75
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "course_id": "NRS321BY",
+  "course_title": "PMHNP Role Development & Clinical Decision Making",
+  "overall_grades": {
+    "A+": 73,
+    "A": 58,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 1,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.98,
+  "overall_enrolled": 135,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elizabeth Rice",
+      "professor_slug": "elizabeth-rice",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 73,
+            "A": 58,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 135
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 39,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 96
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 19,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

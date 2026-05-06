@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.2,
+    "department": "Land, Air & Water Resources",
+    "firstName": "Rebecca",
+    "id": "VGVhY2hlci0yNTA3MTQ2",
+    "lastName": "Hernandez",
+    "legacyId": 2507146,
+    "numRatings": 39,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.9231
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 2.8,
+    "department": "Human Development",
+    "firstName": "Maciel",
+    "id": "VGVhY2hlci0yNTcxNjkz",
+    "lastName": "Hernandez",
+    "legacyId": 2571693,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 3.1,
+    "department": "Native American Studies",
+    "firstName": "Juan",
+    "id": "VGVhY2hlci0yODU5ODg5",
+    "lastName": "Ávila Hernandez",
+    "legacyId": 2859889,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 42.8571
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.8,
+    "department": "Writing",
+    "firstName": "Ross",
+    "id": "VGVhY2hlci0yNTU3ODY2",
+    "lastName": "Hernandez",
+    "legacyId": 2557866,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.9,
+    "department": "Social Science",
+    "firstName": "Jesus",
+    "id": "VGVhY2hlci0xNzAyMjI4",
+    "lastName": "Hernandez",
+    "legacyId": 1702228,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Spanish",
+    "firstName": "Andrea",
+    "id": "VGVhY2hlci0zMTYxMTc5",
+    "lastName": "Hernandez",
+    "legacyId": 3161179,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci0zMTA3MDk1",
+    "lastName": "Hernandez",
+    "legacyId": 3107095,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

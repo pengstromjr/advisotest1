@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Plant Pathology",
+    "firstName": "Hung",
+    "id": "VGVhY2hlci0yMDQxOTA2",
+    "lastName": "Doan",
+    "legacyId": 2041906,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.1,
+    "department": "Nutrition",
+    "firstName": "Silas",
+    "id": "VGVhY2hlci04OTM5NzE=",
+    "lastName": "Hung",
+    "legacyId": 893971,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

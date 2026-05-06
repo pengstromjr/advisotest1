@@ -11,12 +11,13 @@
         "ENG 188",
         "ESP 167"
       ],
-      "units": "8",
+      "units": "",
       "notes": []
     },
     {
       "heading": "Elective Courses; choose 10 units:",
       "courses": [
+        "ECI 125",
         "ESP 171",
         "ESP/ECI 163",
         "ESP 168A",
@@ -26,13 +27,15 @@
         "POL 162",
         "POL 164"
       ],
-      "units": "10",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found on the departmental website."
+    "Minor Staff Advising: The Biological & Agricultural Engineering staff advisor is available to help students create academic plans for this minor and submit minor declarations. More information can be found at Undergraduate Advising."
   ],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.555Z"
 }

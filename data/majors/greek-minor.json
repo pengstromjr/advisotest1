@@ -11,19 +11,20 @@
         "CLA 001",
         "CLA 002"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Three upper division courses in Greek",
+        "Three upper division courses in Greek 1 (12 units)",
         "Greek (GRK)",
-        "One additional upper division course in Classics, Greek, or Latin.",
+        "One additional upper division course in Classics, Greek, or Latin. (4 units)",
         "Classics (CLA)",
-        "Greek (GRK)",
         "Latin (LAT)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.080Z"
 }

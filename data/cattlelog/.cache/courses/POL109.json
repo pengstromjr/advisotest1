@@ -1,0 +1,172 @@
+{
+  "course_id": "POL109",
+  "course_title": "Public Policy & the Governmental Process",
+  "overall_grades": {
+    "A+": 3,
+    "A": 159,
+    "A-": 93,
+    "B+": 73,
+    "B": 81,
+    "B-": 52,
+    "C+": 14,
+    "C": 19,
+    "C-": 20,
+    "D+": 3,
+    "D": 4,
+    "D-": 7,
+    "F": 10,
+    "P*": 44,
+    "NP*": 12
+  },
+  "overall_gpa": 3.22,
+  "overall_enrolled": 594,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Amber Boydstun",
+      "professor_slug": "amber-boydstun",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 93,
+            "A-": 54,
+            "B+": 45,
+            "B": 36,
+            "B-": 36,
+            "C+": 6,
+            "C": 12,
+            "C-": 9,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 15,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 330
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 93,
+            "A-": 54,
+            "B+": 45,
+            "B": 36,
+            "B-": 36,
+            "C+": 6,
+            "C": 12,
+            "C-": 9,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 15,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 330
+        }
+      }
+    },
+    {
+      "professor_name": "Jack Rametta",
+      "professor_slug": "jack-rametta",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 18,
+            "B+": 15,
+            "B": 12,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 117
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 18,
+            "B+": 15,
+            "B": 12,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 117
+        }
+      }
+    },
+    {
+      "professor_name": "Jordan Kujala",
+      "professor_slug": "jordan-kujala",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 21,
+            "B+": 13,
+            "B": 33,
+            "B-": 10,
+            "C+": 2,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 1,
+            "P*": 11,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 147
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 21,
+            "B+": 13,
+            "B": 33,
+            "B-": 10,
+            "C+": 2,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 1,
+            "P*": 11,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 147
+        }
+      }
+    }
+  ]
+}

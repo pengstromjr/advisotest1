@@ -8,10 +8,11 @@
     {
       "heading": "Required Courses",
       "courses": [
-        "ABT/LED 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "ABT/LED 150",
+        "LDA 150",
         "ESM 186"
       ],
-      "units": "9",
+      "units": "",
       "notes": []
     },
     {
@@ -25,18 +26,28 @@
         "PLS 100BL",
         "PLS 100C",
         "PLS 100CL",
-        "SSC 109",
-        "PLS 120",
-        "STA 100"
+        "SSC 109"
       ],
-      "units": "9",
+      "units": "",
       "notes": [
-        "Choose 9 or more units:",
+        "Choose 9 or more units:"
+      ]
+    },
+    {
+      "heading": "Elective Courses",
+      "courses": [
+        "PLS 120",
+        "or STA 100"
+      ],
+      "units": "",
+      "notes": [
         "Choose one:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.029Z"
 }

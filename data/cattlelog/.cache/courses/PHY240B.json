@@ -1,0 +1,70 @@
+{
+  "course_id": "PHY240B",
+  "course_title": "Condensed Matter Physics B",
+  "overall_grades": {
+    "A+": 6,
+    "A": 18,
+    "A-": 27,
+    "B+": 3,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.81,
+  "overall_enrolled": 54,
+  "available_quarters": [
+    "Fall_2022"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alex Thomson",
+      "professor_slug": "alex-thomson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 18,
+            "A-": 27,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 54
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 18,
+            "A-": 27,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 54
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "course_id": "NRS276V",
+  "course_title": "Advanced Pharmacology II",
+  "overall_grades": {
+    "A+": 3,
+    "A": 16,
+    "A-": 40,
+    "B+": 41,
+    "B": 30,
+    "B-": 12,
+    "C+": 6,
+    "C": 4,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.31,
+  "overall_enrolled": 152,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brent Luu",
+      "professor_slug": "brent-luu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 4,
+            "B+": 2,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 26
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 4,
+            "B+": 2,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 26
+        }
+      }
+    },
+    {
+      "professor_name": "Charleen Singh",
+      "professor_slug": "charleen-singh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 12,
+            "B+": 15,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 48
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 12,
+            "B+": 15,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 48
+        }
+      }
+    },
+    {
+      "professor_name": "Kathryn Sexson",
+      "professor_slug": "kathryn-sexson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 24,
+            "B+": 24,
+            "B": 15,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 78
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 24,
+            "B+": 24,
+            "B": 15,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 78
+        }
+      }
+    }
+  ]
+}

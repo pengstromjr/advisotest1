@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.7,
+    "department": "Writing",
+    "firstName": "Patricia",
+    "id": "VGVhY2hlci0yMzM2OTMw",
+    "lastName": "Serviss",
+    "legacyId": 2336930,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.3333
+  }
+]

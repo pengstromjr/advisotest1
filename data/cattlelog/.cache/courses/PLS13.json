@@ -1,0 +1,97 @@
+{
+  "course_id": "PLS13",
+  "course_title": "Chocolate, Covered: The Past, Present, & Future of Cacao",
+  "overall_grades": {
+    "A+": 66,
+    "A": 60,
+    "A-": 42,
+    "B+": 18,
+    "B": 15,
+    "B-": 9,
+    "C+": 3,
+    "C": 0,
+    "C-": 9,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 9,
+    "P*": 9,
+    "NP*": 9
+  },
+  "overall_gpa": 3.51,
+  "overall_enrolled": 249,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "David Mackill",
+      "professor_slug": "david-mackill",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 60,
+            "A-": 42,
+            "B+": 18,
+            "B": 15,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 9,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 249
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 3,
+            "A-": 12,
+            "B+": 0,
+            "B": 3,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 54
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 57,
+            "A-": 30,
+            "B+": 18,
+            "B": 12,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 195
+        }
+      }
+    }
+  ]
+}

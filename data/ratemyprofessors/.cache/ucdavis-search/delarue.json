@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.7,
+    "department": "Food Science & Technology",
+    "firstName": "Julien",
+    "id": "VGVhY2hlci0yNjU0NzY5",
+    "lastName": "Delarue",
+    "legacyId": 2654769,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 44.4444
+  }
+]

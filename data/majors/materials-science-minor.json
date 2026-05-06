@@ -12,9 +12,15 @@
         "EMS 162",
         "EMS 164",
         "EMS 172",
-        "EMS 174"
+        "or EMS 174"
       ],
-      "units": "Units",
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "4",
       "notes": [
         "Choose an additional 4 units of upper division letter graded Material Science & Engineering (EMS) coursework.",
         "Material Science & Engineering (EMS) courses."
@@ -23,5 +29,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.539Z"
 }

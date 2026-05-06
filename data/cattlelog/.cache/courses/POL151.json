@@ -1,0 +1,141 @@
+{
+  "course_id": "POL151",
+  "course_title": "Constitutional Politics of the First Amendment & the Right to Privacy.",
+  "overall_grades": {
+    "A+": 41,
+    "A": 293,
+    "A-": 263,
+    "B+": 188,
+    "B": 146,
+    "B-": 50,
+    "C+": 59,
+    "C": 41,
+    "C-": 13,
+    "D+": 12,
+    "D": 13,
+    "D-": 4,
+    "F": 26,
+    "P*": 31,
+    "NP*": 12
+  },
+  "overall_gpa": 3.28,
+  "overall_enrolled": 1192,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Mark Verbitsky",
+      "professor_slug": "mark-verbitsky",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 41,
+            "A": 293,
+            "A-": 263,
+            "B+": 188,
+            "B": 146,
+            "B-": 50,
+            "C+": 59,
+            "C": 41,
+            "C-": 13,
+            "D+": 12,
+            "D": 13,
+            "D-": 4,
+            "F": 26,
+            "P*": 31,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 1192
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 75,
+            "A-": 63,
+            "B+": 21,
+            "B": 42,
+            "B-": 12,
+            "C+": 3,
+            "C": 12,
+            "C-": 12,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 273
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 90,
+            "A-": 60,
+            "B+": 63,
+            "B": 42,
+            "B-": 6,
+            "C+": 24,
+            "C": 15,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 339
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 102,
+            "A-": 108,
+            "B+": 84,
+            "B": 42,
+            "B-": 24,
+            "C+": 24,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 9,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 444
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 26,
+            "A-": 32,
+            "B+": 20,
+            "B": 20,
+            "B-": 8,
+            "C+": 8,
+            "C": 5,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 2,
+            "P*": 7,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 136
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "course_id": "ECI101",
+  "course_title": "Transfer Transition for Civil & Environmental Engineering",
+  "overall_grades": {
+    "A+": 20,
+    "A": 151,
+    "A-": 13,
+    "B+": 2,
+    "B": 0,
+    "B-": 1,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3
+  },
+  "overall_gpa": 3.9,
+  "overall_enrolled": 190,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Christopher Cappa",
+      "professor_slug": "christopher-cappa",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 10,
+            "A-": 1,
+            "B+": 2,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 34
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 10,
+            "A-": 1,
+            "B+": 2,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 34
+        }
+      }
+    },
+    {
+      "professor_name": "Colleen Bronner",
+      "professor_slug": "colleen-bronner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 141,
+            "A-": 12,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 156
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 66,
+            "A-": 9,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 75
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 75,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 81
+        }
+      }
+    }
+  ]
+}

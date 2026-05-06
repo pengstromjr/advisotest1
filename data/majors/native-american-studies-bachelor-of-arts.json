@@ -9,8 +9,9 @@
       "heading": "Choose two:",
       "courses": [
         "NAS 001",
+        "or NAS 002V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "NAS 010",
         "NAS 012"
       ],
@@ -30,6 +31,7 @@
       ],
       "units": "4",
       "notes": [
+        "OR",
         "One comparable lower division course from the following departments or programs:",
         "African American & African Studies (AAS) courses.",
         "Anthropology (ANT) courses.",
@@ -41,13 +43,13 @@
         "Linguistics (LIN) courses.",
         "Middle East and South Asia Studies (MSA) courses.",
         "Another 4-unit lower division course selected in consultation with an advisor, guided by the student’s interest and relevance to Native American Studies.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (12 units)"
       ]
     },
     {
       "heading": "Theory & Methods",
       "courses": [
-        "NAS 146",
+        "or NAS 146",
         "NAS 190"
       ],
       "units": "4-8",
@@ -62,18 +64,19 @@
         "NAS 108",
         "NAS 109",
         "NAS 110A",
-        "NAS 110B",
-        "NAS 192"
+        "NAS 110B"
       ],
       "units": "4",
       "notes": [
-        "Choose one:"
+        "Choose one:",
+        "OR",
+        "Substitute a field experience credit (NAS 192) for independent language learning."
       ]
     },
     {
       "heading": "Hemispheric Perspectives",
       "courses": [
-        "NAS 120",
+        "or NAS 120",
         "NAS 133B",
         "NAS 171",
         "NAS 175V",
@@ -115,7 +118,7 @@
         "NAS 119",
         "NAS 121",
         "NAS 123",
-        "NAS 123V",
+        "or NAS 123V",
         "NAS 125",
         "NAS 130A",
         "NAS 130B",
@@ -127,19 +130,23 @@
         "NAS 161",
         "NAS 180",
         "NAS 181",
-        "NAS 181V",
-        "NAS 182",
+        "or NAS 181C",
+        "or NAS 181V",
+        "NAS 181A",
+        "or NAS 182",
+        "NAS 181B",
+        "or NAS 183",
         "NAS 183",
         "NAS 188",
         "NAS 191",
         "NAS 194HA",
-        "NAS 194HB",
+        "or NAS 194HB",
         "NAS 196"
       ],
       "units": "20",
       "notes": [
         "Students take a variety of upper division courses in Native American Studies. Virtual & hybrid versions of all these courses any of these classes may are automatically be substituted for these requirements.",
-        "Honors Courses"
+        "Honors Courses (0-8 units)"
       ]
     },
     {
@@ -148,7 +155,7 @@
       "units": "36-56",
       "notes": [
         "By petition, the undergraduate advisor can approve up to three other relevant upper division courses of interest from other departments, particularly those from the recommended departments listed for the lower division elective, but open to any interdisciplinary interests of the student. Also with the approval of an undergraduate advisor, up to four courses (16+ units if semester-length) can be taken via UC Online from other UC campuses in this subject area. An unlimited number of online/\"v\" virtual courses taught by UC Davis NAS faculty can count towards the major. Virtual versions of any NAS classes developed in the future at UC Davis may be substituted.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36-56 units)"
       ]
     }
   ],
@@ -156,5 +163,7 @@
   "advising_notes": [
     "Major Advisor & Advising: All new and prospective Native American Studies majors are encouraged to see the Student Affairs Officer individually, once per year, at minimum. See Native American Studies Advising."
   ],
-  "total_units": "48"
+  "total_units": "48",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.766Z"
 }

@@ -15,15 +15,24 @@
         "AAS 018",
         "AAS 080"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose one of the following:",
-        "Select any five upper division courses offered in African American & African Studies.",
+        "Choose one of the following:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "Select any five upper division courses offered in African American & African Studies. (20 units)",
         "African American & African Studies (AAS) courses."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.081Z"
 }

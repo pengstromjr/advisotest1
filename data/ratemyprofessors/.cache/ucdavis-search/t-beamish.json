@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.8,
+    "department": "Sociology",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci0yNzE0NjM=",
+    "lastName": "Beamish",
+    "legacyId": 271463,
+    "numRatings": 62,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 61.9048
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3.2,
+    "department": "Sociology",
+    "firstName": "Tom",
+    "id": "VGVhY2hlci0yMjQyNjI1",
+    "lastName": "Beamish",
+    "legacyId": 2242625,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "Thomas Tom",
+    "id": "VGVhY2hlci0yNzIxMDM4",
+    "lastName": "Beamish",
+    "legacyId": 2721038,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -13,11 +13,11 @@
         "MAT 021C",
         "MAT 021D",
         "MAT 022A",
-        "MAT 027A",
-        "BIS 027A",
+        "or MAT 027A",
+        "or BIS 027A",
         "MAT 022B",
-        "MAT 027B",
-        "BIS 027B"
+        "or MAT 027B",
+        "or BIS 027B"
       ],
       "units": "4",
       "notes": []
@@ -37,18 +37,34 @@
       "courses": [
         "CHE 002A",
         "CHE 002AH",
-        "CHE 004A",
+        "CHE 004A"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose One:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
         "CHE 002B",
         "CHE 002BH",
-        "CHE 004B",
+        "CHE 004B"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose One:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
         "CHE 002C",
         "CHE 002CH",
         "CHE 004C"
       ],
       "units": "5",
       "notes": [
-        "Choose One:",
-        "Choose One:",
         "Choose One:"
       ]
     },
@@ -58,8 +74,8 @@
         "ECH 005",
         "ECH 051",
         "ECH 060",
-        "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032A",
+        "or ECS 032AV",
         "ECH 080"
       ],
       "units": "3",
@@ -69,27 +85,27 @@
       "heading": "Engineering",
       "courses": [
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y",
+        "or ENG 045Y",
         "COM 001",
         "COM 002",
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y"
+        "or UWP 001V",
+        "or UWP 001Y"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
         "Lower Division Composition/Writing; choose one: a grade of C- or better is required:",
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (72-74 units)"
       ]
     },
     {
@@ -126,20 +142,14 @@
     },
     {
       "heading": "Chemical Engineering Technical Electives",
-      "courses": [
-        "ECH 192",
-        "ECH 198",
-        "ECH 199"
-      ],
-      "units": "20",
+      "courses": [],
+      "units": "9-12",
       "notes": [
-        "Choose 20 units:",
-        "1. At least 3 units must be completed in any upper division engineering course(s) not numbered 190C, 192, 198, and 199 (independent study, research, seminar, or internship courses).",
-        "2. Remaining 17 units, for a total minimum of 20 units are subject to the following:",
-        "a. Units must be completed in science, engineering or business courses carrying one of the following subject designations: ARE, ATM, BIM, BIS, BIT, CHE, EAE, EBS, ECH, ECN, ECI, ECS, EEC, EME, EMS, ENG, FPS, FST, MAT, MCB, MGT, PHY, STA and VEN.",
-        "b. A minimum of 9 units must be completed in upper division (100-199) courses.",
-        "d. Credit for independent studies (199s) or internships (192s) completed outside of the department must be approved by the department’s Undergraduate Affairs Committee. Additionally, students applying for these credits must submit an essay of at least 4 pages and no more than 10 pages detailing the engineering and/or science aspects of their work, results or outcomes (figures and graphs may be included), and how the experience relates to their educational program and objectives. The report must be submitted in PDF format and use 1.5 line spacing, 1” margins, and 12pt Times New Roman font. No confidential or proprietary information should be contained in the report. Applications must also include a written evaluation of the students’ performance by the student’s supervisor or faculty advisor.",
-        "e. Courses numbered 92, 98, and 99 may not be used to satisfy this requirement.",
+        "Choose 9-12 units:",
+        "1. Complete one upper division (100-199) engineering course (3-4 units). Not numbered 190C, 192, 198, and 199. 1",
+        "2. Complete 6-8 units of upper division (100-199) science, engineering, or business courses. 1,2",
+        "a. A maximum of 4 units may be completed in courses numbered ECH 173, ECH 192, ECH 198, and ECH 199 combined.",
+        "b. Courses numbered 192, 198, 199 from outside the department require a petition (see major advisor).",
         "3. Courses used to satisfy other major requirements cannot be used to satisfy the technical elective requirements."
       ]
     },
@@ -149,8 +159,8 @@
         "UWP 102E",
         "UWP 102F",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
@@ -158,11 +168,13 @@
       "notes": [
         "Choose one:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (73-80 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "156"
+  "total_units": "145",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.955Z"
 }

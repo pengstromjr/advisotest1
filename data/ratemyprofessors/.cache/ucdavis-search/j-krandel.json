@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 4.3,
+    "department": "Mathematics",
+    "firstName": "Jared",
+    "id": "VGVhY2hlci0zMDgzNzkx",
+    "lastName": "Krandel",
+    "legacyId": 3083791,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  }
+]

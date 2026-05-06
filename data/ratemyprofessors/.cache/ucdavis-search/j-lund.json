@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.4,
+    "department": "Agriculture",
+    "firstName": "Jerry",
+    "id": "VGVhY2hlci05OTIwOTY=",
+    "lastName": "Lundblad",
+    "legacyId": 992096,
+    "numRatings": 186,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.7705
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 2.1,
+    "department": "Civil Engineering",
+    "firstName": "Jay",
+    "id": "VGVhY2hlci0yMDIwNjQ0",
+    "lastName": "Lund",
+    "legacyId": 2020644,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 37.5
+  }
+]

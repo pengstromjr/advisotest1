@@ -9,16 +9,16 @@
       "heading": "General Requirements",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 130",
         "PSC 131",
         "PSC 132",
@@ -55,10 +55,10 @@
       "heading": "Core Group C: Social/Personality",
       "courses": [
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "PSC 152",
         "PSC 154",
-        "PSC 154V",
+        "or PSC 154V",
         "PSC 158",
         "PSC 161",
         "PSC 162",
@@ -74,12 +74,12 @@
       "heading": "Core Group D: Developmental",
       "courses": [
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
+        "or PSC 140V",
+        "or PSC 140Y",
         "PSC 141",
         "PSC 142",
         "PSC 143",
@@ -90,13 +90,20 @@
       "units": "4",
       "notes": [
         "Choose 4 units:",
-        "Psychology Subtotal"
+        "Psychology Subtotal (19-20 units)"
+      ]
+    },
+    {
+      "heading": "Approved Minor Electives",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Additional units to achieve a total of 20 units of approved upper division minor coursework. Each course may only be used to satisfy one Psychology minor requirement; the same course cannot be used for multiple Psychology minor requirements."
       ]
     },
     {
       "heading": "Approved Psychology Electives",
       "courses": [
-        "PSC 197T",
         "PSC 103A",
         "PSC 103B",
         "PSC 104",
@@ -106,7 +113,7 @@
         "PSC 134",
         "PSC 138",
         "PSC 150",
-        "PSC 150V",
+        "or PSC 150V",
         "PSC 153",
         "PSC 155",
         "PSC 156",
@@ -129,7 +136,7 @@
       ],
       "units": "",
       "notes": [
-        "Additional units to achieve a total of 20 units of approved upper division minor coursework. Each course may only be used to satisfy one Psychology minor requirement; the same course cannot be used for multiple Psychology minor requirements.",
+        "Any upper division Psychology (PSC) course(s), except PSC 197T, including:",
         "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
       ]
     },
@@ -143,15 +150,15 @@
         "CHI 122",
         "CHI 123",
         "CMN 120",
-        "CMN 120V",
+        "or CMN 120V",
         "CMN 122",
         "CNS 100",
         "EDU 110",
         "EXB 102",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C",
         "HDE/ENT 117",
         "HDE 163",
@@ -166,13 +173,16 @@
       ],
       "units": "4-5",
       "notes": [
-        "Approved Major Electives Subtotal"
+        "Approved Major Electives Subtotal (4-5 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities."
+    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities.",
+    "Major Advising: For information about how to contact a minor advisor, see Major Advising."
   ],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.093Z"
 }

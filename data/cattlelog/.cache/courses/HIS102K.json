@@ -1,0 +1,73 @@
+{
+  "course_id": "HIS102K",
+  "course_title": "Undergraduate Proseminar in History: American History to 1787",
+  "overall_grades": {
+    "A+": 3,
+    "A": 7,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 1
+  },
+  "overall_gpa": 3.74,
+  "overall_enrolled": 15,
+  "available_quarters": [
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Smolenski",
+      "professor_slug": "john-smolenski",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 15
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 15
+        }
+      }
+    }
+  ]
+}

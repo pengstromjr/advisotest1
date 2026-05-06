@@ -1,0 +1,70 @@
+{
+  "course_id": "ENL126",
+  "course_title": "Food & Literature",
+  "overall_grades": {
+    "A+": 16,
+    "A": 4,
+    "A-": 3,
+    "B+": 4,
+    "B": 2,
+    "B-": 1,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.65,
+  "overall_enrolled": 31,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Sal Nicolazzo",
+      "professor_slug": "sal-nicolazzo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 4,
+            "A-": 3,
+            "B+": 4,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 31
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 4,
+            "A-": 3,
+            "B+": 4,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 31
+        }
+      }
+    }
+  ]
+}

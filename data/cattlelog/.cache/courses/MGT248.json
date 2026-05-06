@@ -1,0 +1,90 @@
+{
+  "course_id": "MGT248",
+  "course_title": "Marketing Strategies",
+  "overall_grades": {
+    "A+": 30,
+    "A": 45,
+    "A-": 6,
+    "B+": 3,
+    "B": 3,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.88,
+  "overall_enrolled": 90,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jesse Catlin",
+      "professor_slug": "jesse-catlin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 45,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 90
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 24,
+            "A-": 0,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 39
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 21,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 51
+        }
+      }
+    }
+  ]
+}

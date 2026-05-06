@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.1,
+    "department": "Food Science & Technology",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0yNzQ2NzQx",
+    "lastName": "Gravelle",
+    "legacyId": 2746741,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 19.2308
+  }
+]

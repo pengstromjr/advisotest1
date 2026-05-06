@@ -1,0 +1,267 @@
+{
+  "course_id": "AST10G",
+  "course_title": "Introduction to Stars, Galaxies, & the Universe",
+  "overall_grades": {
+    "A+": 37,
+    "A": 271,
+    "A-": 156,
+    "B+": 169,
+    "B": 335,
+    "B-": 121,
+    "C+": 109,
+    "C": 304,
+    "C-": 110,
+    "D+": 39,
+    "D": 47,
+    "D-": 23,
+    "F": 44,
+    "P*": 195,
+    "NP*": 58
+  },
+  "overall_gpa": 2.75,
+  "overall_enrolled": 2018,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrew Wetzel",
+      "professor_slug": "andrew-wetzel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 45,
+            "A-": 36,
+            "B+": 63,
+            "B": 72,
+            "B-": 21,
+            "C+": 33,
+            "C": 36,
+            "C-": 30,
+            "D+": 21,
+            "D": 15,
+            "D-": 12,
+            "F": 6,
+            "P*": 39,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 468
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 45,
+            "A-": 36,
+            "B+": 63,
+            "B": 72,
+            "B-": 21,
+            "C+": 33,
+            "C": 36,
+            "C-": 30,
+            "D+": 21,
+            "D": 15,
+            "D-": 12,
+            "F": 6,
+            "P*": 39,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 468
+        }
+      }
+    },
+    {
+      "professor_name": "Christopher Fassnacht",
+      "professor_slug": "christopher-fassnacht",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 165,
+            "A-": 87,
+            "B+": 72,
+            "B": 180,
+            "B-": 75,
+            "C+": 45,
+            "C": 207,
+            "C-": 66,
+            "D+": 6,
+            "D": 24,
+            "D-": 0,
+            "F": 18,
+            "P*": 72,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 1050
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 81,
+            "A-": 51,
+            "B+": 36,
+            "B": 102,
+            "B-": 21,
+            "C+": 18,
+            "C": 99,
+            "C-": 24,
+            "D+": 0,
+            "D": 15,
+            "D-": 0,
+            "F": 12,
+            "P*": 51,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 519
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 84,
+            "A-": 36,
+            "B+": 36,
+            "B": 78,
+            "B-": 54,
+            "C+": 27,
+            "C": 108,
+            "C-": 42,
+            "D+": 6,
+            "D": 9,
+            "D-": 0,
+            "F": 6,
+            "P*": 21,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 531
+        }
+      }
+    },
+    {
+      "professor_name": "Stefano Valenti",
+      "professor_slug": "stefano-valenti",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 2,
+            "B+": 4,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 5,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 6,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 2.53,
+          "quarter_enrolled": 40
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 2,
+            "B+": 4,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 5,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 6,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 2.53,
+          "quarter_enrolled": 40
+        }
+      }
+    },
+    {
+      "professor_name": "Tucker Jones",
+      "professor_slug": "tucker-jones",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 58,
+            "A-": 31,
+            "B+": 30,
+            "B": 79,
+            "B-": 23,
+            "C+": 29,
+            "C": 56,
+            "C-": 13,
+            "D+": 11,
+            "D": 8,
+            "D-": 10,
+            "F": 18,
+            "P*": 78,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 460
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 28,
+            "A-": 13,
+            "B+": 18,
+            "B": 37,
+            "B-": 5,
+            "C+": 8,
+            "C": 11,
+            "C-": 4,
+            "D+": 2,
+            "D": 2,
+            "D-": 1,
+            "F": 3,
+            "P*": 21,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 157
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 30,
+            "A-": 18,
+            "B+": 12,
+            "B": 42,
+            "B-": 18,
+            "C+": 21,
+            "C": 45,
+            "C-": 9,
+            "D+": 9,
+            "D": 6,
+            "D-": 9,
+            "F": 15,
+            "P*": 57,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.49,
+          "quarter_enrolled": 303
+        }
+      }
+    }
+  ]
+}

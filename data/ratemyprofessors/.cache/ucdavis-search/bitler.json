@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 2.6,
+    "department": "Economics",
+    "firstName": "Marianne",
+    "id": "VGVhY2hlci0yMTUzNjM1",
+    "lastName": "Bitler",
+    "legacyId": 2153635,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 41.1765
+  }
+]

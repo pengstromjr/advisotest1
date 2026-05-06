@@ -1,0 +1,353 @@
+{
+  "course_id": "CGS1",
+  "course_title": "Introduction to Cognitive Science",
+  "overall_grades": {
+    "A+": 263,
+    "A": 762,
+    "A-": 415,
+    "B+": 381,
+    "B": 353,
+    "B-": 215,
+    "C+": 134,
+    "C": 116,
+    "C-": 62,
+    "D+": 35,
+    "D": 25,
+    "D-": 16,
+    "F": 51,
+    "P*": 136,
+    "NP*": 52
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 3016,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Danielle Williams",
+      "professor_slug": "danielle-williams",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 57,
+            "A-": 54,
+            "B+": 42,
+            "B": 60,
+            "B-": 36,
+            "C+": 21,
+            "C": 24,
+            "C-": 12,
+            "D+": 6,
+            "D": 9,
+            "D-": 6,
+            "F": 21,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 360
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 57,
+            "A-": 54,
+            "B+": 42,
+            "B": 60,
+            "B-": 36,
+            "C+": 21,
+            "C": 24,
+            "C-": 12,
+            "D+": 6,
+            "D": 9,
+            "D-": 6,
+            "F": 21,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 360
+        }
+      }
+    },
+    {
+      "professor_name": "Gabriel Dupre",
+      "professor_slug": "gabriel-dupre",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 34,
+            "A": 43,
+            "A-": 47,
+            "B+": 23,
+            "B": 20,
+            "B-": 16,
+            "C+": 12,
+            "C": 5,
+            "C-": 6,
+            "D+": 3,
+            "D": 2,
+            "D-": 2,
+            "F": 3,
+            "P*": 13,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 230
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 22,
+            "A-": 35,
+            "B+": 8,
+            "B": 8,
+            "B-": 6,
+            "C+": 4,
+            "C": 1,
+            "C-": 4,
+            "D+": 3,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 118
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 21,
+            "A-": 12,
+            "B+": 15,
+            "B": 12,
+            "B-": 10,
+            "C+": 8,
+            "C": 4,
+            "C-": 2,
+            "D+": 0,
+            "D": 1,
+            "D-": 2,
+            "F": 3,
+            "P*": 11,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 112
+        }
+      }
+    },
+    {
+      "professor_name": "Jonathan Dorsey",
+      "professor_slug": "jonathan-dorsey",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 302,
+            "A-": 131,
+            "B+": 193,
+            "B": 192,
+            "B-": 118,
+            "C+": 80,
+            "C": 72,
+            "C-": 35,
+            "D+": 26,
+            "D": 14,
+            "D-": 8,
+            "F": 18,
+            "P*": 60,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 1280
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 111,
+            "A-": 54,
+            "B+": 57,
+            "B": 63,
+            "B-": 21,
+            "C+": 30,
+            "C": 33,
+            "C-": 18,
+            "D+": 6,
+            "D": 12,
+            "D-": 6,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 423
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 90,
+            "A-": 39,
+            "B+": 57,
+            "B": 54,
+            "B-": 48,
+            "C+": 21,
+            "C": 15,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 36,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 393
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 14,
+            "A-": 8,
+            "B+": 4,
+            "B": 9,
+            "B-": 7,
+            "C+": 11,
+            "C": 9,
+            "C-": 2,
+            "D+": 5,
+            "D": 2,
+            "D-": 2,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 83
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 87,
+            "A-": 30,
+            "B+": 75,
+            "B": 66,
+            "B-": 42,
+            "C+": 18,
+            "C": 15,
+            "C-": 9,
+            "D+": 12,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 15,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 381
+        }
+      }
+    },
+    {
+      "professor_name": "Zoe Drayson",
+      "professor_slug": "zoe-drayson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 222,
+            "A": 360,
+            "A-": 183,
+            "B+": 123,
+            "B": 81,
+            "B-": 45,
+            "C+": 21,
+            "C": 15,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 60,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 1146
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 108,
+            "A-": 39,
+            "B+": 12,
+            "B": 12,
+            "B-": 15,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 318
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 117,
+            "A-": 66,
+            "B+": 72,
+            "B": 42,
+            "B-": 18,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 18,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 423
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 135,
+            "A-": 78,
+            "B+": 39,
+            "B": 27,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 21,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 405
+        }
+      }
+    }
+  ]
+}

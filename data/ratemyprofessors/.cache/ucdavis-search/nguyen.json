@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.8,
+    "department": "Environmental Toxicology",
+    "firstName": "Tran",
+    "id": "VGVhY2hlci0yNDAxNTg3",
+    "lastName": "Nguyen",
+    "legacyId": 2401587,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 2.6,
+    "department": "Mathematics",
+    "firstName": "Vinh Van",
+    "id": "VGVhY2hlci0yNjU1NzA5",
+    "lastName": "Nguyen",
+    "legacyId": 2655709,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.8,
+    "department": "Mathematics",
+    "firstName": "Danquynh",
+    "id": "VGVhY2hlci0yNTMxMzg1",
+    "lastName": "Nguyen",
+    "legacyId": 2531385,
+    "numRatings": 92,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.5652
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.7,
+    "department": "Not Specified",
+    "firstName": "Josef",
+    "id": "VGVhY2hlci0xNTQyNDAz",
+    "lastName": "Nguyen",
+    "legacyId": 1542403,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

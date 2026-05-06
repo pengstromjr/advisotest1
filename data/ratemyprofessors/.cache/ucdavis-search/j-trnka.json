@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.8,
+    "department": "Physics",
+    "firstName": "Jaroslav",
+    "id": "VGVhY2hlci0yMjM5MTU2",
+    "lastName": "Trnka",
+    "legacyId": 2239156,
+    "numRatings": 115,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 98.2609
+  }
+]

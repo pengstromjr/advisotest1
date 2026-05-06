@@ -12,7 +12,13 @@
         "RUS 101B",
         "RUS 101C"
       ],
-      "units": "Units",
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8",
       "notes": [
         "Choose 8 units of other upper division Russian (RUS) courses.",
         "Russian (RUS) courses."
@@ -21,5 +27,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.156Z"
 }

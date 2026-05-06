@@ -6,6 +6,15 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "Restriction",
+      "courses": [],
+      "units": "20",
+      "notes": [
+        "No more than two courses from a single department may be offered in satisfaction of the minor requirements.",
+        "Choose one or two from each of the following areas:"
+      ]
+    },
+    {
       "heading": "Approaches",
       "courses": [
         "ANT 123AN",
@@ -21,10 +30,7 @@
         "SOC 157"
       ],
       "units": "",
-      "notes": [
-        "No more than two courses from a single department may be offered in satisfaction of the minor requirements.",
-        "Choose one or two from each of the following areas:"
-      ]
+      "notes": []
     },
     {
       "heading": "Northern & Western Regions",
@@ -53,17 +59,19 @@
         "ANT 143A",
         "ANT 144",
         "HIS 165",
-        "HIS 165V",
+        "or HIS 165V",
         "HIS 191F",
         "HIS 194C",
         "NAS 120",
         "POL 142A"
       ],
-      "units": "20",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.509Z"
 }

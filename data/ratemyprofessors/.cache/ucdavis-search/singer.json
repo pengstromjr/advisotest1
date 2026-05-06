@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 1.7,
+    "department": "Science",
+    "firstName": "Mitch",
+    "id": "VGVhY2hlci0xOTY1Ng==",
+    "lastName": "Singer",
+    "legacyId": 19656,
+    "numRatings": 298,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 14.2857
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.3,
+    "department": "Biological Sciences",
+    "firstName": "Mitchell",
+    "id": "VGVhY2hlci0xOTMzMzQ1",
+    "lastName": "Singer",
+    "legacyId": 1933345,
+    "numRatings": 69,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 22.0339
+  }
+]

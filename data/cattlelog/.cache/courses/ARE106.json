@@ -1,0 +1,346 @@
+{
+  "course_id": "ARE106",
+  "course_title": "Econometric Theory & Applications",
+  "overall_grades": {
+    "A+": 82,
+    "A": 407,
+    "A-": 577,
+    "B+": 533,
+    "B": 724,
+    "B-": 579,
+    "C+": 367,
+    "C": 362,
+    "C-": 199,
+    "D+": 56,
+    "D": 76,
+    "D-": 25,
+    "F": 81,
+    "P*": 25,
+    "NP*": 25
+  },
+  "overall_gpa": 2.87,
+  "overall_enrolled": 4118,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Aaron Smith",
+      "professor_slug": "aaron-smith",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 156,
+            "A-": 171,
+            "B+": 174,
+            "B": 240,
+            "B-": 96,
+            "C+": 66,
+            "C": 69,
+            "C-": 42,
+            "D+": 18,
+            "D": 18,
+            "D-": 6,
+            "F": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 1107
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 78,
+            "A-": 69,
+            "B+": 63,
+            "B": 54,
+            "B-": 33,
+            "C+": 15,
+            "C": 27,
+            "C-": 15,
+            "D+": 6,
+            "D": 9,
+            "D-": 0,
+            "F": 15
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 399
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 78,
+            "A-": 102,
+            "B+": 111,
+            "B": 186,
+            "B-": 63,
+            "C+": 51,
+            "C": 42,
+            "C-": 27,
+            "D+": 12,
+            "D": 9,
+            "D-": 6,
+            "F": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 708
+        }
+      }
+    },
+    {
+      "professor_name": "J Taylor",
+      "professor_slug": "j-taylor",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 117,
+            "A-": 177,
+            "B+": 174,
+            "B": 159,
+            "B-": 255,
+            "C+": 81,
+            "C": 27,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 9,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 1065
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 72,
+            "A-": 123,
+            "B+": 108,
+            "B": 78,
+            "B-": 93,
+            "C+": 51,
+            "C": 6,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 9,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 594
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 45,
+            "A-": 54,
+            "B+": 66,
+            "B": 81,
+            "B-": 162,
+            "C+": 30,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 471
+        }
+      }
+    },
+    {
+      "professor_name": "John Constantine",
+      "professor_slug": "john-constantine",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 13,
+            "A-": 6,
+            "B+": 7,
+            "B": 12,
+            "B-": 8,
+            "C+": 8,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 11,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.5,
+          "quarter_enrolled": 95
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 13,
+            "A-": 6,
+            "B+": 7,
+            "B": 12,
+            "B-": 8,
+            "C+": 8,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 11,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.5,
+          "quarter_enrolled": 95
+        }
+      }
+    },
+    {
+      "professor_name": "Matthew Reimer",
+      "professor_slug": "matthew-reimer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 121,
+            "A-": 223,
+            "B+": 178,
+            "B": 313,
+            "B-": 220,
+            "C+": 212,
+            "C": 245,
+            "C-": 151,
+            "D+": 32,
+            "D": 56,
+            "D-": 19,
+            "F": 31,
+            "P*": 13,
+            "NP*": 8
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 1851
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 30,
+            "A-": 45,
+            "B+": 30,
+            "B": 54,
+            "B-": 45,
+            "C+": 39,
+            "C": 69,
+            "C-": 39,
+            "D+": 18,
+            "D": 18,
+            "D-": 3,
+            "F": 6,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.59,
+          "quarter_enrolled": 423
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 36,
+            "A-": 84,
+            "B+": 60,
+            "B": 87,
+            "B-": 60,
+            "C+": 51,
+            "C": 60,
+            "C-": 39,
+            "D+": 9,
+            "D": 9,
+            "D-": 6,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 501
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 33,
+            "A-": 51,
+            "B+": 39,
+            "B": 102,
+            "B-": 54,
+            "C+": 78,
+            "C": 75,
+            "C-": 60,
+            "D+": 0,
+            "D": 21,
+            "D-": 9,
+            "F": 21,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.52,
+          "quarter_enrolled": 555
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 17,
+            "B+": 23,
+            "B": 33,
+            "B-": 21,
+            "C+": 21,
+            "C": 18,
+            "C-": 7,
+            "D+": 3,
+            "D": 3,
+            "D-": 1,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 156
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 16,
+            "A-": 26,
+            "B+": 26,
+            "B": 37,
+            "B-": 40,
+            "C+": 23,
+            "C": 23,
+            "C-": 6,
+            "D+": 2,
+            "D": 5,
+            "D-": 0,
+            "F": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 216
+        }
+      }
+    }
+  ]
+}

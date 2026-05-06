@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "Political Science",
+    "firstName": "Scott",
+    "id": "VGVhY2hlci0xNDA4MjM4",
+    "lastName": "MacKenzie",
+    "legacyId": 1408238,
+    "numRatings": 44,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Nutrition",
+    "firstName": "Gerardo",
+    "id": "VGVhY2hlci0yNjMwMTkw",
+    "lastName": "Mackenzie",
+    "legacyId": 2630190,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4,
+    "department": "Environmental Science",
+    "firstName": "Mackenzie",
+    "id": "VGVhY2hlci0yOTkyNjU4",
+    "lastName": "Johnson",
+    "legacyId": 2992658,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

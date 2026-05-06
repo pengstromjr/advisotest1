@@ -1,0 +1,70 @@
+{
+  "course_id": "SPA110",
+  "course_title": "Advanced Spanish Composition",
+  "overall_grades": {
+    "A+": 3,
+    "A": 12,
+    "A-": 0,
+    "B+": 9,
+    "B": 6,
+    "B-": 3,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.41,
+  "overall_enrolled": 36,
+  "available_quarters": [
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Charles Oriel",
+      "professor_slug": "charles-oriel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 0,
+            "B+": 9,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 36
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 0,
+            "B+": 9,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 36
+        }
+      }
+    }
+  ]
+}

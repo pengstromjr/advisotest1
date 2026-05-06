@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1.9,
+    "avgRating": 4.9,
+    "department": "East Asian Studies",
+    "firstName": "Michael",
+    "id": "VGVhY2hlci0yMjY1ODA4",
+    "lastName": "Foster",
+    "legacyId": 2265808,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 3,
+    "department": "French",
+    "firstName": "Kyrie",
+    "id": "VGVhY2hlci0yMzUyMTMz",
+    "lastName": "Foster",
+    "legacyId": 2352133,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Management",
+    "firstName": "Britta",
+    "id": "VGVhY2hlci0xMjgxMTA4",
+    "lastName": "Foster",
+    "legacyId": 1281108,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

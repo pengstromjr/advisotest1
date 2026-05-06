@@ -9,34 +9,28 @@
       "heading": "Written/Oral Expression",
       "courses": [
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
+        "or UWP 001V",
+        "or UWP 001Y",
         "CMN 001",
-        "CMN 001V",
-        "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
-        "CMN 001",
-        "CMN 001V",
-        "CMN 003",
-        "CMN 003V",
-        "CMN 003Y",
-        "DRA 010"
+        "or CMN 001V"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
-        "Written/Oral Expression Subtotal"
+        "Completing UWP 001 or UWP 001V or UWP 001Y and CMN 001 or CMN 001V will simultaneously satisfy the College English Composition Requirement.",
+        "Written/Oral Expression Subtotal (8 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A",
-        "BIS 002B",
-        "BIS 002C"
+        "BIO 001",
+        "or BIS 002B",
+        "BIO 002",
+        "or BIS 002A",
+        "BIO 003",
+        "or BIS 002C"
       ],
-      "units": "5",
+      "units": "14-15",
       "notes": []
     },
     {
@@ -44,22 +38,37 @@
       "courses": [
         "CHE 002A",
         "CHE 002B",
-        "CHE 008A",
-        "CHE 008B"
+        "CHE 008A"
       ],
-      "units": "5",
+      "units": "12",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 017A",
+        "MAT 017B"
+      ],
+      "units": "8",
       "notes": []
     },
     {
       "heading": "Physics",
       "courses": [
         "PHY 001A",
-        "PHY 001B",
+        "PHY 001B"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
         "PLS 120",
         "STA 100",
         "WFC 103"
       ],
-      "units": "3",
+      "units": "4",
       "notes": [
         "Choose one:"
       ]
@@ -68,22 +77,21 @@
       "heading": "Wildlife, Fish & Conservation Biology",
       "courses": [
         "WFC 010",
-        "WFC 050",
-        "WFC 051"
+        "WFC 050"
       ],
       "units": "3-4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (47-49 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "ESP 100",
-        "EVE 101",
+        "or EVE 101",
         "NPB 102",
-        "WFC 141"
+        "or WFC 141"
       ],
       "units": "4",
       "notes": [
@@ -102,25 +110,29 @@
       "heading": "Wildlife, Fish, & Conservation Biology",
       "courses": [
         "WFC 100",
-        "WFC 101",
-        "WFC 101L",
-        "WFC 102",
-        "WFC 102L",
-        "WFC 100",
-        "WFC 101101L",
-        "WFC 102102L",
-        "WFC 121",
-        "WFC 130",
+        "or WFC 101",
+        "or WFC 102",
         "WFC 122",
-        "WFC 124"
+        "or WFC 124",
+        "WFC 130"
       ],
       "units": "4-7",
+      "notes": [
+        "Choose WFC 100 or WFC 101 & WFC 101L or WFC 102 & WFC 102L:",
+        "OR"
+      ]
+    },
+    {
+      "heading": "Conservation Biology",
+      "courses": [
+        "WFC 154"
+      ],
+      "units": "4",
       "notes": []
     },
     {
       "heading": "Conservation Biology",
       "courses": [
-        "WFC 154",
         "WFC 110",
         "WFC 110L",
         "WFC 111",
@@ -130,81 +142,80 @@
         "WFC 134",
         "WFC 134L"
       ],
-      "units": "4",
+      "units": "14-15",
       "notes": [
         "Choose three lecture courses and two laboratory (L) courses:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (41-46 units)"
       ]
     },
     {
-      "heading": "Anatomy, Physiology & Cell Biology",
-      "courses": [
-        "APC 100/NPB 123"
-      ],
-      "units": "",
-      "notes": []
-    },
-    {
-      "heading": "Landscape Architecture",
-      "courses": [
-        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **"
-      ],
-      "units": "",
-      "notes": []
-    },
-    {
-      "heading": "Statistics; choosing one is recommended:",
-      "courses": [
-        "STA 104",
-        "STA 106",
-        "STA 108"
-      ],
-      "units": "",
-      "notes": []
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "12-23",
+      "notes": [
+        "Choose one of the four Areas of Specialization:",
+        "No course may be used to simultaneously satisfy the Depth Subject Matter and the Area of Specialization.",
+        "No course may be used to simultaneously satisfy two Area of Specialization requirements."
+      ]
     },
     {
       "heading": "Areas of Specialization",
       "courses": [],
-      "units": "12-24",
+      "units": "12-23",
       "notes": [
-        "Choose one of the four Areas of Specialization:",
-        "No course may be used to simultaneously satisfy the Depth Subject Matter and the Area of Specialization.",
-        "No course may be used to simultaneously satisfy two Area of Specialization requirements.",
         "(1) Wildlife & Conservation Biology",
         "(2) Fish Biology",
         "(3) Wildlife Health",
         "(4) Individualized",
-        "Restricted Electives Subtotal"
+        "Restricted Electives Subtotal (12-23 units)"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
         "WFC 151",
-        "WFC 168",
+        "or WFC 168"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "PLB/EVE 117",
         "PLB/EVE 119",
         "PLB/PLP 148",
+        "PLS 127",
         "PLS/ESM 144",
-        "PLS 147147L",
-        "PLS 178",
+        "PLS 147",
+        "PLS 178"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "WFC 110",
         "WFC 111",
+        "WFC 119",
         "WFC 120",
         "WFC 122",
         "WFC 124",
         "WFC 125",
+        "WFC 126",
         "WFC 134",
         "WFC 136",
+        "WFC 137",
+        "WFC 151",
         "WFC 152",
-        "WFC 156",
-        "WFC 157",
-        "WFC 160",
+        "WFC 155",
         "WFC 168"
       ],
-      "units": "Units",
+      "units": "6-9",
       "notes": [
-        "Choose one:",
         "Choose two:",
         "Note: Students interested in certification as a Wildlife Biologist from The Wildlife Society should consider additional courses in plant sciences and statistics."
       ]
@@ -213,16 +224,28 @@
       "heading": "Fish Biology",
       "courses": [
         "WFC 120",
-        "WFC 120L",
-        "EVE 112",
-        "EVE 112L",
-        "EVE 114",
-        "EVE 112112L",
-        "EVE 114"
+        "WFC 120L"
       ],
       "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Fish Biology",
+      "courses": [
+        "EVE 112",
+        "or EVE 114"
+      ],
+      "units": "3-5",
       "notes": [
         "Choose one:",
+        "EVE 112 & EVE 112L or EVE 114:"
+      ]
+    },
+    {
+      "heading": "Fish Biology",
+      "courses": [],
+      "units": "9-13",
+      "notes": [
         "Choose three courses including at least one course from each of the following two groups:"
       ]
     },
@@ -231,15 +254,17 @@
       "courses": [
         "ANS 118",
         "ESM 100",
-        "ESP 116N/GEL 116N DISCONTINUED FOR FALL 2026",
-        "ESP 150C/GEL 150C DISCONTINUED FOR FALL 2026 **",
+        "ESP 116N/GEL 116N",
+        "or EPS 116",
+        "ESP 150C/GEL 150C",
+        "or EPS 150C",
         "ESP 151",
         "ESP 151L",
         "ESP 152",
         "ESP 155",
         "EVE 115",
         "HYD 143",
-        "WFC 155"
+        "WFC 119"
       ],
       "units": "",
       "notes": []
@@ -252,33 +277,62 @@
         "ESP 169",
         "HYD 150"
       ],
-      "units": "17-23",
+      "units": "",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "WFC 151",
+        "or WFC 168"
+      ],
+      "units": "4",
+      "notes": [
+        "Note that this Areas of Specialization recommends additional preparatory courses; prerequisites for admission to Veterinary Medicine vary among schools and students should confirm the specific requirements of the school(s) to which they wish to apply."
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "BIS 102",
-        "BIS 102V",
-        "BIS 103",
-        "ABI 102",
-        "ABI 103",
-        "BIS 102",
-        "BIS 102VBIS 103",
-        "ABI 102ABI 103",
+        "or BIS 102V",
+        "or BIS 103",
+        "or ABI 102",
+        "or ABI 103"
+      ],
+      "units": "6-10",
+      "notes": [
+        "Choose (BIS 102 or BIS 102V) & BIS 103 or ABI 102 & ABI 103:",
+        "OR"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "WFC 110",
         "WFC 111",
+        "WFC 119",
         "WFC 120",
         "WFC 122",
         "WFC 124",
         "WFC 125",
+        "WFC 126",
         "WFC 134",
         "WFC 136",
-        "WFC 141",
-        "WFC 144",
+        "WFC 137",
+        "WFC 151",
         "WFC 152",
-        "WFC 168",
+        "WFC 155",
+        "WFC 168"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANS 103",
         "ANS 104",
         "ANS 170",
@@ -288,33 +342,40 @@
         "NPB 140",
         "VME 158"
       ],
-      "units": "Units",
+      "units": "3-5",
       "notes": [
-        "Note that this Areas of Specialization recommends additional preparatory courses; prerequisites for admission to Veterinary Medicine vary among schools and students should confirm the specific requirements of the school(s) to which they wish to apply.",
-        "Choose one:",
         "Choose one:"
       ]
     },
     {
       "heading": "Additional Preparatory",
-      "courses": [
-        "BIS 101",
-        "BIS 101V",
-        "CHE 002C",
-        "CHE 118A",
-        "CHE 118B",
-        "CHE 118C",
-        "PHY 007A",
-        "PHY 007B",
-        "PHY 007C"
-      ],
-      "units": "16-24",
+      "courses": [],
+      "units": "",
       "notes": [
-        "Recommended, not required:"
+        "Recommended, not required:",
+        "BIS 101Genes & Gene Expression",
+        "or BIS 101V Genes & Gene Expression",
+        "CHE 002CGeneral Chemistry",
+        "CHE 118AOrganic Chemistry for Health & Life Sciences",
+        "CHE 118BOrganic Chemistry for Health & Life Sciences",
+        "CHE 118COrganic Chemistry for Health & Life Sciences",
+        "PHY 007AGeneral Physics",
+        "PHY 007BGeneral Physics",
+        "PHY 007CGeneral Physics"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Students may, with prior approval of their advisor and the curriculum committee, design their own individualized specialization within the major. The specialization will consist of at least four upper division courses with a coherent theme."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "111"
+  "total_units": "108",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.537Z"
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.8,
+    "department": "Environmental Toxicology",
+    "firstName": "Tran",
+    "id": "VGVhY2hlci0yNDAxNTg3",
+    "lastName": "Nguyen",
+    "legacyId": 2401587,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 1.7,
+    "department": "Management",
+    "firstName": "Huy",
+    "id": "VGVhY2hlci0yNjYyMzYz",
+    "lastName": "Tran",
+    "legacyId": 2662363,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 1.3,
+    "department": "Chemistry",
+    "firstName": "Kiet",
+    "id": "VGVhY2hlci0yMDgyMDI3",
+    "lastName": "Tran",
+    "legacyId": 2082027,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 1.3,
+    "avgRating": 4.8,
+    "department": "Education",
+    "firstName": "Henry",
+    "id": "VGVhY2hlci0xODg4MDI5",
+    "lastName": "Tran",
+    "legacyId": 1888029,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.4,
+    "department": "English",
+    "firstName": "Julie",
+    "id": "VGVhY2hlci0xMjQwNzA1",
+    "lastName": "Tran",
+    "legacyId": 1240705,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "Jay",
+    "id": "VGVhY2hlci00ODY3ODM=",
+    "lastName": "Trang",
+    "legacyId": 486783,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

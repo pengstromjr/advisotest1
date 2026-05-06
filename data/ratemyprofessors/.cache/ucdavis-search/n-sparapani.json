@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.8,
+    "department": "Education",
+    "firstName": "Nicole",
+    "id": "VGVhY2hlci0yMzc1NjQx",
+    "lastName": "Sparapani",
+    "legacyId": 2375641,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

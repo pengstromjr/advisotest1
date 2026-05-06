@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.7,
+    "department": "Electrical Engineering",
+    "firstName": "Zhi",
+    "id": "VGVhY2hlci00MjMwODE=",
+    "lastName": "Ding",
+    "legacyId": 423081,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 73.3333
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.6,
+    "department": "Statistics",
+    "firstName": "Xiucai",
+    "id": "VGVhY2hlci0yNjYxOTMy",
+    "lastName": "Ding",
+    "legacyId": 2661932,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.6552
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2,
+    "department": "Engineering",
+    "firstName": "Zhi",
+    "id": "VGVhY2hlci0yOTk2MDg5",
+    "lastName": "Ding",
+    "legacyId": 2996089,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "English",
+    "firstName": "Joy",
+    "id": "VGVhY2hlci0yNTA0NDc2",
+    "lastName": "Ding",
+    "legacyId": 2504476,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

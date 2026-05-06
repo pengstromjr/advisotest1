@@ -9,7 +9,14 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "MST 020A",
-        "MST 020B",
+        "MST 020B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "AHI 001B",
         "AHI 001C",
         "AHI 001E",
@@ -27,15 +34,15 @@
         "HUM 009",
         "PHI 021",
         "PHI 022",
-        "MST 098/MST 099",
         "MST 098",
         "MST 099"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
         "Choose 12 units:",
+        "MST 098/MST 099; total any combination:",
         "Language proficiency is a desideratum. Courses in Latin and other European languages are strongly recommended, particularly for students planning to pursue graduate studies in the medieval or early modern field.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (22 units)"
       ]
     },
     {
@@ -79,6 +86,7 @@
         "GER 124",
         "GER 131",
         "GER 134",
+        "GER 160",
         "HIS 102B",
         "HIS 102D",
         "HIS 121A",
@@ -158,11 +166,13 @@
       "units": "44",
       "notes": [
         "In consultation with the undergraduate advisor, students choose a total of eleven courses; with at least three courses from the Medieval Period (denoted as M) and at least three courses the Early Modern Period (denoted as EM):",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "66"
+  "total_units": "66",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.651Z"
 }

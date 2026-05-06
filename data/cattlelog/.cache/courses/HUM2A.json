@@ -1,0 +1,285 @@
+{
+  "course_id": "HUM2A",
+  "course_title": "Global Humanities Forum",
+  "overall_grades": {
+    "A+": 162,
+    "A": 396,
+    "A-": 147,
+    "B+": 115,
+    "B": 95,
+    "B-": 24,
+    "C+": 30,
+    "C": 41,
+    "C-": 24,
+    "D+": 17,
+    "D": 18,
+    "D-": 1,
+    "F": 19,
+    "P*": 92,
+    "NP*": 25
+  },
+  "overall_gpa": 3.43,
+  "overall_enrolled": 1206,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Carlee Arnett",
+      "professor_slug": "carlee-arnett",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 129,
+            "A": 174,
+            "A-": 57,
+            "B+": 27,
+            "B": 18,
+            "B-": 9,
+            "C+": 9,
+            "C": 15,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 45,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 513
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 87,
+            "A-": 30,
+            "B+": 9,
+            "B": 0,
+            "B-": 6,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 39,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 252
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 87,
+            "A-": 27,
+            "B+": 18,
+            "B": 18,
+            "B-": 3,
+            "C+": 6,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 261
+        }
+      }
+    },
+    {
+      "professor_name": "Grace Delmolino",
+      "professor_slug": "grace-delmolino",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 188,
+            "A-": 55,
+            "B+": 46,
+            "B": 24,
+            "B-": 4,
+            "C+": 0,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 17,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 342
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 141,
+            "A-": 42,
+            "B+": 36,
+            "B": 21,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 255
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 47,
+            "A-": 13,
+            "B+": 10,
+            "B": 3,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 8,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 87
+        }
+      }
+    },
+    {
+      "professor_name": "Mark Halperin",
+      "professor_slug": "mark-halperin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 6,
+            "A-": 5,
+            "B+": 5,
+            "B": 12,
+            "B-": 4,
+            "C+": 2,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 8,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 52
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 6,
+            "A-": 5,
+            "B+": 5,
+            "B": 12,
+            "B-": 4,
+            "C+": 2,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 8,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 52
+        }
+      }
+    },
+    {
+      "professor_name": "Tobias Warner",
+      "professor_slug": "tobias-warner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 28,
+            "A-": 30,
+            "B+": 37,
+            "B": 41,
+            "B-": 7,
+            "C+": 19,
+            "C": 24,
+            "C-": 18,
+            "D+": 13,
+            "D": 12,
+            "D-": 1,
+            "F": 12,
+            "P*": 22,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 299
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 21,
+            "A-": 24,
+            "B+": 30,
+            "B": 33,
+            "B-": 6,
+            "C+": 18,
+            "C": 18,
+            "C-": 9,
+            "D+": 12,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 219
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 7,
+            "A-": 6,
+            "B+": 7,
+            "B": 8,
+            "B-": 1,
+            "C+": 1,
+            "C": 6,
+            "C-": 9,
+            "D+": 1,
+            "D": 6,
+            "D-": 1,
+            "F": 3,
+            "P*": 10,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 80
+        }
+      }
+    }
+  ]
+}

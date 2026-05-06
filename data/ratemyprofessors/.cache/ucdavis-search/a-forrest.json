@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 2,
+    "department": "Viticulture & Enology",
+    "firstName": "Elisabeth",
+    "id": "VGVhY2hlci0yNzQ4NzY2",
+    "lastName": "Forrestel",
+    "legacyId": 2748766,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 28.5714
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.8,
+    "department": "Civil Engineering",
+    "firstName": "Alexander",
+    "id": "VGVhY2hlci0yMzk2NTYz",
+    "lastName": "Forrest",
+    "legacyId": 2396563,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  },
+  {
+    "avgDifficulty": 1.6,
+    "avgRating": 4.4,
+    "department": "English",
+    "firstName": "Seth",
+    "id": "VGVhY2hlci0yODcxMzk=",
+    "lastName": "Forrest",
+    "legacyId": 287139,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

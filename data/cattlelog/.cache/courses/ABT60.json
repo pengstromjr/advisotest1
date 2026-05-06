@@ -1,0 +1,136 @@
+{
+  "course_id": "ABT60",
+  "course_title": "Introduction to Unmanned Aerial Systems for Agriculture & Environmental Science",
+  "overall_grades": {
+    "A+": 58,
+    "A": 33,
+    "A-": 43,
+    "B+": 11,
+    "B": 16,
+    "B-": 13,
+    "C+": 0,
+    "C": 6,
+    "C-": 3,
+    "D+": 4,
+    "D": 4,
+    "D-": 0,
+    "F": 6,
+    "P*": 6,
+    "NP*": 3
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 206,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ali Moghimi",
+      "professor_slug": "ali-moghimi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 58,
+            "A": 33,
+            "A-": 43,
+            "B+": 11,
+            "B": 16,
+            "B-": 13,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 4,
+            "D": 4,
+            "D-": 0,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 206
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 9,
+            "A-": 4,
+            "B+": 2,
+            "B": 4,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 29
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 3,
+            "A-": 24,
+            "B+": 6,
+            "B": 3,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 54
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 12,
+            "A-": 15,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 60
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 9,
+            "A-": 0,
+            "B+": 0,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 63
+        }
+      }
+    }
+  ]
+}

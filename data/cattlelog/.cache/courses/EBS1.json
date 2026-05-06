@@ -1,0 +1,130 @@
+{
+  "course_id": "EBS1",
+  "course_title": "Foundations of Biological Systems Engineering",
+  "overall_grades": {
+    "A+": 35,
+    "A": 189,
+    "A-": 54,
+    "B+": 55,
+    "B": 43,
+    "B-": 23,
+    "C+": 10,
+    "C": 7,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 8
+  },
+  "overall_gpa": 3.52,
+  "overall_enrolled": 430,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gail Bornhorst",
+      "professor_slug": "gail-bornhorst",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 189,
+            "A-": 54,
+            "B+": 55,
+            "B": 43,
+            "B-": 23,
+            "C+": 10,
+            "C": 7,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 8
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 430
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 15,
+            "B+": 6,
+            "B": 21,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 144
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 45,
+            "A-": 18,
+            "B+": 24,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 126
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 57,
+            "A-": 15,
+            "B+": 21,
+            "B": 15,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 126
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 6,
+            "B+": 4,
+            "B": 1,
+            "B-": 2,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 34
+        }
+      }
+    }
+  ]
+}

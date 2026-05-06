@@ -9,176 +9,232 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
-        "ENL 010A",
-        "ENL 010B",
-        "ENL 010C",
-        "ENL 040",
-        "ENL 041",
-        "ENL 043",
-        "ENL 044",
-        "ENL 045"
+        "or UWP 001V",
+        "or UWP 001Y",
+        "or ENL 010A"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Or equivalent",
+        "Or equivalent"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ENL 040",
+        "ENL 041",
+        "ENL 042",
+        "ENL 043",
+        "ENL 044",
+        "ENL 045"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "ENL 046",
+        "ENL 050",
+        "ENL 051",
+        "ENL 052",
+        "ENL 053",
+        "ENL 054",
+        "ENL 055",
+        "ENL 056",
+        "ENL 057",
+        "ENL 059",
+        "ENL 072"
+      ],
+      "units": "3-4",
+      "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (19-20 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "ENL 110A",
-        "ENL 110B"
+        "or ENL 110B"
       ],
       "units": "4",
       "notes": []
     },
     {
-      "heading": "Historical Distribution Requirements",
+      "heading": "Distribution Requirements",
       "courses": [
+        "ENL 105",
         "ENL 111",
         "ENL 113A",
         "ENL 113B",
         "ENL 115",
         "ENL 117",
         "ENL 122",
+        "ENL 150A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course focusing on literature in English before 1700:"
+      ]
+    },
+    {
+      "heading": "Distribution Requirements",
+      "courses": [
         "ENL 123",
-        "ENL 142",
-        "ENL 150A",
-        "ENL 155A",
-        "ENL 185A",
+        "ENL 125",
         "ENL 130",
         "ENL 133",
+        "ENL 137",
+        "ENL 142",
         "ENL 143",
         "ENL 144",
+        "ENL 150B",
+        "ENL 155A",
         "ENL 155B",
         "ENL 158A",
         "ENL 181A",
-        "ENL 185B",
-        "ENL 125",
-        "ENL 137",
+        "ENL 185B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one course focusing on literature in English between 1700 and 1945:"
+      ]
+    },
+    {
+      "heading": "Distribution Requirements",
+      "courses": [
         "ENL 138",
         "ENL 146",
         "ENL 147",
-        "ENL 150B",
         "ENL 154",
         "ENL 155C",
         "ENL 156",
         "ENL 157",
         "ENL 158B",
+        "ENL 160",
+        "ENL 162",
         "ENL 166",
         "ENL 167",
         "ENL 168",
+        "ENL 169",
+        "ENL/CDM 170",
+        "ENL/CDM/STS 172",
+        "ENL/STS 173",
+        "ENL 180",
         "ENL 181B",
+        "ENL 183",
         "ENL 185C"
       ],
-      "units": "12",
+      "units": "4",
       "notes": [
-        "Choose three courses focusing on literature written in English before 1800, at least one of which must be on literature written primarily before 1500:",
-        "Before 1500",
-        "1500-1800",
-        "Choose one course focusing on literature written in English between 1800 and 1900:",
-        "Choose one course focusing on literature written in English between 1900 and present:"
+        "Choose one course focusing on literature and other media in English between 1945 and the present:"
       ]
     },
     {
-      "heading": "Non-Historical Distribution Requirements",
+      "heading": "Distribution Requirements",
       "courses": [
         "ENL 139",
         "ENL 140",
         "ENL 141",
+        "ENL 145",
         "ENL 167",
         "ENL 178",
         "ENL 179",
         "ENL 181A",
         "ENL 181B",
         "ENL 182",
-        "ENL 105",
-        "ENL/LIN/UWP 106",
-        "ENL 107",
-        "ENL 120",
-        "ENL 160",
-        "ENL 162",
-        "ENL/STS 164",
-        "ENL 171A",
-        "ENL 171B",
-        "ENL/CDM/STS 172",
-        "ENL/STS 173",
-        "ENL 180",
-        "ENL 183",
-        "ENL 184",
-        "ENL 186",
-        "CDM/ENL/STS 172",
-        "LIN/ENL/UWP 106",
-        "STS/CDM/ENL 172",
-        "STS/ENL 173",
-        "UWP/ENL/LIN 106"
+        "ENL 185A",
+        "ENL 185B",
+        "ENL 185C"
       ],
       "units": "4",
       "notes": [
-        "Choose one course on literatures, race, and ethnicity:",
-        "Choose one in-depth topic course in language, media, and literature:",
-        "Please note that while some courses are identified as fulfilling more than one distribution requirement, a given course can only fulfill one such requirement."
+        "Choose one course on literature, identity, and difference:"
+      ]
+    },
+    {
+      "heading": "Distribution Requirements",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "Choose two upper division English courses as electives, ENL 105-189. (8 units)",
+        "English (ENL) courses.",
+        "Please note that while some courses are identified as fulfilling more than one distribution requirement, a given course can only fulfill one such requirement.",
+        "Depth Subject Matter Subtotal (28 units)"
       ]
     },
     {
       "heading": "Area of Emphasis",
       "courses": [],
-      "units": "12",
+      "units": "11-12",
       "notes": [
         "Choose at least one:",
         "Literature, Criticism, & Theory",
-        "Depth Subject Matter Subtotal",
         "Creative Writing"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
+        "ENL 120",
+        "ENL 126",
         "ENL 149",
         "ENL 153",
         "ENL 159",
-        "ENL 163",
+        "ENL/STS 164",
         "ENL 165",
+        "ENL 171",
         "ENL 177",
+        "ENL 184",
+        "ENL 186",
         "ENL 187A",
         "ENL 188A",
         "ENL 189",
         "ENL 194H",
         "ENL 195H"
       ],
-      "units": "Units",
+      "units": "3-4",
       "notes": [
-        "One upper division English elective.",
-        "Choose two advanced courses, one of which can be a seminar:"
-      ]
+        "One lower or upper division English course as an elective. (3-4 units)",
+        "Choose two Advanced Studies courses:"
+      ],
+      "group": "Literature, Criticism, & Theory Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
+        "ENL 070",
         "ENL 100F",
-        "ENL 100P",
-        "ENL 100NF",
         "ENL 100FA",
+        "ENL 100NA",
+        "ENL 100NF",
+        "ENL 100P",
         "ENL 100PA"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Please note that students must select courses in more than one genre.",
         "Three sections of:"
-      ]
+      ],
+      "group": "Creative Writing Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [
-    "Major Advising: All new and prospective English majors are encouraged to see an undergraduate staff advisor, individually, once per year, at minimum.",
-    "Honors & Honors Program: A Senior Honors Program is available to an invited group of English majors, who prepare and write a Senior Thesis (either a research paper or creative writing) in their final year. The critical honors program consists of 4 units of 194H and 4 units of 195H, normally taken during fall and spring quarters of the senior year. The creative writing honors program consists of 4 units of 100FA or 100PA, normally taken during spring quarter of the junior year, and 4 units of 195H, normally taken winter "
+  "specializations": [
+    "Literature, Criticism, & Theory Emphasis",
+    "Creative Writing Emphasis"
   ],
-  "total_units": "64"
+  "advising_notes": [
+    "Major Advising: All new and prospective English majors are encouraged to see an undergraduate Academic Advisor or Peer Advisor, individually, once per year, at minimum.",
+    "Honors & Honors Program: A Senior Honors Program is available to an invited group of English majors, who prepare and write a Senior Thesis (either a research paper or creative writing) in their final year. The critical honors program consists of 4 units of ENL 194H and 4 units of ENL 195H, normally taken during winter and spring quarters of the senior year. The creative writing honors program consists of 4 units of ENL 100FA or ENL 100PA, normally taken during winter or spring quarter of the junior year, and 4 units of ENL 195H, normally taken winter quarter of the senior year. Completion of the program is a prerequisite for High or Highest Honors at graduation.For eligibility criteria and application materials, see Honors Program."
+  ],
+  "total_units": "58",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.583Z"
 }

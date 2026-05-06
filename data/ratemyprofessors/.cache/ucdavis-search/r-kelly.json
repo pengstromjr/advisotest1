@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Nutrition",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0zMTA3NDk4",
+    "lastName": "Nichols",
+    "legacyId": 3107498,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.7,
+    "department": "University Writing Program",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0xOTc1OTE1",
+    "lastName": "Crosby",
+    "legacyId": 1975915,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.4737
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 3.8,
+    "department": "Design",
+    "firstName": "Rose",
+    "id": "VGVhY2hlci0yMzQ5MDU3",
+    "lastName": "Kelly",
+    "legacyId": 2349057,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 1.9,
+    "department": "Science",
+    "firstName": "Peter",
+    "id": "VGVhY2hlci0xNDkyODM=",
+    "lastName": "Kelly",
+    "legacyId": 149283,
+    "numRatings": 54,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 3,
+    "department": "Engineering",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0yNjc4NTU4",
+    "lastName": "Kissock",
+    "legacyId": 2678558,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.7,
+    "department": "Psychology",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0yNzQ3NTc1",
+    "lastName": "King",
+    "legacyId": 2747575,
+    "numRatings": 74,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.2432
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.3,
+    "department": "Design",
+    "firstName": "Rosemary",
+    "id": "VGVhY2hlci0yNDczODU0",
+    "lastName": "Kelly",
+    "legacyId": 2473854,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Biological Sciences",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0yNjAzNzA2",
+    "lastName": "Subramanian",
+    "legacyId": 2603706,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Kelly",
+    "id": "VGVhY2hlci0yNjAwMjU4",
+    "lastName": "Thomas",
+    "legacyId": 2600258,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

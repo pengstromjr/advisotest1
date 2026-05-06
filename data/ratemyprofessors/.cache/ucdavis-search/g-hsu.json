@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.6,
+    "department": "English",
+    "firstName": "Hsuan",
+    "id": "VGVhY2hlci0xMzM3MDgx",
+    "lastName": "Hsu",
+    "legacyId": 1337081,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4.5,
+    "department": "Statistics",
+    "firstName": "Chih-Hsin",
+    "id": "VGVhY2hlci0xOTEzMTUz",
+    "lastName": "Hsueh",
+    "legacyId": 1913153,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

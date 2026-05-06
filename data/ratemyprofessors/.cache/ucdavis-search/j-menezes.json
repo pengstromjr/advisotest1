@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.7,
+    "department": "Design",
+    "firstName": "Jean",
+    "id": "VGVhY2hlci0yNjc1NTE0",
+    "lastName": "Menezes",
+    "legacyId": 2675514,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70.3704
+  }
+]

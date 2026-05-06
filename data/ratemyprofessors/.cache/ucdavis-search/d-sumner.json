@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.3,
+    "department": "Geology",
+    "firstName": "Dawn",
+    "id": "VGVhY2hlci0xNzAzMzA=",
+    "lastName": "Sumner",
+    "legacyId": 170330,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 1.8,
+    "department": "Economics",
+    "firstName": "Daniel",
+    "id": "VGVhY2hlci0xMjEyOTE3",
+    "lastName": "Sumner",
+    "legacyId": 1212917,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 27.2727
+  }
+]

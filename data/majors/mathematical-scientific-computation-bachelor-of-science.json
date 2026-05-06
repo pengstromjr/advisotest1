@@ -9,14 +9,14 @@
       "heading": "Mathematics",
       "courses": [
         "MAT 017A",
-        "MAT 021A",
+        "or MAT 021A",
         "MAT 017B",
-        "MAT 021B",
+        "or MAT 021B",
         "MAT 017C",
-        "MAT 021C",
+        "or MAT 021C",
         "MAT 021D",
         "MAT/BIS 027B",
-        "MAT 022B"
+        "or MAT 022B"
       ],
       "units": "4",
       "notes": []
@@ -25,29 +25,40 @@
       "heading": "Linear Algebra & Proof-Writing",
       "courses": [
         "MAT 108",
-        "MAT 108V",
+        "or MAT 108V",
         "MAT/BIS 027A",
-        "MAT 022A",
-        "MAT 067",
-        "MAT 022AL"
+        "or MAT 022A",
+        "or MAT 067"
       ],
       "units": "4-8",
       "notes": [
         "Choose one option:",
+        "(a)",
+        "or",
+        "(b)"
+      ]
+    },
+    {
+      "heading": "Linear Algebra & Proof-Writing",
+      "courses": [
+        "MAT 022AL"
+      ],
+      "units": "0-1",
+      "notes": [
         "Choose one:",
-        "Equivalent MATLAB knowledge."
+        "Equivalent MATLAB knowledge. 1"
       ]
     },
     {
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032AV",
         "ENG 006"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (31-37 units)"
       ]
     },
     {
@@ -67,13 +78,19 @@
     },
     {
       "heading": "B. Enrichment Courses",
-      "courses": [
-        "MAT 111",
-        "MAT 185B"
-      ],
+      "courses": [],
       "units": "8",
       "notes": [
-        "Choose two:"
+        "Choose two:",
+        "MAT 111-MAT 185B worth at least 4 units each. 2"
+      ]
+    },
+    {
+      "heading": "C. Emphasis",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "Choose one:"
       ]
     },
     {
@@ -83,17 +100,19 @@
       ],
       "units": "",
       "notes": [
-        "Choose one:",
-        "One approved upper division course in Biology; please consult with a math advisor before selecting a course."
+        "And",
+        "One approved upper division course in Biology; please consult with a math advisor before selecting a course.",
+        "OR"
       ]
     },
     {
       "heading": "Computational & Mathematics Emphasis",
       "courses": [
-        "MAT 168"
+        "or MAT 168"
       ],
       "units": "",
       "notes": [
+        "And",
         "One approved upper division course involving extensive computation or theory of computation; please consult with a math advisor before selecting a course."
       ]
     },
@@ -116,7 +135,7 @@
       "units": "3-4",
       "notes": [
         "Choose one:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (51-52 units)"
       ]
     }
   ],
@@ -124,5 +143,7 @@
   "advising_notes": [
     "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
   ],
-  "total_units": "82"
+  "total_units": "82",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.546Z"
 }

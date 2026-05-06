@@ -4,6 +4,11 @@ import { retrieve } from "@/lib/rag";
 import { buildSystemPrompt } from "@/lib/system-prompt";
 import { extractCourseMentions } from "@/lib/course-lookup";
 import type { StudentContext, Course, Section } from "@/lib/course-data";
+import {
+  CURRENT_GRADES_FILE,
+  CURRENT_SECTIONS_FILE,
+  CURRENT_TERM_LABEL,
+} from "@/lib/current-term";
 import fs from "fs";
 import path from "path";
 
@@ -15,6 +20,9 @@ function getLastUserText(messages: UIMessage[]): string {
   }
   return "";
 }
+
+import { z } from "zod";
+import { tool } from "ai";
 
 function formatCourseForPrompt(course: Course): string {
   const prereqs =
@@ -34,7 +42,10 @@ let gradesCache: Record<string, any> | null = null;
 function loadRmpData(): Record<string, any> {
   if (rmpCache) return rmpCache;
   try {
-    const raw = fs.readFileSync(path.join(process.cwd(), "data", "rmp.json"), "utf-8");
+    const raw = fs.readFileSync(
+      path.join(process.cwd(), "data", "rmp.json"),
+      "utf-8"
+    );
     rmpCache = JSON.parse(raw);
   } catch {
     rmpCache = {};
@@ -45,7 +56,10 @@ function loadRmpData(): Record<string, any> {
 function loadGradesData(): Record<string, any> {
   if (gradesCache) return gradesCache;
   try {
-    const raw = fs.readFileSync(path.join(process.cwd(), "data", "grades.json"), "utf-8");
+    const raw = fs.readFileSync(
+      path.join(process.cwd(), "data", CURRENT_GRADES_FILE),
+      "utf-8"
+    );
     gradesCache = JSON.parse(raw);
   } catch {
     gradesCache = {};
@@ -110,10 +124,8 @@ function formatSectionForPrompt(section: Section): string {
 
 function loadSectionsFile(): Section[] {
   try {
-    const fs = require("fs");
-    const path = require("path");
     const raw = fs.readFileSync(
-      path.join(process.cwd(), "data", "sections", "spring-2026.json"),
+      path.join(process.cwd(), "data", "sections", CURRENT_SECTIONS_FILE),
       "utf-8"
     );
     return JSON.parse(raw) as Section[];
@@ -123,18 +135,60 @@ function loadSectionsFile(): Section[] {
 }
 
 let sectionCache: Section[] | null = null;
+let allCoursesCache: Course[] | null = null;
 
-function findRelevantSections(query: string): string[] {
+function loadCurrentSectionCodes(): Set<string> {
+  if (!sectionCache) sectionCache = loadSectionsFile();
+  return new Set(sectionCache.map((section) => section.courseCode));
+}
+
+async function loadAllCourses(): Promise<Course[]> {
+  if (allCoursesCache) return allCoursesCache;
+  try {
+    const raw = fs.readFileSync(
+      path.join(process.cwd(), "data", "courses.json"),
+      "utf-8"
+    );
+    allCoursesCache = JSON.parse(raw) as Course[];
+    try {
+      const rawFull = fs.readFileSync(
+        path.join(process.cwd(), "data", "courses-full.json"),
+        "utf-8"
+      );
+      const full = JSON.parse(rawFull) as Course[];
+      const merged = new Map<string, Course>();
+      for (const c of allCoursesCache) merged.set(c.code, c);
+      for (const c of full) merged.set(c.code, c);
+      allCoursesCache = Array.from(merged.values());
+    } catch {}
+    const springOfferedCodes = loadCurrentSectionCodes();
+    allCoursesCache = allCoursesCache.filter((course) =>
+      springOfferedCodes.has(course.code)
+    );
+  } catch {
+    allCoursesCache = [];
+  }
+  return allCoursesCache;
+}
+
+function findRelevantSections(query: string, courseMentions: Course[]): string[] {
   if (!sectionCache) sectionCache = loadSectionsFile();
   const q = query.toUpperCase();
 
   // Check if the user is asking for a schedule (multi-course request)
-  const isScheduleRequest = /schedul|build.*schedule|suggest.*schedule|course.*schedule|plan.*schedule/i.test(query);
+  const isScheduleRequest =
+    /schedul|build.*schedule|suggest.*schedule|course.*schedule|plan.*schedule/i.test(
+      query
+    );
 
-  // First, find sections directly matching the query
+  // Use extracted course codes as high-priority keys
+  const targetCodes = new Set(courseMentions.map((c) => c.code.toUpperCase()));
+
+  // Find sections matching target codes OR raw query
   const directMatched = sectionCache.filter((s) => {
-    const code = `${s.subject} ${s.courseNumber}`.toUpperCase();
+    const code = s.courseCode.toUpperCase();
     return (
+      targetCodes.has(code) ||
       code.includes(q) ||
       s.title.toUpperCase().includes(q) ||
       s.instructors.some((i) => i.toUpperCase().includes(q))
@@ -145,29 +199,16 @@ function findRelevantSections(query: string): string[] {
     return directMatched.slice(0, 15).map(formatSectionForPrompt);
   }
 
-  // For schedule requests, also extract mentioned course codes and their subjects
-  const courseCodeRegex = /([A-Z]{2,5})\s*(\d{3}[A-Z]?)/gi;
+  // Expanded schedule logic...
   const mentionedSubjects = new Set<string>();
-  let codeMatch: RegExpExecArray | null;
-  while ((codeMatch = courseCodeRegex.exec(query)) !== null) {
-    mentionedSubjects.add(codeMatch[1].toUpperCase());
+  for (const code of targetCodes) {
+    mentionedSubjects.add(code.split(" ")[0]);
   }
 
-  // If no specific subjects found, try to use the first word as a subject
-  if (mentionedSubjects.size === 0) {
-    const words = query.split(/\s+/);
-    for (const w of words) {
-      if (/^[A-Z]{2,5}$/i.test(w)) {
-        mentionedSubjects.add(w.toUpperCase());
-      }
-    }
-  }
-
-  // Gather broader sections from the same subjects (1 lecture section per unique course)
+  // Gather broader sections from the same subjects
   const seenCourses = new Set<string>();
   const broadSections: Section[] = [];
 
-  // Add direct matches first
   for (const s of directMatched) {
     const key = s.courseCode;
     if (!seenCourses.has(key)) {
@@ -176,13 +217,11 @@ function findRelevantSections(query: string): string[] {
     }
   }
 
-  // Add other courses from the same subject(s)
   for (const subj of mentionedSubjects) {
     for (const s of sectionCache) {
       if (s.subject.toUpperCase() !== subj) continue;
       const key = s.courseCode;
       if (seenCourses.has(key)) continue;
-      // Only pick sections with actual meeting times
       const hasTimes = s.meetings?.some((m) => m.startTime && m.endTime);
       if (!hasTimes) continue;
       seenCourses.add(key);
@@ -195,6 +234,99 @@ function findRelevantSections(query: string): string[] {
   return broadSections.slice(0, 30).map(formatSectionForPrompt);
 }
 
+const tools = {
+  getCourseDetails: tool({
+    description: `Lookup detailed information for ${CURRENT_TERM_LABEL} courses by code (e.g. 'ECS 036A').`,
+    inputSchema: z.object({
+      codes: z.array(z.string()).describe("List of course codes to lookup"),
+    }),
+    execute: async ({ codes }: { codes: string[] }) => {
+      const all = await loadAllCourses();
+      const normalize = (c: string) => c.toUpperCase().replace(/\s+/g, " ").trim();
+      const normalizeCode = (c: string) => c.replace(/\s+/g, " ").trim();
+      
+      const targets = new Set(codes.map(normalize));
+      const results = all.filter(c => targets.has(normalizeCode(c.code)));
+      return results.map(formatCourseForPrompt);
+    },
+  }),
+  getSections: tool({
+    description: `Get live section times, instructors, and seat availability for ${CURRENT_TERM_LABEL}.`,
+    inputSchema: z.object({
+      query: z.string().describe("Course code, subject, or instructor name"),
+    }),
+    execute: async ({ query }: { query: string }) => {
+      if (!sectionCache) sectionCache = loadSectionsFile();
+      const q = query.toUpperCase();
+      const matches = sectionCache.filter(s => 
+        s.courseCode.toUpperCase().includes(q) || 
+        s.title.toUpperCase().includes(q) ||
+        s.instructors.some(i => i.toUpperCase().includes(q))
+      );
+      return matches.slice(0, 20).map(formatSectionForPrompt);
+    },
+  }),
+  getGrades: tool({
+    description: "Retrieve historical grade distribution and average GPA data for courses.",
+    inputSchema: z.object({
+      codes: z.array(z.string()).describe("List of course codes to check grades for"),
+    }),
+    execute: async ({ codes }: { codes: string[] }) => {
+      const grades = loadGradesData();
+      const results: string[] = [];
+      for (const code of codes) {
+        const g = grades[code.toUpperCase().replace(/\s+/g, " ")];
+        if (g && g.overall_gpa != null) {
+          let snippet = `Grade data for ${code}: Overall GPA ${g.overall_gpa}, ${g.overall_enrolled} students.`;
+          if (g.overall_grades) {
+            const dist = g.overall_grades;
+            const total = Object.values(dist).reduce((a: number, b: any) => a + (b as number), 0);
+            if (total > 0) {
+              const pct = (grade: string) => dist[grade] ? Math.round((dist[grade] / total) * 100) : 0;
+              snippet += ` Distribution: A+/A/A- ${pct('A+') + pct('A') + pct('A-')}%, B+/B/B- ${pct('B+') + pct('B') + pct('B-')}%, C+/C/C- ${pct('C+') + pct('C') + pct('C-')}%, D/F ${pct('D+') + pct('D') + pct('D-') + pct('F')}%.`;
+            }
+          }
+          if (g.professors && g.professors.length > 0) {
+            const topProfs = g.professors
+              .filter((p: any) => p.totalEnrolled > 20)
+              .sort((a: any, b: any) => (b.totalGpa || 0) - (a.totalGpa || 0))
+              .slice(0, 5);
+            if (topProfs.length > 0) {
+              snippet += ` Professors by GPA: ${topProfs.map((p: any) => `${p.name} (${p.totalGpa})`).join("; ")}.`;
+            }
+          }
+          results.push(snippet);
+        }
+      }
+      return results;
+    },
+  }),
+  searchCourses: tool({
+    description: `Search ${CURRENT_TERM_LABEL} offered courses by keyword, description, or GE area.`,
+    inputSchema: z.object({
+      keyword: z.string().optional().describe("Keyword to search in title or description"),
+      geArea: z.string().optional().describe("GE area code (e.g. 'SE', 'AH', 'SS')"),
+    }),
+    execute: async ({ keyword, geArea }: { keyword?: string; geArea?: string }) => {
+      const all = await loadAllCourses();
+      let results = all;
+      if (geArea) {
+        const areaUpper = geArea.toUpperCase();
+        results = results.filter(c => c.ge_areas.includes(areaUpper));
+      }
+      if (keyword) {
+        const keyLower = keyword.toLowerCase();
+        results = results.filter(c => 
+          c.title.toLowerCase().includes(keyLower) || 
+          c.description.toLowerCase().includes(keyLower) ||
+          c.code.toLowerCase().includes(keyLower)
+        );
+      }
+      return results.slice(0, 15).map(formatCourseForPrompt);
+    },
+  }),
+};
+
 export async function POST(req: Request) {
   const { messages, studentContext } = (await req.json()) as {
     messages: UIMessage[];
@@ -206,56 +338,35 @@ export async function POST(req: Request) {
   let relevantChunks: string[] = [];
   try {
     relevantChunks = await retrieve(lastUserMessage);
-  } catch {
-    // If embeddings aren't available yet, continue without RAG
-  }
+  } catch {}
 
-  let mentionedCourses: string[] = [];
+  let courseMentions: Course[] = [];
   try {
-    const courses = await extractCourseMentions(lastUserMessage);
-    mentionedCourses = courses.map(formatCourseForPrompt);
-  } catch {
-    // If course data isn't available, continue without lookups
-  }
+    courseMentions = await extractCourseMentions(lastUserMessage);
+    const springOfferedCodes = loadCurrentSectionCodes();
+    courseMentions = courseMentions.filter((course) =>
+      springOfferedCodes.has(course.code)
+    );
+  } catch {}
+
+  let mentionedCourses: string[] = courseMentions.map(formatCourseForPrompt);
 
   let sectionSnippets: string[] = [];
   try {
-    sectionSnippets = findRelevantSections(lastUserMessage);
-  } catch {
-  }
+    sectionSnippets = findRelevantSections(lastUserMessage, courseMentions);
+  } catch {}
 
-  // Enrich course mentions with CattleLog grade data
+  // Enrich with initial grade data for mentioned courses (immediate display)
   let gradeSnippets: string[] = [];
   try {
     const grades = loadGradesData();
-    const courses = await extractCourseMentions(lastUserMessage);
-    for (const c of courses) {
+    for (const c of courseMentions) {
       const g = grades[c.code];
       if (g && g.overall_gpa != null) {
-        let snippet = `Grade data for ${c.code}: Overall GPA ${g.overall_gpa}, ${g.overall_enrolled} students.`;
-        if (g.overall_grades) {
-          const dist = g.overall_grades;
-          const total = Object.values(dist).reduce((a: number, b: any) => a + (b as number), 0);
-          if (total > 0) {
-            const pct = (grade: string) => dist[grade] ? Math.round((dist[grade] / total) * 100) : 0;
-            snippet += ` Distribution: A+/A/A- ${pct('A+') + pct('A') + pct('A-')}%, B+/B/B- ${pct('B+') + pct('B') + pct('B-')}%, C+/C/C- ${pct('C+') + pct('C') + pct('C-')}%, D/F ${pct('D+') + pct('D') + pct('D-') + pct('F')}%.`;
-          }
-        }
-        if (g.professors && g.professors.length > 0) {
-          const topProfs = g.professors
-            .filter((p: any) => p.totalGpa != null && p.totalEnrolled > 20)
-            .sort((a: any, b: any) => (b.totalGpa || 0) - (a.totalGpa || 0))
-            .slice(0, 5);
-          if (topProfs.length > 0) {
-            snippet += ` Top professors by GPA: ${topProfs.map((p: any) => `${p.name} (${p.totalGpa}, ${p.totalEnrolled} students)`).join("; ")}.`;
-          }
-        }
-        gradeSnippets.push(snippet);
+        gradeSnippets.push(`Immediate grade context for ${c.code}: Avg GPA ${g.overall_gpa}.`);
       }
     }
-  } catch {
-    // Grade data not available
-  }
+  } catch {}
 
   const result = streamText({
     model: openai("gpt-4o-mini"),
@@ -267,6 +378,8 @@ export async function POST(req: Request) {
       gradeSnippets
     ),
     messages: await convertToModelMessages(messages),
+    tools,
+    stopWhen: ({ steps }) => steps.length >= 5, // Stop after 5 steps
   });
 
   return result.toUIMessageStreamResponse();

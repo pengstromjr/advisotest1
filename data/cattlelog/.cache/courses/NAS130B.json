@@ -1,0 +1,115 @@
+{
+  "course_id": "NAS130B",
+  "course_title": "Native American Ethno-Historical Development",
+  "overall_grades": {
+    "A+": 7,
+    "A": 122,
+    "A-": 21,
+    "B+": 2,
+    "B": 6,
+    "B-": 0,
+    "C+": 1,
+    "C": 0,
+    "C-": 2,
+    "D+": 0,
+    "D": 0,
+    "D-": 1,
+    "F": 3
+  },
+  "overall_gpa": 3.79,
+  "overall_enrolled": 165,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Juan Avila Hernandez",
+      "professor_slug": "juan-avila-hernandez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 5,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 18
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 5,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 18
+        }
+      }
+    },
+    {
+      "professor_name": "Kathleen Whiteley",
+      "professor_slug": "kathleen-whiteley",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 117,
+            "A-": 18,
+            "B+": 0,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 147
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 117,
+            "A-": 18,
+            "B+": 0,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 147
+        }
+      }
+    }
+  ]
+}

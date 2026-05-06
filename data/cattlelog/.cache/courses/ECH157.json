@@ -1,0 +1,130 @@
+{
+  "course_id": "ECH157",
+  "course_title": "Process Dynamics & Control",
+  "overall_grades": {
+    "A+": 25,
+    "A": 49,
+    "A-": 28,
+    "B+": 49,
+    "B": 31,
+    "B-": 40,
+    "C+": 24,
+    "C": 10,
+    "C-": 14,
+    "D+": 8,
+    "D": 2,
+    "D-": 7,
+    "F": 1
+  },
+  "overall_gpa": 3.05,
+  "overall_enrolled": 288,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Nael El Farra",
+      "professor_slug": "nael-el-farra",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 25,
+            "A": 49,
+            "A-": 28,
+            "B+": 49,
+            "B": 31,
+            "B-": 40,
+            "C+": 24,
+            "C": 10,
+            "C-": 14,
+            "D+": 8,
+            "D": 2,
+            "D-": 7,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 288
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 7,
+            "B+": 16,
+            "B": 11,
+            "B-": 14,
+            "C+": 8,
+            "C": 1,
+            "C-": 5,
+            "D+": 5,
+            "D": 0,
+            "D-": 2,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 82
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 17,
+            "A-": 7,
+            "B+": 9,
+            "B": 6,
+            "B-": 8,
+            "C+": 7,
+            "C": 2,
+            "C-": 1,
+            "D+": 1,
+            "D": 1,
+            "D-": 1,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 60
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 14,
+            "A-": 9,
+            "B+": 18,
+            "B": 7,
+            "B-": 6,
+            "C+": 1,
+            "C": 4,
+            "C-": 1,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 76
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 9,
+            "A-": 5,
+            "B+": 6,
+            "B": 7,
+            "B-": 12,
+            "C+": 8,
+            "C": 3,
+            "C-": 7,
+            "D+": 1,
+            "D": 0,
+            "D-": 4,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 70
+        }
+      }
+    }
+  ]
+}

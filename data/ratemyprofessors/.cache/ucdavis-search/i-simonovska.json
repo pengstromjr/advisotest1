@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Civil Engineering",
+    "firstName": "I",
+    "id": "VGVhY2hlci04MzMzNTA=",
+    "lastName": "Idriss",
+    "legacyId": 833350,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.3,
+    "department": "Economics",
+    "firstName": "Ina",
+    "id": "VGVhY2hlci0xMzg0MDIz",
+    "lastName": "Simonovska",
+    "legacyId": 1384023,
+    "numRatings": 46,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.381
+  }
+]

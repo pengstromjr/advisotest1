@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.3,
+    "department": "Engineering",
+    "firstName": "Diego",
+    "id": "VGVhY2hlci01NDc1Nw==",
+    "lastName": "Yankelevich",
+    "legacyId": 54757,
+    "numRatings": 274,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 29.3023
+  },
+  {
+    "avgDifficulty": 1.3,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Andrea",
+    "id": "VGVhY2hlci0zMDYwMDUw",
+    "lastName": "Yang",
+    "legacyId": 3060050,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.5,
+    "department": "Languages",
+    "firstName": "Binbin",
+    "id": "VGVhY2hlci0yODgzMTU4",
+    "lastName": "Yang",
+    "legacyId": 2883158,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Animal Science",
+    "firstName": "Xiang",
+    "id": "VGVhY2hlci0yNDQ0NDY0",
+    "lastName": "Yang",
+    "legacyId": 2444464,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 4.2,
+    "department": "Electrical amp Comp. Engineering",
+    "firstName": "Weijian",
+    "id": "VGVhY2hlci0yMzk0MzYx",
+    "lastName": "Yang",
+    "legacyId": 2394361,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 79.3103
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.8,
+    "department": "Biology",
+    "firstName": "Louie",
+    "id": "VGVhY2hlci03NzkxNTQ=",
+    "lastName": "Yang",
+    "legacyId": 779154,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.5
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 3.9,
+    "department": "Civil Engineering",
+    "firstName": "Han",
+    "id": "VGVhY2hlci0yNTAxMDA5",
+    "lastName": "Yang",
+    "legacyId": 2501009,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.8,
+    "department": "Mathematics",
+    "firstName": "Yanwen",
+    "id": "VGVhY2hlci0yMzkwODA3",
+    "lastName": "Luo",
+    "legacyId": 2390807,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4,
+    "department": "Chicano Studies",
+    "firstName": "Yanira",
+    "id": "VGVhY2hlci0yNDU0MzUy",
+    "lastName": "Madrigal-Garcia",
+    "legacyId": 2454352,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Sociology",
+    "firstName": "Yang",
+    "id": "VGVhY2hlci0yMzIwMzQ2",
+    "lastName": "Lor",
+    "legacyId": 2320346,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

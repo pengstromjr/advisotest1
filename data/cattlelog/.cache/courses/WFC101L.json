@@ -1,0 +1,115 @@
+{
+  "course_id": "WFC101L",
+  "course_title": "Field Research in Wildlife Ecology: Laboratory",
+  "overall_grades": {
+    "A+": 12,
+    "A": 27,
+    "A-": 15,
+    "B+": 24,
+    "B": 12,
+    "B-": 12,
+    "C+": 3,
+    "C": 0,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 111,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Dirk Van Vuren",
+      "professor_slug": "dirk-van-vuren",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 6,
+            "B+": 18,
+            "B": 6,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 60
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 15,
+            "A-": 6,
+            "B+": 18,
+            "B": 6,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 60
+        }
+      }
+    },
+    {
+      "professor_name": "Douglas Kelt",
+      "professor_slug": "douglas-kelt",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 9,
+            "B+": 6,
+            "B": 6,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 51
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 9,
+            "B+": 6,
+            "B": 6,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 51
+        }
+      }
+    }
+  ]
+}

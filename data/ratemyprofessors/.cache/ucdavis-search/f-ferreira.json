@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.2,
+    "department": "Psychology",
+    "firstName": "Fernanda",
+    "id": "VGVhY2hlci0yMDc0NjQ0",
+    "lastName": "Ferreira",
+    "legacyId": 2074644,
+    "numRatings": 58,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.7,
+    "department": "Psychology",
+    "firstName": "Maria",
+    "id": "VGVhY2hlci0yMTg4MTg5",
+    "lastName": "Ferreira",
+    "legacyId": 2188189,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 4.3,
+    "department": "Mathematics",
+    "firstName": "Jeffrey",
+    "id": "VGVhY2hlci0xMDMxMDEy",
+    "lastName": "Ferreira",
+    "legacyId": 1031012,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

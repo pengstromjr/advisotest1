@@ -1,0 +1,139 @@
+{
+  "course_id": "ANS41",
+  "course_title": "Domestic Animal Production",
+  "overall_grades": {
+    "A+": 380,
+    "A": 717,
+    "A-": 553,
+    "B+": 94,
+    "B": 500,
+    "B-": 342,
+    "C+": 38,
+    "C": 215,
+    "C-": 139,
+    "D+": 9,
+    "D": 46,
+    "D-": 31,
+    "F": 31,
+    "P*": 46,
+    "NP*": 15
+  },
+  "overall_gpa": 3.23,
+  "overall_enrolled": 3156,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Frank Mitloehner",
+      "professor_slug": "frank-mitloehner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 380,
+            "A": 717,
+            "A-": 553,
+            "B+": 94,
+            "B": 500,
+            "B-": 342,
+            "C+": 38,
+            "C": 215,
+            "C-": 139,
+            "D+": 9,
+            "D": 46,
+            "D-": 31,
+            "F": 31,
+            "P*": 46,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 3156
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 288,
+            "A-": 117,
+            "B+": 15,
+            "B": 189,
+            "B-": 87,
+            "C+": 6,
+            "C": 96,
+            "C-": 12,
+            "D+": 3,
+            "D": 21,
+            "D-": 15,
+            "F": 21,
+            "P*": 27,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 975
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 198,
+            "A": 162,
+            "A-": 129,
+            "B+": 48,
+            "B": 138,
+            "B-": 126,
+            "C+": 18,
+            "C": 30,
+            "C-": 57,
+            "D+": 0,
+            "D": 12,
+            "D-": 6,
+            "F": 9,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 942
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 105,
+            "A": 210,
+            "A-": 264,
+            "B+": 3,
+            "B": 132,
+            "B-": 99,
+            "C+": 0,
+            "C": 72,
+            "C-": 63,
+            "D+": 3,
+            "D": 9,
+            "D-": 9,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 978
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 57,
+            "A-": 43,
+            "B+": 28,
+            "B": 41,
+            "B-": 30,
+            "C+": 14,
+            "C": 17,
+            "C-": 7,
+            "D+": 3,
+            "D": 4,
+            "D-": 1,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 261
+        }
+      }
+    }
+  ]
+}

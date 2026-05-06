@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.6,
+    "department": "Plant Pathology",
+    "firstName": "Sara",
+    "id": "VGVhY2hlci0yMzM4NDUx",
+    "lastName": "Dye",
+    "legacyId": 2338451,
+    "numRatings": 84,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.6667
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.5,
+    "department": "Comparative Literature",
+    "firstName": "Danny",
+    "id": "VGVhY2hlci0zMDU1MDY5",
+    "lastName": "Dyer",
+    "legacyId": 3055069,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.4,
+    "department": "History",
+    "firstName": "Gerardo",
+    "id": "VGVhY2hlci0yNzQ0ODE2",
+    "lastName": "Alcala Dyer",
+    "legacyId": 2744816,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.6,
+    "department": "Economics",
+    "firstName": "George",
+    "id": "VGVhY2hlci0xMjU0MDUw",
+    "lastName": "Dyer",
+    "legacyId": 1254050,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

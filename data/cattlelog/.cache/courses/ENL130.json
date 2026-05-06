@@ -1,0 +1,167 @@
+{
+  "course_id": "ENL130",
+  "course_title": "British Romantic Literature",
+  "overall_grades": {
+    "A+": 33,
+    "A": 219,
+    "A-": 96,
+    "B+": 90,
+    "B": 45,
+    "B-": 18,
+    "C+": 15,
+    "C": 12,
+    "C-": 6,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 9,
+    "P*": 9
+  },
+  "overall_gpa": 3.52,
+  "overall_enrolled": 552,
+  "available_quarters": [
+    "Fall_2024",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Chip Badley",
+      "professor_slug": "chip-badley",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 75,
+            "A-": 15,
+            "B+": 39,
+            "B": 21,
+            "B-": 3,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 189
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 75,
+            "A-": 15,
+            "B+": 39,
+            "B": 21,
+            "B-": 3,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 189
+        }
+      }
+    },
+    {
+      "professor_name": "Megan Arkenberg",
+      "professor_slug": "megan-arkenberg",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 45,
+            "B+": 39,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 222
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 45,
+            "B+": 39,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 222
+        }
+      }
+    },
+    {
+      "professor_name": "Sal Nicolazzo",
+      "professor_slug": "sal-nicolazzo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 72,
+            "A-": 36,
+            "B+": 12,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 141
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 72,
+            "A-": 36,
+            "B+": 12,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 141
+        }
+      }
+    }
+  ]
+}

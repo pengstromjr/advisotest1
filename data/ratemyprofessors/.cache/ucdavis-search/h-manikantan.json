@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.5,
+    "department": "Chemical Engineering",
+    "firstName": "Hari",
+    "id": "VGVhY2hlci0yOTIyNDI4",
+    "lastName": "Manikantan",
+    "legacyId": 2922428,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

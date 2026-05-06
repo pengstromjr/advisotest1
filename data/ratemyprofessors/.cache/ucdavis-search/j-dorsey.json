@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.8,
+    "department": "Philosophy",
+    "firstName": "Jonathan",
+    "id": "VGVhY2hlci0xMjU5MDM3",
+    "lastName": "Dorsey",
+    "legacyId": 1259037,
+    "numRatings": 142,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 74.8201
+  }
+]

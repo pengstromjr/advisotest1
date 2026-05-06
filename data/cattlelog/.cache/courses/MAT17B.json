@@ -1,0 +1,979 @@
+{
+  "course_id": "MAT17B",
+  "course_title": "Calculus for Biology & Medicine",
+  "overall_grades": {
+    "A+": 681,
+    "A": 1917,
+    "A-": 721,
+    "B+": 751,
+    "B": 1589,
+    "B-": 867,
+    "C+": 741,
+    "C": 1651,
+    "C-": 868,
+    "D+": 121,
+    "D": 720,
+    "D-": 181,
+    "F": 1001,
+    "P*": 130,
+    "NP*": 175
+  },
+  "overall_gpa": 2.55,
+  "overall_enrolled": 12114,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ali Daddel",
+      "professor_slug": "ali-daddel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 171,
+            "A-": 42,
+            "B+": 40,
+            "B": 155,
+            "B-": 64,
+            "C+": 79,
+            "C": 235,
+            "C-": 66,
+            "D+": 11,
+            "D": 49,
+            "D-": 44,
+            "F": 153,
+            "P*": 9,
+            "NP*": 22
+          },
+          "quarter_average_gpa": 2.25,
+          "quarter_enrolled": 1159
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 54,
+            "A-": 8,
+            "B+": 5,
+            "B": 49,
+            "B-": 12,
+            "C+": 8,
+            "C": 64,
+            "C-": 13,
+            "D+": 1,
+            "D": 14,
+            "D-": 2,
+            "F": 71,
+            "P*": 2,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.09,
+          "quarter_enrolled": 313
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 28,
+            "A-": 10,
+            "B+": 5,
+            "B": 34,
+            "B-": 15,
+            "C+": 15,
+            "C": 55,
+            "C-": 24,
+            "D+": 2,
+            "D": 15,
+            "D-": 18,
+            "F": 24,
+            "P*": 5,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.15,
+          "quarter_enrolled": 257
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 39,
+            "A-": 9,
+            "B+": 18,
+            "B": 23,
+            "B-": 25,
+            "C+": 20,
+            "C": 29,
+            "C-": 10,
+            "D+": 3,
+            "D": 9,
+            "D-": 4,
+            "F": 19,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 216
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 26,
+            "A-": 10,
+            "B+": 7,
+            "B": 26,
+            "B-": 7,
+            "C+": 20,
+            "C": 43,
+            "C-": 13,
+            "D+": 3,
+            "D": 5,
+            "D-": 9,
+            "F": 17,
+            "P*": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 196
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 24,
+            "A-": 5,
+            "B+": 5,
+            "B": 23,
+            "B-": 5,
+            "C+": 16,
+            "C": 44,
+            "C-": 6,
+            "D+": 2,
+            "D": 6,
+            "D-": 11,
+            "F": 22,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.2,
+          "quarter_enrolled": 177
+        }
+      }
+    },
+    {
+      "professor_name": "Ali daddel",
+      "professor_slug": "ali-daddel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 46,
+            "A": 303,
+            "A-": 92,
+            "B+": 95,
+            "B": 272,
+            "B-": 146,
+            "C+": 181,
+            "C": 425,
+            "C-": 147,
+            "D+": 26,
+            "D": 93,
+            "D-": 104,
+            "F": 202,
+            "P*": 21,
+            "NP*": 31
+          },
+          "quarter_average_gpa": 2.33,
+          "quarter_enrolled": 2184
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 84,
+            "A-": 30,
+            "B+": 15,
+            "B": 102,
+            "B-": 45,
+            "C+": 45,
+            "C": 165,
+            "C-": 72,
+            "D+": 6,
+            "D": 45,
+            "D-": 54,
+            "F": 72,
+            "P*": 15,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.15,
+          "quarter_enrolled": 771
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 117,
+            "A-": 27,
+            "B+": 54,
+            "B": 69,
+            "B-": 75,
+            "C+": 60,
+            "C": 87,
+            "C-": 30,
+            "D+": 9,
+            "D": 27,
+            "D-": 12,
+            "F": 57,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 648
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 78,
+            "A-": 30,
+            "B+": 21,
+            "B": 78,
+            "B-": 21,
+            "C+": 60,
+            "C": 129,
+            "C-": 39,
+            "D+": 9,
+            "D": 15,
+            "D-": 27,
+            "F": 51,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 588
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 24,
+            "A-": 5,
+            "B+": 5,
+            "B": 23,
+            "B-": 5,
+            "C+": 16,
+            "C": 44,
+            "C-": 6,
+            "D+": 2,
+            "D": 6,
+            "D-": 11,
+            "F": 22,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.2,
+          "quarter_enrolled": 177
+        }
+      }
+    },
+    {
+      "professor_name": "Andrew Alameda",
+      "professor_slug": "andrew-alameda",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 81,
+            "A-": 19,
+            "B+": 42,
+            "B": 95,
+            "B-": 14,
+            "C+": 61,
+            "C": 49,
+            "C-": 12,
+            "D+": 0,
+            "D": 37,
+            "D-": 0,
+            "F": 33,
+            "P*": 5,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 466
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 0,
+            "B+": 12,
+            "B": 7,
+            "B-": 0,
+            "C+": 12,
+            "C": 15,
+            "C-": 1,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 20
+          },
+          "quarter_average_gpa": 2.18,
+          "quarter_enrolled": 88
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 66,
+            "A-": 19,
+            "B+": 30,
+            "B": 88,
+            "B-": 14,
+            "C+": 49,
+            "C": 34,
+            "C-": 11,
+            "D+": 0,
+            "D": 33,
+            "D-": 0,
+            "F": 13,
+            "P*": 5,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 378
+        }
+      }
+    },
+    {
+      "professor_name": "Cooper Jacob",
+      "professor_slug": "cooper-jacob",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 135,
+            "A": 207,
+            "A-": 33,
+            "B+": 63,
+            "B": 120,
+            "B-": 48,
+            "C+": 48,
+            "C": 186,
+            "C-": 78,
+            "D+": 0,
+            "D": 132,
+            "D-": 0,
+            "F": 171,
+            "P*": 9,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.4,
+          "quarter_enrolled": 1248
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 15,
+            "B+": 30,
+            "B": 48,
+            "B-": 15,
+            "C+": 36,
+            "C": 90,
+            "C-": 78,
+            "D+": 0,
+            "D": 87,
+            "D-": 0,
+            "F": 60,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.13,
+          "quarter_enrolled": 558
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 123,
+            "A": 135,
+            "A-": 18,
+            "B+": 33,
+            "B": 72,
+            "B-": 33,
+            "C+": 12,
+            "C": 96,
+            "C-": 0,
+            "D+": 0,
+            "D": 45,
+            "D-": 0,
+            "F": 111,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.62,
+          "quarter_enrolled": 690
+        }
+      }
+    },
+    {
+      "professor_name": "Edward Goldsmith",
+      "professor_slug": "edward-goldsmith",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 213,
+            "A": 225,
+            "A-": 102,
+            "B+": 81,
+            "B": 138,
+            "B-": 84,
+            "C+": 87,
+            "C": 78,
+            "C-": 84,
+            "D+": 15,
+            "D": 33,
+            "D-": 3,
+            "F": 33,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 1194
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 120,
+            "A": 108,
+            "A-": 42,
+            "B+": 42,
+            "B": 45,
+            "B-": 39,
+            "C+": 39,
+            "C": 15,
+            "C-": 33,
+            "D+": 12,
+            "D": 9,
+            "D-": 3,
+            "F": 24,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 540
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 51,
+            "A-": 18,
+            "B+": 18,
+            "B": 51,
+            "B-": 21,
+            "C+": 18,
+            "C": 30,
+            "C-": 15,
+            "D+": 0,
+            "D": 18,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 282
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 66,
+            "A-": 42,
+            "B+": 21,
+            "B": 42,
+            "B-": 24,
+            "C+": 30,
+            "C": 33,
+            "C-": 36,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 372
+        }
+      }
+    },
+    {
+      "professor_name": "Enrique Alvarado",
+      "professor_slug": "enrique-alvarado",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 30,
+            "A-": 15,
+            "B+": 24,
+            "B": 27,
+            "B-": 45,
+            "C+": 18,
+            "C": 33,
+            "C-": 30,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 264
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 30,
+            "A-": 15,
+            "B+": 24,
+            "B": 27,
+            "B-": 45,
+            "C+": 18,
+            "C": 33,
+            "C-": 30,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 264
+        }
+      }
+    },
+    {
+      "professor_name": "Eric Babson",
+      "professor_slug": "eric-babson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 0,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 9,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 63
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 0,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 9,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 63
+        }
+      }
+    },
+    {
+      "professor_name": "John Challenor",
+      "professor_slug": "john-challenor",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 234,
+            "A-": 81,
+            "B+": 66,
+            "B": 237,
+            "B-": 87,
+            "C+": 51,
+            "C": 201,
+            "C-": 105,
+            "D+": 0,
+            "D": 72,
+            "D-": 0,
+            "F": 171,
+            "P*": 21,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.43,
+          "quarter_enrolled": 1350
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 60,
+            "A-": 24,
+            "B+": 21,
+            "B": 54,
+            "B-": 12,
+            "C+": 18,
+            "C": 33,
+            "C-": 12,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 24,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 273
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 174,
+            "A-": 57,
+            "B+": 45,
+            "B": 183,
+            "B-": 75,
+            "C+": 33,
+            "C": 168,
+            "C-": 93,
+            "D+": 0,
+            "D": 63,
+            "D-": 0,
+            "F": 147,
+            "P*": 15,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.35,
+          "quarter_enrolled": 1077
+        }
+      }
+    },
+    {
+      "professor_name": "Korana Burke",
+      "professor_slug": "korana-burke",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 79,
+            "A": 183,
+            "A-": 70,
+            "B+": 82,
+            "B": 143,
+            "B-": 67,
+            "C+": 60,
+            "C": 147,
+            "C-": 70,
+            "D+": 0,
+            "D": 85,
+            "D-": 0,
+            "F": 85,
+            "P*": 11,
+            "NP*": 32
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 1114
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 33,
+            "A-": 9,
+            "B+": 24,
+            "B": 42,
+            "B-": 33,
+            "C+": 9,
+            "C": 48,
+            "C-": 3,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 9,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 264
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 15,
+            "A-": 4,
+            "B+": 7,
+            "B": 11,
+            "B-": 5,
+            "C+": 3,
+            "C": 10,
+            "C-": 9,
+            "D+": 0,
+            "D": 10,
+            "D-": 0,
+            "F": 9,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.48,
+          "quarter_enrolled": 93
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 32,
+            "A-": 26,
+            "B+": 29,
+            "B": 26,
+            "B-": 13,
+            "C+": 26,
+            "C": 31,
+            "C-": 31,
+            "D+": 0,
+            "D": 38,
+            "D-": 0,
+            "F": 35,
+            "P*": 1,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 2.37,
+          "quarter_enrolled": 326
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 39,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 66
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 64,
+            "A-": 25,
+            "B+": 22,
+            "B": 64,
+            "B-": 13,
+            "C+": 19,
+            "C": 58,
+            "C-": 24,
+            "D+": 0,
+            "D": 25,
+            "D-": 0,
+            "F": 32,
+            "P*": 2,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.57,
+          "quarter_enrolled": 365
+        }
+      }
+    },
+    {
+      "professor_name": "Rohit Thomas",
+      "professor_slug": "rohit-thomas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 285,
+            "A-": 102,
+            "B+": 120,
+            "B": 246,
+            "B-": 162,
+            "C+": 66,
+            "C": 156,
+            "C-": 141,
+            "D+": 0,
+            "D": 165,
+            "D-": 0,
+            "F": 54,
+            "P*": 9,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 1566
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 141,
+            "A-": 60,
+            "B+": 81,
+            "B": 135,
+            "B-": 108,
+            "C+": 33,
+            "C": 90,
+            "C-": 69,
+            "D+": 0,
+            "D": 72,
+            "D-": 0,
+            "F": 21,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 834
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 144,
+            "A-": 42,
+            "B+": 39,
+            "B": 111,
+            "B-": 54,
+            "C+": 33,
+            "C": 66,
+            "C-": 72,
+            "D+": 0,
+            "D": 93,
+            "D-": 0,
+            "F": 33,
+            "P*": 6,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.61,
+          "quarter_enrolled": 732
+        }
+      }
+    },
+    {
+      "professor_name": "Yonggyu Lee",
+      "professor_slug": "yonggyu-lee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 27,
+            "A-": 45,
+            "B+": 42,
+            "B": 33,
+            "B-": 15,
+            "C+": 24,
+            "C": 42,
+            "C-": 66,
+            "D+": 6,
+            "D": 15,
+            "D-": 3,
+            "F": 45,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.45,
+          "quarter_enrolled": 411
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 27,
+            "A-": 45,
+            "B+": 42,
+            "B": 33,
+            "B-": 15,
+            "C+": 24,
+            "C": 42,
+            "C-": 66,
+            "D+": 6,
+            "D": 15,
+            "D-": 3,
+            "F": 45,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.45,
+          "quarter_enrolled": 411
+        }
+      }
+    },
+    {
+      "professor_name": "Zhanerke Temirgali",
+      "professor_slug": "zhanerke-temirgali",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 162,
+            "A-": 120,
+            "B+": 93,
+            "B": 117,
+            "B-": 135,
+            "C+": 63,
+            "C": 96,
+            "C-": 60,
+            "D+": 57,
+            "D": 30,
+            "D-": 21,
+            "F": 48,
+            "P*": 24,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 1095
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 132,
+            "A-": 78,
+            "B+": 75,
+            "B": 96,
+            "B-": 105,
+            "C+": 48,
+            "C": 66,
+            "C-": 24,
+            "D+": 51,
+            "D": 21,
+            "D-": 21,
+            "F": 33,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 807
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 30,
+            "A-": 42,
+            "B+": 18,
+            "B": 21,
+            "B-": 30,
+            "C+": 15,
+            "C": 30,
+            "C-": 36,
+            "D+": 6,
+            "D": 9,
+            "D-": 0,
+            "F": 15,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 288
+        }
+      }
+    }
+  ]
+}

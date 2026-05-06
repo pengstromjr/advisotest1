@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4,
+    "department": "Chemistry",
+    "firstName": "Tomoyuki",
+    "id": "VGVhY2hlci0xNzE0ODQ4",
+    "lastName": "Hayashi",
+    "legacyId": 1714848,
+    "numRatings": 371,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.7727
+  }
+]

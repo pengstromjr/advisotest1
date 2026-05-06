@@ -1,0 +1,218 @@
+{
+  "course_id": "ARE143",
+  "course_title": "Basics of Investing",
+  "overall_grades": {
+    "A+": 152,
+    "A": 337,
+    "A-": 133,
+    "B+": 175,
+    "B": 311,
+    "B-": 154,
+    "C+": 144,
+    "C": 257,
+    "C-": 82,
+    "D+": 21,
+    "D": 52,
+    "D-": 18,
+    "F": 34,
+    "P*": 70,
+    "NP*": 46
+  },
+  "overall_gpa": 2.91,
+  "overall_enrolled": 1986,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Johnson",
+      "professor_slug": "eric-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 69,
+            "A-": 63,
+            "B+": 66,
+            "B": 117,
+            "B-": 39,
+            "C+": 45,
+            "C": 54,
+            "C-": 6,
+            "D+": 21,
+            "D": 3,
+            "D-": 15,
+            "F": 18,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 582
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 69,
+            "A-": 63,
+            "B+": 66,
+            "B": 117,
+            "B-": 39,
+            "C+": 45,
+            "C": 54,
+            "C-": 6,
+            "D+": 21,
+            "D": 3,
+            "D-": 15,
+            "F": 18,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 582
+        }
+      }
+    },
+    {
+      "professor_name": "John Constantine",
+      "professor_slug": "john-constantine",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 145,
+            "A-": 49,
+            "B+": 70,
+            "B": 152,
+            "B-": 52,
+            "C+": 48,
+            "C": 152,
+            "C-": 52,
+            "D+": 0,
+            "D": 34,
+            "D-": 0,
+            "F": 4,
+            "P*": 25,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 810
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 90,
+            "A-": 27,
+            "B+": 39,
+            "B": 102,
+            "B-": 30,
+            "C+": 36,
+            "C": 108,
+            "C-": 33,
+            "D+": 0,
+            "D": 27,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 513
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 30,
+            "A-": 15,
+            "B+": 20,
+            "B": 27,
+            "B-": 14,
+            "C+": 7,
+            "C": 10,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 11,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 149
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 25,
+            "A-": 7,
+            "B+": 11,
+            "B": 23,
+            "B-": 8,
+            "C+": 5,
+            "C": 34,
+            "C-": 15,
+            "D+": 0,
+            "D": 7,
+            "D-": 0,
+            "F": 1,
+            "P*": 8,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 148
+        }
+      }
+    },
+    {
+      "professor_name": "Mayada Baydas",
+      "professor_slug": "mayada-baydas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 123,
+            "A-": 21,
+            "B+": 39,
+            "B": 42,
+            "B-": 63,
+            "C+": 51,
+            "C": 51,
+            "C-": 24,
+            "D+": 0,
+            "D": 15,
+            "D-": 3,
+            "F": 12,
+            "P*": 36,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 594
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 123,
+            "A-": 21,
+            "B+": 39,
+            "B": 42,
+            "B-": 63,
+            "C+": 51,
+            "C": 51,
+            "C-": 24,
+            "D+": 0,
+            "D": 15,
+            "D-": 3,
+            "F": 12,
+            "P*": 36,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 594
+        }
+      }
+    }
+  ]
+}

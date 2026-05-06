@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.6,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Helen",
+    "id": "VGVhY2hlci0yNjA1MDc1",
+    "lastName": "Dahlke",
+    "legacyId": 2605075,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

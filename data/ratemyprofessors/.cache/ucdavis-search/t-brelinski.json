@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.5,
+    "department": "Classics",
+    "firstName": "Tim",
+    "id": "VGVhY2hlci0xNjU2ODg5",
+    "lastName": "Brelinski",
+    "legacyId": 1656889,
+    "numRatings": 236,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.3617
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.8,
+    "department": "English",
+    "firstName": "Val",
+    "id": "VGVhY2hlci0yNTMxMjAy",
+    "lastName": "Brelinski",
+    "legacyId": 2531202,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

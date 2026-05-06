@@ -1,0 +1,223 @@
+{
+  "course_id": "CHE10",
+  "course_title": "Concept of Chemistry",
+  "overall_grades": {
+    "A+": 38,
+    "A": 138,
+    "A-": 90,
+    "B+": 81,
+    "B": 73,
+    "B-": 35,
+    "C+": 44,
+    "C": 58,
+    "C-": 11,
+    "D+": 3,
+    "D": 13,
+    "D-": 3,
+    "F": 16,
+    "P*": 62,
+    "NP*": 33
+  },
+  "overall_gpa": 3.11,
+  "overall_enrolled": 698,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hannah Brinkman",
+      "professor_slug": "hannah-brinkman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 63,
+            "A-": 42,
+            "B+": 36,
+            "B": 15,
+            "B-": 6,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 216
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 63,
+            "A-": 42,
+            "B+": 36,
+            "B": 15,
+            "B-": 6,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 216
+        }
+      }
+    },
+    {
+      "professor_name": "Leah Patterson",
+      "professor_slug": "leah-patterson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 12,
+            "A-": 9,
+            "B+": 6,
+            "B": 7,
+            "B-": 5,
+            "C+": 5,
+            "C": 4,
+            "C-": 5,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 8,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 74
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 12,
+            "A-": 9,
+            "B+": 6,
+            "B": 7,
+            "B-": 5,
+            "C+": 5,
+            "C": 4,
+            "C-": 5,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 8,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 74
+        }
+      }
+    },
+    {
+      "professor_name": "Louis Longaker",
+      "professor_slug": "louis-longaker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 15,
+            "A-": 0,
+            "B+": 18,
+            "B": 33,
+            "B-": 0,
+            "C+": 15,
+            "C": 45,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 3,
+            "P*": 30,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 198
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 15,
+            "A-": 0,
+            "B+": 18,
+            "B": 33,
+            "B-": 0,
+            "C+": 15,
+            "C": 45,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 3,
+            "P*": 30,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 198
+        }
+      }
+    },
+    {
+      "professor_name": "Natalie Dugan",
+      "professor_slug": "natalie-dugan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 48,
+            "A-": 39,
+            "B+": 21,
+            "B": 18,
+            "B-": 24,
+            "C+": 15,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 15,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 210
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 48,
+            "A-": 39,
+            "B+": 21,
+            "B": 18,
+            "B-": 24,
+            "C+": 15,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 15,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 210
+        }
+      }
+    }
+  ]
+}

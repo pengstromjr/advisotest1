@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.4,
+    "department": "Animal Science",
+    "firstName": "Matthias ",
+    "id": "VGVhY2hlci0yMDA5NDQz",
+    "lastName": "Hess",
+    "legacyId": 2009443,
+    "numRatings": 115,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 37.2727
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.6,
+    "department": "Music",
+    "firstName": "Carol",
+    "id": "VGVhY2hlci0xOTY3OTEz",
+    "lastName": "Hess",
+    "legacyId": 1967913,
+    "numRatings": 50,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 55
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.4,
+    "department": "Engineering",
+    "firstName": "Ron",
+    "id": "VGVhY2hlci0zNTg3ODk=",
+    "lastName": "Hess",
+    "legacyId": 358789,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.5,
+    "department": "Psychology",
+    "firstName": "Yanine",
+    "id": "VGVhY2hlci0xNDk1MDU3",
+    "lastName": "Hess",
+    "legacyId": 1495057,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 1.8,
+    "department": "Physics",
+    "firstName": "Patrick",
+    "id": "VGVhY2hlci02NTU3NjU=",
+    "lastName": "Hession",
+    "legacyId": 655765,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Forensic Science",
+    "firstName": "Philip",
+    "id": "VGVhY2hlci0yNjExMjY1",
+    "lastName": "Hess",
+    "legacyId": 2611265,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,360 @@
+{
+  "course_id": "PHI10",
+  "course_title": "Introduction to Cognitive Science",
+  "overall_grades": {
+    "A+": 91,
+    "A": 215,
+    "A-": 135,
+    "B+": 57,
+    "B": 90,
+    "B-": 36,
+    "C+": 29,
+    "C": 29,
+    "C-": 11,
+    "D+": 6,
+    "D": 19,
+    "D-": 2,
+    "F": 20,
+    "P*": 33,
+    "NP*": 8
+  },
+  "overall_gpa": 3.31,
+  "overall_enrolled": 781,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Danielle Williams",
+      "professor_slug": "danielle-williams",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 9,
+            "B+": 9,
+            "B": 9,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.33,
+          "quarter_enrolled": 72
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 9,
+            "B+": 9,
+            "B": 9,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.33,
+          "quarter_enrolled": 72
+        }
+      }
+    },
+    {
+      "professor_name": "Gabriel Dupre",
+      "professor_slug": "gabriel-dupre",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 16,
+            "A-": 23,
+            "B+": 11,
+            "B": 11,
+            "B-": 6,
+            "C+": 2,
+            "C": 4,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 2,
+            "F": 2,
+            "P*": 11,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 108
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 15,
+            "A-": 18,
+            "B+": 9,
+            "B": 9,
+            "B-": 6,
+            "C+": 2,
+            "C": 2,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 2,
+            "F": 2,
+            "P*": 8,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 92
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 1,
+            "A-": 5,
+            "B+": 2,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 16
+        }
+      }
+    },
+    {
+      "professor_name": "Jonathan Dorsey",
+      "professor_slug": "jonathan-dorsey",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 88,
+            "A-": 16,
+            "B+": 16,
+            "B": 34,
+            "B-": 18,
+            "C+": 6,
+            "C": 19,
+            "C-": 3,
+            "D+": 6,
+            "D": 7,
+            "D-": 0,
+            "F": 0,
+            "P*": 10,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 238
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 3,
+            "B+": 6,
+            "B": 15,
+            "B-": 3,
+            "C+": 0,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 72
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 12,
+            "B+": 3,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 36
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 0,
+            "B+": 3,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 60
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 1,
+            "B+": 1,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 10
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 0,
+            "B+": 3,
+            "B": 3,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 60
+        }
+      }
+    },
+    {
+      "professor_name": "Zoe Drayson",
+      "professor_slug": "zoe-drayson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 102,
+            "A-": 87,
+            "B+": 21,
+            "B": 36,
+            "B-": 12,
+            "C+": 18,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 363
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 3,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 30
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 84,
+            "A-": 75,
+            "B+": 9,
+            "B": 27,
+            "B-": 9,
+            "C+": 15,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 267
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 15,
+            "A-": 6,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 66
+        }
+      }
+    }
+  ]
+}

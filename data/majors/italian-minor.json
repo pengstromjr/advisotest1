@@ -9,27 +9,32 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "ITA 001",
+        "or ITA 001Y",
         "ITA 002",
+        "or ITA 002Y",
         "ITA 003",
-        "ITA 031",
-        "ITA 031Y",
+        "or ITA 003Y",
+        "or ITA 031",
+        "or ITA 031Y",
         "ITA 032",
-        "ITA 032Y",
+        "or ITA 032Y",
         "ITA 021",
         "ITA 022",
         "ITA 023"
       ],
       "units": "0-30",
       "notes": [
+        "OR",
+        "AND",
         "The equivalent.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-30 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "ITA 101",
-        "ITA 101S",
+        "or ITA 101",
+        "or ITA 101S",
         "ITA 102",
         "ITA 103",
         "ITA 104",
@@ -38,26 +43,23 @@
       "units": "8",
       "notes": [
         "Choose two:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (8 units)"
       ]
     },
     {
       "heading": "Electives",
-      "courses": [
-        "ITA 101",
-        "ITA 102",
-        "ITA 103",
-        "ITA 104",
-        "ITA 105"
-      ],
+      "courses": [],
       "units": "12",
       "notes": [
+        "Choose three upper-division (numbered 100 or higher) Italian courses, including ITA 101, ITA 102, ITA 103, ITA 104 and ITA 105 when not used to satisfy Depth Subject Matter. (12 units)",
         "Italian (ITA) courses.",
-        "Electives Subtotal"
+        "Electives Subtotal (12 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.335Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.3,
+    "department": "Statistics",
+    "firstName": "Jie",
+    "id": "VGVhY2hlci03ODE1NjI=",
+    "lastName": "Peng",
+    "legacyId": 781562,
+    "numRatings": 92,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80.9524
+  }
+]

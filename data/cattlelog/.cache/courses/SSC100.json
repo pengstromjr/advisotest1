@@ -1,0 +1,137 @@
+{
+  "course_id": "SSC100",
+  "course_title": "Principles of Soil Science",
+  "overall_grades": {
+    "A+": 88,
+    "A": 367,
+    "A-": 361,
+    "B+": 240,
+    "B": 227,
+    "B-": 102,
+    "C+": 53,
+    "C": 34,
+    "C-": 11,
+    "D+": 8,
+    "D": 11,
+    "D-": 6,
+    "F": 15,
+    "NP*": 6,
+    "P*": 2
+  },
+  "overall_gpa": 3.37,
+  "overall_enrolled": 1531,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Maria Lazcano Larkin",
+      "professor_slug": "maria-lazcano-larkin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 88,
+            "A": 367,
+            "A-": 361,
+            "B+": 240,
+            "B": 227,
+            "B-": 102,
+            "C+": 53,
+            "C": 34,
+            "C-": 11,
+            "D+": 8,
+            "D": 11,
+            "D-": 6,
+            "F": 15,
+            "NP*": 6,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 1531
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 153,
+            "A-": 114,
+            "B+": 69,
+            "B": 60,
+            "B-": 30,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 474
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 75,
+            "A-": 108,
+            "B+": 69,
+            "B": 78,
+            "B-": 36,
+            "C+": 21,
+            "C": 15,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 6,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 453
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 102,
+            "A-": 123,
+            "B+": 66,
+            "B": 60,
+            "B-": 24,
+            "C+": 12,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 444
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 37,
+            "A-": 16,
+            "B+": 36,
+            "B": 29,
+            "B-": 12,
+            "C+": 11,
+            "C": 7,
+            "C-": 2,
+            "D+": 2,
+            "D": 2,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 160
+        }
+      }
+    }
+  ]
+}

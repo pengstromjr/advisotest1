@@ -1,25 +1,32 @@
 "use client";
 
-import { useState, useCallback, useLayoutEffect } from "react";
+import { useState, useCallback, useEffect, useLayoutEffect } from "react";
 import { ProfileEditModal } from "@/components/profile-edit-modal";
 import { WorkspaceTabs } from "@/components/workspace-tabs";
-import { AIPanel } from "@/components/ai-panel";
+import { AIPanel, MinimizedAIPanel } from "@/components/ai-panel";
 import { Onboarding } from "@/components/onboarding";
+import { DEFAULT_ADVISING_GOAL_ID } from "@/lib/advising-goals";
 import { useTheme } from "@/lib/theme-context";
 import type { StudentContext } from "@/lib/course-data";
 
-const ONBOARDING_KEY = "ucd-ai-onboarding-complete";
+const ONBOARDING_KEY = "adviso-onboarding-complete";
+const AI_PANEL_MINIMIZED_KEY = "adviso-ai-panel-minimized";
 
 export default function Home() {
   const { theme, toggle } = useTheme();
   const [studentContext, setStudentContext] = useState<StudentContext>({
-    major: "",
+    advisingGoal: DEFAULT_ADVISING_GOAL_ID,
+    advisingGoals: [DEFAULT_ADVISING_GOAL_ID],
+    academicPlan: "single-major",
+    major: "Philosophy, Bachelor of Arts",
+    targetMajor: "Economics, Bachelor of Arts",
     year: "",
     completedCourses: [],
   });
   const [editOpen, setEditOpen] = useState(false);
   const [progress, setProgress] = useState({ completed: 0, total: 0 });
   const [showOnboarding, setShowOnboarding] = useState<boolean | null>(null);
+  const [aiMinimized, setAiMinimized] = useState(false);
 
   useLayoutEffect(() => {
     if (typeof window === "undefined") return;
@@ -29,7 +36,21 @@ export default function Home() {
     } else {
       setShowOnboarding(true);
     }
+    const storedAiPanelState = window.localStorage.getItem(AI_PANEL_MINIMIZED_KEY);
+    setAiMinimized(
+      storedAiPanelState === null
+        ? window.matchMedia("(max-width: 1023px)").matches
+        : storedAiPanelState === "true"
+    );
   }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(
+      AI_PANEL_MINIMIZED_KEY,
+      aiMinimized ? "true" : "false"
+    );
+  }, [aiMinimized]);
 
   const handleProgress = useCallback((completed: number, total: number) => {
     setProgress({ completed, total });
@@ -61,14 +82,11 @@ export default function Home() {
   const showLoadingShell = showOnboarding === null;
 
   return (
-    <div className="relative flex h-screen flex-col bg-gray-100 dark:bg-slate-950 transition-colors duration-300">
+    <div className="relative flex h-[100dvh] flex-col bg-gray-100 dark:bg-slate-950 transition-colors duration-300">
       {/* Header */}
-      <header className="flex shrink-0 items-center justify-between bg-[#002855] px-5 py-2.5 text-white">
+      <header className="flex shrink-0 items-center justify-between bg-[#002855] px-4 py-2.5 text-white shadow-sm">
         <div className="flex items-center gap-2.5">
-          <div className="flex h-7 w-7 items-center justify-center rounded-md bg-[#DAAA00] text-xs font-bold text-[#002855]">
-            UC
-          </div>
-          <h1 className="text-sm font-semibold">UC Davis AI Academic Advisor</h1>
+          <span className="text-xl font-bold tracking-tighter text-white">Adviso</span>
         </div>
         {/* Dark mode toggle */}
         <button
@@ -98,24 +116,49 @@ export default function Home() {
 
       {/* Main split */}
       {showMainContent && (
-        <div className="grid flex-1 grid-cols-1 gap-4 overflow-hidden p-4 lg:grid-cols-[1fr_480px]">
+        <div
+          className={`relative grid flex-1 grid-cols-1 gap-2 overflow-hidden p-2 transition-all duration-300 sm:gap-4 sm:p-4 ${
+            aiMinimized
+              ? "lg:grid-cols-[minmax(0,1fr)_88px]"
+              : "lg:grid-cols-[minmax(0,1fr)_480px]"
+          }`}
+        >
           {/* Left workspace */}
           <div className="min-h-0 overflow-hidden rounded-2xl border border-gray-200/60 bg-white shadow-sm dark:border-slate-700/60 dark:bg-slate-900 transition-colors duration-300">
             <WorkspaceTabs
               studentContext={studentContext}
               onToggleCourse={handleToggleCourse}
               onProgress={handleProgress}
+              aiPanelMinimized={aiMinimized}
+              onRequestAIMinimize={() => setAiMinimized(true)}
             />
           </div>
 
           {/* Right AI panel */}
-          <div className="min-h-0 overflow-y-auto rounded-2xl border border-gray-200/60 bg-white shadow-sm dark:border-slate-700/60 dark:bg-slate-900 transition-colors duration-300">
-            <AIPanel
-              studentContext={studentContext}
-              completedCount={progress.completed}
-              totalCount={progress.total}
-              onEditProfile={() => setEditOpen(true)}
-            />
+          <div
+            className={`rounded-2xl border border-gray-200/60 bg-white shadow-sm transition-all duration-300 dark:border-slate-700/60 dark:bg-slate-900 ${
+              aiMinimized
+                ? "fixed bottom-4 right-4 z-40 h-16 w-[min(330px,calc(100vw-2rem))] overflow-hidden lg:static lg:h-auto lg:w-auto lg:min-h-0 lg:rounded-[1.25rem]"
+                : "fixed inset-x-2 bottom-2 top-16 z-50 overflow-hidden lg:static lg:min-h-0 lg:overflow-y-auto"
+            }`}
+          >
+            {aiMinimized ? (
+              <MinimizedAIPanel
+                studentContext={studentContext}
+                completedCount={progress.completed}
+                totalCount={progress.total}
+                onEditProfile={() => setEditOpen(true)}
+                onRestore={() => setAiMinimized(false)}
+              />
+            ) : (
+              <AIPanel
+                studentContext={studentContext}
+                completedCount={progress.completed}
+                totalCount={progress.total}
+                onEditProfile={() => setEditOpen(true)}
+                onMinimize={() => setAiMinimized(true)}
+              />
+            )}
           </div>
         </div>
       )}
@@ -138,4 +181,3 @@ export default function Home() {
     </div>
   );
 }
-

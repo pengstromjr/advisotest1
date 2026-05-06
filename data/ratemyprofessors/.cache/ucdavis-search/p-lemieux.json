@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.5,
+    "department": "Technoculture Studies",
+    "firstName": "Patrick",
+    "id": "VGVhY2hlci0yMzIyMDc5",
+    "lastName": "LeMieux",
+    "legacyId": 2322079,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  }
+]

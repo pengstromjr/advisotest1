@@ -1,0 +1,138 @@
+{
+  "course_id": "FRE109",
+  "course_title": "French Phonetics",
+  "overall_grades": {
+    "A+": 16,
+    "A": 35,
+    "A-": 21,
+    "B+": 11,
+    "B": 0,
+    "B-": 3,
+    "C+": 2,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 6
+  },
+  "overall_gpa": 3.7,
+  "overall_enrolled": 97,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Dickson",
+      "professor_slug": "eric-dickson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 8,
+            "A-": 6,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 22
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 8,
+            "A-": 6,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 22
+        }
+      }
+    },
+    {
+      "professor_name": "Eric Louis Russell",
+      "professor_slug": "eric-louis-russell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 27,
+            "A-": 15,
+            "B+": 9,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 75
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 36
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 15,
+            "A-": 9,
+            "B+": 9,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

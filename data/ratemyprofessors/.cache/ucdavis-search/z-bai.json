@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.3,
+    "department": "Plant & Soil Science",
+    "firstName": "Brian",
+    "id": "VGVhY2hlci0yNjE2ODIw",
+    "lastName": "Bailey",
+    "legacyId": 2616820,
+    "numRatings": 31,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 37.5
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.6,
+    "department": "Computer Science",
+    "firstName": "Zhaojun",
+    "id": "VGVhY2hlci0xNDg5NTQ=",
+    "lastName": "Bai",
+    "legacyId": 148954,
+    "numRatings": 141,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 35.1852
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.5,
+    "department": "Management",
+    "firstName": "Muneet",
+    "id": "VGVhY2hlci0yODI1NTMx",
+    "lastName": "Bains",
+    "legacyId": 2825531,
+    "numRatings": 87,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.8046
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Alana",
+    "id": "VGVhY2hlci0zMTE5MDU5",
+    "lastName": "Bailey",
+    "legacyId": 3119059,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.8,
+    "department": "Political Science",
+    "firstName": "Richard",
+    "id": "VGVhY2hlci0xOTY5Mzc3",
+    "lastName": "Bairett",
+    "legacyId": 1969377,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.9,
+    "department": "Statistics",
+    "firstName": "Paul",
+    "id": "VGVhY2hlci0xNTMyMzQ1",
+    "lastName": "Baines",
+    "legacyId": 1532345,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

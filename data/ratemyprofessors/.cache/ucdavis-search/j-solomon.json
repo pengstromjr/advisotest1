@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4,
+    "department": "English",
+    "firstName": "Jeffrey",
+    "id": "VGVhY2hlci0yNzQ2MTgw",
+    "lastName": "Solomon",
+    "legacyId": 2746180,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Physics",
+    "firstName": "Solomon",
+    "id": "VGVhY2hlci0xMzEwMzI4",
+    "lastName": "Obolu",
+    "legacyId": 1310328,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

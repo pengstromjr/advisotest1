@@ -8,11 +8,15 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A",
+        "BIO 001",
+        "BIO 002",
+        "or BIS 002A",
         "BIS 002B"
       ],
-      "units": "5",
-      "notes": []
+      "units": "8-10",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
@@ -51,31 +55,46 @@
       "heading": "Geology",
       "courses": [
         "GEL 050",
-        "GEL 050L",
-        "ECS 032A",
-        "ECS 032AV",
-        "ENG 006"
+        "GEL 050L"
       ],
       "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Geology",
+      "courses": [
+        "ECS 032A",
+        "or ECS 032AV",
+        "ENG 006"
+      ],
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (69-71 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "ECI 100",
-        "ENG 103",
-        "ECI 114",
-        "STA 130",
-        "ECI 114",
-        "STA 130ASTA 130B"
+        "ENG 103"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
         "Equivalent of either."
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ECI 114",
+        "or STA 130A",
+        "or STA 130B"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose ECI 114 or STA 130 series:"
       ]
     },
     {
@@ -85,7 +104,7 @@
         "HYD 141",
         "HYD/EBS 144",
         "ESM 108",
-        "HYD 151"
+        "or HYD 151"
       ],
       "units": "6",
       "notes": []
@@ -115,7 +134,8 @@
     {
       "heading": "GIS & Remote Sensing",
       "courses": [
-        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "LED/ABT 150",
+        "LDA 150",
         "HYD/ABT 182",
         "ESM 185",
         "ESM 186"
@@ -140,7 +160,7 @@
       "units": "8-13",
       "notes": [
         "Choose three:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (45-57 units)"
       ]
     },
     {
@@ -148,8 +168,8 @@
       "courses": [],
       "units": "16-26",
       "notes": [
-        "Upper division courses to supplement or expand areas of student interest selected with approval of advisor.",
-        "Restricted Courses Subtotal"
+        "Upper division courses to supplement or expand areas of student interest selected with approval of advisor. (16-26 units)",
+        "Restricted Courses Subtotal (16-26 units)"
       ]
     }
   ],
@@ -157,5 +177,7 @@
   "advising_notes": [
     "Advising Center: 1150 PES Building"
   ],
-  "total_units": "132"
+  "total_units": "130",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.204Z"
 }

@@ -1,0 +1,115 @@
+{
+  "course_id": "ECI281A",
+  "course_title": "Advanced Soil Mechanics",
+  "overall_grades": {
+    "A+": 3,
+    "A": 15,
+    "A-": 6,
+    "B+": 8,
+    "B": 7,
+    "B-": 2,
+    "C+": 0,
+    "C": 1,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1
+  },
+  "overall_gpa": 3.47,
+  "overall_enrolled": 43,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alejandro Martinez Vela",
+      "professor_slug": "alejandro-martinez-vela",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 3,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 33
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 3,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 33
+        }
+      }
+    },
+    {
+      "professor_name": "Michael Gardner",
+      "professor_slug": "michael-gardner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 3,
+            "B+": 2,
+            "B": 1,
+            "B-": 2,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 10
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 3,
+            "B+": 2,
+            "B": 1,
+            "B-": 2,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 10
+        }
+      }
+    }
+  ]
+}

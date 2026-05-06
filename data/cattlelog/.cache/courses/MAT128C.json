@@ -1,0 +1,245 @@
+{
+  "course_id": "MAT128C",
+  "course_title": "Numerical Analysis in Differential Equations",
+  "overall_grades": {
+    "A+": 88,
+    "A": 175,
+    "A-": 81,
+    "B+": 52,
+    "B": 67,
+    "B-": 59,
+    "C+": 17,
+    "C": 24,
+    "C-": 11,
+    "D+": 7,
+    "D": 5,
+    "D-": 1,
+    "F": 9,
+    "P*": 30,
+    "NP*": 17
+  },
+  "overall_gpa": 3.36,
+  "overall_enrolled": 643,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Abinand Gopal",
+      "professor_slug": "abinand-gopal",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 9,
+            "A-": 6,
+            "B+": 3,
+            "B": 8,
+            "B-": 9,
+            "C+": 3,
+            "C": 9,
+            "C-": 1,
+            "D+": 4,
+            "D": 5,
+            "D-": 1,
+            "F": 3,
+            "P*": 7,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 76
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 9,
+            "A-": 6,
+            "B+": 3,
+            "B": 8,
+            "B-": 9,
+            "C+": 3,
+            "C": 9,
+            "C-": 1,
+            "D+": 4,
+            "D": 5,
+            "D-": 1,
+            "F": 3,
+            "P*": 7,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 76
+        }
+      }
+    },
+    {
+      "professor_name": "David Marsico",
+      "professor_slug": "david-marsico",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 60,
+            "A-": 42,
+            "B+": 21,
+            "B": 15,
+            "B-": 15,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 231
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 60,
+            "A-": 42,
+            "B+": 21,
+            "B": 15,
+            "B-": 15,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 231
+        }
+      }
+    },
+    {
+      "professor_name": "Joseph Teran",
+      "professor_slug": "joseph-teran",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 52,
+            "A-": 33,
+            "B+": 28,
+            "B": 23,
+            "B-": 8,
+            "C+": 8,
+            "C": 6,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 17,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 216
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 6,
+            "B+": 4,
+            "B": 5,
+            "B-": 2,
+            "C+": 2,
+            "C": 3,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 45
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 39,
+            "A-": 27,
+            "B+": 24,
+            "B": 18,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 171
+        }
+      }
+    },
+    {
+      "professor_name": "Vincent Lovero",
+      "professor_slug": "vincent-lovero",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 54,
+            "A-": 0,
+            "B+": 0,
+            "B": 21,
+            "B-": 27,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 120
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 54,
+            "A-": 0,
+            "B+": 0,
+            "B": 21,
+            "B-": 27,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 120
+        }
+      }
+    }
+  ]
+}

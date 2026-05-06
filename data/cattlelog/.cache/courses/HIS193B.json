@@ -1,0 +1,125 @@
+{
+  "course_id": "HIS193B",
+  "course_title": "History of the Modern Middle East, From 1914",
+  "overall_grades": {
+    "A+": 8,
+    "A": 114,
+    "A-": 98,
+    "B+": 52,
+    "B": 33,
+    "B-": 5,
+    "C+": 1,
+    "C": 2,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 17,
+    "P*": 40,
+    "NP*": 5
+  },
+  "overall_gpa": 3.46,
+  "overall_enrolled": 375,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ali Danis Neyzi",
+      "professor_slug": "ali-danis-neyzi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 11,
+            "B+": 7,
+            "B": 9,
+            "B-": 5,
+            "C+": 1,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 60
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 15,
+            "A-": 11,
+            "B+": 7,
+            "B": 9,
+            "B-": 5,
+            "C+": 1,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 60
+        }
+      }
+    },
+    {
+      "professor_name": "Omnia El Shakry",
+      "professor_slug": "omnia-el-shakry",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 99,
+            "A-": 87,
+            "B+": 45,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 36,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 315
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 99,
+            "A-": 87,
+            "B+": 45,
+            "B": 24,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 36,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 315
+        }
+      }
+    }
+  ]
+}

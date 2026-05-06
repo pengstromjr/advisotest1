@@ -1,0 +1,76 @@
+{
+  "course_id": "CMN130",
+  "course_title": "Group Communication",
+  "overall_grades": {
+    "A+": 3,
+    "A": 4,
+    "A-": 4,
+    "B+": 2,
+    "B": 10,
+    "B-": 5,
+    "C+": 2,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 5,
+    "NP*": 1
+  },
+  "overall_gpa": 3.14,
+  "overall_enrolled": 39,
+  "available_quarters": [
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Heather Hether",
+      "professor_slug": "heather-hether",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 4,
+            "A-": 4,
+            "B+": 2,
+            "B": 10,
+            "B-": 5,
+            "C+": 2,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 39
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 4,
+            "A-": 4,
+            "B+": 2,
+            "B": 10,
+            "B-": 5,
+            "C+": 2,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

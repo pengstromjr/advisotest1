@@ -1,0 +1,267 @@
+{
+  "course_id": "PSC1Y",
+  "course_title": "General Psychology",
+  "overall_grades": {
+    "A+": 938,
+    "A": 3411,
+    "A-": 954,
+    "B+": 834,
+    "B": 1541,
+    "B-": 433,
+    "C+": 338,
+    "C": 651,
+    "C-": 205,
+    "D+": 91,
+    "D": 196,
+    "D-": 56,
+    "F": 169,
+    "P*": 259,
+    "NP*": 116
+  },
+  "overall_gpa": 3.29,
+  "overall_enrolled": 10192,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brett Bahle",
+      "professor_slug": "brett-bahle",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 291,
+            "A-": 123,
+            "B+": 105,
+            "B": 207,
+            "B-": 48,
+            "C+": 51,
+            "C": 114,
+            "C-": 39,
+            "D+": 30,
+            "D": 39,
+            "D-": 0,
+            "F": 36,
+            "P*": 21,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 1155
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 291,
+            "A-": 123,
+            "B+": 105,
+            "B": 207,
+            "B-": 48,
+            "C+": 51,
+            "C": 114,
+            "C-": 39,
+            "D+": 30,
+            "D": 39,
+            "D-": 0,
+            "F": 36,
+            "P*": 21,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 1155
+        }
+      }
+    },
+    {
+      "professor_name": "Priscilla San Souci",
+      "professor_slug": "priscilla-san-souci",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 402,
+            "A": 765,
+            "A-": 165,
+            "B+": 117,
+            "B": 159,
+            "B-": 24,
+            "C+": 42,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 15,
+            "P*": 36,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 1761
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 402,
+            "A": 765,
+            "A-": 165,
+            "B+": 117,
+            "B": 159,
+            "B-": 24,
+            "C+": 42,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 15,
+            "P*": 36,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 1761
+        }
+      }
+    },
+    {
+      "professor_name": "Sophia Rogers",
+      "professor_slug": "sophia-rogers",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 66,
+            "A-": 27,
+            "B+": 27,
+            "B": 68,
+            "B-": 7,
+            "C+": 17,
+            "C": 36,
+            "C-": 10,
+            "D+": 1,
+            "D": 10,
+            "D-": 5,
+            "F": 4,
+            "P*": 10,
+            "NP*": 8
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 307
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 66,
+            "A-": 27,
+            "B+": 27,
+            "B": 68,
+            "B-": 7,
+            "C+": 17,
+            "C": 36,
+            "C-": 10,
+            "D+": 1,
+            "D": 10,
+            "D-": 5,
+            "F": 4,
+            "P*": 10,
+            "NP*": 8
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 307
+        }
+      }
+    },
+    {
+      "professor_name": "Steven Luck",
+      "professor_slug": "steven-luck",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 492,
+            "A": 2289,
+            "A-": 639,
+            "B+": 585,
+            "B": 1107,
+            "B-": 354,
+            "C+": 228,
+            "C": 480,
+            "C-": 150,
+            "D+": 60,
+            "D": 147,
+            "D-": 48,
+            "F": 114,
+            "P*": 192,
+            "NP*": 84
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 6969
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 123,
+            "A": 729,
+            "A-": 216,
+            "B+": 216,
+            "B": 375,
+            "B-": 126,
+            "C+": 81,
+            "C": 126,
+            "C-": 27,
+            "D+": 18,
+            "D": 57,
+            "D-": 12,
+            "F": 48,
+            "P*": 42,
+            "NP*": 36
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 2232
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 162,
+            "A": 795,
+            "A-": 213,
+            "B+": 180,
+            "B": 363,
+            "B-": 129,
+            "C+": 54,
+            "C": 186,
+            "C-": 69,
+            "D+": 24,
+            "D": 45,
+            "D-": 24,
+            "F": 42,
+            "P*": 66,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 2373
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 207,
+            "A": 765,
+            "A-": 210,
+            "B+": 189,
+            "B": 369,
+            "B-": 99,
+            "C+": 93,
+            "C": 168,
+            "C-": 54,
+            "D+": 18,
+            "D": 45,
+            "D-": 12,
+            "F": 24,
+            "P*": 84,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 2364
+        }
+      }
+    }
+  ]
+}

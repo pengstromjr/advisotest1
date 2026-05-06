@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4,
+    "department": "Political Science",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0zMDcwODI4",
+    "lastName": "Elko",
+    "legacyId": 3070828,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  }
+]

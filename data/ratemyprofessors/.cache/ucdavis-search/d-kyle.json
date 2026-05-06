@@ -1,0 +1,137 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.4,
+    "department": "Social Science",
+    "firstName": "David",
+    "id": "VGVhY2hlci0xMDUzMDc=",
+    "lastName": "Kyle",
+    "legacyId": 105307,
+    "numRatings": 129,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 4.6,
+    "department": "Chemistry",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0yMzA0ODIw",
+    "lastName": "Crabtree",
+    "legacyId": 2304820,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.6522
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.3,
+    "department": "Comparative Literature",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0yNjU0NjY0",
+    "lastName": "Proehl",
+    "legacyId": 2654664,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.5,
+    "department": "Physics",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0yMjY1MDI5",
+    "lastName": "Zora",
+    "legacyId": 2265029,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "Philosophy",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0xOTkwNzEw",
+    "lastName": "Adams",
+    "legacyId": 1990710,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.6,
+    "department": "Political Science",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0xMjkwMzUx",
+    "lastName": "Joyce",
+    "legacyId": 1290351,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 3.5,
+    "department": "Electrical & Comp. Engineering",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0xOTA3MjM1",
+    "lastName": "Montgomery",
+    "legacyId": 1907235,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Kyle",
+    "id": "VGVhY2hlci0yMzM4NDY0",
+    "lastName": "Wood",
+    "legacyId": 2338464,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

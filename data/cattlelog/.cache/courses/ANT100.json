@@ -1,0 +1,138 @@
+{
+  "course_id": "ANT100",
+  "course_title": "Theory in Social-Cultural Anthropology",
+  "overall_grades": {
+    "A+": 108,
+    "A": 201,
+    "A-": 105,
+    "B+": 60,
+    "B": 24,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 3,
+    "D": 6,
+    "D-": 0,
+    "F": 6,
+    "P*": 3
+  },
+  "overall_gpa": 3.71,
+  "overall_enrolled": 516,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "James Smith",
+      "professor_slug": "james-smith",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 135,
+            "A-": 81,
+            "B+": 39,
+            "B": 21,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 378
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 75,
+            "A-": 51,
+            "B+": 24,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 174
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 60,
+            "A-": 30,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 204
+        }
+      }
+    },
+    {
+      "professor_name": "Tarik Elhaik",
+      "professor_slug": "tarik-elhaik",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 66,
+            "A-": 24,
+            "B+": 21,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 138
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 66,
+            "A-": 24,
+            "B+": 21,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 138
+        }
+      }
+    }
+  ]
+}

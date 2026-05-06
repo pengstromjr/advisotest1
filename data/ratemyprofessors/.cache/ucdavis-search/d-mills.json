@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.4,
+    "department": "Philosophy",
+    "firstName": "Roberta",
+    "id": "VGVhY2hlci05NDIzNjU=",
+    "lastName": "Millstein",
+    "legacyId": 942365,
+    "numRatings": 52,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.8889
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Food Science & Technology",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yNjgxMTY3",
+    "lastName": "Mills",
+    "legacyId": 2681167,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "course_id": "EVE102",
+  "course_title": "Population & Quantitative Genetics",
+  "overall_grades": {
+    "A+": 15,
+    "A": 6,
+    "A-": 6,
+    "B+": 15,
+    "B": 6,
+    "B-": 15,
+    "C+": 18,
+    "C": 6,
+    "C-": 9,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 3
+  },
+  "overall_gpa": 2.95,
+  "overall_enrolled": 99,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Graham Coop",
+      "professor_slug": "graham-coop",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 6,
+            "A-": 6,
+            "B+": 15,
+            "B": 6,
+            "B-": 15,
+            "C+": 18,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 99
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 6,
+            "A-": 6,
+            "B+": 15,
+            "B": 6,
+            "B-": 15,
+            "C+": 18,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 99
+        }
+      }
+    }
+  ]
+}

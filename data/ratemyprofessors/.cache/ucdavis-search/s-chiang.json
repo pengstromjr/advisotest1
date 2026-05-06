@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.7,
+    "department": "History",
+    "firstName": "Howard",
+    "id": "VGVhY2hlci0yNDExOTMz",
+    "lastName": "Chiang",
+    "legacyId": 2411933,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 47.0588
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 3.4,
+    "department": "Physics",
+    "firstName": "Shirley",
+    "id": "VGVhY2hlci0zNDMzMjM=",
+    "lastName": "Chiang",
+    "legacyId": 343323,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

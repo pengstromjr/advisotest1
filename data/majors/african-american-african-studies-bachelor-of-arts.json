@@ -9,42 +9,65 @@
       "heading": "African American & African Studies",
       "courses": [
         "AAS 010",
-        "AAS 012",
+        "or AAS 012"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "African American & African Studies",
+      "courses": [
         "AAS 015",
         "AAS 017",
         "AAS 018",
         "AAS 050",
         "AAS 051",
         "AAS 052",
-        "AAS 080",
+        "AAS 080"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "African American & African Studies",
+      "courses": [
         "ANT 002",
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV",
+        "or ECN 001BV",
         "POL 001",
-        "POL 001Y",
+        "or POL 001Y",
         "POL 002",
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y",
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "African American & African Studies",
+      "courses": [
         "AMS 010",
         "ASA 001",
         "ASA 002",
         "CHI 010",
-        "CHI 010V",
+        "or CHI 010V",
         "GSW 050",
-        "GSW 050V",
+        "or GSW 050V",
         "NAS 001",
         "NAS 010"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
-        "Choose one:",
         "Choose one:"
       ]
     },
@@ -54,7 +77,16 @@
         "HIS 015A",
         "HIS 015B",
         "HIS 017A",
-        "HIS 017B",
+        "HIS 017B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "History",
+      "courses": [
         "AAS 016",
         "AAS 051",
         "AAS/DRA 155A",
@@ -66,11 +98,10 @@
         "MUS 105",
         "MUS 106"
       ],
-      "units": "8",
+      "units": "4",
       "notes": [
-        "Choose two:",
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (28 units)"
       ]
     },
     {
@@ -84,7 +115,16 @@
         "AAS 110",
         "AAS 145B",
         "AAS 172",
-        "AAS 180",
+        "AAS 180"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "AAS 150A",
         "AAS 150B",
         "AAS 151",
@@ -101,7 +141,16 @@
         "AAS 175B",
         "AAS 181",
         "AAS 182",
-        "AAS 185",
+        "AAS 185"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "AAS 111",
         "AAS 123",
         "AAS 130",
@@ -120,11 +169,9 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Choose one:",
-        "Choose one:",
         "A coordinated program of upper division courses, selected and approved in consultation with the major advisor and chosen to reflect the student's major emphasis. Possible areas of emphasis include the following:",
         "Creative arts in the black community worldwide, social and political trends in the global black community, African American society and culture, Africa, African Diasporas. These areas of emphasis are offered as guidelines for students in the major. They are not the only areas of emphasis that students may choose for the major.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36 units)"
       ]
     },
     {
@@ -133,6 +180,7 @@
         "AMS 156",
         "ANT 104N",
         "ANT 139AN",
+        "ANT 140A",
         "ANT 140B",
         "AHI 150",
         "CRD 151",
@@ -165,13 +213,16 @@
         "DRA/AAS 155A",
         "WMS 160",
         "WMS 180",
+        "or GSW 180",
         "WMS 182"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "64"
+  "total_units": "64",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.143Z"
 }

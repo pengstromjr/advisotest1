@@ -1,0 +1,286 @@
+{
+  "course_id": "CHN150",
+  "course_title": "Fifth-Year Chinese: Selected Topics in Chinese Language, Literature, & Culture  ",
+  "overall_grades": {
+    "A+": 18,
+    "A": 136,
+    "A-": 174,
+    "B+": 83,
+    "B": 55,
+    "B-": 29,
+    "C+": 4,
+    "C": 7,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 50
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 562,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Chengzhi Chu",
+      "professor_slug": "chengzhi-chu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 61,
+            "A-": 138,
+            "B+": 65,
+            "B": 40,
+            "B-": 20,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 14
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 352
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 6,
+            "B+": 5,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 25
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 24,
+            "B+": 9,
+            "B": 3,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 69
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 24,
+            "B+": 18,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 66
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 33,
+            "B+": 12,
+            "B": 12,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 75
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 39,
+            "B+": 9,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 69
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 7,
+            "A-": 3,
+            "B+": 6,
+            "B": 5,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 24
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 9,
+            "B+": 6,
+            "B": 2,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 24
+        }
+      }
+    },
+    {
+      "professor_name": "Yuming He",
+      "professor_slug": "yuming-he",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 75,
+            "A-": 36,
+            "B+": 18,
+            "B": 15,
+            "B-": 9,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 36
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 210
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 12,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 72
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 27,
+            "A-": 9,
+            "B+": 3,
+            "B": 3,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 72
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 15,
+            "B+": 9,
+            "B": 3,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 66
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.7,
+    "department": "Biological Sciences",
+    "firstName": "Taiyi",
+    "id": "VGVhY2hlci0yOTgxNDk3",
+    "lastName": "Kuo",
+    "legacyId": 2981497,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

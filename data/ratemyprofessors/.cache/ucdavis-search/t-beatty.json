@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.8,
+    "avgRating": 1.7,
+    "department": "Agricultural Economics",
+    "firstName": "Timothy",
+    "id": "VGVhY2hlci0xOTM4NTEw",
+    "lastName": "Beatty",
+    "legacyId": 1938510,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "course_id": "CHE130A",
+  "course_title": "Principles of Medicinal Chemistry",
+  "overall_grades": {
+    "A+": 69,
+    "A": 164,
+    "A-": 161,
+    "B+": 122,
+    "B": 132,
+    "B-": 71,
+    "C+": 46,
+    "C": 50,
+    "C-": 35,
+    "D+": 1,
+    "D": 25,
+    "D-": 10,
+    "F": 9,
+    "P*": 15,
+    "NP*": 6
+  },
+  "overall_gpa": 3.15,
+  "overall_enrolled": 916,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Sheila David",
+      "professor_slug": "sheila-david",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 41,
+            "A-": 43,
+            "B+": 33,
+            "B": 40,
+            "B-": 39,
+            "C+": 9,
+            "C": 18,
+            "C-": 9,
+            "D+": 0,
+            "D": 10,
+            "D-": 3,
+            "F": 9,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 266
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 12,
+            "B+": 15,
+            "B": 18,
+            "B-": 30,
+            "C+": 0,
+            "C": 15,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 123
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 24,
+            "A-": 24,
+            "B+": 9,
+            "B": 18,
+            "B-": 0,
+            "C+": 9,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 105
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 7,
+            "B+": 9,
+            "B": 4,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 38
+        }
+      }
+    },
+    {
+      "professor_name": "Whitney Duim",
+      "professor_slug": "whitney-duim",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 123,
+            "A-": 118,
+            "B+": 89,
+            "B": 92,
+            "B-": 32,
+            "C+": 37,
+            "C": 32,
+            "C-": 26,
+            "D+": 1,
+            "D": 15,
+            "D-": 7,
+            "F": 0,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 650
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 24,
+            "A-": 21,
+            "B+": 18,
+            "B": 30,
+            "B-": 9,
+            "C+": 12,
+            "C": 21,
+            "C-": 12,
+            "D+": 0,
+            "D": 9,
+            "D-": 6,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 177
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 24,
+            "A-": 36,
+            "B+": 39,
+            "B": 27,
+            "B-": 12,
+            "C+": 12,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 171
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 51,
+            "A-": 48,
+            "B+": 24,
+            "B": 21,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 210
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 13,
+            "B+": 8,
+            "B": 14,
+            "B-": 5,
+            "C+": 7,
+            "C": 5,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 92
+        }
+      }
+    }
+  ]
+}

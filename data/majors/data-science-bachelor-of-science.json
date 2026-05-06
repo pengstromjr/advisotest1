@@ -6,15 +6,16 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Computer Science Engineering",
+      "heading": "Statistics",
       "courses": [
-        "ECS 017",
-        "ECS 032A",
-        "ECS 032AV",
-        "ECS 032B"
+        "STA 035A",
+        "STA 035B",
+        "STA 035C"
       ],
-      "units": "4",
-      "notes": []
+      "units": "12",
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -22,22 +23,56 @@
         "MAT 021A",
         "MAT 021B",
         "MAT 021C",
-        "MAT 022A"
+        "MAT 022A",
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
-      "units": "4",
-      "notes": []
+      "units": "16",
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Statistics",
+      "heading": "Computer Science Engineering",
       "courses": [
-        "STA 035A",
-        "STA 035B",
-        "STA 035C"
+        "ECS 017",
+        "or ECS 020",
+        "ECS 032A",
+        "or ECS 036A",
+        "ECS 032B",
+        "or ECS 036C"
+      ],
+      "units": "12",
+      "notes": [
+        "Note: ECS 020, ECS 036A, ECS 036C are not usually available to Data Science majors at UC Davis. Data Science majors enrolling in ECS courses at UC Davis should plan to take ECS 017, ECS 032A, and ECS 032B.",
+        "Preparatory Subject Matter Subtotal (40 units)"
+      ],
+      "group": "Foundations Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Science & Technology Studies",
+      "courses": [
+        "STS 101"
       ],
       "units": "4",
-      "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Probability & Statistics",
+      "courses": [
+        "STA 108",
+        "STA 141A",
+        "MAT 135A",
+        "or STA 131A"
+      ],
+      "units": "12",
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
@@ -47,62 +82,56 @@
         "ECS 119"
       ],
       "units": "12",
-      "notes": []
-    },
-    {
-      "heading": "Probability & Statistics",
-      "courses": [
-        "STA 108",
-        "STA 141A",
-        "MAT 135A",
-        "STA 131A"
-      ],
-      "units": "12",
-      "notes": []
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
       "heading": "Machine Learning",
       "courses": [
         "ECS 111",
         "MAT 170",
-        "STA 142A"
+        "STA 142A",
+        "STA 142B"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 168",
         "MAT 167",
-        "ECS 130"
+        "or ECS 130",
+        "MAT 168"
       ],
       "units": "8",
-      "notes": []
+      "notes": [],
+      "group": "Foundations Track",
+      "group_kind": "path"
     },
     {
-      "heading": "Science & Technology Studies",
-      "courses": [
-        "STS 101"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Upper Division Electives",
+      "heading": "Domain Emphasis",
       "courses": [],
       "units": "12",
       "notes": [
-        "Three elective courses in a related discipline. A list of pre-approved electives can be found on the Department of Statistics website.",
-        "Pre-Approved Electives List",
+        "Three elective courses in a related discipline. A list of pre-approved electives can be found at:",
+        "Pre-Approved Data Science Electives",
         "Note: A course used to fulfill a core requirement cannot be used as an elective.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (52 units)"
+      ],
+      "group": "Foundations Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Foundations Track"
+  ],
   "advising_notes": [],
-  "total_units": "91"
+  "total_units": "92",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.394Z"
 }

@@ -21,15 +21,16 @@
       "courses": [
         "MAT 022A",
         "MAT 108",
-        "MAT 108V",
+        "or MAT 108V",
         "MAT/BIS 027A",
-        "MAT 108",
-        "MAT 108V",
         "MAT 067"
       ],
       "units": "4-8",
       "notes": [
-        "Choose one option:"
+        "Choose one option:",
+        "(a)",
+        "(b)",
+        "(c)"
       ]
     },
     {
@@ -46,7 +47,7 @@
       "heading": "Differential Equations",
       "courses": [
         "MAT/BIS 027B",
-        "MAT 022B"
+        "or MAT 022B"
       ],
       "units": "3-4",
       "notes": []
@@ -55,7 +56,7 @@
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032AV",
         "ENG 006"
       ],
       "units": "4",
@@ -64,7 +65,10 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002B"
+        "BIO 001",
+        "BIO 002",
+        "BIS 002A",
+        "BIS 002B"
       ],
       "units": "",
       "notes": []
@@ -72,7 +76,8 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002B"
+        "CHE 002A",
+        "CHE 002B"
       ],
       "units": "",
       "notes": []
@@ -81,18 +86,21 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "AND"
+      ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009B"
+        "PHY 009A",
+        "PHY 009B"
       ],
       "units": "",
       "notes": []
@@ -100,29 +108,37 @@
     {
       "heading": "Statistics",
       "courses": [
-        "STA 032STA 100"
+        "STA 032",
+        "STA 100"
       ],
       "units": "40-47",
       "notes": [
         "or Other applied preparatory courses approved by your advisor.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (40-47 units)"
       ]
     },
     {
       "heading": "A. Core Courses",
       "courses": [
-        "MAT 119A",
+        "or MAT 119A",
         "MAT 127A",
         "MAT 127B",
         "MAT 127C",
         "MAT 135A",
         "MAT 150A",
-        "MAT 185A",
+        "MAT 185A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "A. Core Courses",
+      "courses": [
         "MAT 128A",
         "MAT 128B",
         "MAT 128C"
       ],
-      "units": "4",
+      "units": "8",
       "notes": [
         "Choose two:"
       ]
@@ -130,9 +146,6 @@
     {
       "heading": "B. Enrichment Courses",
       "courses": [
-        "MAT 111",
-        "MAT 185B",
-        "MAT 180",
         "ATM 120",
         "ATM 121A",
         "ATM 121B",
@@ -152,7 +165,7 @@
         "ECS 122A",
         "ECS 127",
         "EME 115",
-        "ESP 150A",
+        "ESP/EPS 150A",
         "EVE 102",
         "GEL 150A",
         "LIN 177",
@@ -181,7 +194,8 @@
       "units": "8",
       "notes": [
         "1. Choose two:",
-        "2. Choose one approved upper division course outside the Department of Mathematics with extensive use of mathematics. Please consult with a math advisor before selecting a course."
+        "MAT 111-MAT 185B; excluding MAT 180, core courses, & courses being used as a capstone.",
+        "2. Choose one approved upper division course outside the Department of Mathematics with extensive use of mathematics. Please consult with a math advisor before selecting a course. (4 units)"
       ]
     },
     {
@@ -203,7 +217,7 @@
       "units": "3-4",
       "notes": [
         "Choose one:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (51-52 units)"
       ]
     }
   ],
@@ -211,5 +225,7 @@
   "advising_notes": [
     "Department Honors: Students who meet the minimum GPA requirement for honors at graduation from the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
   ],
-  "total_units": "91"
+  "total_units": "91",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.529Z"
 }

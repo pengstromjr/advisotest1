@@ -9,8 +9,8 @@
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
       "notes": [
@@ -22,7 +22,8 @@
       "courses": [
         "PSC/CMN/SOC/POL 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100"
       ],
       "units": "4",
@@ -34,32 +35,66 @@
       "heading": "Research Methods",
       "courses": [
         "PSC 041",
-        "PSC 041V"
+        "or PSC 041V"
       ],
       "units": "4",
       "notes": []
     },
     {
-      "heading": "Biology",
+      "heading": "Biology; choose an option: Option 1",
       "courses": [
-        "BIS 002A",
-        "BIS 002A",
         "BIS 010",
         "ANT 001",
-        "MCB 010",
-        "NPB 010"
+        "or ANT 001Y",
+        "or MCB 010",
+        "or NPB 010"
       ],
-      "units": "5-8",
+      "units": "",
       "notes": [
-        "OR a combination of:",
-        "Preparatory Subject Matter Subtotal"
+        "Biology; choose an option: choose an option",
+        "AND"
+      ]
+    },
+    {
+      "heading": "Biology; choose an option: Option 2",
+      "courses": [
+        "BIO 001",
+        "or BIO 002",
+        "or BIO 003"
+      ],
+      "units": "",
+      "notes": [
+        "Biology; choose an option: choose an option",
+        "OR, if prerequisites are met, choose:"
+      ]
+    },
+    {
+      "heading": "Biology; choose an option: Option 3",
+      "courses": [
+        "BIS 002A"
+      ],
+      "units": "16-20",
+      "notes": [
+        "Biology; choose an option: choose an option",
+        "Recommended, not required:",
+        "BIO 001LIntroductory Biology Lab: Ecology & Evolution",
+        "BIO 002LIntroductory Biology Lab: Molecules to Cells",
+        "Preparatory Subject Matter Subtotal (16-20 units)"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "22-24",
+      "notes": [
+        "Choose two courses each from two of the following Core Groups and one course each from the remaining two Core Groups. Total upper division units should equal at least 40 units between core group courses and major elective courses."
       ]
     },
     {
       "heading": "Core Group A: Perception, Cognition, & Cognitive Neuroscience",
       "courses": [
         "PSC 100",
-        "PSC 100Y",
+        "or PSC 100Y",
         "PSC 130",
         "PSC 131",
         "PSC 132",
@@ -68,9 +103,7 @@
         "PSC 136"
       ],
       "units": "",
-      "notes": [
-        "Choose two courses each from two of the following Core Groups and one course each from the remaining two Core Groups. Total upper division units should equal at least 40 units between core group courses and major elective courses."
-      ]
+      "notes": []
     },
     {
       "heading": "Core Group B: Psychobiology",
@@ -93,10 +126,10 @@
       "heading": "Core Group C: Social/Personality",
       "courses": [
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "PSC 152",
         "PSC 154",
-        "PSC 154V",
+        "or PSC 154V",
         "PSC 158",
         "PSC 161",
         "PSC 162",
@@ -110,12 +143,12 @@
       "heading": "Core Group D: Developmental",
       "courses": [
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
-        "HDE 100A",
-        "HDE 100AV",
-        "HDE 100B",
-        "HDE 100BV",
+        "or PSC 140V",
+        "or PSC 140Y",
+        "or HDE 100A",
+        "or HDE 100AV",
+        "or HDE 100B",
+        "or HDE 100BV",
         "PSC 141",
         "PSC 142",
         "PSC 143",
@@ -125,13 +158,12 @@
       ],
       "units": "22-24",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (22-24 units)"
       ]
     },
     {
       "heading": "Approved Psychology Electives",
       "courses": [
-        "PSC 197T",
         "PSC 103A",
         "PSC 103B",
         "PSC 104",
@@ -142,7 +174,7 @@
         "PSC 138",
         "PSC 139",
         "PSC 150",
-        "PSC 150V",
+        "or PSC 150V",
         "PSC 153",
         "PSC 155",
         "PSC 156",
@@ -165,6 +197,7 @@
       ],
       "units": "",
       "notes": [
+        "Any upper division Psychology (PSC) course(s), except PSC 197T, including:",
         "Any course listed in the Core Groups above that you are not using to fulfill a Core Group requirement, plus:"
       ]
     },
@@ -178,15 +211,15 @@
         "CHI 122",
         "CHI 123",
         "CMN 120",
-        "CMN 120V",
+        "or CMN 120V",
         "CMN 122",
         "CNS 100",
         "EDU 110",
         "EXB 102",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 100C",
         "HDE/ENT 117",
         "HDE 163",
@@ -199,16 +232,19 @@
         "SOC 152",
         "SOC 171"
       ],
-      "units": "16-18",
+      "units": "18",
       "notes": [
-        "Approved Major Electives Subtotal"
+        "Depth Subject Matter Subtotal (18 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors & Honors Program: In order to be eligible for high or highest honors in Psychology, the student must both meet the college criteria for honors and complete a research project involving a minimum of 6 units of course work over at least two quarters which represents an original analysis of data on psychological phenomena. Courses PSC 194HA-PSC 194HB or other approved courses can be used to satisfy the unit requirement. This project is to be written in thesis form and approved by the department. The quality of the t",
-    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities."
+    "Honors & Honors Program: In order to be eligible for high or highest honors in Psychology, the student must both meet the college criteria for honors and complete a research project involving a minimum of 6 units of course work over at least two quarters which represents an original analysis of data on psychological phenomena. Courses PSC 194HA-PSC 194HB or other approved courses can be used to satisfy the unit requirement. This project is to be written in thesis form and approved by the department. The quality of the thesis work will be the primary determinant for designating high or highest honors at graduation.",
+    "Recommended for All Majors: Students who plan to do graduate work in any area of psychology are strongly encouraged to gain experience through research and internship activities.",
+    "Major Advising: For information about how to contact a major advisor, see Major Advising."
   ],
-  "total_units": "55"
+  "total_units": "56",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.051Z"
 }

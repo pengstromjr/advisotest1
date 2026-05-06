@@ -8,8 +8,15 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 080"
       ],
       "units": "19-25",
@@ -29,12 +36,13 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (45-51 units)"
       ]
     },
     {
       "heading": "Physics",
       "courses": [
+        "PHY 102",
         "PHY 104A",
         "PHY 105A",
         "PHY 110A",
@@ -42,24 +50,39 @@
         "PHY 112",
         "PHY 115A",
         "PHY 122A",
-        "PHY 122B",
+        "or PHY 122B"
+      ],
+      "units": "1",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
         "PHY 129A",
         "PHY 130A",
         "PHY 140A",
         "PHY 151",
         "PHY 152",
-        "PHY 153",
-        "PHY 102"
+        "PHY 153"
       ],
       "units": "4",
       "notes": [
-        "Choose at least one:",
-        "Choose at least one additional fixed-unit upper division Physics course.",
-        "Depth Subject Matter Subtotal"
+        "Choose at least one:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [],
+      "units": "3-4",
+      "notes": [
+        "Choose at least one additional fixed-unit upper division Physics course. 2",
+        "Depth Subject Matter Subtotal (36-37 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "81"
+  "total_units": "81",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.894Z"
 }

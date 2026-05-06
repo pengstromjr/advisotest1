@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.6,
+    "department": "Science & Technology Studies",
+    "firstName": "Natalia ",
+    "id": "VGVhY2hlci0zMDk5MDQ4",
+    "lastName": " Duong",
+    "legacyId": 3099048,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 53.3333
+  },
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 1.6,
+    "department": "Engineering",
+    "firstName": "Connie",
+    "id": "VGVhY2hlci0yNzk1ODgz",
+    "lastName": "Duong",
+    "legacyId": 2795883,
+    "numRatings": 57,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 12.2807
+  },
+  {
+    "avgDifficulty": 4.4,
+    "avgRating": 4.9,
+    "department": "Asian American Studies",
+    "firstName": "Betty",
+    "id": "VGVhY2hlci0xMjE0NzIz",
+    "lastName": "Duong",
+    "legacyId": 1214723,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Science & Technology Studies",
+    "firstName": "Natalia ",
+    "id": "VGVhY2hlci0zMDk4OTIz",
+    "lastName": "Duong",
+    "legacyId": 3098923,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

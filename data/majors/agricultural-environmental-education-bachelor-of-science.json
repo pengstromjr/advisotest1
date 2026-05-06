@@ -9,12 +9,20 @@
       "heading": "Government/U.S. Constitution",
       "courses": [
         "HIS 017A",
-        "POL 001",
-        "POL 001Y"
+        "or POL 001",
+        "or POL 001Y"
       ],
       "units": "4",
       "notes": [
-        "Subtotal"
+        "Subtotal (4 units)"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Choose a minimum of 8 units in each area of Animal Science, Applied Biological Systems Technology, Agricultural Business & Economics, Environmental Horticulture, Environmental Science & Natural Resources, and Plant & Soil Science:"
       ]
     },
     {
@@ -26,9 +34,7 @@
         "ANS 041"
       ],
       "units": "8",
-      "notes": [
-        "Choose a minimum of 8 units in each area of Animal Science, Applied Biological Systems Technology, Agricultural Business & Economics, Environmental Horticulture, Environmental Science & Natural Resources, and Plant & Soil Science:"
-      ]
+      "notes": []
     },
     {
       "heading": "Applied Biological Systems Technology",
@@ -42,14 +48,14 @@
       "notes": []
     },
     {
-      "heading": "Agricultural Business & Economics; choose ARE 015 and ECN 001A or 001B",
+      "heading": "Agricultural Business & Economics; choose ARE 015 and ECN 001A or 001B",
       "courses": [
         "ARE 015",
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
-        "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001AV",
+        "or ECN 001AY",
+        "or ECN 001B",
+        "or ECN 001BV"
       ],
       "units": "8",
       "notes": []
@@ -57,9 +63,11 @@
     {
       "heading": "Environmental Horticulture",
       "courses": [
+        "ENH 001",
         "ENH 006",
+        "PLS 005",
         "PLS 006",
-        "PLS 006V"
+        "or PLS 006V"
       ],
       "units": "9",
       "notes": []
@@ -77,6 +85,7 @@
     {
       "heading": "Plant & Soil Science",
       "courses": [
+        "PLS 001",
         "PLS 002",
         "PLS 015",
         "PLS 049",
@@ -85,17 +94,21 @@
       ],
       "units": "8",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (51 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A",
+        "BIO 001",
+        "BIO 002",
+        "or BIS 002A",
         "BIS 002B"
       ],
-      "units": "10",
-      "notes": []
+      "units": "8-10",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
@@ -110,6 +123,7 @@
       "heading": "Geology",
       "courses": [
         "GEL 001",
+        "or EPS 001",
         "GEL 020"
       ],
       "units": "6",
@@ -118,13 +132,17 @@
     {
       "heading": "Mathematics, choose a series:",
       "courses": [
-        "MAT 017A",
+        "MAT 016A",
+        "MAT 016B",
+        "or MAT 017A",
         "MAT 017B",
-        "MAT 021A",
+        "or MAT 021A",
         "MAT 021B"
       ],
       "units": "6-8",
-      "notes": []
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Physics",
@@ -142,7 +160,7 @@
       ],
       "units": "3",
       "notes": [
-        "Science/Math Preparatory Subtotal"
+        "Science/Math Preparatory Subtotal (41-45 units)"
       ]
     },
     {
@@ -171,11 +189,11 @@
       ],
       "units": "4",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (20 units)"
       ]
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Focused Depth Subject Matter",
       "courses": [],
       "units": "16",
       "notes": [
@@ -186,9 +204,16 @@
         "Environmental Horticulture",
         "Environmental Science & Natural Resources",
         "Plant & Soil Science",
-        "Subtotal",
+        "Subtotal (16 units)"
+      ]
+    },
+    {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "16",
+      "notes": [
         "Choose at least four additional upper division courses (minimum 16 units; duplicate from Depth specialization courses not counted) selected with approval of an advisor to supplement or expand depth subject matter courses chosen from Animal Biology, Animal Genetics, Animal Science, Agricultural & Resource Economics, Avian Sciences, Environmental Horticulture, Environmental & Resource Sciences, Environmental Science & Policy, Food Science & Technology, International Agricultural Development, Nature and Culture, Neurobiology, Physiology, & Behavior, Nutrition, Plant Sciences, Plant Biology, or Viticulture & Enology.",
-        "Subtotal"
+        "Subtotal (16 units)"
       ]
     },
     {
@@ -205,7 +230,7 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -215,9 +240,11 @@
         "FST 109",
         "NPB 101",
         "NPB 121",
-        "NUT 115"
+        "NUT 115",
+        "NUT 122",
+        "NUT 123"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
         "Choose upper division units from any Animal Genetics, Animal Science, or Avian Sciences courses. Or choose from:"
       ]
@@ -231,12 +258,13 @@
         "ABT/SAF 165",
         "ABT/HYD 182"
       ],
-      "units": "Units",
+      "units": "2",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
+        "ENH 102",
         "ENH 105",
         "ENH 120",
         "ENH 125",
@@ -244,7 +272,7 @@
         "ENH 160",
         "PLS 150"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -266,12 +294,13 @@
         "WFC 120",
         "WFC 154"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
+        "PLB/PLS 102",
         "PLB 105",
         "PLB/PLS 116",
         "PLB/EVE 117",
@@ -282,11 +311,13 @@
         "VEN 101A",
         "VEN 101C"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "150"
+  "total_units": "148",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.174Z"
 }

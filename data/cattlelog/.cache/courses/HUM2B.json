@@ -1,0 +1,98 @@
+{
+  "course_id": "HUM2B",
+  "course_title": "American Humanities Forum",
+  "overall_grades": {
+    "A+": 18,
+    "A": 36,
+    "A-": 45,
+    "B+": 21,
+    "B": 33,
+    "B-": 6,
+    "C+": 6,
+    "C": 3,
+    "C-": 3,
+    "D+": 9,
+    "D": 3,
+    "D-": 3,
+    "F": 6,
+    "P*": 12,
+    "NP*": 9
+  },
+  "overall_gpa": 3.17,
+  "overall_enrolled": 213,
+  "available_quarters": [
+    "Fall_2023",
+    "Spring_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Julia Simon",
+      "professor_slug": "julia-simon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 36,
+            "A-": 45,
+            "B+": 21,
+            "B": 33,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 6,
+            "P*": 12,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 213
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 21,
+            "A-": 33,
+            "B+": 9,
+            "B": 18,
+            "B-": 6,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 129
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 15,
+            "A-": 12,
+            "B+": 12,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 84
+        }
+      }
+    }
+  ]
+}

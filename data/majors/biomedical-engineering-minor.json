@@ -9,8 +9,11 @@
       "heading": "Required Courses",
       "courses": [
         "NPB 101",
-        "BIM 116",
-        "BIM 102"
+        "or BIM 116",
+        "BIM 102",
+        "or BIM 161A",
+        "or BIM 167",
+        "or BIM 202"
       ],
       "units": "5",
       "notes": []
@@ -22,16 +25,18 @@
         "BIM 141",
         "BIM 142",
         "BIM 143",
-        "BIM 143L",
         "BIM 144",
+        "BIM 146",
+        "BIM 151",
         "BIM 152",
         "BIM 154",
         "BIM 161A",
         "BIM 162",
         "BIM 163",
+        "BIM 167",
+        "BIM 170",
         "BIM 171",
         "BIM 172",
-        "BIM 173",
         "BIM 189A",
         "BIM 189B",
         "BIM 189C"
@@ -44,5 +49,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "21"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.844Z"
 }

@@ -10,7 +10,7 @@
       "courses": [
         "PHI 030"
       ],
-      "units": "4",
+      "units": "",
       "notes": []
     },
     {
@@ -48,11 +48,13 @@
         "STS 150",
         "STS 180"
       ],
-      "units": "24",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.104Z"
 }

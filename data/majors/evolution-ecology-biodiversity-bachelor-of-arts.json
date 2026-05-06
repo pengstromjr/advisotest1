@@ -8,35 +8,49 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C"
+        "BIO 001",
+        "BIO 001L",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003",
+        "BIS 070"
       ],
-      "units": "15",
+      "units": "17",
       "notes": []
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002B",
-        "CHE 004ACHE 004B",
-        "CHE 008ACHE 008B"
+        "CHE 002A",
+        "CHE 002B",
+        "or CHE 004A",
+        "or CHE 004B",
+        "CHE 008A",
+        "CHE 008B"
       ],
       "units": "16",
       "notes": [
-        "Choose the 002 series or 004 series and 008 series:"
+        "Choose the 002 series or 004 series and 008 series:",
+        "OR",
+        "AND"
       ]
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017",
-        "MAT 021",
-        "STA 100",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C",
-        "STA 100"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C",
+        "or STA 100"
       ],
       "units": "4-8",
-      "notes": []
+      "notes": [
+        "Choose the MAT 017 series, the MAT 021 series, or STA 100: 1 (4-8 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Physics",
@@ -46,24 +60,40 @@
       ],
       "units": "3",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (43-47 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "EVE 100",
         "GEL 107",
-        "ANT 151",
+        "or EPS 107",
+        "ANT 151"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "EVE 101",
         "ESP 100",
         "WFC 151"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
         "Choose one:"
       ]
     },
@@ -72,22 +102,20 @@
       "courses": [],
       "units": "24-25",
       "notes": [
-        "Choose additional upper division restricted electives in biological science relevant to the student's interest. Chosen in consultation with a BASC advisor to achieve a total of 36 or more units.",
+        "Choose additional upper division restricted electives in biological science relevant to the student's interest. Chosen in consultation with a BASC advisor to achieve a total of 35 or more units.",
         "Include at least one course from each of the areas of study below.",
         "(1) Biodiversity",
         "(2) Advanced Evolution & Ecology",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (35-37 units)"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "EVE 105",
         "ENT 107",
         "EVE 112",
         "EVE 114",
-        "EVE 140",
-        "MIC 105",
+        "MMG 180",
         "NEM 110",
         "PLB/PLS 116",
         "PLB/PLP 148",
@@ -97,8 +125,10 @@
         "WFC 120",
         "WFC 134"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "5",
+      "notes": [],
+      "group": "(1) Biodiversity Area of Study",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -106,36 +136,50 @@
         "EVE 102",
         "EVE 103",
         "EVE 104",
-        "EVE 106",
         "EVE 107",
-        "EVE 110",
+        "EVE 109",
+        "EVE 111",
+        "EVE 113",
+        "EVE 114",
         "EVE 115",
         "EVE/PLB 117",
         "EVE/PLB 119",
         "EVE 120",
+        "EVE 125",
+        "EVE 127",
         "EVE 131",
-        "EVE 138",
-        "EVE 141",
         "EVE 147",
-        "EVE 149",
-        "EVE 150",
         "EVE 161",
-        "EVE 175",
-        "EVE 180A",
-        "ENT 180A",
-        "EVE 180B",
-        "ENT 180B",
+        "EVE 175"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "(2) Advanced Evolution & Ecology Area of Study",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "EVE/ENT 180A",
         "EVE/ENT 180B",
         "EVE 181"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "8",
+      "notes": [
+        "Choose EVE 180A or ENT 180A & EVE 180B or ENT 180B:"
+      ],
+      "group": "(2) Advanced Evolution & Ecology Area of Study",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [
-    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+  "specializations": [
+    "(1) Biodiversity Area of Study",
+    "(2) Advanced Evolution & Ecology Area of Study"
   ],
-  "total_units": "76"
+  "advising_notes": [
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall; 530-752-0410."
+  ],
+  "total_units": "78",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.751Z"
 }

@@ -2,6 +2,7 @@
 
 import { useState, useRef, useMemo } from "react";
 import { useChat } from "@ai-sdk/react";
+import { getAdvisingGoals } from "@/lib/advising-goals";
 import { MessageList } from "./message-list";
 import type { StudentContext } from "@/lib/course-data";
 
@@ -9,18 +10,74 @@ interface ChatProps {
   studentContext: StudentContext;
 }
 
-function getExampleQuestions(major: string): string[] {
+function formatProgramName(program: string): string {
+  return program.replace(/,\s*(Bachelor|Master|Doctor).+$/i, "").trim();
+}
+
+function getExampleQuestions(studentContext: StudentContext): string[] {
+  const { major, targetMajor, advisingGoal } = studentContext;
+  const advisingGoals = studentContext.advisingGoals?.length
+    ? studentContext.advisingGoals
+    : advisingGoal
+      ? [advisingGoal]
+      : [];
+  const shortMajor = major ? formatProgramName(major) : "my current major";
+  const shortTargetMajor = targetMajor
+    ? formatProgramName(targetMajor)
+    : "my goal major";
+  const secondaryMajor = studentContext.secondaryMajor
+    ? formatProgramName(studentContext.secondaryMajor)
+    : "";
+  const minorLabels = (studentContext.minors || []).map(formatProgramName);
+  const extraPrograms = [secondaryMajor, ...minorLabels].filter(Boolean);
+  const goals = getAdvisingGoals(advisingGoals);
+
+  if (advisingGoals.includes("change-major")) {
+    return [
+      `What would it take to switch from ${shortMajor} to ${shortTargetMajor}?`,
+      `Which completed courses would still count for ${shortTargetMajor}?`,
+      "What GPA or prerequisite risks should I watch for?",
+      "Build a next-quarter plan for changing majors",
+    ];
+  }
+
+  if (advisingGoals.includes("boost-gpa")) {
+    return [
+      "Which GE courses have strong grade distributions?",
+      "How should I balance a lighter workload next quarter?",
+      "Which courses should I avoid taking together?",
+      `Find manageable classes that still help ${shortMajor}`,
+    ];
+  }
+
+  if (advisingGoals.includes("optimize-schedule")) {
+    return [
+      "Build me a balanced 4-course schedule",
+      "Which classes fit around my blocked times?",
+      "What courses should I pair carefully?",
+      "Find open sections with strong instructors",
+    ];
+  }
+
+  if (extraPrograms.length > 0) {
+    return [
+      "Which courses overlap across my programs?",
+      `What should I prioritize for ${shortMajor} and ${extraPrograms[0]}?`,
+      "Can you build a plan that keeps both programs realistic?",
+      "Which completed courses count toward more than one program?",
+    ];
+  }
+
   if (!major) {
     return [
-      "What are the prerequisites for ECN 100A?",
+      goals.length
+        ? `How can Adviso help me with ${goals.map((g) => g.label.toLowerCase()).join(" and ")}?`
+        : "What are the prerequisites for ECN 100A?",
       "What GE courses have the highest average GPA?",
       "Which professors have the best ratings?",
       "What GE requirements does PHI 001 satisfy?",
     ];
   }
-
-  // Extract the short major name (e.g. "Computer Science" from "Computer Science, B.S.")
-  const shortMajor = major.replace(/,\s*(B\.\w+|M\.\w+|Ph\.D\.)\.?$/i, "").trim();
 
   return [
     `What courses do I still need for ${shortMajor}?`,
@@ -35,8 +92,8 @@ export function Chat({ studentContext }: ChatProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const { messages, sendMessage, status, error } = useChat();
   const exampleQuestions = useMemo(
-    () => getExampleQuestions(studentContext.major),
-    [studentContext.major]
+    () => getExampleQuestions(studentContext),
+    [studentContext]
   );
 
   const isLoading = status === "submitted" || status === "streaming";
@@ -68,18 +125,16 @@ export function Chat({ studentContext }: ChatProps) {
           {messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center gap-4 py-8">
               <div className="text-center">
-                <div className="mb-2 flex justify-center text-[#DAAA00]">
-                  <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                  </svg>
-                </div>
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  UC Davis AI Academic Advisor
+                  <div className="flex items-center justify-center gap-2">
+                    <span className="text-2xl font-black tracking-tighter text-[#002855] dark:text-white">Adviso</span>
+                  </div>
+                <h2 className="text-base font-medium text-gray-600 dark:text-slate-400">
+                  AI Academic Advisor
                 </h2>
                 <p className="mt-1 max-w-xs text-xs text-gray-500 dark:text-slate-400">
                   Ask me about courses, prerequisites, degree requirements, and
-                  academic planning. I&apos;m here to help you navigate your UC
-                  Davis journey.
+                  academic planning. I&apos;m here to help you navigate your
+                  academic journey.
                 </p>
               </div>
               <div className="grid w-full max-w-sm grid-cols-1 gap-1.5 sm:grid-cols-2">

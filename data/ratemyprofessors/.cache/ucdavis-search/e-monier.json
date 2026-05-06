@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.9,
+    "department": "Science",
+    "firstName": "Erwan",
+    "id": "VGVhY2hlci0yNDY5NDgw",
+    "lastName": "Monier",
+    "legacyId": 2469480,
+    "numRatings": 44,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95.4545
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "course_id": "HIS183A",
+  "course_title": "The Frontier Experience: Trans-Mississippi West",
+  "overall_grades": {
+    "A+": 0,
+    "A": 7,
+    "A-": 6,
+    "B+": 4,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 1
+  },
+  "overall_gpa": 3.62,
+  "overall_enrolled": 21,
+  "available_quarters": [
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Rachel St John",
+      "professor_slug": "rachel-st-john",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 7,
+            "A-": 6,
+            "B+": 4,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 21
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 7,
+            "A-": 6,
+            "B+": 4,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 21
+        }
+      }
+    }
+  ]
+}

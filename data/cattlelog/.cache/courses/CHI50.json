@@ -1,0 +1,446 @@
+{
+  "course_id": "CHI50",
+  "course_title": "Chicana & Chicano Culture",
+  "overall_grades": {
+    "A+": 1996,
+    "A": 1085,
+    "A-": 500,
+    "B+": 206,
+    "B": 176,
+    "B-": 56,
+    "C+": 47,
+    "C": 31,
+    "C-": 25,
+    "D+": 6,
+    "D": 11,
+    "D-": 34,
+    "F": 29,
+    "P*": 78,
+    "NP*": 5
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 4285,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": " ",
+      "professor_slug": "",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 43,
+            "A-": 2,
+            "B+": 4,
+            "B": 4,
+            "B-": 1,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 168
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 43,
+            "A-": 2,
+            "B+": 4,
+            "B": 4,
+            "B-": 1,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 168
+        }
+      }
+    },
+    {
+      "professor_name": "Alan Pelaez Lopez",
+      "professor_slug": "alan-pelaez-lopez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 270,
+            "A": 147,
+            "A-": 54,
+            "B+": 42,
+            "B": 27,
+            "B-": 18,
+            "C+": 12,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 6,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 594
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 270,
+            "A": 147,
+            "A-": 54,
+            "B+": 42,
+            "B": 27,
+            "B-": 18,
+            "C+": 12,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 6,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 594
+        }
+      }
+    },
+    {
+      "professor_name": "Gilda Posada",
+      "professor_slug": "gilda-posada",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 369,
+            "A": 81,
+            "A-": 78,
+            "B+": 12,
+            "B": 42,
+            "B-": 6,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 18,
+            "F": 0,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 645
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 369,
+            "A": 81,
+            "A-": 78,
+            "B+": 12,
+            "B": 42,
+            "B-": 6,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 18,
+            "F": 0,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 645
+        }
+      }
+    },
+    {
+      "professor_name": "Leon Salvatierra",
+      "professor_slug": "leon-salvatierra",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 49,
+            "A-": 22,
+            "B+": 8,
+            "B": 7,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 132
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 49,
+            "A-": 22,
+            "B+": 8,
+            "B": 7,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Lilia Soto",
+      "professor_slug": "lilia-soto",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 40,
+            "A": 80,
+            "A-": 29,
+            "B+": 11,
+            "B": 11,
+            "B-": 2,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 181
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 40,
+            "A": 80,
+            "A-": 29,
+            "B+": 11,
+            "B": 11,
+            "B-": 2,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 181
+        }
+      }
+    },
+    {
+      "professor_name": "Maceo Montoya",
+      "professor_slug": "maceo-montoya",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1056,
+            "A": 414,
+            "A-": 147,
+            "B+": 45,
+            "B": 45,
+            "B-": 18,
+            "C+": 12,
+            "C": 21,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 15,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 1827
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 351,
+            "A": 111,
+            "A-": 51,
+            "B+": 21,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 570
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 372,
+            "A": 174,
+            "A-": 45,
+            "B+": 15,
+            "B": 12,
+            "B-": 9,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 21,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 681
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 333,
+            "A": 129,
+            "A-": 51,
+            "B+": 9,
+            "B": 18,
+            "B-": 9,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 576
+        }
+      }
+    },
+    {
+      "professor_name": "Maurice Magana",
+      "professor_slug": "maurice-magana",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 46,
+            "A-": 15,
+            "B+": 9,
+            "B": 1,
+            "B-": 4,
+            "C+": 4,
+            "C": 1,
+            "C-": 4,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 141
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 46,
+            "A-": 15,
+            "B+": 9,
+            "B": 1,
+            "B-": 4,
+            "C+": 4,
+            "C": 1,
+            "C-": 4,
+            "D+": 0,
+            "D": 1,
+            "D-": 1,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 141
+        }
+      }
+    },
+    {
+      "professor_name": "Robert Echeverria",
+      "professor_slug": "robert-echeverria",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 225,
+            "A-": 153,
+            "B+": 75,
+            "B": 39,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 3,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 597
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 225,
+            "A-": 153,
+            "B+": 75,
+            "B": 39,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 3,
+            "P*": 18
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 597
+        }
+      }
+    }
+  ]
+}

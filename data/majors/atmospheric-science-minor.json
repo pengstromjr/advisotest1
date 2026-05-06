@@ -9,19 +9,30 @@
       "heading": "General Requirements",
       "courses": [
         "ATM 060",
-        "ATM 110",
-        "ESM 131"
+        "ATM 110"
       ],
-      "units": "Units",
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "or ESM 131"
+      ],
+      "units": "12-16",
       "notes": [
         "Choose four upper division courses, with the approval of the minor program advisor:",
-        "Four upper division Atmospheric Science (ATM) courses",
-        "Three upper division Atmospheric Science (ATM) courses",
+        "Four upper division Atmospheric Science (ATM) courses 1",
+        "OR",
+        "Three upper division Atmospheric Science (ATM) courses 1",
+        "AND",
         "Atmospheric Science (ATM) courses"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.680Z"
 }

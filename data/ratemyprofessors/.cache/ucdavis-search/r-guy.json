@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.5,
+    "department": "Humanities",
+    "firstName": "Noah",
+    "id": "VGVhY2hlci00NjU4OA==",
+    "lastName": "Guynn",
+    "legacyId": 46588,
+    "numRatings": 76,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.7,
+    "department": "Human Development",
+    "firstName": "Amanda",
+    "id": "VGVhY2hlci0xNDE3ODA2",
+    "lastName": "Guyer",
+    "legacyId": 1417806,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.2353
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 3.1,
+    "department": "Mathematics",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci0xMDMyNDQ2",
+    "lastName": "Guy",
+    "legacyId": 1032446,
+    "numRatings": 82,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 41.6667
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.6,
+    "department": "Education",
+    "firstName": "Candice",
+    "id": "VGVhY2hlci0yMTcxODEz",
+    "lastName": "Guy",
+    "legacyId": 2171813,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.4,
+    "department": "History",
+    "firstName": "Guy",
+    "id": "VGVhY2hlci0xMjkwMTU0",
+    "lastName": "Ben-Porat",
+    "legacyId": 1290154,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

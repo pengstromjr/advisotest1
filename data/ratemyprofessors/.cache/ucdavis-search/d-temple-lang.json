@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 4.5,
+    "avgRating": 3.8,
+    "department": "Mathematics",
+    "firstName": "Duncan",
+    "id": "VGVhY2hlci0zNzU3NzU=",
+    "lastName": "Temple Lang",
+    "legacyId": 375775,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 53.3333
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 1.8,
+    "department": "Mathematics",
+    "firstName": "Blake",
+    "id": "VGVhY2hlci0xNTAwMDA=",
+    "lastName": "Temple",
+    "legacyId": 150000,
+    "numRatings": 132,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 9.6774
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.3,
+    "department": "Economics",
+    "firstName": "David",
+    "id": "VGVhY2hlci0xNDczOTYz",
+    "lastName": "Lang",
+    "legacyId": 1473963,
+    "numRatings": 323,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60.6838
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "English",
+    "firstName": "Daniel",
+    "id": "VGVhY2hlci0yOTYzMzIz",
+    "lastName": "Langford",
+    "legacyId": 2963323,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 3.4,
+    "department": "Statistics",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yOTAzMTI5",
+    "lastName": "Lang",
+    "legacyId": 2903129,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.5,
+    "department": "Food Science  Technology",
+    "firstName": "Matthew",
+    "id": "VGVhY2hlci0yMTA4MzM0",
+    "lastName": "Lange",
+    "legacyId": 2108334,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 1.7,
+    "department": "Biological Sciences",
+    "firstName": "Charles",
+    "id": "VGVhY2hlci0xNzI5MzQ5",
+    "lastName": "Langley",
+    "legacyId": 1729349,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 13.3333
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4,
+    "department": "Native Studies",
+    "firstName": "Deserea",
+    "id": "VGVhY2hlci0yNDcyMDI2",
+    "lastName": "Langley",
+    "legacyId": 2472026,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Physics",
+    "firstName": "Cameron",
+    "id": "VGVhY2hlci0yMzg0ODgx",
+    "lastName": "Langer",
+    "legacyId": 2384881,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -9,78 +9,113 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
-        "ANT 002",
+        "or ECN 001AV",
+        "or ECN 001AY",
+        "or ANT 002",
         "ECN 001B",
-        "ECN 001BV",
+        "or ECN 001BV",
         "HIS 004C",
-        "HIS 010C",
+        "or HIS 010C",
         "POL 002",
         "POL 003",
-        "POL 051",
-        "POL/CMN/SOC/PSC 012Y",
+        "POL 051"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "POL/CMN/PSC 012Y",
+        "SOC 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013Y",
         "SOC 056",
-        "SOC 056Y"
+        "or SOC 056Y"
       ],
       "units": "4-5",
       "notes": [
         "Choose one:",
         "Note: Preparatory Subject Matter does not cover all potential prerequisite courses for upper division curriculum.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (28-30 units)"
       ]
     },
     {
-      "heading": "Arabic",
-      "courses": [
-        "ARB 001ARB 002ARB 003",
-        "ARB 021ARB 022ARB 023"
-      ],
-      "units": "",
+      "heading": "Foreign Language",
+      "courses": [],
+      "units": "0-30",
       "notes": [
         "One of the following series in a single language, or certified fluency at the highest level required below:"
       ]
     },
     {
-      "heading": "Chinese",
+      "heading": "Arabic",
       "courses": [
-        "CHN 001CHN 002CHN 003CHN 004CHN 005CHN 006",
-        "CHN 001ACHN 004CHN 005CHN 006",
-        "CHN 001CNCHN 002CNCHN 003CN",
-        "CHN 001BLCHN 002BLCHN 003BL"
+        "ARB 001",
+        "ARB 002",
+        "ARB 003",
+        "ARB 021",
+        "ARB 022",
+        "ARB 023"
       ],
       "units": "",
       "notes": []
+    },
+    {
+      "heading": "Chinese",
+      "courses": [
+        "CHN 001",
+        "CHN 002",
+        "CHN 003",
+        "CHN 004",
+        "CHN 005",
+        "CHN 006",
+        "or CHN 001A",
+        "or CHN 004",
+        "or CHN 005",
+        "or CHN 006",
+        "or CHN 001CN",
+        "or CHN 002CN",
+        "or CHN 003CN",
+        "CHN 001BL",
+        "CHN 002BL",
+        "CHN 003BL"
+      ],
+      "units": "",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "French",
       "courses": [
         "FRE 001",
-        "FRE 001Y",
+        "or FRE 001Y",
         "FRE 002",
-        "FRE 002Y",
+        "or FRE 002Y",
         "FRE 003",
-        "FRE 003Y",
+        "or FRE 003Y",
         "FRE 021",
-        "FRE 021Y",
+        "or FRE 021Y",
         "FRE 022",
-        "FRE 022Y"
+        "or FRE 022Y"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "&"
+      ]
     },
     {
       "heading": "German",
       "courses": [
         "GER 001",
-        "GER 001Y",
+        "or GER 001Y",
         "GER 002",
-        "GER 002Y",
+        "or GER 002Y",
         "GER 003",
-        "GER 003Y",
-        "GER 020GER 021"
+        "or GER 003Y",
+        "GER 020",
+        "GER 021"
       ],
       "units": "",
       "notes": []
@@ -88,8 +123,12 @@
     {
       "heading": "Hebrew",
       "courses": [
-        "HEB 001HEB 002HEB 003",
-        "HEB 021HEB 022HEB 023"
+        "HEB 001",
+        "HEB 002",
+        "HEB 003",
+        "HEB 021",
+        "HEB 022",
+        "HEB 023"
       ],
       "units": "",
       "notes": []
@@ -97,40 +136,66 @@
     {
       "heading": "Hindi/Urdu",
       "courses": [
-        "HND 001",
-        "HND 002",
-        "HND 003",
-        "HIN 021HIN 022HIN 023"
+        "HIN 001",
+        "or HND 001",
+        "HIN 002",
+        "or HND 002",
+        "HIN 003",
+        "or HND 003",
+        "HIN 021",
+        "HIN 022",
+        "HIN 023"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "AND"
+      ]
     },
     {
       "heading": "Italian",
       "courses": [
-        "ITA 001ITA 002ITA 003",
-        "ITA 021ITA 022",
-        "ITA 001ITA 002ITA 003",
-        "ITA 008AITA 008B"
+        "ITA 001",
+        "or ITA 001Y",
+        "ITA 002",
+        "or ITA 002Y",
+        "ITA 003",
+        "or ITA 003Y",
+        "ITA 021",
+        "ITA 022",
+        "or ITA 001",
+        "ITA 008A",
+        "ITA 008B"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "AND",
+        "OR"
+      ]
     },
     {
       "heading": "Japanese",
       "courses": [
-        "JPN 001JPN 002JPN 003JPN 004JPN 005JPN 006",
-        "JPN 001A",
-        "JPN 004JPN 005JPN 006"
+        "JPN 001",
+        "JPN 002",
+        "JPN 003",
+        "JPN 004",
+        "JPN 005",
+        "JPN 006",
+        "or JPN 001A"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Portuguese",
       "courses": [
-        "POR 001POR 002POR 003",
-        "POR 021POR 022"
+        "POR 001",
+        "POR 002",
+        "POR 003",
+        "POR 021",
+        "POR 022"
       ],
       "units": "",
       "notes": []
@@ -138,7 +203,11 @@
     {
       "heading": "Russian",
       "courses": [
-        "RUS 001RUS 002RUS 003RUS 004RUS 005"
+        "RUS 001",
+        "RUS 002",
+        "RUS 003",
+        "RUS 004",
+        "RUS 005"
       ],
       "units": "",
       "notes": []
@@ -147,31 +216,36 @@
       "heading": "Spanish",
       "courses": [
         "SPA 001",
-        "SPA 001V",
-        "SPA 001Y",
+        "or SPA 001V",
+        "or SPA 001Y",
         "SPA 002",
-        "SPA 002V",
-        "SPA 002Y",
+        "or SPA 002V",
+        "or SPA 002Y",
         "SPA 003",
-        "SPA 003V",
-        "SPA 003Y",
+        "or SPA 003V",
+        "or SPA 003Y",
         "SPA 021",
-        "SPA 021V",
-        "SPA 021Y",
+        "or SPA 021V",
+        "or SPA 021Y",
         "SPA 022",
-        "SPA 022V",
-        "SPA 022Y",
-        "SPA 031SPA 032SPA 033SPA 033V"
+        "or SPA 022V",
+        "or SPA 022Y",
+        "or SPA 031",
+        "or SPA 032",
+        "or SPA 033",
+        "or SPA 033V"
       ],
       "units": "0-30",
       "notes": [
-        "Foreign Language Subtotal"
+        "AND",
+        "OR",
+        "Foreign Language Subtotal (0-30 units)"
       ]
     },
     {
-      "heading": "Regions",
+      "heading": "Depth Subject Matter",
       "courses": [],
-      "units": "16",
+      "units": "36-48",
       "notes": [
         "Tracks I, II & III: Twelve upper division courses.",
         "Track IV: Nine upper division courses.",
@@ -180,49 +254,85 @@
         "Track II: Peace & Security",
         "Track III: Global Environment, Health, & Natural Resources",
         "Track IV: Peoples & Nationalities",
-        "Depth Subject Matter Subtotal",
-        "Choose four: Courses must incorporate at least two of three groups (History, Social Analysis, Culture and Literature); we encourage students to take all four courses from one region, but will accept a minimum of three from one region and one from a different region. Tracks I, II and III students who choose to take advantage of an Education Abroad experience may fulfill the Area Studies requirement by completing three courses instead of four; all three courses must be from one region.",
+        "Depth Subject Matter Subtotal (36-48 units)"
+      ]
+    },
+    {
+      "heading": "Area Studies Requirement",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose four: Courses must incorporate at least two of three groups (History, Social Analysis, Culture and Literature); we encourage students to take all four courses from one region, but will accept a minimum of three from one region and one from a different region. Tracks I, II and III students who choose to take advantage of an Education Abroad experience may fulfill the Area Studies requirement by completing three courses instead of four; all three courses must be from one region. (16 units)"
+      ]
+    },
+    {
+      "heading": "Regions",
+      "courses": [],
+      "units": "16",
+      "notes": [
         "Africa & the Middle East",
         "East & South Asia",
         "Latin America",
         "Russian & East/Central Europe",
         "Western Europe",
-        "Area Studies Requirement Subtotal"
+        "Area Studies Requirement Subtotal (16 units)"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100AV",
         "ECN 101",
         "ECN 160A",
-        "ECN 160AY",
+        "or ECN 160AY",
         "ECN 160B",
         "POL 123"
       ],
-      "units": "Units",
+      "units": "4",
+      "notes": [],
+      "group": "For Advanced Industrialized Focus",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8",
       "notes": [
-        "Choose two from Group A.",
-        "Choose one from Group B.",
-        "Choose four to fulfill Area Studies Requirement."
-      ]
+        "Choose two from Group A. (8 units)",
+        "Choose one from Group B. (4 units)",
+        "Choose four to fulfill Area Studies Requirement. (16 units)"
+      ],
+      "group": "For Advanced Industrialized Focus",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN/ARE 115A",
-        "ECN 115B/115BY/ARE 115B/115BY",
+        "ECN 115B",
+        "ARE 115B",
         "ECN 162",
+        "or ECN 162Y",
         "POL 123",
         "POL 124"
       ],
-      "units": "Units",
+      "units": "4",
+      "notes": [],
+      "group": "For Developing Countries Focus",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "4",
       "notes": [
-        "Choose one from Group A.",
-        "Choose two from Group B.",
-        "Choose four to fulfill Area Studies Requirement."
-      ]
+        "Choose one from Group A. (4 units)",
+        "Choose two from Group B. (8 units)",
+        "Choose four to fulfill Area Studies Requirement. (16 units)"
+      ],
+      "group": "For Developing Countries Focus",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -233,7 +343,7 @@
         "CRD 141",
         "ECN 102",
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "IRE/SOC 104",
         "POL 130",
         "POL 140A",
@@ -245,7 +355,7 @@
         "SOC 139",
         "SOC 141"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -261,7 +371,7 @@
         "CRD 153C",
         "CRD 180",
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "IAD 103",
         "IRE/SOC 104",
         "POL 124",
@@ -273,13 +383,14 @@
         "SOC 145A",
         "SOC 145B"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 162",
+        "or ECN 162Y",
         "HIS 119",
         "HIS 120",
         "HIS 174B",
@@ -287,7 +398,18 @@
         "POL 120",
         "POL 121",
         "POL 130",
-        "POL 132",
+        "POL 132"
+      ],
+      "units": "20",
+      "notes": [
+        "Choose five courses spanning two disciplines:"
+      ],
+      "group": "Track II: Peace & Security",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "COM 157",
         "ECN 122",
         "HIS 145",
@@ -307,27 +429,58 @@
         "POL 140D",
         "POL 140E",
         "SOC 100",
-        "SOC 100V",
+        "or SOC 100V",
         "SOC 118",
         "SOC 157"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose five courses spanning two disciplines:",
-        "Choose three additional courses from at least two departments:",
-        "Choose four courses to fulfill Area Studies Requirement."
-      ]
+        "Choose three additional courses from at least two departments:"
+      ],
+      "group": "Track II: Peace & Security",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "16",
+      "notes": [
+        "Choose four courses to fulfill Area Studies Requirement. (16 units)"
+      ],
+      "group": "Track II: Peace & Security",
+      "group_kind": "path"
     },
     {
       "heading": "Requirements",
       "courses": [
         "ECN 162",
+        "or ECN 162Y",
         "POL 123",
         "ESP 161",
-        "ESP 162",
+        "or ESP 162"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Requirements",
+      "courses": [
         "ANT/ESP 101",
         "ANT 131",
-        "PHI 120",
+        "PHI 120"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Requirements",
+      "courses": [
         "ARE 147",
         "ARE/ESP 175",
         "ARE 176",
@@ -338,29 +491,43 @@
         "ECN 125",
         "IAD 170",
         "PHI 120",
-        "PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **",
+        "PHY 160/ENG 160",
         "POL 107",
         "POL 175",
         "SOC 160"
       ],
-      "units": "4",
+      "units": "7-8",
       "notes": [
-        "Choose one:",
-        "Choose two:",
+        "Choose two:"
+      ],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Requirements",
+      "courses": [],
+      "units": "4-8",
+      "notes": [
         "Choose two from one of the following groups:"
-      ]
+      ],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
     },
     {
       "heading": "Atmospheric & Marine Environments",
       "courses": [
         "ATM 116",
+        "ATM/ECI 149",
         "ESM 131",
         "ESM 120",
         "ESM 121",
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026"
+        "GEL 116N/ESP 116N",
+        "or EPS 116"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
     },
     {
       "heading": "Land Use & Energy Supply",
@@ -371,6 +538,7 @@
         "ESP 167",
         "GEL 130",
         "GEL 134",
+        "or EPS 134",
         "PLS 101",
         "PLS/ESM 144",
         "PLS 150",
@@ -378,7 +546,9 @@
         "POL 171"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
     },
     {
       "heading": "Health & Human Populations",
@@ -394,10 +564,20 @@
         "NUT 118",
         "SOC 170"
       ],
+      "units": "",
+      "notes": [],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Health & Human Populations",
+      "courses": [],
       "units": "16",
       "notes": [
-        "Choose four courses to fulfill Area Studies Requirement."
-      ]
+        "Choose four courses to fulfill Area Studies Requirement. (16 units)"
+      ],
+      "group": "Track III: Global Environment, Health & Natural Resources",
+      "group_kind": "path"
     },
     {
       "heading": "Requirements",
@@ -409,9 +589,20 @@
       ],
       "units": "8",
       "notes": [
-        "Choose two:",
+        "Choose two:"
+      ],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Requirements",
+      "courses": [],
+      "units": "12",
+      "notes": [
         "Choose one each from three of the following four groups:"
-      ]
+      ],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
     },
     {
       "heading": "The Mixing of Peoples",
@@ -425,7 +616,9 @@
         "POL 126"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
     },
     {
       "heading": "Women",
@@ -436,7 +629,9 @@
         "WMS 182"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
     },
     {
       "heading": "Religion",
@@ -447,10 +642,13 @@
         "RST 106",
         "RST 161",
         "RST 161B",
+        "RST 170",
         "SOC 146"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
     },
     {
       "heading": "Development & Its Impact on Social Cleavages",
@@ -467,9 +665,11 @@
       ],
       "units": "16",
       "notes": [
-        "Four courses to fulfill Area Studies Requirement.",
-        "Education/Internship Abroad for a minimum of one quarter."
-      ]
+        "Four courses to fulfill Area Studies Requirement. (16 units)",
+        "Education/Internship Abroad for a minimum of one quarter. (0 units)"
+      ],
+      "group": "Track IV: Peoples & Nationalities",
+      "group_kind": "path"
     },
     {
       "heading": "History",
@@ -482,6 +682,7 @@
         "HIS 115F",
         "HIS 116",
         "HIS 193B",
+        "or HIS 193BV",
         "HIS 193C",
         "HIS 193D"
       ],
@@ -498,6 +699,7 @@
         "AAS 156",
         "AAS 176",
         "AAS 177",
+        "ANT 140A",
         "ANT 140B",
         "ANT 142",
         "CRD 153C",
@@ -509,7 +711,8 @@
         "POL 146B",
         "RST 163",
         "WMS 184",
-        "MSA 150"
+        "WMS 185",
+        "or MSA 150"
       ],
       "units": "4",
       "notes": []
@@ -601,7 +804,7 @@
         "HIS 163B",
         "HIS 164",
         "HIS 165",
-        "HIS 165V",
+        "or HIS 165V",
         "HIS 166B",
         "HIS 167",
         "HIS 168"
@@ -643,7 +846,7 @@
         "SPA 157",
         "SPA 158",
         "SPA 159",
-        "SPA 159Y",
+        "or SPA 159Y",
         "SPA 160",
         "SPA 170",
         "SPA 172"
@@ -757,7 +960,15 @@
       "notes": []
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "For Advanced Industrialized Focus",
+    "For Developing Countries Focus",
+    "Track II: Peace & Security",
+    "Track III: Global Environment, Health & Natural Resources",
+    "Track IV: Peoples & Nationalities"
+  ],
   "advising_notes": [],
-  "total_units": "80"
+  "total_units": "80",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.308Z"
 }

@@ -1,0 +1,183 @@
+{
+  "course_id": "MAT201A",
+  "course_title": "Analysis",
+  "overall_grades": {
+    "A+": 30,
+    "A": 140,
+    "A-": 15,
+    "B+": 12,
+    "B": 94,
+    "B-": 3,
+    "C+": 0,
+    "C": 34,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 3
+  },
+  "overall_gpa": 3.45,
+  "overall_enrolled": 331,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Adam Jacob",
+      "professor_slug": "adam-jacob",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 54,
+            "A-": 9,
+            "B+": 12,
+            "B": 27,
+            "B-": 0,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 117
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 54,
+            "A-": 9,
+            "B+": 12,
+            "B": 27,
+            "B-": 0,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 117
+        }
+      }
+    },
+    {
+      "professor_name": "John Hunter",
+      "professor_slug": "john-hunter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 6,
+            "B+": 0,
+            "B": 24,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 72
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 6,
+            "B+": 0,
+            "B": 24,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 72
+        }
+      }
+    },
+    {
+      "professor_name": "Sameer Iyer",
+      "professor_slug": "sameer-iyer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 62,
+            "A-": 0,
+            "B+": 0,
+            "B": 43,
+            "B-": 0,
+            "C+": 0,
+            "C": 19,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 142
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 0,
+            "B+": 0,
+            "B": 36,
+            "B-": 0,
+            "C+": 0,
+            "C": 15,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 114
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 14,
+            "A-": 0,
+            "B+": 0,
+            "B": 7,
+            "B-": 0,
+            "C+": 0,
+            "C": 4,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 28
+        }
+      }
+    }
+  ]
+}

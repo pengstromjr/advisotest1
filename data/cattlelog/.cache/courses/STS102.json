@@ -1,0 +1,94 @@
+{
+  "course_id": "STS102",
+  "course_title": "Artificial Intelligence in Society",
+  "overall_grades": {
+    "A+": 60,
+    "A": 51,
+    "A-": 15,
+    "B+": 6,
+    "B": 9,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 6,
+    "P*": 9
+  },
+  "overall_gpa": 3.7,
+  "overall_enrolled": 159,
+  "available_quarters": [
+    "Fall_2024",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Carrie Alexander",
+      "professor_slug": "carrie-alexander",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 51,
+            "A-": 15,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 159
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 36,
+            "A-": 15,
+            "B+": 6,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 108
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 15,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 51
+        }
+      }
+    }
+  ]
+}

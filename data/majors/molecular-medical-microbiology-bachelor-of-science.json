@@ -8,116 +8,192 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002CBIS 002D"
+        "BIO 001",
+        "or BIS 002B",
+        "BIO 002",
+        "or BIS 002A",
+        "BIO 003",
+        "or BIS 002C",
+        "or BIS 002D"
       ],
-      "units": "18",
-      "notes": []
+      "units": "13-15",
+      "notes": [
+        "and one of:"
+      ]
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 004A",
+        "CHE 004B",
+        "CHE 004C"
       ],
       "units": "21-27",
       "notes": [
-        "Choose the 002 series or 004 series:",
-        "Choose the 008 series or 118 series:"
+        "Choose the 002 series or 004 series: 2"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C"
+      ],
+      "units": "",
+      "notes": [
+        "Choose the 008 series or 118 series: 3"
       ]
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "8-12",
       "notes": [
-        "Choose the 017 series or 021 series:"
+        "Choose the 017 series or 021 series: 4",
+        "OR"
       ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
       "units": "12",
       "notes": []
     },
     {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 091",
+        "or MIC 091",
+        "or MIC 191"
+      ],
+      "units": "1",
+      "notes": [
+        "Subtotal (55-67 units)"
+      ]
+    },
+    {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 105",
-        "BIS 103"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
-      "units": "4",
-      "notes": [
-        "Subtotal"
-      ]
+      "units": "",
+      "notes": []
     },
     {
       "heading": "Statistics",
       "courses": [
-        "STA 100"
+        "STA 100",
+        "or STA 102"
       ],
-      "units": "4",
+      "units": "",
       "notes": []
     },
     {
       "heading": "Microbiology",
       "courses": [
+        "MMG 102",
+        "or MIC 102",
         "MIC 104L",
+        "or MMG 107L",
         "MIC 105",
+        "or MMG 180",
         "MIC 105L",
-        "MMG 111"
+        "or MMG 181L",
+        "MMG 111",
+        "or MIC 111"
       ],
-      "units": "3",
+      "units": "15-17",
       "notes": []
     },
     {
       "heading": "Areas of Study",
       "courses": [
+        "MIC 150",
         "MMG 115",
+        "or MIC 115",
         "MMG 170",
+        "or MIC 170",
         "MMG 162",
+        "or MIC 162",
         "PMI 128",
         "MMI 188A",
-        "MMI 188B",
-        "PMI 126",
-        "BIS 181",
-        "BIS 183",
-        "FST 104",
-        "MCB 121",
-        "MCB 182",
-        "MMG 120",
-        "MMG 172",
-        "MMG 175",
-        "PLP 130",
-        "SSC 111"
+        "or MMI 188B",
+        "PMI 126"
       ],
-      "units": "9-10",
+      "units": "3",
       "notes": [
         "Choose at least one course from each of the areas of study below:",
-        "1. Molecular Microbiology",
-        "2. Virology",
-        "3. Immunology",
-        "Choose additional course work from the list below, to achieve a total of 45 or more units. Upper division Microbiology courses not used in satisfaction of any other requirement:",
-        "Or upper division courses in related fields, relevant to the student’s interest and chosen in consultation with the advisor.",
+        "1. Molecular Microbiology (3 units)",
+        "2. Virology (3 units)",
+        "3. Immunology (3-4 units)"
+      ]
+    },
+    {
+      "heading": "Areas of Study",
+      "courses": [
+        "BIS 104",
+        "BIS 181",
+        "BIS 183",
+        "FST 102A",
+        "FST 104",
+        "FST 104L",
+        "FST 114",
+        "GDB 101",
+        "GDB 103",
+        "MCB 121",
+        "MCB 182",
+        "MMI 130",
+        "MMI 177",
+        "NPB 134",
+        "PLP 100",
+        "PLP 120",
+        "PLP 123",
+        "PLP 130",
+        "PLP 148",
+        "PLS 174",
+        "PMI 126L",
+        "PMI 127",
+        "SSC 111",
+        "VEN 114"
+      ],
+      "units": "43-49",
+      "notes": [
+        "Choose at least 8 additional units from the list below:",
+        "Upper division Microbiology courses not used in satisfaction of any other requirement.",
         "No more than 3 units of variable-unit courses (numbered 192, 198, or 199) may be used for credit in this category.",
         "Note: Although a course may be listed in more than one category, that course may satisfy only one requirement in the entire major.",
-        "Depth Subject Matter Subtotal",
-        "Total Units"
+        "Depth Subject Matter Subtotal (43-49 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
     "Honors & Honors Program: Miriam Markum, Ph.D., Kenjiro W. Quides, Ph.D.",
-    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410."
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall; 530-752-0410."
   ],
-  "total_units": "105"
+  "total_units": "98",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.704Z"
 }

@@ -1,0 +1,139 @@
+{
+  "course_id": "MMI188B",
+  "course_title": "Human Immunology",
+  "overall_grades": {
+    "A+": 99,
+    "A": 209,
+    "A-": 224,
+    "B+": 188,
+    "B": 124,
+    "B-": 90,
+    "C+": 82,
+    "C": 67,
+    "C-": 27,
+    "D+": 0,
+    "D": 12,
+    "D-": 0,
+    "F": 18,
+    "P*": 32,
+    "NP*": 3
+  },
+  "overall_gpa": 3.23,
+  "overall_enrolled": 1175,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jose Torres",
+      "professor_slug": "jose-torres",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 99,
+            "A": 209,
+            "A-": 224,
+            "B+": 188,
+            "B": 124,
+            "B-": 90,
+            "C+": 82,
+            "C": 67,
+            "C-": 27,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 18,
+            "P*": 32,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 1175
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 78,
+            "A-": 105,
+            "B+": 72,
+            "B": 39,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 351
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 15,
+            "A-": 51,
+            "B+": 33,
+            "B": 42,
+            "B-": 39,
+            "C+": 51,
+            "C": 48,
+            "C-": 15,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 18,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 357
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 66,
+            "A-": 57,
+            "B+": 51,
+            "B": 39,
+            "B-": 39,
+            "C+": 24,
+            "C": 12,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 336
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 50,
+            "A-": 11,
+            "B+": 32,
+            "B": 4,
+            "B-": 3,
+            "C+": 4,
+            "C": 4,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 131
+        }
+      }
+    }
+  ]
+}

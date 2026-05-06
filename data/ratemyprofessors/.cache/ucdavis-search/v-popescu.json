@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.5,
+    "department": "Latin",
+    "firstName": "Valentina",
+    "id": "VGVhY2hlci0xNjU2ODkx",
+    "lastName": "Popescu",
+    "legacyId": 1656891,
+    "numRatings": 41,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.4815
+  }
+]

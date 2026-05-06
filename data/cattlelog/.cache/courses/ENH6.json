@@ -1,0 +1,142 @@
+{
+  "course_id": "ENH6",
+  "course_title": "Introduction to Environmental Plants",
+  "overall_grades": {
+    "A+": 204,
+    "A": 109,
+    "A-": 98,
+    "B+": 99,
+    "B": 91,
+    "B-": 33,
+    "C+": 41,
+    "C": 46,
+    "C-": 8,
+    "D+": 26,
+    "D": 28,
+    "D-": 11,
+    "F": 23,
+    "P*": 15,
+    "NP*": 17
+  },
+  "overall_gpa": 3.15,
+  "overall_enrolled": 849,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alessandro Ossola",
+      "professor_slug": "alessandro-ossola",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 204,
+            "A": 109,
+            "A-": 98,
+            "B+": 99,
+            "B": 91,
+            "B-": 33,
+            "C+": 41,
+            "C": 46,
+            "C-": 8,
+            "D+": 26,
+            "D": 28,
+            "D-": 11,
+            "F": 23,
+            "P*": 15,
+            "NP*": 17
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 849
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 13,
+            "A-": 14,
+            "B+": 9,
+            "B": 10,
+            "B-": 6,
+            "C+": 2,
+            "C": 7,
+            "C-": 2,
+            "D+": 2,
+            "D": 1,
+            "D-": 5,
+            "F": 2,
+            "P*": 3,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 84
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 105,
+            "A": 30,
+            "A-": 24,
+            "B+": 18,
+            "B": 24,
+            "B-": 3,
+            "C+": 12,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 15,
+            "D-": 0,
+            "F": 9,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 264
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 27,
+            "A-": 39,
+            "B+": 51,
+            "B": 36,
+            "B-": 15,
+            "C+": 18,
+            "C": 12,
+            "C-": 3,
+            "D+": 9,
+            "D": 9,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 246
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 39,
+            "A-": 21,
+            "B+": 21,
+            "B": 21,
+            "B-": 9,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 15,
+            "D": 3,
+            "D-": 6,
+            "F": 6,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 255
+        }
+      }
+    }
+  ]
+}

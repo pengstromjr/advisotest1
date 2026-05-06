@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.9,
+    "department": "Comparative Literature",
+    "firstName": "Archana",
+    "id": "VGVhY2hlci0xMjU1ODcy",
+    "lastName": "Venkatesan",
+    "legacyId": 1255872,
+    "numRatings": 66,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 65.7895
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.2,
+    "department": "Biological Sciences",
+    "firstName": "Venkatesan",
+    "id": "VGVhY2hlci03NDI4ODc=",
+    "lastName": "Sundaresan",
+    "legacyId": 742887,
+    "numRatings": 40,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.3043
+  }
+]

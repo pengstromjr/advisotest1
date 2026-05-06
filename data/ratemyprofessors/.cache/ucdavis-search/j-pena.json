@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 4.5,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "Jasquelin",
+    "id": "VGVhY2hlci0yNzIwOTA2",
+    "lastName": "Pena",
+    "legacyId": 2720906,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 27.2727
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "David",
+    "id": "VGVhY2hlci0yMzUxNDI1",
+    "lastName": "De la Pena",
+    "legacyId": 2351425,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.7,
+    "department": "Humanities",
+    "firstName": "Carolyn",
+    "id": "VGVhY2hlci0zNDc4MTA=",
+    "lastName": "De La Pena",
+    "legacyId": 347810,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "American Studies",
+    "firstName": "Carolyn",
+    "id": "VGVhY2hlci04MzM2NDY=",
+    "lastName": "Thomas De La Pena",
+    "legacyId": 833646,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Music",
+    "firstName": "Cary",
+    "id": "VGVhY2hlci0yNzg3NDk4",
+    "lastName": "Penate",
+    "legacyId": 2787498,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

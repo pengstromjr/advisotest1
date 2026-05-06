@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 4,
+    "department": "Anthropology",
+    "firstName": "Fatima",
+    "id": "VGVhY2hlci0yNTczMDEz",
+    "lastName": "Mojaddedi",
+    "legacyId": 2573013,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.2222
+  }
+]

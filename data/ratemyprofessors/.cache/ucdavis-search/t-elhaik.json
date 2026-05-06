@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.6,
+    "department": "Anthropology",
+    "firstName": "Tarek",
+    "id": "VGVhY2hlci0yMzg0OTY3",
+    "lastName": "Elhaik",
+    "legacyId": 2384967,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 56.25
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2,
+    "department": "Anthropology",
+    "firstName": "Tarik",
+    "id": "VGVhY2hlci0yNzc5Mzg2",
+    "lastName": "Elhaik",
+    "legacyId": 2779386,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  }
+]

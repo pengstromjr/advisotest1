@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 2.4,
+    "department": "History",
+    "firstName": "Kyu",
+    "id": "VGVhY2hlci05NTY1",
+    "lastName": "Kim",
+    "legacyId": 9565,
+    "numRatings": 84,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 18.75
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.7,
+    "department": "Statistics",
+    "firstName": "Amy",
+    "id": "VGVhY2hlci0yNjA1MTY4",
+    "lastName": "Kim",
+    "legacyId": 2605168,
+    "numRatings": 229,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 41.4847
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.4,
+    "department": "Sociology",
+    "firstName": "Kim",
+    "id": "VGVhY2hlci0zMTE5MjI=",
+    "lastName": "Shauman",
+    "legacyId": 311922,
+    "numRatings": 87,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20.6897
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.4,
+    "department": "Computer Science",
+    "firstName": "Isaac",
+    "id": "VGVhY2hlci0yOTk1MjU0",
+    "lastName": "Kim",
+    "legacyId": 2995254,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 28
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.8,
+    "department": "Women's Studies",
+    "firstName": "Ava",
+    "id": "VGVhY2hlci0yOTkwNzk0",
+    "lastName": "Kim",
+    "legacyId": 2990794,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.1,
+    "department": "Asian American Studies",
+    "firstName": "Richard",
+    "id": "VGVhY2hlci0yMTkwMDg=",
+    "lastName": "Kim",
+    "legacyId": 219008,
+    "numRatings": 94,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 63.3333
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Statistics",
+    "firstName": "Soobin",
+    "id": "VGVhY2hlci0zMTUwMDc4",
+    "lastName": "Kim",
+    "legacyId": 3150078,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.1,
+    "department": "Communication",
+    "firstName": "Soojong",
+    "id": "VGVhY2hlci0yOTE1MDA0",
+    "lastName": "Kim",
+    "legacyId": 2915004,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.4,
+    "department": "Biology",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci0xNDQ5MzY=",
+    "lastName": "Kimsey",
+    "legacyId": 144936,
+    "numRatings": 82,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.1429
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2,
+    "department": "Physics",
+    "firstName": "John",
+    "id": "VGVhY2hlci02MjIyODk=",
+    "lastName": "Terning",
+    "legacyId": 622289,
+    "numRatings": 64,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 27.0833
+  }
+]

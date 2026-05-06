@@ -1,0 +1,166 @@
+{
+  "course_id": "SPA1V",
+  "course_title": "Elementary Spanish",
+  "overall_grades": {
+    "A+": 11,
+    "A": 21,
+    "A-": 6,
+    "B+": 2,
+    "B": 4,
+    "B-": 4,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 85,
+    "NP*": 2
+  },
+  "overall_gpa": 3.74,
+  "overall_enrolled": 135,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Claudia Sanchez Gutierrez",
+      "professor_slug": "claudia-sanchez-gutierrez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 2,
+            "A-": 1,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 16
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 23
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 2,
+            "A-": 1,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 16
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 23
+        }
+      }
+    },
+    {
+      "professor_name": "Eva Banuelos",
+      "professor_slug": "eva-banuelos",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 19,
+            "A-": 5,
+            "B+": 2,
+            "B": 3,
+            "B-": 4,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 69,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 112
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 36
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 60
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 6,
+            "A-": 0,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 29
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 1,
+            "A-": 2,
+            "B+": 0,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 23
+        }
+      }
+    }
+  ]
+}

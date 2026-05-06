@@ -14,6 +14,12 @@
         "ASA 004"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "8",
       "notes": [
         "Choose at least two lower division courses from the following departments or programs:",
         "All lower division courses of at least 4 units are acceptable except those numbered 092, 097T, 098, 099.",
@@ -21,7 +27,7 @@
         "American Studies (AMS)",
         "Chicana/o Studies (CHI)",
         "Gender, Sexuality, & Women's Studies (GSW)",
-        "Middle East & South Asia Studies (MSA)",
+        "Middle East & South Asia Studies (MSA) *",
         "Native American Studies (NAS)",
         "Women's Studies (WMS)"
       ]
@@ -44,21 +50,30 @@
         "PHI 005",
         "POL 051",
         "PSC 041",
-        "PSC 041V",
+        "or PSC 041V",
         "STA 013",
-        "STA 013Y",
-        "WMS 104"
+        "or STA 013V",
+        "or STA 013Y",
+        "WMS 104",
+        "or GSW 104"
       ],
       "units": "8",
       "notes": [
         "Choose at least two courses from any of the following methods courses:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (32 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "ASA 192",
+        "ASA 192"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "ASA 100",
         "ASA 102",
         "ASA 112",
@@ -87,21 +102,24 @@
         "ASA 189G",
         "ASA 189H",
         "ASA 189I",
-        "ASA 194ASA 195",
+        "ASA 194",
+        "ASA 195",
         "ASA 198",
         "ASA 199"
       ],
-      "units": "4",
+      "units": "24",
       "notes": [
         "Choose at least six upper division Asian American Studies (ASA) courses:",
-        "At least two upper division elective courses from other departments or programs that relate to chosen emphasis.",
+        "At least two upper division elective courses from other departments or programs that relate to chosen emphasis. (8 units)",
         "Two courses (of up to 8 units) from Study Abroad can be substituted for major requirements upon approval from the SAO or faculty advisor.",
         "Substitutions for disciplinary track courses will be considered by the Department Chair on a case by case basis. Likewise, any substitutions of Major/Minor criteria will be considered by the Department Chair.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36-44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "68"
+  "total_units": "68",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.657Z"
 }

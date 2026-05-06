@@ -8,8 +8,12 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 004A",
+        "CHE 004B",
+        "CHE 004C"
       ],
       "units": "15",
       "notes": [
@@ -19,8 +23,12 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C",
-        "PHY 009APHY 009BPHY 009C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
       ],
       "units": "12-15",
       "notes": [
@@ -30,14 +38,22 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
       ],
       "units": "9-12",
       "notes": [
         "Choose a series:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (36-42 units)"
       ]
     },
     {
@@ -51,8 +67,11 @@
     {
       "heading": "Physical Chemistry",
       "courses": [
-        "CHE 107ACHE 107B",
-        "CHE 110ACHE 110BCHE 110C"
+        "CHE 107A",
+        "CHE 107B",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C"
       ],
       "units": "6-12",
       "notes": [
@@ -70,8 +89,9 @@
     {
       "heading": "Organic Chemistry",
       "courses": [
-        "CHE 118ACHE 118BCHE 118C",
-        "CHE 128ACHE 128BCHE 128CCHE 129ACHE 129B"
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C"
       ],
       "units": "12-13",
       "notes": [
@@ -79,12 +99,32 @@
       ]
     },
     {
-      "heading": "Total Units",
+      "heading": "OR",
+      "courses": [
+        "CHE 128A",
+        "CHE 128B",
+        "CHE 128C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "AND",
+      "courses": [
+        "CHE 129A",
+        "CHE 129B"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Additional Upper Division Units",
       "courses": [],
-      "units": "79-85",
+      "units": "11-18",
       "notes": [
         "Additionally, complete enough additional upper division units in Chemistry (CHE) or related areas to reach at least 43 total units of upper division major coursework. Depending on which physical and organic series are chosen, this will be between 11 and 18 additional upper division units. When credit is earned for one physical and organic series, units from the other series cannot count towards the major. These additional upper division units must include at least one course with formal lectures; courses in related areas must be approved in advance by the major advisor.",
-        "Depth Subject Matter Subtotal"
+        "Chemistry (CHE) courses.",
+        "Depth Subject Matter Subtotal (43 units)"
       ]
     }
   ],
@@ -92,5 +132,7 @@
   "advising_notes": [
     "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research."
   ],
-  "total_units": "79"
+  "total_units": "79",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.990Z"
 }

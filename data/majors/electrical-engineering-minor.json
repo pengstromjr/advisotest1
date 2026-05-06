@@ -10,7 +10,13 @@
       "courses": [
         "EEC 100"
       ],
-      "units": "Units",
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8-10",
       "notes": [
         "Choose at least one of the following combinations:"
       ]
@@ -18,7 +24,8 @@
     {
       "heading": "Analog Circuits",
       "courses": [
-        "EEC 110AEEC 110B"
+        "EEC 110A",
+        "EEC 110B"
       ],
       "units": "",
       "notes": []
@@ -26,7 +33,8 @@
     {
       "heading": "Electromagnetics",
       "courses": [
-        "EEC 130AEEC 130B"
+        "EEC 130A",
+        "EEC 130B"
       ],
       "units": "",
       "notes": []
@@ -35,11 +43,13 @@
       "heading": "Physical Electronics",
       "courses": [
         "EEC 140A",
-        "EEC 140AV",
+        "or EEC 140AV",
         "EEC 140B"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "&"
+      ]
     },
     {
       "heading": "Signals & Systems",
@@ -64,7 +74,7 @@
       "courses": [
         "EEC 150",
         "EEC 157A",
-        "EEC 157AV"
+        "or EEC 157AV"
       ],
       "units": "",
       "notes": []
@@ -72,8 +82,15 @@
     {
       "heading": "Digital Systems",
       "courses": [
-        "EEC 018EEC 180"
+        "EEC 018",
+        "EEC 180"
       ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Digital Systems",
+      "courses": [],
       "units": "8-10",
       "notes": [
         "Choose at least 8 additional units of EEC courses numbered 101 or above 1; If you elect to do a design project, you must be registered for both quarters.",
@@ -83,5 +100,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "21"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.533Z"
 }

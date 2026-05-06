@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.8,
+    "department": "Plant & Soil Science",
+    "firstName": "George",
+    "id": "VGVhY2hlci0yNzgyOTA3",
+    "lastName": "Sellu",
+    "legacyId": 2782907,
+    "numRatings": 68,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.5882
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.3,
+    "department": "Plant & Soil Science",
+    "firstName": "Brian",
+    "id": "VGVhY2hlci0yNjE2ODIw",
+    "lastName": "Bailey",
+    "legacyId": 2616820,
+    "numRatings": 31,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 37.5
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Alana",
+    "id": "VGVhY2hlci0zMTE5MDU5",
+    "lastName": "Bailey",
+    "legacyId": 3119059,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

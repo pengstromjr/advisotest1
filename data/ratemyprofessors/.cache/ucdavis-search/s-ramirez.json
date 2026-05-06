@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.7,
+    "department": "Ecology  Evolutionary Biology",
+    "firstName": "Santiago",
+    "id": "VGVhY2hlci0xOTI1NjUy",
+    "lastName": "Ramirez",
+    "legacyId": 1925652,
+    "numRatings": 31,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 1.5,
+    "avgRating": 5,
+    "department": "Chicano Studies",
+    "firstName": "Mauricio",
+    "id": "VGVhY2hlci0zMDQ3NTgx",
+    "lastName": "Ramirez",
+    "legacyId": 3047581,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Writing",
+    "firstName": "Fairuze",
+    "id": "VGVhY2hlci0yODg3OTU5",
+    "lastName": "Ramirez",
+    "legacyId": 2887959,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Chicano Studies",
+    "firstName": "Luis",
+    "id": "VGVhY2hlci0xMjYyNjk3",
+    "lastName": "Ramirez",
+    "legacyId": 1262697,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "English",
+    "firstName": "Marilyn",
+    "id": "VGVhY2hlci0zMDg0ODIy",
+    "lastName": "Ramirez",
+    "legacyId": 3084822,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

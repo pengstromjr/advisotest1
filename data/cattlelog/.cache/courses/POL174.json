@@ -1,0 +1,143 @@
+{
+  "course_id": "POL174",
+  "course_title": "Government & the Economy",
+  "overall_grades": {
+    "A+": 156,
+    "A": 222,
+    "A-": 72,
+    "B+": 120,
+    "B": 30,
+    "B-": 33,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 12,
+    "P*": 18,
+    "NP*": 6
+  },
+  "overall_gpa": 3.64,
+  "overall_enrolled": 672,
+  "available_quarters": [
+    "Fall_2024",
+    "Spring_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hanno Hilbig",
+      "professor_slug": "hanno-hilbig",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 177,
+            "A-": 48,
+            "B+": 99,
+            "B": 15,
+            "B-": 21,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 474
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 120,
+            "A-": 27,
+            "B+": 69,
+            "B": 3,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 303
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 57,
+            "A-": 21,
+            "B+": 30,
+            "B": 12,
+            "B-": 12,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 171
+        }
+      }
+    },
+    {
+      "professor_name": "Spencer Kiesel",
+      "professor_slug": "spencer-kiesel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 45,
+            "A-": 24,
+            "B+": 21,
+            "B": 15,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 198
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 45,
+            "A-": 24,
+            "B+": 21,
+            "B": 15,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 198
+        }
+      }
+    }
+  ]
+}

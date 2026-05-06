@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.3,
+    "department": "English",
+    "firstName": "Wrye",
+    "id": "VGVhY2hlci04MDk5NDc=",
+    "lastName": "Sententia",
+    "legacyId": 809947,
+    "numRatings": 69,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 42.8571
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 3.7,
+    "department": "Philosophy",
+    "firstName": "Adam",
+    "id": "VGVhY2hlci05NjE5NTA=",
+    "lastName": "Sennet",
+    "legacyId": 961950,
+    "numRatings": 174,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 63.0952
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.8,
+    "department": "History",
+    "firstName": "Sudipta",
+    "id": "VGVhY2hlci01ODI2Njg=",
+    "lastName": "Sen",
+    "legacyId": 582668,
+    "numRatings": 56,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.7273
+  },
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 1.4,
+    "department": "Mathematics",
+    "firstName": "Rituparna",
+    "id": "VGVhY2hlci00NjE0OTY=",
+    "lastName": "Sen",
+    "legacyId": 461496,
+    "numRatings": 84,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.1,
+    "department": "Computer Science",
+    "firstName": "Sen-Ching",
+    "id": "VGVhY2hlci0yODQxNDIw",
+    "lastName": "Cheung",
+    "legacyId": 2841420,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.8,
+    "avgRating": 2.8,
+    "department": "Physics",
+    "firstName": "Tugrul",
+    "id": "VGVhY2hlci0yNjAyNDg5",
+    "lastName": "Senger",
+    "legacyId": 2602489,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 25
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3,
+    "department": "Materials Science",
+    "firstName": "Sabyasachi",
+    "id": "VGVhY2hlci04MTkxMTM=",
+    "lastName": "Sen",
+    "legacyId": 819113,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.8,
+    "department": "Comparative Literature",
+    "firstName": "Senovia",
+    "id": "VGVhY2hlci0xODQ2MTUy",
+    "lastName": "Han",
+    "legacyId": 1846152,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Forensic Science",
+    "firstName": "George",
+    "id": "VGVhY2hlci0yMDk3NzY1",
+    "lastName": "Sensabaugh",
+    "legacyId": 2097765,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

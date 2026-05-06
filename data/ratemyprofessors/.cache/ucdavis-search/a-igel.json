@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.8,
+    "department": "Environmental Science",
+    "firstName": "Adele",
+    "id": "VGVhY2hlci0yNTc2OTgz",
+    "lastName": "Igel",
+    "legacyId": 2576983,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 73.6842
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4,
+    "department": "Atmospheric & Oceanic Sciences",
+    "firstName": "Matthew",
+    "id": "VGVhY2hlci0yNzA3Nzc1",
+    "lastName": "Igel",
+    "legacyId": 2707775,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

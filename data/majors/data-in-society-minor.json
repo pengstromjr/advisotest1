@@ -13,7 +13,7 @@
         "STS 115",
         "STS 195"
       ],
-      "units": "16",
+      "units": "",
       "notes": []
     },
     {
@@ -26,7 +26,7 @@
         "STS 152",
         "STS 192"
       ],
-      "units": "4",
+      "units": "",
       "notes": [
         "Choose one or seek the approval of the program advisor for an unlisted course that focuses on a topic related to Data in Society."
       ]
@@ -34,5 +34,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.376Z"
 }

@@ -1,0 +1,70 @@
+{
+  "course_id": "TAE121",
+  "course_title": "Controlled Environments for Plants & Animals ",
+  "overall_grades": {
+    "A+": 3,
+    "A": 7,
+    "A-": 4,
+    "B+": 0,
+    "B": 2,
+    "B-": 2,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.68,
+  "overall_enrolled": 18,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Md Shamim Ahamed",
+      "professor_slug": "md-shamim-ahamed",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 4,
+            "B+": 0,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 18
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 4,
+            "B+": 0,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 18
+        }
+      }
+    }
+  ]
+}

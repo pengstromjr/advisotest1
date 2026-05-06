@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 3.7,
+    "department": "Microbiology",
+    "firstName": "Frederic",
+    "id": "VGVhY2hlci0xMzMxNjAz",
+    "lastName": "Chedin",
+    "legacyId": 1331603,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 53.3333
+  }
+]

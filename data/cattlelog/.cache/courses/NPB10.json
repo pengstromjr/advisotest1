@@ -1,0 +1,234 @@
+{
+  "course_id": "NPB10",
+  "course_title": "Elementary Human Physiology",
+  "overall_grades": {
+    "A+": 123,
+    "A": 589,
+    "A-": 400,
+    "B+": 335,
+    "B": 504,
+    "B-": 282,
+    "C+": 324,
+    "C": 286,
+    "C-": 112,
+    "D+": 76,
+    "D": 63,
+    "D-": 25,
+    "F": 103,
+    "P*": 109,
+    "NP*": 72
+  },
+  "overall_gpa": 2.92,
+  "overall_enrolled": 3403,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brie Tripp",
+      "professor_slug": "brie-tripp",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 399,
+            "A-": 216,
+            "B+": 162,
+            "B": 258,
+            "B-": 126,
+            "C+": 141,
+            "C": 114,
+            "C-": 42,
+            "D+": 18,
+            "D": 21,
+            "D-": 9,
+            "F": 39,
+            "P*": 45,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 1632
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 147,
+            "A-": 57,
+            "B+": 39,
+            "B": 87,
+            "B-": 21,
+            "C+": 48,
+            "C": 36,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 12,
+            "P*": 21,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 486
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 138,
+            "A-": 78,
+            "B+": 66,
+            "B": 90,
+            "B-": 48,
+            "C+": 48,
+            "C": 42,
+            "C-": 27,
+            "D+": 15,
+            "D": 12,
+            "D-": 3,
+            "F": 21,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 600
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 114,
+            "A-": 81,
+            "B+": 57,
+            "B": 81,
+            "B-": 57,
+            "C+": 45,
+            "C": 36,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 6,
+            "F": 6,
+            "P*": 12,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 546
+        }
+      }
+    },
+    {
+      "professor_name": "Talitha Van Der Meulen",
+      "professor_slug": "talitha-van-der-meulen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 190,
+            "A-": 184,
+            "B+": 173,
+            "B": 246,
+            "B-": 156,
+            "C+": 183,
+            "C": 172,
+            "C-": 70,
+            "D+": 58,
+            "D": 42,
+            "D-": 16,
+            "F": 64,
+            "P*": 64,
+            "NP*": 57
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 1771
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 48,
+            "A-": 36,
+            "B+": 33,
+            "B": 51,
+            "B-": 24,
+            "C+": 42,
+            "C": 48,
+            "C-": 27,
+            "D+": 12,
+            "D": 6,
+            "D-": 3,
+            "F": 15,
+            "P*": 24,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 429
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 45,
+            "A-": 54,
+            "B+": 54,
+            "B": 75,
+            "B-": 51,
+            "C+": 72,
+            "C": 60,
+            "C-": 18,
+            "D+": 24,
+            "D": 12,
+            "D-": 3,
+            "F": 15,
+            "P*": 24,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 543
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 72,
+            "A-": 75,
+            "B+": 69,
+            "B": 90,
+            "B-": 63,
+            "C+": 51,
+            "C": 45,
+            "C-": 15,
+            "D+": 18,
+            "D": 18,
+            "D-": 9,
+            "F": 27,
+            "P*": 9,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 594
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 25,
+            "A-": 19,
+            "B+": 17,
+            "B": 30,
+            "B-": 18,
+            "C+": 18,
+            "C": 19,
+            "C-": 10,
+            "D+": 4,
+            "D": 6,
+            "D-": 1,
+            "F": 7,
+            "P*": 7,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 205
+        }
+      }
+    }
+  ]
+}

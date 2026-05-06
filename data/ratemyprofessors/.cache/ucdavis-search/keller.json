@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 2.9,
+    "department": "Biological Sciences",
+    "firstName": "Mary Fran",
+    "id": "VGVhY2hlci0xNjExMzIz",
+    "lastName": "Keller",
+    "legacyId": 1611323,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

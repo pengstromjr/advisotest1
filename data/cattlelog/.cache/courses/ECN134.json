@@ -1,0 +1,218 @@
+{
+  "course_id": "ECN134",
+  "course_title": "Financial Economics",
+  "overall_grades": {
+    "A+": 60,
+    "A": 205,
+    "A-": 106,
+    "B+": 116,
+    "B": 161,
+    "B-": 95,
+    "C+": 74,
+    "C": 102,
+    "C-": 92,
+    "D+": 29,
+    "D": 60,
+    "D-": 16,
+    "F": 35,
+    "P*": 174,
+    "NP*": 59
+  },
+  "overall_gpa": 2.79,
+  "overall_enrolled": 1384,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Derek Stimel",
+      "professor_slug": "derek-stimel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 162,
+            "A-": 83,
+            "B+": 88,
+            "B": 129,
+            "B-": 70,
+            "C+": 58,
+            "C": 89,
+            "C-": 68,
+            "D+": 21,
+            "D": 49,
+            "D-": 13,
+            "F": 24,
+            "P*": 105,
+            "NP*": 45
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 1017
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 27,
+            "A-": 8,
+            "B+": 16,
+            "B": 24,
+            "B-": 10,
+            "C+": 7,
+            "C": 11,
+            "C-": 11,
+            "D+": 3,
+            "D": 4,
+            "D-": 4,
+            "F": 3,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 147
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 39,
+            "A-": 42,
+            "B+": 36,
+            "B": 51,
+            "B-": 36,
+            "C+": 30,
+            "C": 33,
+            "C-": 54,
+            "D+": 9,
+            "D": 24,
+            "D-": 3,
+            "F": 18,
+            "P*": 45,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.54,
+          "quarter_enrolled": 438
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 96,
+            "A-": 33,
+            "B+": 36,
+            "B": 54,
+            "B-": 24,
+            "C+": 21,
+            "C": 45,
+            "C-": 3,
+            "D+": 9,
+            "D": 21,
+            "D-": 6,
+            "F": 3,
+            "P*": 48,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 432
+        }
+      }
+    },
+    {
+      "professor_name": "Luis Avalos Trujillo",
+      "professor_slug": "luis-avalos-trujillo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 12,
+            "A-": 15,
+            "B+": 18,
+            "B": 9,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 18,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 66,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 219
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 12,
+            "A-": 15,
+            "B+": 18,
+            "B": 9,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 18,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 66,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 219
+        }
+      }
+    },
+    {
+      "professor_name": "Raul Tadle",
+      "professor_slug": "raul-tadle",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 31,
+            "A-": 8,
+            "B+": 10,
+            "B": 23,
+            "B-": 13,
+            "C+": 10,
+            "C": 10,
+            "C-": 6,
+            "D+": 8,
+            "D": 8,
+            "D-": 3,
+            "F": 5,
+            "P*": 3,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 148
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 31,
+            "A-": 8,
+            "B+": 10,
+            "B": 23,
+            "B-": 13,
+            "C+": 10,
+            "C": 10,
+            "C-": 6,
+            "D+": 8,
+            "D": 8,
+            "D-": 3,
+            "F": 5,
+            "P*": 3,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 148
+        }
+      }
+    }
+  ]
+}

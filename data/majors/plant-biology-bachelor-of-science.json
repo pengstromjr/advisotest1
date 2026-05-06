@@ -8,54 +8,83 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C"
+        "BIO 001",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
       ],
-      "units": "15",
+      "units": "14",
       "notes": []
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "or CHE 004A",
+        "or CHE 004B",
+        "or CHE 004C"
       ],
       "units": "15",
       "notes": [
         "Choose the 002 series or 004 series:",
-        "Choose the 008 or 118 series:"
+        "OR"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 118C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose the 008 or 118 series: 1 (6-12 units)",
+        "OR"
       ]
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "8-12",
       "notes": [
-        "Choose the 017 series or 021 series:"
+        "Choose the 017 series or 021 series: 2 (8-12 units)",
+        "OR"
       ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
       "units": "12",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (55-65 units)"
       ]
     },
     {
       "heading": "Biological Sciences",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 105",
-        "BIS 103"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
       "units": "4",
       "notes": []
@@ -93,12 +122,19 @@
       ]
     },
     {
+      "heading": "Restricted Electives",
+      "courses": [],
+      "units": "15",
+      "notes": [
+        "Upper division courses in plant biology or other fields relevant to the student's interest chosen from the course lists below. Course in other departments may be allowed upon prior consultation with a PLB faculty advisor. (15 units)",
+        "Depth Subject Matter Subtotal (43-46 units)"
+      ]
+    },
+    {
       "heading": "Course Lists",
       "courses": [],
-      "units": "99-112",
+      "units": "",
       "notes": [
-        "Upper division courses in plant biology or other fields relevant to the student's interest chosen from the course lists below. Course in other departments may be allowed upon prior consultation with a PLB faculty advisor.",
-        "Depth Subject Matter Subtotal",
         "Ecology",
         "Evolution & Diversity",
         "Plant Genetics",
@@ -113,10 +149,8 @@
         "ESP 151",
         "ESP 151L",
         "ESP 155",
-        "ESP 155L",
         "EVE 101",
         "EVE 131",
-        "EVE 138",
         "HYD 124",
         "PLB/EVE 117",
         "PLB/EVE 119",
@@ -125,23 +159,27 @@
         "PLS 130",
         "PLS/ESM 144"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
+        "BIS 070",
         "BIS 180L",
         "BIS 181",
         "EVE 100",
         "EVE 102",
         "EVE 140",
-        "EVE 149",
         "PLB/PLS 116",
+        "PLB 127",
+        "or PLS 127",
+        "or EVE 127",
+        "PLB 142",
         "PLB 143",
         "PLB/PLP 148"
       ],
-      "units": "Units",
+      "units": "3",
       "notes": []
     },
     {
@@ -156,7 +194,7 @@
         "PLP/ENT/PLB 123",
         "PLS 152"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     },
     {
@@ -176,7 +214,7 @@
         "PLS 157",
         "PLS 158"
       ],
-      "units": "Units",
+      "units": "5",
       "notes": []
     }
   ],
@@ -184,5 +222,7 @@
   "advising_notes": [
     "Honors & Honors Programs: Students on the honors list may elect to include a maximum of 5 units of 194H in their major programs. For Dean's Honors List information, see the Honors &​ Awards for the appropriate College section."
   ],
-  "total_units": "99"
+  "total_units": "98",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.952Z"
 }

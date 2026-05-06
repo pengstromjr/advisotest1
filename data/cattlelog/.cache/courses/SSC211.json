@@ -1,0 +1,70 @@
+{
+  "course_id": "SSC211",
+  "course_title": "Advanced Soil Microbiology",
+  "overall_grades": {
+    "A+": 3,
+    "A": 27,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.87,
+  "overall_enrolled": 36,
+  "available_quarters": [
+    "Fall_2022"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jorge Mazza Rodrigues",
+      "professor_slug": "jorge-mazza-rodrigues",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 36
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 27,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 36
+        }
+      }
+    }
+  ]
+}

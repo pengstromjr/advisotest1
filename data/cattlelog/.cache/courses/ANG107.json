@@ -1,0 +1,243 @@
+{
+  "course_id": "ANG107",
+  "course_title": "Genetics & Animal Breeding",
+  "overall_grades": {
+    "A+": 525,
+    "A": 729,
+    "A-": 404,
+    "B+": 355,
+    "B": 354,
+    "B-": 184,
+    "C+": 101,
+    "C": 78,
+    "C-": 61,
+    "D+": 10,
+    "D": 3,
+    "D-": 0,
+    "F": 2,
+    "NP*": 1
+  },
+  "overall_gpa": 3.47,
+  "overall_enrolled": 2807,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrea Schreier",
+      "professor_slug": "andrea-schreier",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 180,
+            "A": 196,
+            "A-": 88,
+            "B+": 101,
+            "B": 93,
+            "B-": 43,
+            "C+": 21,
+            "C": 7,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 732
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 135,
+            "A": 147,
+            "A-": 69,
+            "B+": 78,
+            "B": 72,
+            "B-": 30,
+            "C+": 21,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 558
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 49,
+            "A-": 19,
+            "B+": 23,
+            "B": 21,
+            "B-": 13,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 174
+        }
+      }
+    },
+    {
+      "professor_name": "Dailu Guan",
+      "professor_slug": "dailu-guan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 111,
+            "A-": 102,
+            "B+": 87,
+            "B": 78,
+            "B-": 39,
+            "C+": 9,
+            "C": 9,
+            "C-": 12,
+            "D+": 9,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 489
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 111,
+            "A-": 102,
+            "B+": 87,
+            "B": 78,
+            "B-": 39,
+            "C+": 9,
+            "C": 9,
+            "C-": 12,
+            "D+": 9,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 489
+        }
+      }
+    },
+    {
+      "professor_name": "Hao Cheng",
+      "professor_slug": "hao-cheng",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 315,
+            "A": 422,
+            "A-": 214,
+            "B+": 167,
+            "B": 183,
+            "B-": 102,
+            "C+": 71,
+            "C": 62,
+            "C-": 49,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 1586
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 99,
+            "A": 141,
+            "A-": 75,
+            "B+": 45,
+            "B": 51,
+            "B-": 21,
+            "C+": 3,
+            "C": 0,
+            "C-": 15,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 450
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 138,
+            "A-": 48,
+            "B+": 57,
+            "B": 48,
+            "B-": 48,
+            "C+": 24,
+            "C": 39,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 483
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 99,
+            "A": 99,
+            "A-": 63,
+            "B+": 45,
+            "B": 60,
+            "B-": 27,
+            "C+": 39,
+            "C": 15,
+            "C-": 27,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 474
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 44,
+            "A-": 28,
+            "B+": 20,
+            "B": 24,
+            "B-": 6,
+            "C+": 5,
+            "C": 8,
+            "C-": 7,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 179
+        }
+      }
+    }
+  ]
+}

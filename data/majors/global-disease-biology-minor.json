@@ -45,6 +45,7 @@
         "ENT 156",
         "GDB 103",
         "MMG 162",
+        "or MIC 162",
         "PLP 120",
         "PMI 127",
         "PMI 128"
@@ -55,5 +56,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.072Z"
 }

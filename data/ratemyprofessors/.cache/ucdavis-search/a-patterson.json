@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.8,
+    "department": "Education",
+    "firstName": "Alexis",
+    "id": "VGVhY2hlci0yMzQ0ODA5",
+    "lastName": "Patterson",
+    "legacyId": 2344809,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "American Studies",
+    "firstName": "Chad",
+    "id": "VGVhY2hlci0yMDc4NjA0",
+    "lastName": "Patterson",
+    "legacyId": 2078604,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chemistry",
+    "firstName": "Leah",
+    "id": "VGVhY2hlci0zMTU1ODE2",
+    "lastName": "Patterson",
+    "legacyId": 3155816,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

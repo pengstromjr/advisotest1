@@ -9,23 +9,25 @@
       "heading": "Written/Oral Expression",
       "courses": [
         "ENL 003",
-        "ENL 003V",
-        "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
+        "or ENL 003V",
+        "or UWP 001",
+        "or UWP 001V",
+        "or UWP 001Y",
         "CMN 001",
-        "CMN 001V"
+        "or CMN 001V"
       ],
       "units": "4",
       "notes": [
-        "Written/Oral Expression Subtotal"
+        "Written/Oral Expression Subtotal (8 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A",
-        "BIS 002B"
+        "BIO 001",
+        "or BIS 002B",
+        "BIO 002",
+        "or BIS 002A"
       ],
       "units": "5",
       "notes": []
@@ -46,10 +48,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
-        "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001AV",
+        "or ECN 001AY",
+        "or ECN 001B",
+        "or ECN 001BV"
       ],
       "units": "4",
       "notes": []
@@ -58,8 +60,8 @@
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y"
+        "or PSC 001V",
+        "or PSC 001Y"
       ],
       "units": "4",
       "notes": []
@@ -69,9 +71,9 @@
       "courses": [
         "ANT 002",
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 003",
-        "SOC 003V"
+        "or SOC 003V"
       ],
       "units": "4-5",
       "notes": []
@@ -80,11 +82,12 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y"
+        "or STA 013V",
+        "or STA 013Y"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (47-48 units)"
       ]
     },
     {
@@ -94,12 +97,16 @@
         "ABI 102",
         "ABI 103",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "FST 100A",
         "FST 100B",
         "FSM 120",
         "FSM 120L",
         "FSM 122",
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L",
         "NUT/FST 106",
         "NUT 111AY",
         "NUT 111B",
@@ -107,7 +114,7 @@
         "NUT 116A",
         "NUT 116AL",
         "NUT 116B",
-        "NUT 116BY",
+        "or NUT 116BY",
         "NUT 116BL",
         "NUT 118",
         "NUT 190",
@@ -116,12 +123,14 @@
       ],
       "units": "4",
       "notes": [
-        "Additional upper division Nutrition electives.",
-        "Depth Subject Matter Subtotal"
+        "Additional upper division Nutrition electives. (4 units)",
+        "Depth Subject Matter Subtotal (83 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "138"
+  "total_units": "138",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.150Z"
 }

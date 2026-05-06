@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 3.5,
+    "department": "Physics",
+    "firstName": "Joseph",
+    "id": "VGVhY2hlci0yMjYyNDg2",
+    "lastName": "Mitchell",
+    "legacyId": 2262486,
+    "numRatings": 158,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.4557
+  },
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 2.4,
+    "department": "Science",
+    "firstName": "Mitchell",
+    "id": "VGVhY2hlci02ODM5MDM=",
+    "lastName": "Sutter",
+    "legacyId": 683903,
+    "numRatings": 60,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 21.6216
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.8,
+    "department": "University Writing Program",
+    "firstName": "Rebecca",
+    "id": "VGVhY2hlci0yMzU2MzMz",
+    "lastName": "Mitchell",
+    "legacyId": 2356333,
+    "numRatings": 44,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 43.1818
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.3,
+    "department": "Biological Sciences",
+    "firstName": "Mitchell",
+    "id": "VGVhY2hlci0xOTMzMzQ1",
+    "lastName": "Singer",
+    "legacyId": 1933345,
+    "numRatings": 69,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 22.0339
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.7,
+    "department": "Food Science & Technology",
+    "firstName": "Alyson",
+    "id": "VGVhY2hlci0yNTk4MTI=",
+    "lastName": "Mitchell",
+    "legacyId": 259812,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 14.2857
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.8,
+    "department": "Plant & Soil Science",
+    "firstName": "Jeff",
+    "id": "VGVhY2hlci0xODYyOTgz",
+    "lastName": "Mitchell",
+    "legacyId": 1862983,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.4,
+    "department": "Psychology",
+    "firstName": "Emilie",
+    "id": "VGVhY2hlci03MjAwNjY=",
+    "lastName": "Mitchell",
+    "legacyId": 720066,
+    "numRatings": 85,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Psychology",
+    "firstName": "Gary",
+    "id": "VGVhY2hlci01NDYwMzI=",
+    "lastName": "Mitchell",
+    "legacyId": 546032,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Mitchell",
+    "id": "VGVhY2hlci0yOTk5NzUx",
+    "lastName": "Snyder",
+    "legacyId": 2999751,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

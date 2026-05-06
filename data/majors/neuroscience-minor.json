@@ -8,7 +8,14 @@
     {
       "heading": "General Requirements",
       "courses": [
-        "NPB 100",
+        "NPB 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "NPB 100L",
         "NPB 107",
         "NPB/PSC 124",
@@ -28,7 +35,7 @@
         "PHI 103",
         "HDE 163"
       ],
-      "units": "Units",
+      "units": "14",
       "notes": [
         "Choose a minimum of 14 units:",
         "One of the following may be completed to reach the unit requirement:"
@@ -37,5 +44,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.818Z"
 }

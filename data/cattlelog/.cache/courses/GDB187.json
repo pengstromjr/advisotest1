@@ -1,0 +1,283 @@
+{
+  "course_id": "GDB187",
+  "course_title": "Global Disease Biology Seminar",
+  "overall_grades": {
+    "A+": 285,
+    "A": 267,
+    "A-": 64,
+    "B+": 28,
+    "B": 22,
+    "B-": 12,
+    "C+": 6,
+    "C": 4,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 6,
+    "NP*": 3
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 700,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gitta Coaker",
+      "professor_slug": "gitta-coaker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 97,
+            "A": 78,
+            "A-": 21,
+            "B+": 5,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 216
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 27,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 66
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 27,
+            "A-": 18,
+            "B+": 3,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 120
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 24,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.92,
+          "quarter_enrolled": 30
+        }
+      }
+    },
+    {
+      "professor_name": "Joanne Emerson",
+      "professor_slug": "joanne-emerson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 27,
+            "A-": 21,
+            "B+": 3,
+            "B": 6,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 144
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 18,
+            "A-": 15,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 75
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 9,
+            "A-": 6,
+            "B+": 0,
+            "B": 3,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 69
+        }
+      }
+    },
+    {
+      "professor_name": "Sara Dye",
+      "professor_slug": "sara-dye",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 110,
+            "A": 162,
+            "A-": 22,
+            "B+": 20,
+            "B": 10,
+            "B-": 3,
+            "C+": 3,
+            "C": 4,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 340
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 45,
+            "A-": 9,
+            "B+": 12,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 87
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 12,
+            "A-": 4,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 40
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 54,
+            "A-": 6,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 123
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 51,
+            "A-": 3,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 90
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "course_id": "SOC118",
+  "course_title": "Political Sociology",
+  "overall_grades": {
+    "A+": 18,
+    "A": 150,
+    "A-": 126,
+    "B+": 126,
+    "B": 201,
+    "B-": 117,
+    "C+": 60,
+    "C": 75,
+    "C-": 39,
+    "D+": 12,
+    "D": 12,
+    "D-": 0,
+    "F": 36,
+    "P*": 84,
+    "NP*": 12
+  },
+  "overall_gpa": 2.94,
+  "overall_enrolled": 1068,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brian Halpin",
+      "professor_slug": "brian-halpin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 111,
+            "A-": 81,
+            "B+": 78,
+            "B": 147,
+            "B-": 93,
+            "C+": 51,
+            "C": 60,
+            "C-": 39,
+            "D+": 6,
+            "D": 9,
+            "D-": 0,
+            "F": 33,
+            "P*": 72,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 807
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 42,
+            "A-": 30,
+            "B+": 33,
+            "B": 42,
+            "B-": 24,
+            "C+": 12,
+            "C": 12,
+            "C-": 21,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 33,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 264
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 30,
+            "A-": 30,
+            "B+": 27,
+            "B": 66,
+            "B-": 36,
+            "C+": 18,
+            "C": 27,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 18,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 276
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 39,
+            "A-": 21,
+            "B+": 18,
+            "B": 39,
+            "B-": 33,
+            "C+": 21,
+            "C": 21,
+            "C-": 9,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 9,
+            "P*": 33,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 267
+        }
+      }
+    },
+    {
+      "professor_name": "Stephanie Mudge",
+      "professor_slug": "stephanie-mudge",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 45,
+            "B+": 48,
+            "B": 54,
+            "B-": 24,
+            "C+": 9,
+            "C": 15,
+            "C-": 0,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 261
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 45,
+            "B+": 48,
+            "B": 54,
+            "B-": 24,
+            "C+": 9,
+            "C": 15,
+            "C-": 0,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 261
+        }
+      }
+    }
+  ]
+}

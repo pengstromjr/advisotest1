@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.6,
+    "department": "Management",
+    "firstName": "Hemant",
+    "id": "VGVhY2hlci02NTgwOTA=",
+    "lastName": "Bhargava",
+    "legacyId": 658090,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

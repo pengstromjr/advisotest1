@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.4,
+    "department": "Communication",
+    "firstName": "Laramie D",
+    "id": "VGVhY2hlci02Nzc2OTc=",
+    "lastName": "Taylor",
+    "legacyId": 677697,
+    "numRatings": 88,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 51.0204
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.3,
+    "department": "Physics",
+    "firstName": "Dina",
+    "id": "VGVhY2hlci0xOTgzMDky",
+    "lastName": "Zhabinskaya",
+    "legacyId": 1983092,
+    "numRatings": 160,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 27.2727
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Neurobiology & Behavior",
+    "firstName": "Felicity",
+    "id": "VGVhY2hlci0zMDYxNjQ1",
+    "lastName": "Muth",
+    "legacyId": 3061645,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

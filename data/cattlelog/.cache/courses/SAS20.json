@@ -1,0 +1,97 @@
+{
+  "course_id": "SAS20",
+  "course_title": "Genetics & Society",
+  "overall_grades": {
+    "A+": 18,
+    "A": 38,
+    "A-": 16,
+    "B+": 12,
+    "B": 23,
+    "B-": 10,
+    "C+": 8,
+    "C": 7,
+    "C-": 6,
+    "D+": 0,
+    "D": 1,
+    "D-": 3,
+    "F": 3,
+    "P*": 4,
+    "NP*": 1
+  },
+  "overall_gpa": 3.2,
+  "overall_enrolled": 150,
+  "available_quarters": [
+    "Fall_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Pamela Ronald",
+      "professor_slug": "pamela-ronald",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 38,
+            "A-": 16,
+            "B+": 12,
+            "B": 23,
+            "B-": 10,
+            "C+": 8,
+            "C": 7,
+            "C-": 6,
+            "D+": 0,
+            "D": 1,
+            "D-": 3,
+            "F": 3,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 150
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 14,
+            "A-": 4,
+            "B+": 6,
+            "B": 2,
+            "B-": 1,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 39
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 24,
+            "A-": 12,
+            "B+": 6,
+            "B": 21,
+            "B-": 9,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 111
+        }
+      }
+    }
+  ]
+}

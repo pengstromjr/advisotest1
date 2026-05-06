@@ -1,0 +1,96 @@
+{
+  "course_id": "PHY152",
+  "course_title": "Galactic Structure & the Interstellar Medium",
+  "overall_grades": {
+    "A+": 0,
+    "A": 24,
+    "A-": 21,
+    "B+": 15,
+    "B": 36,
+    "B-": 15,
+    "C+": 27,
+    "C": 24,
+    "C-": 6,
+    "D+": 3,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "NP*": 3,
+    "P*": 6
+  },
+  "overall_gpa": 2.9,
+  "overall_enrolled": 180,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Tucker Jones",
+      "professor_slug": "tucker-jones",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 21,
+            "B+": 15,
+            "B": 36,
+            "B-": 15,
+            "C+": 27,
+            "C": 24,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 180
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 9,
+            "B+": 6,
+            "B": 15,
+            "B-": 6,
+            "C+": 6,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 72
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 12,
+            "B+": 9,
+            "B": 21,
+            "B-": 9,
+            "C+": 21,
+            "C": 15,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 108
+        }
+      }
+    }
+  ]
+}

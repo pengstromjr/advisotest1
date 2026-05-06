@@ -1,0 +1,120 @@
+{
+  "course_id": "ANT123AN",
+  "course_title": "Resistance, Rebellion, & Popular Movements",
+  "overall_grades": {
+    "A+": 18,
+    "A": 42,
+    "A-": 43,
+    "B+": 40,
+    "B": 36,
+    "B-": 22,
+    "C+": 3,
+    "C": 7,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 6
+  },
+  "overall_gpa": 3.36,
+  "overall_enrolled": 220,
+  "available_quarters": [
+    "Fall_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eveleen Sidana",
+      "professor_slug": "eveleen-sidana",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 36,
+            "B+": 36,
+            "B": 33,
+            "B-": 21,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 156
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 36,
+            "B+": 36,
+            "B": 33,
+            "B-": 21,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 156
+        }
+      }
+    },
+    {
+      "professor_name": "Tarik Elhaik",
+      "professor_slug": "tarik-elhaik",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 24,
+            "A-": 7,
+            "B+": 4,
+            "B": 3,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 64
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 24,
+            "A-": 7,
+            "B+": 4,
+            "B": 3,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 64
+        }
+      }
+    }
+  ]
+}

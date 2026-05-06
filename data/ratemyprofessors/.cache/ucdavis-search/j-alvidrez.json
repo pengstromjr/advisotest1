@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3,
+    "department": "Design",
+    "firstName": "Jordyn",
+    "id": "VGVhY2hlci0zMDk3NTkx",
+    "lastName": "Alvidrez",
+    "legacyId": 3097591,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  }
+]

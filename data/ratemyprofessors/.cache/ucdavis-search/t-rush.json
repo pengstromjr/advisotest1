@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4,
+    "department": "Political Science",
+    "firstName": "Tye",
+    "id": "VGVhY2hlci0zMTI0MDA2",
+    "lastName": "Rush",
+    "legacyId": 3124006,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 4.1,
+    "avgRating": 3.9,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Catherine (Cathy)",
+    "id": "VGVhY2hlci0yNTgzODQ0",
+    "lastName": "Rushworth",
+    "legacyId": 2583844,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 62.5
+  }
+]

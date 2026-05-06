@@ -1,5 +1,6 @@
 "use client";
 
+import { formatProgramName } from "@/lib/academic-plan";
 import type { StudentContext } from "@/lib/course-data";
 
 interface ProfileCardProps {
@@ -11,10 +12,12 @@ interface ProfileCardProps {
 
 function ProgressRing({
   percentage,
+  label,
   size = 64,
   strokeWidth = 5,
 }: {
   percentage: number;
+  label?: string;
   size?: number;
   strokeWidth?: number;
 }) {
@@ -54,7 +57,7 @@ function ProgressRing({
         fontSize={size * 0.26}
         fontWeight="700"
       >
-        {percentage}%
+        {label ?? `${percentage}%`}
       </text>
     </svg>
   );
@@ -68,6 +71,15 @@ export function ProfileCard({
 }: ProfileCardProps) {
   const pct =
     totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
+  const hasCheckableProgress = totalCount > 0;
+  const majorLabel = studentContext.major ? formatProgramName(studentContext.major) : "";
+  const targetMajorLabel = studentContext.targetMajor
+    ? formatProgramName(studentContext.targetMajor)
+    : "";
+  const secondaryMajorLabel = studentContext.secondaryMajor
+    ? formatProgramName(studentContext.secondaryMajor)
+    : "";
+  const minorLabels = (studentContext.minors || []).map(formatProgramName);
 
   if (!studentContext.major) {
     return (
@@ -78,7 +90,7 @@ export function ProfileCard({
           </svg>
         </div>
         <p className="mb-1 text-sm font-medium text-gray-700 dark:text-slate-200">
-          Welcome, Aggie!
+          Welcome!
         </p>
         <p className="mb-4 text-xs text-gray-400 dark:text-slate-400">
           Set up your profile to track degree progress.
@@ -96,23 +108,40 @@ export function ProfileCard({
   return (
     <div className="flex items-center gap-4 p-1">
       {/* Progress ring */}
-      <ProgressRing percentage={pct} />
+      <ProgressRing percentage={pct} label={hasCheckableProgress ? undefined : "Info"} />
 
       {/* Info */}
       <div className="min-w-0 flex-1">
         <p className="truncate text-sm font-semibold text-gray-900 dark:text-white">
-          {studentContext.major}
+          {majorLabel}
         </p>
-        <div className="mt-1 flex items-center gap-2">
+        <div className="mt-1 flex flex-wrap items-center gap-2">
           {studentContext.year && (
             <span className="rounded-full bg-[#002855]/8 dark:bg-[#DAAA00]/15 px-2 py-0.5 text-xs font-medium text-[#002855] dark:text-[#DAAA00]">
               {studentContext.year}
             </span>
           )}
           <span className="text-xs text-gray-400 dark:text-slate-400">
-            {completedCount}/{totalCount} courses
+            {hasCheckableProgress
+              ? `${completedCount}/${totalCount} courses`
+              : "Catalog-note requirements"}
           </span>
         </div>
+        {targetMajorLabel && (
+          <p className="mt-1 truncate text-xs font-medium text-gray-500 dark:text-slate-400">
+            Goal major: {targetMajorLabel}
+          </p>
+        )}
+        {secondaryMajorLabel && (
+          <p className="mt-1 truncate text-xs font-medium text-gray-500 dark:text-slate-400">
+            Second major: {secondaryMajorLabel}
+          </p>
+        )}
+        {minorLabels.length > 0 && (
+          <p className="mt-1 truncate text-xs font-medium text-gray-500 dark:text-slate-400">
+            {minorLabels.length === 1 ? "Minor" : "Minors"}: {minorLabels.join(", ")}
+          </p>
+        )}
         <button
           onClick={onEditClick}
           className="mt-2 text-xs font-medium text-[#002855] dark:text-[#DAAA00] transition-colors hover:text-[#001a3a]"

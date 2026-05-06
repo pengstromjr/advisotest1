@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.8,
+    "department": "Comparative Literature",
+    "firstName": "Navid",
+    "id": "VGVhY2hlci0yMjIwMDkx",
+    "lastName": "Saberi-Najafi",
+    "legacyId": 2220091,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 95
+  }
+]

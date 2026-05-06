@@ -1,0 +1,90 @@
+{
+  "course_id": "EEC132A",
+  "course_title": "RF & Microwaves in Wireless Communication",
+  "overall_grades": {
+    "A+": 7,
+    "A": 10,
+    "A-": 11,
+    "B+": 8,
+    "B": 13,
+    "B-": 3,
+    "C+": 3,
+    "C": 6,
+    "C-": 16,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 2.96,
+  "overall_enrolled": 77,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "George Branner",
+      "professor_slug": "george-branner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 10,
+            "A-": 11,
+            "B+": 8,
+            "B": 13,
+            "B-": 3,
+            "C+": 3,
+            "C": 6,
+            "C-": 16,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 77
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 0,
+            "A-": 9,
+            "B+": 3,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 39
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 10,
+            "A-": 2,
+            "B+": 5,
+            "B": 7,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 7,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 38
+        }
+      }
+    }
+  ]
+}

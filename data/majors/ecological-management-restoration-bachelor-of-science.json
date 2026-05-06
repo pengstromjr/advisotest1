@@ -27,8 +27,11 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 001APHY 001B",
-        "PHY 007APHY 007BPHY 007C"
+        "PHY 001A",
+        "PHY 001B",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C"
       ],
       "units": "6-12",
       "notes": [
@@ -38,8 +41,12 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017B",
-        "MAT 021AMAT 021B"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 021A",
+        "MAT 021B"
       ],
       "units": "6-8",
       "notes": [
@@ -59,11 +66,11 @@
       "courses": [
         "SSC 100",
         "PLS 101",
-        "ESP 001"
+        "or ESP 001"
       ],
       "units": "5",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (49-58 units)"
       ]
     },
     {
@@ -92,39 +99,76 @@
         "SSC 118",
         "SSC 120",
         "PLS 152",
+        "or ENH 150"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "ESP 155",
         "PLB/EVE 117",
+        "PLS 131",
         "PLS/ESM 144",
         "PLS 147",
         "WFC 156",
-        "WFC 157",
+        "WFC 157"
+      ],
+      "units": "5-8",
+      "notes": [
+        "Choose two ecology courses:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "EVE 100",
-        "PLS/PLB 116",
+        "PLB/EVE 108",
+        "PLS/PLB 102",
+        "PLS/PLB 116"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "PLS 130",
+        "PLS 135",
         "PLS 150",
         "ESM 141",
         "ESP 127",
         "ESP 155L",
         "WFC 154",
         "WFC 155",
-        "WFC 155L",
+        "WFC 155L"
+      ],
+      "units": "11-16",
+      "notes": [
+        "Choose four restoration/conservation courses:"
+      ]
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "ESM 100",
         "HYD 143",
         "HYD/EBS 147",
         "HYD 151",
         "PLS 171",
-        "ENH 120",
+        "or ENH 120",
         "PLS 100C",
-        "PLS 163",
+        "or PLS 163",
         "PLB 111",
-        "PLS 100A"
+        "or PLS 100A"
       ],
-      "units": "3-5",
+      "units": "3-4",
       "notes": [
-        "Choose one:",
-        "Choose two ecology courses:",
-        "Choose one:",
-        "Choose four restoration/conservation courses:",
         "Choose one:"
       ]
     },
@@ -145,10 +189,13 @@
     {
       "heading": "Internship",
       "courses": [
+        "PLS 164",
         "PLS 192",
         "ENT 107",
         "HYD 124",
-        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
+        "LED/ABT 150",
+        "LDA 150",
+        "PLS 135",
         "PLS 141",
         "PLS 158",
         "PLS 162",
@@ -159,11 +206,13 @@
       "notes": [
         "Must be selected in consultation with master advisor.",
         "In addition to the required coursework listed above, students might consider taking some of the following courses:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (53-68 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "102"
+  "total_units": "102",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.454Z"
 }

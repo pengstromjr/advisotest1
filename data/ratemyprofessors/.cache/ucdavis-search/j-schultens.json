@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 2.8,
+    "department": "Mathematics",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci00NDUzODQ=",
+    "lastName": "Schultens",
+    "legacyId": 445384,
+    "numRatings": 126,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70.8333
+  }
+]

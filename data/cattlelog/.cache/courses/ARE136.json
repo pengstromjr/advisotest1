@@ -1,0 +1,177 @@
+{
+  "course_id": "ARE136",
+  "course_title": "Managerial Marketing",
+  "overall_grades": {
+    "A+": 0,
+    "A": 231,
+    "A-": 271,
+    "B+": 343,
+    "B": 483,
+    "B-": 196,
+    "C+": 106,
+    "C": 119,
+    "C-": 12,
+    "D+": 6,
+    "D": 6,
+    "D-": 0,
+    "F": 0,
+    "P*": 22
+  },
+  "overall_gpa": 3.13,
+  "overall_enrolled": 1795,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kristin Kiesel",
+      "professor_slug": "kristin-kiesel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 231,
+            "A-": 271,
+            "B+": 343,
+            "B": 483,
+            "B-": 196,
+            "C+": 106,
+            "C": 119,
+            "C-": 12,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 22
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 1795
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 42,
+            "B+": 63,
+            "B": 132,
+            "B-": 42,
+            "C+": 21,
+            "C": 36,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 396
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 16,
+            "B+": 15,
+            "B": 23,
+            "B-": 12,
+            "C+": 3,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 83
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 63,
+            "B+": 60,
+            "B": 108,
+            "B-": 33,
+            "C+": 24,
+            "C": 27,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 375
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 39,
+            "B+": 96,
+            "B": 105,
+            "B-": 60,
+            "C+": 39,
+            "C": 27,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 414
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 66,
+            "A-": 81,
+            "B+": 87,
+            "B": 87,
+            "B-": 36,
+            "C+": 15,
+            "C": 21,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 405
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 30,
+            "B+": 22,
+            "B": 28,
+            "B-": 13,
+            "C+": 4,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 122
+        }
+      }
+    }
+  ]
+}

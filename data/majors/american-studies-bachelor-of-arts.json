@@ -8,60 +8,96 @@
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "AMS 010",
+        "AMS 010"
+      ],
+      "units": "4",
+      "notes": [
+        "One additional lower division American Studies course. (4 units)"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "AAS 010",
         "ASA 001",
         "CHI 010",
-        "CHI 010V",
-        "NAS 001",
-        "ANT 002",
+        "or CHI 010V",
+        "NAS 001"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:",
+        "Or an equivalent course in racial and ethnic diversity."
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "or ANT 002",
         "GSW 050",
-        "GSW 050V",
+        "or GSW 050V",
         "SOC 002",
-        "SOC 002V",
-        "HIS 017A",
+        "or SOC 002V"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:",
+        "Or an equivalent course in social science approaches to culture."
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
+        "or HIS 017A",
         "HIS 017B",
         "HIS 072A",
-        "HIS 072B",
+        "HIS 072B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "CDM 001",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "ENL 010A",
         "ENL 010B",
         "ENL 010C"
       ],
       "units": "4",
       "notes": [
-        "One additional lower division American Studies course.",
-        "Choose one:",
-        "Or an equivalent course in racial and ethnic diversity.",
-        "Choose one:",
-        "Or an equivalent course in social science approaches to culture.",
-        "Choose one:",
         "Choose one:",
         "Or an equivalent course introducing critical approaches to literary and visual texts in the humanities.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24-25 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "AMS 100",
+        "or AMS 100",
         "AMS 160"
       ],
       "units": "4",
       "notes": []
     },
     {
+      "heading": "American Studies Elective",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Three additional upper division American Studies courses. (12 units)"
+      ]
+    },
+    {
       "heading": "Emphasis",
-      "courses": [
-        "AMS 192",
-        "AMS 190A",
-        "AMS 190B"
-      ],
+      "courses": [],
       "units": "20",
       "notes": [
-        "Three additional upper division American Studies courses."
+        "In consultation with the American Studies Undergraduate Advisor, the student designs a program of 20 units (typically five courses) of upper division course work around a unifying theme, period, or subject matter in American cultures. The courses should come from two or more departments or programs and may include up to 8 units of American Studies courses. Only 4 units of AMS 192 (internship) can be included in the emphasis. Students may choose the senior thesis option (AMS 190A & AMS 190B) for 8 units of the emphasis and take the remaining 12 units outside the department."
       ]
     },
     {
@@ -69,8 +105,8 @@
       "courses": [],
       "units": "40",
       "notes": [
-        "College requirement in English composition.",
-        "Depth Subject Matter Subtotal"
+        "College requirement in English composition. 1",
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
@@ -78,5 +114,7 @@
   "advising_notes": [
     "Global Education & Study Abroad: Majors are encouraged to study abroad or engage in domestic opportunities off-campus; such as the UC Washington Program, internships, and many other opportunities. Major requirements can be fulfilled with up to eight units from study abroad or other domestic off-campus opportunities with the permission of the undergraduate advisor."
   ],
-  "total_units": "64"
+  "total_units": "64",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.509Z"
 }

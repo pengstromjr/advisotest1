@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4.8,
+    "department": "Entomology",
+    "firstName": "Emily",
+    "id": "VGVhY2hlci0yODA3OTY0",
+    "lastName": "Meineke",
+    "legacyId": 2807964,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

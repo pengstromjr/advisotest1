@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.1,
+    "department": "Biological Sciences",
+    "firstName": "Jorge",
+    "id": "VGVhY2hlci0yNTg1NzU1",
+    "lastName": "Rodrigues",
+    "legacyId": 2585755,
+    "numRatings": 48,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.5
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.3,
+    "department": "Spanish",
+    "firstName": "Jessica",
+    "id": "VGVhY2hlci0yNDYwODg1",
+    "lastName": "Rodrigues Poletti",
+    "legacyId": 2460885,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

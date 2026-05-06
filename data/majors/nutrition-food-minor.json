@@ -6,18 +6,31 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Note: If the student’s major program requires the same course in biochemistry and physiology, only one of the courses may duplicate credit toward the minor. The program lists replacement courses below which can be used to fulfill the minimum unit requirement."
+      ]
+    },
+    {
+      "heading": "Preparation",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Plan in advance to include the required course prerequisites."
+      ]
+    },
+    {
       "heading": "Nutrition",
       "courses": [
         "NUT 111AY",
         "NUT 111B",
         "NUT 120AN",
-        "NUT 120BN"
+        "or NUT 120BN"
       ],
       "units": "3",
-      "notes": [
-        "Note: If the student’s major program requires the same course in biochemistry and physiology, only one of the courses may duplicate credit toward the minor. The program lists replacement courses below which can be used to fulfill the minimum unit requirement.",
-        "Plan in advance to include the required course prerequisites."
-      ]
+      "notes": []
     },
     {
       "heading": "Food Science & Technology",
@@ -43,10 +56,10 @@
         "NUT 116A",
         "NUT 116AL",
         "NUT 116B",
-        "NUT 116BY",
+        "or NUT 116BY",
         "NUT 116BL"
       ],
-      "units": "22",
+      "units": "",
       "notes": [
         "See note above."
       ]
@@ -54,5 +67,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "22"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.826Z"
 }

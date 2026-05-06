@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 2.6,
+    "department": "Communication",
+    "firstName": "Narine",
+    "id": "VGVhY2hlci0xMjM5Mjk4",
+    "lastName": "Yegiyan",
+    "legacyId": 1239298,
+    "numRatings": 63,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 34.0909
+  }
+]

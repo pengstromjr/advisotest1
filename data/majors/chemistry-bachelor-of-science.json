@@ -8,35 +8,67 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 004ACHE 004BCHE 004C"
+        "CHE 004A",
+        "CHE 004B",
+        "CHE 004C"
       ],
       "units": "15",
-      "notes": []
+      "notes": [],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009C",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
         "PHY 009D"
       ],
       "units": "15",
-      "notes": []
+      "notes": [],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 021AMAT 021BMAT 021CMAT 021D",
-        "MAT 022A022AL",
-        "MAT/BIS 027A",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D"
+      ],
+      "units": "16",
+      "notes": [],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 022A",
+        "MAT/BIS 027A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
         "MAT 022B",
         "MAT/BIS 027B"
       ],
-      "units": "16",
+      "units": "3-4",
       "notes": [
-        "Choose One:",
-        "Choose One:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Choose one:",
+        "Preparatory Subject Matter Subtotal (53-54 units)"
+      ],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
@@ -49,7 +81,7 @@
         "CHE 115",
         "CHE 124A",
         "CHE 124B",
-        "CHE 124C",
+        "or CHE 124C",
         "CHE 124L",
         "CHE 125",
         "CHE 128A",
@@ -61,9 +93,12 @@
       ],
       "units": "50",
       "notes": [
-        "At least 4 additional upper division units in Chemistry (CHE)",
-        "Depth Subject Matter Subtotal"
-      ]
+        "At least 4 additional upper division units in Chemistry (CHE) 1",
+        "Chemistry (CHE) courses.",
+        "Depth Subject Matter Subtotal (54 units)"
+      ],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
     },
     {
       "heading": "Recommended",
@@ -73,13 +108,19 @@
         "CHE 194HC",
         "CHE 199"
       ],
-      "units": "107-108",
-      "notes": []
+      "units": "",
+      "notes": [],
+      "group": "Chemistry—American Chemical Society Accredited Program",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Chemistry—American Chemical Society Accredited Program"
+  ],
   "advising_notes": [
     "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research."
   ],
-  "total_units": "107"
+  "total_units": "107",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.999Z"
 }

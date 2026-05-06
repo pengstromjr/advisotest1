@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Jessica",
+    "id": "VGVhY2hlci0yMDQ0OTI4",
+    "lastName": "Hanselman Gray",
+    "legacyId": 2044928,
+    "numRatings": 45,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 1.5,
+    "department": "English",
+    "firstName": "Erin",
+    "id": "VGVhY2hlci0yNzA2MjA3",
+    "lastName": "Gray",
+    "legacyId": 2706207,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 12.5
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 2.7,
+    "department": "Economics",
+    "firstName": "Rowena",
+    "id": "VGVhY2hlci0xMTA1NjIx",
+    "lastName": "Gray",
+    "legacyId": 1105621,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Neurobiology  Behavior",
+    "firstName": "John",
+    "id": "VGVhY2hlci0yMjU0ODg4",
+    "lastName": "Gray",
+    "legacyId": 2254888,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.2,
+    "department": "English",
+    "firstName": "Brynne",
+    "id": "VGVhY2hlci0yMjI0OTk=",
+    "lastName": "Gray",
+    "legacyId": 222499,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

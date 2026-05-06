@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.6,
+    "avgRating": 5,
+    "department": "Classics",
+    "firstName": "Kathleen",
+    "id": "VGVhY2hlci0yNjg0OTI0",
+    "lastName": "Cruz",
+    "legacyId": 2684924,
+    "numRatings": 41,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Cultural Studies",
+    "firstName": "Maya",
+    "id": "VGVhY2hlci0yNjc2ODA4",
+    "lastName": "Cruz",
+    "legacyId": 2676808,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.7,
+    "department": "Animal Science",
+    "firstName": "Gustavo",
+    "id": "VGVhY2hlci0xNzA2MjUz",
+    "lastName": "Cruz",
+    "legacyId": 1706253,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

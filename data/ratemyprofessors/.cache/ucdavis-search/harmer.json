@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.9,
+    "department": "Biological Sciences",
+    "firstName": "Stacey",
+    "id": "VGVhY2hlci02Mzc3Njk=",
+    "lastName": "Harmer",
+    "legacyId": 637769,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 22.2222
+  }
+]

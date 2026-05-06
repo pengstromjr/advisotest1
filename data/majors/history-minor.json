@@ -8,9 +8,9 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Three courses in one concentration.",
+        "Three courses in one concentration. (12 units)",
         "See major concentrations: Africa, Asia, Europe, Latin America, Middle East, United States, & World.",
         "Additional units to reach 20."
       ]
@@ -18,5 +18,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.136Z"
 }

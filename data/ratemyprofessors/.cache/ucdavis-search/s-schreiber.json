@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.6,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Sebastian",
+    "id": "VGVhY2hlci0xNzAwNTIw",
+    "lastName": "Schreiber",
+    "legacyId": 1700520,
+    "numRatings": 70,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.5161
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.9,
+    "department": "Geology",
+    "firstName": "Holly",
+    "id": "VGVhY2hlci0xNjE5ODQ0",
+    "lastName": "Schreiber",
+    "legacyId": 1619844,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.8,
+    "department": "Chemistry",
+    "firstName": "John",
+    "id": "VGVhY2hlci0xODAyMjQ2",
+    "lastName": "Schreiber",
+    "legacyId": 1802246,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

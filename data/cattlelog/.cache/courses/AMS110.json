@@ -1,0 +1,73 @@
+{
+  "course_id": "AMS110",
+  "course_title": "A Decade in American Civilization",
+  "overall_grades": {
+    "A+": 0,
+    "A": 111,
+    "A-": 42,
+    "B+": 3,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 3,
+    "D-": 0,
+    "F": 9,
+    "P*": 3
+  },
+  "overall_gpa": 3.63,
+  "overall_enrolled": 174,
+  "available_quarters": [
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ryan Cartwright",
+      "professor_slug": "ryan-cartwright",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 111,
+            "A-": 42,
+            "B+": 3,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 174
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 111,
+            "A-": 42,
+            "B+": 3,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 174
+        }
+      }
+    }
+  ]
+}

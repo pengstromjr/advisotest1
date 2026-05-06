@@ -1,0 +1,400 @@
+{
+  "course_id": "POL51",
+  "course_title": "Scientific Study of Politics",
+  "overall_grades": {
+    "A+": 523,
+    "A": 1287,
+    "A-": 603,
+    "B+": 550,
+    "B": 516,
+    "B-": 381,
+    "C+": 217,
+    "C": 231,
+    "C-": 160,
+    "D+": 71,
+    "D": 60,
+    "D-": 34,
+    "F": 150,
+    "P*": 330,
+    "NP*": 82
+  },
+  "overall_gpa": 3.19,
+  "overall_enrolled": 5195,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Bradford Jones",
+      "professor_slug": "bradford-jones",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 250,
+            "A-": 119,
+            "B+": 62,
+            "B": 73,
+            "B-": 45,
+            "C+": 12,
+            "C": 22,
+            "C-": 15,
+            "D+": 6,
+            "D": 1,
+            "D-": 1,
+            "F": 13,
+            "P*": 39,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 662
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 80,
+            "A-": 43,
+            "B+": 28,
+            "B": 12,
+            "B-": 8,
+            "C+": 7,
+            "C": 4,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 7,
+            "P*": 21,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 213
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 96,
+            "A-": 48,
+            "B+": 18,
+            "B": 48,
+            "B-": 24,
+            "C+": 0,
+            "C": 15,
+            "C-": 12,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 285
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 74,
+            "A-": 28,
+            "B+": 16,
+            "B": 13,
+            "B-": 13,
+            "C+": 5,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 164
+        }
+      }
+    },
+    {
+      "professor_name": "Christopher Hare",
+      "professor_slug": "christopher-hare",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 345,
+            "A": 265,
+            "A-": 205,
+            "B+": 140,
+            "B": 166,
+            "B-": 120,
+            "C+": 57,
+            "C": 61,
+            "C-": 50,
+            "D+": 13,
+            "D": 9,
+            "D-": 9,
+            "F": 22,
+            "P*": 114,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 1581
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 159,
+            "A": 108,
+            "A-": 90,
+            "B+": 45,
+            "B": 78,
+            "B-": 48,
+            "C+": 30,
+            "C": 33,
+            "C-": 18,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 72
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 702
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 78,
+            "A-": 78,
+            "B+": 69,
+            "B": 63,
+            "B-": 63,
+            "C+": 21,
+            "C": 27,
+            "C-": 30,
+            "D+": 6,
+            "D": 0,
+            "D-": 9,
+            "F": 12,
+            "P*": 33,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 588
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 79,
+            "A-": 37,
+            "B+": 26,
+            "B": 25,
+            "B-": 9,
+            "C+": 6,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 3,
+            "D-": 0,
+            "F": 1,
+            "P*": 9,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 291
+        }
+      }
+    },
+    {
+      "professor_name": "Juan Tellez",
+      "professor_slug": "juan-tellez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 576,
+            "A-": 183,
+            "B+": 144,
+            "B": 165,
+            "B-": 132,
+            "C+": 84,
+            "C": 84,
+            "C-": 75,
+            "D+": 48,
+            "D": 42,
+            "D-": 12,
+            "F": 51,
+            "P*": 117,
+            "NP*": 63
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 1776
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 282,
+            "A-": 75,
+            "B+": 27,
+            "B": 42,
+            "B-": 27,
+            "C+": 15,
+            "C": 18,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 12,
+            "P*": 12,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 540
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 120,
+            "A-": 60,
+            "B+": 54,
+            "B": 54,
+            "B-": 66,
+            "C+": 24,
+            "C": 39,
+            "C-": 27,
+            "D+": 24,
+            "D": 30,
+            "D-": 6,
+            "F": 27,
+            "P*": 54,
+            "NP*": 42
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 627
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 174,
+            "A-": 48,
+            "B+": 63,
+            "B": 69,
+            "B-": 39,
+            "C+": 45,
+            "C": 27,
+            "C-": 42,
+            "D+": 18,
+            "D": 12,
+            "D-": 3,
+            "F": 12,
+            "P*": 51,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 609
+        }
+      }
+    },
+    {
+      "professor_name": "McCage Griffiths",
+      "professor_slug": "mccage-griffiths",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 132,
+            "A": 147,
+            "A-": 72,
+            "B+": 153,
+            "B": 84,
+            "B-": 63,
+            "C+": 48,
+            "C": 48,
+            "C-": 15,
+            "D+": 3,
+            "D": 6,
+            "D-": 9,
+            "F": 48,
+            "P*": 45,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 882
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 132,
+            "A": 147,
+            "A-": 72,
+            "B+": 153,
+            "B": 84,
+            "B-": 63,
+            "C+": 48,
+            "C": 48,
+            "C-": 15,
+            "D+": 3,
+            "D": 6,
+            "D-": 9,
+            "F": 48,
+            "P*": 45,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 882
+        }
+      }
+    },
+    {
+      "professor_name": "Mccage Griffiths",
+      "professor_slug": "mccage-griffiths",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 44,
+            "A": 49,
+            "A-": 24,
+            "B+": 51,
+            "B": 28,
+            "B-": 21,
+            "C+": 16,
+            "C": 16,
+            "C-": 5,
+            "D+": 1,
+            "D": 2,
+            "D-": 3,
+            "F": 16,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 294
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 44,
+            "A": 49,
+            "A-": 24,
+            "B+": 51,
+            "B": 28,
+            "B-": 21,
+            "C+": 16,
+            "C": 16,
+            "C-": 5,
+            "D+": 1,
+            "D": 2,
+            "D-": 3,
+            "F": 16,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 294
+        }
+      }
+    }
+  ]
+}

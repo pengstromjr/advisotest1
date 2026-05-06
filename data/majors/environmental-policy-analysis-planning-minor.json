@@ -9,10 +9,10 @@
       "heading": "General Requirements",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY"
+        "or ECN 001AV",
+        "or ECN 001AY"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Basic course in political science."
       ]
@@ -23,7 +23,14 @@
         "ESP 001",
         "ESP 160",
         "ESP 161",
-        "ESP 168A",
+        "ESP 168A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ESP/ECI 163",
         "ESP 165",
         "ESP 166",
@@ -34,7 +41,7 @@
         "ESP 172",
         "ESP 179"
       ],
-      "units": "Units",
+      "units": "6-8",
       "notes": [
         "Choose two:"
       ]
@@ -42,5 +49,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "4"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.692Z"
 }

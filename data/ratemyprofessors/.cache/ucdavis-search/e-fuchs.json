@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.2,
+    "department": "Mathematics",
+    "firstName": "Elena",
+    "id": "VGVhY2hlci0yMTcyNTU4",
+    "lastName": "Fuchs",
+    "legacyId": 2172558,
+    "numRatings": 101,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.1584
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 2.9,
+    "department": "Mathematics",
+    "firstName": "Dmitry",
+    "id": "VGVhY2hlci00NDkwNzM=",
+    "lastName": "Fuchs",
+    "legacyId": 449073,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

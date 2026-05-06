@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.8,
+    "department": "Philosophy",
+    "firstName": "Brian",
+    "id": "VGVhY2hlci0xNTU1MjY3",
+    "lastName": "Coffey",
+    "legacyId": 1555267,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

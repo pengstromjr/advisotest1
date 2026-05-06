@@ -1,0 +1,70 @@
+{
+  "course_id": "ECH161AN",
+  "course_title": "Bioseparations",
+  "overall_grades": {
+    "A+": 1,
+    "A": 6,
+    "A-": 5,
+    "B+": 2,
+    "B": 0,
+    "B-": 5,
+    "C+": 2,
+    "C": 2,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 23,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Zhongchao Zhao",
+      "professor_slug": "zhongchao-zhao",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 6,
+            "A-": 5,
+            "B+": 2,
+            "B": 0,
+            "B-": 5,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 23
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 6,
+            "A-": 5,
+            "B+": 2,
+            "B": 0,
+            "B-": 5,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 23
+        }
+      }
+    }
+  ]
+}

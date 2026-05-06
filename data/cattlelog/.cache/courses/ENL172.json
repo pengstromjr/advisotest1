@@ -1,0 +1,76 @@
+{
+  "course_id": "ENL172",
+  "course_title": "Video Games & Culture",
+  "overall_grades": {
+    "A+": 6,
+    "A": 6,
+    "A-": 6,
+    "B+": 3,
+    "B": 4,
+    "B-": 1,
+    "C+": 3,
+    "C": 1,
+    "C-": 1,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 2,
+    "P*": 6,
+    "NP*": 2
+  },
+  "overall_gpa": 3.19,
+  "overall_enrolled": 41,
+  "available_quarters": [
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Patrick Lemieux",
+      "professor_slug": "patrick-lemieux",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 6,
+            "B+": 3,
+            "B": 4,
+            "B-": 1,
+            "C+": 3,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 6,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 41
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 6,
+            "B+": 3,
+            "B": 4,
+            "B-": 1,
+            "C+": 3,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 6,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 41
+        }
+      }
+    }
+  ]
+}

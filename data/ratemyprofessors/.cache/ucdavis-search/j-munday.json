@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.2,
+    "department": "Engineering",
+    "firstName": "Jeremy",
+    "id": "VGVhY2hlci0yNTgzOTMx",
+    "lastName": "Munday",
+    "legacyId": 2583931,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.2105
+  }
+]

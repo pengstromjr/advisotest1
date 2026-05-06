@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.6,
+    "department": "Environmental Science",
+    "firstName": "Terry",
+    "id": "VGVhY2hlci0xNDIxMDk5",
+    "lastName": "Nathan",
+    "legacyId": 1421099,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Religious Studies",
+    "firstName": "Wendy",
+    "id": "VGVhY2hlci0xNjIxMDI=",
+    "lastName": "Terry",
+    "legacyId": 162102,
+    "numRatings": 116,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 65.9574
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.4,
+    "department": "Chemistry",
+    "firstName": "Terry",
+    "id": "VGVhY2hlci0xODI0OTg3",
+    "lastName": "NG",
+    "legacyId": 1824987,
+    "numRatings": 56,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Art",
+    "firstName": "Terry",
+    "id": "VGVhY2hlci0xNTA0NjUy",
+    "lastName": "He",
+    "legacyId": 1504652,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.3,
+    "department": "Geology",
+    "firstName": "Eric",
+    "id": "VGVhY2hlci01OTg1Mzc=",
+    "lastName": "Cowgill",
+    "legacyId": 598537,
+    "numRatings": 37,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.8947
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.5,
+    "department": "Linguistics",
+    "firstName": "Emily",
+    "id": "VGVhY2hlci0yNDM2Njc0",
+    "lastName": "Morgan",
+    "legacyId": 2436674,
+    "numRatings": 70,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.1429
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2,
+    "department": "Anthropology",
+    "firstName": "Morganne",
+    "id": "VGVhY2hlci0yOTc2MzEx",
+    "lastName": "Blais- McPherson",
+    "legacyId": 2976311,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.1,
+    "department": "Theatre & Dance",
+    "firstName": "Maggie",
+    "id": "VGVhY2hlci0xNjE0NzQ0",
+    "lastName": "Morgan",
+    "legacyId": 1614744,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Morgan",
+    "id": "VGVhY2hlci0yNjUxNjE0",
+    "lastName": "Smith",
+    "legacyId": 2651614,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.7,
+    "avgRating": 1.6,
+    "department": "Physics",
+    "firstName": "Morgane",
+    "id": "VGVhY2hlci0yNTQ3MjQ2",
+    "lastName": "Konig",
+    "legacyId": 2547246,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 11.1111
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.3,
+    "department": "Psychology",
+    "firstName": "Rebecca",
+    "id": "VGVhY2hlci0xMjE3MTg0",
+    "lastName": "Morgan",
+    "legacyId": 1217184,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.8,
+    "department": "Design",
+    "firstName": "Bob",
+    "id": "VGVhY2hlci03MTUzNDk=",
+    "lastName": "Morgan",
+    "legacyId": 715349,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Physics",
+    "firstName": "Morgane",
+    "id": "VGVhY2hlci0yNTM0NjY0",
+    "lastName": "Koumlnig",
+    "legacyId": 2534664,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

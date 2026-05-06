@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.4,
+    "department": "Management",
+    "firstName": "Albert",
+    "id": "VGVhY2hlci0yNTUxNjg5",
+    "lastName": "Contreras",
+    "legacyId": 2551689,
+    "numRatings": 32,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 56.25
+  }
+]

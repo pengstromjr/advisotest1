@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.4,
+    "department": "Human Ecology",
+    "firstName": "Clare",
+    "id": "VGVhY2hlci0yMzUzMjM0",
+    "lastName": "Cannon",
+    "legacyId": 2353234,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  },
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.5,
+    "department": "Languages",
+    "firstName": "Joann",
+    "id": "VGVhY2hlci0yMTczODY=",
+    "lastName": "Cannon",
+    "legacyId": 217386,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -13,11 +13,11 @@
         "MAT 021C",
         "MAT 021D",
         "MAT 022A",
-        "MAT 027A",
-        "BIS 027A",
+        "or MAT 027A",
+        "or BIS 027A",
         "MAT 022B",
-        "MAT 027B",
-        "BIS 027B"
+        "or MAT 027B",
+        "or BIS 027B"
       ],
       "units": "4",
       "notes": []
@@ -37,27 +37,44 @@
       "courses": [
         "CHE 002A",
         "CHE 002AH",
-        "CHE 004A",
+        "CHE 004A"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
         "CHE 002B",
         "CHE 002BH",
-        "CHE 004B",
+        "CHE 004B"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
         "CHE 002C",
         "CHE 002CH",
         "CHE 004C"
       ],
       "units": "5",
       "notes": [
-        "Choose one:",
-        "Choose one:",
         "Choose one:"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A"
+        "BIS 002A",
+        "or BIO 002"
       ],
-      "units": "5",
+      "units": "4-5",
       "notes": []
     },
     {
@@ -66,10 +83,10 @@
         "ECH 005",
         "ECH 051",
         "ECH 060",
-        "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032A",
+        "or ECS 032AV",
         "ECH 080",
-        "ECH 080V"
+        "or ECH 080V"
       ],
       "units": "3",
       "notes": []
@@ -78,18 +95,18 @@
       "heading": "Engineering",
       "courses": [
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y",
+        "or ENG 045Y",
         "COM 001",
         "COM 002",
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
         "UWP 001V",
         "UWP 001Y"
@@ -98,7 +115,7 @@
       "notes": [
         "Choose one:",
         "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (76-79 units)"
       ]
     },
     {
@@ -128,7 +145,18 @@
       "heading": "Biological Science",
       "courses": [
         "BIS 102",
-        "BIS 102V"
+        "or BIS 102V"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L"
       ],
       "units": "3",
       "notes": []
@@ -145,17 +173,14 @@
     },
     {
       "heading": "Biochemical Engineering Technical Electives",
-      "courses": [
-        "ECH 192",
-        "ECH 198",
-        "ECH 199"
-      ],
+      "courses": [],
       "units": "8",
       "notes": [
         "Choose eight units from the following:",
         "1. Complete at least 3 units in any upper division engineering course(s) not numbered 190C.",
         "2. Remainder of units, for a total of 8 units, may be completed in any upper division engineering and/or science course(s)1 excluding courses numbered 190C.",
         "3. Units completed in satisfaction of this technical elective requirement are subject to the following",
+        "a. A maximum of 4 units may be completed in satisfaction of this requirement in courses numbered ECH 192, ECH 198, and ECH 199. Courses numbered 192, 198, and 199 from outside the department require a petition (see items b and c).",
         "b. Credit for group study courses (198s) completed outside of the department must be approved by the department's Undergraduate Affairs Committee.",
         "c. Credit for independent studies (199s) or internships (192s) completed outside of the department must be approved by the department’s Undergraduate Affairs Committee. Additionally, students applying for these credits must submit an essay of at least 4 pages and no more than 10 pages detailing the engineering and/or science aspects of their work, results or outcomes (figures and graphs may be included), and how the experience relates to their educational program and objectives. The report must be submitted in PDF format and use 1.5 line spacing, 1” margins, and 12pt Times New Roman font. No confidential or proprietary information should be contained in the report. Applications must also include a written evaluation of the students’ performance by the student’s supervisor or faculty advisor.",
         "4. Courses used to satisfy other major requirements cannot be used to satisfy the technical elective requirements."
@@ -167,8 +192,8 @@
         "UWP 102E",
         "UWP 102F",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
@@ -177,13 +202,15 @@
         "A grade of C- or better is required:",
         "Choose one:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (84-88 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors Program: An Honors Program is available to qualified students in the Chemical Engineering & Biochemical Engineering majors It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion o"
+    "Honors Program: An Honors Program is available to qualified students in the Chemical Engineering & Biochemical Engineering majors It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will be acknowledged on the student's transcript."
   ],
-  "total_units": "161"
+  "total_units": "160",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.733Z"
 }

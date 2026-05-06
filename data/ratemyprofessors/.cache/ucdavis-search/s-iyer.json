@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.6,
+    "department": "Mathematics",
+    "firstName": "Sameer",
+    "id": "VGVhY2hlci0yNzUzNTcw",
+    "lastName": "Iyer",
+    "legacyId": 2753570,
+    "numRatings": 43,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60.4651
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Mathematics",
+    "firstName": "Samneer",
+    "id": "VGVhY2hlci0yNzI0Mzk3",
+    "lastName": "Iyer",
+    "legacyId": 2724397,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4,
+    "department": "Anthropology",
+    "firstName": "Neetha",
+    "id": "VGVhY2hlci0yMzQ4NzA5",
+    "lastName": "Iyer",
+    "legacyId": 2348709,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chemistry",
+    "firstName": "Rishab",
+    "id": "VGVhY2hlci0yODgwMjkw",
+    "lastName": "Iyer",
+    "legacyId": 2880290,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

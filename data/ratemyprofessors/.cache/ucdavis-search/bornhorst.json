@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.4,
+    "avgRating": 1.4,
+    "department": "Engineering",
+    "firstName": "Gail",
+    "id": "VGVhY2hlci0yNjQ4NTAy",
+    "lastName": "Bornhorst",
+    "legacyId": 2648502,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 8
+  }
+]

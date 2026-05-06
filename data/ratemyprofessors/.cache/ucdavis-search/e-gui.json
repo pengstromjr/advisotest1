@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Art",
+    "firstName": "Emily",
+    "id": "VGVhY2hlci0zMDQzNjYw",
+    "lastName": "Gui",
+    "legacyId": 3043660,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.3,
+    "avgRating": 5,
+    "department": "Theatre & Dance",
+    "firstName": "Regina",
+    "id": "VGVhY2hlci0yMzU3MTMy",
+    "lastName": "Guiterrez",
+    "legacyId": 2357132,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 4,
+    "department": "Education",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0yNTMwMTYw",
+    "lastName": "Guia",
+    "legacyId": 2530160,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.8,
+    "department": "French & Italian",
+    "firstName": "Guillaume",
+    "id": "VGVhY2hlci0xNDQ3MDM2",
+    "lastName": "Peureux",
+    "legacyId": 1447036,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  }
+]

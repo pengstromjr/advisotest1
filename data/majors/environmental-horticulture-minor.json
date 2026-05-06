@@ -10,13 +10,20 @@
       "courses": [
         "ENH 006",
         "ENH 105",
-        "PLS 171",
+        "PLS 171"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ENH 100",
         "ENH 120",
         "ENH 125",
         "ENH 133"
       ],
-      "units": "Units",
+      "units": "11-13",
       "notes": [
         "Choose three:"
       ]
@@ -24,5 +31,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.648Z"
 }

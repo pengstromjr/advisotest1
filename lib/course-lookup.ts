@@ -108,8 +108,9 @@ function resolveCourseCode(
   const withSpace = `${dept} ${num}`;
   const course = index.get(withSpace);
   if (course) return course;
+  const numMatch = num.match(/^(\d+)([A-Z]?)$/);
   const padded =
-    num.length <= 2 && /^\d+[A-Z]?$/.test(num)
+    numMatch && numMatch[1].length <= 2
       ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
           d.padStart(3, "0") + (l || "")
         )
@@ -124,8 +125,9 @@ function resolveCourseCode(
 /** Build canonical code for inferred (e.g. ACC 001A when user typed "Accounting 1A"). */
 function inferredCode(deptToken: string, num: string): string {
   const dept = normalizeDeptToken(deptToken);
+  const numMatch = num.match(/^(\d+)([A-Z]?)$/);
   const padded =
-    num.length <= 2 && /^\d+[A-Z]?$/.test(num)
+    numMatch && numMatch[1].length <= 2
       ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
           d.padStart(3, "0") + (l || "")
         )

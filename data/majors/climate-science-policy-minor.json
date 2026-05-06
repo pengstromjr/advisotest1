@@ -11,31 +11,52 @@
         "ATM 116",
         "ESP 165",
         "LED 003",
-        "DES 127A",
+        "or DES 127A",
+        "or LDA 003"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ATM 005",
         "SAS 025",
-        "SAS 025V",
+        "or SAS 025V"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "AMS 150",
         "ATM 128",
         "ATM 133",
         "CRD 158",
         "ECI 123",
+        "ECI 149",
+        "or ATM 149",
         "ENL 184",
         "ESM 131",
         "ESP/ECI 163",
         "ESP 171",
         "GEL 108",
+        "or EPS 108",
         "PMI 129Y",
         "WFC 168"
       ],
-      "units": "Units",
+      "units": "11",
       "notes": [
-        "Choose one:",
         "Choose 11 units:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.134Z"
 }

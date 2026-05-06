@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.3,
+    "department": "Writing",
+    "firstName": "Jillian",
+    "id": "VGVhY2hlci0yMDQwNjc4",
+    "lastName": "Azevedo",
+    "legacyId": 2040678,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  }
+]

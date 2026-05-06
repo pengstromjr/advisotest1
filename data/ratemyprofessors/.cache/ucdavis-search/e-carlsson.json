@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 1.7,
+    "department": "Mathematics",
+    "firstName": "Eric",
+    "id": "VGVhY2hlci0yMjM1NDUx",
+    "lastName": "Carlsson",
+    "legacyId": 2235451,
+    "numRatings": 116,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 21.3675
+  }
+]

@@ -9,34 +9,48 @@
       "heading": "Sociology",
       "courses": [
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 046",
         "SOC 056",
-        "SOC 056Y",
+        "or SOC 056Y"
+      ],
+      "units": "5",
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "SOC 002",
-        "SOC 002V",
+        "or SOC 002V",
         "SOC 003",
-        "SOC 003V",
+        "or SOC 003V",
         "SOC 004",
         "SOC 005",
         "SOC 006",
         "SOC 007",
         "SOC 011",
-        "SOC 025"
+        "SOC 025",
+        "or SOC 025V"
       ],
-      "units": "5",
+      "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Anthropology",
       "courses": [
         "ANT 002",
-        "ANT 020"
+        "or ANT 020"
       ],
       "units": "4-5",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "History",
@@ -60,7 +74,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
@@ -72,17 +88,21 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (30-31 units)"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(A)",
       "courses": [
         "SOC 100",
-        "SOC 100V"
+        "or SOC 100V"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(B)",
@@ -92,6 +112,7 @@
         "SOC 135",
         "SOC 130",
         "SOC 132",
+        "or SOC 132V",
         "SOC 140",
         "SOC 118",
         "SOC 131",
@@ -109,7 +130,9 @@
         "Stratification & Social Differentiation",
         "Organizations & Institutions",
         "Social Dynamics"
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(C)",
@@ -122,6 +145,7 @@
         "SOC 129",
         "SOC 131",
         "SOC 132",
+        "or SOC 132V",
         "SOC 135",
         "SOC 137",
         "SOC 143B",
@@ -135,10 +159,7 @@
         "SOC 174",
         "SOC/STS 176",
         "SOC 118",
-        "SOC 128",
-        "SOC 129",
         "SOC 130",
-        "SOC 132",
         "SOC 133",
         "SOC 140",
         "SOC 145A",
@@ -146,12 +167,25 @@
         "SOC 163",
         "SOC 171",
         "SOC 185",
-        "SOC 185Y",
-        "SOC 188",
+        "or SOC 185Y",
+        "SOC 188"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three upper division courses from one of the following clusters, not counting courses taken to fulfill requirement B:",
+        "Cluster 1: Individual, Culture & Society",
+        "Cluster 2: Stratification & Social Differentiation"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "(C)",
+      "courses": [
         "AAS 123",
         "ASA 100",
         "CHI 110",
-        "CHI 110V",
+        "or CHI 110V",
         "NAS 115",
         "SOC 118",
         "SOC 124",
@@ -169,7 +203,7 @@
         "SOC 178",
         "SOC 180A",
         "SOC 185",
-        "SOC 185Y",
+        "or SOC 185Y",
         "SOC/IRE 104",
         "SOC 125",
         "SOC 138",
@@ -183,56 +217,87 @@
         "SOC 157",
         "SOC 170"
       ],
-      "units": "12",
+      "units": "",
       "notes": [
-        "Choose three upper division courses from one of the following clusters, not counting courses taken to fulfill requirement B:",
-        "Cluster 1: Individual, Culture & Society",
-        "Cluster 2: Stratification & Social Differentiation",
         "Choose one:",
         "Cluster 3: Organizations & Institutions",
         "Cluster 4: Social Dynamics",
         "Student-Initiated Thematic Cluster",
         "Developed with a faculty advisor and approved by the Sociology Undergraduate Curriculum Committee."
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "(D)",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "8 units of Sociology beyond courses taken to fulfill above requirements, and outside of the course cluster used to fulfill requirement C."
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(E)",
       "courses": [],
       "units": "4",
       "notes": [
-        "8 units of Sociology beyond courses taken to fulfill above requirements, and outside of the course cluster used to fulfill requirement C.",
-        "One additional elective upper division Sociology course not already used to fulfill other major requirements",
-        "Depth Subject Matter Subtotal"
-      ]
+        "One additional elective upper division Sociology course not already used to fulfill other major requirements 1 (4 units)",
+        "Depth Subject Matter Subtotal (44 units)"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 046",
         "SOC 056",
-        "SOC 056Y",
+        "or SOC 056Y"
+      ],
+      "units": "5",
+      "notes": [],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "SOC 003",
-        "SOC 003V",
+        "or SOC 003V",
         "SOC 004",
         "SOC 006",
         "SOC 007",
-        "SOC 011",
+        "SOC 011"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "ANT 002",
         "ANT 020",
         "POL 001",
-        "POL 001Y",
+        "or POL 001Y",
         "POL 003",
         "POL 004",
         "POL 007",
-        "POL 007V"
+        "or POL 007V"
       ],
-      "units": "5",
+      "units": "4-5",
       "notes": [
-        "Choose one:",
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "History",
@@ -256,7 +321,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
@@ -268,20 +335,32 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (30-31 units)"
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 100",
-        "SOC 100V",
+        "or SOC 100V",
         "SOC 155"
       ],
       "units": "4",
+      "notes": [],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [],
+      "units": "",
       "notes": [
         "Choose from the following categories:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Individual Culture & Society",
@@ -293,19 +372,24 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Stratification & Social Differentiation",
       "courses": [
         "SOC 130",
         "SOC 132",
+        "or SOC 132V",
         "SOC 140"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Organizations & Institutions",
@@ -321,7 +405,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Crime & Social Dynamics",
@@ -336,7 +422,9 @@
       "units": "12",
       "notes": [
         "Choose three:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Stratifications & Social Dynamics",
@@ -360,7 +448,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Legal Studies",
@@ -379,88 +469,135 @@
         "POL 154",
         "PSC 153",
         "UWP 104B",
-        "WMS 140"
+        "WMS 140",
+        "or GSW 140"
       ],
       "units": "3-4",
       "notes": [
-        "Choose one:",
-        "Choose one additional elective upper division Sociology course not already used to fulfill other major requirements",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Choose one:"
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Legal Studies",
+      "courses": [],
+      "units": "4",
+      "notes": [
+        "Choose one additional elective upper division Sociology course not already used to fulfill other major requirements 1 (4 units)",
+        "Depth Subject Matter Subtotal (43-44 units)"
+      ],
+      "group": "Law & Society Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 046",
         "SOC 056",
-        "SOC 056Y",
+        "or SOC 056Y"
+      ],
+      "units": "5",
+      "notes": [],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "SOC 002",
-        "SOC 002V",
+        "or SOC 002V",
         "SOC 003",
-        "SOC 003V",
+        "or SOC 003V",
         "SOC 006",
         "SOC 011"
       ],
-      "units": "5",
+      "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
+        "or PSC 001V",
+        "or PSC 001Y"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Psychology",
+      "courses": [
         "AAS 010",
         "AAS 015",
         "ASA 001",
         "ASA 002",
         "CHI 010",
-        "CHI 010V",
+        "or CHI 010V",
         "CHI 050",
         "NAS 001",
         "NAS 010",
         "SOC 004",
         "SOC 007"
       ],
-      "units": "4",
+      "units": "6-8",
       "notes": [
         "Choose two:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (28-30 units)"
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 100",
-        "SOC 100V",
+        "or SOC 100V",
         "SOC 131",
         "SOC 140",
         "SOC 185",
-        "SOC 185Y"
+        "or SOC 185Y"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Psychology",
       "courses": [
         "PSC 140",
-        "PSC 140V",
-        "PSC 140Y",
-        "PSC 142/HDE 102 DISCONTINUED FOR SUMMER 2026 **",
+        "or PSC 140V",
+        "or PSC 140Y",
+        "PSC 142/HDE 102",
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "PSC 168"
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
+        "Choose one:"
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Psychology",
+      "courses": [],
+      "units": "",
+      "notes": [
         "Choose from the following categories:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Social Issues",
@@ -487,7 +624,9 @@
       "units": "8",
       "notes": [
         "Choose two:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Social Interaction",
@@ -502,7 +641,9 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Race & Ethnicity",
@@ -516,7 +657,7 @@
         "ASA 150D",
         "ASA 150E",
         "CHI 110",
-        "CHI 110V",
+        "or CHI 110V",
         "CRD 176",
         "NAS 115",
         "SOC 129",
@@ -526,19 +667,24 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Gender",
       "courses": [
         "SOC 132",
+        "or SOC 132V",
         "SOC 133",
         "SOC 145B"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Organizational Behavior",
@@ -553,58 +699,95 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (44 units)"
+      ],
+      "group": "Social Services Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 005",
         "SOC 046",
         "SOC 056",
-        "SOC 056Y"
+        "or SOC 056Y"
       ],
       "units": "5",
-      "notes": []
+      "notes": [],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Economics",
       "courses": [
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Anthropology",
       "courses": [
         "ANT 002",
-        "ANT 020",
+        "or ANT 020"
+      ],
+      "units": "4-5",
+      "notes": [],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Anthropology",
+      "courses": [
         "HIS 010C",
         "POL 002"
       ],
-      "units": "4-5",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Course work in one modern foreign language at the two-year level or provide proof of proficiency.",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Course work in one modern foreign language at the two-year level or provide proof of proficiency. (0-30 units)",
+        "Preparatory Subject Matter Subtotal (30-61 units)"
+      ],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Sociology",
       "courses": [
         "SOC 100",
-        "SOC 100V",
+        "or SOC 100V",
         "SOC/IRE 104",
         "SOC 141",
         "SOC 145A",
-        "SOC 170",
+        "SOC 170"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "ANT 126A",
         "ANT 126B",
-        "ECN/ARE 115A",
+        "ECN/ARE 115A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Sociology",
+      "courses": [
         "ANT 127",
         "SOC 118",
         "SOC 130",
@@ -614,11 +797,12 @@
         "SOC 145B",
         "SOC 156"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
-        "Choose one:",
         "Choose three:"
-      ]
+      ],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Regional Focus",
@@ -626,6 +810,7 @@
         "AAS 110",
         "AAS 111",
         "AAS 162",
+        "ANT 140A",
         "ANT 140B",
         "HIS 115A",
         "HIS 115B",
@@ -641,7 +826,6 @@
         "HIS 163B",
         "HIS 164",
         "HIS 165",
-        "HIS 165V",
         "HIS 166A",
         "HIS 166B",
         "HIS 167",
@@ -660,6 +844,7 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "MSA 131A/CTS 146A",
         "MSA 180",
         "MSA 181A",
@@ -693,16 +878,6 @@
         "ANT 143A",
         "ANT 145",
         "ANT 147/MSA 131B/CTS 146B",
-        "ECN 171",
-        "HIS 191A",
-        "HIS 191B",
-        "HIS 191C",
-        "HIS 191D",
-        "HIS 191E",
-        "HIS 191F",
-        "HIS 191G",
-        "HIS 191H",
-        "HIS 191J",
         "HIS 195B",
         "HIS 196A",
         "HIS 196B",
@@ -710,10 +885,7 @@
         "MSA 131B",
         "MSA 181B",
         "MSA 182B",
-        "POL 148B",
-        "POL 148C",
-        "RST 165",
-        "RST 172"
+        "POL 148C"
       ],
       "units": "12",
       "notes": [
@@ -724,20 +896,31 @@
         "Jewish Studies; see an advisor.",
         "Asia-China & Japan; choose three:",
         "Southeast Asia/Pacific; choose three:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (48 units)"
+      ],
+      "group": "Global & International Sociology Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
         "SOC 001",
-        "SOC 001V",
+        "or SOC 001V",
         "SOC 004",
         "SOC 005",
         "SOC 007",
         "SOC 046",
         "SOC 056",
-        "SOC 056Y",
+        "or SOC 056Y"
+      ],
+      "units": "5",
+      "notes": [],
+      "group": "Race, Ethnicity, & Immigration Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "AAS 010",
         "AAS 018",
         "AAS 050",
@@ -747,31 +930,43 @@
         "ASA 003",
         "ASA 004",
         "CHI 010",
-        "CHI 010V",
+        "or CHI 010V",
         "CHI 030",
         "CHI 042",
         "NAS 001",
         "NAS 007",
         "NAS 010"
       ],
-      "units": "5",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (30 units)"
+      ],
+      "group": "Race, Ethnicity, & Immigration Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "SOC 100",
-        "SOC 100V",
-        "SOC 130",
+        "or SOC 100V",
+        "SOC 130"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Race, Ethnicity, & Immigration Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "SOC 104",
         "SOC 125",
         "SOC 128",
         "SOC 129",
         "SOC 131",
         "SOC 132",
+        "or SOC 132V",
         "SOC 137",
         "SOC 140",
         "SOC 143A",
@@ -780,7 +975,19 @@
         "SOC 145B",
         "SOC 151",
         "SOC 172",
-        "SOC 174",
+        "SOC 174"
+      ],
+      "units": "24",
+      "notes": [
+        "Choose six:",
+        "One other upper division SOC course with advisor approval."
+      ],
+      "group": "Race, Ethnicity, & Immigration Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "AAS 100",
         "AAS 101",
         "AAS 107A",
@@ -822,13 +1029,13 @@
         "CHI 102B",
         "CHI 102C",
         "CHI 110",
-        "CHI 110V",
+        "or CHI 110V",
         "CHI 111",
         "CHI 112",
         "CHI 113",
-        "CHI 113V",
+        "or CHI 113V",
         "CHI 114",
-        "CHI 114V",
+        "or CHI 114V",
         "CHI 114S",
         "CHI 120",
         "CHI 121",
@@ -843,6 +1050,7 @@
         "CHI 135S",
         "CHI 148",
         "CHI 150",
+        "or CHI 150V",
         "CHI 161",
         "CHI 165",
         "CHI 181",
@@ -874,21 +1082,29 @@
         "NAS 146",
         "WMS 160",
         "WMS 175",
-        "GSW 175"
+        "or GSW 175"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
-        "Choose six:",
-        "One other upper division SOC course with advisor approval.",
         "Choose three:",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (44 units)"
+      ],
+      "group": "Race, Ethnicity, & Immigration Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "General Emphasis",
+    "Law & Society Emphasis",
+    "Social Services Emphasis",
+    "Global & International Sociology Emphasis",
+    "Race, Ethnicity, & Immigration Emphasis"
+  ],
   "advising_notes": [
     "Advising: Sociology Advising Office",
-    "Honors Program: An Honors Program is available to Sociology and Sociology-Organizational Studies majors who have demonstrated excellence in their field of study. This programs gives students the opportunity to engage in their own sociological research in the form of an honors thesis.To be eligible for the program, students must have a grade-point average of 3.500 in the major, completed 135 units, and obtained the recommendation of a sociology faculty sponsor familiar with their work. Honors students write an h"
+    "Honors Program: An Honors Program is available to Sociology and Sociology-Organizational Studies majors who have demonstrated excellence in their field of study. This programs gives students the opportunity to engage in their own sociological research in the form of an honors thesis.To be eligible for the program, students must have a grade-point average of 3.500 in the major, completed 135 units, and obtained the recommendation of a sociology faculty sponsor familiar with their work. Honors students write an honors thesis and take two courses (SOC 194HA & SOC 194HB) during their senior year. Successful completion of the Honors Program, when combined with College GPA requirements, enables the student to graduate with High or Highest Honors. Students should apply for the program before they begin their fou"
   ],
-  "total_units": "74"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.282Z"
 }

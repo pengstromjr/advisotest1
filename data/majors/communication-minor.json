@@ -9,20 +9,22 @@
       "heading": "General Requirements",
       "courses": [
         "CMN 001",
-        "CMN 001V",
+        "or CMN 001V",
         "CMN 003",
-        "CMN 003Y",
-        "CMN 003V"
+        "or CMN 003Y",
+        "or CMN 003V"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "At least five upper division courses in Communication (CMN).",
+        "At least five upper division courses in Communication (CMN). (20 units)",
         "Communication (CMN)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.197Z"
 }

@@ -1,0 +1,231 @@
+{
+  "course_id": "MCB182",
+  "course_title": "Principles of Genomics",
+  "overall_grades": {
+    "A+": 218,
+    "A": 257,
+    "A-": 244,
+    "B+": 141,
+    "B": 217,
+    "B-": 149,
+    "C+": 89,
+    "C": 98,
+    "C-": 59,
+    "D+": 17,
+    "D": 12,
+    "D-": 7,
+    "F": 22,
+    "P*": 25,
+    "NP*": 8
+  },
+  "overall_gpa": 3.18,
+  "overall_enrolled": 1563,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gerald Quon",
+      "professor_slug": "gerald-quon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 88,
+            "A-": 65,
+            "B+": 59,
+            "B": 75,
+            "B-": 57,
+            "C+": 36,
+            "C": 29,
+            "C-": 30,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 11,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 529
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 12,
+            "A-": 27,
+            "B+": 18,
+            "B": 15,
+            "B-": 33,
+            "C+": 9,
+            "C": 9,
+            "C-": 27,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 183
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 63,
+            "A-": 33,
+            "B+": 24,
+            "B": 30,
+            "B-": 9,
+            "C+": 15,
+            "C": 15,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 240
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 13,
+            "A-": 5,
+            "B+": 17,
+            "B": 30,
+            "B-": 15,
+            "C+": 12,
+            "C": 5,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 106
+        }
+      }
+    },
+    {
+      "professor_name": "Ian Korf",
+      "professor_slug": "ian-korf",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 146,
+            "A": 169,
+            "A-": 179,
+            "B+": 82,
+            "B": 142,
+            "B-": 92,
+            "C+": 53,
+            "C": 69,
+            "C-": 29,
+            "D+": 14,
+            "D": 12,
+            "D-": 4,
+            "F": 22,
+            "P*": 14,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 1034
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 24,
+            "A-": 51,
+            "B+": 27,
+            "B": 33,
+            "B-": 24,
+            "C+": 21,
+            "C": 21,
+            "C-": 18,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 21,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 294
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 57,
+            "A-": 51,
+            "B+": 30,
+            "B": 48,
+            "B-": 42,
+            "C+": 18,
+            "C": 15,
+            "C-": 0,
+            "D+": 12,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 345
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 25,
+            "A-": 23,
+            "B+": 13,
+            "B": 22,
+            "B-": 8,
+            "C+": 5,
+            "C": 9,
+            "C-": 5,
+            "D+": 2,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 137
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 63,
+            "A-": 54,
+            "B+": 12,
+            "B": 39,
+            "B-": 18,
+            "C+": 9,
+            "C": 24,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 258
+        }
+      }
+    }
+  ]
+}

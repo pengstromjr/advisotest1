@@ -13,7 +13,7 @@
         "NUT 118",
         "NUT 192",
         "NUT 120AN",
-        "NUT 120BN",
+        "or NUT 120BN",
         "NPB 101"
       ],
       "units": "3",
@@ -28,10 +28,10 @@
         "NUT 116A",
         "NUT 116AL",
         "NUT 116B",
-        "NUT 116BY",
+        "or NUT 116BY",
         "NUT 116BL"
       ],
-      "units": "20",
+      "units": "",
       "notes": [
         "See note, above."
       ]
@@ -39,5 +39,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.229Z"
 }

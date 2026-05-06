@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.5,
+    "department": "University Writing Program",
+    "firstName": "William",
+    "id": "VGVhY2hlci0xOTIwMDYx",
+    "lastName": "Sewell",
+    "legacyId": 1920061,
+    "numRatings": 47,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.1892
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 2,
+    "department": "History",
+    "firstName": "John",
+    "id": "VGVhY2hlci0xNDQ4MDc4",
+    "lastName": "Sewell",
+    "legacyId": 1448078,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "English",
+    "firstName": "William",
+    "id": "VGVhY2hlci0yNjc4NTAy",
+    "lastName": "Sewell",
+    "legacyId": 2678502,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Writing",
+    "firstName": "William",
+    "id": "VGVhY2hlci0yODM5MDA4",
+    "lastName": "Sewell",
+    "legacyId": 2839008,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

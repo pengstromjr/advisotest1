@@ -1,0 +1,70 @@
+{
+  "course_id": "ECL234",
+  "course_title": "Bayesian Models: A Statistical Primer",
+  "overall_grades": {
+    "A+": 3,
+    "A": 60,
+    "A-": 18,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.93,
+  "overall_enrolled": 81,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Xiaoli Dong",
+      "professor_slug": "xiaoli-dong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 60,
+            "A-": 18,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 81
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 60,
+            "A-": 18,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 81
+        }
+      }
+    }
+  ]
+}

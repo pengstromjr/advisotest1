@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.5,
+    "avgRating": 2.3,
+    "department": "Physics",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci0xNzgzNDY3",
+    "lastName": "Weideman",
+    "legacyId": 1783467,
+    "numRatings": 310,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.2824
+  }
+]

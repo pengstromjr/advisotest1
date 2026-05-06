@@ -22,7 +22,16 @@
         "DRA 156C",
         "DRA 156D",
         "DRA 158",
-        "DRA 159",
+        "DRA 159"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two courses in Theatre History & Theory:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "DRA 114",
         "DRA 115",
         "DRA/CTS 116",
@@ -86,16 +95,17 @@
         "DRA 180F",
         "DRA 180G"
       ],
-      "units": "Units",
+      "units": "8",
       "notes": [
-        "Choose two courses in Theatre History & Theory:",
         "Choose 8 units of electives:",
-        "Choose 2 units:",
-        "Choose 4 units:"
+        "Complete 2 units of Production Crew:",
+        "Complete 4 units of Production:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "22"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.450Z"
 }

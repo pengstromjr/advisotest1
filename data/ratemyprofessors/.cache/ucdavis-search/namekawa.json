@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.5,
+    "department": "Microbiology",
+    "firstName": "Satoshi",
+    "id": "VGVhY2hlci0yODAzNjMw",
+    "lastName": "Namekawa",
+    "legacyId": 2803630,
+    "numRatings": 53,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96.2264
+  }
+]

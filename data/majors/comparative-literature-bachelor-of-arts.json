@@ -9,18 +9,14 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "COM 001",
-        "COM 002",
+        "or COM 002",
         "COM 003",
-        "COM 004",
-        "COM 001",
-        "COM 053C",
-        "COM 010",
-        "COM 001",
-        "COM 004",
+        "or COM 004",
         "COM 005",
         "COM 006",
+        "or COM 006V",
         "COM 007",
-        "COM 007V",
+        "or COM 007V",
         "COM 008",
         "COM 009",
         "COM/GER 011",
@@ -37,19 +33,21 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Two other lower division courses in Comparative Literature; selected from COM 001-COM 053C excluding the COM 010 series; cannot include the two required courses in the COM 001-COM 004 series:",
+        "Preparatory Subject Matter Subtotal (16 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
-        "COM 195",
-        "COM 100",
-        "COM 180",
-        "COM 098",
-        "COM 099",
-        "COM 198",
-        "COM 199",
+        "COM 195"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "COM 100",
         "COM 110",
         "COM 112",
@@ -67,7 +65,7 @@
         "COM 148",
         "COM 151",
         "COM 152",
-        "COM 152S",
+        "or COM 152S",
         "COM 153",
         "COM 154",
         "COM 155",
@@ -86,7 +84,7 @@
         "COM 164C",
         "COM 164D",
         "COM 165",
-        "COM 165S",
+        "or COM 165S",
         "COM 166",
         "COM 166A",
         "COM 166B",
@@ -100,18 +98,21 @@
         "COM 173",
         "COM 175",
         "COM 180",
-        "COM 180S"
+        "or COM 180S"
       ],
-      "units": "4",
+      "units": "36",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Choose from any number of COM 100-COM 180 upper division courses, five courses can be selected from COM or other humanities departments in consultation with the major advisor; excludes COM 098, COM 099, COM 198, COM 199. (36 units)",
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
     "Advising: All Comparative Literature majors and minors must consult with their advisor, individually, at least once at the beginning and once at the end of each academic year.",
-    "Honors & Honors Program: Students, who meet the grade point requirement for graduation with honors and complete the requirements established by the College of Letters and Science, may be recommended by the department for graduation with high honors or highest honors on the basis of an evaluation of their academic achievements in the major and in the honors project in particular. Entrance into the honors program requires that a student have completed at least 135 units with a minimum grade point average of 3.500 in cours"
+    "Honors & Honors Program: Entrance into the honors program requires that a student has completed at least 135 units with a minimum grade point average of 3.500 in courses counted toward the major. Honors candidates write a senior thesis under the direction of a faculty member approved by the major advisor. In addition to fulfilling all other major requirements, honors candidates enroll in COM 194H during the first two quarters of the senior year to support thesis research and writing.Honors candidates who meet the grade point requirement for graduation with honors, and complete the requirements established by the College of Letters and Science, may be recommended by the department for graduation with high honors or highest honors on the basis of an evaluation of their academic achievements in the major and in the h"
   ],
-  "total_units": "56"
+  "total_units": "56",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.276Z"
 }

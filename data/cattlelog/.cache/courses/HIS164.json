@@ -1,0 +1,93 @@
+{
+  "course_id": "HIS164",
+  "course_title": "History of Chile",
+  "overall_grades": {
+    "A+": 27,
+    "A": 117,
+    "A-": 75,
+    "B+": 21,
+    "B": 21,
+    "B-": 3,
+    "C+": 3,
+    "C": 0,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 6
+  },
+  "overall_gpa": 3.68,
+  "overall_enrolled": 279,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Marian Schlotterbeck",
+      "professor_slug": "marian-schlotterbeck",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 117,
+            "A-": 75,
+            "B+": 21,
+            "B": 21,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 279
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 42,
+            "A-": 30,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 111
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 75,
+            "A-": 45,
+            "B+": 12,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 168
+        }
+      }
+    }
+  ]
+}

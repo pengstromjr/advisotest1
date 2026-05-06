@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.3,
+    "department": "University Writing Program",
+    "firstName": "Jane",
+    "id": "VGVhY2hlci0xOTc1OTA5",
+    "lastName": "Beal",
+    "legacyId": 1975909,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.9,
+    "department": "Chemistry",
+    "firstName": "Peter",
+    "id": "VGVhY2hlci0xMDI3NTMz",
+    "lastName": "Beal",
+    "legacyId": 1027533,
+    "numRatings": 67,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.1429
+  }
+]

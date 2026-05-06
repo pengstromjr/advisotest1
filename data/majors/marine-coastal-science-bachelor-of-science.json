@@ -8,74 +8,125 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002C"
+        "BIS 002A",
+        "BIS 002B",
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 002",
+        "BIO 003"
       ],
-      "units": "15",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "or CHE 004A",
+        "or CHE 004B",
+        "or CHE 004C"
       ],
       "units": "15",
       "notes": [
-        "Choose a series:"
+        "Choose a series: 1 (15 units)",
+        "OR"
       ]
     },
     {
       "heading": "Organic Chemistry",
       "courses": [
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C",
-        "CHE 128ACHE 128BCHE 128CCHE 129ACHE 129B"
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 118C",
+        "or CHE 128A",
+        "or CHE 128B",
+        "or CHE 128C",
+        "or CHE 129A",
+        "or CHE 129B"
       ],
       "units": "0-13",
       "notes": [
-        "Choose a series; only required for students in the Marine Ecology & Organismal Biology focus area:"
+        "Choose a series; only required for students in the Marine Ecology & Organismal Biology focus area: 2 (0-13 units)",
+        "OR"
       ]
     },
     {
       "heading": "Mathematics",
       "courses": [
+        "MAT 016A",
+        "or MAT 016B",
+        "or MAT 016C",
         "MAT 017A",
         "MAT 017B",
         "MAT 017C",
-        "MAT 021A",
-        "MAT 021B",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C"
+        "or MAT 019A",
+        "or MAT 019B",
+        "or MAT 019C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "8-12",
-      "notes": []
+      "notes": [
+        "Choose a series; students in Marine Ecology & Organismal Biology focus area must take MAT 017A-MAT 017B-MAT 017C or MAT 021A-MAT 021B. 3 (8-12 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C",
-        "PHY 009APHY 009BPHY 009C",
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C",
+        "or PHY 009A",
+        "or PHY 009B",
+        "or PHY 009C",
         "EVE 012",
         "GEL 016",
-        "GEL 016V"
+        "or GEL 016V"
       ],
       "units": "12-15",
       "notes": [
-        "Choose a series:",
+        "Choose a series: 4 (12-15 units)",
+        "OR",
         "Recommended:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (49-70 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "STA 100",
-        "EVE/ESP 111",
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
-        "GEL/ESP 150A",
-        "GEL 150B/ESP 150B DISCONTINUED FOR FALL 2026 **",
-        "GEL 150C/ESP 150C DISCONTINUED FOR FALL 2026 **",
+        "EVE/ESP 111"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "EPS 116",
+        "or GEL 116N",
+        "GEL/ESP/EPS 150A",
+        "GEL 150B/ESP 150B",
+        "or EPS 150B",
+        "EPS 150C",
+        "or GEL 150C"
+      ],
+      "units": "10-11",
+      "notes": [
+        "Choose three of the following four:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "ATM 120",
         "ESP 100",
         "ESP 110",
@@ -85,28 +136,61 @@
         "EVE 112",
         "HYD 103N/EBS 103",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 105",
-        "BIS 103",
-        "ETX 127/NUT 127"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
-      "units": "4",
+      "units": "7-8",
       "notes": [
-        "Choose three of the following four:",
         "Choose two:",
         "Marine Ecology & Organismal Biology Focus Area Only:",
         "Depth Subject Matter Subtotal:"
       ]
     },
     {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Courses cannot be utilized to fulfill multiple requirements, with the exception that any Bodega Marine Laboratory course simultaneously fulfills the field requirement below and ETX 127/NUT 127 may satisfy both a course and the Research Requirement."
+      ]
+    },
+    {
+      "heading": "Focus Area",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Complete at least four courses from one category below, totaling at least 12 units.",
+        "Coastal Environmental Processes; College of Agricultural & Environmental Sciences; Environmental Science & Policy",
+        "Marine Ecology & Organismal Biology; College of Biological Sciences; Evolution & Ecology",
+        "Oceans & the Earth System; College of Letters & Science; Earth & Planetary Sciences",
+        "Focus Area Requirement Subtotal (12 units)"
+      ]
+    },
+    {
+      "heading": "Breadth Requirement",
+      "courses": [],
+      "units": "6",
+      "notes": [
+        "Complete one course from each category below, that is not the student's chosen Focus Area, totaling at least 6 units.",
+        "Coastal Environmental Processes",
+        "Marine Ecology & Organismal Biology",
+        "Oceans & the Earth System",
+        "Breadth Requirement Subtotal (6 units)"
+      ]
+    },
+    {
       "heading": "Field Requirement",
       "courses": [
-        "ESP 123",
+        "or ESP 123",
         "ESP 151L",
         "EVE 112L",
         "EVE 115",
-        "GEL 109L",
+        "EPS 109L",
+        "or GEL 109L",
         "GEL 182",
         "WFC 100",
         "WFC 102L",
@@ -114,39 +198,19 @@
       ],
       "units": "0-14",
       "notes": [
-        "Complete at least four courses from one category below, totaling at least 12 units.",
-        "Coastal Environmental Processes; College of Agricultural & Environmental Sciences; Environmental Science & Policy",
-        "Marine Ecology & Organismal Biology; College of Biological Sciences; Evolution & Ecology",
-        "Marine Environmental Chemistry; College of Agricultural & Environmental Sciences; Environmental Toxicology",
-        "Oceans & the Earth System; College of Letters & Science; Earth & Planetary Sciences",
-        "Focus Area Requirement Subtotal",
-        "Complete one course from each category below, that is not the student's chosen Focus Area, totaling at least 8 units.",
-        "Coastal Environmental Processes",
-        "Marine Ecology & Organismal Biology",
-        "Marine Environmental Chemistry",
-        "Oceans & the Earth System",
-        "Breadth Requirement Subtotal",
-        "Fulfill the Field Requirement",
+        "Fulfill the Field Requirement (0-14 units)",
         "The Field Requirement provides exposure to field techniques, experimental design, and the marine environment itself. It is highly recommended that students fulfill this requirement by residence at Bodega Marine Laboratory for one or more courses. Bodega Marine Laboratory courses may simultaneously fulfill an additional requirement in categories above",
+        "OR",
         "Alternatively, students may fulfill the Field Requirement by taking two of the following courses; these courses cannot fulfill multiple requirements:",
-        "Field Requirement Subtotal"
+        "Field Requirement Subtotal (0-14 units)"
       ]
     },
     {
       "heading": "Internship/Research",
-      "courses": [
-        "ETX/NUT 127",
-        "BIS 124",
-        "ESP 192",
-        "EVE 192",
-        "EVE 199",
-        "GEL 192",
-        "GEL 199"
-      ],
-      "units": "3",
+      "courses": [],
+      "units": "",
       "notes": [
-        "Choose three units:",
-        "Internship/Research Subtotal"
+        "A research or internship project under any department’s 192/199 course as long as it’s marine-related, educational, and upper division. ETX 127/NUT 127 may satisfy both a course and the Research Requirement."
       ]
     },
     {
@@ -155,21 +219,25 @@
         "ATM 121A",
         "ATM 121B",
         "ATM 158",
-        "ETX 102A",
+        "CHE 100",
         "ESP 152",
         "ESP 155",
-        "ESP 155L",
-        "ESP 166",
+        "ETX 101",
+        "ETX 102A",
+        "ETX 120",
+        "ETX/NUT 127",
+        "GEL 140",
+        "or EPS 140",
         "GEL 156",
-        "GEL 182",
-        "HYD 103N/EBS 103",
+        "or HYD 146",
         "HYD 134",
+        "HYD 141",
         "HYD 143",
         "HYD/EBS 144",
-        "HYD 146",
+        "WFC 153",
         "WFC 157"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -199,25 +267,7 @@
         "WFC 122",
         "WFC 130"
       ],
-      "units": "Units",
-      "notes": []
-    },
-    {
-      "heading": "General Requirements",
-      "courses": [
-        "CHE 100",
-        "ECI 140A",
-        "ETX 101",
-        "ETX 102A",
-        "ETX 120",
-        "ETX/NUT 127",
-        "GEL 148",
-        "GEL 182",
-        "HYD 134",
-        "HYD 141",
-        "WFC 153"
-      ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -233,30 +283,38 @@
         "ESP 169",
         "EVE 120",
         "GEL 107",
+        "or EPS 107",
         "GEL 107L",
+        "or EPS 107L",
         "GEL 108",
+        "or EPS 108",
         "GEL 109",
+        "or EPS 109",
         "GEL 109L",
+        "or EPS 109L",
         "GEL 144",
+        "or EPS 144",
         "SAS 120",
         "WFC 144",
         "WFC 154"
       ],
-      "units": "Units",
+      "units": "3",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ATM 158",
-        "ECI 140B",
-        "ESP 110",
+        "CHE 100",
         "ESP 152",
         "ESP 155",
-        "GEL 182",
+        "ETX 120",
+        "ETX/NUT 127",
+        "HYD 134",
+        "HYD 141",
         "WFC 157"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -271,21 +329,7 @@
         "EVE 120",
         "ETX/NUT 127"
       ],
-      "units": "Units",
-      "notes": []
-    },
-    {
-      "heading": "General Requirements",
-      "courses": [
-        "CHE 100",
-        "ECI 140B",
-        "ETX 120",
-        "ETX/NUT 127",
-        "GEL 182",
-        "HYD 134",
-        "HYD 141"
-      ],
-      "units": "Units",
+      "units": "6",
       "notes": []
     },
     {
@@ -299,14 +343,16 @@
         "WFC 144",
         "WFC 154"
       ],
-      "units": "Units",
+      "units": "3",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [
     "Advising: Visit the staff major advisor for help navigating major requirements and planning for your degree. Visit the faculty major advisors for additional advice on courses, careers, and graduate school. Faculty advisors: Tessa Hill (College of Letters & Science), Anne Todgham (College of Agricultural & Environmental Sciences), Rachael Bay (College of Biological Sciences). Visit your college's advisors for help navigating University Degree Requirements and College Degree Requirements.",
-    "Graduation Honors: Students graduating from the College of Agricultural and Environmental Sciences or College of Biological Sciences are eligible for Departmental Honors, High Honors, or Highest Honors depending on their GPA. This is calculated automatically and added to students' final transcripts.Students graduating from the College of Letters & Science are eligible for Departmental Honors, depending on their GPA and whether or not they complete a Senior Thesis. Students who graduate with a GPA in the top percen"
+    "Graduation Honors: Students graduating from the College of Agricultural and Environmental Sciences or College of Biological Sciences are eligible for Departmental Honors, High Honors, or Highest Honors depending on their GPA. This is calculated automatically and added to students' final transcripts.Students graduating from the College of Letters & Science are eligible for Departmental Honors, depending on their GPA and whether or not they complete a Senior Thesis. Students who graduate with a GPA in the top percentages of their college will automatically graduate with Honors. Students who qualify for Honors at graduation may also be eligible for High Honors or Highest Honors, based upon the quality of their Senior Thesis (course number 194A-194B) or Senior Honors Thesis (course number 194HA-194HB). It is Dep"
   ],
-  "total_units": "95"
+  "total_units": "92",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.525Z"
 }

@@ -1,0 +1,143 @@
+{
+  "course_id": "AAS181",
+  "course_title": "Hip Hop in Urban America",
+  "overall_grades": {
+    "A+": 44,
+    "A": 125,
+    "A-": 67,
+    "B+": 22,
+    "B": 39,
+    "B-": 22,
+    "C+": 0,
+    "C": 6,
+    "C-": 4,
+    "D+": 0,
+    "D": 0,
+    "D-": 3,
+    "F": 8,
+    "P*": 2,
+    "NP*": 4
+  },
+  "overall_gpa": 3.51,
+  "overall_enrolled": 346,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Antoine Johnson",
+      "professor_slug": "antoine-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 14,
+            "A-": 7,
+            "B+": 4,
+            "B": 6,
+            "B-": 1,
+            "C+": 0,
+            "C": 3,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 49
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 14,
+            "A-": 7,
+            "B+": 4,
+            "B": 6,
+            "B-": 1,
+            "C+": 0,
+            "C": 3,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Hodari Davis",
+      "professor_slug": "hodari-davis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 111,
+            "A-": 60,
+            "B+": 18,
+            "B": 33,
+            "B-": 21,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 297
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 63,
+            "A-": 30,
+            "B+": 6,
+            "B": 12,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 153
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 30,
+            "B+": 12,
+            "B": 21,
+            "B-": 18,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 144
+        }
+      }
+    }
+  ]
+}

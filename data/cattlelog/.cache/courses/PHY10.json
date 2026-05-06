@@ -1,0 +1,206 @@
+{
+  "course_id": "PHY10",
+  "course_title": "Topics in Physics for Nonscientists",
+  "overall_grades": {
+    "A+": 231,
+    "A": 358,
+    "A-": 200,
+    "B+": 93,
+    "B": 99,
+    "B-": 60,
+    "C+": 48,
+    "C": 10,
+    "C-": 9,
+    "D+": 6,
+    "D": 3,
+    "D-": 0,
+    "F": 9,
+    "P*": 26,
+    "NP*": 18
+  },
+  "overall_gpa": 3.57,
+  "overall_enrolled": 1170,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Manuel Calderon De La Barca Sanchez",
+      "professor_slug": "manuel-calderon-de-la-barca-sanchez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 189,
+            "A": 286,
+            "A-": 101,
+            "B+": 45,
+            "B": 30,
+            "B-": 12,
+            "C+": 9,
+            "C": 1,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 693
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 75,
+            "A": 135,
+            "A-": 36,
+            "B+": 15,
+            "B": 6,
+            "B-": 3,
+            "C+": 9,
+            "C": 0,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 297
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 99,
+            "A-": 51,
+            "B+": 21,
+            "B": 18,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 237
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 31,
+            "A-": 9,
+            "B+": 4,
+            "B": 3,
+            "B-": 4,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 83
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 38,
+            "A": 21,
+            "A-": 5,
+            "B+": 5,
+            "B": 3,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 76
+        }
+      }
+    },
+    {
+      "professor_name": "Steven Carlip",
+      "professor_slug": "steven-carlip",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 72,
+            "A-": 99,
+            "B+": 48,
+            "B": 69,
+            "B-": 48,
+            "C+": 39,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 21,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 477
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 33,
+            "A-": 45,
+            "B+": 30,
+            "B": 39,
+            "B-": 24,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 15,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 240
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 39,
+            "A-": 54,
+            "B+": 18,
+            "B": 30,
+            "B-": 24,
+            "C+": 33,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 237
+        }
+      }
+    }
+  ]
+}

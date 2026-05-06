@@ -10,13 +10,13 @@
       "courses": [
         "FRE 100"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "French Electives",
       "courses": [],
-      "units": "16",
+      "units": "",
       "notes": [
         "Four (4) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor.",
         "French 101-162."
@@ -25,5 +25,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.833Z"
 }

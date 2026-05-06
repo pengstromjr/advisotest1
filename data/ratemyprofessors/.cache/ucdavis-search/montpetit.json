@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Cell Biology",
+    "firstName": "Ben",
+    "id": "VGVhY2hlci0yODcwOTcw",
+    "lastName": "Montpetit",
+    "legacyId": 2870970,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

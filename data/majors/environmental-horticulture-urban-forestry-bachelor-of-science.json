@@ -9,7 +9,7 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "CMN 001",
-        "CMN 001V"
+        "or CMN 001V"
       ],
       "units": "",
       "notes": [
@@ -19,6 +19,7 @@
     {
       "heading": "Environmental Horticulture",
       "courses": [
+        "ENH 001",
         "ENH 006"
       ],
       "units": "3",
@@ -28,10 +29,18 @@
       "heading": "Landscape Architecture",
       "courses": [
         "LED 030",
+        "or LDA 030"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "BIS 002A",
         "BIS 002B"
       ],
-      "units": "4",
+      "units": "5",
       "notes": []
     },
     {
@@ -39,7 +48,7 @@
       "courses": [
         "PLS 002",
         "PLS 021",
-        "PLS 021V"
+        "or PLS 021V"
       ],
       "units": "4",
       "notes": []
@@ -57,7 +66,7 @@
       "heading": "Environmental Science & Policy",
       "courses": [
         "ESP 001",
-        "ESP 010"
+        "or ESP 010"
       ],
       "units": "3-4",
       "notes": []
@@ -66,31 +75,66 @@
       "heading": "Physics",
       "courses": [
         "PHY 001A",
-        "PHY 001B",
-        "STA 013",
-        "STA 013Y",
+        "PHY 001B"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "MAT 016A",
+        "or STA 013",
+        "or STA 013Y"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Physics",
+      "courses": [
         "UWP 102B",
         "UWP 102G",
         "UWP 104E"
       ],
-      "units": "3",
+      "units": "3-4",
       "notes": [
-        "Choose one:",
         "Choose one:",
         "Other upper division composition course. May overlap with college composition requirement; may be satisfied by passing the English Composition Exam."
       ]
     },
     {
-      "heading": "Depth Subject Matter",
-      "courses": [
-        "PLS 100A",
-        "ENH 105"
-      ],
-      "units": "3-4",
+      "heading": "Lower Division Restricted Electives",
+      "courses": [],
+      "units": "6",
       "notes": [
         "Choose one lower division resource science course and one lower division social science/humanities course in consultation with advisor; minimum 6 units.",
         "Sample List of Lower Division Restricted Electives PDF",
-        "Preparatory Subject Matter Subtotal",
+        "Preparatory Subject Matter Subtotal (59-62 units)"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ENH 102",
+        "or PLS 100A"
+      ],
+      "units": "3-4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "ENH 105",
+        "PLS 102",
+        "or PLB 102",
+        "PLB 108",
+        "or EVE 108"
+      ],
+      "units": "4-5",
+      "notes": [
         "Choose one:"
       ]
     },
@@ -98,7 +142,7 @@
       "heading": "Plant Science",
       "courses": [
         "PLB/EVE 117",
-        "PLS 150",
+        "or PLS 150",
         "PLS 171"
       ],
       "units": "4",
@@ -107,17 +151,34 @@
     {
       "heading": "Soil Science",
       "courses": [
-        "SSC 100",
+        "SSC 100"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "ENT 110",
         "NEM 100",
         "PLP 120",
         "PLS 105",
         "PLS 176"
       ],
-      "units": "5",
+      "units": "7-9",
       "notes": [
         "Choose two:",
-        "Internship or research; must be approved by major advisor."
+        "Internship or research; must be approved by major advisor. (3 units)"
+      ]
+    },
+    {
+      "heading": "Upper Division Restricted Electives",
+      "courses": [],
+      "units": "9",
+      "notes": [
+        "In consultation with an advisor, choose three upper division courses in the areas of resource sciences and social sciences/humanities; at least one course must come from each of these two areas; minimum 9 units.",
+        "Sample List of Upper Division Restricted Electives PDF",
+        "Depth Subject Matter Subtotal (39-43 units)"
       ]
     },
     {
@@ -125,15 +186,12 @@
       "courses": [],
       "units": "16-24",
       "notes": [
-        "In consultation with an advisor, choose three upper division courses in the areas of resource sciences and social sciences/humanities; at least one course must come from each of these two areas; minimum 9 units.",
-        "Sample List of Upper Division Restricted Electives PDF",
-        "Depth Subject Matter Subtotal",
         "Choose one:",
         "Floriculture/Nursery Option",
         "Plant Biodiversity/Restoration Option",
         "Urban Landscape Management Option",
         "No course may be used to satisfy more than one requirement.",
-        "Areas of Specialization Subtotal"
+        "Areas of Specialization Subtotal (16-24 units)"
       ]
     },
     {
@@ -142,21 +200,42 @@
         "ENH 120",
         "ENH 125",
         "ABT/SAF 165",
-        "ENT 135",
+        "ENT 135"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Floriculture/Nursery Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "PLS 100C",
         "PLS 158",
         "SSC 109"
       ],
-      "units": "Units",
+      "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Floriculture/Nursery Option",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ENH 160",
-        "ENH 160L",
+        "ENH 160L"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Plant Biodiversity/Restoration Option",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ENH 150",
         "EVE 100",
         "PLB/PLS 116",
         "ESM 141",
@@ -166,22 +245,26 @@
         "PLS 150",
         "WFC 155",
         "ESP 155",
+        "PLB 108/EVE 108",
         "PLB/EVE 117",
         "PLB/EVE 119",
+        "PLS 102",
         "PLS/ESM 144",
-        "PLS 147147L",
+        "PLS 147",
         "PLS 163",
         "PLS 176",
         "WFC 156",
         "WFC 157"
       ],
-      "units": "Units",
+      "units": "3-5",
       "notes": [
         "Choose one:",
         "(a) Choose one:",
         "(b) Choose one:",
-        "(c) Choose one additional class from section a or b."
-      ]
+        "(c) Choose one additional class from section a or b. (3-5 units)"
+      ],
+      "group": "Plant Biodiversity/Restoration Option",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -190,16 +273,26 @@
         "ENH 133",
         "ABT/SAF 165",
         "LED 150",
-        "SAS 018",
-        "LDA 150",
-        "ABT 150",
+        "or SAS 018",
+        "or LDA 150",
+        "or ABT 150",
         "PLS 162"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [
+        "OR"
+      ],
+      "group": "Urban Landscape Management Option",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Floriculture/Nursery Option",
+    "Plant Biodiversity/Restoration Option",
+    "Urban Landscape Management Option"
+  ],
   "advising_notes": [],
-  "total_units": "114"
+  "total_units": "114",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.639Z"
 }

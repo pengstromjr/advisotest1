@@ -8,17 +8,32 @@
     {
       "heading": "Prep Coursework",
       "courses": [
-        "SAS 120",
+        "SAS 001",
+        "SAS 120"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Prep Coursework",
+      "courses": [
         "SAS 002",
-        "SAS 002V",
+        "or SAS 002V",
         "SAS 005",
         "SAS 020",
         "SAS 030"
       ],
-      "units": "4",
+      "units": "3-4",
       "notes": [
         "Choose one:",
-        "Prep Coursework Subtotal",
+        "Prep Coursework Subtotal (10-11 units)"
+      ]
+    },
+    {
+      "heading": "Prep Coursework",
+      "courses": [],
+      "units": "14-17",
+      "notes": [
         "Choose one from each of the four areas:"
       ]
     },
@@ -60,7 +75,7 @@
         "CMN 140",
         "LIN 163",
         "POL 165",
-        "POL 165V"
+        "or POL 165V"
       ],
       "units": "",
       "notes": []
@@ -70,13 +85,16 @@
       "courses": [
         "CRD 142",
         "FPS 110",
+        "PLP 140",
         "SOC 144"
       ],
-      "units": "24-28",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.165Z"
 }

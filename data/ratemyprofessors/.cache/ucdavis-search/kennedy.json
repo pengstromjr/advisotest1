@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.3,
+    "department": "Engineering",
+    "firstName": "Ian",
+    "id": "VGVhY2hlci00MTE4OTI=",
+    "lastName": "Kennedy",
+    "legacyId": 411892,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Design",
+    "firstName": "Nathan",
+    "id": "VGVhY2hlci0zMTA3NjM0",
+    "lastName": "Kennedy",
+    "legacyId": 3107634,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "course_id": "DRA140A",
+  "course_title": "Dance Composition ",
+  "overall_grades": {
+    "A+": 27,
+    "A": 6,
+    "A-": 3,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 3
+  },
+  "overall_gpa": 3.97,
+  "overall_enrolled": 39,
+  "available_quarters": [
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Mary Beth Cavanaugh",
+      "professor_slug": "mary-beth-cavanaugh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 6,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 39
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 6,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.97,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

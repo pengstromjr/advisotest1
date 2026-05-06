@@ -1,0 +1,225 @@
+{
+  "course_id": "CHE105",
+  "course_title": "Analytical & Physical Chemical Methods",
+  "overall_grades": {
+    "A+": 65,
+    "A": 260,
+    "A-": 107,
+    "B+": 90,
+    "B": 105,
+    "B-": 58,
+    "C+": 65,
+    "C": 27,
+    "C-": 19,
+    "D+": 6,
+    "D": 0,
+    "D-": 0,
+    "F": 33,
+    "P*": 13,
+    "NP*": 9
+  },
+  "overall_gpa": 3.24,
+  "overall_enrolled": 857,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Donald Land",
+      "professor_slug": "donald-land",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 241,
+            "A-": 78,
+            "B+": 47,
+            "B": 48,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 11,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 476
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 78,
+            "A-": 36,
+            "B+": 21,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 162
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 54,
+            "A-": 21,
+            "B+": 15,
+            "B": 15,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 141
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 87,
+            "A-": 18,
+            "B+": 9,
+            "B": 18,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 141
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 22,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 32
+        }
+      }
+    },
+    {
+      "professor_name": "Tomoyuki Hayashi",
+      "professor_slug": "tomoyuki-hayashi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 32,
+            "A": 19,
+            "A-": 29,
+            "B+": 43,
+            "B": 57,
+            "B-": 52,
+            "C+": 59,
+            "C": 27,
+            "C-": 19,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 22,
+            "P*": 7,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 381
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 6,
+            "A-": 12,
+            "B+": 18,
+            "B": 27,
+            "B-": 33,
+            "C+": 36,
+            "C": 15,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 186
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 9,
+            "A-": 15,
+            "B+": 18,
+            "B": 27,
+            "B-": 12,
+            "C+": 15,
+            "C": 6,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 15
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 147
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 4,
+            "A-": 2,
+            "B+": 7,
+            "B": 3,
+            "B-": 7,
+            "C+": 8,
+            "C": 6,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

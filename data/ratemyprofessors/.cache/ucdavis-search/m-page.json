@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.2,
+    "department": "Economics",
+    "firstName": "Marianne",
+    "id": "VGVhY2hlci0zMTYyNTM=",
+    "lastName": "Page",
+    "legacyId": 316253,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.3333
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.1,
+    "department": "Psychology",
+    "firstName": "Benjamin",
+    "id": "VGVhY2hlci0yNzc3Mjk3",
+    "lastName": "Pageler",
+    "legacyId": 2777297,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 44.4444
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Ryan",
+    "id": "VGVhY2hlci0xMjY2MDY2",
+    "lastName": "Page",
+    "legacyId": 1266066,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "course_id": "CDM163",
+  "course_title": "Art & Cinema: Between the White Cube & the Black Box",
+  "overall_grades": {
+    "A+": 0,
+    "A": 5,
+    "A-": 10,
+    "B+": 9,
+    "B": 0,
+    "B-": 1,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 4,
+    "NP*": 2
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 31,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Fiamma Di Montezemolo",
+      "professor_slug": "fiamma-di-montezemolo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 10,
+            "B+": 9,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 31
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 5,
+            "A-": 10,
+            "B+": 9,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 31
+        }
+      }
+    }
+  ]
+}

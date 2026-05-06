@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.6,
+    "department": "Anthropology",
+    "firstName": "John",
+    "id": "VGVhY2hlci03MTMxMTE=",
+    "lastName": "Darwent",
+    "legacyId": 713111,
+    "numRatings": 58,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 89.3617
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.9,
+    "department": "Anthropology",
+    "firstName": "Christyann",
+    "id": "VGVhY2hlci0xNDk5OTQ=",
+    "lastName": "Darwent",
+    "legacyId": 149994,
+    "numRatings": 60,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 55
+  }
+]

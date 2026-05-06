@@ -1,0 +1,172 @@
+{
+  "course_id": "LIN103B",
+  "course_title": "Linguistic Analysis II: Morphology, Syntax, Semantics",
+  "overall_grades": {
+    "A+": 116,
+    "A": 123,
+    "A-": 80,
+    "B+": 57,
+    "B": 40,
+    "B-": 48,
+    "C+": 26,
+    "C": 17,
+    "C-": 12,
+    "D+": 4,
+    "D": 10,
+    "D-": 0,
+    "F": 6,
+    "P*": 52,
+    "NP*": 8
+  },
+  "overall_gpa": 3.37,
+  "overall_enrolled": 599,
+  "available_quarters": [
+    "Fall_2023",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jong Bok Kim",
+      "professor_slug": "jong-bok-kim",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 57,
+            "A-": 39,
+            "B+": 18,
+            "B": 3,
+            "B-": 12,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 42,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 252
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 57,
+            "A-": 39,
+            "B+": 18,
+            "B": 3,
+            "B-": 12,
+            "C+": 9,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 42,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 252
+        }
+      }
+    },
+    {
+      "professor_name": "Masoud Jasbi",
+      "professor_slug": "masoud-jasbi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 54,
+            "A-": 33,
+            "B+": 21,
+            "B": 27,
+            "B-": 24,
+            "C+": 15,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 270
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 54,
+            "A-": 33,
+            "B+": 21,
+            "B": 27,
+            "B-": 24,
+            "C+": 15,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 270
+        }
+      }
+    },
+    {
+      "professor_name": "Raul Aranovich",
+      "professor_slug": "raul-aranovich",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 12,
+            "A-": 8,
+            "B+": 18,
+            "B": 10,
+            "B-": 12,
+            "C+": 2,
+            "C": 2,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 77
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 12,
+            "A-": 8,
+            "B+": 18,
+            "B": 10,
+            "B-": 12,
+            "C+": 2,
+            "C": 2,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 77
+        }
+      }
+    }
+  ]
+}

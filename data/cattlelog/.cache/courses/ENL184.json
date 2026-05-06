@@ -1,0 +1,97 @@
+{
+  "course_id": "ENL184",
+  "course_title": "Literature & the Environment",
+  "overall_grades": {
+    "A+": 12,
+    "A": 57,
+    "A-": 36,
+    "B+": 54,
+    "B": 18,
+    "B-": 36,
+    "C+": 3,
+    "C": 6,
+    "C-": 0,
+    "D+": 6,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 21,
+    "NP*": 3
+  },
+  "overall_gpa": 3.36,
+  "overall_enrolled": 252,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hsuan Hsu",
+      "professor_slug": "hsuan-hsu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 57,
+            "A-": 36,
+            "B+": 54,
+            "B": 18,
+            "B-": 36,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 21,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 252
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 33,
+            "A-": 18,
+            "B+": 33,
+            "B": 12,
+            "B-": 27,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 165
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 24,
+            "A-": 18,
+            "B+": 21,
+            "B": 6,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 87
+        }
+      }
+    }
+  ]
+}

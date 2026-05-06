@@ -1,0 +1,130 @@
+{
+  "course_id": "PLS206",
+  "course_title": "Applied Multivariate Modeling in Agricultural & Environmental Sciences",
+  "overall_grades": {
+    "A+": 349,
+    "A": 15,
+    "A-": 9,
+    "B+": 3,
+    "B": 7,
+    "B-": 6,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.95,
+  "overall_enrolled": 389,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Monroe",
+      "professor_slug": "john-monroe",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 349,
+            "A": 15,
+            "A-": 9,
+            "B+": 3,
+            "B": 7,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.95,
+          "quarter_enrolled": 389
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 0,
+            "A-": 3,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.99,
+          "quarter_enrolled": 120
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 6,
+            "A-": 6,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.96,
+          "quarter_enrolled": 117
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 9,
+            "A-": 0,
+            "B+": 3,
+            "B": 3,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 105
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 46,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.98,
+          "quarter_enrolled": 47
+        }
+      }
+    }
+  ]
+}

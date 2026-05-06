@@ -1,0 +1,98 @@
+{
+  "course_id": "ANT120",
+  "course_title": "Language & Culture",
+  "overall_grades": {
+    "A+": 33,
+    "A": 54,
+    "A-": 59,
+    "B+": 42,
+    "B": 23,
+    "B-": 13,
+    "C+": 6,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "P*": 14,
+    "NP*": 10
+  },
+  "overall_gpa": 3.54,
+  "overall_enrolled": 258,
+  "available_quarters": [
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Fatima Mojaddedi",
+      "professor_slug": "fatima-mojaddedi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 54,
+            "A-": 59,
+            "B+": 42,
+            "B": 23,
+            "B-": 13,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 14,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 258
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 48,
+            "A-": 33,
+            "B+": 33,
+            "B": 15,
+            "B-": 12,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 198
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 26,
+            "B+": 9,
+            "B": 8,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 8,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 60
+        }
+      }
+    }
+  ]
+}

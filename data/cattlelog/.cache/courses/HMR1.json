@@ -1,0 +1,209 @@
+{
+  "course_id": "HMR1",
+  "course_title": "Human Wrongs/Human Rights",
+  "overall_grades": {
+    "A+": 195,
+    "A": 373,
+    "A-": 319,
+    "B+": 237,
+    "B": 290,
+    "B-": 139,
+    "C+": 64,
+    "C": 49,
+    "C-": 34,
+    "D+": 14,
+    "D": 17,
+    "D-": 1,
+    "F": 37,
+    "P*": 132,
+    "NP*": 19
+  },
+  "overall_gpa": 3.29,
+  "overall_enrolled": 1920,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Keith Watenpaugh",
+      "professor_slug": "keith-watenpaugh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 195,
+            "A": 320,
+            "A-": 264,
+            "B+": 190,
+            "B": 261,
+            "B-": 128,
+            "C+": 56,
+            "C": 48,
+            "C-": 28,
+            "D+": 12,
+            "D": 13,
+            "D-": 0,
+            "F": 33,
+            "P*": 104,
+            "NP*": 19
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 1671
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 159,
+            "A": 180,
+            "A-": 96,
+            "B+": 24,
+            "B": 57,
+            "B-": 9,
+            "C+": 12,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 12,
+            "P*": 27,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 603
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 75,
+            "A-": 93,
+            "B+": 87,
+            "B": 132,
+            "B-": 60,
+            "C+": 27,
+            "C": 33,
+            "C-": 24,
+            "D+": 12,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 60,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 645
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 54,
+            "A-": 54,
+            "B+": 57,
+            "B": 51,
+            "B-": 42,
+            "C+": 12,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 12,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 321
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 11,
+            "A-": 21,
+            "B+": 22,
+            "B": 21,
+            "B-": 17,
+            "C+": 5,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 102
+        }
+      }
+    },
+    {
+      "professor_name": "Wendy Terry",
+      "professor_slug": "wendy-terry",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 53,
+            "A-": 55,
+            "B+": 47,
+            "B": 29,
+            "B-": 11,
+            "C+": 8,
+            "C": 1,
+            "C-": 6,
+            "D+": 2,
+            "D": 4,
+            "D-": 1,
+            "F": 4,
+            "P*": 28
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 249
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 27,
+            "B+": 30,
+            "B": 27,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 135
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 47,
+            "A-": 28,
+            "B+": 17,
+            "B": 2,
+            "B-": 5,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 2,
+            "D": 1,
+            "D-": 1,
+            "F": 1,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 114
+        }
+      }
+    }
+  ]
+}

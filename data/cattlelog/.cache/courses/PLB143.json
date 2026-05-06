@@ -1,0 +1,70 @@
+{
+  "course_id": "PLB143",
+  "course_title": "Evolution of Crop Plants",
+  "overall_grades": {
+    "A+": 15,
+    "A": 45,
+    "A-": 15,
+    "B+": 6,
+    "B": 3,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 87,
+  "available_quarters": [
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Mitchell Feldmann",
+      "professor_slug": "mitchell-feldmann",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 45,
+            "A-": 15,
+            "B+": 6,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 87
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 45,
+            "A-": 15,
+            "B+": 6,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 87
+        }
+      }
+    }
+  ]
+}

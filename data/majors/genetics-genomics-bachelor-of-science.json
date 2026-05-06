@@ -8,63 +8,93 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002ABIS 002BBIS 002CBIS 002D"
+        "BIO 001",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
       ],
-      "units": "18",
+      "units": "14",
       "notes": []
     },
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002",
-        "CHE 004",
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C",
-        "CHE 008",
-        "CHE 118",
-        "CHE 128",
-        "CHE 129A",
-        "CHE 129B",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118BCHE 118C",
-        "CHE 128ACHE 128BCHE 128C",
-        "CHE 129ACHE 129B"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "or CHE 004A",
+        "or CHE 004B",
+        "or CHE 004C"
       ],
       "units": "15",
-      "notes": []
+      "notes": [
+        "Choose CHE 002 series or CHE 004 series: 1 (15 units)",
+        "OR"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "or CHE 118A",
+        "or CHE 118B",
+        "or CHE 118C",
+        "or CHE 128A",
+        "or CHE 128B",
+        "or CHE 128C",
+        "CHE 129A",
+        "CHE 129B"
+      ],
+      "units": "6-13",
+      "notes": [
+        "Choose CHE 008 series or CHE 118 series or CHE 128 series & CHE 129A-CHE 129B: 2 (6-13 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017",
-        "MAT 021",
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "8-12",
-      "notes": []
+      "notes": [
+        "Choose MAT 017 series or MAT 021 series: 3 (8-12 units)",
+        "OR"
+      ]
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007",
-        "PHY 009",
-        "PHY 007APHY 007BPHY 007C",
-        "PHY 009APHY 009BPHY 009C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C",
+        "or PHY 009A",
+        "or PHY 009B",
+        "or PHY 009C"
       ],
       "units": "12-15",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Choose PHY 007 series or PHY 009 series: 4 (12-15 units)",
+        "OR",
+        "Preparatory Subject Matter Subtotal (55-69 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 105",
-        "BIS 103"
+        "or BIS 102",
+        "or BIS 102V",
+        "or BIS 103"
       ],
       "units": "4",
       "notes": []
@@ -73,27 +103,62 @@
       "heading": "Molecular & Cellular Biology",
       "courses": [
         "MCB 121",
-        "MCB 182",
+        "MCB 182"
+      ],
+      "units": "6",
+      "notes": []
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
         "EVE 100",
-        "BIS 181",
+        "BIS 181"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
         "BIS 183",
-        "MCB 160L",
-        "BIS 180L",
-        "STA 100",
-        "CHE 130A",
-        "CHE 130B",
-        "STA 100",
-        "STA 130ASTA 130B"
+        "MCB 162",
+        "MCB 163"
       ],
       "units": "3",
       "notes": [
-        "Choose one:",
         "Choose one:"
+      ]
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "MCB 160L",
+        "or BIS 180L"
+      ],
+      "units": "5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Molecular & Cellular Biology",
+      "courses": [
+        "STA 100",
+        "or STA 130A",
+        "or STA 130B"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose STA 100 or STA 130A & STA 130B:"
       ]
     },
     {
       "heading": "Restricted Electives",
       "courses": [
+        "BIS 027A",
+        "or BIS 027B",
         "BIS 181",
         "BIS 183",
         "BIT 150",
@@ -110,6 +175,7 @@
         "MMG 170",
         "MMG 172",
         "MMG 175",
+        "MMG 180",
         "PLB 112",
         "PLB 113",
         "PLS 154"
@@ -117,14 +183,19 @@
       "units": "9",
       "notes": [
         "Choose at least 9 additional units:",
-        "Upper division courses in genetics or other fields relevant to the student's interest chosen in consultation with the GGN master and BASC advisor. No more than 4 units of 192, 193, 194H, 198, or 199 may be used for credit in this category.",
-        "Depth Subject Matter Subtotal"
+        "OR",
+        "Upper division courses (unless otherwise noted) in genetics and genomics or other fields relevant to a student’s interest chosen in consultation with the Genetics & Genomics faculty major advisor and BASC advisor.",
+        "No more than 4 units of variable-unit courses (numbered 192, 193, or 199) may be used for credit in this category. Note: Although a course might be listed in more than one category, that course may satisfy only one requirement in the entire major.",
+        "Note: Although a course might be listed in more than one category, that course may satisfy only one requirement in the entire major.",
+        "Depth Subject Matter Subtotal (40-48 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall (formerly Sciences Laboratory Building); 530-752-0410, cbsundergrads@ucdavis.edu."
+    "Advising: Biology Academic Success Center (BASC) in 1023 Katherine Esau Science Hall; 530-752-0410, Undergraduate Advising"
   ],
-  "total_units": "94"
+  "total_units": "95",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.917Z"
 }

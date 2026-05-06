@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.1,
+    "department": "University Writing Program",
+    "firstName": "Russ",
+    "id": "VGVhY2hlci0yNjYxNDg3",
+    "lastName": "Carpenter",
+    "legacyId": 2661487,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Veterinary Sciences",
+    "firstName": "Tim",
+    "id": "VGVhY2hlci0xMTY1MDcy",
+    "lastName": "Carpenter",
+    "legacyId": 1165072,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Advisor",
+    "firstName": "Kris",
+    "id": "VGVhY2hlci0xMDM0NzMx",
+    "lastName": "Carpenter",
+    "legacyId": 1034731,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Computer Science",
+    "firstName": "Trevor",
+    "id": "VGVhY2hlci0yNTY5NDI1",
+    "lastName": "Carpenter",
+    "legacyId": 2569425,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

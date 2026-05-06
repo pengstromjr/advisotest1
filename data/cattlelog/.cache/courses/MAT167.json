@@ -1,0 +1,405 @@
+{
+  "course_id": "MAT167",
+  "course_title": "Applied Linear Algebra",
+  "overall_grades": {
+    "A+": 80,
+    "A": 314,
+    "A-": 145,
+    "B+": 67,
+    "B": 194,
+    "B-": 82,
+    "C+": 67,
+    "C": 89,
+    "C-": 46,
+    "D+": 11,
+    "D": 46,
+    "D-": 10,
+    "F": 32,
+    "P*": 156,
+    "NP*": 40
+  },
+  "overall_gpa": 3.06,
+  "overall_enrolled": 1379,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "David Marsico",
+      "professor_slug": "david-marsico",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 39,
+            "A-": 18,
+            "B+": 6,
+            "B": 30,
+            "B-": 18,
+            "C+": 21,
+            "C": 12,
+            "C-": 9,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 3,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 216
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 39,
+            "A-": 18,
+            "B+": 6,
+            "B": 30,
+            "B-": 18,
+            "C+": 21,
+            "C": 12,
+            "C-": 9,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 3,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 216
+        }
+      }
+    },
+    {
+      "professor_name": "Elbridge Puckett",
+      "professor_slug": "elbridge-puckett",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 45,
+            "A-": 12,
+            "B+": 0,
+            "B": 87,
+            "B-": 15,
+            "C+": 0,
+            "C": 48,
+            "C-": 12,
+            "D+": 0,
+            "D": 24,
+            "D-": 0,
+            "F": 15,
+            "P*": 54,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 2.66,
+          "quarter_enrolled": 345
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 0,
+            "B+": 0,
+            "B": 36,
+            "B-": 0,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 15,
+            "D-": 0,
+            "F": 3,
+            "P*": 24,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.63,
+          "quarter_enrolled": 114
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 6,
+            "A-": 6,
+            "B+": 0,
+            "B": 24,
+            "B-": 3,
+            "C+": 0,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.49,
+          "quarter_enrolled": 108
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 21,
+            "A-": 6,
+            "B+": 0,
+            "B": 27,
+            "B-": 12,
+            "C+": 0,
+            "C": 21,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 123
+        }
+      }
+    },
+    {
+      "professor_name": "Joseph Teran",
+      "professor_slug": "joseph-teran",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 14,
+            "A-": 16,
+            "B+": 11,
+            "B": 7,
+            "B-": 6,
+            "C+": 13,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 76
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 14,
+            "A-": 16,
+            "B+": 11,
+            "B": 7,
+            "B-": 6,
+            "C+": 13,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 76
+        }
+      }
+    },
+    {
+      "professor_name": "Luze Xu",
+      "professor_slug": "luze-xu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 117,
+            "A-": 63,
+            "B+": 31,
+            "B": 50,
+            "B-": 37,
+            "C+": 18,
+            "C": 21,
+            "C-": 16,
+            "D+": 4,
+            "D": 13,
+            "D-": 6,
+            "F": 14,
+            "P*": 73,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 480
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 57,
+            "A-": 21,
+            "B+": 15,
+            "B": 9,
+            "B-": 18,
+            "C+": 9,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 6,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 192
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 30,
+            "B+": 12,
+            "B": 33,
+            "B-": 15,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 6,
+            "P*": 33,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 216
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 12,
+            "B+": 4,
+            "B": 8,
+            "B-": 4,
+            "C+": 3,
+            "C": 9,
+            "C-": 4,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 10,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 72
+        }
+      }
+    },
+    {
+      "professor_name": "Melissa Zhang",
+      "professor_slug": "melissa-zhang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 96,
+            "A-": 27,
+            "B+": 12,
+            "B": 12,
+            "B-": 0,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 192
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 96,
+            "A-": 27,
+            "B+": 12,
+            "B": 12,
+            "B-": 0,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 192
+        }
+      }
+    },
+    {
+      "professor_name": "Naoki Saito",
+      "professor_slug": "naoki-saito",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 9,
+            "B+": 7,
+            "B": 8,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 8,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 70
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 9,
+            "B+": 7,
+            "B": 8,
+            "B-": 6,
+            "C+": 6,
+            "C": 6,
+            "C-": 9,
+            "D+": 1,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 8,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 70
+        }
+      }
+    }
+  ]
+}

@@ -17,26 +17,26 @@
         "UWP 101",
         "UWP 101Y",
         "UWP 101V",
-        "UWP 102",
-        "UWP 104",
         "CMN 001",
         "CMN 001V",
         "COM 001",
         "COM 002",
         "COM 003",
         "COM 004",
-        "NAS 005",
-        "UWP 001",
-        "ENL 003",
-        "CMN 001",
-        "CMN 001V"
+        "NAS 005"
       ],
       "units": "4-8",
       "notes": [
-        "See College requirement.",
+        "See College requirement. (4-8 units)",
         "(1) Either two courses emphasizing written expression or one course emphasizing written expression and one course emphasizing oral expression, with a grade of C- (or P) or better. The following UC Davis courses satisfy this requirement:",
+        "Choose one:",
+        "UWP 102 series",
+        "UWP 104 series",
+        "AND one course selected from the courses not selected above, or:",
+        "(2) Advanced Placement English score of 4 of 5 PLUS any course listed in 1(a) or 1(b) above EXCEPT UWP 001 or ENL 003.",
         "(3) By successfully passing the English Composition Examination administered by the College of Letters & Science upon completion of 70 units of degree credit (the examination does not yield credit).",
-        "English Composition Requirement Subtotal"
+        "Must include CMN 001 or CMN 001V.",
+        "English Composition Requirement Subtotal (4-8 units)"
       ]
     },
     {
@@ -52,7 +52,7 @@
       "courses": [
         "CRD 020",
         "ANS 112",
-        "PLS 150"
+        "or PLS 150"
       ],
       "units": "4",
       "notes": []
@@ -77,11 +77,22 @@
       "heading": "Environmental Science & Policy",
       "courses": [
         "SAF 191A",
-        "SAF 191B"
+        "or ESP 191A",
+        "SAF 191B",
+        "or ESP 191B"
       ],
       "units": "3",
       "notes": [
-        "Core Courses Subtotal"
+        "Core Courses Subtotal (23-24 units)"
+      ]
+    },
+    {
+      "heading": "Internship Requirement",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "Students must complete at least 8 units of internship, which may be combined off-campus or on-campus units.",
+        "Internship Requirement Subtotal (8 units)"
       ]
     },
     {
@@ -89,6 +100,7 @@
       "courses": [
         "PLP 040",
         "PLS 049",
+        "PLS 131",
         "VEN 101A",
         "VEN 101B",
         "VEN 101C",
@@ -96,8 +108,6 @@
       ],
       "units": "2-3",
       "notes": [
-        "Students must complete at least 8 units of internship, which may be combined off-campus or on-campus units.",
-        "Internship Requirement Subtotal",
         "Choose one:"
       ]
     },
@@ -114,40 +124,52 @@
         "ANS 049G",
         "ANS 049H",
         "ANS 049I",
-        "ANS 049J",
+        "ANS 049J"
+      ],
+      "units": "2",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Animal Science",
+      "courses": [
         "ABT 049",
         "ABT 052",
         "ABT 101",
         "ABT/IAD 142",
         "FST 050"
       ],
-      "units": "2",
+      "units": "2-3",
       "notes": [
         "Choose one:",
-        "Choose one:",
-        "Applied Production Subtotal"
+        "Applied Production Subtotal (6-8 units)"
       ]
     },
     {
       "heading": "Tracks",
       "courses": [],
-      "units": "94-110",
+      "units": "92-110",
       "notes": [
         "Choose one track:",
         "Track I: Agriculture & Ecology",
         "Track II: Food & Society",
         "Track III: Economics & Policy",
-        "Tracks Subtotal"
+        "Tracks Subtotal (92-110 units)"
       ]
     },
     {
       "heading": "Mathematics",
       "courses": [
+        "MAT 016A",
+        "MAT 016B",
         "PLS 120",
-        "STA 100"
+        "or STA 100"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
@@ -156,7 +178,9 @@
         "CHE 002B"
       ],
       "units": "5",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -164,16 +188,24 @@
         "PHY 001A"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 002B",
-        "BIS 002C"
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 002"
       ],
-      "units": "5",
-      "notes": []
+      "units": "8-10",
+      "notes": [
+        "OR"
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Plant Science",
@@ -181,16 +213,20 @@
         "VEN 002"
       ],
       "units": "2",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Animal Science",
       "courses": [
         "ANS 001",
-        "ANS 002"
+        "or ANS 002"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Food Science & Technology",
@@ -198,17 +234,21 @@
         "FST 001"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY"
+        "or ECN 001AV",
+        "or ECN 001AY"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Community & Regional Development",
@@ -216,29 +256,43 @@
         "CRD 001"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
       "courses": [
         "PHI 014",
         "PHI 015",
-        "PHI 024",
-        "ANT 002",
-        "POL 001",
-        "POL 001Y",
-        "POL 004",
-        "SOC 001",
-        "SOC 001V",
-        "SOC 003",
-        "SOC 003V"
+        "PHI 024"
       ],
       "units": "4",
       "notes": [
+        "Choose one:"
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "ANT 002",
+        "POL 001",
+        "or POL 001Y",
+        "POL 004",
+        "SOC 001",
+        "or SOC 001V",
+        "SOC 003",
+        "or SOC 003V"
+      ],
+      "units": "4-5",
+      "notes": [
         "Choose one:",
-        "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (56-59 units)"
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Agricultural & Resource Economics",
@@ -252,7 +306,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Environmental Science & Policy",
@@ -264,13 +320,24 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Soil Science",
       "courses": [
         "SSC 100",
-        "SSC 109",
+        "or SSC 109"
+      ],
+      "units": "4-5",
+      "notes": [],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Soil Science",
+      "courses": [
         "ENT 119",
         "HYD/ESM/ABT 110",
         "PLS 105",
@@ -282,34 +349,59 @@
         "SSC 111",
         "SSC 112"
       ],
-      "units": "4-5",
+      "units": "6-8",
       "notes": [
         "Choose two:",
-        "Additional upper division restricted electives chosen in consultation with the track faculty advisor.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Additional upper division restricted electives chosen in consultation with the track faculty advisor. (20 units)",
+        "Depth Subject Matter Subtotal (36-41 units)"
+      ],
+      "group": "Track I: Agriculture & Ecology",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
       "courses": [
         "PHI 005",
-        "PHI 031",
+        "or PHI 031"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
         "PHI 014",
         "PHI 015",
         "PHI 024",
         "STA 013",
-        "STA 013Y",
-        "CRD 151",
-        "LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **",
-        "STA 103",
-        "SOC 106"
+        "or STA 013V",
+        "or STA 013Y"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Statistics",
+        "Statistics"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Philosophy",
+      "courses": [
+        "CRD 151",
+        "LED/ABT 150",
+        "LDA 150",
+        "STA 103",
+        "SOC 106"
+      ],
+      "units": "4-5",
+      "notes": [
         "Choose at least one:"
-      ]
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
@@ -317,29 +409,46 @@
         "CHE 002A"
       ],
       "units": "5",
-      "notes": []
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 002A",
-        "BIS 010"
+        "or BIS 010",
+        "or BIO 002"
       ],
       "units": "4-5",
-      "notes": []
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Plant Science",
       "courses": [
-        "PLS 002",
-        "BIS 002B",
-        "ESP 001",
-        "WFC 010"
+        "PLS 002"
       ],
       "units": "4",
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "BIS 002B",
+        "ESP 001",
+        "WFC 010",
+        "BIO 001"
+      ],
+      "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Food Science & Technology",
@@ -347,7 +456,9 @@
         "FST 001"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Soil Science",
@@ -355,44 +466,62 @@
         "SSC 010"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY"
+        "or ECN 001AV",
+        "or ECN 001AY"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Political Science",
       "courses": [
         "POL 001",
-        "POL 001Y",
-        "POL 004",
-        "ANT 002",
-        "SOC 001",
-        "SOC 001V",
-        "SOC 003",
-        "SOC 003V"
+        "or POL 001Y",
+        "or POL 004"
       ],
       "units": "4",
+      "notes": [],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "or SOC 001V",
+        "SOC 003",
+        "or SOC 003V"
+      ],
+      "units": "4-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Community & Regional Development",
       "courses": [
-        "CRD 001"
+        "CRD 001",
+        "CRD 002"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (62-67 units)"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Agricultural & Resource Economics",
@@ -400,54 +529,100 @@
         "ARE 112",
         "ARE 145",
         "ARE 147",
-        "ARE 150",
+        "ARE 150"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ARE 176",
         "ESP 160",
         "ESP 161",
         "ESP 169",
         "ESP 172",
-        "ESP 179",
+        "ESP 179"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ANT/ESP 101",
         "CRD 118",
         "CRD 142",
         "CRD 149",
         "CRD 152",
         "SOC 130",
-        "SOC 160",
+        "SOC 160"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose 12 units:"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "AMS 101G",
         "AMS 156",
         "HIS 108",
         "HIS 172",
         "NAS 123",
-        "NAS 123V",
+        "or NAS 123V",
         "NAS 162",
         "PHI 109",
         "WMS 104",
         "WMS 136"
       ],
-      "units": "4-5",
+      "units": "4",
       "notes": [
         "Choose one:",
-        "Choose one:",
-        "Choose 12 units:",
-        "Choose one:",
-        "Additional upper division restricted electives chosen in consultation with the track faculty advisor.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Additional upper division restricted electives chosen in consultation with the track faculty advisor. (20 units)",
+        "Depth Subject Matter Subtotal (43-45 units)"
+      ],
+      "group": "Track II: Food & Society",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
       "courses": [
+        "MAT 016A",
+        "MAT 016B",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
         "ARE 106",
         "STA 103",
         "SOC 106"
       ],
-      "units": "3",
+      "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
@@ -455,29 +630,46 @@
         "CHE 002A"
       ],
       "units": "5",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Biological Science",
       "courses": [
         "BIS 002A",
-        "BIS 010"
+        "or BIS 010",
+        "or BIO 002"
       ],
       "units": "4-5",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Plant Science",
       "courses": [
-        "PLS 002",
+        "PLS 002"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Plant Science",
+      "courses": [
+        "BIO 001",
         "BIS 002B",
         "ESP 001",
         "WFC 010"
       ],
-      "units": "4",
+      "units": "3-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Food Science & Technology",
@@ -485,7 +677,9 @@
         "FST 001"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Soil Science",
@@ -493,34 +687,49 @@
         "SSC 010"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Economics",
       "courses": [
         "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100AV",
         "ECN 100B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Political Science",
       "courses": [
         "POL 001",
-        "POL 001Y",
-        "POL 004",
-        "ANT 002",
-        "SOC 001",
-        "SOC 001V",
-        "SOC 003",
-        "SOC 003V"
+        "or POL 001Y",
+        "or POL 004"
       ],
       "units": "4",
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Political Science",
+      "courses": [
+        "ANT 002",
+        "SOC 001",
+        "or SOC 001V",
+        "SOC 003",
+        "or SOC 003V"
+      ],
+      "units": "4-5",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Community & Regional Development",
@@ -528,7 +737,9 @@
         "CRD 001"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy",
@@ -540,8 +751,10 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (60-64 units)"
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     },
     {
       "heading": "Agricultural & Resource Economics",
@@ -549,7 +762,18 @@
         "ARE 112",
         "ARE 145",
         "ARE 150",
-        "ARE 157",
+        "ARE 157"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ARE 120",
         "ARE 130",
         "ARE 147",
@@ -558,7 +782,18 @@
         "ESP 161",
         "ESP 169",
         "ESP 172",
-        "ESP 179",
+        "ESP 179"
+      ],
+      "units": "11-12",
+      "notes": [
+        "Choose 11-12 units:"
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ANT 101",
         "CRD 118",
         "CRD 142",
@@ -567,17 +802,23 @@
         "SOC 130",
         "SOC 160"
       ],
-      "units": "3-4",
+      "units": "8",
       "notes": [
-        "Choose one:",
-        "Choose 11-12 units:",
         "Choose 8 units:",
-        "Additional restricted electives chosen in consultation with an advisor.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Additional restricted electives chosen in consultation with an advisor. (20 units)",
+        "Depth Subject Matter Subtotal (42-44 units)"
+      ],
+      "group": "Track III: Economics & Policy",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Track I: Agriculture & Ecology",
+    "Track II: Food & Society",
+    "Track III: Economics & Policy"
+  ],
   "advising_notes": [],
-  "total_units": "135"
+  "total_units": "133",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.568Z"
 }

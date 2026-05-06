@@ -1,0 +1,255 @@
+{
+  "course_id": "SPH102",
+  "course_title": "Introduction to Human Epidemiology",
+  "overall_grades": {
+    "A+": 419,
+    "A": 525,
+    "A-": 300,
+    "B+": 221,
+    "B": 220,
+    "B-": 142,
+    "C+": 81,
+    "C": 75,
+    "C-": 29,
+    "D+": 13,
+    "D": 20,
+    "D-": 6,
+    "F": 30,
+    "NP*": 8,
+    "P*": 19
+  },
+  "overall_gpa": 3.4,
+  "overall_enrolled": 2108,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Loralyn Taylor",
+      "professor_slug": "loralyn-taylor",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 206,
+            "A": 333,
+            "A-": 180,
+            "B+": 108,
+            "B": 119,
+            "B-": 90,
+            "C+": 29,
+            "C": 47,
+            "C-": 20,
+            "D+": 9,
+            "D": 10,
+            "D-": 3,
+            "F": 9,
+            "NP*": 3,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 1168
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 144,
+            "A-": 87,
+            "B+": 57,
+            "B": 69,
+            "B-": 60,
+            "C+": 15,
+            "C": 30,
+            "C-": 6,
+            "D+": 9,
+            "D": 9,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 522
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 132,
+            "A-": 66,
+            "B+": 36,
+            "B": 33,
+            "B-": 21,
+            "C+": 9,
+            "C": 12,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 447
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 59,
+            "A": 57,
+            "A-": 27,
+            "B+": 15,
+            "B": 17,
+            "B-": 9,
+            "C+": 5,
+            "C": 5,
+            "C-": 2,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 199
+        }
+      }
+    },
+    {
+      "professor_name": "Lorena Garcia",
+      "professor_slug": "lorena-garcia",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 153,
+            "A": 144,
+            "A-": 87,
+            "B+": 62,
+            "B": 65,
+            "B-": 19,
+            "C+": 28,
+            "C": 19,
+            "C-": 3,
+            "D+": 4,
+            "D": 4,
+            "D-": 0,
+            "F": 9,
+            "P*": 8,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 607
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 43,
+            "A-": 26,
+            "B+": 27,
+            "B": 19,
+            "B-": 4,
+            "C+": 6,
+            "C": 5,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 167
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 69,
+            "A-": 42,
+            "B+": 21,
+            "B": 33,
+            "B-": 12,
+            "C+": 18,
+            "C": 12,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 279
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 70,
+            "A": 32,
+            "A-": 19,
+            "B+": 14,
+            "B": 13,
+            "B-": 3,
+            "C+": 4,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 161
+        }
+      }
+    },
+    {
+      "professor_name": "Veronica Pear",
+      "professor_slug": "veronica-pear",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 48,
+            "A-": 33,
+            "B+": 51,
+            "B": 36,
+            "B-": 33,
+            "C+": 24,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 12,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 333
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 48,
+            "A-": 33,
+            "B+": 51,
+            "B": 36,
+            "B-": 33,
+            "C+": 24,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 3,
+            "F": 12,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 333
+        }
+      }
+    }
+  ]
+}

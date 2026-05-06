@@ -8,7 +8,8 @@
     {
       "heading": "MUS 006 Series",
       "courses": [
-        "MUS 006AMUS 006B"
+        "MUS 006A",
+        "MUS 006B"
       ],
       "units": "6",
       "notes": []
@@ -16,42 +17,48 @@
     {
       "heading": "MUS 007 Series",
       "courses": [
-        "MUS 007AMUS 007BMUS 007C",
-        "MUS 013",
+        "MUS 007A",
+        "MUS 007B",
+        "MUS 007C",
         "MUS 013"
       ],
       "units": "9",
-      "notes": []
+      "notes": [
+        "MUS 013 may be excused by diagnostic examination at the beginning of each quarter."
+      ]
     },
     {
       "heading": "Music 016 Series",
       "courses": [
-        "MUS 016AMUS 016B",
         "MUS 016A",
         "MUS 016B"
       ],
       "units": "0-4",
-      "notes": []
+      "notes": [
+        "MUS 016A and/or MUS 016B may be excused by diagnostic examination at the beginning of each quarter"
+      ]
     },
     {
       "heading": "Music 017 Series",
       "courses": [
-        "MUS 017AMUS 017BMUS 017C",
         "MUS 017A",
         "MUS 017B",
         "MUS 017C"
       ],
       "units": "0-6",
-      "notes": []
+      "notes": [
+        "MUS 017A, MUS 017B, and/or MUS 017C courses may be excused by diagnostic examination at the beginning of each quarter"
+      ]
     },
     {
       "heading": "Music 024 Series",
       "courses": [
-        "MUS 024AMUS 024B"
+        "MUS 024A",
+        "MUS 024B"
       ],
       "units": "8",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (23-35 units)"
       ]
     },
     {
@@ -66,7 +73,7 @@
         "Track 4: Independent Track",
         "Composition Honors Track",
         "Music History, Theory & Ethnomusicology Honors Track",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (38-51 units)"
       ]
     },
     {
@@ -78,12 +85,18 @@
         "MUS 123",
         "MUS 124C",
         "MUS 124D",
-        "MUS 195",
+        "MUS 195"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track 1: Music Composition",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 121",
-        "MUS 122",
-        "MUS 121",
-        "MUS 122",
-        "MUS 131",
+        "or MUS 122",
         "MUS 131A",
         "MUS 131B",
         "MUS 131C",
@@ -103,7 +116,19 @@
         "MUS 131Q",
         "MUS 131R",
         "MUS 131U",
-        "MUS 131W",
+        "MUS 131W"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units from MUS 121 or MUS 122:",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Track 1: Music Composition",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -118,7 +143,18 @@
         "MUS 151",
         "MUS 152",
         "MUS 153",
-        "MUS 155",
+        "MUS 155"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose at least 6 units of ensembles:"
+      ],
+      "group": "Track 1: Music Composition",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 102",
         "MUS 105",
         "MUS 106",
@@ -141,7 +177,7 @@
         "MUS 122",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
@@ -149,11 +185,12 @@
         "MUS 192",
         "MUS 199"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose at least 6 units of ensembles:",
         "Choose at least 4 units of electives:"
-      ]
+      ],
+      "group": "Track 1: Music Composition",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -161,12 +198,18 @@
         "MUS 123",
         "MUS 124C",
         "MUS 124D",
-        "MUS 195",
+        "MUS 195"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track 2: Music History, Theory, & Ethnomusicology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 121",
-        "MUS 122",
-        "MUS 121",
-        "MUS 122",
-        "MUS 131",
+        "or MUS 122",
         "MUS 131A",
         "MUS 131B",
         "MUS 131C",
@@ -186,7 +229,19 @@
         "MUS 131Q",
         "MUS 131R",
         "MUS 131U",
-        "MUS 131W",
+        "MUS 131W"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units from MUS 121 or MUS 122:",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Track 2: Music History, Theory, & Ethnomusicology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -201,7 +256,18 @@
         "MUS 151",
         "MUS 152",
         "MUS 153",
-        "MUS 155",
+        "MUS 155"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose at least 6 units of ensembles:"
+      ],
+      "group": "Track 2: Music History, Theory, & Ethnomusicology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 101A",
         "MUS 101B",
         "MUS 102",
@@ -227,7 +293,7 @@
         "MUS 122",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
@@ -235,11 +301,12 @@
         "MUS 192",
         "MUS 199"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose at least 6 units of ensembles:",
         "Choose at least 12 units of electives:"
-      ]
+      ],
+      "group": "Track 2: Music History, Theory, & Ethnomusicology",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -247,12 +314,18 @@
         "MUS 123",
         "MUS 124C",
         "MUS 124D",
-        "MUS 195",
+        "MUS 195"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Track 3: Music Performance",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 121",
-        "MUS 122",
-        "MUS 121",
-        "MUS 122",
-        "MUS 131",
+        "or MUS 122",
         "MUS 131A",
         "MUS 131B",
         "MUS 131C",
@@ -272,7 +345,19 @@
         "MUS 131Q",
         "MUS 131R",
         "MUS 131U",
-        "MUS 131W",
+        "MUS 131W"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units from MUS 121 or MUS 122:",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Track 3: Music Performance",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -287,7 +372,18 @@
         "MUS 151",
         "MUS 152",
         "MUS 153",
-        "MUS 155",
+        "MUS 155"
+      ],
+      "units": "13",
+      "notes": [
+        "Choose at least 13 units of ensembles:"
+      ],
+      "group": "Track 3: Music Performance",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 101A",
         "MUS 101B",
         "MUS 102",
@@ -313,7 +409,7 @@
         "MUS 122",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
@@ -321,11 +417,12 @@
         "MUS 192",
         "MUS 199"
       ],
-      "units": "Units",
+      "units": "6",
       "notes": [
-        "Choose at least 13 units of ensembles:",
         "Choose at least 6 units of electives:"
-      ]
+      ],
+      "group": "Track 3: Music Performance",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -334,7 +431,6 @@
         "MUS 124C",
         "MUS 124D",
         "MUS 195",
-        "MUS 131",
         "MUS 131A",
         "MUS 131C",
         "MUS 131E",
@@ -351,7 +447,19 @@
         "MUS 131P",
         "MUS 131Q",
         "MUS 131R",
-        "MUS 131U",
+        "MUS 131U"
+      ],
+      "units": "14",
+      "notes": [
+        "Core Academic Courses (14 units)",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Track 4: Independent Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -364,7 +472,18 @@
         "MUS 149",
         "MUS 150",
         "MUS 152",
-        "MUS 153",
+        "MUS 153"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose at least 6 units of ensembles:"
+      ],
+      "group": "Track 4: Independent Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 101A",
         "MUS 101B",
         "MUS 102",
@@ -397,12 +516,12 @@
         "MUS 129D",
         "MUS 192"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Core Academic Courses",
-        "Choose at least 6 units of ensembles:",
         "Choose at least 12 units of electives:"
-      ]
+      ],
+      "group": "Track 4: Independent Track",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -412,12 +531,18 @@
         "MUS 103",
         "MUS 123",
         "MUS 124C",
-        "MUS 124D",
+        "MUS 124D"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Composition Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 121",
-        "MUS 122",
-        "MUS 121",
-        "MUS 122",
-        "MUS 131",
+        "or MUS 122",
         "MUS 131A",
         "MUS 131B",
         "MUS 131C",
@@ -437,7 +562,19 @@
         "MUS 131Q",
         "MUS 131R",
         "MUS 131U",
-        "MUS 131W",
+        "MUS 131W"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units from MUS 121 or MUS 122:",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Composition Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -454,7 +591,19 @@
         "MUS 153",
         "MUS 155",
         "MUS 194HA",
-        "MUS 194HB",
+        "MUS 194HB"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose at least 6 units of ensembles:",
+        "Two quarters of Music 194H for a total of at least 6 units resulting in a senior thesis:"
+      ],
+      "group": "Composition Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 102",
         "MUS 105",
         "MUS 106",
@@ -477,7 +626,7 @@
         "MUS 122",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
@@ -485,24 +634,30 @@
         "MUS 192",
         "MUS 199"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose at least 6 units of ensembles:",
-        "Two quarters of Music 194H for a total of at least 6 units resulting in a senior thesis:",
         "Choose at least 4 units of electives:"
-      ]
+      ],
+      "group": "Composition Honors Track",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "MUS 123",
         "MUS 124C",
-        "MUS 124D",
+        "MUS 124D"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Music History, Theory & Ethnomusicology Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 121",
-        "MUS 122",
-        "MUS 121",
-        "MUS 122",
-        "MUS 131",
+        "or MUS 122",
         "MUS 131B",
         "MUS 131C",
         "MUS 131D",
@@ -521,7 +676,19 @@
         "MUS 131Q",
         "MUS 131R",
         "MUS 131U",
-        "MUS 131W",
+        "MUS 131W"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units from MUS 121 or MUS 122:",
+        "MUS 131 Lessons (three quarters):"
+      ],
+      "group": "Music History, Theory & Ethnomusicology Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 140",
         "MUS 141",
         "MUS 142",
@@ -538,7 +705,19 @@
         "MUS 153",
         "MUS 155",
         "MUS 194HA",
-        "MUS 194HB",
+        "MUS 194HB"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose at least 6 units of ensembles:",
+        "Two quarters of Music 194H for a total of at least 6 units resulting in a senior thesis:"
+      ],
+      "group": "Music History, Theory & Ethnomusicology Honors Track",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MUS 101A",
         "MUS 101B",
         "MUS 102",
@@ -564,7 +743,7 @@
         "MUS 122",
         "MUS 126",
         "MUS 127/SPA 171",
-        "MUS 127S/SPA 171S DISCONTINUED FOR SUMMER 2026 **",
+        "or MUS 127S/SPA 171S",
         "MUS 129A",
         "MUS 129B",
         "MUS 129C",
@@ -572,18 +751,27 @@
         "MUS 192",
         "MUS 199"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
-        "Choose at least 6 units of ensembles:",
-        "Two quarters of Music 194H for a total of at least 6 units resulting in a senior thesis:",
         "Choose at least 12 units:"
-      ]
+      ],
+      "group": "Music History, Theory & Ethnomusicology Honors Track",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Track 1: Music Composition",
+    "Track 2: Music History, Theory, & Ethnomusicology",
+    "Track 3: Music Performance",
+    "Track 4: Independent Track",
+    "Composition Honors Track",
+    "Music History, Theory & Ethnomusicology Honors Track"
+  ],
   "advising_notes": [
     "Study Abroad & the Music Major: The department encourages students to pursue a portion of their studies abroad. In close collaboration with their undergraduate advisors, students plan a course of study abroad that complements their coursework at Davis. UC Davis Music Majors have completed upper division coursework at EAP partner institutions in Australia, England, France, Germany, and Italy.",
-    "Honors: A student becomes eligible for graduation with honors by meeting the minimum GPA and course requirements established by the College of Letters & Science. To qualify for high or highest honors, students must also complete the Music Department honors program with a GPA of 3.500 or above and write a thesis or submit a portfolio that meets the criteria for high honors or highest honors. Students apply to participate in the department honors program during the latter part of their junior year. Admiss"
+    "Honors: A student becomes eligible for graduation with honors by meeting the minimum GPA and course requirements established by the College of Letters & Science. To qualify for high or highest honors, students must also complete the Music Department honors program with a GPA of 3.500 or above and write a thesis or submit a portfolio that meets the criteria for high honors or highest honors. Students apply to participate in the department honors program during the latter part of their junior year. Admission to the program is based on GPA, a thesis proposal, examples of previous writing, and the recommendation of a faculty member who is willing to sponsor the student's project. Students who anticipate seeking admission to the honors program are urged to complete at least one offering of MUS 121 or M"
   ],
-  "total_units": "61"
+  "total_units": "61",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.753Z"
 }

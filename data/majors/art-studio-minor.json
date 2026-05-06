@@ -8,19 +8,29 @@
     {
       "heading": "General Requirements",
       "courses": [
+        "ART 101A",
+        "ART 101B",
+        "ART 101C",
+        "ART 101D",
+        "ART 101E",
         "ART 102A",
         "ART 102C",
+        "ART 103AN",
+        "ART 103BN",
         "ART 103C",
         "ART 105A",
+        "ART 105B",
         "ART 125A",
         "ART 125B",
         "ART 125C",
         "ART 125D",
+        "ART 125E",
         "ART 129",
         "ART/CHI 171",
         "ART 142A",
         "ART 142B",
         "ART 142C",
+        "ART 142D",
         "ART 143",
         "ART 151",
         "ART 152A",
@@ -32,23 +42,34 @@
         "ART 152G",
         "ART 110A",
         "ART 110B",
+        "ART 110C",
         "ART 111A",
         "ART 111B",
+        "ART 112",
         "ART 114A",
         "ART 114B",
         "ART 114C",
-        "ART 117"
+        "ART 117",
+        "ART 150",
+        "ART 113",
+        "ART 138",
+        "ART 148",
+        "ART 149",
+        "ART 190"
       ],
-      "units": "Units",
+      "units": "20",
       "notes": [
         "Upper division Art Studio courses in two of the following areas:",
         "Area 1; Painting, Drawing, Printmaking",
         "Area 2; Sculpture & Ceramic Sculpture",
-        "Area 3; Photography & Video"
+        "Area 3; Photography & Video",
+        "Area 4: Interdisciplinary"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.050Z"
 }

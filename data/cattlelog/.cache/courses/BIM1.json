@@ -1,0 +1,186 @@
+{
+  "course_id": "BIM1",
+  "course_title": "Introduction to Biomedical Engineering",
+  "overall_grades": {
+    "A+": 372,
+    "A": 915,
+    "A-": 326,
+    "B+": 98,
+    "B": 91,
+    "B-": 32,
+    "C+": 10,
+    "C": 4,
+    "C-": 0,
+    "D+": 3,
+    "D": 3,
+    "D-": 0,
+    "F": 0,
+    "P*": 18
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 1872,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Angelique Louie",
+      "professor_slug": "angelique-louie",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 672,
+            "A-": 234,
+            "B+": 69,
+            "B": 75,
+            "B-": 21,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 1104
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 363,
+            "A-": 93,
+            "B+": 12,
+            "B": 18,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 498
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 309,
+            "A-": 141,
+            "B+": 57,
+            "B": 57,
+            "B-": 21,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 606
+        }
+      }
+    },
+    {
+      "professor_name": "Jennifer Choi",
+      "professor_slug": "jennifer-choi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 336,
+            "A": 195,
+            "A-": 42,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 618
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 336,
+            "A": 195,
+            "A-": 42,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 618
+        }
+      }
+    },
+    {
+      "professor_name": "Xianglong Wang",
+      "professor_slug": "xianglong-wang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 48,
+            "A-": 50,
+            "B+": 14,
+            "B": 7,
+            "B-": 5,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 150
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 48,
+            "A-": 50,
+            "B+": 14,
+            "B": 7,
+            "B-": 5,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 150
+        }
+      }
+    }
+  ]
+}

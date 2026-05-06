@@ -9,27 +9,32 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "ITA 001",
+        "or ITA 001Y",
         "ITA 002",
+        "or ITA 002Y",
         "ITA 003",
-        "ITA 031",
-        "ITA 031Y",
+        "or ITA 003Y",
+        "or ITA 031",
+        "or ITA 031Y",
         "ITA 032",
-        "ITA 032Y",
+        "or ITA 032Y",
         "ITA 021",
         "ITA 022",
         "ITA 023"
       ],
       "units": "0-30",
       "notes": [
+        "OR",
+        "AND",
         "The equivalent.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-30 units)"
       ]
     },
     {
       "heading": "Core Subject Matter",
       "courses": [
-        "ITA 101",
-        "ITA 101S",
+        "or ITA 101",
+        "or ITA 101S",
         "ITA 102",
         "ITA 103",
         "ITA 104",
@@ -42,15 +47,10 @@
     },
     {
       "heading": "Expanded Subject Matter",
-      "courses": [
-        "ITA 101",
-        "ITA 102",
-        "ITA 103",
-        "ITA 104",
-        "ITA 105"
-      ],
+      "courses": [],
       "units": "8",
       "notes": [
+        "Choose two additional upper division courses taught in Italian (100 or higher), including ITA 101, ITA 102, ITA 103, ITA 104 and ITA 105 when not used to satisfy Core Subject Matter. (8 units)",
         "Italian (ITA) courses."
       ]
     },
@@ -59,15 +59,17 @@
       "courses": [],
       "units": "20",
       "notes": [
-        "Choose five other upper division (100 or higher) Italian courses; courses in other departments that focus on Italian history, culture, and thought may be counted upon petition to the faculty advisor.",
+        "Choose five other upper division (100 or higher) Italian courses. Courses in other departments that focus on Italian history, culture, and thought may be counted upon petition to the faculty advisor. (20 units)",
         "Italian (ITA) courses.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (36 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors & Honors Program: Candidates for high or highest honors in Italian must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in ITA 194H (3 units) and ITA 195H (3 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in c"
+    "Honors & Honors Program: Candidates for high or highest honors in Italian must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in ITA 194H (3 units) and ITA 195H (3 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in courses required for the major will be eligible for the honors program."
   ],
-  "total_units": "36"
+  "total_units": "36",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.322Z"
 }

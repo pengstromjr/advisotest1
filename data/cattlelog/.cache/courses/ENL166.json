@@ -1,0 +1,97 @@
+{
+  "course_id": "ENL166",
+  "course_title": "Love & Desire in Contemporary American Poetry",
+  "overall_grades": {
+    "A+": 15,
+    "A": 228,
+    "A-": 120,
+    "B+": 39,
+    "B": 6,
+    "B-": 3,
+    "C+": 9,
+    "C": 3,
+    "C-": 0,
+    "D+": 3,
+    "D": 3,
+    "D-": 3,
+    "F": 15,
+    "P*": 15,
+    "NP*": 3
+  },
+  "overall_gpa": 3.59,
+  "overall_enrolled": 465,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Margaret Ronda",
+      "professor_slug": "margaret-ronda",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 228,
+            "A-": 120,
+            "B+": 39,
+            "B": 6,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 15,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 465
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 120,
+            "A-": 69,
+            "B+": 21,
+            "B": 0,
+            "B-": 3,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 234
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 108,
+            "A-": 51,
+            "B+": 18,
+            "B": 6,
+            "B-": 0,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 9,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 231
+        }
+      }
+    }
+  ]
+}

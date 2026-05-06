@@ -49,19 +49,29 @@
         "HIN 022",
         "HIN 023",
         "HND 001",
+        "or HIN 001",
         "HND 002",
-        "HND 003"
+        "or HIN 002",
+        "HND 003",
+        "or HIN 003"
       ],
       "units": "8-35",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (8-35 units)"
       ]
     },
     {
       "heading": "Middle East & South Asia",
       "courses": [
         "MSA 100",
-        "MSA 180",
+        "MSA 180"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Middle East & South Asia",
+      "courses": [
         "ANT 142",
         "COM 166",
         "HIS 113",
@@ -70,19 +80,28 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "POL 135",
         "POL 136",
         "RST 160",
         "RST 162",
-        "WMS 184",
+        "WMS 184"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Middle East & South Asia",
+      "courses": [
         "ANT 145",
         "HIS 102Q",
         "HIS 196A",
         "HIS 196B"
       ],
-      "units": "4",
+      "units": "8",
       "notes": [
-        "Choose two:",
         "Choose 8 units:"
       ]
     },
@@ -91,10 +110,10 @@
       "courses": [],
       "units": "16-18",
       "notes": [
-        "Additional Electives",
+        "Additional Electives (16-18 units)",
         "Note: With prior consultation with an advisor, students can petition in the Program Committee in advance to accept other elective courses toward the major program, including language courses.",
-        "Note: While some courses are identified as fulfilling more than one requirement, a given course can only fulfill one such requirement.",
-        "Depth Subject Matter Subtotal"
+        "Note: While some courses are identified as fulfilling more than one requirement, a given course can only fulfill one such requirement. 1",
+        "Depth Subject Matter Subtotal (40-42 units)"
       ]
     },
     {
@@ -133,11 +152,15 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "HIS 196A",
         "HIS 196B",
         "HND 001",
+        "or HIN 001",
         "HND 002",
+        "or HIN 002",
         "HND 003",
+        "or HIN 003",
         "MSA 092",
         "MSA 098",
         "MSA 099",
@@ -159,11 +182,13 @@
         "RST 162",
         "WMS 184"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "48"
+  "total_units": "48",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.673Z"
 }

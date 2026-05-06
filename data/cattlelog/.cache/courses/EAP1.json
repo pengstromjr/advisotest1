@@ -1,0 +1,93 @@
+{
+  "course_id": "EAP1",
+  "course_title": "Global Thinking",
+  "overall_grades": {
+    "A+": 51,
+    "A": 54,
+    "A-": 13,
+    "B+": 5,
+    "B": 7,
+    "B-": 3,
+    "C+": 4,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 4,
+    "P*": 2
+  },
+  "overall_gpa": 3.71,
+  "overall_enrolled": 143,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eleftheria Arapoglou",
+      "professor_slug": "eleftheria-arapoglou",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 54,
+            "A-": 13,
+            "B+": 5,
+            "B": 7,
+            "B-": 3,
+            "C+": 4,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 143
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 30,
+            "A-": 9,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 84
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 24,
+            "A-": 4,
+            "B+": 2,
+            "B": 4,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 59
+        }
+      }
+    }
+  ]
+}

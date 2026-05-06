@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Native American Studies",
+    "firstName": "Karen",
+    "id": "VGVhY2hlci0zMDcwMDU3",
+    "lastName": "Vang",
+    "legacyId": 3070057,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.2,
+    "avgRating": 5,
+    "department": "Music",
+    "firstName": "Sun",
+    "id": "VGVhY2hlci0zMDc5OTM0",
+    "lastName": "Vang",
+    "legacyId": 3079934,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

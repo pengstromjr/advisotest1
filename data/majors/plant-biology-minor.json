@@ -6,6 +6,15 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "18",
+      "notes": [
+        "Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.",
+        "Upper division units, including at least one course from each of the following four groups:"
+      ]
+    },
+    {
       "heading": "(a) Anatomy & Morphology",
       "courses": [
         "EVE 140",
@@ -13,10 +22,7 @@
         "PLB/PLS 116"
       ],
       "units": "",
-      "notes": [
-        "Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.",
-        "Upper division units, including at least one course from each of the following four groups:"
-      ]
+      "notes": []
     },
     {
       "heading": "(b) Physiology & Development",
@@ -34,6 +40,9 @@
       "courses": [
         "EVE 100",
         "PLB/EVE 117",
+        "PLB 127",
+        "PLS 127",
+        "EVE 127",
         "PLB 143"
       ],
       "units": "",
@@ -50,11 +59,13 @@
         "PLS 171",
         "PLS 172"
       ],
-      "units": "18",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.958Z"
 }

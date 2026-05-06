@@ -9,51 +9,80 @@
       "heading": "General Requirements",
       "courses": [
         "ANS 015",
-        "ANS 042",
-        "ANS 041",
-        "ANS 041L",
-        "ANS 021",
-        "ANS 041",
-        "ANS 015",
-        "ANS 042",
-        "ANS 041041L",
-        "ANS 021ANS 041",
-        "ANS 103",
-        "ANS 104",
-        "ANS 123",
-        "ANS 124",
-        "NPB 121",
-        "NPB 121L",
-        "ANS 123",
-        "ANS 124",
-        "NPB 121121L",
-        "NPB 121",
-        "NPB 121L",
-        "NUT 115"
+        "or ANS 042",
+        "or ANS 041",
+        "or ANS 021"
       ],
-      "units": "Units",
+      "units": "3-4",
       "notes": [
-        "Choose one:",
-        "Choose additional units to complete the 20-unit total:",
+        "Choose ANS 015 or ANS 042, or ANS 041 & ANS 041L, or ANS 021 & ANS 041:",
+        "OR"
+      ],
+      "group": "Animal Science—Animal Biology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 103",
+        "ANS 104"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Animal Science—Animal Biology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "ANS 123",
+        "or ANS 124",
+        "or NPB 121"
+      ],
+      "units": "5-8",
+      "notes": [
+        "Choose ANS 123 or ANS 124, or NPB 121 & NPB 121L:",
+        "OR"
+      ],
+      "group": "Animal Science—Animal Biology",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
+        "NPB 121",
+        "NPB 121L",
+        "NUT 115",
+        "NUT 122",
+        "NUT 123",
+        "NUT 123L"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose additional units to complete the 20-unit total: 1",
         "Upper Division Animal Science (ANS) courses.",
         "Animal Genetics (ANG) courses."
-      ]
+      ],
+      "group": "Animal Science—Animal Biology",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANS 015",
         "ANS 042",
-        "ANS 041",
-        "ANS 041L",
-        "ANS 021",
-        "ANS 041",
-        "ANS 015ANS 042",
-        "ANS 041041L",
-        "ANS 021ANS 041"
+        "or ANS 041",
+        "or ANS 021"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4-7",
+      "notes": [
+        "Choose ANS 015 or ANS 042, or ANS 041 & ANS 041L, or ANS 021 & ANS 041 (4-7 units)",
+        "OR"
+      ],
+      "group": "Animal Science—Animal Genetics",
+      "group_kind": "path"
     },
     {
       "heading": "Animal Genetics",
@@ -62,7 +91,9 @@
         "ANG 111"
       ],
       "units": "9",
-      "notes": []
+      "notes": [],
+      "group": "Animal Science—Animal Genetics",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Upper Division Courses",
@@ -70,82 +101,145 @@
         "AVS 103",
         "NPB 121",
         "NPB 121L",
-        "NUT 115"
+        "NUT 115",
+        "NUT 122",
+        "NUT 123",
+        "NUT 123L"
       ],
       "units": "7-8",
       "notes": [
-        "Choose additional units to complete the 20-unit total:",
+        "Choose additional units to complete the 20-unit total: 1",
         "Upper Division Animal Science (ANS) courses.",
         "Animal Genetics (ANG) courses."
-      ]
+      ],
+      "group": "Animal Science—Animal Genetics",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANS 018",
         "ANS 118",
-        "ANS 119",
+        "ANS 119"
+      ],
+      "units": "4",
+      "notes": [
+        "Additional upper division courses. (8 units)"
+      ],
+      "group": "Animal Science—Aquaculture",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ABT 161",
         "NUT 124",
         "WFC 121"
       ],
-      "units": "Units",
+      "units": "",
       "notes": [
-        "Additional upper division courses.",
-        "Choose additional units to complete the 20-unit total:",
+        "Choose additional units to complete the 20-unit total: 1",
         "Upper Division Animal Science (ANS) courses.",
         "Animal Genetics (ANG) courses."
-      ]
+      ],
+      "group": "Animal Science—Aquaculture",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANS 041",
-        "ANS 041L",
-        "ANS 021",
-        "ANS 041",
-        "ANS 041041L",
-        "ANS 021ANS 041",
-        "ANS 104",
+        "or ANS 021",
+        "or ANS 041",
+        "ANS 104"
+      ],
+      "units": "2-4",
+      "notes": [
+        "Choose ANS 041 & ANS 041L, or ANS 021 & ANS 041:",
+        "OR",
+        "Additional upper division courses. (12 units)"
+      ],
+      "group": "Animal Science—Dairy/Livestock",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANS 143",
         "ANS 144",
-        "ANS 146",
+        "ANS 146"
+      ],
+      "units": "4-8",
+      "notes": [
+        "Choose 4 or 8 units:"
+      ],
+      "group": "Animal Science—Dairy/Livestock",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "NPB 121",
         "NPB 121L",
-        "NUT 115"
+        "NUT 115",
+        "NUT 122",
+        "NUT 123",
+        "NUT 123L"
       ],
-      "units": "Units",
+      "units": "",
       "notes": [
-        "Additional upper division courses.",
-        "Choose 4 or 8 units:",
-        "Choose additional units to complete the 20 unit total:",
+        "Choose additional units to complete the 20 unit total: 1",
         "Upper Division Animal Science (ANS) courses.",
         "Animal Genetics (ANG) courses."
-      ]
+      ],
+      "group": "Animal Science—Dairy/Livestock",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANS 015",
         "ANS 103",
-        "ANS 104",
+        "or ANS 104",
         "ANS 115",
         "ANS 141",
         "ANS 125",
-        "ANS 126",
+        "or ANS 126"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Animal Science—Equine",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "NPB 121",
         "NPB 121L",
-        "NUT 115"
+        "NUT 115",
+        "NUT 122",
+        "NUT 123",
+        "NUT 123L"
       ],
-      "units": "Units",
+      "units": "2-3",
       "notes": [
-        "Choose additional units to complete the 20 unit total:",
+        "Choose additional units to complete the 20 unit total: 1",
         "Upper Division Animal Science (ANS) courses.",
         "Animal Genetics (ANG) courses."
-      ]
+      ],
+      "group": "Animal Science—Equine",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Animal Science—Animal Biology",
+    "Animal Science—Animal Genetics",
+    "Animal Science—Aquaculture",
+    "Animal Science—Dairy/Livestock",
+    "Animal Science—Equine"
+  ],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.382Z"
 }

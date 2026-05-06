@@ -1,0 +1,138 @@
+{
+  "course_id": "HIS109",
+  "course_title": "Environmental Change, Disease & Public Health",
+  "overall_grades": {
+    "A+": 54,
+    "A": 46,
+    "A-": 29,
+    "B+": 27,
+    "B": 46,
+    "B-": 46,
+    "C+": 12,
+    "C": 19,
+    "C-": 14,
+    "D+": 3,
+    "D": 0,
+    "D-": 3,
+    "F": 16,
+    "P*": 15,
+    "NP*": 6
+  },
+  "overall_gpa": 3.03,
+  "overall_enrolled": 336,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Diana Davis",
+      "professor_slug": "diana-davis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 46,
+            "A-": 29,
+            "B+": 27,
+            "B": 46,
+            "B-": 46,
+            "C+": 12,
+            "C": 19,
+            "C-": 14,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 16,
+            "P*": 15,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 336
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 9,
+            "A-": 12,
+            "B+": 9,
+            "B": 15,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 93
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 15,
+            "A-": 12,
+            "B+": 12,
+            "B": 18,
+            "B-": 12,
+            "C+": 6,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 105
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 15,
+            "A-": 3,
+            "B+": 3,
+            "B": 12,
+            "B-": 15,
+            "C+": 6,
+            "C": 18,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 99
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 7,
+            "A-": 2,
+            "B+": 3,
+            "B": 1,
+            "B-": 4,
+            "C+": 0,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 7,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 39
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "course_id": "ECH158AN",
+  "course_title": "Separations & Unit Operations",
+  "overall_grades": {
+    "A+": 2,
+    "A": 18,
+    "A-": 21,
+    "B+": 13,
+    "B": 20,
+    "B-": 10,
+    "C+": 19,
+    "C": 3,
+    "C-": 12,
+    "D+": 5,
+    "D": 3,
+    "D-": 4,
+    "F": 1
+  },
+  "overall_gpa": 2.82,
+  "overall_enrolled": 131,
+  "available_quarters": [
+    "Fall_2025",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Matt Ellis",
+      "professor_slug": "matt-ellis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 18,
+            "A-": 21,
+            "B+": 13,
+            "B": 20,
+            "B-": 10,
+            "C+": 19,
+            "C": 3,
+            "C-": 12,
+            "D+": 5,
+            "D": 3,
+            "D-": 4,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 131
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 8,
+            "A-": 7,
+            "B+": 6,
+            "B": 9,
+            "B-": 5,
+            "C+": 9,
+            "C": 0,
+            "C-": 2,
+            "D+": 2,
+            "D": 2,
+            "D-": 3,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 55
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 10,
+            "A-": 14,
+            "B+": 7,
+            "B": 11,
+            "B-": 5,
+            "C+": 10,
+            "C": 3,
+            "C-": 10,
+            "D+": 3,
+            "D": 1,
+            "D-": 1,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 76
+        }
+      }
+    }
+  ]
+}

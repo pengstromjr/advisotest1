@@ -11,14 +11,22 @@
         "ENT 100",
         "ENT 100L",
         "ENT 104",
-        "ENT 105",
+        "or ENT 105"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ENT 103",
         "ENT 107",
         "ENT 109",
         "ENT 158",
-        "ESP 121"
+        "ESP 121",
+        "or EVE 149"
       ],
-      "units": "Units",
+      "units": "7-9",
       "notes": [
         "Choose at least 7 units:"
       ]
@@ -26,5 +34,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.233Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "Psychology",
+    "firstName": "Petr",
+    "id": "VGVhY2hlci04MzM1OTQ=",
+    "lastName": "Janata",
+    "legacyId": 833594,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  }
+]

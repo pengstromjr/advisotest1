@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.7,
+    "department": "Physics",
+    "firstName": "Veronika",
+    "id": "VGVhY2hlci0yNjA3NTAw",
+    "lastName": "Hubeny",
+    "legacyId": 2607500,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 54.5455
+  }
+]

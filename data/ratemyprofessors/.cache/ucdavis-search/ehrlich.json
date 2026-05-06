@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Environmental Toxicology",
+    "firstName": "Allison",
+    "id": "VGVhY2hlci0zMDg3OTQw",
+    "lastName": "Ehrlich",
+    "legacyId": 3087940,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

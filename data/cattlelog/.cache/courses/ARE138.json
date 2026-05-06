@@ -1,0 +1,119 @@
+{
+  "course_id": "ARE138",
+  "course_title": "International Commodity & Resource Markets",
+  "overall_grades": {
+    "A+": 9,
+    "A": 33,
+    "A-": 45,
+    "B+": 57,
+    "B": 66,
+    "B-": 57,
+    "C+": 57,
+    "C": 42,
+    "C-": 33,
+    "D+": 9,
+    "D": 9,
+    "D-": 0,
+    "F": 9,
+    "P*": 6,
+    "NP*": 12
+  },
+  "overall_gpa": 2.74,
+  "overall_enrolled": 444,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jeffrey Williams",
+      "professor_slug": "jeffrey-williams",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 33,
+            "A-": 45,
+            "B+": 57,
+            "B": 66,
+            "B-": 57,
+            "C+": 57,
+            "C": 42,
+            "C-": 33,
+            "D+": 9,
+            "D": 9,
+            "D-": 0,
+            "F": 9,
+            "P*": 6,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 444
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 15,
+            "A-": 12,
+            "B+": 9,
+            "B": 27,
+            "B-": 15,
+            "C+": 9,
+            "C": 9,
+            "C-": 9,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 126
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 3,
+            "B+": 15,
+            "B": 12,
+            "B-": 15,
+            "C+": 21,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 108
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 30,
+            "B+": 33,
+            "B": 27,
+            "B-": 27,
+            "C+": 27,
+            "C": 15,
+            "C-": 21,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 210
+        }
+      }
+    }
+  ]
+}

@@ -8,13 +8,22 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -27,7 +36,9 @@
         "MAT 022B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -36,8 +47,10 @@
       ],
       "units": "3",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (44-50 units)"
+      ],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -51,10 +64,12 @@
         "PHY 116A",
         "PHY 116B",
         "PHY 102",
-        "PHY 104B"
+        "or PHY 104B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
@@ -66,34 +81,50 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Atmospheric Science",
+      "courses": [
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Concentration Courses",
       "courses": [
         "PHY 105C",
-        "ATM 120",
-        "ATM 121A",
-        "ATM 121B",
-        "GEL/ESP 150A"
+        "GEL/ESP/EPS 150A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Electives",
       "courses": [
-        "PHY 104B",
-        "PHY 116C",
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
         "ATM 128",
+        "GEL 116N",
+        "or EPS 116",
         "MAT 118A",
-        "MAT 118B"
+        "MAT 118B",
+        "PHY 104B",
+        "PHY 116C"
       ],
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
@@ -101,19 +132,30 @@
       "units": "60-64",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (60-64 units)"
+      ],
+      "group": "Applied Physics—Atmospheric Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -126,7 +168,9 @@
         "MAT 022B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -134,7 +178,9 @@
         "PHY 040"
       ],
       "units": "3",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Chemistry",
@@ -145,8 +191,10 @@
       ],
       "units": "5",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (59-65 units)"
+      ],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -158,11 +206,14 @@
         "PHY 110B",
         "PHY 112",
         "PHY 115A",
+        "PHY 115B",
         "PHY 116A",
         "PHY 116B"
       ],
       "units": "1",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
@@ -174,17 +225,20 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Concentration Courses",
       "courses": [
-        "PHY 115B",
         "PHY 140A",
         "CHE 124A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
@@ -192,19 +246,30 @@
       "units": "48",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (48 units)"
+      ],
+      "group": "Applied Physics—Chemical Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE"
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -217,18 +282,23 @@
         "MAT 022B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 036A",
-        "ECS 036B"
+        "ECS 036B",
+        "ECS 036C"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (53-59 units)"
+      ],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -240,21 +310,33 @@
         "PHY 112",
         "PHY 115A",
         "PHY 116A",
-        "PHY 116B"
+        "PHY 104B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
-      "heading": "Concentration Courses",
+      "heading": "Laboratory Requirement",
       "courses": [
-        "PHY 104B",
-        "PHY 116C",
-        "ECS 036C",
+        "PHY 116B",
+        "PHY 116C"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Computer Science Engineering",
+      "courses": [
         "ECS 122A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Electives",
@@ -275,29 +357,42 @@
         "Computer Science",
         "Mathematics",
         "Physics"
-      ]
+      ],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
       "courses": [],
-      "units": "60",
+      "units": "56",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (56 units)"
+      ],
+      "group": "Applied Physics—Computational Physics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 040",
         "PHY 080"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -310,18 +405,22 @@
         "MAT 022B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Engineering",
       "courses": [
         "ENG 017",
-        "ENG 017V"
+        "or ENG 017V"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (52-58 units)"
+      ],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -332,29 +431,35 @@
         "PHY 110A",
         "PHY 110B",
         "PHY 112",
-        "PHY 115A"
+        "PHY 115A",
+        "PHY 140A"
       ],
       "units": "1",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
       "courses": [
         "PHY 122A",
-        "PHY 122B"
+        "or PHY 122B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Concentration Courses",
       "courses": [
         "PHY 110C",
-        "PHY 140A",
         "EEC 100"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Concentration Electives",
@@ -362,13 +467,15 @@
         "EEC 110A",
         "EEC 110B",
         "EEC 140A",
-        "EEC 140AV",
+        "or EEC 140AV",
         "EEC 140B"
       ],
       "units": "16",
       "notes": [
-        "Choose four:"
-      ]
+        "Electrical & Computer Engineering (16 units)"
+      ],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
@@ -376,20 +483,31 @@
       "units": "58",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (58 units)"
+      ],
+      "group": "Applied Physics—Physical Electronics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 040"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -403,100 +521,10 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
-    },
-    {
-      "heading": "Physics",
-      "courses": [
-        "PHY 104A",
-        "PHY 105A",
-        "PHY 110A",
-        "PHY 110B",
-        "PHY 112",
-        "PHY 115A",
-        "PHY 116A",
-        "PHY 116B"
+        "Preparatory Subject Matter Subtotal (44-50 units)"
       ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Laboratory Requirement",
-      "courses": [
-        "PHY 116C",
-        "PHY 122A",
-        "PHY 122B"
-      ],
-      "units": "4",
-      "notes": [
-        "Choose one:"
-      ]
-    },
-    {
-      "heading": "Concentration Courses",
-      "courses": [
-        "PHY 104B",
-        "GEL 161",
-        "GEL 162"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Additional Electives",
-      "courses": [
-        "PHY 105B",
-        "PHY 116C",
-        "PHY 151",
-        "GEL 146",
-        "ATM 120",
-        "ATM 121A",
-        "ATM 121B"
-      ],
-      "units": "10-12",
-      "notes": [
-        "Choose three:",
-        "Choose one:",
-        "Choose one:",
-        "Choose one:"
-      ]
-    },
-    {
-      "heading": "Program Variance",
-      "courses": [],
-      "units": "56-58",
-      "notes": [
-        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
-    },
-    {
-      "heading": "Physics",
-      "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
-        "PHY 040"
-      ],
-      "units": "19-25",
-      "notes": [
-        "Choose a series:"
-      ]
-    },
-    {
-      "heading": "Mathematics",
-      "courses": [
-        "MAT 021A",
-        "MAT 021B",
-        "MAT 021C",
-        "MAT 021D",
-        "MAT 022A",
-        "MAT 022B"
-      ],
-      "units": "4",
-      "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -509,11 +537,12 @@
         "PHY 115A",
         "PHY 116A",
         "PHY 116B",
-        "PHY 102",
         "PHY 104B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
@@ -525,40 +554,98 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
-      "heading": "Concentration Courses",
+      "heading": "Geology",
       "courses": [
-        "PHY 115B",
-        "PHY 140A",
-        "PHY 140B",
-        "EMS 174",
-        "EMS 180"
+        "GEL 161",
+        "or EPS 161",
+        "GEL 162",
+        "or EPS 162"
       ],
-      "units": "4",
-      "notes": []
+      "units": "3",
+      "notes": [],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "PHY 105B",
+        "PHY 116C",
+        "PHY 151"
+      ],
+      "units": "11",
+      "notes": [
+        "Choose three:",
+        "Choose one:"
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "EPS 163",
+        "or GEL 163",
+        "GEL 146",
+        "or EPS 146"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Additional Electives",
+      "courses": [
+        "ATM 120",
+        "ATM 121A",
+        "ATM 121B"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
       "courses": [],
-      "units": "57-60",
+      "units": "57",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (57 units)"
+      ],
+      "group": "Applied Physics—Geophysics Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
       "courses": [
-        "PHY 009APHY 009BPHY 009CPHY 009D",
-        "PHY 009HAPHY 009HBPHY 009HCPHY 009HDPHY 009HE",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
         "PHY 040"
       ],
       "units": "19-25",
       "notes": [
         "Choose a series:"
-      ]
+      ],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Mathematics",
@@ -572,8 +659,106 @@
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (44-50 units)"
+      ],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 104A",
+        "PHY 105A",
+        "PHY 110A",
+        "PHY 110B",
+        "PHY 112",
+        "PHY 115A",
+        "PHY 115B",
+        "PHY 116A",
+        "PHY 116B",
+        "PHY 140A",
+        "PHY 140B",
+        "PHY 102",
+        "or PHY 104B"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Laboratory Requirement",
+      "courses": [
+        "PHY 116C",
+        "PHY 122A",
+        "PHY 122B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Materials Science Engineering",
+      "courses": [
+        "EMS 174",
+        "EMS 180"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Program Variance",
+      "courses": [],
+      "units": "57-60",
+      "notes": [
+        "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
+        "Depth Subject Matter Subtotal (57-60 units)"
+      ],
+      "group": "Applied Physics—Materials Science Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Physics",
+      "courses": [
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C",
+        "PHY 009D",
+        "PHY 009HA",
+        "PHY 009HB",
+        "PHY 009HC",
+        "PHY 009HD",
+        "PHY 009HE",
+        "PHY 040"
+      ],
+      "units": "19-25",
+      "notes": [
+        "Choose a series:"
+      ],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Mathematics",
+      "courses": [
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C",
+        "MAT 021D",
+        "MAT 022A",
+        "MAT 022B"
+      ],
+      "units": "4",
+      "notes": [
+        "Preparatory Subject Matter Subtotal (44-50 units)"
+      ],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Physics",
@@ -588,7 +773,9 @@
         "PHY 116B"
       ],
       "units": "1",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Laboratory Requirement",
@@ -600,7 +787,21 @@
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Geology",
+      "courses": [
+        "GEL 116N",
+        "or EPS 116",
+        "GEL/ESP/EPS 150A"
+      ],
+      "units": "3",
+      "notes": [],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Concentration Courses",
@@ -608,12 +809,12 @@
         "PHY 105C",
         "ATM 120",
         "ATM 121A",
-        "ATM 121B",
-        "GEL 116N/ESP 116N DISCONTINUED FOR FALL 2026",
-        "GEL/ESP 150A"
+        "ATM 121B"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Additional Electives",
@@ -622,12 +823,14 @@
         "PHY 112",
         "PHY 116C",
         "MAT 118A",
-        "MAT 118B"
+        "or MAT 118B"
       ],
       "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     },
     {
       "heading": "Program Variance",
@@ -635,11 +838,23 @@
       "units": "60",
       "notes": [
         "Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (60 units)"
+      ],
+      "group": "Applied Physics—Physical Oceanography Concentration",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Applied Physics—Atmospheric Physics Concentration",
+    "Applied Physics—Chemical Physics Concentration",
+    "Applied Physics—Computational Physics Concentration",
+    "Applied Physics—Physical Electronics Concentration",
+    "Applied Physics—Geophysics Concentration",
+    "Applied Physics—Materials Science Concentration",
+    "Applied Physics—Physical Oceanography Concentration"
+  ],
   "advising_notes": [],
-  "total_units": "104"
+  "total_units": "101",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.568Z"
 }

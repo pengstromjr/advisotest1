@@ -6,166 +6,24 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "(1) Pre-Law",
-      "courses": [
-        "PHI 012",
-        "PHI 014",
-        "PHI 024",
-        "PHI 030",
-        "PHI 102",
-        "PHI 112",
-        "PHI 115",
-        "PHI 116",
-        "PHI 118",
-        "PHI 119"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(2) Pre-Medical",
-      "courses": [
-        "PHI 014",
-        "PHI 015",
-        "PHI 030",
-        "PHI 038",
-        "PHI 108",
-        "PHI 114",
-        "PHI 115",
-        "PHI 116"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(3) Business",
-      "courses": [
-        "PHI 014",
-        "PHI 102",
-        "PHI 112",
-        "PHI 114",
-        "PHI 115",
-        "PHI 116",
-        "PHI 117",
-        "PHI 118",
-        "PHI 119"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(4) Social Policy",
-      "courses": [
-        "PHI 014",
-        "PHI 024",
-        "PHI 101",
-        "PHI 102",
-        "PHI 114",
-        "PHI 115",
-        "PHI 116",
-        "PHI 117",
-        "PHI 118",
-        "PHI 119",
-        "PHI 120"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(5) Social Sciences",
-      "courses": [
-        "PHI 012",
-        "PHI 030",
-        "PHI 031",
-        "PHI 032",
-        "PHI 101",
-        "PHI 102",
-        "PHI 103",
-        "PHI 109",
-        "PHI 118",
-        "PHI 131"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(6) Physical Sciences",
-      "courses": [
-        "PHI 012",
-        "PHI 030",
-        "PHI 031",
-        "PHI 032",
-        "PHI 101",
-        "PHI 102",
-        "PHI 107",
-        "PHI 112",
-        "PHI 131"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(7) Biological Sciences",
-      "courses": [
-        "PHI 030",
-        "PHI 031",
-        "PHI 032",
-        "PHI 038",
-        "PHI 101",
-        "PHI 102",
-        "PHI 108",
-        "PHI 120"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(8) Humanities & the Arts",
-      "courses": [
-        "PHI 014",
-        "PHI 021",
-        "PHI 022",
-        "PHI 024",
-        "PHI 101",
-        "PHI 102",
-        "PHI 103",
-        "PHI 105",
-        "PHI 114",
-        "PHI 116",
-        "PHI 118",
-        "PHI 123",
-        "PHI 141",
-        "PHI 175"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "(9) Agricultural & Environmental Science & Policy",
-      "courses": [
-        "PHI 005",
-        "PHI 014",
-        "PHI 024",
-        "PHI 030",
-        "PHI 031",
-        "PHI 114",
-        "PHI 115",
-        "PHI 116",
-        "PHI 118",
-        "PHI 120"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
       "heading": "Preparatory Subject Matter",
       "courses": [
         "PHI 012"
       ],
       "units": "4",
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "12",
       "notes": [
         "Choose one course each from any three areas:"
-      ]
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(a) General Philosophy",
@@ -173,7 +31,9 @@
         "PHI 001"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(b) Ancient Philosophy",
@@ -181,7 +41,9 @@
         "PHI 021"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(c) Early Modern Philosophy",
@@ -189,7 +51,9 @@
         "PHI 022"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(d) Philosophy of Mind",
@@ -197,7 +61,9 @@
         "PHI 013G"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(e) Ethics",
@@ -207,7 +73,9 @@
         "PHI 024"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(f) Philosophy of Science",
@@ -218,7 +86,9 @@
         "PHI 038"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(g) Philosophy of Language",
@@ -226,7 +96,9 @@
         "PHI 017"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(h) Metaphysics",
@@ -234,7 +106,9 @@
         "PHI 101"
       ],
       "units": "",
-      "notes": []
+      "notes": [],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "(i) Theory of Knowledge",
@@ -243,8 +117,10 @@
       ],
       "units": "16",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (16 units)"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Depth Subject Matter",
@@ -252,15 +128,26 @@
       "units": "36",
       "notes": [
         "Upper division units in Philosophy (100-199)",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (36 units)"
+      ],
+      "group": "General Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
         "PHI 005",
         "PHI 012",
-        "PHI 024",
+        "PHI 024"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Pre-Law Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "PHI 014",
         "PHI 015",
         "PHI 016"
@@ -268,8 +155,10 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (16 units)"
+      ],
+      "group": "Pre-Law Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Depth Subject Matter",
@@ -278,7 +167,9 @@
         "PHI 119"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Pre-Law Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy of Law",
@@ -292,8 +183,10 @@
       ],
       "units": "8",
       "notes": [
-        "Choose two courses from the following \"Philosophy of Law\" Group"
-      ]
+        "Choose two courses from the following \"Philosophy of Law\" Group (8 units)"
+      ],
+      "group": "Pre-Law Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "History of Philosophy",
@@ -312,17 +205,28 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one course from the following \"History of Philosophy\" Group",
+        "Choose one course from the following \"History of Philosophy\" Group (4 units)",
         "Additional upper division elective units in philosophy (100-199).",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Depth Subject Matter Subtotal (36 units)"
+      ],
+      "group": "Pre-Law Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
         "PHI 012",
         "PHI 015",
-        "PHI 038",
+        "PHI 038"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Pre-Med Emphasis",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "PHI 024",
         "PHI 030",
         "PHI 031",
@@ -331,8 +235,10 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (16 units)"
+      ],
+      "group": "Pre-Med Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Depth Subject Matter",
@@ -341,7 +247,9 @@
         "PHI 121"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Pre-Med Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "Philosophy of Science",
@@ -353,16 +261,25 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one course from the following \"Philosophy of Science\" Group",
+        "Choose one course from the following \"Philosophy of Science\" Group (4 units)",
         "Additional upper division elective units in Philosophy (100-199).",
-        "Note: Admission to medical schools requires additional coursework not included in the Pre-Med Emphasis. Refer to Health Professions Advising for more information.",
-        "Depth Subject Matter Subtotal"
-      ]
+        "Note: Admission to medical schools requires additional coursework not included in the Pre-Med Emphasis. Refer to Health Professions Advising for more information. 1",
+        "Depth Subject Matter Subtotal (36 units)"
+      ],
+      "group": "Pre-Med Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "General Emphasis",
+    "Pre-Law Emphasis",
+    "Pre-Med Emphasis"
+  ],
   "advising_notes": [
+    "Major Advising: For information about how to contact a major advisor, see Major Advising.",
     "Honors Program: The department offers an honors program, which gives qualifying majors the opportunity to work closely with faculty and graduate students. Information can be obtained on the Honors Program page of the Philosophy Department website."
   ],
-  "total_units": "52"
+  "total_units": "52",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.866Z"
 }

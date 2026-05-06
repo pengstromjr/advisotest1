@@ -22,25 +22,43 @@
       "notes": []
     },
     {
-      "heading": "Biological Sciences",
+      "heading": "Biological Sciences; choose a series:",
       "courses": [
-        "BIS 002A",
+        "BIO 001",
+        "BIO 001L",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003",
+        "or BIS 002A",
         "BIS 002B",
         "BIS 002C"
       ],
-      "units": "5",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
         "CHE 002B",
-        "CHE 002C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118B"
+        "CHE 002C"
       ],
       "units": "5",
+      "notes": [
+        "AND"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "CHE 118A",
+        "CHE 118B"
+      ],
+      "units": "6-8",
       "notes": [
         "Choose a series:"
       ]
@@ -68,20 +86,21 @@
       "heading": "Statistics; choose one:",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100",
         "PLS 120"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (63-66 units)"
       ]
     },
     {
       "heading": "Biological Sciences",
       "courses": [
         "BIS 101",
-        "BIS 101V"
+        "or BIS 101V"
       ],
       "units": "4",
       "notes": []
@@ -100,6 +119,17 @@
         "EVE 100"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Microbiology",
+      "courses": [
+        "MMG 102",
+        "or MIC 102",
+        "MMG 103L",
+        "or MIC 103L"
+      ],
+      "units": "3",
       "notes": []
     },
     {
@@ -139,11 +169,12 @@
         "PLP 120",
         "PMI 127",
         "PMI 128",
-        "MMG 162"
+        "or MMG 162",
+        "or MIC 162"
       ],
       "units": "6-8",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (43-45 units)"
       ]
     },
     {
@@ -153,11 +184,13 @@
       "notes": [
         "Focused specialty upper division courses as outlined in the latest version of the “Guide to the GDB Restricted Electives” and with approval of an advisor; 25 units is the minimum.",
         "Guide to GDB Restricted Electives",
-        "Restricted Electives Subtotal"
+        "Restricted Electives Subtotal (25 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "132"
+  "total_units": "131",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.067Z"
 }

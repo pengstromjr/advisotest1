@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.5,
+    "department": "Plant Biology",
+    "firstName": "Laura",
+    "id": "VGVhY2hlci0zMTQ4MDU2",
+    "lastName": "Bogar",
+    "legacyId": 3148056,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  }
+]

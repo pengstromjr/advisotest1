@@ -6,40 +6,58 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "General Requirements",
-      "courses": [
-        "ARE 018",
-        "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY"
-      ],
-      "units": "Units",
-      "notes": [
-        "May include one from:"
-      ]
-    },
-    {
       "heading": "Civil & Environmental Engineering",
       "courses": [
-        "ECI 123",
         "ECI 137",
-        "ECI 153",
-        "ARE 112",
-        "ARE 155",
-        "ARE 157",
-        "ECI 179",
-        "ECN 134",
-        "ECN 134Y",
-        "ECN 162",
-        "ESP 161"
+        "ECI 153"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Sustainability Requirement; choose one:",
+      "courses": [
+        "ECI 123",
+        "ECI 133"
       ],
       "units": "4",
-      "notes": [
-        "Choose 12 units:"
-      ]
+      "notes": []
+    },
+    {
+      "heading": "Engineering Requirement; choose two:",
+      "courses": [
+        "ECI 133",
+        "ECI 178",
+        "ECI 179",
+        "ECI 181",
+        "ECI 182",
+        "ECI 183"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
+      "heading": "Economics & Law Requirement; choose two:",
+      "courses": [
+        "ARE 018",
+        "ARE 112",
+        "ARE 118",
+        "ARE 155",
+        "ARE 157",
+        "ECN 134",
+        "or ECN 134Y",
+        "ECN 162",
+        "or ECN 162Y",
+        "ESP 161",
+        "MGT 011A"
+      ],
+      "units": "8",
+      "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.356Z"
 }

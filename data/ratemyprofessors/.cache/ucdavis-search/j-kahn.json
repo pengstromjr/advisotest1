@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.4,
+    "department": "Anthropology",
+    "firstName": "Jeffrey",
+    "id": "VGVhY2hlci0yMDc3MzM5",
+    "lastName": "Kahn",
+    "legacyId": 2077339,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 94.1176
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 2.7,
+    "department": "Fine Arts",
+    "firstName": "Douglas",
+    "id": "VGVhY2hlci0zNzQwMjk=",
+    "lastName": "Kahn",
+    "legacyId": 374029,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

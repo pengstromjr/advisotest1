@@ -12,6 +12,12 @@
         "POR 161"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Portuguese",
+      "courses": [],
+      "units": "7-8",
       "notes": [
         "Choose one course in each of the following categories:"
       ]
@@ -22,7 +28,7 @@
         "SPA 111N",
         "SPA 115",
         "SPA 116",
-        "SPA 116V"
+        "or SPA 116V"
       ],
       "units": "",
       "notes": []
@@ -33,6 +39,12 @@
         "POR 162",
         "POR 163"
       ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Portuguese",
+      "courses": [],
       "units": "8",
       "notes": [
         "Choose one elective course in each of the following categories:"
@@ -55,7 +67,7 @@
         "HIS 163A",
         "HIS 163B"
       ],
-      "units": "23-24",
+      "units": "",
       "notes": [
         "Note: Consult a departmental advisor if any of these courses are to be taken abroad.",
         "Note: Additional courses may count toward the minor with prior approval by a departmental advisor."
@@ -64,5 +76,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.472Z"
 }

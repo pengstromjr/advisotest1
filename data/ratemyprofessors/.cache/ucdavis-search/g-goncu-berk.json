@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 4.3,
+    "department": "Art",
+    "firstName": "Berk",
+    "id": "VGVhY2hlci0yNDM5Njgy",
+    "lastName": "Gozde",
+    "legacyId": 2439682,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  }
+]

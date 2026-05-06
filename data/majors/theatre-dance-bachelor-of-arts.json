@@ -9,24 +9,31 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "DRA 021A",
-        "DRA 040A",
-        "DRA 021A",
-        "DRA 040A",
+        "or DRA 040A",
         "DRA 040B",
         "DRA 042A",
         "DRA 042B",
         "DRA 024",
-        "DRA 028",
+        "DRA 028"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose DRA 021A or 4 units from DRA 040A, 040B, 042A, 042B:",
+        "OR 4 units from:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "DRA 055",
         "DRA 056A",
         "DRA 056B",
         "DRA 056C"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
-        "OR 4 units from:",
         "Choose three:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24 units)"
       ]
     },
     {
@@ -46,7 +53,16 @@
         "DRA 156C",
         "DRA 156D",
         "DRA 158",
-        "DRA 159",
+        "DRA 159"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 124A",
         "DRA 124B",
         "DRA 124C",
@@ -54,14 +70,41 @@
         "DRA/CTS 124E",
         "DRA 126",
         "DRA 126A",
-        "DRA 128",
+        "DRA 128"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 120",
         "DRA 141",
         "DRA 144A",
-        "DRA 146A",
+        "DRA 146A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 127A",
         "DRA 140A",
-        "DRA 160A",
+        "DRA 160A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 114",
         "DRA 115",
         "DRA/CTS 116",
@@ -114,52 +157,79 @@
         "DRA 174/CDM 107",
         "DRA/TCS 175",
         "DRA 185A",
-        "DRA 185B",
+        "DRA 185B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose 8 units:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 145",
         "DRA 180A",
         "DRA 180B",
-        "DRA 180C",
-        "DRA 180D",
+        "DRA 180C"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose 6 units from at least two of:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "DRA 180D"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 180E",
         "DRA 180F",
         "DRA 180G",
         "DRA 195"
       ],
-      "units": "8",
+      "units": "2",
       "notes": [
-        "Choose two:",
-        "Choose one:",
-        "Choose one:",
-        "Choose one:",
-        "Choose 8 units:",
-        "Choose 6 units from at least two of:",
-        "Choose 4 units:",
         "Choose 2 units:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (42 units)"
       ]
     },
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
         "DRA 021A",
-        "DRA 040A",
-        "DRA 021A",
-        "DRA 040A",
+        "or DRA 040A",
         "DRA 040B",
         "DRA 042A",
         "DRA 042B",
         "DRA 024",
-        "DRA 028",
+        "DRA 028"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose DRA 021A or 4 units from DRA 040A, 040B, 042A, 042B:",
+        "OR 4 units from:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "DRA 055",
         "DRA 056A",
         "DRA 056B",
         "DRA 056C"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
-        "OR 4 units from:",
         "Choose three:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24 units)"
       ]
     },
     {
@@ -179,7 +249,16 @@
         "DRA 156C",
         "DRA 156D",
         "DRA 158",
-        "DRA 159",
+        "DRA 159"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 124A",
         "DRA 124B",
         "DRA 124C",
@@ -187,22 +266,76 @@
         "DRA/CTS 124E",
         "DRA 126",
         "DRA 126A",
-        "DRA 128",
+        "DRA 128"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 120",
         "DRA 141",
         "DRA 144A",
-        "DRA 146A",
+        "DRA 146A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 127A",
         "DRA 140A",
-        "DRA 160A",
+        "DRA 160A"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 145",
         "DRA 180A",
         "DRA 180B",
-        "DRA 180C",
-        "DRA 180D",
+        "DRA 180C"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose 6 units from at least two of:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
+        "DRA 180D"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose 4 units:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 180E",
         "DRA 180F",
-        "DRA 180G",
+        "DRA 180G"
+      ],
+      "units": "2",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "DRA 114",
         "DRA 115",
         "DRA/CTS 116",
@@ -260,22 +393,17 @@
         "DRA 194HB",
         "DRA 195"
       ],
-      "units": "8",
+      "units": "16",
       "notes": [
-        "Choose two:",
-        "Choose one:",
-        "Choose one:",
-        "Choose one:",
-        "Choose 6 units from at least two of:",
-        "Choose 4 units:",
-        "Choose one:",
         "Choose 16 units:",
         "At least 8 of these units must be in a specific area determined in consultation with a faculty advisor and reflecting preparation for the honors project. Courses from other departments may be used to fulfill this requirement with permission of Chair and faculty advisor. Consult the Theatre & Dance advisor for alternative course options for fulfilling this requirement",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (56 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "66"
+  "total_units": "66",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.443Z"
 }

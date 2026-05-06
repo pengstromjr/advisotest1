@@ -1,0 +1,167 @@
+{
+  "course_id": "STS101",
+  "course_title": "Data & Society",
+  "overall_grades": {
+    "A+": 87,
+    "A": 811,
+    "A-": 70,
+    "B+": 43,
+    "B": 29,
+    "B-": 23,
+    "C+": 9,
+    "C": 8,
+    "C-": 4,
+    "D+": 3,
+    "D": 6,
+    "D-": 0,
+    "F": 14,
+    "P*": 20,
+    "NP*": 10
+  },
+  "overall_gpa": 3.79,
+  "overall_enrolled": 1137,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Emily Merchant",
+      "professor_slug": "emily-merchant",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 64,
+            "A-": 22,
+            "B+": 10,
+            "B": 8,
+            "B-": 5,
+            "C+": 3,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 5,
+            "P*": 2,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 177
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 64,
+            "A-": 22,
+            "B+": 10,
+            "B": 8,
+            "B-": 5,
+            "C+": 3,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 5,
+            "P*": 2,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 177
+        }
+      }
+    },
+    {
+      "professor_name": "Joseph Dumit",
+      "professor_slug": "joseph-dumit",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 747,
+            "A-": 48,
+            "B+": 33,
+            "B": 21,
+            "B-": 18,
+            "C+": 6,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 960
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 417,
+            "A-": 30,
+            "B+": 18,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 510
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 36,
+            "A-": 9,
+            "B+": 12,
+            "B": 6,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 126
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 294,
+            "A-": 9,
+            "B+": 3,
+            "B": 6,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 324
+        }
+      }
+    }
+  ]
+}

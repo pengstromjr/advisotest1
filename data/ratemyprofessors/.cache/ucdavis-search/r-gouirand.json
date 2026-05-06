@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 2.7,
+    "department": "Chemistry",
+    "firstName": "R",
+    "id": "VGVhY2hlci00NTcyMzA=",
+    "lastName": "Britt",
+    "legacyId": 457230,
+    "numRatings": 42,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 15.3846
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.9,
+    "department": "English",
+    "firstName": "Rae",
+    "id": "VGVhY2hlci0yNTYyMzY1",
+    "lastName": "Gouirand",
+    "legacyId": 2562365,
+    "numRatings": 18,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4,
+    "department": "English",
+    "firstName": "Mireille",
+    "id": "VGVhY2hlci01NzY1NjY=",
+    "lastName": "Gouirand",
+    "legacyId": 576566,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

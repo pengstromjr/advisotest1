@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.9,
+    "department": "Plant & Soil Science",
+    "firstName": "Tom",
+    "id": "VGVhY2hlci0yNTgwNTQz",
+    "lastName": "Buckley",
+    "legacyId": 2580543,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

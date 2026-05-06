@@ -1,0 +1,174 @@
+{
+  "course_id": "MGT401A",
+  "course_title": "The Individual & Group Dynamics",
+  "overall_grades": {
+    "A+": 1,
+    "A": 122,
+    "A-": 111,
+    "B+": 112,
+    "B": 124,
+    "B-": 48,
+    "C+": 14,
+    "C": 0,
+    "C-": 0,
+    "D+": 1,
+    "D": 1,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 534,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Beth Bechky",
+      "professor_slug": "beth-bechky",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 113,
+            "A-": 109,
+            "B+": 106,
+            "B": 112,
+            "B-": 42,
+            "C+": 12,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 496
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 8,
+            "A-": 7,
+            "B+": 4,
+            "B": 4,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 31
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 21,
+            "B+": 27,
+            "B": 33,
+            "B-": 3,
+            "C+": 12,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 120
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 27,
+            "A-": 21,
+            "B+": 36,
+            "B": 21,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 108
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 54,
+            "A-": 60,
+            "B+": 39,
+            "B": 54,
+            "B-": 30,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 237
+        }
+      }
+    },
+    {
+      "professor_name": "Gina Dokko",
+      "professor_slug": "gina-dokko",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 2,
+            "B+": 6,
+            "B": 12,
+            "B-": 6,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 38
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 2,
+            "B+": 6,
+            "B": 12,
+            "B-": 6,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 38
+        }
+      }
+    }
+  ]
+}

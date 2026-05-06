@@ -1,0 +1,235 @@
+{
+  "course_id": "ECN162",
+  "course_title": "International Economic Relations",
+  "overall_grades": {
+    "A+": 23,
+    "A": 171,
+    "A-": 104,
+    "B+": 81,
+    "B": 139,
+    "B-": 56,
+    "C+": 38,
+    "C": 52,
+    "C-": 51,
+    "D+": 20,
+    "D": 14,
+    "D-": 3,
+    "F": 19,
+    "P*": 81,
+    "NP*": 19
+  },
+  "overall_gpa": 3,
+  "overall_enrolled": 871,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Dan Liu",
+      "professor_slug": "dan-liu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 3,
+            "A-": 18,
+            "B+": 15,
+            "B": 24,
+            "B-": 12,
+            "C+": 9,
+            "C": 9,
+            "C-": 9,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 132
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 3,
+            "A-": 18,
+            "B+": 15,
+            "B": 24,
+            "B-": 12,
+            "C+": 9,
+            "C": 9,
+            "C-": 9,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Deborah Swenson",
+      "professor_slug": "deborah-swenson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 114,
+            "A-": 71,
+            "B+": 57,
+            "B": 76,
+            "B-": 38,
+            "C+": 20,
+            "C": 25,
+            "C-": 39,
+            "D+": 14,
+            "D": 5,
+            "D-": 3,
+            "F": 7,
+            "P*": 45,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 541
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 39,
+            "A-": 27,
+            "B+": 27,
+            "B": 27,
+            "B-": 15,
+            "C+": 12,
+            "C": 18,
+            "C-": 21,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 24
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 216
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 27,
+            "A-": 12,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 48
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 18,
+            "B+": 18,
+            "B": 36,
+            "B-": 12,
+            "C+": 6,
+            "C": 0,
+            "C-": 15,
+            "D+": 9,
+            "D": 3,
+            "D-": 3,
+            "F": 6,
+            "P*": 12,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 192
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 9,
+            "A-": 14,
+            "B+": 9,
+            "B": 13,
+            "B-": 11,
+            "C+": 2,
+            "C": 7,
+            "C-": 3,
+            "D+": 2,
+            "D": 2,
+            "D-": 0,
+            "F": 1,
+            "P*": 9,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 85
+        }
+      }
+    },
+    {
+      "professor_name": "Ina Simonovska",
+      "professor_slug": "ina-simonovska",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 54,
+            "A-": 15,
+            "B+": 9,
+            "B": 39,
+            "B-": 6,
+            "C+": 9,
+            "C": 18,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 24
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 198
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 54,
+            "A-": 15,
+            "B+": 9,
+            "B": 39,
+            "B-": 6,
+            "C+": 9,
+            "C": 18,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 24
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 198
+        }
+      }
+    }
+  ]
+}

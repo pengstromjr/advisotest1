@@ -1,0 +1,164 @@
+{
+  "course_id": "PLB105",
+  "course_title": "Developmental Plant Anatomy",
+  "overall_grades": {
+    "A+": 223,
+    "A": 311,
+    "A-": 45,
+    "B+": 25,
+    "B": 209,
+    "B-": 45,
+    "C+": 16,
+    "C": 87,
+    "C-": 8,
+    "D+": 8,
+    "D": 15,
+    "D-": 3,
+    "F": 19,
+    "P*": 7,
+    "NP*": 1
+  },
+  "overall_gpa": 3.34,
+  "overall_enrolled": 1022,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Joel Ledford",
+      "professor_slug": "joel-ledford",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 17,
+            "A-": 9,
+            "B+": 7,
+            "B": 11,
+            "B-": 9,
+            "C+": 7,
+            "C": 9,
+            "C-": 5,
+            "D+": 2,
+            "D": 3,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 98
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 17,
+            "A-": 9,
+            "B+": 7,
+            "B": 11,
+            "B-": 9,
+            "C+": 7,
+            "C": 9,
+            "C-": 5,
+            "D+": 2,
+            "D": 3,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 98
+        }
+      }
+    },
+    {
+      "professor_name": "Neelima Sinha",
+      "professor_slug": "neelima-sinha",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 207,
+            "A": 294,
+            "A-": 36,
+            "B+": 18,
+            "B": 198,
+            "B-": 36,
+            "C+": 9,
+            "C": 78,
+            "C-": 3,
+            "D+": 6,
+            "D": 12,
+            "D-": 3,
+            "F": 18,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 924
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 126,
+            "A-": 0,
+            "B+": 0,
+            "B": 72,
+            "B-": 0,
+            "C+": 0,
+            "C": 27,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 12,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 288
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 78,
+            "A-": 15,
+            "B+": 15,
+            "B": 75,
+            "B-": 30,
+            "C+": 3,
+            "C": 24,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.3,
+          "quarter_enrolled": 321
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 96,
+            "A": 90,
+            "A-": 21,
+            "B+": 3,
+            "B": 51,
+            "B-": 6,
+            "C+": 6,
+            "C": 27,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 315
+        }
+      }
+    }
+  ]
+}

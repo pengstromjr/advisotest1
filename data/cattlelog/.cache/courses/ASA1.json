@@ -1,0 +1,236 @@
+{
+  "course_id": "ASA1",
+  "course_title": "Historical Experience of Asian Americans",
+  "overall_grades": {
+    "A+": 144,
+    "A": 814,
+    "A-": 325,
+    "B+": 296,
+    "B": 255,
+    "B-": 105,
+    "C+": 48,
+    "C": 36,
+    "C-": 27,
+    "D+": 11,
+    "D": 0,
+    "D-": 2,
+    "F": 32,
+    "P*": 437,
+    "NP*": 13
+  },
+  "overall_gpa": 3.49,
+  "overall_enrolled": 2545,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kai Wen Yang",
+      "professor_slug": "kai-wen-yang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 126,
+            "A": 93,
+            "A-": 3,
+            "B+": 0,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 57
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 288
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 126,
+            "A": 93,
+            "A-": 3,
+            "B+": 0,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 57
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 288
+        }
+      }
+    },
+    {
+      "professor_name": "Richard Kim",
+      "professor_slug": "richard-kim",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 652,
+            "A-": 301,
+            "B+": 260,
+            "B": 174,
+            "B-": 87,
+            "C+": 39,
+            "C": 30,
+            "C-": 18,
+            "D+": 11,
+            "D": 0,
+            "D-": 2,
+            "F": 32,
+            "P*": 290,
+            "NP*": 13
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 1909
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 312,
+            "A-": 84,
+            "B+": 39,
+            "B": 27,
+            "B-": 21,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 15,
+            "P*": 72,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 582
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 132,
+            "A-": 90,
+            "B+": 72,
+            "B": 78,
+            "B-": 36,
+            "C+": 24,
+            "C": 15,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 99,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 573
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 156,
+            "A-": 93,
+            "B+": 114,
+            "B": 48,
+            "B-": 21,
+            "C+": 9,
+            "C": 9,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 96,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 561
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 52,
+            "A-": 34,
+            "B+": 35,
+            "B": 21,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 2,
+            "F": 5,
+            "P*": 23,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 193
+        }
+      }
+    },
+    {
+      "professor_name": "Wendy Ho",
+      "professor_slug": "wendy-ho",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 69,
+            "A-": 21,
+            "B+": 36,
+            "B": 75,
+            "B-": 18,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 90
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 348
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 69,
+            "A-": 21,
+            "B+": 36,
+            "B": 75,
+            "B-": 18,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 90
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 348
+        }
+      }
+    }
+  ]
+}

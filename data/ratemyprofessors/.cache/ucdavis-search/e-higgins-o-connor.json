@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 3.3,
+    "department": "Art",
+    "firstName": "Elisabeth",
+    "id": "VGVhY2hlci0yNTA2NDU3",
+    "lastName": "Higgins O'Connor",
+    "legacyId": 2506457,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 54.5455
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.7,
+    "department": "Theology",
+    "firstName": "Kathleen",
+    "id": "VGVhY2hlci0xNTc2Mzc=",
+    "lastName": "O'Connor",
+    "legacyId": 157637,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

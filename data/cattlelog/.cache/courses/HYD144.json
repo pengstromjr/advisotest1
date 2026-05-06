@@ -1,0 +1,163 @@
+{
+  "course_id": "HYD144",
+  "course_title": "Groundwater Hydrology",
+  "overall_grades": {
+    "A+": 34,
+    "A": 55,
+    "A-": 26,
+    "B+": 11,
+    "B": 27,
+    "B-": 15,
+    "C+": 6,
+    "C": 20,
+    "C-": 4,
+    "D+": 6,
+    "D": 9,
+    "D-": 3,
+    "F": 1,
+    "P*": 4,
+    "NP*": 1
+  },
+  "overall_gpa": 3.18,
+  "overall_enrolled": 222,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brian Magee",
+      "professor_slug": "brian-magee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 19,
+            "A-": 8,
+            "B+": 5,
+            "B": 6,
+            "B-": 3,
+            "C+": 3,
+            "C": 5,
+            "C-": 4,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 69
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 4,
+            "A-": 5,
+            "B+": 2,
+            "B": 3,
+            "B-": 3,
+            "C+": 3,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 30
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 15,
+            "A-": 3,
+            "B+": 3,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 39
+        }
+      }
+    },
+    {
+      "professor_name": "Thomas Harter",
+      "professor_slug": "thomas-harter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 36,
+            "A-": 18,
+            "B+": 6,
+            "B": 21,
+            "B-": 12,
+            "C+": 3,
+            "C": 15,
+            "C-": 0,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 153
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 27,
+            "A-": 12,
+            "B+": 6,
+            "B": 18,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 105
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 6,
+            "B+": 0,
+            "B": 3,
+            "B-": 9,
+            "C+": 3,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 48
+        }
+      }
+    }
+  ]
+}

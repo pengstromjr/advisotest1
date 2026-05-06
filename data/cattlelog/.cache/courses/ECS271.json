@@ -1,0 +1,198 @@
+{
+  "course_id": "ECS271",
+  "course_title": "Machine Learning & Discovery                 ",
+  "overall_grades": {
+    "A+": 221,
+    "A": 478,
+    "A-": 173,
+    "B+": 76,
+    "B": 35,
+    "B-": 22,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 10,
+    "P*": 3
+  },
+  "overall_gpa": 3.79,
+  "overall_enrolled": 1018,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hamed Pirsiavash",
+      "professor_slug": "hamed-pirsiavash",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 205,
+            "A": 420,
+            "A-": 130,
+            "B+": 50,
+            "B": 20,
+            "B-": 16,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 10
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 851
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 159,
+            "A-": 30,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 249
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 87,
+            "A": 96,
+            "A-": 36,
+            "B+": 12,
+            "B": 12,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 258
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 135,
+            "A-": 48,
+            "B+": 18,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 270
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 30,
+            "A-": 16,
+            "B+": 14,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 74
+        }
+      }
+    },
+    {
+      "professor_name": "Muhao Chen",
+      "professor_slug": "muhao-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 58,
+            "A-": 43,
+            "B+": 26,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.67,
+          "quarter_enrolled": 167
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 45,
+            "A-": 36,
+            "B+": 24,
+            "B": 12,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 138
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 13,
+            "A-": 7,
+            "B+": 2,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 29
+        }
+      }
+    }
+  ]
+}

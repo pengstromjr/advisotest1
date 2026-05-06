@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.4,
+    "department": "Civil Engineering",
+    "firstName": "John",
+    "id": "VGVhY2hlci0xNDk1MDUy",
+    "lastName": "Bolander",
+    "legacyId": 1495052,
+    "numRatings": 44,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96.2963
+  }
+]

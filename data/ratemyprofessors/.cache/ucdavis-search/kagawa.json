@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 5,
+    "department": "Human Development",
+    "firstName": "Rose",
+    "id": "VGVhY2hlci0yODQxMjcy",
+    "lastName": "Kagawa",
+    "legacyId": 2841272,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

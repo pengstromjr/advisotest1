@@ -11,7 +11,17 @@
         "ASA 001",
         "ASA 002",
         "ASA 003",
-        "ASA 004",
+        "ASA 004"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose two:",
+        "Preparatory Subject Matter Total (8 units)"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "ASA 100",
         "ASA 102",
         "ASA 112",
@@ -44,15 +54,15 @@
         "ASA 198",
         "ASA 199"
       ],
-      "units": "8",
+      "units": "20",
       "notes": [
-        "Choose two:",
-        "Preparatory Subject Matter Total",
         "Choose five:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "28"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.675Z"
 }

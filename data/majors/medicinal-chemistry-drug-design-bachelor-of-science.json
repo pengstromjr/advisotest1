@@ -8,8 +8,12 @@
     {
       "heading": "Chemistry",
       "courses": [
-        "CHE 002ACHE 002BCHE 002C",
-        "CHE 004ACHE 004BCHE 004C"
+        "CHE 002A",
+        "CHE 002B",
+        "CHE 002C",
+        "CHE 004A",
+        "CHE 004B",
+        "CHE 004C"
       ],
       "units": "15",
       "notes": [
@@ -19,8 +23,12 @@
     {
       "heading": "Physics",
       "courses": [
-        "PHY 007APHY 007BPHY 007C",
-        "PHY 009APHY 009BPHY 009C"
+        "PHY 007A",
+        "PHY 007B",
+        "PHY 007C",
+        "PHY 009A",
+        "PHY 009B",
+        "PHY 009C"
       ],
       "units": "12-15",
       "notes": [
@@ -30,8 +38,18 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 016A",
+        "or MAT 016B",
+        "or MAT 016C",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 019A",
+        "MAT 019B",
+        "MAT 019C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
       ],
       "units": "9-12",
       "notes": [
@@ -43,23 +61,24 @@
       "courses": [
         "BIS 002A",
         "BIS 002B",
-        "BIS 002C"
+        "or BIS 002C"
       ],
-      "units": "5",
+      "units": "10",
       "notes": []
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
         "STA 100"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (50-56 units)"
       ]
     },
     {
@@ -68,43 +87,92 @@
         "CHE 124A",
         "CHE 130A",
         "CHE 130B",
-        "CHE 135",
-        "CHE 107ACHE 107B",
-        "CHE 110ACHE 110BCHE 110C",
-        "CHE 118ACHE 118BCHE 118C",
-        "CHE 128ACHE 128BCHE 128C",
-        "CHE 129ACHE 129BCHE 129C",
+        "CHE 135"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 107A",
+        "CHE 107B",
+        "CHE 110A",
+        "CHE 110B",
+        "CHE 110C"
+      ],
+      "units": "6-12",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 118A",
+        "CHE 118B",
+        "CHE 118C"
+      ],
+      "units": "12-15",
+      "notes": [
+        "Choose 118 series or 128 & 129 series:"
+      ]
+    },
+    {
+      "heading": "OR",
+      "courses": [
+        "CHE 128A",
+        "CHE 128B",
+        "CHE 128C",
+        "CHE 129A",
+        "CHE 129B",
+        "CHE 129C"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "OR",
+      "courses": [
         "BIS 102",
-        "BIS 102V",
+        "or BIS 102V",
         "CHE 131",
-        "CHE 150",
+        "CHE 150"
+      ],
+      "units": "6",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "OR",
+      "courses": [
         "ANS 170",
         "BIS 102",
-        "BIS 102V",
+        "or BIS 102V",
         "BIS 103",
         "BIT 171",
         "CHE 131",
         "CHE 150",
         "CHE 199",
-        "CHE 194HA",
+        "or CHE 194HA",
         "ETX 103A",
         "MCB 123",
         "MCB 124",
         "MCB/PLB 126",
+        "MMG 102",
+        "or MIC 102",
         "NPB 100",
         "NPB 101",
         "NPB 168",
         "PLB/MCB 126",
         "VMB 101Y",
-        "VMB 101V"
+        "or VMB 101V"
       ],
-      "units": "3",
+      "units": "11-16",
       "notes": [
-        "Choose a series:",
-        "Choose 118 series or 128 & 129 series:",
-        "Choose two:",
-        "Choose at least four; not used to satisfy the above requirements:",
-        "Depth Subject Matter Subtotal"
+        "Choose at least four; not used to satisfy the above requirement:",
+        "Depth Subject Matter Subtotal (47-61 units)"
       ]
     }
   ],
@@ -112,5 +180,7 @@
   "advising_notes": [
     "Honors & Honors Program: The student must take courses CHE 194HA, CHE 194HB, and CHE 194HC, and complete a capstone research project (typically a written honors thesis). For more information, see Undergraduate Research on the department's website."
   ],
-  "total_units": "97"
+  "total_units": "97",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.634Z"
 }

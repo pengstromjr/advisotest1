@@ -18,23 +18,37 @@
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 002A",
+        "BIO 001",
+        "BIO 002",
+        "BIO 003",
+        "or BIS 002A",
         "BIS 002B",
         "BIS 002C"
       ],
-      "units": "15",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
         "CHE 002B",
-        "CHE 002C",
-        "CHE 008ACHE 008B",
-        "CHE 118ACHE 118B"
+        "CHE 002C"
       ],
       "units": "21-23",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "CHE 008A",
+        "CHE 008B",
+        "CHE 118A",
+        "CHE 118B"
+      ],
+      "units": "",
       "notes": [
         "Choose a series:"
       ]
@@ -42,8 +56,15 @@
     {
       "heading": "Mathematics; choose a series:",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 016C",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
       ],
       "units": "9-12",
       "notes": []
@@ -62,12 +83,13 @@
       "heading": "Statistics; choose one:",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 100"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (68-74 units)"
       ]
     },
     {
@@ -84,30 +106,61 @@
       "heading": "Biological Science",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "ABI 102",
         "ABI 103",
-        "BIS 102",
-        "BIS 102V",
-        "BIS 103",
+        "or BIS 102",
+        "or BIS 103",
+        "or BIS 102V"
+      ],
+      "units": "6-10",
+      "notes": [
+        "Choose a series:",
+        "OR"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "NPB 101",
         "NPB 117",
         "ENT 102",
-        "WFC 121",
+        "WFC 121"
+      ],
+      "units": "3-5",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Biological Science",
+      "courses": [
         "APC 100/NPB 123",
         "ENT 101"
       ],
-      "units": "4",
+      "units": "3-4",
       "notes": [
-        "Choose a series:",
-        "Choose one:",
         "Choose one:"
       ]
     },
     {
       "heading": "Evolution & Ecology",
       "courses": [
-        "EVE 100",
+        "EVE 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Evolution & Ecology",
+      "courses": [
         "ESP 100",
         "ESP 121",
         "EVE 101",
@@ -116,21 +169,24 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (29-36 units)"
       ]
     },
     {
       "heading": "Restricted Electives",
-      "courses": [
-        "ABI 187"
-      ],
+      "courses": [],
       "units": "25",
       "notes": [
-        "Restricted Electives Subtotal"
+        "Focused specialty upper division courses as outlined in the student's major proposal (from ABI 187) with approval of an advisor. (25 units)",
+        "Restricted Electives Subtotal (25 units)"
       ]
     }
   ],
   "specializations": [],
-  "advising_notes": [],
-  "total_units": "123"
+  "advising_notes": [
+    "Advising: Advising Center for the major, including peer advising, located in 150 Hutchison Hall, 530-754-4131; Animal Biology AdvisingLead Faculty AdvisorMarshall McMunn, Ph.D.Academic AdvisorElvira Galvan Hack; 160 Hutchison Hall; 530-754-7277; Entomology & Nematology Advising"
+  ],
+  "total_units": "122",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.333Z"
 }

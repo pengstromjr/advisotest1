@@ -1,0 +1,90 @@
+{
+  "course_id": "CLH212",
+  "course_title": "Introduction to Stem Cell Biology",
+  "overall_grades": {
+    "A+": 3,
+    "A": 36,
+    "A-": 9,
+    "B+": 9,
+    "B": 9,
+    "B-": 0,
+    "C+": 0,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.65,
+  "overall_enrolled": 69,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Fernando Fierro",
+      "professor_slug": "fernando-fierro",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 9,
+            "B+": 9,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 69
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 21,
+            "A-": 0,
+            "B+": 3,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 36
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 9,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 33
+        }
+      }
+    }
+  ]
+}

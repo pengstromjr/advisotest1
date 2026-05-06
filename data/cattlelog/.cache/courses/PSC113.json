@@ -1,0 +1,123 @@
+{
+  "course_id": "PSC113",
+  "course_title": "Developmental Psychobiology",
+  "overall_grades": {
+    "A+": 15,
+    "A": 31,
+    "A-": 29,
+    "B+": 26,
+    "B": 36,
+    "B-": 2,
+    "C+": 11,
+    "C": 7,
+    "C-": 0,
+    "D+": 4,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 17,
+    "NP*": 3
+  },
+  "overall_gpa": 3.32,
+  "overall_enrolled": 181,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Adele Seelke",
+      "professor_slug": "adele-seelke",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 19,
+            "A-": 8,
+            "B+": 5,
+            "B": 6,
+            "B-": 2,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 49
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 19,
+            "A-": 8,
+            "B+": 5,
+            "B": 6,
+            "B-": 2,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Jeffrey Schank",
+      "professor_slug": "jeffrey-schank",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 21,
+            "B+": 21,
+            "B": 30,
+            "B-": 0,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 132
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 21,
+            "B+": 21,
+            "B": 30,
+            "B-": 0,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 132
+        }
+      }
+    }
+  ]
+}

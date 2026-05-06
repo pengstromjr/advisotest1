@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2,
+    "department": "Engineering",
+    "firstName": "Ben",
+    "id": "VGVhY2hlci0xNjY4OTc=",
+    "lastName": "Yoo",
+    "legacyId": 166897,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Political Science",
+    "firstName": "Yoonjung",
+    "id": "VGVhY2hlci0yMDQwNDE1",
+    "lastName": "Lee",
+    "legacyId": 2040415,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Mathematics",
+    "firstName": "Yoon",
+    "id": "VGVhY2hlci0zMDQzNTg3",
+    "lastName": "Nho",
+    "legacyId": 3043587,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

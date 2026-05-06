@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.5,
+    "department": "Neurobiology amp Behavior",
+    "firstName": "Brie",
+    "id": "VGVhY2hlci0yNzcxNDI0",
+    "lastName": "Tripp",
+    "legacyId": 2771424,
+    "numRatings": 47,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.234
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "History",
+    "firstName": "Ryan",
+    "id": "VGVhY2hlci0xMzgwMDcw",
+    "lastName": "Tripp",
+    "legacyId": 1380070,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Neurobiology & Behavior",
+    "firstName": "Brie",
+    "id": "VGVhY2hlci0zMDA4NDEx",
+    "lastName": "Tripp",
+    "legacyId": 3008411,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

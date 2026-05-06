@@ -1,0 +1,113 @@
+{
+  "course_id": "EEC174AY",
+  "course_title": "Applied Machine Learning",
+  "overall_grades": {
+    "A+": 23,
+    "A": 41,
+    "A-": 17,
+    "B+": 7,
+    "B": 4,
+    "B-": 3,
+    "C+": 2,
+    "C": 4,
+    "C-": 1,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 3,
+    "P*": 1
+  },
+  "overall_gpa": 3.56,
+  "overall_enrolled": 107,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Chen Nee Chuah",
+      "professor_slug": "chen-nee-chuah",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 23,
+            "A": 41,
+            "A-": 17,
+            "B+": 7,
+            "B": 4,
+            "B-": 3,
+            "C+": 2,
+            "C": 4,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 3,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 107
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 3,
+            "B+": 3,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 4,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 27
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 22,
+            "A-": 7,
+            "B+": 2,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 39
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 12,
+            "A-": 7,
+            "B+": 2,
+            "B": 1,
+            "B-": 1,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 41
+        }
+      }
+    }
+  ]
+}

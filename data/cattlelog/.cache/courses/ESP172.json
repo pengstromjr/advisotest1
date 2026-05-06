@@ -1,0 +1,162 @@
+{
+  "course_id": "ESP172",
+  "course_title": "Public Lands Management",
+  "overall_grades": {
+    "A+": 113,
+    "A": 388,
+    "A-": 225,
+    "B+": 99,
+    "B": 70,
+    "B-": 34,
+    "C+": 17,
+    "C": 13,
+    "C-": 10,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 11,
+    "NP*": 1,
+    "P*": 12
+  },
+  "overall_gpa": 3.62,
+  "overall_enrolled": 993,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "James Volker",
+      "professor_slug": "james-volker",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 46,
+            "A-": 18,
+            "B+": 6,
+            "B": 4,
+            "B-": 7,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 99
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 46,
+            "A-": 18,
+            "B+": 6,
+            "B": 4,
+            "B-": 7,
+            "C+": 2,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 99
+        }
+      }
+    },
+    {
+      "professor_name": "Mark Lubell",
+      "professor_slug": "mark-lubell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 342,
+            "A-": 207,
+            "B+": 93,
+            "B": 66,
+            "B-": 27,
+            "C+": 15,
+            "C": 12,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 894
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 129,
+            "A-": 63,
+            "B+": 27,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 297
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 123,
+            "A-": 93,
+            "B+": 30,
+            "B": 18,
+            "B-": 12,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 309
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 90,
+            "A-": 51,
+            "B+": 36,
+            "B": 33,
+            "B-": 12,
+            "C+": 12,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 288
+        }
+      }
+    }
+  ]
+}

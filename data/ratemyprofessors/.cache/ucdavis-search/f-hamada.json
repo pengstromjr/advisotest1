@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.8,
+    "department": "Neurobiology & Behavior",
+    "firstName": "Fumika",
+    "id": "VGVhY2hlci0yNjc3ODUx",
+    "lastName": "Hamada",
+    "legacyId": 2677851,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.8235
+  }
+]

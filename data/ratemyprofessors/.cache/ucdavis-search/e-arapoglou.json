@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.4,
+    "department": "American Studies",
+    "firstName": "Eleftheria",
+    "id": "VGVhY2hlci0yMzMxODE3",
+    "lastName": "Arapoglou",
+    "legacyId": 2331817,
+    "numRatings": 58,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 82.7586
+  }
+]

@@ -8,14 +8,16 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "24",
       "notes": [
-        "Choose six upper division Political Science (POL) courses from any field.",
+        "Choose six upper division Political Science (POL) courses from any field. 1 (24 units)",
         "Political Science (POL) courses."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.011Z"
 }

@@ -10,9 +10,9 @@
       "courses": [
         "ECI 123"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Complete at least 14 units of coursework from the three core thematic areas, below."
+        "Complete at least 14 units of coursework from the three core thematic areas, below. 1"
       ]
     },
     {
@@ -20,17 +20,20 @@
       "courses": [
         "ATM 116",
         "DES 127A",
+        "or DES 127AV",
         "DES 127B",
         "DES 156",
         "ECI 040",
         "ECI 140A",
+        "ECI 140B",
+        "ECI 149N",
         "ECI 155",
         "ECI/ESP 163",
         "ECI 165",
         "ENG 188",
         "ETX 101",
-        "GEL 130",
-        "LED 140"
+        "LED 140",
+        "or LDA 140"
       ],
       "units": "",
       "notes": [
@@ -48,6 +51,7 @@
         "CRD 158",
         "CRD 172",
         "LED 003",
+        "or LDA 003",
         "PLS 162"
       ],
       "units": "",
@@ -66,7 +70,7 @@
         "ESP 173",
         "PLS 150"
       ],
-      "units": "18",
+      "units": "",
       "notes": [
         "Choose at least one, 4 unit course:"
       ]
@@ -74,5 +78,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.376Z"
 }

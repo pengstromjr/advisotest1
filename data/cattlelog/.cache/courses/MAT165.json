@@ -1,0 +1,76 @@
+{
+  "course_id": "MAT165",
+  "course_title": "Mathematics & Computers",
+  "overall_grades": {
+    "A+": 12,
+    "A": 15,
+    "A-": 0,
+    "B+": 3,
+    "B": 0,
+    "B-": 12,
+    "C+": 0,
+    "C": 6,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 12,
+    "NP*": 3
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 69,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Antonio Torres Hernandez",
+      "professor_slug": "antonio-torres-hernandez",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 15,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 12,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 69
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 15,
+            "A-": 0,
+            "B+": 3,
+            "B": 0,
+            "B-": 12,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 69
+        }
+      }
+    }
+  ]
+}

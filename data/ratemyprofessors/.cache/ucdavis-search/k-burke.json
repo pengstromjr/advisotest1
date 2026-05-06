@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.9,
+    "department": "Mathematics",
+    "firstName": "Korana",
+    "id": "VGVhY2hlci0yMjE3NjQ5",
+    "lastName": "Burke",
+    "legacyId": 2217649,
+    "numRatings": 376,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 48.1383
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.8,
+    "department": "Writing",
+    "firstName": "Jennifer",
+    "id": "VGVhY2hlci0yNjk2MzE4",
+    "lastName": "Burke Reifman",
+    "legacyId": 2696318,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

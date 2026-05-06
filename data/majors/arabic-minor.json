@@ -10,19 +10,53 @@
       "courses": [
         "ARB 121",
         "ARB 122",
-        "ARB 123",
+        "ARB 123"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "COM 148",
         "COM 155",
-        "COM 166",
+        "COM 166"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one upper division course in Arabic language or Arabic literature:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARB 140/COM 172/MSA 121C",
         "COM 172/ARB 140/MSA 121C",
-        "MSA 121C/COM 172/ARB 140",
+        "MSA 121C/COM 172/ARB 140"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "MSA 111A",
         "MSA 121A/COM 175",
         "MSA 122A",
         "MSA 150/GSW 185",
         "MSA 181C",
-        "MSA 182C",
+        "MSA 182C"
+      ],
+      "units": "4-5",
+      "notes": [
+        "Choose one additional upper division course in Arabic language or Arabic literature from the list above, or one humanities or social science course from the following:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARB 140/COM 172/MSA 121C",
         "COM 172/ARB 140/MSA 121C",
         "MSA 121C/COM 172/ARB 140",
@@ -40,6 +74,7 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "POL 135",
         "POL 136",
         "RST 060",
@@ -49,16 +84,15 @@
         "RST 162",
         "WMS 184"
       ],
-      "units": "Units",
+      "units": "",
       "notes": [
-        "Choose one upper division course in Arabic language or Arabic literature:",
-        "Choose one:",
-        "Choose one additional upper division course in Arabic language or Arabic literature from the list above, or one humanities or social science course from the following:",
         "Choose one:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.585Z"
 }

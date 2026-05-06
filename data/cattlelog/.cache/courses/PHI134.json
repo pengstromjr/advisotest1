@@ -1,0 +1,98 @@
+{
+  "course_id": "PHI134",
+  "course_title": "Modal Logic",
+  "overall_grades": {
+    "A+": 29,
+    "A": 6,
+    "A-": 16,
+    "B+": 8,
+    "B": 10,
+    "B-": 13,
+    "C+": 3,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 3,
+    "D-": 3,
+    "F": 4,
+    "P*": 13,
+    "NP*": 4
+  },
+  "overall_gpa": 3.15,
+  "overall_enrolled": 115,
+  "available_quarters": [
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Rohan French",
+      "professor_slug": "rohan-french",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 29,
+            "A": 6,
+            "A-": 16,
+            "B+": 8,
+            "B": 10,
+            "B-": 13,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 4,
+            "P*": 13,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 115
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 3,
+            "A-": 12,
+            "B+": 6,
+            "B": 9,
+            "B-": 12,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 93
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 3,
+            "A-": 4,
+            "B+": 2,
+            "B": 1,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 22
+        }
+      }
+    }
+  ]
+}

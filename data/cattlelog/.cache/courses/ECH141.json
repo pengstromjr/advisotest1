@@ -1,0 +1,130 @@
+{
+  "course_id": "ECH141",
+  "course_title": "Fluid Mechanics for Biochemical & Chemical Engineers ",
+  "overall_grades": {
+    "A+": 28,
+    "A": 97,
+    "A-": 62,
+    "B+": 80,
+    "B": 168,
+    "B-": 80,
+    "C+": 73,
+    "C": 76,
+    "C-": 31,
+    "D+": 6,
+    "D": 10,
+    "D-": 0,
+    "F": 9
+  },
+  "overall_gpa": 2.92,
+  "overall_enrolled": 720,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jennifer Curtis",
+      "professor_slug": "jennifer-curtis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 97,
+            "A-": 62,
+            "B+": 80,
+            "B": 168,
+            "B-": 80,
+            "C+": 73,
+            "C": 76,
+            "C-": 31,
+            "D+": 6,
+            "D": 10,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 720
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 15,
+            "A-": 18,
+            "B+": 33,
+            "B": 24,
+            "B-": 30,
+            "C+": 21,
+            "C": 18,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 189
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 21,
+            "B+": 18,
+            "B": 69,
+            "B-": 21,
+            "C+": 21,
+            "C": 33,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 231
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 15,
+            "B+": 21,
+            "B": 54,
+            "B-": 21,
+            "C+": 24,
+            "C": 18,
+            "C-": 12,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 222
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 10,
+            "A-": 8,
+            "B+": 8,
+            "B": 21,
+            "B-": 8,
+            "C+": 7,
+            "C": 7,
+            "C-": 7,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 78
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "course_id": "EBS165",
+  "course_title": "Bioinstrumentation & Control",
+  "overall_grades": {
+    "A+": 20,
+    "A": 32,
+    "A-": 47,
+    "B+": 53,
+    "B": 49,
+    "B-": 21,
+    "C+": 9,
+    "C": 5,
+    "C-": 0,
+    "D+": 2,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.34,
+  "overall_enrolled": 238,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "David Slaughter",
+      "professor_slug": "david-slaughter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 18,
+            "A-": 18,
+            "B+": 12,
+            "B": 9,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 75
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 18,
+            "A-": 18,
+            "B+": 12,
+            "B": 9,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 75
+        }
+      }
+    },
+    {
+      "professor_name": "Stavros Vougioukas",
+      "professor_slug": "stavros-vougioukas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 9,
+            "A-": 24,
+            "B+": 33,
+            "B": 33,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 123
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 3,
+            "B+": 3,
+            "B": 15,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 33
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 21,
+            "B+": 30,
+            "B": 18,
+            "B-": 9,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.37,
+          "quarter_enrolled": 90
+        }
+      }
+    },
+    {
+      "professor_name": "Vivian Vuong",
+      "professor_slug": "vivian-vuong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 5,
+            "A-": 5,
+            "B+": 8,
+            "B": 7,
+            "B-": 6,
+            "C+": 3,
+            "C": 2,
+            "C-": 0,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 40
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 5,
+            "A-": 5,
+            "B+": 8,
+            "B": 7,
+            "B-": 6,
+            "C+": 3,
+            "C": 2,
+            "C-": 0,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 40
+        }
+      }
+    }
+  ]
+}

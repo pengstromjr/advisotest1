@@ -1,0 +1,76 @@
+{
+  "course_id": "GEL81",
+  "course_title": "Learning in Science & Mathematics",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 27,
+    "NP": 3
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 30,
+  "available_quarters": [
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kathlan Latimer",
+      "professor_slug": "kathlan-latimer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 27,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 30
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 27,
+            "NP": 3
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

@@ -6,49 +6,43 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "General Requirements",
+      "heading": "Preparatory Subject Matter",
       "courses": [
         "POL 001",
-        "POL 001Y",
-        "POL 005",
-        "POL 100",
-        "POL 102",
-        "POL 104",
-        "POL 105",
-        "POL 106",
-        "POL 108",
-        "POL 109",
-        "POL 113",
-        "POL 130",
-        "POL 131",
-        "POL 160",
-        "POL 163"
+        "or POL 001Y",
+        "POL 051"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "POL 001",
-        "POL 001Y",
-        "POL 051",
         "POL 002",
         "POL 003",
         "POL 004",
         "POL 005",
         "POL 007",
-        "POL 007V",
+        "or POL 007V"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "POL/CMN/SOC/PSC 012Y",
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032"
       ],
       "units": "4",
       "notes": [
-        "Choose three:",
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (24 units)"
       ]
     },
     {
@@ -86,7 +80,7 @@
       "heading": "Research Paper",
       "courses": [
         "WAS 193/POL 193W",
-        "POL 193"
+        "or POL 193"
       ],
       "units": "2-4",
       "notes": []
@@ -106,7 +100,7 @@
         "Field (7) Social Policy",
         "Field (8) Policy Analysis Tool",
         "Field (9) Honors Thesis",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44-46 units)"
       ]
     },
     {
@@ -125,7 +119,7 @@
         "POL 163",
         "POL 164",
         "POL 165",
-        "POL 165V",
+        "or POL 165V",
         "POL 166",
         "POL 168",
         "POL 170",
@@ -138,12 +132,12 @@
         "POL 187",
         "POL 195",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y"
+        "or ECN 131V",
+        "or ECN 131Y"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -156,7 +150,7 @@
         "POL 153",
         "POL 155"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -168,7 +162,7 @@
         "ESP 173",
         "SOC 143A"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -181,7 +175,7 @@
         "POL 134",
         "POL 139"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -200,23 +194,23 @@
         "ESP 173",
         "ESP 179"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100AV",
         "ECN 130",
-        "ECN 130Y",
+        "or ECN 130Y",
         "ECN 131",
-        "ECN 131V",
-        "ECN 131Y",
+        "or ECN 131V",
+        "or ECN 131Y",
         "ECN 151A",
         "ECN 151B"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -227,9 +221,12 @@
         "SOC 141",
         "SOC 150",
         "SOC 151",
-        "SOC 155"
+        "SOC 154",
+        "SOC 155",
+        "SOC 175",
+        "SOC 181"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -239,7 +236,7 @@
         "ECN 140",
         "POL 114"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -248,7 +245,7 @@
         "POL 194HA",
         "POL 194HB"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     }
   ],
@@ -256,5 +253,7 @@
   "advising_notes": [
     "Field (9) Honors Thesis: Course List Code Title Units POL 194HASpecial Study for Honors Students4 POL 194HBSpecial Study for Honors Students4"
   ],
-  "total_units": "68"
+  "total_units": "68",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.991Z"
 }

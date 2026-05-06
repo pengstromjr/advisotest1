@@ -1,0 +1,191 @@
+{
+  "course_id": "ARE142",
+  "course_title": "Personal Finance",
+  "overall_grades": {
+    "A+": 46,
+    "A": 90,
+    "A-": 60,
+    "B+": 61,
+    "B": 49,
+    "B-": 49,
+    "C+": 70,
+    "C": 55,
+    "C-": 41,
+    "D+": 20,
+    "D": 12,
+    "D-": 5,
+    "F": 20,
+    "P*": 149,
+    "NP*": 66
+  },
+  "overall_gpa": 2.82,
+  "overall_enrolled": 793,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Johnson",
+      "professor_slug": "eric-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 51,
+            "A-": 21,
+            "B+": 24,
+            "B": 19,
+            "B-": 17,
+            "C+": 38,
+            "C": 22,
+            "C-": 8,
+            "D+": 14,
+            "D": 5,
+            "D-": 4,
+            "F": 19,
+            "P*": 75,
+            "NP*": 42
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 394
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 24,
+            "A-": 9,
+            "B+": 15,
+            "B": 9,
+            "B-": 9,
+            "C+": 15,
+            "C": 9,
+            "C-": 3,
+            "D+": 9,
+            "D": 3,
+            "D-": 0,
+            "F": 12,
+            "P*": 27,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 2.77,
+          "quarter_enrolled": 183
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 9,
+            "B+": 3,
+            "B": 9,
+            "B-": 3,
+            "C+": 18,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 45,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 153
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 9,
+            "A-": 3,
+            "B+": 6,
+            "B": 1,
+            "B-": 5,
+            "C+": 5,
+            "C": 4,
+            "C-": 5,
+            "D+": 2,
+            "D": 2,
+            "D-": 1,
+            "F": 1,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 58
+        }
+      }
+    },
+    {
+      "professor_name": "Heather Rose",
+      "professor_slug": "heather-rose",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 39,
+            "A-": 39,
+            "B+": 37,
+            "B": 30,
+            "B-": 32,
+            "C+": 32,
+            "C": 33,
+            "C-": 33,
+            "D+": 6,
+            "D": 7,
+            "D-": 1,
+            "F": 1,
+            "P*": 74,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 399
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 30,
+            "A-": 30,
+            "B+": 30,
+            "B": 21,
+            "B-": 21,
+            "C+": 21,
+            "C": 27,
+            "C-": 24,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 48,
+            "NP*": 21
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 291
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 9,
+            "A-": 9,
+            "B+": 7,
+            "B": 9,
+            "B-": 11,
+            "C+": 11,
+            "C": 6,
+            "C-": 9,
+            "D+": 3,
+            "D": 1,
+            "D-": 1,
+            "F": 1,
+            "P*": 26,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 108
+        }
+      }
+    }
+  ]
+}

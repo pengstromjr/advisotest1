@@ -1,0 +1,90 @@
+{
+  "course_id": "EEC175A",
+  "course_title": "Internet of Things",
+  "overall_grades": {
+    "A+": 63,
+    "A": 87,
+    "A-": 15,
+    "B+": 9,
+    "B": 6,
+    "B-": 3,
+    "C+": 6,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.84,
+  "overall_enrolled": 189,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Avesta Sasan",
+      "professor_slug": "avesta-sasan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 87,
+            "A-": 15,
+            "B+": 9,
+            "B": 6,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 189
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 42,
+            "A-": 6,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 114
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 45,
+            "A-": 9,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 75
+        }
+      }
+    }
+  ]
+}

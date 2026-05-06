@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 5,
+    "department": "Plant & Soil Science",
+    "firstName": "Amelie",
+    "id": "VGVhY2hlci0yNjAzODU0",
+    "lastName": "Gaudin",
+    "legacyId": 2603854,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

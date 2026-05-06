@@ -16,13 +16,13 @@
         "EXB 125",
         "NPB 109",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 104",
         "BIS 105",
         "EXB 106/CHA 101",
         "NPB 101"
       ],
-      "units": "Units",
+      "units": "15",
       "notes": [
         "Choose at least 15 units:",
         "Exercise Biology or other approved course; an additional 3 upper division units from either the previous list of Exercise Biology (EXB) courses or from:"
@@ -31,5 +31,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.794Z"
 }

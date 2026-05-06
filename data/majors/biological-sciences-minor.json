@@ -9,9 +9,9 @@
       "heading": "General Requirements",
       "courses": [
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 102",
-        "BIS 102V",
+        "or BIS 102V",
         "BIS 105",
         "EVE 107",
         "MCB 150",
@@ -21,6 +21,7 @@
         "NPB 107",
         "NPB 117",
         "NPB 123/APC 100",
+        "MMG 102",
         "MMG 162",
         "MMG 170",
         "PLP/PLB 148",
@@ -43,10 +44,11 @@
         "EVE 147",
         "PLB/EVE 117",
         "PLB/EVE 119",
+        "PLB/PLS 127",
         "PLB 143",
         "PLB/PLP 148"
       ],
-      "units": "Units",
+      "units": "18",
       "notes": [
         "Complete at least 3 units from each of the five numbered groups to total at least 18 units. Appropriate alternative courses may be used with approval of the faculty advisor.",
         "1) Genetics, Molecular Biology or Biochemistry",
@@ -60,5 +62,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.809Z"
 }

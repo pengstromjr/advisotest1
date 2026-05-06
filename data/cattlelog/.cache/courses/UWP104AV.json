@@ -1,0 +1,432 @@
+{
+  "course_id": "UWP104AV",
+  "course_title": "Writing in the Professions: Business Writing",
+  "overall_grades": {
+    "A+": 117,
+    "A": 337,
+    "A-": 198,
+    "B+": 105,
+    "B": 97,
+    "B-": 35,
+    "C+": 20,
+    "C": 12,
+    "C-": 9,
+    "D+": 4,
+    "D": 6,
+    "D-": 3,
+    "F": 13,
+    "P*": 47,
+    "NP*": 11
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 1014,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Angela Morris",
+      "professor_slug": "angela-morris",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 72,
+            "A-": 54,
+            "B+": 12,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 147
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 72,
+            "A-": 54,
+            "B+": 12,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 147
+        }
+      }
+    },
+    {
+      "professor_name": "Carolyn Gubala",
+      "professor_slug": "carolyn-gubala",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 105,
+            "A": 111,
+            "A-": 32,
+            "B+": 12,
+            "B": 2,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 10,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 278
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 33,
+            "A-": 9,
+            "B+": 6,
+            "B": 0,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 78
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 63,
+            "A-": 12,
+            "B+": 6,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.94,
+          "quarter_enrolled": 150
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 15,
+            "A-": 11,
+            "B+": 0,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 50
+        }
+      }
+    },
+    {
+      "professor_name": "Elisabeth Lore",
+      "professor_slug": "elisabeth-lore",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 34,
+            "A-": 11,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 49
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 34,
+            "A-": 11,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Jillian Azevedo",
+      "professor_slug": "jillian-azevedo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 13,
+            "A-": 6,
+            "B+": 2,
+            "B": 0,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 25
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 13,
+            "A-": 6,
+            "B+": 2,
+            "B": 0,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Miles Miniaci",
+      "professor_slug": "miles-miniaci",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 89,
+            "A-": 70,
+            "B+": 52,
+            "B": 42,
+            "B-": 15,
+            "C+": 7,
+            "C": 7,
+            "C-": 3,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 20,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 321
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 24,
+            "B+": 6,
+            "B": 0,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 75
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 10,
+            "B+": 6,
+            "B": 6,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 50
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 33,
+            "A-": 24,
+            "B+": 30,
+            "B": 30,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 147
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 14,
+            "A-": 12,
+            "B+": 10,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Shannah Lester",
+      "professor_slug": "shannah-lester",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 18,
+            "A-": 25,
+            "B+": 26,
+            "B": 47,
+            "B-": 16,
+            "C+": 12,
+            "C": 5,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 7,
+            "P*": 12,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 194
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 15,
+            "B+": 18,
+            "B": 39,
+            "B-": 12,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 6,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 144
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 10,
+            "B+": 8,
+            "B": 8,
+            "B-": 4,
+            "C+": 3,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 50
+        }
+      }
+    }
+  ]
+}

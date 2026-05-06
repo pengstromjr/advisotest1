@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 2.7,
+    "department": "Not Specified",
+    "firstName": "Thomas",
+    "id": "VGVhY2hlci0xMzg4NzE1",
+    "lastName": "Harter",
+    "legacyId": 1388715,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  }
+]

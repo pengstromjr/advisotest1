@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 2.9,
+    "department": "English",
+    "firstName": "Pamela",
+    "id": "VGVhY2hlci0yNzgwNjQ1",
+    "lastName": "Chisum",
+    "legacyId": 2780645,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 53.8462
+  }
+]

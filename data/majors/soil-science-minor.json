@@ -8,7 +8,14 @@
     {
       "heading": "General Requirements",
       "courses": [
-        "SSC 100",
+        "SSC 100"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "HYD 124",
         "HYD 134",
         "PLS 158",
@@ -20,7 +27,7 @@
         "SSC 118",
         "SSC 120"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
         "Choose 16 units:"
       ]
@@ -28,5 +35,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "21"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.298Z"
 }

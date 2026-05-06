@@ -1,0 +1,152 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.9,
+    "department": "Philosophy",
+    "firstName": "Hanti",
+    "id": "VGVhY2hlci0yNTgxOTAy",
+    "lastName": "Lin",
+    "legacyId": 2581902,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 3.3,
+    "department": "Chinese",
+    "firstName": "Ling-Yu",
+    "id": "VGVhY2hlci04NTM1NDE=",
+    "lastName": "Lu",
+    "legacyId": 853541,
+    "numRatings": 76,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 34.8837
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "University Writing Program",
+    "firstName": "Lindsey",
+    "id": "VGVhY2hlci0yOTM1OTM1",
+    "lastName": "de Genova",
+    "legacyId": 2935935,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.7,
+    "department": "Mechanical Engineering",
+    "firstName": "Xinfan",
+    "id": "VGVhY2hlci0yMjM2ODIz",
+    "lastName": "Lin",
+    "legacyId": 2236823,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.5,
+    "department": "Music",
+    "firstName": "Scott",
+    "id": "VGVhY2hlci0yODgyMjE1",
+    "lastName": "Linford",
+    "legacyId": 2882215,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.3333
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.4,
+    "department": "Mathematics",
+    "firstName": "Lingfei",
+    "id": "VGVhY2hlci0yOTI5Nzcy",
+    "lastName": "Cui",
+    "legacyId": 2929772,
+    "numRatings": 136,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 35.2941
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.6,
+    "department": "Psychology",
+    "firstName": "Lindsay",
+    "id": "VGVhY2hlci0yMzUwNzUx",
+    "lastName": "Bowman",
+    "legacyId": 2350751,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.1,
+    "department": "Chemistry",
+    "firstName": "Huitao",
+    "id": "VGVhY2hlci0zMDIzMjQy",
+    "lastName": "Ling",
+    "legacyId": 3023242,
+    "numRatings": 39,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 53.8462
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.6,
+    "department": "Art & Art History",
+    "firstName": "Lindsay",
+    "id": "VGVhY2hlci0yNzc5Nzcw",
+    "lastName": "Riordan",
+    "legacyId": 2779770,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 3.6,
+    "department": "Mechanical Engineering",
+    "firstName": "Barbara",
+    "id": "VGVhY2hlci0xODQ0ODYz",
+    "lastName": "Linke",
+    "legacyId": 1844863,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

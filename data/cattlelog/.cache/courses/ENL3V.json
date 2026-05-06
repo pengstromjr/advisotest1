@@ -1,0 +1,207 @@
+{
+  "course_id": "ENL3V",
+  "course_title": "Introduction to Literature",
+  "overall_grades": {
+    "A+": 27,
+    "A": 86,
+    "A-": 18,
+    "B+": 6,
+    "B": 8,
+    "B-": 3,
+    "C+": 0,
+    "C": 1,
+    "C-": 0,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "P*": 1
+  },
+  "overall_gpa": 3.8,
+  "overall_enrolled": 152,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alison Hsiao",
+      "professor_slug": "alison-hsiao",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 14,
+            "B+": 4,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 25
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 14,
+            "B+": 4,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Dalia Barghouty",
+      "professor_slug": "dalia-barghouty",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 72,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 78
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 72,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 4,
+          "quarter_enrolled": 78
+        }
+      }
+    },
+    {
+      "professor_name": "Heather Ringo",
+      "professor_slug": "heather-ringo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 6,
+            "A-": 3,
+            "B+": 2,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 25
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 6,
+            "A-": 3,
+            "B+": 2,
+            "B": 2,
+            "B-": 1,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.43,
+          "quarter_enrolled": 25
+        }
+      }
+    },
+    {
+      "professor_name": "Tp Coughlin",
+      "professor_slug": "tp-coughlin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 4,
+            "A-": 1,
+            "B+": 0,
+            "B": 4,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 24
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 4,
+            "A-": 1,
+            "B+": 0,
+            "B": 4,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 24
+        }
+      }
+    }
+  ]
+}

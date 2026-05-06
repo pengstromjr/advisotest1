@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.3,
+    "department": "Civil Engineering",
+    "firstName": "Kari",
+    "id": "VGVhY2hlci0yOTE3NDky",
+    "lastName": "Watkins",
+    "legacyId": 2917492,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Evan",
+    "id": "VGVhY2hlci0zNzE2NzQ=",
+    "lastName": "Watkins",
+    "legacyId": 371674,
+    "numRatings": 39,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

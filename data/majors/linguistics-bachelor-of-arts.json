@@ -9,41 +9,73 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "LIN 001",
-        "LIN 001Y"
+        "or LIN 001Y"
       ],
       "units": "4",
       "notes": [
         "Foreign language, one course beyond the 15-unit requirement of the College of Letters & Science in the same language used to fulfill the college requirement.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (4-24 units)"
       ]
     },
     {
       "heading": "Depth Subject Matter",
       "courses": [
         "LIN 103A",
-        "LIN 103AV",
+        "or LIN 103AV",
         "LIN 103B",
         "LIN 111",
-        "LIN 131",
-        "LIN 111",
+        "LIN 131"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "LIN 112",
         "LIN 121",
         "LIN 127",
-        "LIN 131",
         "LIN 141",
         "LIN 150",
         "LIN 151",
-        "LIN 152",
+        "LIN 152"
+      ],
+      "units": "12",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "LIN 160",
         "LIN 163",
         "LIN 165",
-        "LIN 166",
+        "LIN 166"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "LIN 171",
         "LIN/EDU 173",
         "LIN 175",
         "LIN 177",
         "LIN 180",
-        "LIN 182",
+        "LIN 182"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [
         "AAS 156",
         "ANT 117",
         "ANT 120",
@@ -70,25 +102,24 @@
         "SPA 115",
         "SPA 115S",
         "SPA 116",
-        "SPA 116V",
+        "or SPA 116V",
         "SPA 117",
-        "SPA 117V",
+        "or SPA 117V",
         "SPA 118"
       ],
-      "units": "4",
+      "units": "8",
       "notes": [
-        "Choose three:",
-        "Choose one:",
-        "Choose one:",
         "Choose at least 8 upper division units:",
         "Any LIN upper division course not used to fulﬁll area above or one of the approved courses below.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors & Honors Program: The honors program consists of 6 units of 194H credit normally taken in the fall and winter quarters of the senior year. Completion of the program is a prerequisite for High or Highest Honors at graduation. Specific eligibility criteria may be obtained from the major advisor. For general information regarding graduation with honors and Dean’s Honors Lists, please see Academic Information."
+    "Honors & Honors Program: The honors program consists of 6 units of 194H credit normally taken in the fall and winter quarters of the senior year. Completion of the program is a prerequisite for High or Highest Honors at graduation. For specific eligibility criteria and more information, see Honors Program. For general information regarding graduation with honors and Dean’s Honors Lists, please see Academic Information."
   ],
-  "total_units": "48"
+  "total_units": "48",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.447Z"
 }

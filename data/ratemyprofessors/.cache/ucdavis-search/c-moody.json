@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.9,
+    "department": "Animal Science",
+    "firstName": "Carly",
+    "id": "VGVhY2hlci0yODc0MTYz",
+    "lastName": "Moody",
+    "legacyId": 2874163,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Veterinary Sciences",
+    "firstName": "C.",
+    "id": "VGVhY2hlci0yNzYyODg5",
+    "lastName": "Moody",
+    "legacyId": 2762889,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Biochemistry",
+    "firstName": "Richard",
+    "id": "VGVhY2hlci0yMzAzODA1",
+    "lastName": "McKenney",
+    "legacyId": 2303805,
+    "numRatings": 66,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 92.4242
+  }
+]

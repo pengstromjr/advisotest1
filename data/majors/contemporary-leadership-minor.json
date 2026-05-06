@@ -14,7 +14,15 @@
       ],
       "units": "4",
       "notes": [
-        "Core Leadership Courses Subtotal"
+        "Core Leadership Courses Subtotal (8 units)"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "15-16",
+      "notes": [
+        "Students are required to complete 4 units from each of the following four categories; all courses are 4 units except where noted:"
       ]
     },
     {
@@ -29,32 +37,31 @@
         "PSC 175"
       ],
       "units": "",
-      "notes": [
-        "Students are required to complete 4 units from each of the following four categories; all courses are 4 units except where noted:"
-      ]
+      "notes": []
     },
     {
       "heading": "Communication, Interpersonal Relationships & Human Dynamics",
       "courses": [
         "ANT 139AN",
         "CMN 136",
-        "CMN 136V",
+        "or CMN 136V",
         "CRD 172",
         "LIN 163",
         "PSC 151",
-        "PSC 151V",
+        "or PSC 151V",
         "SOC 126",
         "SOC 132",
+        "or SOC 132V",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY"
+        "or UWP 104FV",
+        "or UWP 104FY"
       ],
       "units": "",
       "notes": []
@@ -69,7 +76,8 @@
         "CRD 164",
         "SOC 156",
         "SOC 180A",
-        "WMS 140"
+        "WMS 140",
+        "or GSW 140"
       ],
       "units": "",
       "notes": []
@@ -88,11 +96,13 @@
       ],
       "units": "15-16",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (15-16 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.364Z"
 }

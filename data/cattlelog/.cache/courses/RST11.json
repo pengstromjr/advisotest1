@@ -1,0 +1,73 @@
+{
+  "course_id": "RST11",
+  "course_title": "Ethical Eating",
+  "overall_grades": {
+    "A+": 6,
+    "A": 42,
+    "A-": 30,
+    "B+": 21,
+    "B": 18,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 6
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 129,
+  "available_quarters": [
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Lynna Dhanani",
+      "professor_slug": "lynna-dhanani",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 42,
+            "A-": 30,
+            "B+": 21,
+            "B": 18,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 129
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 42,
+            "A-": 30,
+            "B+": 21,
+            "B": 18,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 129
+        }
+      }
+    }
+  ]
+}

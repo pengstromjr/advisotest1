@@ -1,0 +1,196 @@
+{
+  "course_id": "HIS10B",
+  "course_title": "World History, c. 1350-1850",
+  "overall_grades": {
+    "A+": 85,
+    "A": 178,
+    "A-": 142,
+    "B+": 102,
+    "B": 89,
+    "B-": 54,
+    "C+": 19,
+    "C": 35,
+    "C-": 7,
+    "D+": 3,
+    "D": 1,
+    "D-": 3,
+    "F": 10,
+    "P*": 63,
+    "NP*": 22
+  },
+  "overall_gpa": 3.38,
+  "overall_enrolled": 813,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "A Katie Harris",
+      "professor_slug": "a-katie-harris",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 93,
+            "A-": 78,
+            "B+": 57,
+            "B": 63,
+            "B-": 33,
+            "C+": 15,
+            "C": 33,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 51,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 480
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 51,
+            "A-": 48,
+            "B+": 33,
+            "B": 42,
+            "B-": 21,
+            "C+": 3,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 249
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 42,
+            "A-": 30,
+            "B+": 24,
+            "B": 21,
+            "B-": 12,
+            "C+": 12,
+            "C": 21,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 33,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 231
+        }
+      }
+    },
+    {
+      "professor_name": "Ali Danis Neyzi",
+      "professor_slug": "ali-danis-neyzi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 16,
+            "A-": 16,
+            "B+": 18,
+            "B": 14,
+            "B-": 6,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 84
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 16,
+            "A-": 16,
+            "B+": 18,
+            "B": 14,
+            "B-": 6,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 4,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 84
+        }
+      }
+    },
+    {
+      "professor_name": "Michael Brillman",
+      "professor_slug": "michael-brillman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 69,
+            "A-": 48,
+            "B+": 27,
+            "B": 12,
+            "B-": 15,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 249
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 69,
+            "A-": 48,
+            "B+": 27,
+            "B": 12,
+            "B-": 15,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 249
+        }
+      }
+    }
+  ]
+}

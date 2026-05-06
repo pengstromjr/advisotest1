@@ -9,10 +9,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "8",
       "notes": []
@@ -20,29 +20,30 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 019",
-        "MAT 016",
         "MAT 019A",
         "MAT 019B",
         "MAT 019C",
-        "MAT 017A",
-        "MAT 017B",
-        "MAT 017C",
-        "MAT 021A",
-        "MAT 021B",
-        "MAT 021C"
+        "or MAT 017A",
+        "or MAT 017B",
+        "or MAT 017C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "12",
       "notes": [
-        "Choose one series:"
+        "The preferred calculus series for Managerial Economics is MAT 019. The MAT 016 series is accepted if started prior to Fall 2024.",
+        "Choose one series:",
+        "OR"
       ]
     },
     {
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 032",
+        "or STA 013V",
+        "or STA 013Y",
+        "or STA 032",
         "STA 103"
       ],
       "units": "8",
@@ -53,7 +54,14 @@
       "courses": [
         "ARE 100A",
         "ARE 100B",
-        "ARE 106",
+        "ARE 106"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ARE 107",
         "ARE 112",
         "ARE/ECN 115A",
@@ -75,7 +83,7 @@
         "ARE/ESP 175",
         "ARE 176"
       ],
-      "units": "Units",
+      "units": "12",
       "notes": [
         "Choose 12 units from the following:"
       ]
@@ -83,5 +91,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "28"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.503Z"
 }

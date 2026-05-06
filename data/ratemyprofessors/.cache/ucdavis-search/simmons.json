@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.6,
+    "department": "Computer Science",
+    "firstName": "Gabriel",
+    "id": "VGVhY2hlci0yOTMyNDM2",
+    "lastName": "Simmons",
+    "legacyId": 2932436,
+    "numRatings": 41,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 39.0244
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Alex",
+    "id": "VGVhY2hlci0yOTM5Nzgx",
+    "lastName": "Simmons",
+    "legacyId": 2939781,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 5,
+    "department": "Food Science  Technology",
+    "firstName": "Christopher",
+    "id": "VGVhY2hlci0yMDkxNjky",
+    "lastName": "Simmons",
+    "legacyId": 2091692,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4,
+    "department": "Human Development",
+    "firstName": "Leigh Ann",
+    "id": "VGVhY2hlci0yOTE0NzQ2",
+    "lastName": "Simmons",
+    "legacyId": 2914746,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 1,
+    "department": "Human Ecology",
+    "firstName": "Leigh",
+    "id": "VGVhY2hlci0yNzg1NjQ5",
+    "lastName": "Simmons",
+    "legacyId": 2785649,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 5,
+    "department": "Psychology",
+    "firstName": "Trent",
+    "id": "VGVhY2hlci0yNDQ3MzMy",
+    "lastName": "Simmons",
+    "legacyId": 2447332,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

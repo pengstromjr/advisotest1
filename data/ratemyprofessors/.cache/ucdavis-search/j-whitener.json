@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.8,
+    "department": "Statistics",
+    "firstName": "JoAnna",
+    "id": "VGVhY2hlci0yMTczNjMx",
+    "lastName": "Whitener",
+    "legacyId": 2173631,
+    "numRatings": 261,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.8473
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 5,
+    "department": "Spanish",
+    "firstName": "Whitney",
+    "id": "VGVhY2hlci0xNjk3MjQ3",
+    "lastName": "Whitener",
+    "legacyId": 1697247,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

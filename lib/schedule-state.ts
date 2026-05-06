@@ -1,8 +1,9 @@
 import type { Section } from "./course-data";
 import type { TimeBlock } from "./time-blocks";
+import { CURRENT_BLOCKS_STORAGE_KEY, CURRENT_SCHEDULE_STORAGE_KEY } from "./current-term";
 
-const SCHEDULE_STORAGE_KEY = "ucd-ai-schedule-spring-2026";
-const BLOCKS_STORAGE_KEY = "ucd-ai-blocked-times-spring-2026";
+const SCHEDULE_STORAGE_KEY = CURRENT_SCHEDULE_STORAGE_KEY;
+const BLOCKS_STORAGE_KEY = CURRENT_BLOCKS_STORAGE_KEY;
 
 export function getStoredPlannedSections(): Section[] {
   if (typeof window === "undefined") return [];

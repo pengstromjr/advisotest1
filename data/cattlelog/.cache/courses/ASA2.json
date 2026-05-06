@@ -1,0 +1,258 @@
+{
+  "course_id": "ASA2",
+  "course_title": "Contemporary Issues of  Asian Americans",
+  "overall_grades": {
+    "A+": 541,
+    "A": 632,
+    "A-": 196,
+    "B+": 61,
+    "B": 46,
+    "B-": 18,
+    "C+": 4,
+    "C": 8,
+    "C-": 0,
+    "D+": 6,
+    "D": 3,
+    "D-": 0,
+    "F": 1,
+    "P*": 93,
+    "NP*": 3
+  },
+  "overall_gpa": 3.85,
+  "overall_enrolled": 1612,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Catherine Fung",
+      "professor_slug": "catherine-fung",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 52,
+            "A-": 24,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 8
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 98
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 52,
+            "A-": 24,
+            "B+": 6,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 8
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 98
+        }
+      }
+    },
+    {
+      "professor_name": "Ga Young Chung",
+      "professor_slug": "ga-young-chung",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 147,
+            "A": 262,
+            "A-": 82,
+            "B+": 28,
+            "B": 16,
+            "B-": 9,
+            "C+": 1,
+            "C": 5,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 55
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 605
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 183,
+            "A-": 51,
+            "B+": 18,
+            "B": 12,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 39
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 420
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 79,
+            "A-": 31,
+            "B+": 10,
+            "B": 4,
+            "B-": 3,
+            "C+": 1,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 16
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 185
+        }
+      }
+    },
+    {
+      "professor_name": "Kieu Linh Valverde",
+      "professor_slug": "kieu-linh-valverde",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 321,
+            "A": 156,
+            "A-": 66,
+            "B+": 24,
+            "B": 12,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 603
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 180,
+            "A": 63,
+            "A-": 27,
+            "B+": 12,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 300
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 141,
+            "A": 93,
+            "A-": 39,
+            "B+": 12,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 303
+        }
+      }
+    },
+    {
+      "professor_name": "Stacey Salinas",
+      "professor_slug": "stacey-salinas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 162,
+            "A-": 24,
+            "B+": 3,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 306
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 162,
+            "A-": 24,
+            "B+": 3,
+            "B": 15,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 306
+        }
+      }
+    }
+  ]
+}

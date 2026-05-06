@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.3,
+    "department": "Physical Education",
+    "firstName": "K",
+    "id": "VGVhY2hlci04ODQ3NTE=",
+    "lastName": "Yoder",
+    "legacyId": 884751,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.1,
+    "department": "Plant & Soil Science",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0xNzc5ODM2",
+    "lastName": "Latimer",
+    "legacyId": 1779836,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  },
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4,
+    "department": "Education",
+    "firstName": "Kathlan",
+    "id": "VGVhY2hlci0xODgzOTM0",
+    "lastName": "Latimer",
+    "legacyId": 1883934,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  }
+]

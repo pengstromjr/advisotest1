@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "American Studies",
+    "firstName": "Ari Y",
+    "id": "VGVhY2hlci0xMTg2MjA3",
+    "lastName": "Kelman",
+    "legacyId": 1186207,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 4.9,
+    "department": "Japanese",
+    "firstName": "Yoko",
+    "id": "VGVhY2hlci0yMjQ0MzE2",
+    "lastName": "Kato",
+    "legacyId": 2244316,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 5,
+    "avgRating": 1,
+    "department": "Science",
+    "firstName": "Michiko",
+    "id": "VGVhY2hlci0xNTg5MzMy",
+    "lastName": "Kato",
+    "legacyId": 1589332,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

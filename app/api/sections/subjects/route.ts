@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 import type { Section } from "@/lib/course-data";
+import { CURRENT_SECTIONS_FILE } from "@/lib/current-term";
 
 let cached: Section[] | null = null;
 
@@ -11,7 +12,7 @@ function getCachedSections(): Section[] {
     process.cwd(),
     "data",
     "sections",
-    "spring-2026.json"
+    CURRENT_SECTIONS_FILE
   );
   try {
     const raw = fs.readFileSync(sectionsPath, "utf-8");

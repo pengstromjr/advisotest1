@@ -1,0 +1,114 @@
+{
+  "course_id": "APC100",
+  "course_title": "Comparative Vertebrate Organology",
+  "overall_grades": {
+    "A+": 38,
+    "A": 57,
+    "A-": 23,
+    "B+": 24,
+    "B": 38,
+    "B-": 16,
+    "C+": 27,
+    "C": 25,
+    "C-": 7,
+    "D+": 3,
+    "D": 3,
+    "D-": 0,
+    "F": 2,
+    "P*": 9
+  },
+  "overall_gpa": 3.17,
+  "overall_enrolled": 272,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Crystal Rogers",
+      "professor_slug": "crystal-rogers",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 38,
+            "A": 57,
+            "A-": 23,
+            "B+": 24,
+            "B": 38,
+            "B-": 16,
+            "C+": 27,
+            "C": 25,
+            "C-": 7,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 2,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 272
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 27,
+            "A-": 3,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 15,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 102
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 18,
+            "A-": 12,
+            "B+": 15,
+            "B": 21,
+            "B-": 9,
+            "C+": 9,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 111
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 12,
+            "A-": 8,
+            "B+": 3,
+            "B": 8,
+            "B-": 4,
+            "C+": 3,
+            "C": 4,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 59
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "course_id": "POL168",
+  "course_title": "Latino Politics",
+  "overall_grades": {
+    "A+": 0,
+    "A": 113,
+    "A-": 70,
+    "B+": 21,
+    "B": 42,
+    "B-": 36,
+    "C+": 9,
+    "C": 16,
+    "C-": 12,
+    "D+": 0,
+    "D": 6,
+    "D-": 0,
+    "F": 6,
+    "P*": 22,
+    "NP*": 3
+  },
+  "overall_gpa": 3.27,
+  "overall_enrolled": 356,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Bradford Jones",
+      "professor_slug": "bradford-jones",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 113,
+            "A-": 70,
+            "B+": 21,
+            "B": 42,
+            "B-": 36,
+            "C+": 9,
+            "C": 16,
+            "C-": 12,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 22,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 356
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 63,
+            "A-": 27,
+            "B+": 3,
+            "B": 9,
+            "B-": 6,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 129
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 26,
+            "A-": 19,
+            "B+": 9,
+            "B": 9,
+            "B-": 9,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 80
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 24,
+            "B+": 9,
+            "B": 24,
+            "B-": 21,
+            "C+": 9,
+            "C": 9,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 147
+        }
+      }
+    }
+  ]
+}

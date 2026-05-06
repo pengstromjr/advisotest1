@@ -1,0 +1,261 @@
+{
+  "course_id": "CLA10",
+  "course_title": "Greek, Roman, & Near Eastern Mythology",
+  "overall_grades": {
+    "A+": 533,
+    "A": 2505,
+    "A-": 549,
+    "B+": 394,
+    "B": 623,
+    "B-": 214,
+    "C+": 170,
+    "C": 195,
+    "C-": 55,
+    "D+": 45,
+    "D": 49,
+    "D-": 31,
+    "F": 133,
+    "P*": 806,
+    "NP*": 307
+  },
+  "overall_gpa": 3.45,
+  "overall_enrolled": 6609,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Melissa Stem",
+      "professor_slug": "melissa-stem",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 228,
+            "A": 318,
+            "A-": 147,
+            "B+": 129,
+            "B": 135,
+            "B-": 111,
+            "C+": 78,
+            "C": 75,
+            "C-": 24,
+            "D+": 24,
+            "D": 27,
+            "D-": 15,
+            "F": 75,
+            "P*": 198,
+            "NP*": 138
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 1722
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 111,
+            "A-": 21,
+            "B+": 54,
+            "B": 66,
+            "B-": 36,
+            "C+": 30,
+            "C": 33,
+            "C-": 6,
+            "D+": 9,
+            "D": 0,
+            "D-": 3,
+            "F": 12,
+            "P*": 84,
+            "NP*": 57
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 612
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 138,
+            "A": 207,
+            "A-": 126,
+            "B+": 75,
+            "B": 69,
+            "B-": 75,
+            "C+": 48,
+            "C": 42,
+            "C-": 18,
+            "D+": 15,
+            "D": 27,
+            "D-": 12,
+            "F": 63,
+            "P*": 114,
+            "NP*": 81
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 1110
+        }
+      }
+    },
+    {
+      "professor_name": "Ralph Hexter",
+      "professor_slug": "ralph-hexter",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 213,
+            "A": 147,
+            "A-": 63,
+            "B+": 27,
+            "B": 60,
+            "B-": 24,
+            "C+": 42,
+            "C": 30,
+            "C-": 18,
+            "D+": 12,
+            "D": 6,
+            "D-": 9,
+            "F": 45,
+            "P*": 216,
+            "NP*": 114
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 1026
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 213,
+            "A": 147,
+            "A-": 63,
+            "B+": 27,
+            "B": 60,
+            "B-": 24,
+            "C+": 42,
+            "C": 30,
+            "C-": 18,
+            "D+": 12,
+            "D": 6,
+            "D-": 9,
+            "F": 45,
+            "P*": 216,
+            "NP*": 114
+          },
+          "quarter_average_gpa": 3.19,
+          "quarter_enrolled": 1026
+        }
+      }
+    },
+    {
+      "professor_name": "Shennan Hutton",
+      "professor_slug": "shennan-hutton",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 92,
+            "A": 2040,
+            "A-": 339,
+            "B+": 238,
+            "B": 428,
+            "B-": 79,
+            "C+": 50,
+            "C": 90,
+            "C-": 13,
+            "D+": 9,
+            "D": 16,
+            "D-": 7,
+            "F": 13,
+            "P*": 392,
+            "NP*": 55
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 3861
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 738,
+            "A-": 162,
+            "B+": 60,
+            "B": 96,
+            "B-": 15,
+            "C+": 6,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 75
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 1164
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 660,
+            "A-": 66,
+            "B+": 69,
+            "B": 147,
+            "B-": 21,
+            "C+": 15,
+            "C": 30,
+            "C-": 6,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 6,
+            "P*": 99,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 1164
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 486,
+            "A-": 90,
+            "B+": 75,
+            "B": 138,
+            "B-": 30,
+            "C+": 24,
+            "C": 36,
+            "C-": 0,
+            "D+": 6,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 174,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 1149
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 35,
+            "A": 156,
+            "A-": 21,
+            "B+": 34,
+            "B": 47,
+            "B-": 13,
+            "C+": 5,
+            "C": 12,
+            "C-": 7,
+            "D+": 0,
+            "D": 4,
+            "D-": 1,
+            "F": 4,
+            "P*": 44,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 384
+        }
+      }
+    }
+  ]
+}

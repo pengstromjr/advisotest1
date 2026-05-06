@@ -1,0 +1,168 @@
+{
+  "course_id": "STS12",
+  "course_title": "Epidemics & Society",
+  "overall_grades": {
+    "A+": 36,
+    "A": 221,
+    "A-": 156,
+    "B+": 50,
+    "B": 49,
+    "B-": 10,
+    "C+": 11,
+    "C": 9,
+    "C-": 3,
+    "D+": 3,
+    "D": 0,
+    "D-": 0,
+    "F": 9,
+    "P*": 22,
+    "NP*": 7
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 586,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Gerardo Con Diaz",
+      "professor_slug": "gerardo-con-diaz",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 213,
+            "A-": 144,
+            "B+": 42,
+            "B": 33,
+            "B-": 6,
+            "C+": 9,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 528
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 42,
+            "A-": 84,
+            "B+": 21,
+            "B": 6,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.54,
+          "quarter_enrolled": 180
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 90,
+            "A-": 30,
+            "B+": 6,
+            "B": 18,
+            "B-": 0,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 174
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 81,
+            "A-": 30,
+            "B+": 15,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 174
+        }
+      }
+    },
+    {
+      "professor_name": "Melissa Wills",
+      "professor_slug": "melissa-wills",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 8,
+            "A-": 12,
+            "B+": 8,
+            "B": 16,
+            "B-": 4,
+            "C+": 2,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 58
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 8,
+            "A-": 12,
+            "B+": 8,
+            "B": 16,
+            "B-": 4,
+            "C+": 2,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 58
+        }
+      }
+    }
+  ]
+}

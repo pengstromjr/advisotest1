@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.3,
+    "department": "English",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0xMjQwNDc3",
+    "lastName": "Milton",
+    "legacyId": 1240477,
+    "numRatings": 46,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 44.8276
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "University Writing Program",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0yNjA4NTgx",
+    "lastName": "Milton",
+    "legacyId": 2608581,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Art  Art History",
+    "firstName": "Piper",
+    "id": "VGVhY2hlci0yMjc0MzYw",
+    "lastName": "Milton",
+    "legacyId": 2274360,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.2,
+    "avgRating": 2.7,
+    "department": "Mathematics",
+    "firstName": "E.O. \"Jack\"",
+    "id": "VGVhY2hlci0xMjQ5ODg=",
+    "lastName": "Milton",
+    "legacyId": 124988,
+    "numRatings": 67,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

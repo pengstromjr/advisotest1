@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 3.7,
+    "department": "Civil Engineering",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0yODA2NjQ3",
+    "lastName": "Bischel",
+    "legacyId": 2806647,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  }
+]

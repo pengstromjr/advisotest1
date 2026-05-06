@@ -1,0 +1,138 @@
+{
+  "course_id": "SPA174",
+  "course_title": "Chicano Culture",
+  "overall_grades": {
+    "A+": 46,
+    "A": 145,
+    "A-": 105,
+    "B+": 53,
+    "B": 76,
+    "B-": 34,
+    "C+": 10,
+    "C": 17,
+    "C-": 8,
+    "D+": 0,
+    "D": 4,
+    "D-": 0,
+    "F": 6,
+    "NP*": 12,
+    "P*": 9
+  },
+  "overall_gpa": 3.42,
+  "overall_enrolled": 525,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Robert Irwin",
+      "professor_slug": "robert-irwin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 46,
+            "A": 145,
+            "A-": 105,
+            "B+": 53,
+            "B": 76,
+            "B-": 34,
+            "C+": 10,
+            "C": 17,
+            "C-": 8,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 6,
+            "NP*": 12,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 525
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 36,
+            "A-": 18,
+            "B+": 9,
+            "B": 6,
+            "B-": 12,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 132
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 48,
+            "A-": 51,
+            "B+": 18,
+            "B": 27,
+            "B-": 12,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 174
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 45,
+            "A-": 27,
+            "B+": 15,
+            "B": 39,
+            "B-": 9,
+            "C+": 0,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 165
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 16,
+            "A-": 9,
+            "B+": 11,
+            "B": 4,
+            "B-": 1,
+            "C+": 1,
+            "C": 2,
+            "C-": 5,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 54
+        }
+      }
+    }
+  ]
+}

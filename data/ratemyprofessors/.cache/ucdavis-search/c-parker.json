@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 5,
+    "department": "Landscape Architecture & Regional Planning",
+    "firstName": "Cory",
+    "id": "VGVhY2hlci0yODAzNjc2",
+    "lastName": "Parker",
+    "legacyId": 2803676,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.8,
+    "department": "History",
+    "firstName": "Traci",
+    "id": "VGVhY2hlci0zMDU0Nzc2",
+    "lastName": "Parker",
+    "legacyId": 3054776,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.8,
+    "department": "Environmental Science",
+    "firstName": "Cory",
+    "id": "VGVhY2hlci0yOTIwMDU4",
+    "lastName": "Parker",
+    "legacyId": 2920058,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Joshua",
+    "id": "VGVhY2hlci0yMjc5NDIw",
+    "lastName": "Parker",
+    "legacyId": 2279420,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.2,
+    "avgRating": 4.3,
+    "department": "Animal Science",
+    "firstName": "Kent",
+    "id": "VGVhY2hlci00MTQ2OTc=",
+    "lastName": "Parker",
+    "legacyId": 414697,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

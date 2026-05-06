@@ -1,0 +1,73 @@
+{
+  "course_id": "BIO1L",
+  "course_title": "Introductory Biology Lab: Ecology & Evolution",
+  "overall_grades": {
+    "A+": 515,
+    "A": 239,
+    "A-": 55,
+    "B+": 30,
+    "B": 11,
+    "B-": 10,
+    "C+": 5,
+    "C": 3,
+    "C-": 5,
+    "D+": 5,
+    "D": 3,
+    "D-": 0,
+    "F": 11,
+    "P*": 3
+  },
+  "overall_gpa": 3.83,
+  "overall_enrolled": 895,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Laci Gerhart",
+      "professor_slug": "laci-gerhart",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 515,
+            "A": 239,
+            "A-": 55,
+            "B+": 30,
+            "B": 11,
+            "B-": 10,
+            "C+": 5,
+            "C": 3,
+            "C-": 5,
+            "D+": 5,
+            "D": 3,
+            "D-": 0,
+            "F": 11,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 895
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 515,
+            "A": 239,
+            "A-": 55,
+            "B+": 30,
+            "B": 11,
+            "B-": 10,
+            "C+": 5,
+            "C": 3,
+            "C-": 5,
+            "D+": 5,
+            "D": 3,
+            "D-": 0,
+            "F": 11,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.83,
+          "quarter_enrolled": 895
+        }
+      }
+    }
+  ]
+}

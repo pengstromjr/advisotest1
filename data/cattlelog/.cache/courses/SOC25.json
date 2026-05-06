@@ -1,0 +1,240 @@
+{
+  "course_id": "SOC25",
+  "course_title": "Sociology of Popular Culture",
+  "overall_grades": {
+    "A+": 167,
+    "A": 310,
+    "A-": 172,
+    "B+": 100,
+    "B": 84,
+    "B-": 37,
+    "C+": 31,
+    "C": 10,
+    "C-": 6,
+    "D+": 3,
+    "D": 0,
+    "D-": 0,
+    "F": 10,
+    "P*": 45,
+    "NP*": 10
+  },
+  "overall_gpa": 3.58,
+  "overall_enrolled": 985,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Brent Clark",
+      "professor_slug": "brent-clark",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 68,
+            "A": 132,
+            "A-": 59,
+            "B+": 39,
+            "B": 24,
+            "B-": 19,
+            "C+": 7,
+            "C": 4,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 7,
+            "P*": 12,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 374
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 96,
+            "A-": 36,
+            "B+": 30,
+            "B": 18,
+            "B-": 15,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 273
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 36,
+            "A-": 23,
+            "B+": 9,
+            "B": 6,
+            "B-": 4,
+            "C+": 1,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 101
+        }
+      }
+    },
+    {
+      "professor_name": "Elizabeth Boylan",
+      "professor_slug": "elizabeth-boylan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 75,
+            "A-": 69,
+            "B+": 39,
+            "B": 21,
+            "B-": 9,
+            "C+": 15,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 21,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 288
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 75,
+            "A-": 69,
+            "B+": 39,
+            "B": 21,
+            "B-": 9,
+            "C+": 15,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 21,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 288
+        }
+      }
+    },
+    {
+      "professor_name": "Evan Lauteria",
+      "professor_slug": "evan-lauteria",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 87,
+            "A-": 42,
+            "B+": 21,
+            "B": 39,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 300
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 72,
+            "A": 87,
+            "A-": 42,
+            "B+": 21,
+            "B": 39,
+            "B-": 9,
+            "C+": 9,
+            "C": 0,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 300
+        }
+      }
+    },
+    {
+      "professor_name": "Laura Grindstaff",
+      "professor_slug": "laura-grindstaff",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 16,
+            "A-": 2,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 23
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 16,
+            "A-": 2,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.84,
+          "quarter_enrolled": 23
+        }
+      }
+    }
+  ]
+}

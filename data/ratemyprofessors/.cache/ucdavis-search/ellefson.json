@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.9,
+    "department": "Biological Sciences",
+    "firstName": "Marina",
+    "id": "VGVhY2hlci0yMTA4Njcx",
+    "lastName": "Ellefson",
+    "legacyId": 2108671,
+    "numRatings": 149,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96.4029
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1.3,
+    "avgRating": 5,
+    "department": "Sociology",
+    "firstName": "Edgar ",
+    "id": "VGVhY2hlci0zMTQ2ODI2",
+    "lastName": "Campos",
+    "legacyId": 3146826,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

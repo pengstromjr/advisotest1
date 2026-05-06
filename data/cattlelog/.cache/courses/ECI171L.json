@@ -1,0 +1,270 @@
+{
+  "course_id": "ECI171L",
+  "course_title": "Soil Mechanics Laboratory",
+  "overall_grades": {
+    "A+": 25,
+    "A": 219,
+    "A-": 171,
+    "B+": 113,
+    "B": 66,
+    "B-": 28,
+    "C+": 10,
+    "C": 12,
+    "C-": 1,
+    "D+": 0,
+    "D": 3,
+    "D-": 0,
+    "F": 4
+  },
+  "overall_gpa": 3.54,
+  "overall_enrolled": 652,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alexandra Camille San Pablo",
+      "professor_slug": "alexandra-camille-san-pablo",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 48,
+            "A-": 66,
+            "B+": 24,
+            "B": 6,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 174
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 48,
+            "A-": 66,
+            "B+": 24,
+            "B": 6,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 174
+        }
+      }
+    },
+    {
+      "professor_name": "Katerina Ziotopoulou",
+      "professor_slug": "katerina-ziotopoulou",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 63,
+            "A-": 36,
+            "B+": 18,
+            "B": 15,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 144
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 63,
+            "A-": 36,
+            "B+": 18,
+            "B": 15,
+            "B-": 6,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 144
+        }
+      }
+    },
+    {
+      "professor_name": "Laura Luna",
+      "professor_slug": "laura-luna",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 7,
+            "B+": 4,
+            "B": 6,
+            "B-": 0,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 27
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 7,
+            "B+": 4,
+            "B": 6,
+            "B-": 0,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 27
+        }
+      }
+    },
+    {
+      "professor_name": "Michael Gardner",
+      "professor_slug": "michael-gardner",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 59,
+            "A-": 35,
+            "B+": 28,
+            "B": 9,
+            "B-": 4,
+            "C+": 0,
+            "C": 3,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 145
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 27,
+            "B+": 21,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 102
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 26,
+            "A-": 8,
+            "B+": 7,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 43
+        }
+      }
+    },
+    {
+      "professor_name": "Yuyan Chen",
+      "professor_slug": "yuyan-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 45,
+            "A-": 27,
+            "B+": 39,
+            "B": 30,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 162
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 45,
+            "A-": 27,
+            "B+": 39,
+            "B": 30,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 162
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Sociology",
+    "firstName": "c ",
+    "id": "VGVhY2hlci0zMTE2OTEz",
+    "lastName": "siggins",
+    "legacyId": 3116913,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.5,
+    "department": "Geology",
+    "firstName": "Sarah",
+    "id": "VGVhY2hlci0yMTQ4MTc2",
+    "lastName": "Stewart",
+    "legacyId": 2148176,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.6,
+    "department": "Nutrition",
+    "firstName": "Christine",
+    "id": "VGVhY2hlci0xNzQ3Mjk1",
+    "lastName": "Stewart",
+    "legacyId": 1747295,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.3,
+    "department": "Biology",
+    "firstName": "Valley",
+    "id": "VGVhY2hlci0yNzg1NTI=",
+    "lastName": "Stewart",
+    "legacyId": 278552,
+    "numRatings": 48,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.5161
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2,
+    "department": "Geology",
+    "firstName": "Stewart",
+    "id": "VGVhY2hlci0yMjQyMzk3",
+    "lastName": "Mukhopadhyay",
+    "legacyId": 2242397,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 3.9,
+    "department": "Anthropology",
+    "firstName": "Michelle",
+    "id": "VGVhY2hlci01Nzg5ODI=",
+    "lastName": "Stewart",
+    "legacyId": 578982,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Music",
+    "firstName": "Kevin",
+    "id": "VGVhY2hlci0zMTE1NTI2",
+    "lastName": "Stewart",
+    "legacyId": 3115526,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 5,
+    "department": "Design",
+    "firstName": "William",
+    "id": "VGVhY2hlci0yNjY0Njk5",
+    "lastName": "Mead",
+    "legacyId": 2664699,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

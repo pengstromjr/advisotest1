@@ -1,0 +1,285 @@
+{
+  "course_id": "PSC162",
+  "course_title": "Introduction to Personality Psychology",
+  "overall_grades": {
+    "A+": 392,
+    "A": 658,
+    "A-": 404,
+    "B+": 216,
+    "B": 240,
+    "B-": 165,
+    "C+": 70,
+    "C": 82,
+    "C-": 28,
+    "D+": 17,
+    "D": 5,
+    "D-": 6,
+    "F": 21,
+    "P*": 120,
+    "NP*": 9
+  },
+  "overall_gpa": 3.46,
+  "overall_enrolled": 2433,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Dulce Westberg",
+      "professor_slug": "dulce-westberg",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 83,
+            "A-": 39,
+            "B+": 36,
+            "B": 28,
+            "B-": 17,
+            "C+": 11,
+            "C": 7,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 6,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 293
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 83,
+            "A-": 39,
+            "B+": 36,
+            "B": 28,
+            "B-": 17,
+            "C+": 11,
+            "C": 7,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 6,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 293
+        }
+      }
+    },
+    {
+      "professor_name": "Emorie Beck",
+      "professor_slug": "emorie-beck",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 192,
+            "A": 178,
+            "A-": 155,
+            "B+": 97,
+            "B": 128,
+            "B-": 105,
+            "C+": 45,
+            "C": 63,
+            "C-": 17,
+            "D+": 10,
+            "D": 3,
+            "D-": 3,
+            "F": 14,
+            "P*": 67,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 1083
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 66,
+            "A-": 63,
+            "B+": 27,
+            "B": 57,
+            "B-": 42,
+            "C+": 15,
+            "C": 42,
+            "C-": 15,
+            "D+": 9,
+            "D": 0,
+            "D-": 0,
+            "F": 9,
+            "P*": 30,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 432
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 117,
+            "A": 84,
+            "A-": 75,
+            "B+": 63,
+            "B": 63,
+            "B-": 57,
+            "C+": 27,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 36,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 552
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 28,
+            "A-": 17,
+            "B+": 7,
+            "B": 8,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.47,
+          "quarter_enrolled": 99
+        }
+      }
+    },
+    {
+      "professor_name": "Richard Robins",
+      "professor_slug": "richard-robins",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 141,
+            "A-": 84,
+            "B+": 27,
+            "B": 6,
+            "B-": 9,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 321
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 141,
+            "A-": 84,
+            "B+": 27,
+            "B": 6,
+            "B-": 9,
+            "C+": 6,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 321
+        }
+      }
+    },
+    {
+      "professor_name": "Tomiko Yoneda",
+      "professor_slug": "tomiko-yoneda",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 104,
+            "A": 256,
+            "A-": 126,
+            "B+": 56,
+            "B": 78,
+            "B-": 34,
+            "C+": 8,
+            "C": 9,
+            "C-": 8,
+            "D+": 5,
+            "D": 2,
+            "D-": 2,
+            "F": 6,
+            "P*": 41,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 736
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 189,
+            "A-": 102,
+            "B+": 42,
+            "B": 60,
+            "B-": 18,
+            "C+": 6,
+            "C": 3,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 33
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 543
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 23,
+            "A": 67,
+            "A-": 24,
+            "B+": 14,
+            "B": 18,
+            "B-": 16,
+            "C+": 2,
+            "C": 6,
+            "C-": 2,
+            "D+": 2,
+            "D": 2,
+            "D-": 2,
+            "F": 6,
+            "P*": 8,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 193
+        }
+      }
+    }
+  ]
+}

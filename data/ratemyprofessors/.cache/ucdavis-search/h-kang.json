@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.6,
+    "department": "Design",
+    "firstName": "Hyemi",
+    "id": "VGVhY2hlci0yNzc3OTgx",
+    "lastName": "Kang",
+    "legacyId": 2777981,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.8235
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "Biological Sciences",
+    "firstName": "Julie",
+    "id": "VGVhY2hlci0xMzAyODYx",
+    "lastName": "Kang",
+    "legacyId": 1302861,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Nutrition",
+    "firstName": "Jae",
+    "id": "VGVhY2hlci0yNzI1ODIw",
+    "lastName": "Kang",
+    "legacyId": 2725820,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

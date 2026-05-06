@@ -8,7 +8,14 @@
     {
       "heading": "Middle East & South Asia",
       "courses": [
-        "MSA 100",
+        "MSA 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Middle East & South Asia",
+      "courses": [
         "ANT 142",
         "ASA 189E",
         "COM 166",
@@ -18,11 +25,21 @@
         "HIS 190C",
         "HIS 193A",
         "HIS 193B",
+        "or HIS 193BV",
         "MUS 129B",
         "RST 160",
         "RST 161",
         "RST 162",
-        "WMS 184",
+        "WMS 184"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Middle East & South Asia",
+      "courses": [
         "ANT 145",
         "ASA 150F",
         "ASA 189E",
@@ -34,15 +51,16 @@
       ],
       "units": "4",
       "notes": [
-        "Choose one:",
         "Choose 4 units:",
-        "Additional Electives from Core Course list for major.",
-        "With prior consultation with an advisor, students can petition the Program Committee in advance to accept:",
+        "Additional Electives from Core Course list for major. (8-12 units)",
+        "With prior consultation with an advisor, students can petition the Program Committee in advance to accept: 1",
         "Other elective courses toward the minor program. Under no circumstances may more than one lower division course be offered in satisfaction of requirements for the minor."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.678Z"
 }

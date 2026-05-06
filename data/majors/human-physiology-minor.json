@@ -9,12 +9,28 @@
       "heading": "Human Physiology",
       "courses": [
         "EXB 101",
-        "NPB 101",
+        "NPB 101"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Human Physiology",
+      "courses": [
         "EXB 102",
         "EXB 110",
         "EXB 117",
         "EXB 125",
-        "NPB 109",
+        "NPB 109"
+      ],
+      "units": "3-4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Human Physiology",
+      "courses": [
         "NPB 113",
         "NPB 114",
         "NPB 130",
@@ -22,10 +38,16 @@
         "NPB/HPH 157",
         "NPB 168"
       ],
-      "units": "4",
+      "units": "3-4",
       "notes": [
-        "Choose one:",
-        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Human Physiology",
+      "courses": [],
+      "units": "5-9",
+      "notes": [
         "Choose one from two of the following areas:"
       ]
     },
@@ -35,12 +57,14 @@
         "EXB 106/CHA 101"
       ],
       "units": "",
-      "notes": []
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Genetics & Development",
       "courses": [
-        "ANT 153",
+        "or ANT 153",
         "HDE 100C",
         "HDE 101",
         "HDE/ENT 117",
@@ -53,7 +77,7 @@
       "heading": "Immunology",
       "courses": [
         "MMI 188A",
-        "MMI 188B"
+        "or MMI 188B"
       ],
       "units": "3-4",
       "notes": []
@@ -63,11 +87,13 @@
       "courses": [
         "NUT 111B"
       ],
-      "units": "23-30",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "23"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.170Z"
 }

@@ -21,14 +21,16 @@
         "LIN 127",
         "LIN 177"
       ],
-      "units": "Units",
+      "units": "11-12",
       "notes": [
-        "Choose any three upper division Computer Science Engineering (ECS) courses",
-        "Choose any two upper division ECS courses or any upper division course in MAT:"
+        "Choose any three upper division Computer Science Engineering (ECS) courses 1 (11-12 units)",
+        "Choose any two upper division ECS courses or any upper division course in MAT: 2 (8-10 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "19"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.351Z"
 }

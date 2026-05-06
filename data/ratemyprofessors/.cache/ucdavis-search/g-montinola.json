@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.2,
+    "department": "Political Science",
+    "firstName": "Gabriella",
+    "id": "VGVhY2hlci0xODA2MzE=",
+    "lastName": "Montinola",
+    "legacyId": 180631,
+    "numRatings": 83,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 62.5
+  }
+]

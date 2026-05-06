@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.7,
+    "department": "Computer Science",
+    "firstName": "Kristian",
+    "id": "VGVhY2hlci0yNDM4NTYx",
+    "lastName": "Stevens",
+    "legacyId": 2438561,
+    "numRatings": 108,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 94.4444
+  },
+  {
+    "avgDifficulty": 1.2,
+    "avgRating": 4.8,
+    "department": "Education",
+    "firstName": "Mary",
+    "id": "VGVhY2hlci0xNDIwMDY4",
+    "lastName": "Stevenson",
+    "legacyId": 1420068,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.5,
+    "department": "Communication",
+    "firstName": "Hannah",
+    "id": "VGVhY2hlci0yNjIwMzU2",
+    "lastName": "Stevens",
+    "legacyId": 2620356,
+    "numRatings": 51,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60.7843
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3,
+    "department": "Economics",
+    "firstName": "Ann",
+    "id": "VGVhY2hlci0zNzI3NTQ=",
+    "lastName": "Stevens",
+    "legacyId": 372754,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

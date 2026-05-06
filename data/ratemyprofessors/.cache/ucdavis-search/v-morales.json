@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.5,
+    "department": "University Writing Program",
+    "firstName": "Sylvia",
+    "id": "VGVhY2hlci0xOTc1OTA3",
+    "lastName": "Morales",
+    "legacyId": 1975907,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 36.3636
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Anthropology",
+    "firstName": "Jessica",
+    "id": "VGVhY2hlci0zMDI3Njgy",
+    "lastName": "Morales",
+    "legacyId": 3027682,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

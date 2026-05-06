@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 4.1,
+    "department": "Psychology",
+    "firstName": "Andy",
+    "id": "VGVhY2hlci0xNTE5NDY=",
+    "lastName": "Yonelinas",
+    "legacyId": 151946,
+    "numRatings": 64,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 65
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Psychology",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0zMTQ5ODI2",
+    "lastName": "Yonelinas",
+    "legacyId": 3149826,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

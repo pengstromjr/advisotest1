@@ -1,0 +1,280 @@
+{
+  "course_id": "ECS160",
+  "course_title": " Software Engineering",
+  "overall_grades": {
+    "A+": 113,
+    "A": 389,
+    "A-": 25,
+    "B+": 63,
+    "B": 525,
+    "B-": 16,
+    "C+": 23,
+    "C": 101,
+    "C-": 8,
+    "D+": 4,
+    "D": 16,
+    "D-": 1,
+    "F": 9,
+    "P*": 73,
+    "NP*": 6
+  },
+  "overall_gpa": 3.26,
+  "overall_enrolled": 1372,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Christopher Nitta",
+      "professor_slug": "christopher-nitta",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 12,
+            "B+": 18,
+            "B": 27,
+            "B-": 12,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 132
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 24,
+            "A-": 12,
+            "B+": 18,
+            "B": 27,
+            "B-": 12,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.16,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Daryl Posnett",
+      "professor_slug": "daryl-posnett",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 249,
+            "A-": 0,
+            "B+": 0,
+            "B": 381,
+            "B-": 0,
+            "C+": 0,
+            "C": 63,
+            "C-": 0,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 6,
+            "P*": 48,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.21,
+          "quarter_enrolled": 762
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 51,
+            "A-": 0,
+            "B+": 0,
+            "B": 90,
+            "B-": 0,
+            "C+": 0,
+            "C": 24,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 177
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 96,
+            "A-": 0,
+            "B+": 0,
+            "B": 87,
+            "B-": 0,
+            "C+": 0,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 27
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 240
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 102,
+            "A-": 0,
+            "B+": 0,
+            "B": 204,
+            "B-": 0,
+            "C+": 0,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 345
+        }
+      }
+    },
+    {
+      "professor_name": "Kurt Eiselt",
+      "professor_slug": "kurt-eiselt",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 81,
+            "A-": 0,
+            "B+": 33,
+            "B": 102,
+            "B-": 0,
+            "C+": 9,
+            "C": 27,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 285
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 81,
+            "A-": 0,
+            "B+": 33,
+            "B": 102,
+            "B-": 0,
+            "C+": 9,
+            "C": 27,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 285
+        }
+      }
+    },
+    {
+      "professor_name": "Tapti Palit",
+      "professor_slug": "tapti-palit",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 92,
+            "A": 35,
+            "A-": 13,
+            "B+": 12,
+            "B": 15,
+            "B-": 4,
+            "C+": 5,
+            "C": 5,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 1,
+            "F": 0,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.65,
+          "quarter_enrolled": 193
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 15,
+            "A-": 9,
+            "B+": 6,
+            "B": 6,
+            "B-": 1,
+            "C+": 3,
+            "C": 4,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 94
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 50,
+            "A": 20,
+            "A-": 4,
+            "B+": 6,
+            "B": 9,
+            "B-": 3,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 99
+        }
+      }
+    }
+  ]
+}

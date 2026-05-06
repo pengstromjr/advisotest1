@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Plant & Soil Science",
+    "firstName": "Charlie",
+    "id": "VGVhY2hlci0yOTkxMjU0",
+    "lastName": "Brummer",
+    "legacyId": 2991254,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -9,11 +9,11 @@
       "heading": "Elementary French",
       "courses": [
         "FRE 001",
-        "FRE 001Y",
+        "or FRE 001Y",
         "FRE 002",
-        "FRE 002Y",
+        "or FRE 002Y",
         "FRE 003",
-        "FRE 003Y"
+        "or FRE 003Y"
       ],
       "units": "0-15",
       "notes": [
@@ -23,23 +23,23 @@
     {
       "heading": "Intermediate French",
       "courses": [
-        "FRE 021",
-        "FRE 021Y",
+        "or FRE 021",
+        "or FRE 021Y",
         "FRE 022",
-        "FRE 022Y",
+        "or FRE 022Y",
         "FRE 023",
-        "FRE 023Y"
+        "or FRE 023Y"
       ],
       "units": "0-15",
       "notes": [
         "OR the equivalent",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-30 units)"
       ]
     },
     {
       "heading": "French",
       "courses": [
-        "FRE 100"
+        "or FRE 100"
       ],
       "units": "4",
       "notes": []
@@ -100,14 +100,16 @@
       "units": "4",
       "notes": [
         "Choose one:",
-        "French Electives: Five (5) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor. French 101-162",
-        "Depth Subject Matter Subtotal"
+        "French Electives: Five (5) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor. French 101-162 (20 units)",
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [
-    "Honors Program: Candidates for high or highest honors in French must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in FRE 194H (4 units) and FRE 195H (4 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in co"
+    "Honors Program: Candidates for high or highest honors in French must write a senior thesis under the direction of a faculty member. For this purpose, honors candidates must enroll in FRE 194H (4 units) and FRE 195H (4 units). Normally, a student will undertake the honors project during the first two quarters of the senior year; other arrangements must be authorized by the department chair. Only students who, at the end of the junior year (135 units), have attained a cumulative grade-point average of 3.500 in courses required for the major will be eligible for the honors program. The requirements for earning high and highest honors in French are in addition to the regular requirements for the major in French."
   ],
-  "total_units": "40"
+  "total_units": "40",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.830Z"
 }

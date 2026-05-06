@@ -1,0 +1,292 @@
+{
+  "course_id": "MAT19B",
+  "course_title": "Calculus for Data-Driven Applications",
+  "overall_grades": {
+    "A+": 20,
+    "A": 94,
+    "A-": 38,
+    "B+": 102,
+    "B": 100,
+    "B-": 62,
+    "C+": 52,
+    "C": 87,
+    "C-": 21,
+    "D+": 16,
+    "D": 17,
+    "D-": 3,
+    "F": 26,
+    "P*": 41,
+    "NP*": 21
+  },
+  "overall_gpa": 2.77,
+  "overall_enrolled": 700,
+  "available_quarters": [
+    "Fall_2025",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Alexander Wein",
+      "professor_slug": "alexander-wein",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 10,
+            "A-": 5,
+            "B+": 9,
+            "B": 36,
+            "B-": 6,
+            "C+": 5,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 4,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 105
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 10,
+            "A-": 5,
+            "B+": 9,
+            "B": 36,
+            "B-": 6,
+            "C+": 5,
+            "C": 18,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 4,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 105
+        }
+      }
+    },
+    {
+      "professor_name": "Gyivan Lopez Campos",
+      "professor_slug": "gyivan-lopez-campos",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 36,
+            "A-": 7,
+            "B+": 5,
+            "B": 6,
+            "B-": 5,
+            "C+": 3,
+            "C": 7,
+            "C-": 7,
+            "D+": 1,
+            "D": 7,
+            "D-": 0,
+            "F": 7,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 98
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 36,
+            "A-": 7,
+            "B+": 5,
+            "B": 6,
+            "B-": 5,
+            "C+": 3,
+            "C": 7,
+            "C-": 7,
+            "D+": 1,
+            "D": 7,
+            "D-": 0,
+            "F": 7,
+            "P*": 4,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 98
+        }
+      }
+    },
+    {
+      "professor_name": "Jesus De Loera",
+      "professor_slug": "jesus-de-loera",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 15,
+            "B+": 57,
+            "B": 36,
+            "B-": 33,
+            "C+": 24,
+            "C": 30,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 243
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 9,
+            "A-": 15,
+            "B+": 57,
+            "B": 36,
+            "B-": 33,
+            "C+": 24,
+            "C": 30,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 243
+        }
+      }
+    },
+    {
+      "professor_name": "Rohit Thomas",
+      "professor_slug": "rohit-thomas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 14,
+            "A-": 3,
+            "B+": 8,
+            "B": 8,
+            "B-": 7,
+            "C+": 6,
+            "C": 11,
+            "C-": 1,
+            "D+": 4,
+            "D": 1,
+            "D-": 1,
+            "F": 5,
+            "P*": 5,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.66,
+          "quarter_enrolled": 80
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 2,
+            "A-": 1,
+            "B+": 4,
+            "B": 3,
+            "B-": 5,
+            "C+": 2,
+            "C": 9,
+            "C-": 1,
+            "D+": 4,
+            "D": 0,
+            "D-": 1,
+            "F": 3,
+            "P*": 2,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.27,
+          "quarter_enrolled": 41
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 2,
+            "B+": 4,
+            "B": 5,
+            "B-": 2,
+            "C+": 4,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.06,
+          "quarter_enrolled": 39
+        }
+      }
+    },
+    {
+      "professor_name": "William Tavernetti",
+      "professor_slug": "william-tavernetti",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 25,
+            "A-": 8,
+            "B+": 23,
+            "B": 14,
+            "B-": 11,
+            "C+": 14,
+            "C": 21,
+            "C-": 7,
+            "D+": 11,
+            "D": 3,
+            "D-": 2,
+            "F": 7,
+            "P*": 10,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 174
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 25,
+            "A-": 8,
+            "B+": 23,
+            "B": 14,
+            "B-": 11,
+            "C+": 14,
+            "C": 21,
+            "C-": 7,
+            "D+": 11,
+            "D": 3,
+            "D-": 2,
+            "F": 7,
+            "P*": 10,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.69,
+          "quarter_enrolled": 174
+        }
+      }
+    }
+  ]
+}

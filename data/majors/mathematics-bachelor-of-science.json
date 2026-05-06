@@ -21,15 +21,16 @@
       "courses": [
         "MAT 022A",
         "MAT 108",
-        "MAT 108V",
+        "or MAT 108V",
         "MAT/BIS 027A",
-        "MAT 108",
-        "MAT 108V",
         "MAT 067"
       ],
       "units": "4-8",
       "notes": [
-        "Choose one option:"
+        "Choose one option:",
+        "(a)",
+        "(b)",
+        "(c)"
       ]
     },
     {
@@ -46,7 +47,7 @@
       "heading": "Differential Equations",
       "courses": [
         "MAT/BIS 027B",
-        "MAT 022B"
+        "or MAT 022B"
       ],
       "units": "3-4",
       "notes": []
@@ -54,19 +55,28 @@
     {
       "heading": "Plans",
       "courses": [
-        "PHY 009A",
-        "PHY 007A",
-        "PHY 009A",
-        "STA 013",
-        "STA 013Y",
-        "STA 032",
-        "STA 100"
+        "PHY 009A"
       ],
       "units": "4-5",
       "notes": [
         "Choose one:",
         "Plan I: General Mathematics",
-        "Plan 2: Mathematics for Secondary Teaching",
+        "Plan 2: Mathematics for Secondary Teaching"
+      ]
+    },
+    {
+      "heading": "Plans",
+      "courses": [
+        "PHY 007A",
+        "PHY 009A",
+        "STA 013",
+        "or STA 013V",
+        "or STA 013Y",
+        "STA 032",
+        "STA 100"
+      ],
+      "units": "",
+      "notes": [
         "Choose one:"
       ]
     },
@@ -74,12 +84,12 @@
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ENG 006"
+        "or ECS 032AV",
+        "or ENG 006"
       ],
       "units": "4",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (31-38 units)"
       ]
     },
     {
@@ -90,7 +100,7 @@
         "Choose one:",
         "Plan 1: General Mathematics",
         "Plan 2: Mathematics for Secondary Teaching",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (51-52 units)"
       ]
     },
     {
@@ -106,18 +116,20 @@
         "MAT 185A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
       "heading": "B. Enrichment Courses",
-      "courses": [
-        "MAT 111",
-        "MAT 185B"
-      ],
+      "courses": [],
       "units": "16",
       "notes": [
-        "Choose four:"
-      ]
+        "Choose four:",
+        "MAT 111-MAT 185B; up to four of these 16 units may be approved upper division courses outside of the Department of Mathematics with extensive use of mathematics. 1"
+      ],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
       "heading": "C. Capstone Course",
@@ -136,7 +148,9 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Plan 1: General Mathematics",
+      "group_kind": "path"
     },
     {
       "heading": "A. Core Courses",
@@ -151,18 +165,20 @@
         "MAT 150A"
       ],
       "units": "4",
-      "notes": []
+      "notes": [],
+      "group": "Plan 2: Mathematics for Secondary Teaching",
+      "group_kind": "path"
     },
     {
       "heading": "B. Enrichment Course",
-      "courses": [
-        "MAT 111",
-        "MAT 185B"
-      ],
+      "courses": [],
       "units": "16",
       "notes": [
-        "Choose four:"
-      ]
+        "Choose four:",
+        "MAT 111-MAT 185B; up to four of these 16 units may be approved upper division courses outside of the Department of Mathematics with extensive use of mathematics. 1"
+      ],
+      "group": "Plan 2: Mathematics for Secondary Teaching",
+      "group_kind": "path"
     },
     {
       "heading": "C. Capstone Course",
@@ -184,12 +200,19 @@
       "units": "3-4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Plan 2: Mathematics for Secondary Teaching",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Plan 1: General Mathematics",
+    "Plan 2: Mathematics for Secondary Teaching"
+  ],
   "advising_notes": [
     "Department Honors: Students who meet the minimum GPA requirement for honors at graduation for the College of Letters & Science and who complete a senior project as part of MAT 194 or MAT 199 units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see Honors & Awards."
   ],
-  "total_units": "82"
+  "total_units": "82",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.595Z"
 }

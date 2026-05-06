@@ -1,0 +1,9 @@
+export const CURRENT_TERM_LABEL = "Fall Quarter 2026";
+export const CURRENT_TERM_SHORT_LABEL = "Fall 2026";
+export const CURRENT_SECTIONS_FILE = "fall-2026.json";
+export const CURRENT_GRADES_FILE = "fall-2026-grades.json";
+export const CURRENT_SCHEDULE_STORAGE_KEY = "adviso-schedule-fall-2026";
+export const CURRENT_BLOCKS_STORAGE_KEY = "adviso-blocked-times-fall-2026";
+export const CURRENT_TERM_TIMEZONE = "America/Los_Angeles";
+export const CURRENT_INSTRUCTION_START_DATE = "2026-09-23";
+export const CURRENT_INSTRUCTION_END_DATE = "2026-12-04";

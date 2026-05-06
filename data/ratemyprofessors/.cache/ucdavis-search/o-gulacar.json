@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 4,
+    "department": "Chemistry",
+    "firstName": "Ozcan",
+    "id": "VGVhY2hlci0yMDIxNDM0",
+    "lastName": "Gulacar",
+    "legacyId": 2021434,
+    "numRatings": 695,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.5866
+  }
+]

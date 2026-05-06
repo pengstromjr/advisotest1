@@ -1,0 +1,323 @@
+{
+  "course_id": "NPB100",
+  "course_title": "Neurobiology",
+  "overall_grades": {
+    "A+": 79,
+    "A": 390,
+    "A-": 215,
+    "B+": 263,
+    "B": 358,
+    "B-": 137,
+    "C+": 128,
+    "C": 198,
+    "C-": 82,
+    "D+": 46,
+    "D": 38,
+    "D-": 50,
+    "F": 37,
+    "P*": 38,
+    "NP*": 28
+  },
+  "overall_gpa": 2.94,
+  "overall_enrolled": 2087,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Karen Zito",
+      "professor_slug": "karen-zito",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 161,
+            "A-": 60,
+            "B+": 60,
+            "B": 110,
+            "B-": 33,
+            "C+": 43,
+            "C": 76,
+            "C-": 24,
+            "D+": 21,
+            "D": 25,
+            "D-": 21,
+            "F": 15,
+            "P*": 8,
+            "NP*": 17
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 684
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 48,
+            "A-": 21,
+            "B+": 12,
+            "B": 27,
+            "B-": 9,
+            "C+": 12,
+            "C": 27,
+            "C-": 6,
+            "D+": 6,
+            "D": 6,
+            "D-": 6,
+            "F": 6,
+            "P*": 6,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 204
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 51,
+            "A-": 12,
+            "B+": 18,
+            "B": 33,
+            "B-": 15,
+            "C+": 15,
+            "C": 24,
+            "C-": 6,
+            "D+": 3,
+            "D": 3,
+            "D-": 12,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 198
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 48,
+            "A-": 21,
+            "B+": 24,
+            "B": 42,
+            "B-": 6,
+            "C+": 9,
+            "C": 18,
+            "C-": 9,
+            "D+": 9,
+            "D": 12,
+            "D-": 3,
+            "F": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 216
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 14,
+            "A-": 6,
+            "B+": 6,
+            "B": 8,
+            "B-": 3,
+            "C+": 7,
+            "C": 7,
+            "C-": 3,
+            "D+": 3,
+            "D": 4,
+            "D-": 0,
+            "F": 0,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 66
+        }
+      }
+    },
+    {
+      "professor_name": "Lee Miller",
+      "professor_slug": "lee-miller",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 127,
+            "A-": 120,
+            "B+": 154,
+            "B": 154,
+            "B-": 71,
+            "C+": 50,
+            "C": 53,
+            "C-": 14,
+            "D+": 14,
+            "D": 2,
+            "D-": 11,
+            "F": 12,
+            "P*": 13,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 823
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 63,
+            "A-": 69,
+            "B+": 72,
+            "B": 66,
+            "B-": 24,
+            "C+": 12,
+            "C": 12,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 6,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 351
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 48,
+            "A-": 39,
+            "B+": 66,
+            "B": 63,
+            "B-": 33,
+            "C+": 21,
+            "C": 30,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 342
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 16,
+            "A-": 12,
+            "B+": 16,
+            "B": 25,
+            "B-": 14,
+            "C+": 17,
+            "C": 11,
+            "C-": 5,
+            "D+": 5,
+            "D": 2,
+            "D-": 2,
+            "F": 3,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 130
+        }
+      }
+    },
+    {
+      "professor_name": "Natalia Caporale",
+      "professor_slug": "natalia-caporale",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 102,
+            "A-": 35,
+            "B+": 49,
+            "B": 94,
+            "B-": 33,
+            "C+": 35,
+            "C": 69,
+            "C-": 44,
+            "D+": 11,
+            "D": 11,
+            "D-": 18,
+            "F": 10,
+            "P*": 17,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 580
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 33,
+            "A-": 15,
+            "B+": 21,
+            "B": 33,
+            "B-": 12,
+            "C+": 15,
+            "C": 33,
+            "C-": 21,
+            "D+": 0,
+            "D": 3,
+            "D-": 6,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 225
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 60,
+            "A-": 12,
+            "B+": 21,
+            "B": 48,
+            "B-": 15,
+            "C+": 15,
+            "C": 30,
+            "C-": 18,
+            "D+": 6,
+            "D": 6,
+            "D-": 12,
+            "F": 3,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 282
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 8,
+            "B+": 7,
+            "B": 13,
+            "B-": 6,
+            "C+": 5,
+            "C": 6,
+            "C-": 5,
+            "D+": 5,
+            "D": 2,
+            "D-": 0,
+            "F": 1,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 73
+        }
+      }
+    }
+  ]
+}

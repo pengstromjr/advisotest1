@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Food Science & Technology",
+    "firstName": "Juliana",
+    "id": "VGVhY2hlci0yOTQ4NDU2",
+    "lastName": "De Moura Bell",
+    "legacyId": 2948456,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.7,
+    "department": "Anthropology",
+    "firstName": "Taylor",
+    "id": "VGVhY2hlci0yMjg3NTM0",
+    "lastName": "Bell",
+    "legacyId": 2287534,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 29.4118
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.7,
+    "department": "Philosophy",
+    "firstName": "Jordan",
+    "id": "VGVhY2hlci0yNTE2MTc3",
+    "lastName": "Bell",
+    "legacyId": 2516177,
+    "numRatings": 10,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.3,
+    "department": "Communication",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci01MjkzMjI=",
+    "lastName": "Bell",
+    "legacyId": 529322,
+    "numRatings": 30,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 55.5556
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3.5,
+    "department": "Animal Science",
+    "firstName": "Rebecca",
+    "id": "VGVhY2hlci0yMTUxMDA3",
+    "lastName": "Bellone",
+    "legacyId": 2151007,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.8,
+    "department": "Education",
+    "firstName": "Allan",
+    "id": "VGVhY2hlci02MzYwMDE=",
+    "lastName": "Bellman",
+    "legacyId": 636001,
+    "numRatings": 8,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "course_id": "ENG8",
+  "course_title": "Introduction to Entrepreneurship",
+  "overall_grades": {
+    "A+": 429,
+    "A": 1109,
+    "A-": 694,
+    "B+": 338,
+    "B": 172,
+    "B-": 98,
+    "C+": 68,
+    "C": 48,
+    "C-": 21,
+    "D+": 10,
+    "D": 7,
+    "D-": 1,
+    "F": 15,
+    "P*": 93,
+    "NP*": 4
+  },
+  "overall_gpa": 3.63,
+  "overall_enrolled": 3107,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Aaron Anderson",
+      "professor_slug": "aaron-anderson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 429,
+            "A": 1109,
+            "A-": 694,
+            "B+": 338,
+            "B": 172,
+            "B-": 98,
+            "C+": 68,
+            "C": 48,
+            "C-": 21,
+            "D+": 10,
+            "D": 7,
+            "D-": 1,
+            "F": 15,
+            "P*": 93,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 3107
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 36,
+            "A-": 32,
+            "B+": 21,
+            "B": 20,
+            "B-": 6,
+            "C+": 5,
+            "C": 7,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 10,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 166
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 84,
+            "A-": 132,
+            "B+": 30,
+            "B": 30,
+            "B-": 3,
+            "C+": 15,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 21
+          },
+          "quarter_average_gpa": 3.56,
+          "quarter_enrolled": 378
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 48,
+            "A": 147,
+            "A-": 54,
+            "B+": 30,
+            "B": 6,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 306
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 37,
+            "A-": 35,
+            "B+": 12,
+            "B": 9,
+            "B-": 4,
+            "C+": 5,
+            "C": 4,
+            "C-": 1,
+            "D+": 0,
+            "D": 4,
+            "D-": 0,
+            "F": 0,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 115
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 117,
+            "A-": 132,
+            "B+": 69,
+            "B": 27,
+            "B-": 21,
+            "C+": 9,
+            "C": 12,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 426
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 60,
+            "A": 177,
+            "A-": 63,
+            "B+": 36,
+            "B": 12,
+            "B-": 3,
+            "C+": 6,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.8,
+          "quarter_enrolled": 360
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 216,
+            "A-": 57,
+            "B+": 57,
+            "B": 27,
+            "B-": 15,
+            "C+": 3,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 474
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 120,
+            "A-": 69,
+            "B+": 33,
+            "B": 18,
+            "B-": 12,
+            "C+": 3,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 336
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 123,
+            "A-": 75,
+            "B+": 21,
+            "B": 12,
+            "B-": 21,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 369
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 52,
+            "A-": 45,
+            "B+": 29,
+            "B": 11,
+            "B-": 7,
+            "C+": 4,
+            "C": 4,
+            "C-": 2,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 177
+        }
+      }
+    }
+  ]
+}

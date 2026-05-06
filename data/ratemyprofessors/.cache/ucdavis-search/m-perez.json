@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 3.2,
+    "department": "Economics",
+    "firstName": "Santiago",
+    "id": "VGVhY2hlci0yMzQwOTE5",
+    "lastName": "Perez",
+    "legacyId": 2340919,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.5758
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chemistry",
+    "firstName": "Christopher",
+    "id": "VGVhY2hlci0yMTkyNDI1",
+    "lastName": "Perez",
+    "legacyId": 2192425,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

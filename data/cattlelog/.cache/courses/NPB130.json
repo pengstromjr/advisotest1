@@ -1,0 +1,163 @@
+{
+  "course_id": "NPB130",
+  "course_title": "Physiology of the Endocrine Glands",
+  "overall_grades": {
+    "A+": 281,
+    "A": 320,
+    "A-": 255,
+    "B+": 150,
+    "B": 176,
+    "B-": 121,
+    "C+": 111,
+    "C": 120,
+    "C-": 96,
+    "D+": 37,
+    "D": 73,
+    "D-": 39,
+    "F": 54,
+    "NP*": 7,
+    "P*": 7
+  },
+  "overall_gpa": 3,
+  "overall_enrolled": 1847,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anna Denicol",
+      "professor_slug": "anna-denicol",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 267,
+            "A": 291,
+            "A-": 225,
+            "B+": 132,
+            "B": 156,
+            "B-": 111,
+            "C+": 93,
+            "C": 105,
+            "C-": 87,
+            "D+": 33,
+            "D": 63,
+            "D-": 36,
+            "F": 42,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 1647
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 84,
+            "A": 87,
+            "A-": 81,
+            "B+": 30,
+            "B": 51,
+            "B-": 42,
+            "C+": 39,
+            "C": 39,
+            "C-": 18,
+            "D+": 9,
+            "D": 18,
+            "D-": 12,
+            "F": 21,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 537
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 81,
+            "A-": 78,
+            "B+": 45,
+            "B": 54,
+            "B-": 42,
+            "C+": 30,
+            "C": 42,
+            "C-": 39,
+            "D+": 18,
+            "D": 24,
+            "D-": 21,
+            "F": 15
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 543
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 129,
+            "A": 123,
+            "A-": 66,
+            "B+": 57,
+            "B": 51,
+            "B-": 27,
+            "C+": 24,
+            "C": 24,
+            "C-": 30,
+            "D+": 6,
+            "D": 21,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 567
+        }
+      }
+    },
+    {
+      "professor_name": "Thomas Coombs Hahn",
+      "professor_slug": "thomas-coombs-hahn",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 29,
+            "A-": 30,
+            "B+": 18,
+            "B": 20,
+            "B-": 10,
+            "C+": 18,
+            "C": 15,
+            "C-": 9,
+            "D+": 4,
+            "D": 10,
+            "D-": 3,
+            "F": 12,
+            "P*": 7,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 200
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 29,
+            "A-": 30,
+            "B+": 18,
+            "B": 20,
+            "B-": 10,
+            "C+": 18,
+            "C": 15,
+            "C-": 9,
+            "D+": 4,
+            "D": 10,
+            "D-": 3,
+            "F": 12,
+            "P*": 7,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 200
+        }
+      }
+    }
+  ]
+}

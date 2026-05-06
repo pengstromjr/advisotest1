@@ -1,0 +1,164 @@
+{
+  "course_id": "MCB124",
+  "course_title": "Macromolecular Structure & Function",
+  "overall_grades": {
+    "A+": 59,
+    "A": 101,
+    "A-": 111,
+    "B+": 95,
+    "B": 113,
+    "B-": 118,
+    "C+": 90,
+    "C": 73,
+    "C-": 59,
+    "D+": 38,
+    "D": 33,
+    "D-": 28,
+    "F": 48,
+    "NP*": 13,
+    "P*": 3
+  },
+  "overall_gpa": 2.67,
+  "overall_enrolled": 982,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Enoch Baldwin",
+      "professor_slug": "enoch-baldwin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 20,
+            "A-": 12,
+            "B+": 14,
+            "B": 17,
+            "B-": 25,
+            "C+": 15,
+            "C": 10,
+            "C-": 8,
+            "D+": 2,
+            "D": 3,
+            "D-": 1,
+            "F": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 145
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 20,
+            "A-": 12,
+            "B+": 14,
+            "B": 17,
+            "B-": 25,
+            "C+": 15,
+            "C": 10,
+            "C-": 8,
+            "D+": 2,
+            "D": 3,
+            "D-": 1,
+            "F": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 145
+        }
+      }
+    },
+    {
+      "professor_name": "Jennifer Cash",
+      "professor_slug": "jennifer-cash",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 81,
+            "A-": 99,
+            "B+": 81,
+            "B": 96,
+            "B-": 93,
+            "C+": 75,
+            "C": 63,
+            "C-": 51,
+            "D+": 36,
+            "D": 30,
+            "D-": 27,
+            "F": 45,
+            "P*": 3,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.62,
+          "quarter_enrolled": 837
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 21,
+            "B+": 18,
+            "B": 6,
+            "B-": 36,
+            "C+": 39,
+            "C": 12,
+            "C-": 24,
+            "D+": 12,
+            "D": 12,
+            "D-": 15,
+            "F": 21,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.3,
+          "quarter_enrolled": 258
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 27,
+            "A-": 27,
+            "B+": 39,
+            "B": 42,
+            "B-": 15,
+            "C+": 24,
+            "C": 27,
+            "C-": 15,
+            "D+": 12,
+            "D": 6,
+            "D-": 3,
+            "F": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 261
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 36,
+            "A-": 51,
+            "B+": 24,
+            "B": 48,
+            "B-": 42,
+            "C+": 12,
+            "C": 24,
+            "C-": 12,
+            "D+": 12,
+            "D": 12,
+            "D-": 9,
+            "F": 18
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 318
+        }
+      }
+    }
+  ]
+}

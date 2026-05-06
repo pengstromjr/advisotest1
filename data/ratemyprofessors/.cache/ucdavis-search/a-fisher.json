@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Kaleigh",
+    "id": "VGVhY2hlci0zMDc0NDA0",
+    "lastName": "Fisher",
+    "legacyId": 3074404,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 54.5455
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.8,
+    "department": "German",
+    "firstName": "Jaimey",
+    "id": "VGVhY2hlci04MjM4MTM=",
+    "lastName": "Fisher",
+    "legacyId": 823813,
+    "numRatings": 47,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.6316
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 2.8,
+    "department": "Chemistry",
+    "firstName": "Andrew",
+    "id": "VGVhY2hlci0zMTkwMjk=",
+    "lastName": "Fisher",
+    "legacyId": 319029,
+    "numRatings": 92,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 52.9412
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Animal Science",
+    "firstName": "Marissa ",
+    "id": "VGVhY2hlci0zMDQ0OTYx",
+    "lastName": "Fisher ",
+    "legacyId": 3044961,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.9,
+    "department": "Philosophy",
+    "firstName": "Tyrus",
+    "id": "VGVhY2hlci0xNzQ4NzQ3",
+    "lastName": "Fisher",
+    "legacyId": 1748747,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Marisa ",
+    "id": "VGVhY2hlci0zMDQ0OTU1",
+    "lastName": "Fisher ",
+    "legacyId": 3044955,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Kayleigh",
+    "id": "VGVhY2hlci0zMDkxOTQz",
+    "lastName": "Fisher",
+    "legacyId": 3091943,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

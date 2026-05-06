@@ -6,15 +6,25 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
+      "heading": "Preparation",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Plan in advance to include the required course prerequisites."
+      ]
+    },
+    {
       "heading": "Biochemistry",
       "courses": [
-        "ABI 102ABI 103",
-        "BIS 102BIS 103"
+        "ABI 102",
+        "ABI 103",
+        "or BIS 102",
+        "or BIS 103"
       ],
       "units": "6-10",
       "notes": [
-        "Plan in advance to include the required course prerequisites.",
-        "Choose a series:"
+        "Choose a series:",
+        "OR"
       ]
     },
     {
@@ -53,5 +63,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.898Z"
 }

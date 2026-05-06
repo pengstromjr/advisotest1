@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.5,
+    "department": "Languages",
+    "firstName": "Shayma",
+    "id": "VGVhY2hlci05NDkwOTg=",
+    "lastName": "Hassouna",
+    "legacyId": 949098,
+    "numRatings": 35,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.1,
+    "department": "Mathematics",
+    "firstName": "Joel",
+    "id": "VGVhY2hlci0yNDcyNzU=",
+    "lastName": "Hass",
+    "legacyId": 247275,
+    "numRatings": 161,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 82.4176
+  },
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Film",
+    "firstName": "Hassan",
+    "id": "VGVhY2hlci0yNzE1Nzkx",
+    "lastName": "Minhaj",
+    "legacyId": 2715791,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Military Science",
+    "firstName": "Lorenzo",
+    "id": "VGVhY2hlci0yMjI3Mzgx",
+    "lastName": "Hassani",
+    "legacyId": 2227381,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Civil Engineering",
+    "firstName": "Ahmad",
+    "id": "VGVhY2hlci0yNzg0Njk0",
+    "lastName": "Hassan",
+    "legacyId": 2784694,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

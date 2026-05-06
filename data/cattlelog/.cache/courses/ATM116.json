@@ -1,0 +1,167 @@
+{
+  "course_id": "ATM116",
+  "course_title": "Modern Climate Change",
+  "overall_grades": {
+    "A+": 21,
+    "A": 68,
+    "A-": 133,
+    "B+": 151,
+    "B": 188,
+    "B-": 151,
+    "C+": 149,
+    "C": 114,
+    "C-": 68,
+    "D+": 29,
+    "D": 31,
+    "D-": 15,
+    "F": 36,
+    "P*": 44,
+    "NP*": 36
+  },
+  "overall_gpa": 2.67,
+  "overall_enrolled": 1234,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cort Anastasio",
+      "professor_slug": "cort-anastasio",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 41,
+            "A-": 88,
+            "B+": 91,
+            "B": 119,
+            "B-": 91,
+            "C+": 101,
+            "C": 99,
+            "C-": 56,
+            "D+": 29,
+            "D": 31,
+            "D-": 9,
+            "F": 30,
+            "P*": 29,
+            "NP*": 36
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 856
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 21,
+            "A-": 39,
+            "B+": 39,
+            "B": 33,
+            "B-": 27,
+            "C+": 54,
+            "C": 45,
+            "C-": 27,
+            "D+": 15,
+            "D": 12,
+            "D-": 9,
+            "F": 15,
+            "P*": 6,
+            "NP*": 27
+          },
+          "quarter_average_gpa": 2.47,
+          "quarter_enrolled": 372
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 33,
+            "B+": 45,
+            "B": 63,
+            "B-": 51,
+            "C+": 39,
+            "C": 45,
+            "C-": 21,
+            "D+": 12,
+            "D": 12,
+            "D-": 0,
+            "F": 9,
+            "P*": 15,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.6,
+          "quarter_enrolled": 363
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 8,
+            "A-": 16,
+            "B+": 7,
+            "B": 23,
+            "B-": 13,
+            "C+": 8,
+            "C": 9,
+            "C-": 8,
+            "D+": 2,
+            "D": 7,
+            "D-": 0,
+            "F": 6,
+            "P*": 8,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 121
+        }
+      }
+    },
+    {
+      "professor_name": "Paul Ullrich",
+      "professor_slug": "paul-ullrich",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 27,
+            "A-": 45,
+            "B+": 60,
+            "B": 69,
+            "B-": 60,
+            "C+": 48,
+            "C": 15,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 378
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 27,
+            "A-": 45,
+            "B+": 60,
+            "B": 69,
+            "B-": 60,
+            "C+": 48,
+            "C": 15,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 6,
+            "F": 6,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 378
+        }
+      }
+    }
+  ]
+}

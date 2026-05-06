@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4,
+    "department": "Social Science",
+    "firstName": "Jonathan",
+    "id": "VGVhY2hlci01NTA3OTc=",
+    "lastName": "London",
+    "legacyId": 550797,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  }
+]

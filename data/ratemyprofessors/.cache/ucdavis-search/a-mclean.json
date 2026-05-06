@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.5,
+    "avgRating": 4.5,
+    "department": "Animal Science",
+    "firstName": "Amy",
+    "id": "VGVhY2hlci0yNDM3Nzk2",
+    "lastName": "McLean",
+    "legacyId": 2437796,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.6667
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 3.2,
+    "department": "Literature",
+    "firstName": "Scott",
+    "id": "VGVhY2hlci0xNDkwOTU=",
+    "lastName": "McLean",
+    "legacyId": 149095,
+    "numRatings": 48,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Comparative Literature",
+    "firstName": "William",
+    "id": "VGVhY2hlci0xNTUwNjAw",
+    "lastName": "McLean",
+    "legacyId": 1550600,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -10,7 +10,14 @@
       "courses": [
         "NEM 100",
         "NEM 110",
-        "ENT 156",
+        "ENT 156"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ENT 100",
         "ENT 100L",
         "ENT 110",
@@ -18,19 +25,25 @@
         "ENT 153",
         "ENT 156L",
         "EVE 112",
+        "MMG 102",
+        "or MIC 102",
         "PLP 120",
         "PLP/PLB 148",
         "SSC 100",
         "SSC 111",
         "SSC 112"
       ],
-      "units": "Units",
+      "units": "9-10",
       "notes": [
         "Choose at least 9 units:"
       ]
     }
   ],
   "specializations": [],
-  "advising_notes": [],
-  "total_units": "18"
+  "advising_notes": [
+    "Undergraduate Advising Center: Advising for the major, minors, and course offerings, including peer advising, is located in 150 Hutchison Hall; 530-754-4131; Entomology & Nematology Advising.For further information, see Entomology & Nematology"
+  ],
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.774Z"
 }

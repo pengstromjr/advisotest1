@@ -1,0 +1,76 @@
+{
+  "course_id": "ANT172",
+  "course_title": "New World Prehistory: The First Arrivals",
+  "overall_grades": {
+    "A+": 12,
+    "A": 51,
+    "A-": 18,
+    "B+": 6,
+    "B": 6,
+    "B-": 3,
+    "C+": 9,
+    "C": 3,
+    "C-": 0,
+    "D+": 3,
+    "D": 3,
+    "D-": 0,
+    "F": 3,
+    "P*": 3,
+    "NP*": 3
+  },
+  "overall_gpa": 3.4,
+  "overall_enrolled": 123,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Darwent",
+      "professor_slug": "john-darwent",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 51,
+            "A-": 18,
+            "B+": 6,
+            "B": 6,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 123
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 51,
+            "A-": 18,
+            "B+": 6,
+            "B": 6,
+            "B-": 3,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 123
+        }
+      }
+    }
+  ]
+}

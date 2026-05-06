@@ -1,0 +1,306 @@
+{
+  "course_id": "MCB120",
+  "course_title": "Molecular Biology & Biochemistry Laboratory Associated Lecture",
+  "overall_grades": {
+    "A+": 69,
+    "A": 262,
+    "A-": 233,
+    "B+": 216,
+    "B": 299,
+    "B-": 146,
+    "C+": 92,
+    "C": 131,
+    "C-": 60,
+    "D+": 7,
+    "D": 9,
+    "D-": 6,
+    "F": 13,
+    "P*": 7
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 1550,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Christopher Fraser",
+      "professor_slug": "christopher-fraser",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 23,
+            "A": 137,
+            "A-": 85,
+            "B+": 81,
+            "B": 108,
+            "B-": 21,
+            "C+": 27,
+            "C": 49,
+            "C-": 21,
+            "D+": 1,
+            "D": 3,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 559
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 54,
+            "A-": 54,
+            "B+": 57,
+            "B": 54,
+            "B-": 9,
+            "C+": 6,
+            "C": 30,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 282
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 20,
+            "A-": 19,
+            "B+": 9,
+            "B": 12,
+            "B-": 6,
+            "C+": 3,
+            "C": 4,
+            "C-": 6,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 85
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 63,
+            "A-": 12,
+            "B+": 15,
+            "B": 42,
+            "B-": 6,
+            "C+": 18,
+            "C": 15,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 192
+        }
+      }
+    },
+    {
+      "professor_name": "Enoch Baldwin",
+      "professor_slug": "enoch-baldwin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 51,
+            "A-": 72,
+            "B+": 78,
+            "B": 69,
+            "B-": 66,
+            "C+": 30,
+            "C": 24,
+            "C-": 15,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 450
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 18,
+            "A-": 12,
+            "B+": 18,
+            "B": 36,
+            "B-": 24,
+            "C+": 12,
+            "C": 15,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 153
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 30,
+            "B+": 39,
+            "B": 15,
+            "B-": 15,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 147
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 21,
+            "A-": 30,
+            "B+": 21,
+            "B": 18,
+            "B-": 27,
+            "C+": 9,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 150
+        }
+      }
+    },
+    {
+      "professor_name": "Jisoo Han",
+      "professor_slug": "jisoo-han",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 74,
+            "A-": 76,
+            "B+": 57,
+            "B": 122,
+            "B-": 59,
+            "C+": 35,
+            "C": 58,
+            "C-": 24,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 10,
+            "P*": 4
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 541
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 11,
+            "A-": 6,
+            "B+": 4,
+            "B": 14,
+            "B-": 5,
+            "C+": 0,
+            "C": 4,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.18,
+          "quarter_enrolled": 46
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 18,
+            "A-": 27,
+            "B+": 18,
+            "B": 48,
+            "B-": 33,
+            "C+": 6,
+            "C": 27,
+            "C-": 3,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.84,
+          "quarter_enrolled": 204
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 30,
+            "B+": 21,
+            "B": 45,
+            "B-": 9,
+            "C+": 21,
+            "C": 15,
+            "C-": 18,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 201
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 13,
+            "B+": 14,
+            "B": 15,
+            "B-": 12,
+            "C+": 8,
+            "C": 12,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 90
+        }
+      }
+    }
+  ]
+}

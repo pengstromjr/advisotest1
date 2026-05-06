@@ -1,0 +1,76 @@
+{
+  "course_id": "ECI191B",
+  "course_title": "Construction Engineering & Project Management Seminar",
+  "overall_grades": {
+    "A+": 0,
+    "A": 0,
+    "A-": 0,
+    "B+": 0,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P": 26,
+    "NP": 1
+  },
+  "overall_gpa": null,
+  "overall_enrolled": 27,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "John Harvey",
+      "professor_slug": "john-harvey",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 26,
+            "NP": 1
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 27
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 0,
+            "A-": 0,
+            "B+": 0,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P": 26,
+            "NP": 1
+          },
+          "quarter_average_gpa": null,
+          "quarter_enrolled": 27
+        }
+      }
+    }
+  ]
+}

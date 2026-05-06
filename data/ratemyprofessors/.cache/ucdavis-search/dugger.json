@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1,
+    "avgRating": 5,
+    "department": "Military Science",
+    "firstName": "Alan",
+    "id": "VGVhY2hlci0zMDM3MjE1",
+    "lastName": "Dugger",
+    "legacyId": 3037215,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

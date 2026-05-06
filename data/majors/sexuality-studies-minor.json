@@ -9,9 +9,9 @@
       "heading": "General Requirements",
       "courses": [
         "WMS 170",
-        "GSW 170"
+        "or GSW 170"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": []
     },
     {
@@ -21,20 +21,31 @@
         "ENL 186",
         "HIS 184",
         "HDE 012",
-        "HDE 012V",
+        "or HDE 012V",
         "PSC 158",
-        "GSW 070",
+        "GSW 070"
+      ],
+      "units": "7-8",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [
         "ASA 112",
         "CHI 160",
         "ENL 166",
         "HIS 132",
         "POL 152",
         "SOC 120",
-        "WMS 140"
+        "WMS 140",
+        "or GSW 140",
+        "WMS 179",
+        "or GSW 179"
       ],
-      "units": "7-8",
+      "units": "8",
       "notes": [
-        "Choose two:",
         "Choose two Field B courses (below) or seminars/individual study by petition to achieve a total of 18-20 units:"
       ]
     }
@@ -43,5 +54,7 @@
   "advising_notes": [
     "Minor Advising: Gender, Sexuality & Women’s Studies Advising, 1200 Hart Hall; 530-752-6429."
   ],
-  "total_units": "19"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.186Z"
 }

@@ -8,51 +8,79 @@
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "BIS 002B",
+        "BIO 001",
+        "or BIS 002B",
         "CMN 001",
-        "CMN 001V",
+        "or CMN 001V",
         "ENH 006",
-        "STA 013",
-        "STA 013Y",
+        "MAT 016A",
+        "or STA 013",
+        "or STA 013V",
+        "or STA 013Y"
+      ],
+      "units": "4-5",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "CHE 002A",
         "CHE 010",
+        "EPS 001",
+        "or GEL 001",
         "PHY 001A",
         "PHY 010",
         "SSC 010"
       ],
-      "units": "5",
+      "units": "3-5",
       "notes": [
-        "Choose one:",
-        "Choose two courses satisfying Social Sciences General Education requirement; may count toward both GE and the major.",
-        "Choose two courses satisfying Arts & Humanities General Education requirement; may count toward both GE and the major."
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "Choose two courses from Social Sciences General Education list. AP score cannot satisfy this requirement (8 units)",
+        "Choose two courses from Arts & Humanities General Education list. AP score cannot satisfy this requirement (8 units)"
       ]
     },
     {
       "heading": "Landscape Architecture",
       "courses": [
         "LED 001",
+        "or LDA 001",
         "LED 002",
+        "or LDA 002",
         "LED 003",
-        "LED 021",
+        "or LED 021",
+        "or LDA 021",
         "LED 030",
+        "or LDA 030",
         "LED 050",
+        "or LDA 050",
         "LED 060",
-        "LED 070"
+        "or LDA 060",
+        "LED 070",
+        "or LDA 070"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "or DISCONTINUED FOR WINTER 2026 **"
+      ]
     },
     {
-      "heading": "English Writing",
+      "heading": "Landscape Architecture",
       "courses": [
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
+        "or UWP 001V",
+        "or UWP 001Y",
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102A",
         "UWP 102B",
         "UWP 102C",
@@ -66,15 +94,15 @@
         "UWP 102K",
         "UWP 102L",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY",
+        "or UWP 104FV",
+        "or UWP 104FY",
         "UWP 104I",
         "UWP 104J",
         "UWP 104T"
@@ -83,22 +111,31 @@
       "notes": [
         "Choose one:",
         "Also counts toward English Composition Requirement",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (72-76 units)"
       ]
     },
     {
       "heading": "Landscape Architecture",
       "courses": [
         "LED 119",
+        "or LDA 119",
         "LED 120",
+        "or ABT 150/LDA 150",
         "LED 160",
+        "or LDA 161",
         "LED 161",
         "LED 170",
+        "or LDA 170",
         "LED 171",
+        "or LDA 171",
         "LED 182",
+        "or LDA 182",
         "LED 183",
+        "or LDA 183",
         "LED 184",
-        "LED 190"
+        "or LDA 184",
+        "LED 190",
+        "or LDA 190"
       ],
       "units": "4",
       "notes": []
@@ -110,7 +147,7 @@
       ],
       "units": "4",
       "notes": [
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (54 units)"
       ]
     },
     {
@@ -124,7 +161,9 @@
   ],
   "specializations": [],
   "advising_notes": [
-    "Advising Center: Jana (Snjezana) Krezo; 530-752-9322; Galyna Erdman; 530-752-2244"
+    "Advising Center: Jana (Snjezana) Krezo; 530-752-9322; Galyna Erdman; 530-752-2244Lead Faculty Advisor David De La Pena"
   ],
-  "total_units": "142"
+  "total_units": "142",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.390Z"
 }

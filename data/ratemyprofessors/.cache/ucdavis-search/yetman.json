@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 2.4,
+    "department": "Management",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci0xNzk5MjUy",
+    "lastName": "Yetman",
+    "legacyId": 1799252,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "Management",
+    "firstName": "Yetman",
+    "id": "VGVhY2hlci01Mjc4Nzk=",
+    "lastName": "Michelle",
+    "legacyId": 527879,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

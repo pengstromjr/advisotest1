@@ -12,12 +12,19 @@
         "CHE 107A",
         "CHE 107B",
         "CHE 118A",
-        "CHE 124A",
+        "CHE 124A"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
         "CHE 118B",
         "CHE 124B",
         "CHE 124C"
       ],
-      "units": "17",
+      "units": "3-4",
       "notes": [
         "Choose at least one:"
       ]
@@ -25,5 +32,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.010Z"
 }

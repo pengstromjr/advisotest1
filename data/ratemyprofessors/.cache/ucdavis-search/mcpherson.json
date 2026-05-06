@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2,
+    "department": "Anthropology",
+    "firstName": "Morganne",
+    "id": "VGVhY2hlci0yOTc2MzEx",
+    "lastName": "Blais- McPherson",
+    "legacyId": 2976311,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.8,
+    "department": "Political Science",
+    "firstName": "Bradford",
+    "id": "VGVhY2hlci05NjQzNTY=",
+    "lastName": "Jones",
+    "legacyId": 964356,
+    "numRatings": 111,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 41.2698
+  },
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 3.9,
+    "department": "Agriculture",
+    "firstName": "Kent",
+    "id": "VGVhY2hlci00MTEzNDk=",
+    "lastName": "Bradford",
+    "legacyId": 411349,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

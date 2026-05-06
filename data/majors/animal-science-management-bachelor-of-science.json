@@ -10,11 +10,11 @@
       "courses": [
         "CMN 130",
         "CMN 136",
-        "CMN 136V",
+        "or CMN 136V",
         "CMN 140",
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102A",
         "UWP 102B",
         "UWP 102C",
@@ -23,20 +23,20 @@
         "UWP 102F",
         "UWP 102G",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY"
+        "or UWP 104FV",
+        "or UWP 104FY"
       ],
       "units": "8",
       "notes": [
         "Choose two; if not chosen for English College Requirement:",
-        "Written & Oral Expression Subtotal"
+        "Written & Oral Expression Subtotal (8 units)"
       ]
     },
     {
@@ -49,14 +49,21 @@
       "notes": []
     },
     {
-      "heading": "Biological Science",
+      "heading": "Biological Science; choose one series:",
       "courses": [
         "BIS 002A",
         "BIS 002B",
-        "BIS 002C"
+        "BIS 002C",
+        "or BIO 001",
+        "BIO 001L",
+        "BIO 002",
+        "BIO 002L",
+        "BIO 003"
       ],
-      "units": "15",
-      "notes": []
+      "units": "14-15",
+      "notes": [
+        "OR"
+      ]
     },
     {
       "heading": "Chemistry",
@@ -64,11 +71,19 @@
         "CHE 002A",
         "CHE 002B",
         "CHE 008A",
-        "CHE 008B",
-        "PLS 021",
-        "PLS 021V"
+        "CHE 008B"
       ],
       "units": "16",
+      "notes": []
+    },
+    {
+      "heading": "Chemistry",
+      "courses": [
+        "PLS 021",
+        "or PLS 021V",
+        "ECS 015"
+      ],
+      "units": "3-4",
       "notes": [
         "Choose one:"
       ]
@@ -77,10 +92,10 @@
       "heading": "Economics",
       "courses": [
         "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
+        "or ECN 001AV",
+        "or ECN 001AY",
         "ECN 001B",
-        "ECN 001BV"
+        "or ECN 001BV"
       ],
       "units": "8",
       "notes": []
@@ -89,8 +104,8 @@
       "heading": "Management",
       "courses": [
         "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY",
+        "or MGT 011AV",
+        "or MGT 011AY",
         "MGT 011B"
       ],
       "units": "8",
@@ -99,24 +114,38 @@
     {
       "heading": "Mathematics; choose a series:",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 021AMAT 021BMAT 021C",
+        "MAT 016A",
+        "MAT 016B",
+        "MAT 016C",
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "MAT 021A",
+        "MAT 021B",
+        "MAT 021C"
+      ],
+      "units": "9-12",
+      "notes": []
+    },
+    {
+      "heading": "Mathematics; choose a series:",
+      "courses": [
         "PLS 120",
         "STA 100",
         "STA 103"
       ],
-      "units": "9-12",
+      "units": "4",
       "notes": [
         "Choose one:",
         "Or other courses in quantitative skills with prior approval of the Master Advisor.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (70-75 units)"
       ]
     },
     {
       "heading": "Biological Science",
       "courses": [
-        "BIS 101",
-        "BIS 101V"
+        "or BIS 101",
+        "or BIS 101V"
       ],
       "units": "4",
       "notes": []
@@ -124,11 +153,18 @@
     {
       "heading": "Nutrition",
       "courses": [
-        "NUT 115",
+        "NUT 115"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Nutrition",
+      "courses": [
         "NPB 101",
         "ANS 100"
       ],
-      "units": "4",
+      "units": "5",
       "notes": [
         "Choose one:"
       ]
@@ -136,25 +172,64 @@
     {
       "heading": "Agricultural & Resource Economics",
       "courses": [
-        "ARE 100A",
+        "ARE 100A"
+      ],
+      "units": "",
+      "notes": []
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ARE 113",
         "ARE 130",
         "ARE 136",
-        "ARE 138",
+        "ARE 138"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ARE 120",
         "ARE 132",
         "ARE 140",
         "ARE 145",
-        "ARE 157",
+        "ARE 157"
+      ],
+      "units": "",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "Agricultural & Resource Economics",
+      "courses": [
         "ANS 128",
         "ARE 155"
       ],
       "units": "29",
       "notes": [
         "Choose one:",
-        "Choose one:",
-        "Choose one:",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (29 units)"
+      ]
+    },
+    {
+      "heading": "Area of Specializations",
+      "courses": [],
+      "units": "14-16",
+      "notes": [
+        "Choose one area of specialization below:",
+        "Aquatic Animals",
+        "Companion Animals",
+        "Dairy",
+        "Equine",
+        "Livestock",
+        "Poultry",
+        "Individualized",
+        "Area of Specializations Subtotal (14-16 units)"
       ]
     },
     {
@@ -222,10 +297,14 @@
         "ANG 105",
         "ANG 107",
         "ANG 111",
+        "NUT 122",
+        "NUT 123",
+        "NUT 123L",
         "NUT 124",
         "ABI 102",
         "ABI 103",
         "ECS 124",
+        "MGT 100",
         "NPB 117",
         "NPB 121",
         "NPB 121L",
@@ -236,31 +315,34 @@
       ],
       "units": "8-10",
       "notes": [
-        "Choose one area of specialization below:",
-        "Aquatic Animals",
-        "Companion Animals",
-        "Equine",
-        "Livestock",
-        "Poultry",
-        "Individualized",
-        "Area of Specializations Subtotal",
         "Choose at least two additional courses with approval of advisor; minimum 8 units; duplicate from Depth Subject Matter courses not counted:",
-        "Restricted Electives Subtotal"
+        "Restricted Electives Subtotal (8-10 units)"
       ]
     },
     {
       "heading": "General Requirements",
       "courses": [
-        "ANS 018",
+        "ANS 018"
+      ],
+      "units": "4",
+      "notes": [],
+      "group": "Aquatic Animals Specialization",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANS 118",
         "ANS 119",
         "ANS 131",
         "ANS 148"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Aquatic Animals Specialization",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -270,8 +352,10 @@
         "ANS 142",
         "ANS 148"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [],
+      "group": "Companion Animals Specialization",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -282,8 +366,10 @@
         "ANS 147",
         "ANS 148"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "2",
+      "notes": [],
+      "group": "Dairy Specialization",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -293,23 +379,36 @@
         "ANS 141",
         "ANS 148"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "3",
+      "notes": [],
+      "group": "Equine Specialization",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
       "courses": [
         "ANS 041",
-        "ANS 041L",
+        "ANS 041L"
+      ],
+      "units": "2",
+      "notes": [],
+      "group": "Livestock Specialization",
+      "group_kind": "path"
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ANS 143",
         "ANS 144",
         "ANS 145",
         "ANS 148"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Choose one:"
-      ]
+      ],
+      "group": "Livestock Specialization",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -319,11 +418,22 @@
         "ANS 145",
         "ANS 148"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "3",
+      "notes": [],
+      "group": "Poultry Specialization",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
+  "specializations": [
+    "Aquatic Animals Specialization",
+    "Companion Animals Specialization",
+    "Dairy Specialization",
+    "Equine Specialization",
+    "Livestock Specialization",
+    "Poultry Specialization"
+  ],
   "advising_notes": [],
-  "total_units": "130"
+  "total_units": "129",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.353Z"
 }

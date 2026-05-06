@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.3,
+    "department": "Science",
+    "firstName": "Greg",
+    "id": "VGVhY2hlci00NjY0Mzc=",
+    "lastName": "Pasternack",
+    "legacyId": 466437,
+    "numRatings": 45,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 58.6207
+  }
+]

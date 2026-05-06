@@ -15,11 +15,21 @@
         "ART 008",
         "ART 009",
         "ART 011",
-        "ART 012",
+        "ART 012"
+      ],
+      "units": "24-25",
+      "notes": [
+        "Choose five lower division courses in the practice of art:"
+      ]
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "AHI 001A",
         "AHI 001B",
         "AHI 001C",
         "AHI 001D",
+        "or AHI 001DY",
         "AHI 001E",
         "AHI 005",
         "AHI 025",
@@ -28,11 +38,10 @@
         "ART 024",
         "ART 030"
       ],
-      "units": "24-25",
+      "units": "4",
       "notes": [
-        "Choose five lower division courses in the practice of art:",
         "Choose one lower division theory or history course:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (28-29 units)"
       ]
     },
     {
@@ -48,11 +57,13 @@
         "Design (DES).",
         "Music (MUS)",
         "Theatre & Dance (DRA).",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "72"
+  "total_units": "72",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.617Z"
 }

@@ -1,0 +1,90 @@
+{
+  "course_id": "ECI162",
+  "course_title": "Transportation Infrastructure Design",
+  "overall_grades": {
+    "A+": 13,
+    "A": 115,
+    "A-": 114,
+    "B+": 26,
+    "B": 37,
+    "B-": 7,
+    "C+": 3,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.66,
+  "overall_enrolled": 318,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kari Watkins",
+      "professor_slug": "kari-watkins",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 13,
+            "A": 115,
+            "A-": 114,
+            "B+": 26,
+            "B": 37,
+            "B-": 7,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 318
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 84,
+            "A-": 78,
+            "B+": 15,
+            "B": 24,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.64,
+          "quarter_enrolled": 216
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 31,
+            "A-": 36,
+            "B+": 11,
+            "B": 13,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 102
+        }
+      }
+    }
+  ]
+}

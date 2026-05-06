@@ -1,0 +1,208 @@
+{
+  "course_id": "PHI31",
+  "course_title": "Appraising Scientific Reasoning",
+  "overall_grades": {
+    "A+": 217,
+    "A": 415,
+    "A-": 96,
+    "B+": 72,
+    "B": 64,
+    "B-": 17,
+    "C+": 15,
+    "C": 18,
+    "C-": 6,
+    "D+": 1,
+    "D": 3,
+    "D-": 0,
+    "F": 22,
+    "P*": 12,
+    "NP*": 7
+  },
+  "overall_gpa": 3.64,
+  "overall_enrolled": 965,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Han Ti Kao",
+      "professor_slug": "han-ti-kao",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 33,
+            "A-": 17,
+            "B+": 13,
+            "B": 14,
+            "B-": 5,
+            "C+": 5,
+            "C": 3,
+            "C-": 2,
+            "D+": 1,
+            "D": 3,
+            "D-": 0,
+            "F": 8,
+            "P*": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 130
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 20,
+            "A": 23,
+            "A-": 12,
+            "B+": 11,
+            "B": 11,
+            "B-": 4,
+            "C+": 4,
+            "C": 3,
+            "C-": 2,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 8,
+            "P*": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 104
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 10,
+            "A-": 5,
+            "B+": 2,
+            "B": 3,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 26
+        }
+      }
+    },
+    {
+      "professor_name": "Shawn Miller",
+      "professor_slug": "shawn-miller",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 195,
+            "A": 382,
+            "A-": 79,
+            "B+": 59,
+            "B": 50,
+            "B-": 12,
+            "C+": 10,
+            "C": 15,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 14,
+            "P*": 11,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 835
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 147,
+            "A": 120,
+            "A-": 21,
+            "B+": 24,
+            "B": 12,
+            "B-": 9,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 360
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 76,
+            "A-": 19,
+            "B+": 2,
+            "B": 5,
+            "B-": 0,
+            "C+": 1,
+            "C": 6,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 118
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 138,
+            "A-": 9,
+            "B+": 15,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 183
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 48,
+            "A-": 30,
+            "B+": 18,
+            "B": 24,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 174
+        }
+      }
+    }
+  ]
+}

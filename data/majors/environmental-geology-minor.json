@@ -11,9 +11,17 @@
         "ESM 186",
         "GEL 130",
         "GEL 134",
+        "or EPS 134",
         "HYD 141",
-        "ECI 142",
-        "SSC 118",
+        "or ECI 142",
+        "SSC 118"
+      ],
+      "units": "5",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "ESP 160",
         "ESP 171",
         "ESP 179",
@@ -21,7 +29,7 @@
         "HYD/EBS 144",
         "HYD 146"
       ],
-      "units": "Units",
+      "units": "8-9",
       "notes": [
         "Choose two:"
       ]
@@ -29,5 +37,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "27"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.626Z"
 }

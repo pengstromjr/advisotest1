@@ -1,0 +1,184 @@
+{
+  "course_id": "PER1",
+  "course_title": "Elementary Persian",
+  "overall_grades": {
+    "A+": 22,
+    "A": 73,
+    "A-": 16,
+    "B+": 15,
+    "B": 2,
+    "B-": 2,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "P*": 6,
+    "NP*": 1
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 138,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Laura Catterson",
+      "professor_slug": "laura-catterson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 39
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 12,
+            "A-": 6,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.89,
+          "quarter_enrolled": 39
+        }
+      }
+    },
+    {
+      "professor_name": "Navid Saberi Najafi",
+      "professor_slug": "navid-saberi-najafi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 61,
+            "A-": 10,
+            "B+": 12,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 99
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 19,
+            "A-": 3,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 26
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 13,
+            "A-": 3,
+            "B+": 5,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 25
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 10,
+            "A-": 3,
+            "B+": 4,
+            "B": 1,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 24
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 19,
+            "A-": 1,
+            "B+": 1,
+            "B": 1,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.86,
+          "quarter_enrolled": 24
+        }
+      }
+    }
+  ]
+}

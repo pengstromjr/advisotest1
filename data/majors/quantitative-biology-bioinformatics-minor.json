@@ -9,7 +9,7 @@
       "heading": "Programming",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
+        "or ECS 032AV",
         "ECS 036A"
       ],
       "units": "0-4",
@@ -22,30 +22,27 @@
     {
       "heading": "Quantitative Biology",
       "courses": [
-        "BIS/MAT 107",
-        "MAT 124",
-        "BIS 107",
-        "MAT 107",
-        "BIS 027A/MAT 027A",
-        "MAT 022A",
-        "MAT 124",
-        "MAT 027A",
-        "MAT 027B",
-        "MAT 022A",
-        "MAT 022B"
+        "or BIS/MAT 107",
+        "or MAT 124"
       ],
       "units": "4",
-      "notes": []
+      "notes": [
+        "NOTE: BIS 107 (same as MAT 107) has a prerequisite of BIS 027A/MAT 027A (preferred) or MAT 022A; MAT 124 has a prerequisite of MAT 027A & MAT 027B (preferred) or MAT 022A & MAT 022B."
+      ]
     },
     {
       "heading": "Bioinformatics",
       "courses": [
-        "ECS 124",
-        "ECS 129"
+        "BIT 150",
+        "or ECS 124",
+        "or ECS 129",
+        "or BIS 180L"
       ],
-      "units": "4",
+      "units": "4-5",
       "notes": [
-        "Core Courses Subtotal"
+        "Choose one:",
+        "OR",
+        "Core Courses Subtotal (8-13 units)"
       ]
     },
     {
@@ -53,8 +50,12 @@
       "courses": [
         "BIS/MAT 107",
         "BIM 105",
+        "ECS 111",
+        "ECS 116",
+        "ECS 117",
         "ECS 122A",
         "ECS 130",
+        "ECS 145",
         "ECS 165A",
         "ECS 171",
         "MAT 128A",
@@ -65,21 +66,13 @@
         "STA 108",
         "STA 130A",
         "STA 131A",
-        "STA 141A",
-        "BIS 107",
-        "MAT 107",
-        "BIS 027A/MAT 027A",
-        "MAT 022A",
-        "MAT 124",
-        "MAT 027A",
-        "MAT 027B",
-        "MAT 022A",
-        "MAT 022B"
+        "STA 141A"
       ],
       "units": "4",
       "notes": [
         "Choose one:",
-        "Quantitative & Computational Preparation Subtotal"
+        "NOTE: BIS 107 (same as MAT 107) has a prerequisite of BIS 027A/MAT 027A (preferred) or MAT 022A.",
+        "Quantitative & Computational Preparation Subtotal (4 units)"
       ]
     },
     {
@@ -91,29 +84,38 @@
         "BIM 102",
         "BIM 140",
         "BIM 141",
+        "BIM 143",
+        "BIM 162",
+        "BIM 163",
         "BIT 150",
+        "ECS 124",
+        "ECS 129",
+        "ESP 121",
+        "or WFC 122",
         "EVE 102",
         "EVE 103",
         "EVE 104",
         "EVE 175",
         "MIC 105",
+        "or MMG 180",
         "MCB 123",
         "MCB 143",
         "MCB 182",
-        "NPB 166",
+        "NPB 118",
+        "NPB 136",
         "NPB 167",
-        "ESP 121",
-        "WFC 122"
+        "SSB 134"
       ],
       "units": "5-10",
       "notes": [
         "Complete two or more from the following list to achieve a total of 18-26 units:",
-        "Restricted Electives Subtotal",
-        "Total Units"
+        "Restricted Electives Subtotal (5-10 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.107Z"
 }

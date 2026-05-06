@@ -9,14 +9,33 @@
       "heading": "General Requirements",
       "courses": [
         "CHI 010",
-        "CHI 010V",
-        "CHI 050",
+        "or CHI 010V",
+        "CHI 050"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "CHI 150",
+        "or CHI 150V",
         "CHI 181",
         "HIS 169A",
-        "HIS 169B",
+        "HIS 169B"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "CHI 110",
-        "CHI 110V",
+        "or CHI 110V",
         "CHI 111",
         "CHI 112",
         "CHI 120",
@@ -34,15 +53,15 @@
         "CHI/ART 171",
         "CHI 172"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
-        "Choose one:",
-        "Choose one:",
         "Choose four:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.030Z"
 }

@@ -15,7 +15,7 @@
         "EAS 196B",
         "EAS 198"
       ],
-      "units": "Units",
+      "units": "20",
       "notes": [
         "Choose any five upper division courses from the Depth Subject Matter list for the major, or from the following list:",
         "Any CHN or JPN upper division course",
@@ -28,5 +28,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.427Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.6,
+    "department": "University Writing Program",
+    "firstName": "Joseph",
+    "id": "VGVhY2hlci0yMDc4MzQ4",
+    "lastName": "Horton",
+    "legacyId": 2078348,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.5
+  }
+]

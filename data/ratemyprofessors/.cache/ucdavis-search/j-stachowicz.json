@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.4,
+    "department": "Science",
+    "firstName": "Jay",
+    "id": "VGVhY2hlci01ODk1NjM=",
+    "lastName": "Stachowicz",
+    "legacyId": 589563,
+    "numRatings": 99,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 79.3651
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "John",
+    "id": "VGVhY2hlci0zMTYxMDM3",
+    "lastName": "Stachowicz",
+    "legacyId": 3161037,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

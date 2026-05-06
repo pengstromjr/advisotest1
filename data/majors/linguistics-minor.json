@@ -9,10 +9,17 @@
       "heading": "General Requirements",
       "courses": [
         "LIN 001",
-        "LIN 001Y",
+        "or LIN 001Y",
         "LIN 103A",
-        "LIN 103AV",
-        "LIN 103B",
+        "or LIN 103AV",
+        "LIN 103B"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "LIN 111",
         "LIN 112",
         "LIN 121",
@@ -21,14 +28,23 @@
         "LIN 151",
         "LIN 152"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Choose one:",
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "8",
+      "notes": [
         "Choose additional units from upper division Linguistics courses and other upper division courses listed in the major requirements in consultation with an advisor."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.453Z"
 }

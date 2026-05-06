@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.2,
+    "department": "Pathology",
+    "firstName": "Karen",
+    "id": "VGVhY2hlci0yNzIwODgx",
+    "lastName": "Shapiro",
+    "legacyId": 2720881,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 2.9,
+    "department": "Biology",
+    "firstName": "Art",
+    "id": "VGVhY2hlci0xNTQxMDY=",
+    "lastName": "Shapiro",
+    "legacyId": 154106,
+    "numRatings": 24,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 25
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 2.7,
+    "department": "Mathematics",
+    "firstName": "Ilya",
+    "id": "VGVhY2hlci00ODA5MzQ=",
+    "lastName": "Shapiro",
+    "legacyId": 480934,
+    "numRatings": 106,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4,
+    "department": "Comparative Literature",
+    "firstName": "Elena",
+    "id": "VGVhY2hlci0xMTM0MzE0",
+    "lastName": "Shapiro",
+    "legacyId": 1134314,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

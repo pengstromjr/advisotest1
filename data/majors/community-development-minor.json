@@ -8,7 +8,14 @@
     {
       "heading": "General Requirements",
       "courses": [
-        "CRD 001",
+        "CRD 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "CRD 118",
         "CRD 140",
         "CRD 141",
@@ -31,7 +38,7 @@
         "CRD 176",
         "CRD 180"
       ],
-      "units": "Units",
+      "units": "20-24",
       "notes": [
         "Choose five:"
       ]
@@ -39,5 +46,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.225Z"
 }

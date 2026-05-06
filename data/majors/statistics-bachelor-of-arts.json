@@ -8,23 +8,29 @@
     {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C",
-        "MAT 021",
-        "MAT 022A"
+        "MAT 021A",
+        "or MAT 019A",
+        "or MAT 017A",
+        "MAT 021B",
+        "or MAT 019B",
+        "or MAT 017B",
+        "MAT 021C",
+        "or MAT 019C",
+        "or MAT 017C",
+        "MAT 022A",
+        "or MAT 067",
+        "or MAT 027A",
+        "or BIS 027A"
       ],
-      "units": "9-12",
-      "notes": [
-        "Choose a series:"
-      ]
+      "units": "4",
+      "notes": []
     },
     {
       "heading": "Computer Science Engineering",
       "courses": [
         "ECS 032A",
-        "ECS 032AV",
-        "ECS 036A"
+        "or ECS 032AV",
+        "or ECS 036A"
       ],
       "units": "4",
       "notes": []
@@ -33,16 +39,18 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "STA 032",
+        "STA 035A",
+        "STA 035B",
         "STA 100"
       ],
-      "units": "4",
+      "units": "4-8",
       "notes": [
         "Choose one:",
-        "Preparatory Subject Matter Subtotal"
+        "STA 013, STA 013V, STA 013Y NOT recommended.",
+        "Preparatory Subject Matter Subtotal (24-28 units)"
       ]
     },
     {
@@ -54,24 +62,20 @@
         "STA 130B",
         "STA 138",
         "STA 137",
-        "STA 141A"
+        "or STA 141A"
       ],
       "units": "24",
       "notes": [
-        "Statistics"
+        "Statistics (24 units)"
       ]
     },
     {
-      "heading": "Restricted Electives",
+      "heading": "Advanced Electives",
       "courses": [
         "STA 104",
         "STA 135",
         "STA 137",
         "STA 141A",
-        "STA 141B",
-        "STA 141B",
-        "STA 141C",
-        "STA 141C",
         "STA 141B",
         "STA 141C",
         "STA 144",
@@ -80,30 +84,40 @@
         "MAT 168",
         "STA 194HA",
         "STA 194HB",
-        "STA 199",
-        "STA 194HA",
-        "STA 194HB",
         "STA 199"
       ],
       "units": "12",
       "notes": [
         "Choose three:",
-        "Note: A course used to fulfill a core requirement cannot be used as a restricted elective."
+        "Only one of STA 141B or STA 141C can be used as an elective.",
+        "With advisor approval, one of STA 194HA or STA 194HB or STA 199 may be used as an elective. The course must be taken for four units.",
+        "Note: A course used to fulfill a core requirement cannot be used as an advanced elective."
       ]
     },
     {
-      "heading": "Cluster Electives",
+      "heading": "Domain Emphasis",
       "courses": [],
       "units": "9-12",
       "notes": [
-        "Choose three upper division elective courses outside of Statistics.",
-        "Cluster electives are chosen with and must be approved by the major advisor.  Electives must follow a coherent sequence in one single disciple/cluster where statistical methods and models are applied and must cover the quantitative aspects of the discipline. A list of pre-approved electives can be found on the Statistics Department website.",
-        "Pre-Approved Electives List",
-        "Depth Subject Matter Subtotal"
+        "Choose three upper division courses outside of Statistics. (9-12 units)",
+        "A list of pre-approved elective courses can be found at:",
+        "Pre-Approved Applied AB Electives",
+        "Depth Subject Matter Subtotal (45-48 units)"
+      ]
+    },
+    {
+      "heading": "Major GPA Requirements",
+      "courses": [],
+      "units": "",
+      "notes": [
+        "Minimum 2.0 GPA in UC Davis courses used in the major.",
+        "Minimum 2.0 GPA in Upper Division UC Davis courses used in the major."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "65"
+  "total_units": "69",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.325Z"
 }

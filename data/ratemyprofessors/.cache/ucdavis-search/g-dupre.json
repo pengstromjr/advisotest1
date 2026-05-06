@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.3,
+    "department": "Philosophy",
+    "firstName": "Gabe",
+    "id": "VGVhY2hlci0zMDA4OTk3",
+    "lastName": "Dupre",
+    "legacyId": 3008997,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  }
+]

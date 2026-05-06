@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 4.5,
+    "department": "MolecularCellular Biology",
+    "firstName": "Celina",
+    "id": "VGVhY2hlci0yMjYzNjQx",
+    "lastName": "Juliano",
+    "legacyId": 2263641,
+    "numRatings": 29,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 93.1034
+  }
+]

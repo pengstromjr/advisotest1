@@ -1,0 +1,73 @@
+{
+  "course_id": "CDM41B",
+  "course_title": "History of Cinema from 1945-Present",
+  "overall_grades": {
+    "A+": 0,
+    "A": 9,
+    "A-": 18,
+    "B+": 9,
+    "B": 5,
+    "B-": 4,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 0,
+    "P*": 1
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 50,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kristopher Fallon",
+      "professor_slug": "kristopher-fallon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 18,
+            "B+": 9,
+            "B": 5,
+            "B-": 4,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 50
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 18,
+            "B+": 9,
+            "B": 5,
+            "B-": 4,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 50
+        }
+      }
+    }
+  ]
+}

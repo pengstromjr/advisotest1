@@ -1,0 +1,353 @@
+{
+  "course_id": "LIN177",
+  "course_title": "Computational Linguistics",
+  "overall_grades": {
+    "A+": 290,
+    "A": 532,
+    "A-": 293,
+    "B+": 180,
+    "B": 233,
+    "B-": 169,
+    "C+": 77,
+    "C": 112,
+    "C-": 42,
+    "D+": 12,
+    "D": 11,
+    "D-": 13,
+    "F": 42,
+    "P*": 157,
+    "NP*": 32
+  },
+  "overall_gpa": 3.3,
+  "overall_enrolled": 2195,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Emily Morgan",
+      "professor_slug": "emily-morgan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 151,
+            "A": 247,
+            "A-": 110,
+            "B+": 50,
+            "B": 72,
+            "B-": 39,
+            "C+": 20,
+            "C": 42,
+            "C-": 9,
+            "D+": 1,
+            "D": 2,
+            "D-": 7,
+            "F": 13,
+            "P*": 50,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 823
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 16,
+            "A-": 8,
+            "B+": 14,
+            "B": 12,
+            "B-": 9,
+            "C+": 5,
+            "C": 9,
+            "C-": 3,
+            "D+": 1,
+            "D": 2,
+            "D-": 7,
+            "F": 7,
+            "P*": 8,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 112
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 90,
+            "A": 138,
+            "A-": 48,
+            "B+": 15,
+            "B": 15,
+            "B-": 12,
+            "C+": 6,
+            "C": 15,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 360
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 93,
+            "A-": 54,
+            "B+": 21,
+            "B": 45,
+            "B-": 18,
+            "C+": 9,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 27
+          },
+          "quarter_average_gpa": 3.44,
+          "quarter_enrolled": 351
+        }
+      }
+    },
+    {
+      "professor_name": "Kenji Sagae",
+      "professor_slug": "kenji-sagae",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 31,
+            "A": 123,
+            "A-": 69,
+            "B+": 43,
+            "B": 38,
+            "B-": 43,
+            "C+": 18,
+            "C": 22,
+            "C-": 9,
+            "D+": 2,
+            "D": 6,
+            "D-": 0,
+            "F": 11,
+            "P*": 50,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 475
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 96,
+            "A-": 54,
+            "B+": 30,
+            "B": 18,
+            "B-": 36,
+            "C+": 15,
+            "C": 15,
+            "C-": 6,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 36,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 354
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 27,
+            "A-": 15,
+            "B+": 13,
+            "B": 20,
+            "B-": 7,
+            "C+": 3,
+            "C": 7,
+            "C-": 3,
+            "D+": 2,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 14,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 121
+        }
+      }
+    },
+    {
+      "professor_name": "Raul Aranovich",
+      "professor_slug": "raul-aranovich",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 78,
+            "A-": 84,
+            "B+": 69,
+            "B": 93,
+            "B-": 78,
+            "C+": 39,
+            "C": 42,
+            "C-": 15,
+            "D+": 3,
+            "D": 3,
+            "D-": 6,
+            "F": 12,
+            "P*": 54,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 594
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 30,
+            "A-": 39,
+            "B+": 33,
+            "B": 57,
+            "B-": 33,
+            "C+": 18,
+            "C": 21,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 6,
+            "P*": 24,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 282
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 48,
+            "A-": 45,
+            "B+": 36,
+            "B": 36,
+            "B-": 45,
+            "C+": 21,
+            "C": 21,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 30
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 312
+        }
+      }
+    },
+    {
+      "professor_name": "Sam Davidson",
+      "professor_slug": "sam-davidson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 42,
+            "A-": 21,
+            "B+": 15,
+            "B": 24,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 147
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 42,
+            "A-": 21,
+            "B+": 15,
+            "B": 24,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 147
+        }
+      }
+    },
+    {
+      "professor_name": "Skyler Reese",
+      "professor_slug": "skyler-reese",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 42,
+            "A-": 9,
+            "B+": 3,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 156
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 42,
+            "A-": 9,
+            "B+": 3,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 156
+        }
+      }
+    }
+  ]
+}

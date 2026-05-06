@@ -11,8 +11,14 @@
         "CDM 001"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Film Studies",
+      "courses": [],
+      "units": "20",
       "notes": [
-        "Choose no more than two from any one category.",
+        "Choose no more than two from any one category. (20 units)",
         "No more than two courses from a single department or program may be offered in satisfaction of the minor requirements."
       ]
     },
@@ -77,13 +83,15 @@
         "ART 150",
         "CMN 140",
         "POL 165",
-        "POL 165V"
+        "or POL 165V"
       ],
-      "units": "24",
+      "units": "",
       "notes": []
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.810Z"
 }

@@ -12,10 +12,10 @@
         "AHI 001B",
         "AHI 001C",
         "AHI 001D",
+        "or AHI 001DY",
         "AHI 001E",
         "AHI 005",
         "AHI 025",
-        "ART 030",
         "ART 001",
         "ART 002",
         "ART 005",
@@ -31,7 +31,8 @@
       "units": "16-17",
       "notes": [
         "Choose four:",
-        "Preparatory Subject Matter Subtotal"
+        "Any lower division Art Studio (ART) course except ART 030:",
+        "Preparatory Subject Matter Subtotal (20-21 units)"
       ]
     },
     {
@@ -61,7 +62,6 @@
         "AHI 183B",
         "AHI 188C",
         "AHI 122",
-        "AHI 163D",
         "AHI 183C",
         "AHI 185",
         "AHI 186",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "heading": "Undergraduate Seminar in Art History, (AHI 190A-AHI 190L)",
+      "heading": "Undergraduate Seminar in Art History, (AHI 190A-AHI 190L)",
       "courses": [
         "AHI 190A",
         "AHI 190B",
@@ -106,15 +106,22 @@
       ]
     },
     {
-      "heading": "Emphasis; choose one to reach total units:",
+      "heading": "Electives",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Choose any three additional AHI upper division courses or seminars. (12 units)",
+        "Art History (AHI) courses.",
+        "Depth Subject Matter Subtotal (40 units)"
+      ]
+    },
+    {
+      "heading": "Emphasis (optional)",
       "courses": [],
       "units": "60",
       "notes": [
-        "Choose any three additional AHI upper division courses or seminars.",
-        "Art History (AHI) courses.",
-        "Depth Subject Matter Subtotal",
-        "Architectural History",
-        "Museum Studies"
+        "Architectural History (60 units)",
+        "Museum Studies (72-73 units)"
       ]
     },
     {
@@ -142,10 +149,12 @@
         "AHI 188A",
         "AHI 188B"
       ],
-      "units": "Units",
+      "units": "24",
       "notes": [
         "Choose at least six of the following:"
-      ]
+      ],
+      "group": "Emphasis in Architectural History",
+      "group_kind": "path"
     },
     {
       "heading": "Preparatory Subject Matter",
@@ -154,17 +163,33 @@
         "AHI 001B",
         "AHI 001C",
         "AHI 001D",
+        "or AHI 001DY",
         "AHI 001E",
         "AHI 005",
-        "AHI 025",
-        "ART 030"
+        "AHI 025"
       ],
       "units": "16-17",
       "notes": [
         "Choose four:",
+        "Any lower division Art Studio (ART) course except ART 030:",
         "Art Studio (ART) courses.",
-        "Preparatory Subject Matter Subtotal"
-      ]
+        "Preparatory Subject Matter Subtotal (20-21 units)"
+      ],
+      "group": "Emphasis in Museum Studies",
+      "group_kind": "path"
+    },
+    {
+      "heading": "Depth Subject Matter",
+      "courses": [],
+      "units": "24",
+      "notes": [
+        "Distribution Areas; same as for the Art History Major, above. (24 units)",
+        "Undergraduate Seminar; same as for the Art History Major above. (4 units)",
+        "Elective; one additional AHI upper-division course or seminar. (4 units)",
+        "Depth Subject Matter Subtotal (32 units)"
+      ],
+      "group": "Emphasis in Museum Studies",
+      "group_kind": "path"
     },
     {
       "heading": "Five courses not already counted toward the Major.",
@@ -175,9 +200,10 @@
         "AHI/HMR 120A",
         "AHI 123",
         "AHI 190L",
+        "ANT 186A",
         "ARE 113",
         "CMN 131",
-        "CMN 131V",
+        "or CMN 131V",
         "DES 185",
         "DES 187",
         "DRA 124A",
@@ -187,19 +213,21 @@
       ],
       "units": "8",
       "notes": [
-        "Distribution Areas; same as for the Art History Major, above.",
-        "Undergraduate Seminar; same as for the Art History Major above.",
-        "Elective; one additional AHI upper-division course or seminar.",
-        "Depth Subject Matter Subtotal",
         "Required Courses:",
-        "Required Courses:",
-        "Depth Subject Matter—Museum Studies Subtotal"
-      ]
+        "Depth Subject Matter—Museum Studies Subtotal (20 units)"
+      ],
+      "group": "Emphasis in Museum Studies",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [
-    "Honors Program: The Honors Program in Art History is encouraged for Art History majors who are considering attending graduate school. To be eligible for the program, a student must have completed at least 135 units and have a grade point average of 3.500 GPA overall, consent of both the prospective thesis advisor, who must be a member of the Art History faculty and the major advisor. In addition to meeting the standard major requirements, the honors student completes one additional undergraduate seminar (course"
+  "specializations": [
+    "Emphasis in Architectural History",
+    "Emphasis in Museum Studies"
   ],
-  "total_units": "24"
+  "advising_notes": [
+    "Honors Program: The Honors Program in Art History is encouraged for Art History majors who are considering attending graduate school. To be eligible for the program, a student must have completed at least 135 units and have a grade point average of 3.500 GPA overall, consent of both the prospective thesis advisor, who must be a member of the Art History faculty and the major advisor. In addition to meeting the standard major requirements, the honors student completes one additional undergraduate seminar (course 100 or 190A-L), researches and writes an honors thesis (courses 194HA and 194HB), supervised by the prospective thesis advisor. Students participating in this Program are candidates for Departmental recommendation for graduation with High or Highest Honors. See Academic Information, Letters & Scien"
+  ],
+  "total_units": "60",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.601Z"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4,
+    "department": "Education",
+    "firstName": "Faheemah",
+    "id": "VGVhY2hlci0yNzE0ODU2",
+    "lastName": "Mustafaa",
+    "legacyId": 2714856,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40
+  }
+]

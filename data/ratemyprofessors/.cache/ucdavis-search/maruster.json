@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 5,
+    "department": "Management",
+    "firstName": "Sorin",
+    "id": "VGVhY2hlci0yNjIyNDM2",
+    "lastName": "Maruster",
+    "legacyId": 2622436,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

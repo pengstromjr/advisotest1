@@ -1,0 +1,186 @@
+{
+  "course_id": "POL131",
+  "course_title": "Analysis of U.S. Foreign Policy",
+  "overall_grades": {
+    "A+": 212,
+    "A": 476,
+    "A-": 172,
+    "B+": 69,
+    "B": 81,
+    "B-": 9,
+    "C+": 4,
+    "C": 4,
+    "C-": 1,
+    "D+": 0,
+    "D": 0,
+    "D-": 4,
+    "F": 13,
+    "P*": 18,
+    "NP*": 4
+  },
+  "overall_gpa": 3.74,
+  "overall_enrolled": 1067,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "McCage Griffiths",
+      "professor_slug": "mccage-griffiths",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 120,
+            "A": 306,
+            "A-": 111,
+            "B+": 42,
+            "B": 57,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 9,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.72,
+          "quarter_enrolled": 675
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 87,
+            "A-": 45,
+            "B+": 24,
+            "B": 30,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 261
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 219,
+            "A-": 66,
+            "B+": 18,
+            "B": 27,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 414
+        }
+      }
+    },
+    {
+      "professor_name": "Mccage Griffiths",
+      "professor_slug": "mccage-griffiths",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 92,
+            "A": 170,
+            "A-": 61,
+            "B+": 27,
+            "B": 24,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 4,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.77,
+          "quarter_enrolled": 392
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 19,
+            "A": 29,
+            "A-": 15,
+            "B+": 8,
+            "B": 10,
+            "B-": 2,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 87
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 73,
+            "A-": 22,
+            "B+": 6,
+            "B": 9,
+            "B-": 0,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.79,
+          "quarter_enrolled": 138
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 52,
+            "A": 68,
+            "A-": 24,
+            "B+": 13,
+            "B": 5,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 167
+        }
+      }
+    }
+  ]
+}

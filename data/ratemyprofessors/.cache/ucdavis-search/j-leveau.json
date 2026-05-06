@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.5,
+    "department": "Plant Pathology",
+    "firstName": "Johan",
+    "id": "VGVhY2hlci0xODE2MTc2",
+    "lastName": "Leveau",
+    "legacyId": 1816176,
+    "numRatings": 104,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 88.3721
+  }
+]

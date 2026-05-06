@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4,
+    "department": "Education",
+    "firstName": "Rebecca",
+    "id": "VGVhY2hlci0xNDQ1MDYz",
+    "lastName": "Ambrose",
+    "legacyId": 1445063,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

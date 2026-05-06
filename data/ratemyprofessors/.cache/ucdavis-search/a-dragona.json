@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "A",
+    "id": "VGVhY2hlci0xNzc1NjU5",
+    "lastName": "McAllister",
+    "legacyId": 1775659,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.5,
+    "department": "English",
+    "firstName": "Aliki",
+    "id": "VGVhY2hlci0xNDkzNzI=",
+    "lastName": "Dragona",
+    "legacyId": 149372,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 80
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "University Writing Program",
+    "firstName": "Aliki",
+    "id": "VGVhY2hlci0xOTc1OTE4",
+    "lastName": "Dragona",
+    "legacyId": 1975918,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

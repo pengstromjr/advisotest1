@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.3,
+    "department": "Chemistry",
+    "firstName": "Whitney",
+    "id": "VGVhY2hlci0yMjkwMTE5",
+    "lastName": "Duim",
+    "legacyId": 2290119,
+    "numRatings": 199,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 63.3166
+  }
+]

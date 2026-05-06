@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.3,
+    "department": "Management",
+    "firstName": "Gregory",
+    "id": "VGVhY2hlci0yMzU2NjQ1",
+    "lastName": "Perelman",
+    "legacyId": 2356645,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 36.3636
+  }
+]

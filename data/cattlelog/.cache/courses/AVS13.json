@@ -1,0 +1,163 @@
+{
+  "course_id": "AVS13",
+  "course_title": "Birds, Humans & the Environment",
+  "overall_grades": {
+    "A+": 14,
+    "A": 37,
+    "A-": 39,
+    "B+": 25,
+    "B": 22,
+    "B-": 11,
+    "C+": 14,
+    "C": 21,
+    "C-": 14,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 12,
+    "P*": 10,
+    "NP*": 6
+  },
+  "overall_gpa": 2.99,
+  "overall_enrolled": 225,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Annie King",
+      "professor_slug": "annie-king",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 30,
+            "A-": 33,
+            "B+": 21,
+            "B": 18,
+            "B-": 9,
+            "C+": 12,
+            "C": 21,
+            "C-": 12,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 195
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 18,
+            "B+": 12,
+            "B": 3,
+            "B-": 3,
+            "C+": 12,
+            "C": 3,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.62,
+          "quarter_enrolled": 75
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 6,
+            "B+": 3,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 12,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 57
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 21,
+            "A-": 9,
+            "B+": 6,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 63
+        }
+      }
+    },
+    {
+      "professor_name": "Kristin Kellett",
+      "professor_slug": "kristin-kellett",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 7,
+            "A-": 6,
+            "B+": 4,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 30
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 7,
+            "A-": 6,
+            "B+": 4,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 0,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 30
+        }
+      }
+    }
+  ]
+}

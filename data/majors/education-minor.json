@@ -11,11 +11,11 @@
         "EDU 100",
         "EDU 110",
         "EDU 120",
-        "EDU 120V"
+        "or EDU 120V"
       ],
       "units": "4",
       "notes": [
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (12 units)"
       ]
     },
     {
@@ -28,11 +28,13 @@
         "EDU 122",
         "EDU 130",
         "EDU 142",
+        "EDU 147/SPA 147",
         "EDU 150",
         "EDU 151",
         "EDU 152",
         "EDU 154",
         "EDU 155",
+        "EDU 163",
         "EDU/LIN 173",
         "EDU/GEL 181",
         "EDU/GEL 183",
@@ -45,7 +47,7 @@
       "notes": [
         "Not all courses in the list are 4 units.",
         "Remaining 8 units may be:",
-        "Elective Courses Subtotal"
+        "Elective Courses Subtotal (8 units)"
       ]
     },
     {
@@ -65,32 +67,34 @@
         "GEL 185A",
         "GEL 185B",
         "HDE 100A",
-        "HDE 100AV",
+        "or HDE 100AV",
         "HDE 100B",
-        "HDE 100BV",
+        "or HDE 100BV",
         "HDE 101",
         "LIN/EDU 173",
         "LIN 180",
         "MAT 197TC",
         "PSC 130",
         "PSC 132",
-        "PSC 141/HDE 101 DISCONTINUED FOR SUMMER 2026 **",
+        "PSC 141/HDE 101",
         "SAS 120",
         "SOC 124",
         "SPA 116",
-        "SPA 116V",
+        "or SPA 116V",
         "SPA 117",
-        "SPA 117V",
+        "or SPA 117V",
         "UWP 104D",
         "UWP 197TC"
       ],
       "units": "0",
       "notes": [
-        "Approved Courses Outside of Education Subtotal"
+        "Approved Courses Outside of Education Subtotal (0 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.509Z"
 }

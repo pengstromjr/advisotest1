@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.1,
+    "department": "Philosophy",
+    "firstName": "Tina",
+    "id": "VGVhY2hlci0xOTM3NzIy",
+    "lastName": "Rulli",
+    "legacyId": 1937722,
+    "numRatings": 60,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.2727
+  }
+]

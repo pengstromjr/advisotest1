@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.6,
+    "department": "Computer Science",
+    "firstName": "Zhaojun",
+    "id": "VGVhY2hlci0xNDg5NTQ=",
+    "lastName": "Bai",
+    "legacyId": 148954,
+    "numRatings": 141,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 35.1852
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.7,
+    "department": "Mathematics",
+    "firstName": "Chenchen",
+    "id": "VGVhY2hlci0zMDI3MzU2",
+    "lastName": "Zhao",
+    "legacyId": 3027356,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 57.8947
+  },
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 5,
+    "department": "Computer Science",
+    "firstName": "Zhe",
+    "id": "VGVhY2hlci0zMDM2Nzk0",
+    "lastName": "Zhao",
+    "legacyId": 3036794,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4,
+    "department": "Mechanical Engineering",
+    "firstName": "Zhaodan",
+    "id": "VGVhY2hlci0yMDMyMzA2",
+    "lastName": "Kong",
+    "legacyId": 2032306,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 76.4706
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.7,
+    "department": "Communication",
+    "firstName": "Yifan",
+    "id": "VGVhY2hlci0yNTAzOTU2",
+    "lastName": "Zhao",
+    "legacyId": 2503956,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.7,
+    "department": "Mathematics",
+    "firstName": "Jucheng",
+    "id": "VGVhY2hlci02Mzg5MjM=",
+    "lastName": "Zhao",
+    "legacyId": 638923,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.2,
+    "department": "Electrical Engineering",
+    "firstName": "Qing",
+    "id": "VGVhY2hlci03OTU5ODg=",
+    "lastName": "Zhao",
+    "legacyId": 795988,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Languages",
+    "firstName": "Luyuan",
+    "id": "VGVhY2hlci0zNjgyMDY=",
+    "lastName": "Zhao",
+    "legacyId": 368206,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4,
+    "department": "Biochemistry",
+    "firstName": "Timothy",
+    "id": "VGVhY2hlci0yNjc0Nzk3",
+    "lastName": "Hackmann",
+    "legacyId": 2674797,
+    "numRatings": 16,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.25
+  }
+]

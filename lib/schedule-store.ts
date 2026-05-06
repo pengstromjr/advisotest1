@@ -4,6 +4,7 @@
  */
 
 import type { Section } from "./course-data";
+import { CURRENT_SCHEDULE_STORAGE_KEY } from "./current-term";
 
 type Listener = (section: Section) => void;
 
@@ -18,7 +19,7 @@ export function dispatchScheduleAdd(section: Section) {
   listeners.forEach((fn) => fn(section));
 }
 
-const STORAGE_KEY = "ucd-ai-schedule-spring-2026";
+const STORAGE_KEY = CURRENT_SCHEDULE_STORAGE_KEY;
 
 export function getPlannedCrns(): Set<string> {
   if (typeof window === "undefined") return new Set();

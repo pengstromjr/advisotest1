@@ -1,0 +1,76 @@
+{
+  "course_id": "CMN3",
+  "course_title": "Interpersonal Communication Competence",
+  "overall_grades": {
+    "A+": 0,
+    "A": 11,
+    "A-": 15,
+    "B+": 23,
+    "B": 33,
+    "B-": 17,
+    "C+": 7,
+    "C": 13,
+    "C-": 3,
+    "D+": 1,
+    "D": 2,
+    "D-": 0,
+    "F": 0,
+    "P*": 4,
+    "NP*": 1
+  },
+  "overall_gpa": 2.97,
+  "overall_enrolled": 130,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Heather Hether",
+      "professor_slug": "heather-hether",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 11,
+            "A-": 15,
+            "B+": 23,
+            "B": 33,
+            "B-": 17,
+            "C+": 7,
+            "C": 13,
+            "C-": 3,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 130
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 11,
+            "A-": 15,
+            "B+": 23,
+            "B": 33,
+            "B-": 17,
+            "C+": 7,
+            "C": 13,
+            "C-": 3,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 0,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 130
+        }
+      }
+    }
+  ]
+}

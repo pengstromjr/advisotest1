@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.8,
+    "department": "Sociology",
+    "firstName": "Ester ",
+    "id": "VGVhY2hlci0zMDE4Njc0",
+    "lastName": "Apesoa-Varano",
+    "legacyId": 3018674,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 83.3333
+  }
+]

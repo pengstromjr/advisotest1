@@ -1,0 +1,269 @@
+{
+  "course_id": "MGT120",
+  "course_title": "Managing & Using Information Technology",
+  "overall_grades": {
+    "A+": 120,
+    "A": 594,
+    "A-": 506,
+    "B+": 360,
+    "B": 209,
+    "B-": 95,
+    "C+": 49,
+    "C": 30,
+    "C-": 19,
+    "D+": 4,
+    "D": 0,
+    "D-": 0,
+    "F": 2,
+    "P*": 359,
+    "NP*": 11
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 2358,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cyrus Aram",
+      "professor_slug": "cyrus-aram",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 120,
+            "A": 594,
+            "A-": 506,
+            "B+": 360,
+            "B": 209,
+            "B-": 95,
+            "C+": 49,
+            "C": 30,
+            "C-": 19,
+            "D+": 4,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 359,
+            "NP*": 11
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 2358
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 48,
+            "A-": 63,
+            "B+": 54,
+            "B": 33,
+            "B-": 18,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 45
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 279
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 69,
+            "A-": 66,
+            "B+": 39,
+            "B": 36,
+            "B-": 9,
+            "C+": 9,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 27
+          },
+          "quarter_average_gpa": 3.49,
+          "quarter_enrolled": 282
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 111,
+            "A-": 78,
+            "B+": 54,
+            "B": 15,
+            "B-": 6,
+            "C+": 3,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 36,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 336
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 12,
+            "A-": 7,
+            "B+": 10,
+            "B": 4,
+            "B-": 9,
+            "C+": 3,
+            "C": 2,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 72
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 84,
+            "A-": 72,
+            "B+": 54,
+            "B": 24,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 39
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 300
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 75,
+            "A-": 75,
+            "B+": 45,
+            "B": 24,
+            "B-": 12,
+            "C+": 9,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 51,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 324
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 32,
+            "A-": 15,
+            "B+": 21,
+            "B": 7,
+            "B-": 1,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 14,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 98
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 72,
+            "A-": 48,
+            "B+": 30,
+            "B": 27,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 33
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 228
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 69,
+            "A-": 54,
+            "B+": 39,
+            "B": 30,
+            "B-": 24,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 69
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 324
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 22,
+            "A-": 28,
+            "B+": 14,
+            "B": 9,
+            "B-": 4,
+            "C+": 3,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 27,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 115
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.8,
+    "department": "Ecology  Evolutionary Biology",
+    "firstName": "Janet",
+    "id": "VGVhY2hlci0yMjQwNzA5",
+    "lastName": "Foley",
+    "legacyId": 2240709,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.7,
+    "department": "American Studies",
+    "firstName": "Julie",
+    "id": "VGVhY2hlci01MjIyMzI=",
+    "lastName": "Sze",
+    "legacyId": 522232,
+    "numRatings": 75,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.098
+  }
+]

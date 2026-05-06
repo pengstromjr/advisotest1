@@ -9,11 +9,11 @@
       "heading": "Preparatory Subject Matter",
       "courses": [
         "GER 001",
-        "GER 001Y",
+        "or GER 001Y",
         "GER 002",
-        "GER 002Y",
+        "or GER 002Y",
         "GER 003",
-        "GER 003Y",
+        "or GER 003Y",
         "GER 020",
         "GER 021",
         "GER 022"
@@ -22,13 +22,13 @@
       "notes": [
         "Choose 0-27 units:",
         "OR the equivalent.",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (0-27 units)"
       ]
     },
     {
       "heading": "Core Subject Matter",
       "courses": [
-        "GER 101A",
+        "or GER 101A",
         "GER 101B",
         "GER 103",
         "GER 104",
@@ -74,7 +74,6 @@
         "GER 122",
         "GER 120",
         "GER 121",
-        "GER 122",
         "GER 123",
         "GER 124",
         "GER 125",
@@ -92,23 +91,37 @@
         "GER 165E",
         "GER 168",
         "GER/FMS 176A",
-        "GER 185",
+        "GER 185"
+      ],
+      "units": "20",
+      "notes": [
+        "Choose three courses from the list below:",
+        "Courses counted in the Core Subject Matter cannot fulfill this requirement."
+      ]
+    },
+    {
+      "heading": "Electives",
+      "courses": [
         "COM 138/ITA 141",
         "COM 140",
         "COM 141/CRI 101",
         "COM 142",
         "COM 147",
         "ECN 110B",
-        "ECN 110BY",
+        "or ECN 110BY",
         "ECN 116",
-        "ECN 160AECN 160B",
-        "ECN 160AY",
+        "ECN 160A",
+        "or ECN 160AY",
+        "or ECN 160B",
         "ECN 162",
+        "or ECN 162Y",
         "FMS/GER 142",
         "FMS/GER 176A",
         "FMS 176B",
-        "HIS 142AHIS 142B",
-        "HIS 144AHIS 144B",
+        "HIS 142A",
+        "HIS 142B",
+        "HIS 144A",
+        "HIS 144B",
         "MUS 110A",
         "MUS 110C",
         "MUS 110D",
@@ -120,14 +133,12 @@
         "POL 137",
         "POL 147D"
       ],
-      "units": "20",
+      "units": "40",
       "notes": [
-        "Choose three courses from the list below:",
-        "Courses counted in the Core Subject Matter cannot fulfill this requirement.",
         "Choose two additional courses from above (a) or from the list below:",
         "Courses counted in the Core Subject Matter cannot fulfill this requirement.",
         "The 40 upper division total units may include units earned in the Education Abroad Program.",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (40 units)"
       ]
     }
   ],
@@ -135,5 +146,7 @@
   "advising_notes": [
     "Honors & Honors Program: The honors program consists of two quarters of research (194H) terminating in an honors thesis. For details consult the undergraduate major advisor. Graduation with high or highest honors requires participation in the honors program."
   ],
-  "total_units": "40"
+  "total_units": "40",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.031Z"
 }

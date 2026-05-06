@@ -1,0 +1,190 @@
+{
+  "course_id": "HIS4C",
+  "course_title": "History of Western Civilization",
+  "overall_grades": {
+    "A+": 46,
+    "A": 346,
+    "A-": 190,
+    "B+": 161,
+    "B": 122,
+    "B-": 67,
+    "C+": 60,
+    "C": 37,
+    "C-": 5,
+    "D+": 15,
+    "D": 12,
+    "D-": 12,
+    "F": 33,
+    "P*": 86,
+    "NP*": 25
+  },
+  "overall_gpa": 3.26,
+  "overall_enrolled": 1217,
+  "available_quarters": [
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Adam Zientek",
+      "professor_slug": "adam-zientek",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 242,
+            "A-": 119,
+            "B+": 106,
+            "B": 76,
+            "B-": 38,
+            "C+": 48,
+            "C": 23,
+            "C-": 2,
+            "D+": 15,
+            "D": 3,
+            "D-": 12,
+            "F": 18,
+            "P*": 78,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 816
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 84,
+            "A-": 51,
+            "B+": 51,
+            "B": 27,
+            "B-": 21,
+            "C+": 36,
+            "C": 9,
+            "C-": 0,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 36
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 327
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 120,
+            "A-": 54,
+            "B+": 48,
+            "B": 39,
+            "B-": 15,
+            "C+": 9,
+            "C": 12,
+            "C-": 0,
+            "D+": 9,
+            "D": 0,
+            "D-": 9,
+            "F": 12,
+            "P*": 33,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 384
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 38,
+            "A-": 14,
+            "B+": 7,
+            "B": 10,
+            "B-": 2,
+            "C+": 3,
+            "C": 2,
+            "C-": 2,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.26,
+          "quarter_enrolled": 105
+        }
+      }
+    },
+    {
+      "professor_name": "Ian Campbell",
+      "professor_slug": "ian-campbell",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 104,
+            "A-": 71,
+            "B+": 55,
+            "B": 46,
+            "B-": 29,
+            "C+": 12,
+            "C": 14,
+            "C-": 3,
+            "D+": 0,
+            "D": 9,
+            "D-": 0,
+            "F": 15,
+            "P*": 8,
+            "NP*": 13
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 401
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 84,
+            "A-": 48,
+            "B+": 42,
+            "B": 33,
+            "B-": 18,
+            "C+": 6,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 270
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 16,
+            "A": 20,
+            "A-": 23,
+            "B+": 13,
+            "B": 13,
+            "B-": 11,
+            "C+": 6,
+            "C": 8,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 2,
+            "NP*": 7
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 131
+        }
+      }
+    }
+  ]
+}

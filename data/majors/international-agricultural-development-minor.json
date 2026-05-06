@@ -9,23 +9,40 @@
       "heading": "General Requirements",
       "courses": [
         "IAD 010",
-        "ARE/ECN 115A",
+        "ARE/ECN 115A"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "PLS 101",
         "PLS 110",
         "PLS 111",
-        "PLS 112",
+        "PLS 112"
+      ],
+      "units": "6-7",
+      "notes": [
+        "Choose 6-7 units"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "IAD 103",
         "IAD 170",
         "CRD 142"
       ],
-      "units": "Units",
+      "units": "7-8",
       "notes": [
-        "Choose 6-7 units",
         "Choose 7-8 units:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "21"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.275Z"
 }

@@ -59,12 +59,14 @@
       "courses": [],
       "units": "4",
       "notes": [
-        "Choose any additional upper division Art History (AHI) course or seminar.",
+        "Choose any additional upper division Art History (AHI) course or seminar. (4 units)",
         "Art History (AHI) courses."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.610Z"
 }

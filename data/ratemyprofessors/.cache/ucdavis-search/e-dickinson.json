@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.4,
+    "department": "History",
+    "firstName": "Edward",
+    "id": "VGVhY2hlci0xMDQxMzUy",
+    "lastName": "Dickinson",
+    "legacyId": 1041352,
+    "numRatings": 71,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.2105
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "course_id": "SOC128",
+  "course_title": "Interracial Interpersonal Dynamics",
+  "overall_grades": {
+    "A+": 6,
+    "A": 63,
+    "A-": 30,
+    "B+": 9,
+    "B": 21,
+    "B-": 0,
+    "C+": 3,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.69,
+  "overall_enrolled": 132,
+  "available_quarters": [
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Orly Clerge",
+      "professor_slug": "orly-clerge",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 63,
+            "A-": 30,
+            "B+": 9,
+            "B": 21,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 132
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 63,
+            "A-": 30,
+            "B+": 9,
+            "B": 21,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 132
+        }
+      }
+    }
+  ]
+}

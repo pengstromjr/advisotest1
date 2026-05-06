@@ -1,0 +1,118 @@
+{
+  "course_id": "AAS123",
+  "course_title": "Black Female Experience in Contemporary Society",
+  "overall_grades": {
+    "A+": 120,
+    "A": 231,
+    "A-": 114,
+    "B+": 42,
+    "B": 18,
+    "B-": 9,
+    "C+": 3,
+    "C": 9,
+    "C-": 6,
+    "D+": 0,
+    "D": 3,
+    "D-": 0,
+    "F": 3,
+    "P*": 27,
+    "NP*": 6
+  },
+  "overall_gpa": 3.73,
+  "overall_enrolled": 591,
+  "available_quarters": [
+    "Fall_2024",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elizabeth Mukiibi",
+      "professor_slug": "elizabeth-mukiibi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 120,
+            "A": 231,
+            "A-": 114,
+            "B+": 42,
+            "B": 18,
+            "B-": 9,
+            "C+": 3,
+            "C": 9,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 27,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.73,
+          "quarter_enrolled": 591
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 66,
+            "A-": 36,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.78,
+          "quarter_enrolled": 162
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 54,
+            "A": 108,
+            "A-": 24,
+            "B+": 12,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.81,
+          "quarter_enrolled": 216
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 57,
+            "A-": 54,
+            "B+": 21,
+            "B": 9,
+            "B-": 9,
+            "C+": 3,
+            "C": 3,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 213
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 2.9,
+    "department": "American Studies",
+    "firstName": "Ari Y",
+    "id": "VGVhY2hlci0xMTg2MjA3",
+    "lastName": "Kelman",
+    "legacyId": 1186207,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 2.9,
+    "department": "Art",
+    "firstName": "Youngsuk",
+    "id": "VGVhY2hlci0xNTI3OTg2",
+    "lastName": "Suh",
+    "legacyId": 1527986,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 36.3636
+  },
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 2.5,
+    "department": "Mathematics",
+    "firstName": "Chan-Ho",
+    "id": "VGVhY2hlci0xMTEyNjQ5",
+    "lastName": "Suh",
+    "legacyId": 1112649,
+    "numRatings": 13,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

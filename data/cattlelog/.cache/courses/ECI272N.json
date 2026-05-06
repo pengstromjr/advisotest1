@@ -1,0 +1,70 @@
+{
+  "course_id": "ECI272N",
+  "course_title": "Contaminant Fate & Transport in Porous Media",
+  "overall_grades": {
+    "A+": 0,
+    "A": 21,
+    "A-": 6,
+    "B+": 12,
+    "B": 9,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.55,
+  "overall_enrolled": 51,
+  "available_quarters": [
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Veronica Morales",
+      "professor_slug": "veronica-morales",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 6,
+            "B+": 12,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 51
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 6,
+            "B+": 12,
+            "B": 9,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 51
+        }
+      }
+    }
+  ]
+}

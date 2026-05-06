@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 4.1,
+    "department": "Languages",
+    "firstName": "Mark",
+    "id": "VGVhY2hlci0zNzY5MzQ=",
+    "lastName": "Halperin",
+    "legacyId": 376934,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 72.7273
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Chinese",
+    "firstName": "M.",
+    "id": "VGVhY2hlci0xOTI1MDYz",
+    "lastName": "Halperin",
+    "legacyId": 1925063,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

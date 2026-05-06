@@ -1,0 +1,137 @@
+[
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2,
+    "department": "Plant Biology",
+    "firstName": "Xiaosa (Jack)",
+    "id": "VGVhY2hlci0zMTYwODMy",
+    "lastName": "Xu ",
+    "legacyId": 3160832,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2,
+    "department": "Microbiology",
+    "firstName": "Lifeng",
+    "id": "VGVhY2hlci0xNDgyODQ4",
+    "lastName": "XU",
+    "legacyId": 1482848,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 11.1111
+  },
+  {
+    "avgDifficulty": 3.5,
+    "avgRating": 3.4,
+    "department": "Mathematics",
+    "firstName": "Luze",
+    "id": "VGVhY2hlci0yODUxNzE3",
+    "lastName": "Xu",
+    "legacyId": 2851717,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 63.1579
+  },
+  {
+    "avgDifficulty": 3.4,
+    "avgRating": 3.5,
+    "department": "Statistics",
+    "firstName": "Xueheng",
+    "id": "VGVhY2hlci0yNzM3NTYx",
+    "lastName": "Shi",
+    "legacyId": 2737561,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 5,
+    "department": "Comparative Literature",
+    "firstName": "Xuesong",
+    "id": "VGVhY2hlci0yNjQ4NDQ5",
+    "lastName": "Shao",
+    "legacyId": 2648449,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Mathematics",
+    "firstName": "Hongtao",
+    "id": "VGVhY2hlci0yNTA4NjA2",
+    "lastName": "Xue",
+    "legacyId": 2508606,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Biological Sciences",
+    "firstName": "Xuan",
+    "id": "VGVhY2hlci0xMTExOTM0",
+    "lastName": "Li",
+    "legacyId": 1111934,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Agriculture",
+    "firstName": "Xun",
+    "id": "VGVhY2hlci0yOTc3NzM2",
+    "lastName": "Xu",
+    "legacyId": 2977736,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Plant Biology",
+    "firstName": "Xiaosa(Jack)",
+    "id": "VGVhY2hlci0zMTYxMDUy",
+    "lastName": "Xu",
+    "legacyId": 3161052,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

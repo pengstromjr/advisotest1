@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 4.8,
+    "department": "English",
+    "firstName": "Janet L",
+    "id": "VGVhY2hlci03MDMwMjk=",
+    "lastName": "Papale",
+    "legacyId": 703029,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.9,
+    "department": "Economics",
+    "firstName": "L Jay",
+    "id": "VGVhY2hlci05NTg2Ng==",
+    "lastName": "Helms",
+    "legacyId": 95866,
+    "numRatings": 135,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.4,
+    "department": "Agriculture",
+    "firstName": "Lee",
+    "id": "VGVhY2hlci0yODkyNzI0",
+    "lastName": "Pettey",
+    "legacyId": 2892724,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.1,
+    "department": "Animal Science",
+    "firstName": "Erica",
+    "id": "VGVhY2hlci0yNDQwMjUx",
+    "lastName": "Pettey",
+    "legacyId": 2440251,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

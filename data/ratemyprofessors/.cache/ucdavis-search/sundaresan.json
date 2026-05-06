@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.6,
+    "avgRating": 4.2,
+    "department": "Biological Sciences",
+    "firstName": "Venkatesan",
+    "id": "VGVhY2hlci03NDI4ODc=",
+    "lastName": "Sundaresan",
+    "legacyId": 742887,
+    "numRatings": 40,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 91.3043
+  }
+]

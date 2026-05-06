@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 3.1,
+    "department": "Chemistry",
+    "firstName": "Julia",
+    "id": "VGVhY2hlci0yMTU3MTE5",
+    "lastName": "Chamberlain",
+    "legacyId": 2157119,
+    "numRatings": 444,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 56.0811
+  }
+]

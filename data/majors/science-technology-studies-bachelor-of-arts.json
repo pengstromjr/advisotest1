@@ -8,30 +8,45 @@
     {
       "heading": "Preparatory Subject Matter",
       "courses": [
-        "STS 001",
+        "STS 001"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Preparatory Subject Matter",
+      "courses": [
         "PHI 030",
         "PHI 031",
         "PHI 032",
         "STS/HIS 002",
-        "STS/HIS 002Y",
+        "or STS/HIS 002Y",
         "STS 011",
         "STS/HIS 016",
         "STS/ANT 032",
-        "STS/CDM 040A/CTS 040A DISCONTINUED FOR SUMMER 2025 **",
-        "STS 040B/CTS 040B DISCONTINUED FOR SUMMER 2025 **",
+        "STS/CDM 040A",
+        "CTS 040A",
+        "STS 040B/CTS 040B",
         "STS/CLA 050",
         "STS/CLA 051"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
         "Choose three additional courses:",
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (16 units)"
       ]
     },
     {
       "heading": "Methods & Theories",
       "courses": [
-        "STS 100",
+        "STS 100"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Methods & Theories",
+      "courses": [
         "STS 101",
         "STS 108",
         "STS/ANT 121",
@@ -42,10 +57,19 @@
         "STS 175",
         "STS/SOC 176"
       ],
-      "units": "4",
+      "units": "12",
       "notes": [
         "Choose three:",
         "Note: Courses taken to fulfill the requirement above cannot also be used to fulfill the emphasis requirement."
+      ]
+    },
+    {
+      "heading": "Science Coursework",
+      "courses": [],
+      "units": "8",
+      "notes": [
+        "All STS majors are required to complete TWO upper division science courses in the same field. Science coursework should be planned in consultation with the faculty advisor or staff advisors. 1 (8 units)",
+        "Approved Science Fields"
       ]
     },
     {
@@ -53,19 +77,17 @@
       "courses": [],
       "units": "20-24",
       "notes": [
-        "All STS majors are required to complete TWO upper division science courses in the same field. Science coursework should be planned in consultation with the faculty advisor or staff advisors.",
-        "Approved Science Fields",
         "Choose one of the following four options:",
         "1. Complete five courses from one emphasis list.",
         "2. Complete four courses from one emphasis list and one additional upper division STS course.",
         "3. Complete four courses from one emphasis list and a research thesis in STS1. The thesis option is open to all students. Students whose GPA meets the honors threshold may also qualify for High or Highest Honors in the College of Letters & Science.",
-        "4. STS General Emphasis: Complete any five upper division STS courses (STS: 100-199). Note: Includes courses that are cross-listed with STS.",
+        "4. STS General Emphasis: Complete any five upper division STS courses (STS: 100-199). Note: Includes courses that are cross-listed with STS. 2",
         "Emphasis Lists:",
         "(1) Law & Innovation",
         "(2) Health & Environment",
         "(3) Data & Media Technologies",
         "(4) History & Philosophy of Science",
-        "Depth Subject Matter Subtotal"
+        "Depth Subject Matter Subtotal (44-48 units)"
       ]
     },
     {
@@ -77,13 +99,15 @@
         "STS 112",
         "STS 113",
         "STS 114",
-        "STS 162/CTS 162 DISCONTINUED FOR WINTER 2026 **",
+        "STS 162/CTS 162",
         "STS/SOC 176",
         "CRD 118",
         "CRD 140"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [],
+      "group": "Law & Innovation Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -101,8 +125,10 @@
         "ANT 131",
         "PHI 120"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [],
+      "group": "Health & Environment Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -114,18 +140,20 @@
         "STS 113",
         "STS 114",
         "STS 115",
-        "STS 151/CTS 150 DISCONTINUED FOR WINTER 2023 **",
+        "STS 151/CTS 150",
         "STS 152",
         "STS/TCS 160",
         "STS 161",
-        "STS 162/CTS 162 DISCONTINUED FOR WINTER 2026 **",
+        "STS 162/CTS 162",
         "STS 163",
         "STS/ENL 164",
         "STS/CDM/ENL 172",
         "STS/ENL 173"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [],
+      "group": "Data & Media Technologies Emphasis",
+      "group_kind": "path"
     },
     {
       "heading": "General Requirements",
@@ -152,11 +180,22 @@
         "PHI 131",
         "PHI 189I"
       ],
-      "units": "Units",
-      "notes": []
+      "units": "4",
+      "notes": [],
+      "group": "History & Philosophy of Science Emphasis",
+      "group_kind": "path"
     }
   ],
-  "specializations": [],
-  "advising_notes": [],
-  "total_units": "60"
+  "specializations": [
+    "Law & Innovation Emphasis",
+    "Health & Environment Emphasis",
+    "Data & Media Technologies Emphasis",
+    "History & Philosophy of Science Emphasis"
+  ],
+  "advising_notes": [
+    "Major Advising: To contact a major advisor, see Major Advising."
+  ],
+  "total_units": "60",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.177Z"
 }

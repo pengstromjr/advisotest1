@@ -1,0 +1,288 @@
+{
+  "course_id": "COM7",
+  "course_title": "Literature of Fantasy & the Supernatural ",
+  "overall_grades": {
+    "A+": 266,
+    "A": 1211,
+    "A-": 455,
+    "B+": 134,
+    "B": 82,
+    "B-": 23,
+    "C+": 15,
+    "C": 22,
+    "C-": 23,
+    "D+": 1,
+    "D": 4,
+    "D-": 0,
+    "F": 30,
+    "P*": 92,
+    "NP*": 19
+  },
+  "overall_gpa": 3.74,
+  "overall_enrolled": 2377,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Michael Subialka",
+      "professor_slug": "michael-subialka",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 141,
+            "A-": 48,
+            "B+": 21,
+            "B": 27,
+            "B-": 9,
+            "C+": 6,
+            "C": 15,
+            "C-": 12,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 390
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 141,
+            "A-": 48,
+            "B+": 21,
+            "B": 27,
+            "B-": 9,
+            "C+": 6,
+            "C": 15,
+            "C-": 12,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 390
+        }
+      }
+    },
+    {
+      "professor_name": "Michiko Suzuki",
+      "professor_slug": "michiko-suzuki",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 24,
+            "A-": 18,
+            "B+": 10,
+            "B": 10,
+            "B-": 4,
+            "C+": 3,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 9,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 87
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 24,
+            "A-": 18,
+            "B+": 10,
+            "B": 10,
+            "B-": 4,
+            "C+": 3,
+            "C": 1,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 9,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 87
+        }
+      }
+    },
+    {
+      "professor_name": "Stefan Uhlig",
+      "professor_slug": "stefan-uhlig",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 102,
+            "A-": 150,
+            "B+": 48,
+            "B": 27,
+            "B-": 3,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 402
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 36,
+            "A": 102,
+            "A-": 150,
+            "B+": 48,
+            "B": 27,
+            "B-": 3,
+            "C+": 6,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.59,
+          "quarter_enrolled": 402
+        }
+      }
+    },
+    {
+      "professor_name": "Timothy Parrish",
+      "professor_slug": "timothy-parrish",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 159,
+            "A": 944,
+            "A-": 239,
+            "B+": 55,
+            "B": 18,
+            "B-": 7,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 17,
+            "P*": 44,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.85,
+          "quarter_enrolled": 1498
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 330,
+            "A-": 27,
+            "B+": 9,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.93,
+          "quarter_enrolled": 438
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 312,
+            "A-": 90,
+            "B+": 27,
+            "B": 6,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 27,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.87,
+          "quarter_enrolled": 471
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 243,
+            "A-": 96,
+            "B+": 18,
+            "B": 9,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 12,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.75,
+          "quarter_enrolled": 441
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 57,
+            "A": 59,
+            "A-": 26,
+            "B+": 1,
+            "B": 0,
+            "B-": 1,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 3.88,
+          "quarter_enrolled": 148
+        }
+      }
+    }
+  ]
+}

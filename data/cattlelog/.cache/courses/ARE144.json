@@ -1,0 +1,189 @@
+{
+  "course_id": "ARE144",
+  "course_title": "Real Estate Economics",
+  "overall_grades": {
+    "A+": 84,
+    "A": 287,
+    "A-": 172,
+    "B+": 190,
+    "B": 251,
+    "B-": 100,
+    "C+": 232,
+    "C": 265,
+    "C-": 98,
+    "D+": 50,
+    "D": 70,
+    "D-": 28,
+    "F": 59,
+    "P*": 17,
+    "NP*": 20
+  },
+  "overall_gpa": 2.73,
+  "overall_enrolled": 1923,
+  "available_quarters": [
+    "Fall_2023",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Eric Johnson",
+      "professor_slug": "eric-johnson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 188,
+            "A-": 124,
+            "B+": 124,
+            "B": 143,
+            "B-": 58,
+            "C+": 160,
+            "C": 148,
+            "C-": 53,
+            "D+": 50,
+            "D": 43,
+            "D-": 28,
+            "F": 41,
+            "P*": 14,
+            "NP*": 14
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 1251
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 96,
+            "A-": 54,
+            "B+": 48,
+            "B": 66,
+            "B-": 12,
+            "C+": 42,
+            "C": 69,
+            "C-": 27,
+            "D+": 6,
+            "D": 18,
+            "D-": 6,
+            "F": 21,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 507
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 66,
+            "A-": 57,
+            "B+": 57,
+            "B": 63,
+            "B-": 33,
+            "C+": 96,
+            "C": 60,
+            "C-": 12,
+            "D+": 36,
+            "D": 15,
+            "D-": 18,
+            "F": 12,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 558
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 26,
+            "A-": 13,
+            "B+": 19,
+            "B": 14,
+            "B-": 13,
+            "C+": 22,
+            "C": 19,
+            "C-": 14,
+            "D+": 8,
+            "D": 10,
+            "D-": 4,
+            "F": 8,
+            "P*": 2,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.61,
+          "quarter_enrolled": 186
+        }
+      }
+    },
+    {
+      "professor_name": "John Constantine",
+      "professor_slug": "john-constantine",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 99,
+            "A-": 48,
+            "B+": 66,
+            "B": 108,
+            "B-": 42,
+            "C+": 72,
+            "C": 117,
+            "C-": 45,
+            "D+": 0,
+            "D": 27,
+            "D-": 0,
+            "F": 18,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 672
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 33,
+            "A-": 15,
+            "B+": 21,
+            "B": 30,
+            "B-": 18,
+            "C+": 24,
+            "C": 30,
+            "C-": 15,
+            "D+": 0,
+            "D": 12,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 201
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 66,
+            "A-": 33,
+            "B+": 45,
+            "B": 78,
+            "B-": 24,
+            "C+": 48,
+            "C": 87,
+            "C-": 30,
+            "D+": 0,
+            "D": 15,
+            "D-": 0,
+            "F": 18,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 471
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "course_id": "CMN101",
+  "course_title": "Communication Theories",
+  "overall_grades": {
+    "A+": 114,
+    "A": 179,
+    "A-": 113,
+    "B+": 146,
+    "B": 143,
+    "B-": 135,
+    "C+": 107,
+    "C": 115,
+    "C-": 94,
+    "D+": 40,
+    "D": 36,
+    "D-": 4,
+    "F": 11,
+    "P*": 99,
+    "NP*": 16
+  },
+  "overall_gpa": 2.9,
+  "overall_enrolled": 1352,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Virginia Hamilton",
+      "professor_slug": "virginia-hamilton",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 114,
+            "A": 179,
+            "A-": 113,
+            "B+": 146,
+            "B": 143,
+            "B-": 135,
+            "C+": 107,
+            "C": 115,
+            "C-": 94,
+            "D+": 40,
+            "D": 36,
+            "D-": 4,
+            "F": 11,
+            "P*": 99,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 1352
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 30,
+            "A-": 36,
+            "B+": 51,
+            "B": 39,
+            "B-": 36,
+            "C+": 45,
+            "C": 24,
+            "C-": 18,
+            "D+": 12,
+            "D": 18,
+            "D-": 3,
+            "F": 3,
+            "P*": 45,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 411
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 81,
+            "A-": 30,
+            "B+": 45,
+            "B": 48,
+            "B-": 48,
+            "C+": 12,
+            "C": 36,
+            "C-": 33,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 42,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 399
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 17,
+            "A-": 14,
+            "B+": 11,
+            "B": 11,
+            "B-": 9,
+            "C+": 14,
+            "C": 19,
+            "C-": 16,
+            "D+": 4,
+            "D": 3,
+            "D-": 1,
+            "F": 2,
+            "P*": 3,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 137
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 51,
+            "A-": 33,
+            "B+": 39,
+            "B": 45,
+            "B-": 42,
+            "C+": 36,
+            "C": 36,
+            "C-": 27,
+            "D+": 18,
+            "D": 15,
+            "D-": 0,
+            "F": 3,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 405
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.2,
+    "department": "Chemistry",
+    "firstName": "Justin",
+    "id": "VGVhY2hlci0yMDE5OTA4",
+    "lastName": "Siegel",
+    "legacyId": 2019908,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 12.5
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "course_id": "ECI175",
+  "course_title": "Geotechnical Earthquake Engineering",
+  "overall_grades": {
+    "A+": 22,
+    "A": 101,
+    "A-": 43,
+    "B+": 49,
+    "B": 38,
+    "B-": 45,
+    "C+": 27,
+    "C": 24,
+    "C-": 16,
+    "D+": 1,
+    "D": 1,
+    "D-": 0,
+    "F": 5
+  },
+  "overall_gpa": 3.19,
+  "overall_enrolled": 372,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Katerina Ziotopoulou",
+      "professor_slug": "katerina-ziotopoulou",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 22,
+            "A": 62,
+            "A-": 34,
+            "B+": 31,
+            "B": 26,
+            "B-": 33,
+            "C+": 12,
+            "C": 9,
+            "C-": 13,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 5
+          },
+          "quarter_average_gpa": 3.22,
+          "quarter_enrolled": 249
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 27,
+            "A-": 15,
+            "B+": 12,
+            "B": 15,
+            "B-": 21,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 123
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 30,
+            "A-": 18,
+            "B+": 18,
+            "B": 9,
+            "B-": 9,
+            "C+": 3,
+            "C": 0,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.27,
+          "quarter_enrolled": 105
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 5,
+            "A-": 1,
+            "B+": 1,
+            "B": 2,
+            "B-": 3,
+            "C+": 3,
+            "C": 0,
+            "C-": 1,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 21
+        }
+      }
+    },
+    {
+      "professor_name": "Mandeep Singh Basson",
+      "professor_slug": "mandeep-singh-basson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 9,
+            "B+": 18,
+            "B": 12,
+            "B-": 12,
+            "C+": 15,
+            "C": 15,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 123
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 39,
+            "A-": 9,
+            "B+": 18,
+            "B": 12,
+            "B-": 12,
+            "C+": 15,
+            "C": 15,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.14,
+          "quarter_enrolled": 123
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "course_id": "HDE104",
+  "course_title": "Children in Families, Schools, Communities ",
+  "overall_grades": {
+    "A+": 163,
+    "A": 579,
+    "A-": 268,
+    "B+": 144,
+    "B": 240,
+    "B-": 37,
+    "C+": 12,
+    "C": 46,
+    "C-": 7,
+    "D+": 0,
+    "D": 15,
+    "D-": 0,
+    "F": 4,
+    "P*": 21,
+    "NP*": 9
+  },
+  "overall_gpa": 3.57,
+  "overall_enrolled": 1545,
+  "available_quarters": [
+    "Fall_2022",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Anne Iaccopucci",
+      "professor_slug": "anne-iaccopucci",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 204,
+            "A-": 120,
+            "B+": 44,
+            "B": 45,
+            "B-": 6,
+            "C+": 1,
+            "C": 10,
+            "C-": 1,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 477
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 144,
+            "A-": 90,
+            "B+": 30,
+            "B": 39,
+            "B-": 6,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 357
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 60,
+            "A-": 30,
+            "B+": 14,
+            "B": 6,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.74,
+          "quarter_enrolled": 120
+        }
+      }
+    },
+    {
+      "professor_name": "Chi Yun Moon",
+      "professor_slug": "chi-yun-moon",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 36,
+            "A-": 84,
+            "B+": 66,
+            "B": 66,
+            "B-": 18,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 324
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 36,
+            "A-": 84,
+            "B+": 66,
+            "B": 66,
+            "B-": 18,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 324
+        }
+      }
+    },
+    {
+      "professor_name": "Helen Fann",
+      "professor_slug": "helen-fann",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 231,
+            "A-": 0,
+            "B+": 0,
+            "B": 99,
+            "B-": 0,
+            "C+": 0,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 357
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 231,
+            "A-": 0,
+            "B+": 0,
+            "B": 99,
+            "B-": 0,
+            "C+": 0,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 357
+        }
+      }
+    },
+    {
+      "professor_name": "Nicole Hollis",
+      "professor_slug": "nicole-hollis",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 36,
+            "A-": 22,
+            "B+": 7,
+            "B": 9,
+            "B-": 4,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 84
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 36,
+            "A-": 22,
+            "B+": 7,
+            "B": 9,
+            "B-": 4,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3.6,
+          "quarter_enrolled": 84
+        }
+      }
+    },
+    {
+      "professor_name": "Xinye Zhang",
+      "professor_slug": "xinye-zhang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 114,
+            "A": 72,
+            "A-": 42,
+            "B+": 27,
+            "B": 21,
+            "B-": 9,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 303
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 114,
+            "A": 72,
+            "A-": 42,
+            "B+": 27,
+            "B": 21,
+            "B-": 9,
+            "C+": 3,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.7,
+          "quarter_enrolled": 303
+        }
+      }
+    }
+  ]
+}

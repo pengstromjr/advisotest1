@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 1.9,
+    "avgRating": 4.7,
+    "department": "American Studies",
+    "firstName": "Megan",
+    "id": "VGVhY2hlci0yMDI1MzA4",
+    "lastName": "Bayles",
+    "legacyId": 2025308,
+    "numRatings": 76,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.5,
+    "department": "Ecology & Evolutionary Biology",
+    "firstName": "Rachael",
+    "id": "VGVhY2hlci0yNjM5OTc5",
+    "lastName": "Bay",
+    "legacyId": 2639979,
+    "numRatings": 36,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 61.1111
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 1.7,
+    "department": "Agricultural & Resource Economics",
+    "firstName": "Mayada",
+    "id": "VGVhY2hlci0yODE4NDYx",
+    "lastName": "Baydas",
+    "legacyId": 2818461,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 11.7647
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4,
+    "department": "Linguistics",
+    "firstName": "Robert",
+    "id": "VGVhY2hlci05OTkzNDA=",
+    "lastName": "Bayley",
+    "legacyId": 999340,
+    "numRatings": 28,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  },
+  {
+    "avgDifficulty": 1.5,
+    "avgRating": 5,
+    "department": "Native American Studies",
+    "firstName": "Bayu ",
+    "id": "VGVhY2hlci0xOTkyNDEy",
+    "lastName": "Kristianto",
+    "legacyId": 1992412,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 4.8,
+    "department": "Biological Sciences",
+    "firstName": "Brooke",
+    "id": "VGVhY2hlci0xNjA5NDk4",
+    "lastName": "Baythavong",
+    "legacyId": 1609498,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 2.8,
+    "department": "Economics",
+    "firstName": "Bay",
+    "id": "VGVhY2hlci0xNTA5MjU=",
+    "lastName": "Butler",
+    "legacyId": 150925,
+    "numRatings": 54,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

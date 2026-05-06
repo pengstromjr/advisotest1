@@ -1,0 +1,77 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.6,
+    "department": "Sociology",
+    "firstName": "Erin",
+    "id": "VGVhY2hlci0xNDE4NTky",
+    "lastName": "Hamilton",
+    "legacyId": 1418592,
+    "numRatings": 41,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.3636
+  },
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.4,
+    "department": "Communication",
+    "firstName": "Virginia",
+    "id": "VGVhY2hlci05MjU4ODU=",
+    "lastName": "Hamilton",
+    "legacyId": 925885,
+    "numRatings": 168,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 86.3636
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 2.4,
+    "department": "Management",
+    "firstName": "Sally",
+    "id": "VGVhY2hlci0yMTU2MDc4",
+    "lastName": "Hamilton",
+    "legacyId": 2156078,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 55.5556
+  },
+  {
+    "avgDifficulty": 2,
+    "avgRating": 4.8,
+    "department": "English",
+    "firstName": "Shawn",
+    "id": "VGVhY2hlci0xMTExMzAx",
+    "lastName": "Hamilton",
+    "legacyId": 1111301,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -2,8 +2,17 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 import type { Section, Course } from "@/lib/course-data";
+import {
+  CURRENT_GRADES_FILE,
+  CURRENT_SECTIONS_FILE,
+  CURRENT_TERM_LABEL,
+} from "@/lib/current-term";
 
-let cachedSections: Section[] | null = null;
+const SECTION_FILES: Record<string, string> = {
+  [CURRENT_TERM_LABEL]: CURRENT_SECTIONS_FILE,
+};
+
+const cachedSectionsByFile = new Map<string, Section[]>();
 let cachedCourseGe: Record<string, string[]> | null = null;
 let cachedRmp: Record<string, any> | null = null;
 let cachedGrades: Record<string, any> | null = null;
@@ -12,20 +21,25 @@ function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function loadData() {
+function loadSectionsForTerm(term: string): Section[] {
   const dataDir = path.join(process.cwd(), "data");
-  
-  // Load Sections
-  let sections = cachedSections;
-  if (!sections) {
-    try {
-      const sectionsRaw = fs.readFileSync(path.join(dataDir, "sections", "spring-2026.json"), "utf-8");
-      sections = JSON.parse(sectionsRaw) as Section[];
-      if (process.env.NODE_ENV === "production") cachedSections = sections;
-    } catch {
-      sections = [];
-    }
+  const fileName = SECTION_FILES[term] ?? CURRENT_SECTIONS_FILE;
+  const cached = cachedSectionsByFile.get(fileName);
+  if (cached) return cached;
+
+  try {
+    const sectionsRaw = fs.readFileSync(path.join(dataDir, "sections", fileName), "utf-8");
+    const sections = JSON.parse(sectionsRaw) as Section[];
+    if (process.env.NODE_ENV === "production") cachedSectionsByFile.set(fileName, sections);
+    return sections;
+  } catch {
+    return [];
   }
+}
+
+function loadData(term = CURRENT_TERM_LABEL) {
+  const dataDir = path.join(process.cwd(), "data");
+  const sections = loadSectionsForTerm(term);
 
   // Load Course GE Data from BOTH files to maximize coverage
   let courseGe = cachedCourseGe;
@@ -68,7 +82,8 @@ function loadData() {
     }
   }
 
-  // Load RMP Data
+  // Load current-term instructor data. The site should only surface current-term
+  // section/recommendation context unless this current-term file is changed.
   let rmp = cachedRmp;
   if (!rmp) {
     try {
@@ -84,7 +99,7 @@ function loadData() {
   let grades = cachedGrades;
   if (!grades) {
     try {
-      const gradesRaw = fs.readFileSync(path.join(dataDir, "grades.json"), "utf-8");
+      const gradesRaw = fs.readFileSync(path.join(dataDir, CURRENT_GRADES_FILE), "utf-8");
       grades = JSON.parse(gradesRaw);
       if (process.env.NODE_ENV === "production") cachedGrades = grades;
     } catch {
@@ -93,7 +108,7 @@ function loadData() {
   }
 
   return { 
-    sections: sections as Section[], 
+    sections, 
     courseGe: courseGe as Record<string, string[]>, 
     rmp: rmp as Record<string, any>,
     grades: grades as Record<string, any>
@@ -133,12 +148,12 @@ export async function GET(req: Request) {
   const maxRatings = parseInt(url.searchParams.get("maxRatings") || "999999", 10);
   const sortBy = url.searchParams.get("sortBy") || ""; // rating, gpa, difficulty, geCount
 
-  const { sections, courseGe, rmp, grades } = loadData();
+  const { sections, courseGe, rmp, grades } = loadData(CURRENT_TERM_LABEL);
 
   let filtered = sections;
 
   if (term) {
-    filtered = filtered.filter((s) => s.term === term);
+    filtered = filtered.filter((s) => s.term === CURRENT_TERM_LABEL);
   }
 
   if (subjectParams.length > 0) {
@@ -176,7 +191,9 @@ export async function GET(req: Request) {
 
   if (geParams.length > 0) {
     filtered = filtered.filter((s) => {
-      const courseGeAreas = courseGe[s.courseCode] || [];
+      const courseGeAreas = Array.from(
+        new Set([...(courseGe[s.courseCode] || []), ...(s.geAreas || [])])
+      );
       if (geMatch === "all") {
         return geParams.every((ge) => courseGeAreas.includes(ge));
       }
@@ -209,9 +226,10 @@ export async function GET(req: Request) {
 
   if (openOnly) {
     filtered = filtered.filter((s) => {
-      // If seat data is unavailable (null), assume open — real seat data isn't in the API
-      if (s.seatsAvailable == null || s.seatsTotal == null) return true;
-      return s.seatsAvailable > 0;
+      if (s.seatsAvailable != null) return s.seatsAvailable > 0;
+      // If seat data is unavailable (null), assume open for catalog-derived sections.
+      if (s.seatsTotal == null) return true;
+      return true;
     });
   }
 
@@ -357,4 +375,3 @@ export async function GET(req: Request) {
     sections: sectionsPage,
   });
 }
-

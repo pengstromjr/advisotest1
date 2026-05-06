@@ -1,0 +1,73 @@
+{
+  "course_id": "CLA20",
+  "course_title": "Pompeii AD 79",
+  "overall_grades": {
+    "A+": 0,
+    "A": 15,
+    "A-": 37,
+    "B+": 18,
+    "B": 8,
+    "B-": 3,
+    "C+": 1,
+    "C": 1,
+    "C-": 1,
+    "D+": 1,
+    "D": 0,
+    "D-": 0,
+    "F": 3,
+    "P*": 8
+  },
+  "overall_gpa": 3.36,
+  "overall_enrolled": 96,
+  "available_quarters": [
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "David Wheeler",
+      "professor_slug": "david-wheeler",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 37,
+            "B+": 18,
+            "B": 8,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 8
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 96
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 37,
+            "B+": 18,
+            "B": 8,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 1,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 8
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 96
+        }
+      }
+    }
+  ]
+}

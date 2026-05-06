@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "Animal Science",
+    "firstName": "Payam ",
+    "id": "VGVhY2hlci0yOTE0NDU3",
+    "lastName": "Vahmani",
+    "legacyId": 2914457,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 50
+  }
+]

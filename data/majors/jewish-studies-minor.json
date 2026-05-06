@@ -12,7 +12,16 @@
         "JST 010",
         "RST 012",
         "RST 021",
-        "RST 023",
+        "RST 023"
+      ],
+      "units": "4",
+      "notes": [
+        "Choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "COM 147",
         "ENL 171A",
         "GER/JST 116",
@@ -47,9 +56,8 @@
         "POL 179",
         "SOC 174"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": [
-        "Choose one:",
         "Choose four:"
       ]
     }
@@ -58,5 +66,7 @@
   "advising_notes": [
     "Advising: Jewish Studies Advising Contact"
   ],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.379Z"
 }

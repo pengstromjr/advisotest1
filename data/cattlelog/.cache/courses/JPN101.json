@@ -1,0 +1,169 @@
+{
+  "course_id": "JPN101",
+  "course_title": "Japanese Literature in Translation: The Early Period",
+  "overall_grades": {
+    "A+": 72,
+    "A": 66,
+    "A-": 38,
+    "B+": 22,
+    "B": 53,
+    "B-": 13,
+    "C+": 19,
+    "C": 25,
+    "C-": 14,
+    "D+": 4,
+    "D": 3,
+    "D-": 6,
+    "F": 16,
+    "P*": 92,
+    "NP*": 19
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 462,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Carolyn Wheeler",
+      "professor_slug": "carolyn-wheeler",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 33,
+            "A-": 21,
+            "B+": 9,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 165
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 33,
+            "A-": 21,
+            "B+": 9,
+            "B": 15,
+            "B-": 3,
+            "C+": 3,
+            "C": 9,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 3,
+            "P*": 27,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.31,
+          "quarter_enrolled": 165
+        }
+      }
+    },
+    {
+      "professor_name": "David Gundry",
+      "professor_slug": "david-gundry",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 33,
+            "A-": 17,
+            "B+": 13,
+            "B": 38,
+            "B-": 10,
+            "C+": 16,
+            "C": 16,
+            "C-": 14,
+            "D+": 1,
+            "D": 0,
+            "D-": 3,
+            "F": 13,
+            "P*": 65,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 297
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 15,
+            "A-": 9,
+            "B+": 9,
+            "B": 27,
+            "B-": 9,
+            "C+": 6,
+            "C": 9,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6,
+            "P*": 21,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 162
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 15,
+            "A-": 6,
+            "B+": 3,
+            "B": 9,
+            "B-": 0,
+            "C+": 9,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 42,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 111
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 2,
+            "B+": 1,
+            "B": 2,
+            "B-": 1,
+            "C+": 1,
+            "C": 4,
+            "C-": 2,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 2,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.78,
+          "quarter_enrolled": 24
+        }
+      }
+    }
+  ]
+}

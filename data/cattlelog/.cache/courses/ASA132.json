@@ -1,0 +1,70 @@
+{
+  "course_id": "ASA132",
+  "course_title": "Health Issues Confronting Asian Americans & Pacific Islanders",
+  "overall_grades": {
+    "A+": 8,
+    "A": 10,
+    "A-": 2,
+    "B+": 2,
+    "B": 0,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.91,
+  "overall_enrolled": 22,
+  "available_quarters": [
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Edgar Chen",
+      "professor_slug": "edgar-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 10,
+            "A-": 2,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 22
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 10,
+            "A-": 2,
+            "B+": 2,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.91,
+          "quarter_enrolled": 22
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2,
+    "department": "Materials Engineering",
+    "firstName": "Roopali",
+    "id": "VGVhY2hlci0yODA3Njc0",
+    "lastName": "Kukreja",
+    "legacyId": 2807674,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 0
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "Roopali",
+    "id": "VGVhY2hlci0yODA3NTk5",
+    "lastName": "Kukreja",
+    "legacyId": 2807599,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

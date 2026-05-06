@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 4.6,
+    "avgRating": 2.1,
+    "department": "Chemistry",
+    "firstName": "S",
+    "id": "VGVhY2hlci03MjIzMjE=",
+    "lastName": "Nasiri",
+    "legacyId": 722321,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 7.6923
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.6,
+    "department": "University Writing Program",
+    "firstName": "Shannah",
+    "id": "VGVhY2hlci0yMTIyNzY0",
+    "lastName": "Lester",
+    "legacyId": 2122764,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 39.1304
+  },
+  {
+    "avgDifficulty": 3.8,
+    "avgRating": 2.4,
+    "department": "English",
+    "firstName": "Shannah ",
+    "id": "VGVhY2hlci0xOTc0NDk1",
+    "lastName": "Lester",
+    "legacyId": 1974495,
+    "numRatings": 36,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 29.0323
+  },
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.5,
+    "department": "Economics",
+    "firstName": "Lester",
+    "id": "VGVhY2hlci0xODgzNTI2",
+    "lastName": "Lusher",
+    "legacyId": 1883526,
+    "numRatings": 15,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 81.8182
+  }
+]

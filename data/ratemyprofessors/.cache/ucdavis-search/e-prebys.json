@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.7,
+    "department": "Physics",
+    "firstName": "Eric",
+    "id": "VGVhY2hlci0yNDc0Njk5",
+    "lastName": "Prebys",
+    "legacyId": 2474699,
+    "numRatings": 9,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 77.7778
+  }
+]

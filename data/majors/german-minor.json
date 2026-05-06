@@ -8,14 +8,16 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "Choose at least 20 upper division units of courses taught in German.",
+        "Choose at least 20 upper division units of GER courses. One GER course can be taught in English.",
         "German (GER) courses."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.043Z"
 }

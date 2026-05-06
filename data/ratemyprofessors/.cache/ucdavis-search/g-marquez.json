@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.4,
+    "department": "Chicano Studies",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci0xNjg3OTEw",
+    "lastName": "Marquez",
+    "legacyId": 1687910,
+    "numRatings": 91,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.6543
+  }
+]

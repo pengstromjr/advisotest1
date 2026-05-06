@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.5,
+    "department": "Humanities",
+    "firstName": "Noah",
+    "id": "VGVhY2hlci00NjU4OA==",
+    "lastName": "Guynn",
+    "legacyId": 46588,
+    "numRatings": 76,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  }
+]

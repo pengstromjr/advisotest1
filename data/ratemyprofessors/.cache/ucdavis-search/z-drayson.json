@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4,
+    "department": "Philosophy",
+    "firstName": "Zoe",
+    "id": "VGVhY2hlci0yMjI5MzI1",
+    "lastName": "Drayson",
+    "legacyId": 2229325,
+    "numRatings": 58,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70.6897
+  }
+]

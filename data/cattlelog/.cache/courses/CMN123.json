@@ -1,0 +1,229 @@
+{
+  "course_id": "CMN123",
+  "course_title": "Intercultural Communication ",
+  "overall_grades": {
+    "A+": 29,
+    "A": 134,
+    "A-": 135,
+    "B+": 66,
+    "B": 44,
+    "B-": 47,
+    "C+": 16,
+    "C": 23,
+    "C-": 4,
+    "D+": 6,
+    "D": 4,
+    "D-": 3,
+    "F": 6,
+    "NP*": 9,
+    "P*": 19
+  },
+  "overall_gpa": 3.35,
+  "overall_enrolled": 545,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Bo Feng",
+      "professor_slug": "bo-feng",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 104,
+            "A-": 113,
+            "B+": 47,
+            "B": 19,
+            "B-": 23,
+            "C+": 3,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 345
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 14,
+            "A-": 2,
+            "B+": 0,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 19
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 18,
+            "B+": 8,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 47
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 27,
+            "A-": 39,
+            "B+": 18,
+            "B": 12,
+            "B-": 15,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.57,
+          "quarter_enrolled": 132
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 48,
+            "A-": 54,
+            "B+": 21,
+            "B": 3,
+            "B-": 6,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 147
+        }
+      }
+    },
+    {
+      "professor_name": "Rachel Mckenzie",
+      "professor_slug": "rachel-mckenzie",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 12,
+            "A-": 10,
+            "B+": 4,
+            "B": 4,
+            "B-": 6,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 47
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 12,
+            "A-": 10,
+            "B+": 4,
+            "B": 4,
+            "B-": 6,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 47
+        }
+      }
+    },
+    {
+      "professor_name": "William Weisman",
+      "professor_slug": "william-weisman",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 12,
+            "B+": 15,
+            "B": 21,
+            "B-": 18,
+            "C+": 12,
+            "C": 15,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 153
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 18,
+            "A-": 12,
+            "B+": 15,
+            "B": 21,
+            "B-": 18,
+            "C+": 12,
+            "C": 15,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 18,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 153
+        }
+      }
+    }
+  ]
+}

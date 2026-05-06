@@ -1,0 +1,73 @@
+{
+  "course_id": "CGS134",
+  "course_title": "Computational Cognitive Neuroscience",
+  "overall_grades": {
+    "A+": 18,
+    "A": 63,
+    "A-": 15,
+    "B+": 15,
+    "B": 3,
+    "B-": 3,
+    "C+": 0,
+    "C": 0,
+    "C-": 3,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "NP*": 6
+  },
+  "overall_gpa": 3.76,
+  "overall_enrolled": 126,
+  "available_quarters": [
+    "Fall_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Yuko Munakata",
+      "professor_slug": "yuko-munakata",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 63,
+            "A-": 15,
+            "B+": 15,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 126
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 63,
+            "A-": 15,
+            "B+": 15,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.76,
+          "quarter_enrolled": 126
+        }
+      }
+    }
+  ]
+}

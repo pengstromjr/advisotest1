@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 4.6,
+    "department": "University Writing Program",
+    "firstName": "Elaine",
+    "id": "VGVhY2hlci0xOTk2MTE5",
+    "lastName": "McCollom",
+    "legacyId": 1996119,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.4762
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.9,
+    "avgRating": 4.1,
+    "department": "Computer Science",
+    "firstName": "Julian",
+    "id": "VGVhY2hlci0yNzU0MDkw",
+    "lastName": "Panetta",
+    "legacyId": 2754090,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 78.5714
+  }
+]

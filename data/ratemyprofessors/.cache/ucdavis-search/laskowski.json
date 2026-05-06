@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.7,
+    "department": "Biological Sciences",
+    "firstName": "Kate",
+    "id": "VGVhY2hlci0yNzgzNzY2",
+    "lastName": "Laskowski",
+    "legacyId": 2783766,
+    "numRatings": 27,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 92.5926
+  }
+]

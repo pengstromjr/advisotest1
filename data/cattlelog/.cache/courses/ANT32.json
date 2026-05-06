@@ -1,0 +1,169 @@
+{
+  "course_id": "ANT32",
+  "course_title": "Drugs, Science & Culture",
+  "overall_grades": {
+    "A+": 225,
+    "A": 246,
+    "A-": 228,
+    "B+": 93,
+    "B": 93,
+    "B-": 54,
+    "C+": 21,
+    "C": 57,
+    "C-": 12,
+    "D+": 9,
+    "D": 9,
+    "D-": 6,
+    "F": 63,
+    "P*": 69,
+    "NP*": 21
+  },
+  "overall_gpa": 3.29,
+  "overall_enrolled": 1206,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Spring_2024",
+    "Winter_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andres Barragan",
+      "professor_slug": "andres-barragan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 81,
+            "A": 171,
+            "A-": 189,
+            "B+": 66,
+            "B": 72,
+            "B-": 33,
+            "C+": 12,
+            "C": 45,
+            "C-": 9,
+            "D+": 6,
+            "D": 9,
+            "D-": 3,
+            "F": 42,
+            "P*": 45,
+            "NP*": 18
+          },
+          "quarter_average_gpa": 3.23,
+          "quarter_enrolled": 801
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 33,
+            "A-": 15,
+            "B+": 6,
+            "B": 9,
+            "B-": 9,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.41,
+          "quarter_enrolled": 114
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 93,
+            "A-": 78,
+            "B+": 24,
+            "B": 24,
+            "B-": 9,
+            "C+": 9,
+            "C": 24,
+            "C-": 0,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 30,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.13,
+          "quarter_enrolled": 348
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 45,
+            "A-": 96,
+            "B+": 36,
+            "B": 39,
+            "B-": 15,
+            "C+": 3,
+            "C": 18,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 9,
+            "P*": 36,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 339
+        }
+      }
+    },
+    {
+      "professor_name": "Gerardo Con Diaz",
+      "professor_slug": "gerardo-con-diaz",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 144,
+            "A": 75,
+            "A-": 39,
+            "B+": 27,
+            "B": 21,
+            "B-": 21,
+            "C+": 9,
+            "C": 12,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 21,
+            "P*": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 405
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 144,
+            "A": 75,
+            "A-": 39,
+            "B+": 27,
+            "B": 21,
+            "B-": 21,
+            "C+": 9,
+            "C": 12,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 3,
+            "F": 21,
+            "P*": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 405
+        }
+      }
+    }
+  ]
+}

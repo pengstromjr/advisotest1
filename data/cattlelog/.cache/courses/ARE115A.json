@@ -1,0 +1,325 @@
+{
+  "course_id": "ARE115A",
+  "course_title": "Economic Development",
+  "overall_grades": {
+    "A+": 148,
+    "A": 570,
+    "A-": 375,
+    "B+": 375,
+    "B": 398,
+    "B-": 401,
+    "C+": 231,
+    "C": 295,
+    "C-": 96,
+    "D+": 33,
+    "D": 35,
+    "D-": 20,
+    "F": 34,
+    "P*": 33,
+    "NP*": 28
+  },
+  "overall_gpa": 3.04,
+  "overall_enrolled": 3072,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Ashish Shenoy",
+      "professor_slug": "ashish-shenoy",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 15,
+            "A-": 9,
+            "B+": 15,
+            "B": 20,
+            "B-": 11,
+            "C+": 8,
+            "C": 12,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 2,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 102
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 5,
+            "A": 15,
+            "A-": 9,
+            "B+": 15,
+            "B": 20,
+            "B-": 11,
+            "C+": 8,
+            "C": 12,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 2,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.96,
+          "quarter_enrolled": 102
+        }
+      }
+    },
+    {
+      "professor_name": "Mayada Baydas",
+      "professor_slug": "mayada-baydas",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 36,
+            "B+": 24,
+            "B": 12,
+            "B-": 12,
+            "C+": 24,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 144
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 12,
+            "A-": 36,
+            "B+": 24,
+            "B": 12,
+            "B-": 12,
+            "C+": 24,
+            "C": 6,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 9
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 144
+        }
+      }
+    },
+    {
+      "professor_name": "Stephen Boucher",
+      "professor_slug": "stephen-boucher",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 68,
+            "A": 501,
+            "A-": 276,
+            "B+": 276,
+            "B": 336,
+            "B-": 345,
+            "C+": 175,
+            "C": 271,
+            "C-": 86,
+            "D+": 33,
+            "D": 31,
+            "D-": 15,
+            "F": 20,
+            "P*": 26,
+            "NP*": 25
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 2484
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 69,
+            "A-": 36,
+            "B+": 45,
+            "B": 42,
+            "B-": 45,
+            "C+": 12,
+            "C": 24,
+            "C-": 12,
+            "D+": 6,
+            "D": 12,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 312
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 132,
+            "A-": 69,
+            "B+": 27,
+            "B": 54,
+            "B-": 54,
+            "C+": 33,
+            "C": 39,
+            "C-": 21,
+            "D+": 0,
+            "D": 0,
+            "D-": 9,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 486
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 102,
+            "A-": 57,
+            "B+": 69,
+            "B": 66,
+            "B-": 54,
+            "C+": 54,
+            "C": 51,
+            "C-": 21,
+            "D+": 9,
+            "D": 12,
+            "D-": 6,
+            "F": 9,
+            "P*": 9,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 537
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 81,
+            "A-": 51,
+            "B+": 42,
+            "B": 60,
+            "B-": 75,
+            "C+": 42,
+            "C": 54,
+            "C-": 15,
+            "D+": 12,
+            "D": 3,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 450
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 87,
+            "A-": 45,
+            "B+": 69,
+            "B": 84,
+            "B-": 96,
+            "C+": 21,
+            "C": 87,
+            "C-": 6,
+            "D+": 6,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 525
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 30,
+            "A-": 18,
+            "B+": 24,
+            "B": 30,
+            "B-": 21,
+            "C+": 13,
+            "C": 16,
+            "C-": 11,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 2,
+            "NP*": 4
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 174
+        }
+      }
+    },
+    {
+      "professor_name": "Xun Xu",
+      "professor_slug": "xun-xu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 42,
+            "A-": 54,
+            "B+": 60,
+            "B": 30,
+            "B-": 33,
+            "C+": 24,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 342
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 69,
+            "A": 42,
+            "A-": 54,
+            "B+": 60,
+            "B": 30,
+            "B-": 33,
+            "C+": 24,
+            "C": 6,
+            "C-": 9,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 342
+        }
+      }
+    }
+  ]
+}

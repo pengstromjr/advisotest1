@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.5,
+    "department": "Environmental Science",
+    "firstName": "Paul",
+    "id": "VGVhY2hlci0yMTg1NzYz",
+    "lastName": "Ullrich",
+    "legacyId": 2185763,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 96
+  }
+]

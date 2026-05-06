@@ -1,0 +1,293 @@
+{
+  "course_id": "ARE112",
+  "course_title": "Fundamentals of Organization Management",
+  "overall_grades": {
+    "A+": 45,
+    "A": 234,
+    "A-": 397,
+    "B+": 337,
+    "B": 623,
+    "B-": 771,
+    "C+": 634,
+    "C": 807,
+    "C-": 101,
+    "D+": 2,
+    "D": 2,
+    "D-": 1,
+    "F": 11,
+    "P*": 120,
+    "NP*": 13
+  },
+  "overall_gpa": 2.75,
+  "overall_enrolled": 4098,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Jerry Lundblad",
+      "professor_slug": "jerry-lundblad",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 43,
+            "A": 210,
+            "A-": 375,
+            "B+": 295,
+            "B": 587,
+            "B-": 750,
+            "C+": 624,
+            "C": 795,
+            "C-": 93,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 120,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 3910
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 63,
+            "B+": 45,
+            "B": 114,
+            "B-": 93,
+            "C+": 63,
+            "C": 75,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 18,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 498
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 36,
+            "A-": 30,
+            "B+": 27,
+            "B": 60,
+            "B-": 99,
+            "C+": 84,
+            "C": 117,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 36,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 504
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 27,
+            "A-": 51,
+            "B+": 36,
+            "B": 93,
+            "B-": 45,
+            "C+": 150,
+            "C": 108,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.72,
+          "quarter_enrolled": 522
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 18,
+            "A-": 45,
+            "B+": 36,
+            "B": 81,
+            "B-": 231,
+            "C+": 3,
+            "C": 30,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 456
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 33,
+            "B+": 48,
+            "B": 48,
+            "B-": 72,
+            "C+": 72,
+            "C": 102,
+            "C-": 33,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.63,
+          "quarter_enrolled": 444
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 8,
+            "A-": 27,
+            "B+": 10,
+            "B": 30,
+            "B-": 31,
+            "C+": 35,
+            "C": 25,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 182
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 33,
+            "A-": 57,
+            "B+": 27,
+            "B": 48,
+            "B-": 120,
+            "C+": 81,
+            "C": 177,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 567
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 36,
+            "A-": 39,
+            "B+": 45,
+            "B": 78,
+            "B-": 36,
+            "C+": 117,
+            "C": 132,
+            "C-": 48,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 558
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 10,
+            "A-": 30,
+            "B+": 21,
+            "B": 35,
+            "B-": 23,
+            "C+": 19,
+            "C": 29,
+            "C-": 5,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 179
+        }
+      }
+    },
+    {
+      "professor_name": "Sara Sutherland",
+      "professor_slug": "sara-sutherland",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 24,
+            "A-": 22,
+            "B+": 42,
+            "B": 36,
+            "B-": 21,
+            "C+": 10,
+            "C": 12,
+            "C-": 8,
+            "D+": 2,
+            "D": 2,
+            "D-": 1,
+            "F": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 188
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 24,
+            "A-": 22,
+            "B+": 42,
+            "B": 36,
+            "B-": 21,
+            "C+": 10,
+            "C": 12,
+            "C-": 8,
+            "D+": 2,
+            "D": 2,
+            "D-": 1,
+            "F": 5,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.97,
+          "quarter_enrolled": 188
+        }
+      }
+    }
+  ]
+}

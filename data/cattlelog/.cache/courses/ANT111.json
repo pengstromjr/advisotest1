@@ -1,0 +1,73 @@
+{
+  "course_id": "ANT111",
+  "course_title": "Science & Race",
+  "overall_grades": {
+    "A+": 1,
+    "A": 12,
+    "A-": 4,
+    "B+": 4,
+    "B": 5,
+    "B-": 1,
+    "C+": 2,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0,
+    "P*": 5
+  },
+  "overall_gpa": 3.53,
+  "overall_enrolled": 34,
+  "available_quarters": [
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Natalia Duong",
+      "professor_slug": "natalia-duong",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 4,
+            "B+": 4,
+            "B": 5,
+            "B-": 1,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 34
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 12,
+            "A-": 4,
+            "B+": 4,
+            "B": 5,
+            "B-": 1,
+            "C+": 2,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5
+          },
+          "quarter_average_gpa": 3.53,
+          "quarter_enrolled": 34
+        }
+      }
+    }
+  ]
+}

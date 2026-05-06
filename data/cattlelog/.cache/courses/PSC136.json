@@ -1,0 +1,118 @@
+{
+  "course_id": "PSC136",
+  "course_title": "Psychology of Music",
+  "overall_grades": {
+    "A+": 6,
+    "A": 122,
+    "A-": 102,
+    "B+": 115,
+    "B": 100,
+    "B-": 64,
+    "C+": 40,
+    "C": 52,
+    "C-": 21,
+    "D+": 16,
+    "D": 7,
+    "D-": 3,
+    "F": 18,
+    "P*": 19,
+    "NP*": 3
+  },
+  "overall_gpa": 3.01,
+  "overall_enrolled": 688,
+  "available_quarters": [
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Petr Janata",
+      "professor_slug": "petr-janata",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 122,
+            "A-": 102,
+            "B+": 115,
+            "B": 100,
+            "B-": 64,
+            "C+": 40,
+            "C": 52,
+            "C-": 21,
+            "D+": 16,
+            "D": 7,
+            "D-": 3,
+            "F": 18,
+            "P*": 19,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.01,
+          "quarter_enrolled": 688
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 57,
+            "A-": 27,
+            "B+": 39,
+            "B": 51,
+            "B-": 27,
+            "C+": 21,
+            "C": 18,
+            "C-": 12,
+            "D+": 12,
+            "D": 6,
+            "D-": 3,
+            "F": 15,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 294
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 48,
+            "A-": 48,
+            "B+": 54,
+            "B": 33,
+            "B-": 33,
+            "C+": 15,
+            "C": 27,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.15,
+          "quarter_enrolled": 279
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 17,
+            "A-": 27,
+            "B+": 22,
+            "B": 16,
+            "B-": 4,
+            "C+": 4,
+            "C": 7,
+            "C-": 3,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 3,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 115
+        }
+      }
+    }
+  ]
+}

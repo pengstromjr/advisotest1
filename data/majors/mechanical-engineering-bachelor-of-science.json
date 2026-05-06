@@ -6,109 +6,6 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "ENG 122",
-        "EMS 180",
-        "EMS 182",
-        "EME 121",
-        "EME 134",
-        "EME 139",
-        "EME 150B",
-        "EME 151",
-        "EME 152",
-        "EME 154",
-        "EME 161",
-        "EME 163",
-        "EME 164",
-        "EME 171"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "EME 161",
-        "EME 163",
-        "EME 164"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Technical Electives",
-      "courses": [
-        "EME 161",
-        "EME 163"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "EME 161",
-        "EME 163",
-        "EME 164"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "EMS 180",
-        "EME 150B",
-        "EME 151",
-        "EME 154"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "ENG 111",
-        "ENG 121",
-        "ENG 122",
-        "EME 121",
-        "EME 134",
-        "EME 139",
-        "EME 152",
-        "EME 154",
-        "EME 171"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "ENG 122",
-        "EME 121",
-        "EME 134",
-        "EME 139",
-        "EME 152",
-        "EME 171"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
-      "heading": "Suggested Restricted Electives",
-      "courses": [
-        "ENG 122",
-        "EME 134",
-        "EME 150B",
-        "EME 161",
-        "EME 163",
-        "EME 171"
-      ],
-      "units": "4",
-      "notes": []
-    },
-    {
       "heading": "Mathematics",
       "courses": [
         "MAT 021A",
@@ -135,9 +32,9 @@
       "heading": "Chemistry",
       "courses": [
         "CHE 002A",
-        "CHE 002AH",
+        "or CHE 002AH",
         "CHE 002B",
-        "CHE 002BH"
+        "or CHE 002BH"
       ],
       "units": "5",
       "notes": []
@@ -147,11 +44,12 @@
       "courses": [
         "ENG 004",
         "ENG 006",
+        "or EME 005",
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y"
+        "or ENG 045Y"
       ],
       "units": "3",
       "notes": []
@@ -164,12 +62,12 @@
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
-        "UWP 001V",
-        "UWP 001Y"
+        "or UWP 001V",
+        "or UWP 001Y"
       ],
       "units": "4",
       "notes": []
@@ -178,9 +76,9 @@
       "heading": "Lower Division Communication Requirement",
       "courses": [
         "CMN 001",
-        "CMN 001V",
-        "ENG 003",
-        "ENG 003Y"
+        "or CMN 001V",
+        "or ENG 003",
+        "or ENG 003Y"
       ],
       "units": "4",
       "notes": []
@@ -192,7 +90,7 @@
       ],
       "units": "4",
       "notes": [
-        "Lower Division Required Courses Subtotal"
+        "Lower Division Required Courses Subtotal (78 units)"
       ]
     },
     {
@@ -202,7 +100,7 @@
         "ENG 102",
         "ENG 103",
         "ENG 104",
-        "ENG 104V",
+        "or ENG 104V",
         "ENG 105",
         "ENG 190"
       ],
@@ -223,11 +121,14 @@
       "notes": []
     },
     {
-      "heading": "Senior Design Capstone; choose a series;",
+      "heading": "Senior Design Capstone; choose (1) series;",
       "courses": [
-        "EME 185AEME 185B",
-        "EAE 130AEAE 130B",
-        "EAE 143AEAE 143B"
+        "EME 185A",
+        "EME 185B",
+        "EAE 130A",
+        "EAE 130B",
+        "EAE 143A",
+        "EAE 143B"
       ],
       "units": "8",
       "notes": []
@@ -281,19 +182,19 @@
       ],
       "units": "8",
       "notes": [
-        "Choose two:"
+        "Choose two: 1 (8 units)"
       ]
     },
     {
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102E",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104E",
         "UWP 104T"
       ],
@@ -301,11 +202,13 @@
       "notes": [
         "Choose one; a grade of C- or better is required:",
         "Passing the Upper Division Composition Exam",
-        "Upper Division Required Courses Subtotal"
+        "Upper Division Required Courses Subtotal (70-74 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "148"
+  "total_units": "148",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.612Z"
 }

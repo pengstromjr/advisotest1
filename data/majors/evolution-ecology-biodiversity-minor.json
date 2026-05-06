@@ -11,7 +11,7 @@
         "EVE 100",
         "EVE 101"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
         "Courses selected for the Biodiversity and Advanced Ecology or Evolution sections must add up to at least 10 units."
       ]
@@ -20,13 +20,11 @@
       "heading": "Biodiversity",
       "courses": [
         "ENT 103",
-        "EVE 105",
         "EVE 112",
         "EVE 112L",
         "EVE 114",
-        "EVE 140",
-        "MIC 105",
         "MIC 105L",
+        "MMG 180",
         "NEM 110",
         "PLB/PLS 116",
         "PLB/PLP 148",
@@ -51,33 +49,43 @@
         "EVE 102",
         "EVE 103",
         "EVE 107",
+        "EVE 109",
+        "EVE 111",
+        "EVE 113",
+        "EVE 114",
         "EVE 115",
         "EVE/PLB 117",
         "EVE/PLB 119",
         "EVE 120",
+        "EVE 125",
+        "EVE 127",
         "EVE 131",
-        "EVE 138",
-        "EVE 141",
         "EVE 147",
-        "EVE 149",
-        "EVE 150",
         "EVE 161",
-        "EVE 180A",
-        "ENT 180A",
-        "EVE 180B",
-        "ENT 180B",
+        "EVE 175"
+      ],
+      "units": "",
+      "notes": [
+        "Choose two:"
+      ]
+    },
+    {
+      "heading": "Advanced Ecology or Evolution",
+      "courses": [
         "EVE/ENT 180A",
         "EVE/ENT 180B",
         "EVE 181"
       ],
-      "units": "18",
+      "units": "",
       "notes": [
-        "Choose two:",
+        "Choose EVE 180A or ENT 180A & EVE 180B or ENT 180B:",
         "Laboratory or field course: At least one of the courses taken to fulfill these requirements must include a 6-hour per week laboratory or field component or two courses with a 3-hour per week laboratory or field component."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.765Z"
 }

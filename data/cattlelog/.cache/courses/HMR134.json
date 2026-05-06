@@ -1,0 +1,255 @@
+{
+  "course_id": "HMR134",
+  "course_title": "Human Rights",
+  "overall_grades": {
+    "A+": 34,
+    "A": 88,
+    "A-": 168,
+    "B+": 142,
+    "B": 236,
+    "B-": 99,
+    "C+": 37,
+    "C": 47,
+    "C-": 9,
+    "D+": 4,
+    "D": 8,
+    "D-": 1,
+    "F": 24,
+    "P*": 86,
+    "NP*": 14
+  },
+  "overall_gpa": 3.08,
+  "overall_enrolled": 997,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Keith Watenpaugh",
+      "professor_slug": "keith-watenpaugh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 17,
+            "A": 71,
+            "A-": 138,
+            "B+": 125,
+            "B": 196,
+            "B-": 79,
+            "C+": 33,
+            "C": 45,
+            "C-": 6,
+            "D+": 1,
+            "D": 8,
+            "D-": 0,
+            "F": 17,
+            "P*": 66,
+            "NP*": 14
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 816
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 36,
+            "A-": 54,
+            "B+": 30,
+            "B": 81,
+            "B-": 33,
+            "C+": 12,
+            "C": 15,
+            "C-": 0,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 288
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 36,
+            "B+": 42,
+            "B": 63,
+            "B-": 21,
+            "C+": 12,
+            "C": 18,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 15
+          },
+          "quarter_average_gpa": 3.03,
+          "quarter_enrolled": 240
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 36,
+            "B+": 48,
+            "B": 39,
+            "B-": 21,
+            "C+": 0,
+            "C": 6,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 42,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.09,
+          "quarter_enrolled": 210
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 8,
+            "A-": 12,
+            "B+": 5,
+            "B": 13,
+            "B-": 4,
+            "C+": 9,
+            "C": 6,
+            "C-": 0,
+            "D+": 1,
+            "D": 2,
+            "D-": 0,
+            "F": 2,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 78
+        }
+      }
+    },
+    {
+      "professor_name": "Lauren Eastland",
+      "professor_slug": "lauren-eastland",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 3,
+            "A-": 12,
+            "B+": 3,
+            "B": 27,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 87
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 3,
+            "A-": 12,
+            "B+": 3,
+            "B": 27,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 87
+        }
+      }
+    },
+    {
+      "professor_name": "Lucia Luna Victoria Indacochea",
+      "professor_slug": "lucia-luna-victoria-indacochea",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 11,
+            "A": 14,
+            "A-": 18,
+            "B+": 14,
+            "B": 13,
+            "B-": 8,
+            "C+": 1,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 11
+          },
+          "quarter_average_gpa": 3.38,
+          "quarter_enrolled": 94
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 11,
+            "A-": 10,
+            "B+": 11,
+            "B": 7,
+            "B-": 5,
+            "C+": 1,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 59
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 3,
+            "A-": 8,
+            "B+": 3,
+            "B": 6,
+            "B-": 3,
+            "C+": 0,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 7
+          },
+          "quarter_average_gpa": 3.34,
+          "quarter_enrolled": 35
+        }
+      }
+    }
+  ]
+}

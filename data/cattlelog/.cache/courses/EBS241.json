@@ -1,0 +1,70 @@
+{
+  "course_id": "EBS241",
+  "course_title": "Precision Irrigation Systems & Management",
+  "overall_grades": {
+    "A+": 0,
+    "A": 15,
+    "A-": 12,
+    "B+": 0,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 3,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 0
+  },
+  "overall_gpa": 3.62,
+  "overall_enrolled": 33,
+  "available_quarters": [
+    "Fall_2023"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andre Daccache",
+      "professor_slug": "andre-daccache",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 12,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 33
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 15,
+            "A-": 12,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 33
+        }
+      }
+    }
+  ]
+}

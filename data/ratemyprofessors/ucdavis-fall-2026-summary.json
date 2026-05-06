@@ -1,0 +1,18 @@
+{
+  "source": "Rate My Professors",
+  "schoolId": "1073",
+  "schoolName": "University of California Davis",
+  "lastSyncedAt": "2026-05-05T06:40:07.328Z",
+  "totalFall2026Instructors": 1107,
+  "selectedInstructors": 1107,
+  "searched": 1107,
+  "matchedThisRun": 824,
+  "failedThisRun": 0,
+  "totalStoredRecords": 1107,
+  "totalStoredMatches": 824,
+  "lowConfidenceOrNoMatch": 365,
+  "outputPath": "/Users/pengstromjr/Desktop/Adviso/uc-davis-ai-advisor copy/data/ratemyprofessors/ucdavis-fall-2026-instructors.json",
+  "appConfidenceThreshold": 0.9,
+  "appUsableMatches": 742,
+  "highConfidenceOutputPath": "/Users/pengstromjr/Desktop/Adviso/uc-davis-ai-advisor copy/data/ratemyprofessors/ucdavis-fall-2026-high-confidence.json"
+}

@@ -6,7 +6,7 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "General Requirements",
+      "heading": "Choose any five upper division Sociology courses, except:",
       "courses": [
         "SOC 192",
         "SOC 193",
@@ -16,14 +16,15 @@
         "SOC 198",
         "SOC 199"
       ],
-      "units": "Units",
+      "units": "20",
       "notes": [
-        "Choose any five upper division Sociology courses, except:",
         "Sociology (SOC) courses."
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.292Z"
 }

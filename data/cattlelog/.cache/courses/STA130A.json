@@ -1,0 +1,254 @@
+{
+  "course_id": "STA130A",
+  "course_title": "Mathematical Statistics: Brief Course",
+  "overall_grades": {
+    "A+": 112,
+    "A": 356,
+    "A-": 197,
+    "B+": 250,
+    "B": 260,
+    "B-": 142,
+    "C+": 123,
+    "C": 129,
+    "C-": 38,
+    "D+": 20,
+    "D": 40,
+    "D-": 10,
+    "F": 27,
+    "P*": 161,
+    "NP*": 41
+  },
+  "overall_gpa": 3.09,
+  "overall_enrolled": 1906,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Can Le",
+      "professor_slug": "can-le",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 102,
+            "A": 178,
+            "A-": 133,
+            "B+": 172,
+            "B": 159,
+            "B-": 94,
+            "C+": 60,
+            "C": 55,
+            "C-": 32,
+            "D+": 20,
+            "D": 14,
+            "D-": 10,
+            "F": 20,
+            "P*": 83,
+            "NP*": 25
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 1157
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 42,
+            "A-": 45,
+            "B+": 39,
+            "B": 39,
+            "B-": 27,
+            "C+": 18,
+            "C": 18,
+            "C-": 12,
+            "D+": 3,
+            "D": 6,
+            "D-": 3,
+            "F": 3,
+            "P*": 15,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 303
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 5,
+            "A-": 7,
+            "B+": 6,
+            "B": 13,
+            "B-": 9,
+            "C+": 6,
+            "C": 13,
+            "C-": 5,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2,
+            "P*": 2,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 80
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 42,
+            "A-": 24,
+            "B+": 45,
+            "B": 45,
+            "B-": 24,
+            "C+": 18,
+            "C": 12,
+            "C-": 6,
+            "D+": 9,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 48
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 294
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 75,
+            "A-": 42,
+            "B+": 69,
+            "B": 42,
+            "B-": 24,
+            "C+": 12,
+            "C": 3,
+            "C-": 0,
+            "D+": 6,
+            "D": 6,
+            "D-": 3,
+            "F": 12,
+            "P*": 12,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.25,
+          "quarter_enrolled": 360
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 14,
+            "A-": 15,
+            "B+": 13,
+            "B": 20,
+            "B-": 10,
+            "C+": 6,
+            "C": 9,
+            "C-": 9,
+            "D+": 2,
+            "D": 1,
+            "D-": 1,
+            "F": 3,
+            "P*": 6,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 120
+        }
+      }
+    },
+    {
+      "professor_name": "Miles Lopes",
+      "professor_slug": "miles-lopes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 178,
+            "A-": 64,
+            "B+": 78,
+            "B": 101,
+            "B-": 48,
+            "C+": 63,
+            "C": 74,
+            "C-": 6,
+            "D+": 0,
+            "D": 26,
+            "D-": 0,
+            "F": 7,
+            "P*": 78,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 3.07,
+          "quarter_enrolled": 749
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 78,
+            "A-": 18,
+            "B+": 39,
+            "B": 48,
+            "B-": 24,
+            "C+": 36,
+            "C": 30,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 30
+          },
+          "quarter_average_gpa": 3.12,
+          "quarter_enrolled": 309
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 81,
+            "A-": 42,
+            "B+": 33,
+            "B": 36,
+            "B-": 21,
+            "C+": 27,
+            "C": 33,
+            "C-": 0,
+            "D+": 0,
+            "D": 21,
+            "D-": 0,
+            "F": 6,
+            "P*": 36,
+            "NP*": 15
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 360
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 19,
+            "A-": 4,
+            "B+": 6,
+            "B": 17,
+            "B-": 3,
+            "C+": 0,
+            "C": 11,
+            "C-": 0,
+            "D+": 0,
+            "D": 5,
+            "D-": 0,
+            "F": 1,
+            "P*": 12,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 80
+        }
+      }
+    }
+  ]
+}

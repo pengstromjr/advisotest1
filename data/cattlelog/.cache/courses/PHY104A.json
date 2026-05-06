@@ -1,0 +1,279 @@
+{
+  "course_id": "PHY104A",
+  "course_title": "Introduction to Mathematical Methods in Physics",
+  "overall_grades": {
+    "A+": 36,
+    "A": 91,
+    "A-": 74,
+    "B+": 76,
+    "B": 58,
+    "B-": 78,
+    "C+": 60,
+    "C": 59,
+    "C-": 32,
+    "D+": 16,
+    "D": 10,
+    "D-": 2,
+    "F": 27,
+    "NP*": 16,
+    "P*": 2
+  },
+  "overall_gpa": 2.84,
+  "overall_enrolled": 637,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Hsin Chia Cheng",
+      "professor_slug": "hsin-chia-cheng",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 7,
+            "A-": 5,
+            "B+": 9,
+            "B": 8,
+            "B-": 18,
+            "C+": 11,
+            "C": 4,
+            "C-": 4,
+            "D+": 0,
+            "D": 4,
+            "D-": 2,
+            "F": 2,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.74,
+          "quarter_enrolled": 87
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 6,
+            "A-": 3,
+            "B+": 5,
+            "B": 7,
+            "B-": 8,
+            "C+": 5,
+            "C": 1,
+            "C-": 3,
+            "D+": 0,
+            "D": 2,
+            "D-": 2,
+            "F": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 47
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 1,
+            "A-": 2,
+            "B+": 4,
+            "B": 1,
+            "B-": 10,
+            "C+": 6,
+            "C": 3,
+            "C-": 1,
+            "D+": 0,
+            "D": 2,
+            "D-": 0,
+            "F": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.76,
+          "quarter_enrolled": 40
+        }
+      }
+    },
+    {
+      "professor_name": "Markus Luty",
+      "professor_slug": "markus-luty",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 21,
+            "B+": 27,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 18,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 132
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 21,
+            "B+": 27,
+            "B": 18,
+            "B-": 12,
+            "C+": 12,
+            "C": 18,
+            "C-": 3,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.93,
+          "quarter_enrolled": 132
+        }
+      }
+    },
+    {
+      "professor_name": "Rajiv Singh",
+      "professor_slug": "rajiv-singh",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 28,
+            "A": 71,
+            "A-": 42,
+            "B+": 34,
+            "B": 27,
+            "B-": 40,
+            "C+": 32,
+            "C": 33,
+            "C-": 19,
+            "D+": 9,
+            "D": 6,
+            "D-": 0,
+            "F": 25,
+            "NP*": 7,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 374
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 21,
+            "A-": 12,
+            "B+": 9,
+            "B": 12,
+            "B-": 21,
+            "C+": 18,
+            "C": 0,
+            "C-": 9,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.82,
+          "quarter_enrolled": 144
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 45,
+            "A-": 21,
+            "B+": 18,
+            "B": 12,
+            "B-": 12,
+            "C+": 9,
+            "C": 30,
+            "C-": 6,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 12
+          },
+          "quarter_average_gpa": 2.85,
+          "quarter_enrolled": 174
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 7,
+            "A": 5,
+            "A-": 9,
+            "B+": 7,
+            "B": 3,
+            "B-": 7,
+            "C+": 5,
+            "C": 3,
+            "C-": 4,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 4,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.9,
+          "quarter_enrolled": 56
+        }
+      }
+    },
+    {
+      "professor_name": "Sergey Savrasov",
+      "professor_slug": "sergey-savrasov",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 1,
+            "A-": 6,
+            "B+": 6,
+            "B": 5,
+            "B-": 8,
+            "C+": 5,
+            "C": 4,
+            "C-": 6,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 44
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 1,
+            "A-": 6,
+            "B+": 6,
+            "B": 5,
+            "B-": 8,
+            "C+": 5,
+            "C": 4,
+            "C-": 6,
+            "D+": 1,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 44
+        }
+      }
+    }
+  ]
+}

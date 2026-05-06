@@ -1,0 +1,93 @@
+{
+  "course_id": "RUS105",
+  "course_title": "Advanced Russian Conversation",
+  "overall_grades": {
+    "A+": 15,
+    "A": 25,
+    "A-": 5,
+    "B+": 1,
+    "B": 3,
+    "B-": 0,
+    "C+": 0,
+    "C": 0,
+    "C-": 0,
+    "D+": 0,
+    "D": 0,
+    "D-": 0,
+    "F": 1,
+    "NP*": 3
+  },
+  "overall_gpa": 3.82,
+  "overall_enrolled": 53,
+  "available_quarters": [
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Liliana Avramenko",
+      "professor_slug": "liliana-avramenko",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 25,
+            "A-": 5,
+            "B+": 1,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.82,
+          "quarter_enrolled": 53
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 21,
+            "A-": 3,
+            "B+": 0,
+            "B": 3,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.9,
+          "quarter_enrolled": 42
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 4,
+            "A-": 2,
+            "B+": 1,
+            "B": 0,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 11
+        }
+      }
+    }
+  ]
+}

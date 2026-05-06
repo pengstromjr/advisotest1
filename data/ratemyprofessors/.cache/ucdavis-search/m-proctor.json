@@ -1,0 +1,62 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Engineering",
+    "firstName": "M Saif",
+    "id": "VGVhY2hlci0yNDc4NjE1",
+    "lastName": "Islam",
+    "legacyId": 2478615,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.7,
+    "department": "University Writing Program",
+    "firstName": "Mandy",
+    "id": "VGVhY2hlci0xOTc1OTA2",
+    "lastName": "Proctor",
+    "legacyId": 1975906,
+    "numRatings": 31,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 35.4839
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 5,
+    "department": "Plant & Soil Science",
+    "firstName": "Niels",
+    "id": "VGVhY2hlci0xODA5Nzg1",
+    "lastName": "Proctor",
+    "legacyId": 1809785,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Spanish",
+    "firstName": "Anny",
+    "id": "VGVhY2hlci0yMTQzOTkw",
+    "lastName": "Proctor",
+    "legacyId": 2143990,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

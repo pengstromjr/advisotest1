@@ -1,0 +1,329 @@
+{
+  "course_id": "CMN174",
+  "course_title": "Social Media",
+  "overall_grades": {
+    "A+": 47,
+    "A": 122,
+    "A-": 141,
+    "B+": 164,
+    "B": 157,
+    "B-": 114,
+    "C+": 103,
+    "C": 73,
+    "C-": 31,
+    "D+": 18,
+    "D": 28,
+    "D-": 1,
+    "F": 24,
+    "P*": 81,
+    "NP*": 12
+  },
+  "overall_gpa": 2.94,
+  "overall_enrolled": 1116,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Cuihua Shen",
+      "professor_slug": "cuihua-shen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 68,
+            "A-": 43,
+            "B+": 71,
+            "B": 59,
+            "B-": 42,
+            "C+": 39,
+            "C": 40,
+            "C-": 13,
+            "D+": 6,
+            "D": 13,
+            "D-": 1,
+            "F": 5,
+            "P*": 53,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 458
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 30,
+            "A-": 15,
+            "B+": 36,
+            "B": 24,
+            "B-": 15,
+            "C+": 9,
+            "C": 21,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0,
+            "P*": 12,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.02,
+          "quarter_enrolled": 174
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 24,
+            "A-": 21,
+            "B+": 24,
+            "B": 21,
+            "B-": 15,
+            "C+": 21,
+            "C": 6,
+            "C-": 6,
+            "D+": 3,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 21
+          },
+          "quarter_average_gpa": 2.91,
+          "quarter_enrolled": 171
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 4,
+            "A-": 3,
+            "B+": 3,
+            "B": 7,
+            "B-": 4,
+            "C+": 5,
+            "C": 8,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 15,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 2.62,
+          "quarter_enrolled": 56
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 10,
+            "A-": 4,
+            "B+": 8,
+            "B": 7,
+            "B-": 8,
+            "C+": 4,
+            "C": 5,
+            "C-": 2,
+            "D+": 2,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 5
+          },
+          "quarter_average_gpa": 2.88,
+          "quarter_enrolled": 57
+        }
+      }
+    },
+    {
+      "professor_name": "Hannah Stevens",
+      "professor_slug": "hannah-stevens",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 3,
+            "A-": 5,
+            "B+": 9,
+            "B": 14,
+            "B-": 9,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 49
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 2,
+            "A": 3,
+            "A-": 5,
+            "B+": 9,
+            "B": 14,
+            "B-": 9,
+            "C+": 1,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.04,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Kelly Rossetto",
+      "professor_slug": "kelly-rossetto",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 30,
+            "A-": 48,
+            "B+": 36,
+            "B": 21,
+            "B-": 15,
+            "C+": 9,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 180
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 30,
+            "A-": 48,
+            "B+": 36,
+            "B": 21,
+            "B-": 15,
+            "C+": 9,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 3,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.29,
+          "quarter_enrolled": 180
+        }
+      }
+    },
+    {
+      "professor_name": "Neha Kumari",
+      "professor_slug": "neha-kumari",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 39,
+            "A": 21,
+            "A-": 45,
+            "B+": 48,
+            "B": 63,
+            "B-": 48,
+            "C+": 54,
+            "C": 30,
+            "C-": 15,
+            "D+": 12,
+            "D": 12,
+            "D-": 0,
+            "F": 15,
+            "P*": 24,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.79,
+          "quarter_enrolled": 429
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 3,
+            "A-": 15,
+            "B+": 24,
+            "B": 24,
+            "B-": 24,
+            "C+": 21,
+            "C": 6,
+            "C-": 9,
+            "D+": 6,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 18
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 174
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 9,
+            "A-": 15,
+            "B+": 18,
+            "B": 27,
+            "B-": 12,
+            "C+": 27,
+            "C": 15,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.86,
+          "quarter_enrolled": 138
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 9,
+            "A-": 15,
+            "B+": 6,
+            "B": 12,
+            "B-": 12,
+            "C+": 6,
+            "C": 9,
+            "C-": 3,
+            "D+": 3,
+            "D": 12,
+            "D-": 0,
+            "F": 12,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.57,
+          "quarter_enrolled": 117
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "course_id": "ARE133",
+  "course_title": "Introduction to Behavioral Economics",
+  "overall_grades": {
+    "A+": 9,
+    "A": 98,
+    "A-": 167,
+    "B+": 194,
+    "B": 281,
+    "B-": 142,
+    "C+": 83,
+    "C": 36,
+    "C-": 8,
+    "D+": 4,
+    "D": 4,
+    "D-": 6,
+    "F": 1,
+    "P*": 17
+  },
+  "overall_gpa": 3.1,
+  "overall_enrolled": 1050,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024"
+  ],
+  "professors": [
+    {
+      "professor_name": "Kristin Kiesel",
+      "professor_slug": "kristin-kiesel",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 98,
+            "A-": 167,
+            "B+": 194,
+            "B": 281,
+            "B-": 142,
+            "C+": 83,
+            "C": 36,
+            "C-": 8,
+            "D+": 4,
+            "D": 4,
+            "D-": 6,
+            "F": 1,
+            "P*": 17
+          },
+          "quarter_average_gpa": 3.1,
+          "quarter_enrolled": 1050
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 12,
+            "A-": 39,
+            "B+": 54,
+            "B": 93,
+            "B-": 39,
+            "C+": 30,
+            "C": 12,
+            "C-": 3,
+            "D+": 3,
+            "D": 3,
+            "D-": 3,
+            "F": 0,
+            "P*": 12
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 312
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 8,
+            "A-": 11,
+            "B+": 20,
+            "B": 17,
+            "B-": 16,
+            "C+": 11,
+            "C": 6,
+            "C-": 2,
+            "D+": 1,
+            "D": 1,
+            "D-": 0,
+            "F": 1,
+            "P*": 2
+          },
+          "quarter_average_gpa": 2.94,
+          "quarter_enrolled": 96
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 33,
+            "A-": 42,
+            "B+": 54,
+            "B": 114,
+            "B-": 36,
+            "C+": 24,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.11,
+          "quarter_enrolled": 318
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 45,
+            "A-": 75,
+            "B+": 66,
+            "B": 57,
+            "B-": 51,
+            "C+": 18,
+            "C": 9,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.24,
+          "quarter_enrolled": 324
+        }
+      }
+    }
+  ]
+}

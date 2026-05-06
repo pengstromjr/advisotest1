@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.9,
+    "department": "Technoculture Studies",
+    "firstName": "Finn",
+    "id": "VGVhY2hlci0yNzAwMDI0",
+    "lastName": "Brunton",
+    "legacyId": 2700024,
+    "numRatings": 22,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

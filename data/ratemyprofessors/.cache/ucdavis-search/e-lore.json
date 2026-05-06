@@ -1,0 +1,107 @@
+[
+  {
+    "avgDifficulty": 1.7,
+    "avgRating": 4.4,
+    "department": "Chicano Studies",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci0xNjg3OTEw",
+    "lastName": "Marquez",
+    "legacyId": 1687910,
+    "numRatings": 91,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 87.6543
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 2.3,
+    "department": "Health Science",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci01ODY1MDY=",
+    "lastName": "Garcia",
+    "legacyId": 586506,
+    "numRatings": 38,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 20.5882
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.6,
+    "department": "Comparative Literature",
+    "firstName": "Elisabeth",
+    "id": "VGVhY2hlci0xODA1NDY2",
+    "lastName": "Lore",
+    "legacyId": 1805466,
+    "numRatings": 33,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 64.5161
+  },
+  {
+    "avgDifficulty": 2.9,
+    "avgRating": 3.5,
+    "department": "History",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci02MTE4Ng==",
+    "lastName": "Oropeza",
+    "legacyId": 61186,
+    "numRatings": 75,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.2,
+    "department": "History",
+    "firstName": "Loren",
+    "id": "VGVhY2hlci0yMjM0Mzg3",
+    "lastName": "Mortimer",
+    "legacyId": 2234387,
+    "numRatings": 21,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 71.4286
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.5,
+    "department": "Military Science",
+    "firstName": "Lorenzo",
+    "id": "VGVhY2hlci0yMjI3Mzgx",
+    "lastName": "Hassani",
+    "legacyId": 2227381,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 3.9,
+    "department": "Microbiology",
+    "firstName": "Lorena",
+    "id": "VGVhY2hlci0xNDcwNDQ4",
+    "lastName": "Navarro",
+    "legacyId": 1470448,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

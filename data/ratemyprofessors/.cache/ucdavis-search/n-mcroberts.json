@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 5,
+    "department": "Plant Pathology",
+    "firstName": "Neil",
+    "id": "VGVhY2hlci0yNDU3MDg0",
+    "lastName": "McRoberts",
+    "legacyId": 2457084,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

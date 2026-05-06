@@ -1,0 +1,153 @@
+{
+  "course_id": "SPA111N",
+  "course_title": "The Structure of Spanish: Sounds & Words",
+  "overall_grades": {
+    "A+": 148,
+    "A": 171,
+    "A-": 113,
+    "B+": 72,
+    "B": 71,
+    "B-": 29,
+    "C+": 12,
+    "C": 3,
+    "C-": 0,
+    "D+": 3,
+    "D": 9,
+    "D-": 3,
+    "F": 6,
+    "P*": 3
+  },
+  "overall_gpa": 3.55,
+  "overall_enrolled": 643,
+  "available_quarters": [
+    "Fall_2023",
+    "Fall_2024",
+    "Spring_2024",
+    "Winter_2023",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Travis Bradley",
+      "professor_slug": "travis-bradley",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 148,
+            "A": 171,
+            "A-": 113,
+            "B+": 72,
+            "B": 71,
+            "B-": 29,
+            "C+": 12,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 9,
+            "D-": 3,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 643
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 18,
+            "A-": 24,
+            "B+": 9,
+            "B": 0,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.66,
+          "quarter_enrolled": 96
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 18,
+            "A-": 18,
+            "B+": 9,
+            "B": 6,
+            "B-": 12,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.33,
+          "quarter_enrolled": 84
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 66,
+            "A": 66,
+            "A-": 27,
+            "B+": 15,
+            "B": 12,
+            "B-": 0,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 3,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 207
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 60,
+            "A-": 36,
+            "B+": 33,
+            "B": 51,
+            "B-": 6,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3
+          },
+          "quarter_average_gpa": 3.52,
+          "quarter_enrolled": 216
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 10,
+            "A": 9,
+            "A-": 8,
+            "B+": 6,
+            "B": 2,
+            "B-": 5,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.62,
+          "quarter_enrolled": 40
+        }
+      }
+    }
+  ]
+}

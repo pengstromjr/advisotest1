@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.5,
+    "department": "Biological Sciences",
+    "firstName": "Marshall",
+    "id": "VGVhY2hlci0zMDc4MzA0",
+    "lastName": "McMunn",
+    "legacyId": 3078304,
+    "numRatings": 20,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Entomology",
+    "firstName": "Marshall",
+    "id": "VGVhY2hlci0zMDY5ODE2",
+    "lastName": "McMunn",
+    "legacyId": 3069816,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

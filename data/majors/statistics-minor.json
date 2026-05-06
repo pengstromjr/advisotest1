@@ -9,23 +9,42 @@
       "heading": "Preparatory Coursework; not counted towards minor units",
       "courses": [
         "STA 013",
-        "STA 013Y",
+        "or STA 013V",
+        "or STA 013Y",
         "STA 032",
-        "STA 100",
-        "MAT 016C"
+        "STA 100"
       ],
       "units": "",
       "notes": [
-        "Choose one:"
+        "Choose one:",
+        "Additional preparatory courses will be needed based on the course prerequisites listed in the catalog. At minimum, calculus at the level of MAT 016C or 017C or 019C or 021C is required."
       ]
     },
     {
       "heading": "Minor Requirements",
       "courses": [
         "STA 106",
-        "STA 108",
-        "STA 130ASTA 130B",
-        "STA 131ASTA 131B",
+        "STA 108"
+      ],
+      "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Minor Requirements",
+      "courses": [
+        "STA 130A",
+        "STA 130B",
+        "STA 131A",
+        "STA 131B"
+      ],
+      "units": "8",
+      "notes": [
+        "Choose a series:"
+      ]
+    },
+    {
+      "heading": "Minor Requirements",
+      "courses": [
         "STA 101",
         "STA 104",
         "STA 135",
@@ -42,12 +61,13 @@
       ],
       "units": "4",
       "notes": [
-        "Choose a series:",
         "Choose one:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:55.371Z"
 }

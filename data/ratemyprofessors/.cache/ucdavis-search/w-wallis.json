@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 2.4,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Wally",
+    "id": "VGVhY2hlci0zMDEzMjU4",
+    "lastName": "Wallis",
+    "legacyId": 3013258,
+    "numRatings": 7,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Christopher (Chris)",
+    "id": "VGVhY2hlci0xNzI3MzAy",
+    "lastName": "Wallis",
+    "legacyId": 1727302,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 69.2308
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.5,
+    "department": "Writing",
+    "firstName": "Bryan",
+    "id": "VGVhY2hlci0xMzMwNzU2",
+    "lastName": "Wallis",
+    "legacyId": 1330756,
+    "numRatings": 14,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 85.7143
+  }
+]

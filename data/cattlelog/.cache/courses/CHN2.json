@@ -1,0 +1,438 @@
+{
+  "course_id": "CHN2",
+  "course_title": "Elementary Chinese",
+  "overall_grades": {
+    "A+": 71,
+    "A": 200,
+    "A-": 66,
+    "B+": 84,
+    "B": 59,
+    "B-": 24,
+    "C+": 27,
+    "C": 12,
+    "C-": 4,
+    "D+": 3,
+    "D": 0,
+    "D-": 3,
+    "F": 8,
+    "P*": 27,
+    "NP*": 12
+  },
+  "overall_gpa": 3.47,
+  "overall_enrolled": 600,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Binbin Yang",
+      "professor_slug": "binbin-yang",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 66,
+            "A-": 12,
+            "B+": 42,
+            "B": 27,
+            "B-": 12,
+            "C+": 9,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 210
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 24,
+            "A-": 6,
+            "B+": 27,
+            "B": 6,
+            "B-": 6,
+            "C+": 0,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.36,
+          "quarter_enrolled": 102
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 42,
+            "A-": 6,
+            "B+": 15,
+            "B": 21,
+            "B-": 6,
+            "C+": 9,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.46,
+          "quarter_enrolled": 108
+        }
+      }
+    },
+    {
+      "professor_name": "Ching Hsuan Chen",
+      "professor_slug": "ching-hsuan-chen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 7,
+            "B+": 1,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 19
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 7,
+            "B+": 1,
+            "B": 2,
+            "B-": 0,
+            "C+": 0,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 2
+          },
+          "quarter_average_gpa": 2.92,
+          "quarter_enrolled": 19
+        }
+      }
+    },
+    {
+      "professor_name": "Haiqing Yin",
+      "professor_slug": "haiqing-yin",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 45,
+            "A": 111,
+            "A-": 33,
+            "B+": 27,
+            "B": 15,
+            "B-": 6,
+            "C+": 9,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.68,
+          "quarter_enrolled": 261
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 33,
+            "A-": 3,
+            "B+": 9,
+            "B": 6,
+            "B-": 0,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 3
+          },
+          "quarter_average_gpa": 3.69,
+          "quarter_enrolled": 63
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 12,
+            "A": 24,
+            "A-": 9,
+            "B+": 3,
+            "B": 0,
+            "B-": 0,
+            "C+": 3,
+            "C": 3,
+            "C-": 0,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.58,
+          "quarter_enrolled": 57
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 27,
+            "A": 54,
+            "A-": 21,
+            "B+": 15,
+            "B": 9,
+            "B-": 6,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 6
+          },
+          "quarter_average_gpa": 3.71,
+          "quarter_enrolled": 141
+        }
+      }
+    },
+    {
+      "professor_name": "I Chia Lee",
+      "professor_slug": "i-chia-lee",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 3,
+            "B+": 10,
+            "B": 2,
+            "B-": 0,
+            "C+": 3,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 32
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 7,
+            "A-": 3,
+            "B+": 10,
+            "B": 2,
+            "B-": 0,
+            "C+": 3,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0,
+            "P*": 1,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 3.32,
+          "quarter_enrolled": 32
+        }
+      }
+    },
+    {
+      "professor_name": "Ling Yu Lu",
+      "professor_slug": "ling-yu-lu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 9,
+            "A-": 10,
+            "B+": 2,
+            "B": 11,
+            "B-": 5,
+            "C+": 4,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 3,
+            "P*": 8,
+            "NP*": 5
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 62
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 2,
+            "A-": 2,
+            "B+": 0,
+            "B": 2,
+            "B-": 2,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.98,
+          "quarter_enrolled": 10
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 2,
+            "A-": 7,
+            "B+": 1,
+            "B": 4,
+            "B-": 2,
+            "C+": 2,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 1,
+            "P*": 1,
+            "NP*": 2
+          },
+          "quarter_average_gpa": 3,
+          "quarter_enrolled": 25
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 3,
+            "A-": 1,
+            "B+": 0,
+            "B": 2,
+            "B-": 1,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.87,
+          "quarter_enrolled": 11
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 2,
+            "A-": 0,
+            "B+": 1,
+            "B": 3,
+            "B-": 0,
+            "C+": 1,
+            "C": 1,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 5,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.08,
+          "quarter_enrolled": 16
+        }
+      }
+    },
+    {
+      "professor_name": "Yutian Tan",
+      "professor_slug": "yutian-tan",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 1,
+            "B+": 2,
+            "B": 2,
+            "B-": 1,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 16
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 1,
+            "B+": 2,
+            "B": 2,
+            "B-": 1,
+            "C+": 2,
+            "C": 2,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.17,
+          "quarter_enrolled": 16
+        }
+      }
+    }
+  ]
+}

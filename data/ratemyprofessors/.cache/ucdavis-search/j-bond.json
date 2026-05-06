@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 4.2,
+    "department": "Entomology",
+    "firstName": "Jason",
+    "id": "VGVhY2hlci0yNTgwOTE5",
+    "lastName": "Bond",
+    "legacyId": 2580919,
+    "numRatings": 11,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 90.9091
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Advisor",
+    "firstName": "Patricia",
+    "id": "VGVhY2hlci0xMTgzODc5",
+    "lastName": "Bond",
+    "legacyId": 1183879,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

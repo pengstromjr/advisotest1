@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.6,
+    "department": "Communication",
+    "firstName": "Heather",
+    "id": "VGVhY2hlci0yMjMxNzM0",
+    "lastName": "Hether",
+    "legacyId": 2231734,
+    "numRatings": 66,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 40.9091
+  }
+]

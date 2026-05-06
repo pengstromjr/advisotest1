@@ -13,31 +13,41 @@
         "HDE 143",
         "HDE 160",
         "HDE 161",
-        "HDE 163",
+        "HDE 163"
+      ],
+      "units": "12-14",
+      "notes": [
+        "Choose three:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [
         "HDE 110",
-        "HDE 110V",
+        "or HDE 110V",
         "HDE 111",
         "HDE 112",
         "HDE 131",
-        "HDE 131V",
+        "or HDE 131V",
         "HDE 133",
-        "HDE 133V",
+        "or HDE 133V",
         "HDE 134",
         "HDE 135",
-        "HDE 135V",
+        "or HDE 135V",
         "HDE 137",
         "EXB 117",
         "PSC 123/NPB 152",
         "PSC 126"
       ],
-      "units": "Units",
+      "units": "6-8",
       "notes": [
-        "Choose three:",
         "Choose two:"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "18"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.089Z"
 }

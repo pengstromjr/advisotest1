@@ -1,0 +1,32 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Anthropology",
+    "firstName": "Hyunwoo ",
+    "id": "VGVhY2hlci0zMTA3ODY3",
+    "lastName": "Jung",
+    "legacyId": 3107867,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.5,
+    "department": "Economics",
+    "firstName": "Jae Wook",
+    "id": "VGVhY2hlci0yMDM2ODMy",
+    "lastName": "Jung",
+    "legacyId": 2036832,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

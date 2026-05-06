@@ -11,19 +11,27 @@
         "CLA 003",
         "CLA 004"
       ],
-      "units": "Units",
+      "units": "4",
       "notes": [
-        "Classics; choose one:",
-        "Choose three upper division courses in Latin",
+        "Classics; choose one:"
+      ]
+    },
+    {
+      "heading": "General Requirements",
+      "courses": [],
+      "units": "12",
+      "notes": [
+        "Choose three upper division courses in Latin 1 (12 units)",
         "Latin (LAT)",
-        "Choose one additional upper division course in Classics, Latin, or Greek.",
+        "Choose one additional upper division course in Classics, Latin, or Greek. (4 units)",
         "Classics (CLA)",
-        "Latin (LAT)",
         "Greek (GRK)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.414Z"
 }

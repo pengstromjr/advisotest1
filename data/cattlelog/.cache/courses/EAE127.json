@@ -1,0 +1,130 @@
+{
+  "course_id": "EAE127",
+  "course_title": "Applied Aircraft Aerodynamics",
+  "overall_grades": {
+    "A+": 33,
+    "A": 238,
+    "A-": 132,
+    "B+": 117,
+    "B": 92,
+    "B-": 48,
+    "C+": 37,
+    "C": 29,
+    "C-": 22,
+    "D+": 0,
+    "D": 0,
+    "D-": 7,
+    "F": 6
+  },
+  "overall_gpa": 3.35,
+  "overall_enrolled": 761,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Stephen Robinson",
+      "professor_slug": "stephen-robinson",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 238,
+            "A-": 132,
+            "B+": 117,
+            "B": 92,
+            "B-": 48,
+            "C+": 37,
+            "C": 29,
+            "C-": 22,
+            "D+": 0,
+            "D": 0,
+            "D-": 7,
+            "F": 6
+          },
+          "quarter_average_gpa": 3.35,
+          "quarter_enrolled": 761
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 45,
+            "A-": 33,
+            "B+": 33,
+            "B": 39,
+            "B-": 21,
+            "C+": 18,
+            "C": 15,
+            "C-": 21,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.99,
+          "quarter_enrolled": 240
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 9,
+            "A": 57,
+            "A-": 42,
+            "B+": 39,
+            "B": 21,
+            "B-": 12,
+            "C+": 18,
+            "C": 3,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.4,
+          "quarter_enrolled": 204
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 15,
+            "A": 99,
+            "A-": 39,
+            "B+": 33,
+            "B": 21,
+            "B-": 12,
+            "C+": 0,
+            "C": 9,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.61,
+          "quarter_enrolled": 228
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 37,
+            "A-": 18,
+            "B+": 12,
+            "B": 11,
+            "B-": 3,
+            "C+": 1,
+            "C": 2,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 0
+          },
+          "quarter_average_gpa": 3.55,
+          "quarter_enrolled": 89
+        }
+      }
+    }
+  ]
+}

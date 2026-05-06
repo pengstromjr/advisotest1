@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.8,
+    "department": "Psychology",
+    "firstName": "Priscilla",
+    "id": "VGVhY2hlci0yMDczODEx",
+    "lastName": "San Souci",
+    "legacyId": 2073811,
+    "numRatings": 242,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 97.4249
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.5,
+    "department": "Music",
+    "firstName": "Laurie",
+    "id": "VGVhY2hlci04NTEwMg==",
+    "lastName": "San Martin",
+    "legacyId": 85102,
+    "numRatings": 26,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 4,
+    "avgRating": 3.5,
+    "department": "Political Science",
+    "firstName": "Belgin",
+    "id": "VGVhY2hlci0xMTYwNTYw",
+    "lastName": "San Akca",
+    "legacyId": 1160560,
+    "numRatings": 2,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

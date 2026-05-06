@@ -11,7 +11,7 @@
         "MSA 100",
         "MSA 180",
         "MSA 181B",
-        "MSA 182B"
+        "or MSA 182B"
       ],
       "units": "4",
       "notes": []
@@ -20,7 +20,7 @@
       "heading": "History",
       "courses": [
         "HIS 196A",
-        "HIS 196B"
+        "or HIS 196B"
       ],
       "units": "4",
       "notes": []
@@ -36,9 +36,12 @@
         "COM 053B",
         "COM 148",
         "COM 156/RST 158",
-        "HND 001",
-        "HND 002",
-        "HND 003",
+        "HIN 001",
+        "or HND 001",
+        "HIN 002",
+        "or HND 002",
+        "HIN 003",
+        "or HND 003",
         "HIN 021",
         "HIN 022",
         "HIN 023",
@@ -64,5 +67,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "20"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.221Z"
 }

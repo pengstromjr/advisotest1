@@ -1,0 +1,92 @@
+[
+  {
+    "avgDifficulty": 2.5,
+    "avgRating": 4.8,
+    "department": "English",
+    "firstName": "Lauren",
+    "id": "VGVhY2hlci0yNTY5MjY2",
+    "lastName": "Peterson",
+    "legacyId": 2569266,
+    "numRatings": 12,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 3.3,
+    "avgRating": 3.7,
+    "department": "English",
+    "firstName": "Kathleen",
+    "id": "VGVhY2hlci0yMjE0NDQy",
+    "lastName": "Peterson",
+    "legacyId": 2214442,
+    "numRatings": 3,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 33.3333
+  },
+  {
+    "avgDifficulty": 2.7,
+    "avgRating": 4.3,
+    "department": "English",
+    "firstName": "Sarah",
+    "id": "VGVhY2hlci0yNDQ5ODMw",
+    "lastName": "Peterson",
+    "legacyId": 2449830,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 3.8,
+    "department": "University Writing Program",
+    "firstName": "Kevin",
+    "id": "VGVhY2hlci0xODY3Mjg0",
+    "lastName": "Peterson",
+    "legacyId": 1867284,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 1.8,
+    "avgRating": 4.8,
+    "department": "Political Science",
+    "firstName": "Rolfe",
+    "id": "VGVhY2hlci0xMjU5MjAx",
+    "lastName": "Peterson",
+    "legacyId": 1259201,
+    "numRatings": 5,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Music",
+    "firstName": "Joseph",
+    "id": "VGVhY2hlci0yNjQxMzQ0",
+    "lastName": "Peterson",
+    "legacyId": 2641344,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3,
+    "avgRating": 5,
+    "department": "Engineering",
+    "firstName": "Jonathon",
+    "id": "VGVhY2hlci0yODA1NTUy",
+    "lastName": "Schofield",
+    "legacyId": 2805552,
+    "numRatings": 1,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "course_id": "CHE1",
+  "course_title": "Preparation for General Chemistry",
+  "overall_grades": {
+    "A+": 133,
+    "A": 156,
+    "A-": 139,
+    "B+": 290,
+    "B": 260,
+    "B-": 291,
+    "C+": 269,
+    "C": 545,
+    "C-": 276,
+    "D+": 0,
+    "D": 240,
+    "D-": 0,
+    "F": 99,
+    "P*": 68,
+    "NP*": 44
+  },
+  "overall_gpa": 2.45,
+  "overall_enrolled": 2810,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Auddy Anilao",
+      "professor_slug": "auddy-anilao",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 25,
+            "A": 25,
+            "A-": 24,
+            "B+": 48,
+            "B": 49,
+            "B-": 50,
+            "C+": 50,
+            "C": 95,
+            "C-": 45,
+            "D+": 0,
+            "D": 45,
+            "D-": 0,
+            "F": 19,
+            "P*": 7,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.43,
+          "quarter_enrolled": 492
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 25,
+            "A": 25,
+            "A-": 24,
+            "B+": 48,
+            "B": 49,
+            "B-": 50,
+            "C+": 50,
+            "C": 95,
+            "C-": 45,
+            "D+": 0,
+            "D": 45,
+            "D-": 0,
+            "F": 19,
+            "P*": 7,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.43,
+          "quarter_enrolled": 492
+        }
+      }
+    },
+    {
+      "professor_name": "Huitao Ling",
+      "professor_slug": "huitao-ling",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 108,
+            "A": 131,
+            "A-": 115,
+            "B+": 242,
+            "B": 211,
+            "B-": 241,
+            "C+": 219,
+            "C": 450,
+            "C-": 231,
+            "D+": 0,
+            "D": 195,
+            "D-": 0,
+            "F": 80,
+            "P*": 61,
+            "NP*": 34
+          },
+          "quarter_average_gpa": 2.45,
+          "quarter_enrolled": 2318
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 78,
+            "A": 99,
+            "A-": 87,
+            "B+": 177,
+            "B": 159,
+            "B-": 177,
+            "C+": 162,
+            "C": 333,
+            "C-": 171,
+            "D+": 0,
+            "D": 147,
+            "D-": 0,
+            "F": 54,
+            "P*": 45,
+            "NP*": 24
+          },
+          "quarter_average_gpa": 2.46,
+          "quarter_enrolled": 1713
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 32,
+            "A-": 28,
+            "B+": 65,
+            "B": 52,
+            "B-": 64,
+            "C+": 57,
+            "C": 117,
+            "C-": 60,
+            "D+": 0,
+            "D": 48,
+            "D-": 0,
+            "F": 26,
+            "P*": 16,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.44,
+          "quarter_enrolled": 605
+        }
+      }
+    }
+  ]
+}

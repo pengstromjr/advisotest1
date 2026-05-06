@@ -1,0 +1,96 @@
+{
+  "course_id": "PLS144",
+  "course_title": "Trees & Forests",
+  "overall_grades": {
+    "A+": 37,
+    "A": 108,
+    "A-": 66,
+    "B+": 55,
+    "B": 33,
+    "B-": 20,
+    "C+": 5,
+    "C": 0,
+    "C-": 4,
+    "D+": 0,
+    "D": 1,
+    "D-": 0,
+    "F": 8,
+    "P*": 3,
+    "NP*": 3
+  },
+  "overall_gpa": 3.5,
+  "overall_enrolled": 343,
+  "available_quarters": [
+    "Fall_2024",
+    "Fall_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Andrew Latimer",
+      "professor_slug": "andrew-latimer",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 37,
+            "A": 108,
+            "A-": 66,
+            "B+": 55,
+            "B": 33,
+            "B-": 20,
+            "C+": 5,
+            "C": 0,
+            "C-": 4,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 8,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.5,
+          "quarter_enrolled": 343
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 33,
+            "A": 87,
+            "A-": 48,
+            "B+": 51,
+            "B": 27,
+            "B-": 18,
+            "C+": 3,
+            "C": 0,
+            "C-": 3,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.51,
+          "quarter_enrolled": 282
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 4,
+            "A": 21,
+            "A-": 18,
+            "B+": 4,
+            "B": 6,
+            "B-": 2,
+            "C+": 2,
+            "C": 0,
+            "C-": 1,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 2
+          },
+          "quarter_average_gpa": 3.45,
+          "quarter_enrolled": 61
+        }
+      }
+    }
+  ]
+}

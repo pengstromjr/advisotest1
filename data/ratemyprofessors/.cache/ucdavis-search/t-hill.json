@@ -1,0 +1,122 @@
+[
+  {
+    "avgDifficulty": 3.7,
+    "avgRating": 2.6,
+    "department": "Engineering",
+    "firstName": "Mike",
+    "id": "VGVhY2hlci04OTUzMTk=",
+    "lastName": "Hill",
+    "legacyId": 895319,
+    "numRatings": 23,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 23.5294
+  },
+  {
+    "avgDifficulty": 3.6,
+    "avgRating": 3.4,
+    "department": "Fine Arts",
+    "firstName": "Robin",
+    "id": "VGVhY2hlci0zMTk1MzY=",
+    "lastName": "Hill",
+    "legacyId": 319536,
+    "numRatings": 19,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 60
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 4.7,
+    "department": "English",
+    "firstName": "Hillary",
+    "id": "VGVhY2hlci0yNzAwMzI2",
+    "lastName": "Cheramie",
+    "legacyId": 2700326,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 2.8,
+    "avgRating": 4.2,
+    "department": "Education",
+    "firstName": "Michael",
+    "id": "VGVhY2hlci0yMjM4NTE3",
+    "lastName": "Hill",
+    "legacyId": 2238517,
+    "numRatings": 6,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.6667
+  },
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.7,
+    "department": "Geology",
+    "firstName": "Tessa",
+    "id": "VGVhY2hlci05NTg5NDE=",
+    "lastName": "Hill",
+    "legacyId": 958941,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 100
+  },
+  {
+    "avgDifficulty": 4.3,
+    "avgRating": 3.3,
+    "department": "Art",
+    "firstName": "Robin",
+    "id": "VGVhY2hlci0xOTU5Njc1",
+    "lastName": "Hill",
+    "legacyId": 1959675,
+    "numRatings": 4,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 75
+  },
+  {
+    "avgDifficulty": 3,
+    "avgRating": 3.8,
+    "department": "Political Science",
+    "firstName": "Stuart",
+    "id": "VGVhY2hlci0xMDMxMzk=",
+    "lastName": "Hill",
+    "legacyId": 103139,
+    "numRatings": 123,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Design",
+    "firstName": "Maddison",
+    "id": "VGVhY2hlci0yMDk3MjM4",
+    "lastName": "Hill",
+    "legacyId": 2097238,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  }
+]

@@ -9,9 +9,9 @@
       "heading": "Lower Division Required Courses",
       "courses": [
         "CMN 001",
-        "CMN 001V",
-        "ENG 003",
-        "ENG 003Y"
+        "or CMN 001V",
+        "or ENG 003",
+        "or ENG 003Y"
       ],
       "units": "4",
       "notes": []
@@ -65,15 +65,15 @@
       "heading": "Engineering",
       "courses": [
         "ENG 017",
-        "ENG 017V",
+        "or ENG 017V",
         "COM 001",
         "COM 002",
         "COM 003",
         "COM 004",
         "ENL 003",
-        "ENL 003V",
+        "or ENL 003V",
         "NAS 005",
-        "NAS 005V",
+        "or NAS 005V",
         "UWP 001",
         "UWP 001V",
         "UWP 001Y"
@@ -81,7 +81,7 @@
       "units": "4",
       "notes": [
         "Lower Division Composition/Writing; choose one; a grade of C- or better is required:",
-        "Lower Division Required Course Subtotal"
+        "Lower Division Required Course Subtotal (77 units)"
       ]
     },
     {
@@ -103,11 +103,18 @@
       "heading": "Computer Science",
       "courses": [
         "ECS 122A",
-        "ECS 150",
-        "ENG/PHY 160",
-        "ENG 190"
+        "ECS 150"
       ],
       "units": "4",
+      "notes": []
+    },
+    {
+      "heading": "Computer Science",
+      "courses": [
+        "ENG 160/PHY 160",
+        "ENG 190"
+      ],
+      "units": "3",
       "notes": [
         "Choose one:"
       ]
@@ -138,6 +145,14 @@
       ]
     },
     {
+      "heading": "Upper Division Electrical & Computer Engineering (EEC) or Computer Science Engineering (ECS) Electives",
+      "courses": [],
+      "units": "12-16",
+      "notes": [
+        "Choose four letter-graded upper division EEC or ECS courses: 3"
+      ]
+    },
+    {
       "heading": "Technical Electives",
       "courses": [
         "CHE 002A",
@@ -145,18 +160,18 @@
         "CHE 002C",
         "ENG 035",
         "ENG 045",
-        "ENG 045Y",
+        "or ENG 045Y",
         "BIS 101",
-        "BIS 101V",
+        "or BIS 101V",
         "BIS 101D",
         "BIS 102",
-        "BIS 102V",
+        "or BIS 102V",
         "BIS 103",
         "BIS 104",
         "BIS 122",
         "BIS 122P",
         "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100AV",
         "ECN 100B",
         "ECN 101",
         "ECN 102",
@@ -164,9 +179,10 @@
         "ECN 122",
         "ECN 140",
         "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY",
+        "or MGT 011AV",
+        "or MGT 011AY",
         "MGT 011B",
+        "MGT 100",
         "MGT 120",
         "MGT 140",
         "MGT 150",
@@ -176,19 +192,18 @@
       ],
       "units": "8",
       "notes": [
-        "Choose four letter-graded upper division EEC or ECS courses:",
         "Choose 8 units:",
         "Chemistry",
-        "Any upper division course.",
+        "Any upper division course. 4",
         "Engineering",
-        "Any upper division engineering course not used in satisfaction of core degree requirements.",
+        "Any upper division engineering course not used in satisfaction of core degree requirements. 5",
         "A maximum of 6 units for any combination of engineering courses numbered 190C, 192, 198, and 199 may be used.",
         "Mathematics",
-        "Any upper division course.",
+        "Any upper division course. 6",
         "Physics",
-        "Any upper division course.",
+        "Any upper division course. 7",
         "Statistics",
-        "Any upper division course.",
+        "Any upper division course. 8",
         "Biological Sciences",
         "Economics",
         "Management"
@@ -198,8 +213,8 @@
       "heading": "Upper Division Composition Requirement",
       "courses": [
         "UWP 101",
-        "UWP 101V",
-        "UWP 101Y",
+        "or UWP 101V",
+        "or UWP 101Y",
         "UWP 102A",
         "UWP 102B",
         "UWP 102C",
@@ -213,15 +228,15 @@
         "UWP 102K",
         "UWP 102L",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY",
+        "or UWP 104AV",
+        "or UWP 104AY",
         "UWP 104B",
         "UWP 104C",
         "UWP 104D",
         "UWP 104E",
         "UWP 104F",
-        "UWP 104FV",
-        "UWP 104FY",
+        "or UWP 104FV",
+        "or UWP 104FY",
         "UWP 104I",
         "UWP 104J",
         "UWP 104T"
@@ -230,11 +245,13 @@
       "notes": [
         "Choose one; a grade of a C- or better is required:",
         "Passing the Upper Division Composition Exam.",
-        "Upper Division Required Course Subtotal"
+        "Upper Division Required Course Subtotal (68-76 units)"
       ]
     }
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "145"
+  "total_units": "152",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.311Z"
 }

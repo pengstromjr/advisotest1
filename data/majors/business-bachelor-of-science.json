@@ -6,35 +6,50 @@
   "description": "Office & Contact Information",
   "requirements": [
     {
-      "heading": "Economics",
-      "courses": [
-        "ECN 001A",
-        "ECN 001AV",
-        "ECN 001AY",
-        "ECN 001B",
-        "ECN 001BV"
-      ],
-      "units": "8",
+      "heading": "Preparatory Subject Matter",
+      "courses": [],
+      "units": "",
       "notes": [
         "All required preparatory courses must be taken for a letter grade with at least a grade of C-."
       ]
     },
     {
+      "heading": "Economics",
+      "courses": [
+        "ECN 001A",
+        "or ECN 001AV",
+        "or ECN 001AY",
+        "ECN 001B",
+        "or ECN 001BV"
+      ],
+      "units": "8",
+      "notes": []
+    },
+    {
       "heading": "Mathematics",
       "courses": [
-        "MAT 017AMAT 017BMAT 017C",
-        "MAT 019AMAT 019BMAT 019C",
-        "MAT 021AMAT 021BMAT 021C"
+        "MAT 017A",
+        "MAT 017B",
+        "MAT 017C",
+        "or MAT 019A",
+        "or MAT 019B",
+        "or MAT 019C",
+        "or MAT 021A",
+        "or MAT 021B",
+        "or MAT 021C"
       ],
       "units": "12",
-      "notes": []
+      "notes": [
+        "MAT 019 series is strongly recommended.",
+        "OR"
+      ]
     },
     {
       "heading": "Accounting",
       "courses": [
         "MGT 011A",
-        "MGT 011AV",
-        "MGT 011AY",
+        "or MGT 011AV",
+        "or MGT 011AY",
         "MGT 011B"
       ],
       "units": "8",
@@ -44,8 +59,9 @@
       "heading": "Statistics",
       "courses": [
         "STA 013",
-        "STA 013Y",
-        "STA 032",
+        "or STA 013V",
+        "or STA 013Y",
+        "or STA 032",
         "STA 103"
       ],
       "units": "8",
@@ -63,10 +79,10 @@
       "heading": "Psychology or Sociology",
       "courses": [
         "PSC 001",
-        "PSC 001V",
-        "PSC 001Y",
-        "SOC 001",
-        "SOC 001V"
+        "or PSC 001V",
+        "or PSC 001Y",
+        "or SOC 001",
+        "or SOC 001V"
       ],
       "units": "4-5",
       "notes": []
@@ -75,27 +91,27 @@
       "heading": "English Composition",
       "courses": [
         "ENL 003",
-        "ENL 003V",
-        "UWP 001",
-        "UWP 001V",
-        "UWP 001Y",
+        "or ENL 003V",
+        "or UWP 001",
+        "or UWP 001V",
+        "or UWP 001Y",
         "UWP 104A",
-        "UWP 104AV",
-        "UWP 104AY"
+        "or UWP 104AV",
+        "or UWP 104AY"
       ],
       "units": "8",
       "notes": [
-        "Preparatory Subject Matter Subtotal"
+        "Preparatory Subject Matter Subtotal (52-53 units)"
       ]
     },
     {
       "heading": "Core Courses",
       "courses": [
         "ARE 100A",
-        "ECN 100A",
-        "ECN 100AV",
+        "or ECN 100A",
+        "or ECN 100AV",
         "ARE 100B",
-        "ECN 100B",
+        "or ECN 100B",
         "ARE 106",
         "ECN 101",
         "MGT 101",
@@ -103,13 +119,13 @@
         "MGT 140",
         "MGT 150",
         "MGT 160",
-        "ARE 171",
+        "or ARE 171",
         "MGT 180"
       ],
       "units": "4",
       "notes": [
         "All required core courses must be taken for a letter grade with at least a grade of C-. All core courses must be taken at UC Davis.",
-        "Core Courses Subtotal"
+        "Core Courses Subtotal (40 units)"
       ]
     },
     {
@@ -118,22 +134,22 @@
       "units": "16",
       "notes": [
         "Choose one or two areas of specialization from the following options:",
-        "All specialization courses must be taken for letter grade. All specialization coursework must be taken at UC Davis.",
         "Accounting",
         "Finance",
         "Marketing & Business Analytics",
-        "Strategy & Management"
+        "Strategy & Management",
+        "All specialization courses must be taken for letter grade."
       ]
     },
     {
-      "heading": "General Requirements",
+      "heading": "Complete all:",
       "courses": [
         "MGT 103",
         "MGT 105",
         "MGT 107",
         "MGT 170"
       ],
-      "units": "Units",
+      "units": "16",
       "notes": []
     },
     {
@@ -146,7 +162,7 @@
         "ARE 173",
         "ARE 139",
         "ECN 135",
-        "ECN 135Y",
+        "or ECN 135Y",
         "ECN 164"
       ],
       "units": "16",
@@ -161,7 +177,7 @@
         "ARE 107",
         "ARE 136",
         "ECN 142",
-        "ECN 142Y"
+        "or ECN 142Y"
       ],
       "units": "16",
       "notes": []
@@ -174,7 +190,7 @@
         "MGT 155",
         "MGT 159",
         "ECN 106",
-        "ECN 106Y",
+        "or ECN 106Y",
         "ECN 121B",
         "ECN 122"
       ],
@@ -183,6 +199,11 @@
     }
   ],
   "specializations": [],
-  "advising_notes": [],
-  "total_units": "108"
+  "advising_notes": [
+    "Study Abroad: The Business Major encourages students to broaden their academic experience by studying abroad. Students must receive pre-approval from a Business Major advisor before enrolling in any courses they wish to apply to the major. Up to 16 units of upper-division coursework completed through study abroad may be applied to Business Major requirements. Courses proposed as substitutes must demonstrate comparable: topics and subject matter, assessments, instructional materials, and prerequisites. Online courses are not eligible, and core courses required for the major may not be fulfilled through study abroad; core courses are: ARE 100A (or ECN 100A or ECN 100AV). ARE 100B (or ECN 100B), ARE 106. ECN 101. MGT 101, MGT 120, MGT 140, MGT 150, MGT 160 (or ARE 171), and MGT 180.",
+    "Advising: Contact the Business Advising Office or, for more information, see Business Major Advising."
+  ],
+  "total_units": "108",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:52.893Z"
 }

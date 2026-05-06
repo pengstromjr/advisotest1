@@ -1,0 +1,261 @@
+{
+  "course_id": "CHE8A",
+  "course_title": "Organic Chemistry: Brief Course",
+  "overall_grades": {
+    "A+": 203,
+    "A": 1445,
+    "A-": 827,
+    "B+": 867,
+    "B": 1651,
+    "B-": 802,
+    "C+": 952,
+    "C": 1323,
+    "C-": 578,
+    "D+": 403,
+    "D": 404,
+    "D-": 163,
+    "F": 409,
+    "P*": 83,
+    "NP*": 64
+  },
+  "overall_gpa": 2.64,
+  "overall_enrolled": 10174,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Spring_2023",
+    "Spring_2024",
+    "Spring_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Matthew Spock",
+      "professor_slug": "matthew-spock",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 177,
+            "A-": 78,
+            "B+": 60,
+            "B": 183,
+            "B-": 54,
+            "C+": 84,
+            "C": 144,
+            "C-": 57,
+            "D+": 30,
+            "D": 24,
+            "D-": 12,
+            "F": 27,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 999
+        },
+        "Spring_2024": {
+          "quarter_grade_distribution": {
+            "A+": 51,
+            "A": 177,
+            "A-": 78,
+            "B+": 60,
+            "B": 183,
+            "B-": 54,
+            "C+": 84,
+            "C": 144,
+            "C-": 57,
+            "D+": 30,
+            "D": 24,
+            "D-": 12,
+            "F": 27,
+            "P*": 15,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.8,
+          "quarter_enrolled": 999
+        }
+      }
+    },
+    {
+      "professor_name": "Max Helix",
+      "professor_slug": "max-helix",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 128,
+            "A": 1162,
+            "A-": 620,
+            "B+": 693,
+            "B": 1256,
+            "B-": 614,
+            "C+": 707,
+            "C": 991,
+            "C-": 392,
+            "D+": 266,
+            "D": 284,
+            "D-": 76,
+            "F": 195,
+            "P*": 58,
+            "NP*": 45
+          },
+          "quarter_average_gpa": 2.73,
+          "quarter_enrolled": 7487
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 63,
+            "A": 429,
+            "A-": 189,
+            "B+": 222,
+            "B": 405,
+            "B-": 195,
+            "C+": 192,
+            "C": 300,
+            "C-": 87,
+            "D+": 66,
+            "D": 57,
+            "D-": 9,
+            "F": 27,
+            "P*": 24,
+            "NP*": 30
+          },
+          "quarter_average_gpa": 2.89,
+          "quarter_enrolled": 2295
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 21,
+            "A": 309,
+            "A-": 255,
+            "B+": 219,
+            "B": 342,
+            "B-": 195,
+            "C+": 195,
+            "C": 324,
+            "C-": 129,
+            "D+": 96,
+            "D": 108,
+            "D-": 30,
+            "F": 63,
+            "P*": 15
+          },
+          "quarter_average_gpa": 2.67,
+          "quarter_enrolled": 2301
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 30,
+            "A": 330,
+            "A-": 129,
+            "B+": 207,
+            "B": 414,
+            "B-": 174,
+            "C+": 243,
+            "C": 273,
+            "C-": 138,
+            "D+": 78,
+            "D": 81,
+            "D-": 21,
+            "F": 78,
+            "P*": 15,
+            "NP*": 12
+          },
+          "quarter_average_gpa": 2.66,
+          "quarter_enrolled": 2223
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 14,
+            "A": 94,
+            "A-": 47,
+            "B+": 45,
+            "B": 95,
+            "B-": 50,
+            "C+": 77,
+            "C": 94,
+            "C-": 38,
+            "D+": 26,
+            "D": 38,
+            "D-": 16,
+            "F": 27,
+            "P*": 4,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.55,
+          "quarter_enrolled": 668
+        }
+      }
+    },
+    {
+      "professor_name": "Sarah Lievens",
+      "professor_slug": "sarah-lievens",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 24,
+            "A": 106,
+            "A-": 129,
+            "B+": 114,
+            "B": 212,
+            "B-": 134,
+            "C+": 161,
+            "C": 188,
+            "C-": 129,
+            "D+": 107,
+            "D": 96,
+            "D-": 75,
+            "F": 187,
+            "P*": 10,
+            "NP*": 16
+          },
+          "quarter_average_gpa": 2.18,
+          "quarter_enrolled": 1688
+        },
+        "Spring_2023": {
+          "quarter_grade_distribution": {
+            "A+": 18,
+            "A": 78,
+            "A-": 99,
+            "B+": 93,
+            "B": 168,
+            "B-": 105,
+            "C+": 135,
+            "C": 150,
+            "C-": 108,
+            "D+": 87,
+            "D": 72,
+            "D-": 57,
+            "F": 144,
+            "P*": 6,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 2.18,
+          "quarter_enrolled": 1326
+        },
+        "Spring_2025": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 28,
+            "A-": 30,
+            "B+": 21,
+            "B": 44,
+            "B-": 29,
+            "C+": 26,
+            "C": 38,
+            "C-": 21,
+            "D+": 20,
+            "D": 24,
+            "D-": 18,
+            "F": 43,
+            "P*": 4,
+            "NP*": 10
+          },
+          "quarter_average_gpa": 2.19,
+          "quarter_enrolled": 362
+        }
+      }
+    }
+  ]
+}

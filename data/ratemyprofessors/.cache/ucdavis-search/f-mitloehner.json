@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.2,
+    "avgRating": 4.7,
+    "department": "Animal Science",
+    "firstName": "Frank",
+    "id": "VGVhY2hlci0xMzY3NjY1",
+    "lastName": "Mitloehner",
+    "legacyId": 1367665,
+    "numRatings": 93,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 92.9825
+  }
+]

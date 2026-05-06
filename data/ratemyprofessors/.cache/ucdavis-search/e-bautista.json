@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 3.9,
+    "department": "Science",
+    "firstName": "Erwin",
+    "id": "VGVhY2hlci0xNDk3MDI=",
+    "lastName": "Bautista",
+    "legacyId": 149702,
+    "numRatings": 320,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 66.4336
+  }
+]

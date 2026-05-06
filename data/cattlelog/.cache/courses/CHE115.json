@@ -1,0 +1,280 @@
+{
+  "course_id": "CHE115",
+  "course_title": "Instrumental Analysis",
+  "overall_grades": {
+    "A+": 15,
+    "A": 99,
+    "A-": 29,
+    "B+": 55,
+    "B": 137,
+    "B-": 41,
+    "C+": 34,
+    "C": 63,
+    "C-": 7,
+    "D+": 4,
+    "D": 31,
+    "D-": 3,
+    "F": 31,
+    "P*": 27,
+    "NP*": 1
+  },
+  "overall_gpa": 2.77,
+  "overall_enrolled": 577,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2023",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elizabeth Neumann",
+      "professor_slug": "elizabeth-neumann",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 75,
+            "A-": 7,
+            "B+": 32,
+            "B": 125,
+            "B-": 17,
+            "C+": 9,
+            "C": 53,
+            "C-": 0,
+            "D+": 1,
+            "D": 24,
+            "D-": 2,
+            "F": 11,
+            "P*": 16,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.83,
+          "quarter_enrolled": 373
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 48,
+            "A-": 3,
+            "B+": 9,
+            "B": 69,
+            "B-": 9,
+            "C+": 3,
+            "C": 30,
+            "C-": 0,
+            "D+": 0,
+            "D": 21,
+            "D-": 0,
+            "F": 9,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.75,
+          "quarter_enrolled": 204
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 21,
+            "A-": 3,
+            "B+": 15,
+            "B": 48,
+            "B-": 3,
+            "C+": 0,
+            "C": 21,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 0,
+            "P*": 9
+          },
+          "quarter_average_gpa": 3.05,
+          "quarter_enrolled": 120
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 1,
+            "B+": 8,
+            "B": 8,
+            "B-": 5,
+            "C+": 6,
+            "C": 2,
+            "C-": 0,
+            "D+": 1,
+            "D": 3,
+            "D-": 2,
+            "F": 2,
+            "P*": 4,
+            "NP*": 1
+          },
+          "quarter_average_gpa": 2.62,
+          "quarter_enrolled": 49
+        }
+      }
+    },
+    {
+      "professor_name": "Gang Yu Liu",
+      "professor_slug": "gang-yu-liu",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 7,
+            "A-": 6,
+            "B+": 6,
+            "B": 1,
+            "B-": 2,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 35
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 8,
+            "A": 7,
+            "A-": 6,
+            "B+": 6,
+            "B": 1,
+            "B-": 2,
+            "C+": 3,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 1,
+            "D-": 0,
+            "F": 0,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.48,
+          "quarter_enrolled": 35
+        }
+      }
+    },
+    {
+      "professor_name": "Ruaridh Forbes",
+      "professor_slug": "ruaridh-forbes",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 11,
+            "A-": 13,
+            "B+": 5,
+            "B": 8,
+            "B-": 13,
+            "C+": 7,
+            "C": 4,
+            "C-": 4,
+            "D+": 0,
+            "D": 6,
+            "D-": 1,
+            "F": 14,
+            "P*": 7
+          },
+          "quarter_average_gpa": 2.41,
+          "quarter_enrolled": 94
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 9,
+            "A-": 9,
+            "B+": 3,
+            "B": 6,
+            "B-": 9,
+            "C+": 6,
+            "C": 3,
+            "C-": 3,
+            "D+": 0,
+            "D": 6,
+            "D-": 0,
+            "F": 12,
+            "P*": 6
+          },
+          "quarter_average_gpa": 2.31,
+          "quarter_enrolled": 72
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 2,
+            "A-": 4,
+            "B+": 2,
+            "B": 2,
+            "B-": 4,
+            "C+": 1,
+            "C": 1,
+            "C-": 1,
+            "D+": 0,
+            "D": 0,
+            "D-": 1,
+            "F": 2,
+            "P*": 1
+          },
+          "quarter_average_gpa": 2.71,
+          "quarter_enrolled": 22
+        }
+      }
+    },
+    {
+      "professor_name": "Tomoyuki Hayashi",
+      "professor_slug": "tomoyuki-hayashi",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 3,
+            "B+": 12,
+            "B": 3,
+            "B-": 9,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.6,
+          "quarter_enrolled": 75
+        },
+        "Fall_2023": {
+          "quarter_grade_distribution": {
+            "A+": 6,
+            "A": 6,
+            "A-": 3,
+            "B+": 12,
+            "B": 3,
+            "B-": 9,
+            "C+": 15,
+            "C": 6,
+            "C-": 3,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.6,
+          "quarter_enrolled": 75
+        }
+      }
+    }
+  ]
+}

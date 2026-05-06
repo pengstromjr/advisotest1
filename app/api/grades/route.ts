@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
+import { CURRENT_GRADES_FILE } from "@/lib/current-term";
 
 let cachedGrades: Record<string, any> | null = null;
 let cachedCourses: Record<string, any> | null = null;
@@ -8,7 +9,7 @@ let cachedCourses: Record<string, any> | null = null;
 function loadGrades() {
   if (!cachedGrades) {
     try {
-      const raw = fs.readFileSync(path.join(process.cwd(), "data", "grades.json"), "utf-8");
+      const raw = fs.readFileSync(path.join(process.cwd(), "data", CURRENT_GRADES_FILE), "utf-8");
       cachedGrades = JSON.parse(raw);
     } catch {
       cachedGrades = {};

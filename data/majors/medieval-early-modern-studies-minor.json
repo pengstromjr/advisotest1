@@ -8,7 +8,7 @@
     {
       "heading": "General Requirements",
       "courses": [],
-      "units": "Units",
+      "units": "24",
       "notes": [
         "The minor in Medieval & Early Modern Studies is a coherent program of interdisciplinary study. Medieval Studies units may be taken in one or more of the traditional fields of concentration, including art, history, literature, music, national languages, philosophy, political theory, and religious studies. Courses must be upper division with at least two courses each from the medieval and early modern periods. Students may also select a minor with a thematic emphasis. Although there is no foreign language requirement for the minor, knowledge of Latin or a modern European language is recommended. The minor must be designed in consultation with the Undergraduate Advisor."
       ]
@@ -16,5 +16,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "24"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:54.659Z"
 }

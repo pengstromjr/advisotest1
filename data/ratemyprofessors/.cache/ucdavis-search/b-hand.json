@@ -1,0 +1,47 @@
+[
+  {
+    "avgDifficulty": 0,
+    "avgRating": 0,
+    "department": "Animal Science",
+    "firstName": "Gary B",
+    "id": "VGVhY2hlci02NTQ5MzU=",
+    "lastName": "Anderson",
+    "legacyId": 654935,
+    "numRatings": 0,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": -1
+  },
+  {
+    "avgDifficulty": 2.1,
+    "avgRating": 4.8,
+    "department": "History",
+    "firstName": "Bianca",
+    "id": "VGVhY2hlci0zMDMyNzU2",
+    "lastName": "Hand",
+    "legacyId": 3032756,
+    "numRatings": 17,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 94.1176
+  },
+  {
+    "avgDifficulty": 3.1,
+    "avgRating": 3.8,
+    "department": "Environmental Science",
+    "firstName": "Susan",
+    "id": "VGVhY2hlci05MzIzNDQ=",
+    "lastName": "Handy",
+    "legacyId": 932344,
+    "numRatings": 25,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 70.5882
+  }
+]

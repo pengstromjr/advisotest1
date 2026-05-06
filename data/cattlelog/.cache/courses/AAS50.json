@@ -1,0 +1,119 @@
+{
+  "course_id": "AAS50",
+  "course_title": "Black Popular Culture",
+  "overall_grades": {
+    "A+": 184,
+    "A": 125,
+    "A-": 94,
+    "B+": 58,
+    "B": 62,
+    "B-": 35,
+    "C+": 18,
+    "C": 23,
+    "C-": 17,
+    "D+": 0,
+    "D": 0,
+    "D-": 3,
+    "F": 22,
+    "P*": 22,
+    "NP*": 9
+  },
+  "overall_gpa": 3.39,
+  "overall_enrolled": 672,
+  "available_quarters": [
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Elisa White",
+      "professor_slug": "elisa-white",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 184,
+            "A": 125,
+            "A-": 94,
+            "B+": 58,
+            "B": 62,
+            "B-": 35,
+            "C+": 18,
+            "C": 23,
+            "C-": 17,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 22,
+            "P*": 22,
+            "NP*": 9
+          },
+          "quarter_average_gpa": 3.39,
+          "quarter_enrolled": 672
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 105,
+            "A": 54,
+            "A-": 36,
+            "B+": 9,
+            "B": 33,
+            "B-": 9,
+            "C+": 3,
+            "C": 6,
+            "C-": 6,
+            "D+": 0,
+            "D": 0,
+            "D-": 3,
+            "F": 15,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 3.42,
+          "quarter_enrolled": 291
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 42,
+            "A": 51,
+            "A-": 42,
+            "B+": 42,
+            "B": 24,
+            "B-": 24,
+            "C+": 12,
+            "C": 15,
+            "C-": 9,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6,
+            "P*": 9,
+            "NP*": 6
+          },
+          "quarter_average_gpa": 3.28,
+          "quarter_enrolled": 282
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 37,
+            "A": 20,
+            "A-": 16,
+            "B+": 7,
+            "B": 5,
+            "B-": 2,
+            "C+": 3,
+            "C": 2,
+            "C-": 2,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 4
+          },
+          "quarter_average_gpa": 3.63,
+          "quarter_enrolled": 99
+        }
+      }
+    }
+  ]
+}

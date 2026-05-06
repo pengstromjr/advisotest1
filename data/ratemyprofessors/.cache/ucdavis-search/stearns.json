@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 4,
+    "avgRating": 2.9,
+    "department": "Economics",
+    "firstName": "Jenna",
+    "id": "VGVhY2hlci0yMzUxNTAy",
+    "lastName": "Stearns",
+    "legacyId": 2351502,
+    "numRatings": 36,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 48.6486
+  }
+]

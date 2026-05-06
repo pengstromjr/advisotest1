@@ -1,0 +1,204 @@
+{
+  "course_id": "CHE110B",
+  "course_title": "Physical Chemistry: Properties of Atoms & Molecules",
+  "overall_grades": {
+    "A+": 4,
+    "A": 67,
+    "A-": 38,
+    "B+": 44,
+    "B": 80,
+    "B-": 30,
+    "C+": 34,
+    "C": 52,
+    "C-": 20,
+    "D+": 9,
+    "D": 11,
+    "D-": 5,
+    "F": 26,
+    "P*": 10,
+    "NP*": 3
+  },
+  "overall_gpa": 2.7,
+  "overall_enrolled": 433,
+  "available_quarters": [
+    "Fall_2022",
+    "Fall_2024",
+    "Fall_2025",
+    "Winter_2023",
+    "Winter_2024",
+    "Winter_2025"
+  ],
+  "professors": [
+    {
+      "professor_name": "Delmar Larsen",
+      "professor_slug": "delmar-larsen",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 2,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 18
+        },
+        "Fall_2025": {
+          "quarter_grade_distribution": {
+            "A+": 1,
+            "A": 4,
+            "A-": 2,
+            "B+": 3,
+            "B": 3,
+            "B-": 3,
+            "C+": 0,
+            "C": 0,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 1,
+            "P*": 1
+          },
+          "quarter_average_gpa": 3.2,
+          "quarter_enrolled": 18
+        }
+      }
+    },
+    {
+      "professor_name": "Kyle Crabtree",
+      "professor_slug": "kyle-crabtree",
+      "professor_quarter_data": {
+        "Total": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 63,
+            "A-": 36,
+            "B+": 41,
+            "B": 77,
+            "B-": 27,
+            "C+": 34,
+            "C": 52,
+            "C-": 20,
+            "D+": 9,
+            "D": 11,
+            "D-": 5,
+            "F": 25,
+            "P*": 9,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.68,
+          "quarter_enrolled": 415
+        },
+        "Fall_2022": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 12,
+            "B+": 9,
+            "B": 18,
+            "B-": 9,
+            "C+": 12,
+            "C": 9,
+            "C-": 6,
+            "D+": 6,
+            "D": 6,
+            "D-": 0,
+            "F": 3,
+            "P*": 6,
+            "NP*": 3
+          },
+          "quarter_average_gpa": 2.65,
+          "quarter_enrolled": 111
+        },
+        "Fall_2024": {
+          "quarter_grade_distribution": {
+            "A+": 3,
+            "A": 6,
+            "A-": 0,
+            "B+": 12,
+            "B": 9,
+            "B-": 0,
+            "C+": 0,
+            "C": 12,
+            "C-": 0,
+            "D+": 0,
+            "D": 0,
+            "D-": 0,
+            "F": 6
+          },
+          "quarter_average_gpa": 2.64,
+          "quarter_enrolled": 48
+        },
+        "Winter_2023": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 12,
+            "A-": 9,
+            "B+": 12,
+            "B": 27,
+            "B-": 6,
+            "C+": 12,
+            "C": 21,
+            "C-": 6,
+            "D+": 0,
+            "D": 3,
+            "D-": 3,
+            "F": 12
+          },
+          "quarter_average_gpa": 2.46,
+          "quarter_enrolled": 123
+        },
+        "Winter_2024": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 27,
+            "A-": 9,
+            "B+": 6,
+            "B": 18,
+            "B-": 9,
+            "C+": 9,
+            "C": 9,
+            "C-": 6,
+            "D+": 3,
+            "D": 0,
+            "D-": 0,
+            "F": 3,
+            "P*": 3
+          },
+          "quarter_average_gpa": 2.95,
+          "quarter_enrolled": 102
+        },
+        "Winter_2025": {
+          "quarter_grade_distribution": {
+            "A+": 0,
+            "A": 6,
+            "A-": 6,
+            "B+": 2,
+            "B": 5,
+            "B-": 3,
+            "C+": 1,
+            "C": 1,
+            "C-": 2,
+            "D+": 0,
+            "D": 2,
+            "D-": 2,
+            "F": 1
+          },
+          "quarter_average_gpa": 2.81,
+          "quarter_enrolled": 31
+        }
+      }
+    }
+  ]
+}

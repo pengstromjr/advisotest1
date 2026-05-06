@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 3.2,
+    "avgRating": 2.8,
+    "department": "Plant & Soil Science",
+    "firstName": "George",
+    "id": "VGVhY2hlci0yNzgyOTA3",
+    "lastName": "Sellu",
+    "legacyId": 2782907,
+    "numRatings": 68,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 45.5882
+  }
+]

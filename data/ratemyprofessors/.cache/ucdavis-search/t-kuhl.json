@@ -1,0 +1,17 @@
+[
+  {
+    "avgDifficulty": 2.3,
+    "avgRating": 4.2,
+    "department": "Chemical Engineering",
+    "firstName": "Tonya",
+    "id": "VGVhY2hlci01NjEwMjk=",
+    "lastName": "Kuhl",
+    "legacyId": 561029,
+    "numRatings": 68,
+    "school": {
+      "id": "U2Nob29sLTEwNzM=",
+      "name": "University of California Davis"
+    },
+    "wouldTakeAgainPercent": 84.6154
+  }
+]

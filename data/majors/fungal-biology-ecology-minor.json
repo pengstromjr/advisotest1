@@ -10,7 +10,14 @@
       "courses": [
         "PLP 130",
         "PLP/PLB 148",
-        "PLP 150",
+        "PLP 150"
+      ],
+      "units": "3",
+      "notes": []
+    },
+    {
+      "heading": "Plant Pathology",
+      "courses": [
         "FST 104",
         "PLP 040",
         "PLP 135",
@@ -19,7 +26,7 @@
         "SAS 030",
         "SSC 111"
       ],
-      "units": "3",
+      "units": "7-9",
       "notes": [
         "Choose 7-9 units:"
       ]
@@ -27,5 +34,7 @@
   ],
   "specializations": [],
   "advising_notes": [],
-  "total_units": "17"
+  "total_units": "",
+  "catalog_year": "2026-2027 General Catalog",
+  "scraped_at": "2026-05-05T22:15:53.868Z"
 }
