@@ -6,6 +6,7 @@ import type { Section, StudentContext } from "@/lib/course-data";
 import { isEligible, type CourseMinimal } from "@/lib/eligibility";
 import { getStoredPlannedSections, getStoredBlockedTimes, checkTimeConflict } from "@/lib/schedule-state";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
+import { DISCOVERY_HUB_NOTICE } from "@/lib/legal-notices";
 import {
   Sparkles,
   Flame,
@@ -628,7 +629,7 @@ export function DiscoveryHub({
         }
 
         setSections(uniqueByCourse);
-      } catch (e) {
+      } catch {
         setError("Error loading discovery recommendations.");
       } finally {
         setLoading(false);
@@ -636,7 +637,7 @@ export function DiscoveryHub({
     };
 
     fetchDiscovery();
-  }, [activeCategoryId, activeCategory.kind, activeCategory.query, discoveryMajor, personalProfile, studentContext.completedCourses, studentContext.year]);
+  }, [activeCategory.id, activeCategoryId, activeCategory.kind, activeCategory.query, discoveryMajor, personalProfile, studentContext.completedCourses, studentContext.year]);
 
   return (
     <div className="flex h-full flex-col bg-gray-50/50 dark:bg-slate-900/50">
@@ -648,6 +649,9 @@ export function DiscoveryHub({
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">
               Explore course recommendations that fit your schedule and interests.
+            </p>
+            <p className="mt-2 max-w-2xl text-[11px] leading-5 text-gray-500 dark:text-slate-500">
+              {DISCOVERY_HUB_NOTICE}
             </p>
           </div>
           <button
@@ -1191,7 +1195,7 @@ function DiscoveryCard({ section, onClick, onOpenPicker }: { section: Section; o
         setIsAdded(true);
         setTimeout(() => setIsAdded(false), 2000);
       }
-    } catch (e) {
+    } catch {
       // Fallback: add current section if fetch fails
       dispatchScheduleAdd(section);
       setIsAdded(true);

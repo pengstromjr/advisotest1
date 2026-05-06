@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, type ReactNode } from "react";
 import Markdown from "react-markdown";
+import type { Components } from "react-markdown";
 import { CourseCard } from "./course-card";
-import { SuggestedScheduleCard } from "./suggested-schedule-card";
+import { SuggestedScheduleCard, type ScheduleBlockEntry } from "./suggested-schedule-card";
 import { CourseDetailModal } from "./schedule-planner/course-detail-modal";
 import type { Section } from "@/lib/course-data";
 
@@ -27,13 +28,14 @@ interface CourseCardData {
 }
 
 interface ScheduleBlockData {
-  courseCodes: string[];
+  entries: ScheduleBlockEntry[];
 }
 
 const CARD_RE =
   /\[COURSE_CARD\]([\s\S]*?)\[\/COURSE_CARD\]/g;
 const SCHEDULE_BLOCK_RE =
   /\[SCHEDULE_BLOCK\]([\s\S]*?)\[\/SCHEDULE_BLOCK\]/g;
+const SKIP_PREFIXES = new Set(["GE", "UC", "CRN", "GPA", "RMP", "TBA", "MW", "TR", "MWF"]);
 
 function parseCardBlock(block: string): CourseCardData | null {
   const get = (key: string): string | undefined => {
@@ -65,30 +67,63 @@ function parseCardBlock(block: string): CourseCardData | null {
   };
 }
 
+function normalizeParsedCourseCode(prefix: string, number: string) {
+  return `${prefix.toUpperCase()} ${number.toUpperCase()}`;
+}
+
+function parseScheduleBlockEntries(block: string): ScheduleBlockEntry[] {
+  const rawEntries = block
+    .split(/[,;\n]+/)
+    .map((value) => value.trim())
+    .filter(Boolean);
+  const entries: ScheduleBlockEntry[] = [];
+  const seen = new Set<string>();
+
+  for (const rawEntry of rawEntries) {
+    const courseMatch = rawEntry.match(/\b([A-Z]{2,5})\s+(\d{1,3}[A-Z]?\d?(?:\/[A-Z]\d*)?)\b/i);
+    if (!courseMatch) continue;
+
+    const prefix = courseMatch[1].toUpperCase();
+    if (SKIP_PREFIXES.has(prefix)) continue;
+
+    const courseCode = normalizeParsedCourseCode(prefix, courseMatch[2]);
+    const crnMatch = rawEntry.match(/(?:\bCRN\s*:?\s*|[:|#-]\s*|\s+)(\d{5})\b/i);
+    const crn = crnMatch?.[1];
+    const key = `${courseCode}:${crn ?? ""}`;
+
+    if (!seen.has(key)) {
+      entries.push(crn ? { courseCode, crn } : { courseCode });
+      seen.add(key);
+    }
+  }
+
+  return entries;
+}
+
 /**
  * Detect if a message looks like a schedule suggestion and extract course codes.
  * This works even when the AI doesn't use [SCHEDULE_BLOCK] tags.
  */
-function detectScheduleResponse(text: string): string[] | null {
+function detectScheduleResponse(text: string): ScheduleBlockEntry[] | null {
   // Check if this looks like a schedule suggestion
   const scheduleKeywords = /schedul|recommend.*cours|suggest.*cours|here.*course|course.*plan/i;
   if (!scheduleKeywords.test(text)) return null;
 
   // Extract all course codes (e.g., "ECS 150", "MAT 021A", "PHI 001")
-  const courseCodeRegex = /\b([A-Z]{2,5})\s+(\d{3}[A-Z]?\d?(?:\/[A-Z]\d*)?)\b/g;
+  const courseCodeRegex = /\b([A-Z]{2,5})\s+(\d{1,3}[A-Z]?\d?(?:\/[A-Z]\d*)?)\b/g;
   const found = new Set<string>();
   let m: RegExpExecArray | null;
   while ((m = courseCodeRegex.exec(text)) !== null) {
-    const code = `${m[1]} ${m[2]}`;
+    const code = normalizeParsedCourseCode(m[1], m[2]);
     // Filter out things that look like course codes but aren't (e.g., "GE areas")
-    if (m[1] !== "GE" && m[1] !== "UC" && m[1] !== "CRN") {
+    if (!SKIP_PREFIXES.has(m[1].toUpperCase())) {
       found.add(code);
     }
   }
 
   // Only treat as a schedule if we found 2+ unique course codes
   if (found.size >= 2) {
-    return Array.from(found);
+    return Array.from(found).map((courseCode) => ({ courseCode }));
   }
   return null;
 }
@@ -121,12 +156,9 @@ function splitContent(text: string): (string | CourseCardData | ScheduleBlockDat
     } else if (match[2] !== undefined) {
       // It's a SCHEDULE_BLOCK
       hasExplicitBlock = true;
-      const courseCodes = match[2]
-        .split(",")
-        .map((s) => s.trim())
-        .filter(Boolean);
-      if (courseCodes.length > 0) {
-        parts.push({ courseCodes });
+      const entries = parseScheduleBlockEntries(match[2]);
+      if (entries.length > 0) {
+        parts.push({ entries });
       } else {
         parts.push(match[0]);
       }
@@ -148,7 +180,7 @@ function splitContent(text: string): (string | CourseCardData | ScheduleBlockDat
     const detectedCodes = detectScheduleResponse(text);
     if (detectedCodes && detectedCodes.length >= 2) {
       // Append the schedule card at the end
-      parts.push({ courseCodes: detectedCodes } as ScheduleBlockData);
+      parts.push({ entries: detectedCodes } as ScheduleBlockData);
     }
   }
 
@@ -157,14 +189,13 @@ function splitContent(text: string): (string | CourseCardData | ScheduleBlockDat
 
 /* Inline course code regex — matches patterns like ECS 150, MAT 021A, PHI 001 */
 const COURSE_CODE_INLINE_RE = /\b([A-Z]{2,5})\s+(\d{3}[A-Z]?\b)/g;
-const SKIP_PREFIXES = new Set(["GE", "UC", "CRN", "GPA", "RMP", "TBA", "MW", "TR", "MWF"]);
 
 function CourseCodeText({ text, onCourseClick }: { text: string; onCourseClick: (code: string) => void }) {
   const parts: (string | { code: string })[] = [];
   let lastIdx = 0;
   let m: RegExpExecArray | null;
-  COURSE_CODE_INLINE_RE.lastIndex = 0;
-  while ((m = COURSE_CODE_INLINE_RE.exec(text)) !== null) {
+  const courseCodeInlineRe = new RegExp(COURSE_CODE_INLINE_RE);
+  while ((m = courseCodeInlineRe.exec(text)) !== null) {
     if (SKIP_PREFIXES.has(m[1])) continue;
     if (m.index > lastIdx) parts.push(text.slice(lastIdx, m.index));
     parts.push({ code: `${m[1]} ${m[2]}` });
@@ -209,18 +240,18 @@ export function MessageBubble({
     } catch {}
   }, []);
 
-  const markdownComponents = {
-    p: ({ children, ...props }: any) => (
+  const markdownComponents: Components = {
+    p: ({ children, ...props }) => (
       <p {...props}>
         {processChildren(children, handleCourseClick)}
       </p>
     ),
-    li: ({ children, ...props }: any) => (
+    li: ({ children, ...props }) => (
       <li {...props}>
         {processChildren(children, handleCourseClick)}
       </li>
     ),
-    strong: ({ children, ...props }: any) => (
+    strong: ({ children, ...props }) => (
       <strong {...props}>
         {processChildren(children, handleCourseClick)}
       </strong>
@@ -271,8 +302,8 @@ export function MessageBubble({
                   </div>
                 </div>
               ) : null
-            ) : "courseCodes" in part ? (
-              <SuggestedScheduleCard key={`block-${i}`} courseCodes={part.courseCodes} />
+            ) : "entries" in part ? (
+              <SuggestedScheduleCard key={`block-${i}`} entries={part.entries} />
             ) : (
               <CourseCard
                 key={`card-${i}`}
@@ -289,7 +320,7 @@ export function MessageBubble({
 }
 
 /* Helper: recursively process children to replace string text with CourseCodeText */
-function processChildren(children: any, onCourseClick: (code: string) => void): any {
+function processChildren(children: ReactNode, onCourseClick: (code: string) => void): ReactNode {
   if (typeof children === "string") {
     return <CourseCodeText text={children} onCourseClick={onCourseClick} />;
   }

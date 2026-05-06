@@ -14,6 +14,7 @@ import {
 } from "@/lib/academic-plan";
 import type { StudentContext } from "@/lib/course-data";
 import { CURRENT_BLOCKS_STORAGE_KEY } from "@/lib/current-term";
+import { DATA_ENTRY_NOTICE } from "@/lib/legal-notices";
 import type { TimeBlock, Weekday } from "@/lib/time-blocks";
 import { loadTimeBlocks, saveTimeBlocks, snapTo15Minutes, BLOCK_COLORS } from "@/lib/time-blocks";
 import { 
@@ -1271,6 +1272,9 @@ export function Onboarding({
                   <p className="mt-2 max-w-2xl text-[11px] leading-relaxed text-gray-500 sm:text-sm">
                     Paste text or upload a PDF/image. Adviso will scan it for
                     completed courses like ECN 001 and MAT 021B.
+                  </p>
+                  <p className="mt-1.5 max-w-2xl text-[11px] leading-relaxed text-gray-500">
+                    {DATA_ENTRY_NOTICE}
                   </p>
                 </div>
               </div>

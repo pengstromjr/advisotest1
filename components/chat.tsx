@@ -5,6 +5,11 @@ import { useChat } from "@ai-sdk/react";
 import { getAdvisingGoals } from "@/lib/advising-goals";
 import { MessageList } from "./message-list";
 import type { StudentContext } from "@/lib/course-data";
+import {
+  getStoredBlockedTimes,
+  getStoredPlannedSections,
+} from "@/lib/schedule-state";
+import { AI_CHAT_NOTICE } from "@/lib/legal-notices";
 
 interface ChatProps {
   studentContext: StudentContext;
@@ -102,9 +107,14 @@ export function Chat({ studentContext }: ChatProps) {
     const trimmed = text.trim();
     if (!trimmed || isLoading) return;
     setInput("");
+    const liveStudentContext: StudentContext = {
+      ...studentContext,
+      blockedTimes: getStoredBlockedTimes(),
+      plannedSections: getStoredPlannedSections(),
+    };
     await sendMessage(
       { text: trimmed },
-      { body: { studentContext } }
+      { body: { studentContext: liveStudentContext } }
     );
   };
 
@@ -168,6 +178,9 @@ export function Chat({ studentContext }: ChatProps) {
       )}
 
       <div className="shrink-0 border-t border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-3">
+        <p className="mx-auto mb-2 max-w-3xl text-[11px] leading-5 text-gray-500 dark:text-slate-400">
+          {AI_CHAT_NOTICE}
+        </p>
         <form
           onSubmit={handleSubmit}
           className="mx-auto flex max-w-3xl gap-2"

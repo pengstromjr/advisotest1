@@ -161,4 +161,5 @@ export interface StudentContext {
   secondaryMajor?: string;
   minors?: string[];
   blockedTimes?: TimeBlock[];
+  plannedSections?: Section[];
 }

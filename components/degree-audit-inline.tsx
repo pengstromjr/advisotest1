@@ -11,6 +11,7 @@ import {
   requirementPathKind,
 } from "./requirement-path-selector";
 import { Sparkles, Info } from "lucide-react";
+import { UNOFFICIAL_DEGREE_NOTICE } from "@/lib/legal-notices";
 import {
   getRequirementItemProgress,
   getRequirementSectionProgress,
@@ -753,10 +754,13 @@ export function DegreeAuditInline({
 
       {/* Footer */}
       <div className="border-t border-gray-200 dark:border-slate-800 bg-gray-50 dark:bg-slate-900 px-4 py-2.5">
-        <p className="text-xs text-gray-400 dark:text-slate-500">
+        <p className="text-xs text-gray-500 dark:text-slate-400">
           {activeTab === "major"
             ? "Check off courses. Changes sync with the AI advisor."
             : "GE progress updates as you check off courses."}
+        </p>
+        <p className="mt-1 text-[11px] leading-5 text-gray-400 dark:text-slate-500">
+          {UNOFFICIAL_DEGREE_NOTICE}
         </p>
       </div>
     </div>

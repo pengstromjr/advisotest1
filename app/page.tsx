@@ -7,6 +7,7 @@ import { AIPanel, MinimizedAIPanel } from "@/components/ai-panel";
 import { Onboarding } from "@/components/onboarding";
 import { useTheme } from "@/lib/theme-context";
 import type { StudentContext } from "@/lib/course-data";
+import { APP_NOTICE } from "@/lib/legal-notices";
 
 const ONBOARDING_KEY = "adviso-onboarding-complete";
 const AI_PANEL_MINIMIZED_KEY = "adviso-ai-panel-minimized";
@@ -27,18 +28,21 @@ export default function Home() {
 
   useLayoutEffect(() => {
     if (typeof window === "undefined") return;
-    const completed = window.localStorage.getItem(ONBOARDING_KEY) === "true";
-    if (completed) {
-      setShowOnboarding(false);
-    } else {
-      setShowOnboarding(true);
-    }
-    const storedAiPanelState = window.localStorage.getItem(AI_PANEL_MINIMIZED_KEY);
-    setAiMinimized(
-      storedAiPanelState === null
-        ? window.matchMedia("(max-width: 1023px)").matches
-        : storedAiPanelState === "true"
-    );
+    let cancelled = false;
+    window.queueMicrotask(() => {
+      if (cancelled) return;
+      const completed = window.localStorage.getItem(ONBOARDING_KEY) === "true";
+      setShowOnboarding(!completed);
+      const storedAiPanelState = window.localStorage.getItem(AI_PANEL_MINIMIZED_KEY);
+      setAiMinimized(
+        storedAiPanelState === null
+          ? window.matchMedia("(max-width: 1023px)").matches
+          : storedAiPanelState === "true"
+      );
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
@@ -85,24 +89,41 @@ export default function Home() {
         <div className="flex items-center gap-2.5">
           <span className="text-xl font-bold tracking-tighter text-white">Adviso</span>
         </div>
-        {/* Dark mode toggle */}
-        <button
-          onClick={toggle}
-          className="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/5 px-3.5 py-1.5 text-xs font-semibold text-white transition-all hover:bg-white/15 hover:border-white/40 shadow-sm"
-          aria-label="Toggle dark mode"
-        >
-          {theme === "dark" ? (
-            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-          ) : (
-            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            </svg>
-          )}
-          <span className="tracking-wide uppercase text-[10px]">{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
-        </button>
+        <div className="flex items-center gap-2">
+          <a
+            href="/terms"
+            className="rounded-full border border-white/15 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wide text-white/85 transition-colors hover:bg-white/10 hover:text-white"
+          >
+            Terms
+          </a>
+          {/* Dark mode toggle */}
+          <button
+            onClick={toggle}
+            className="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/5 px-3.5 py-1.5 text-xs font-semibold text-white transition-all hover:bg-white/15 hover:border-white/40 shadow-sm"
+            aria-label="Toggle dark mode"
+          >
+            {theme === "dark" ? (
+              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            ) : (
+              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            )}
+            <span className="tracking-wide uppercase text-[10px]">{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
+          </button>
+        </div>
       </header>
+
+      <div className="shrink-0 border-b border-[#DAAA00]/20 bg-[#fff8e1] px-4 py-1.5 text-[11px] leading-5 text-[#4d3b00] dark:border-[#DAAA00]/20 dark:bg-[#DAAA00]/10 dark:text-yellow-100">
+        <p className="mx-auto max-w-6xl">
+          {APP_NOTICE}{" "}
+          <a href="/terms" className="font-semibold underline underline-offset-2">
+            Terms and disclosures
+          </a>
+        </p>
+      </div>
 
       {/* Loading shell */}
       {showLoadingShell && (

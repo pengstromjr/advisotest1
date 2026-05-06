@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
 import type { Section } from "@/lib/course-data";
+import { SCHEDULE_GENERATION_NOTICE } from "@/lib/legal-notices";
 
 interface CatalogCourse {
   code: string;
@@ -13,15 +14,26 @@ interface CatalogCourse {
   ge_areas: string[];
 }
 
-interface SuggestedScheduleCardProps {
-  courseCodes: string[];
+export interface ScheduleBlockEntry {
+  courseCode: string;
+  crn?: string;
 }
 
-export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProps) {
+interface SuggestedScheduleCardProps {
+  entries: ScheduleBlockEntry[];
+}
+
+function normalizeCourseCode(code: string) {
+  return code.toUpperCase().replace(/\s+/g, " ").trim();
+}
+
+export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
   const [courses, setCourses] = useState<CatalogCourse[]>([]);
   const [sections, setSections] = useState<Record<string, Section | null>>({});
   const [loading, setLoading] = useState(true);
   const [added, setAdded] = useState(false);
+
+  const courseCodes = useMemo(() => entries.map((entry) => entry.courseCode), [entries]);
 
   useEffect(() => {
     let active = true;
@@ -40,11 +52,20 @@ export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProp
 
         // Try to fetch section data (may not exist for all courses)
         const sectionMap: Record<string, Section | null> = {};
-        for (const code of courseCodes) {
+        for (const entry of entries) {
+          const code = entry.courseCode;
           try {
-            const res = await fetch(`/api/sections?q=${encodeURIComponent(code.trim())}&limit=1`);
+            const params = entry.crn
+              ? `crn=${encodeURIComponent(entry.crn)}&limit=1`
+              : `q=${encodeURIComponent(code.trim())}&limit=1`;
+            const res = await fetch(`/api/sections?${params}`);
             const data = await res.json();
-            sectionMap[code] = data.sections?.[0] || null;
+            const section = data.sections?.[0] || null;
+            sectionMap[code] = section && (
+              !entry.crn || normalizeCourseCode(section.courseCode) === normalizeCourseCode(code)
+            )
+              ? section
+              : null;
           } catch {
             sectionMap[code] = null;
           }
@@ -57,14 +78,14 @@ export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProp
       }
     }
 
-    if (courseCodes.length > 0) {
+    if (entries.length > 0) {
       fetchData();
     } else {
       setLoading(false);
     }
 
     return () => { active = false; };
-  }, [courseCodes]);
+  }, [entries, courseCodes]);
 
   const handleAddAll = () => {
     // Add any courses that have real section data to the planner
@@ -120,7 +141,8 @@ export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProp
       {/* Course list */}
       <div className="divide-y divide-gray-100 p-2 dark:divide-white/5">
         {courses.map((course) => {
-          const section = sections[course.code];
+          const entry = entries.find((item) => normalizeCourseCode(item.courseCode) === normalizeCourseCode(course.code));
+          const section = sections[course.code] || (entry ? sections[entry.courseCode] : null);
           const meeting = section?.meetings?.[0];
           const days = meeting?.days?.join("") || null;
           const time = meeting?.startTime && meeting?.endTime
@@ -146,6 +168,7 @@ export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProp
               <span className="text-xs text-gray-600 dark:text-slate-400">{course.title}</span>
               <span className="text-xs text-gray-400 dark:text-slate-500">
                 {typeof course.units === "number" ? course.units : parseFloat(String(course.units)) || "?"} units
+                {section?.crn && ` · CRN ${section.crn}`}
                 {course.ge_areas?.length > 0 && ` · GE: ${course.ge_areas.join(", ")}`}
               </span>
             </div>
@@ -156,35 +179,45 @@ export function SuggestedScheduleCard({ courseCodes }: SuggestedScheduleCardProp
       {/* Footer */}
       <div className="border-t border-gray-100 bg-gray-50 p-3 dark:border-white/5 dark:bg-slate-900/50">
         {addableSections.length > 0 ? (
-          <button
-            onClick={handleAddAll}
-            disabled={added}
-            className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition-all ${
-              added
-                ? "bg-green-50 text-green-700 border border-green-200 dark:bg-green-900/20 dark:text-green-400 dark:border-green-400/20"
-                : "bg-[#002855] text-white hover:bg-[#001a3a] shadow-sm dark:bg-blue-600 dark:hover:bg-blue-500"
-            }`}
-          >
-            {added ? (
-              <>
-                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-                Added to Planner!
-              </>
-            ) : (
-              <>
-                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-                </svg>
-                Add {addableSections.length} to Schedule Planner
-              </>
-            )}
-          </button>
+          <>
+            <button
+              onClick={handleAddAll}
+              disabled={added}
+              className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition-all ${
+                added
+                  ? "bg-green-50 text-green-700 border border-green-200 dark:bg-green-900/20 dark:text-green-400 dark:border-green-400/20"
+                  : "bg-[#002855] text-white hover:bg-[#001a3a] shadow-sm dark:bg-blue-600 dark:hover:bg-blue-500"
+              }`}
+            >
+              {added ? (
+                <>
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Added to Planner!
+                </>
+              ) : (
+                <>
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+                  </svg>
+                  Add {addableSections.length} to Schedule Planner
+                </>
+              )}
+            </button>
+            <p className="mt-2 text-[11px] leading-5 text-gray-500 dark:text-slate-400">
+              {SCHEDULE_GENERATION_NOTICE}
+            </p>
+          </>
         ) : (
-          <p className="text-center text-xs text-gray-400 dark:text-slate-500">
-            Section times not available yet — search for these courses in the Schedule Planner to add them.
-          </p>
+          <div className="space-y-2 text-center">
+            <p className="text-xs text-gray-400 dark:text-slate-500">
+              Section times not available yet — search for these courses in the Schedule Planner to add them.
+            </p>
+            <p className="text-[11px] leading-5 text-gray-500 dark:text-slate-400">
+              {SCHEDULE_GENERATION_NOTICE}
+            </p>
+          </div>
         )}
       </div>
     </div>

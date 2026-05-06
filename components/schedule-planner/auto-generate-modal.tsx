@@ -10,6 +10,7 @@ import {
   getRequirementItemProgress,
   normalizeRequirementSections,
 } from "@/lib/requirement-normalizer";
+import { SCHEDULE_GENERATION_NOTICE } from "@/lib/legal-notices";
 
 interface AutoGenerateModalProps {
   open: boolean;
@@ -27,7 +28,7 @@ interface CourseMinimal {
 interface ProgramResponse {
   requirements: RequirementSection[];
   ge: {
-    categories: any[];
+    categories: unknown[];
     notes: string[];
     courseInfoMap: Record<string, CourseMinimal>;
   };
@@ -48,7 +49,6 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
     ge: true,
     discovery: true,
   });
-  const [geGroups, setGeGroups] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     if (open && studentContext.major) {
@@ -86,7 +86,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
             SE: [],
           };
 
-          Object.entries(data.ge.courseInfoMap).forEach(([code, info]: [string, any]) => {
+          Object.entries(data.ge.courseInfoMap).forEach(([code, info]) => {
             if (studentContext.completedCourses.includes(code)) return;
             if (!isEligible(code, studentContext.completedCourses, data.ge.courseInfoMap, studentContext.year || "")) return;
             
@@ -110,8 +110,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
             ge: gePool,
             discovery: discoveryPool,
           });
-          setGeGroups(groups);
-        } catch (e) {
+        } catch {
           setError("Could not load your degree requirements.");
         } finally {
           setFetchingReqs(false);
@@ -123,7 +122,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
       setResult(null);
       setError("");
     }
-  }, [open, studentContext.major, studentContext.completedCourses]);
+  }, [open, studentContext.major, studentContext.completedCourses, studentContext.year]);
 
   const handleGenerate = async () => {
     if (!studentContext.major) {
@@ -267,7 +266,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
                     />
                     <div>
                       <span className="text-sm font-semibold text-gray-900 dark:text-white">Interesting Electives</span>
-                      <p className="text-[11px] text-gray-500 dark:text-slate-400">High-rated "discovery" courses and popular picks.</p>
+                      <p className="text-[11px] text-gray-500 dark:text-slate-400">High-rated &quot;discovery&quot; courses and popular picks.</p>
                     </div>
                   </label>
                 </div>
@@ -304,6 +303,9 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
                   );
                 })}
               </div>
+              <p className="mt-3 text-[11px] leading-5 text-green-900/70 dark:text-green-200/80">
+                {SCHEDULE_GENERATION_NOTICE}
+              </p>
             </div>
           )}
         </div>
