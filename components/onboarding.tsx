@@ -1260,12 +1260,12 @@ export function Onboarding({
 
           {/* Step 3: Transcript */}
           <div
-            className={`onboarding-panel absolute inset-0 flex flex-col p-5 sm:p-10 ${slideClass(3)} ${
+            className={`onboarding-panel absolute inset-0 flex flex-col overflow-hidden p-5 sm:p-10 ${slideClass(3)} ${
               step !== 3 ? "pointer-events-none" : ""
             }`}
           >
             <div className="mx-auto flex min-h-0 w-full max-w-3xl flex-1 flex-col">
-              <div className="mb-3 flex items-start gap-3 sm:mb-6 sm:gap-4">
+              <div className="mb-3 flex shrink-0 items-start gap-3 sm:mb-5 sm:gap-4">
                 <button
                   type="button"
                   onClick={() => goTo(2)}
@@ -1296,153 +1296,155 @@ export function Onboarding({
                 </div>
               </div>
 
-              <div className="flex flex-col rounded-3xl border border-gray-100 bg-white/70 p-3 shadow-sm sm:p-4">
-                <div className="mb-3 flex items-center justify-between gap-3">
-                  <label className="text-xs font-bold uppercase tracking-widest text-[#002855]/60">
-                    Transcript
-                  </label>
-                  <span className="hidden text-xs font-medium text-gray-400 md:block">
-                    PDF, image, or pasted text
-                  </span>
+              <div className="min-h-0 flex-1 overflow-y-auto pr-1">
+                <div className="flex flex-col rounded-3xl border border-gray-100 bg-white/70 p-3 shadow-sm sm:p-4">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <label className="text-xs font-bold uppercase tracking-widest text-[#002855]/60">
+                      Transcript
+                    </label>
+                    <span className="hidden text-xs font-medium text-gray-400 md:block">
+                      PDF, image, or pasted text
+                    </span>
+                  </div>
+
+                  <textarea
+                    value={transcript}
+                    onChange={(e) => setTranscript(e.target.value)}
+                    placeholder="Copy and paste text from your unofficial transcript here..."
+                    className="h-20 w-full resize-none rounded-2xl border border-gray-200 bg-gray-50/70 p-4 text-sm leading-relaxed text-gray-800 outline-none transition-colors focus:border-[#002855] focus:bg-white focus:ring-4 focus:ring-[#002855]/10 sm:h-24"
+                  />
+
+                  <div className="mt-3 rounded-2xl border border-dashed border-[#002855]/20 bg-[#002855]/[0.02] p-3">
+                    <input
+                      ref={transcriptFileInputRef}
+                      type="file"
+                      accept="application/pdf,image/*"
+                      multiple
+                      className="hidden"
+                      onChange={(event) => handleTranscriptFiles(event.target.files)}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => transcriptFileInputRef.current?.click()}
+                      className="adviso-choice-card flex w-full items-center gap-3 rounded-xl border border-gray-200 bg-white px-3 py-3 text-left shadow-sm hover:border-[#DAAA00]/60 hover:bg-[#fffaf0]"
+                    >
+                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#002855] text-white">
+                        <Upload className="h-4 w-4" />
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-sm font-semibold text-gray-900">
+                          Upload transcript files
+                        </span>
+                        <span className="mt-0.5 block text-xs leading-snug text-gray-500">
+                          Add up to 4 PDFs or screenshots. Adviso uses AI vision
+                          to read them.
+                        </span>
+                      </span>
+                    </button>
+
+                    {transcriptFiles.length > 0 && (
+                      <div className="mt-2 grid gap-2 sm:grid-cols-2">
+                        {transcriptFiles.map((item) => (
+                          <div
+                            key={item.id}
+                            className="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2 text-xs shadow-sm"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gray-50 text-[#002855]">
+                              <FileText className="h-4 w-4" />
+                            </span>
+                            <span className="min-w-0 flex-1">
+                              <span className="block truncate font-semibold text-gray-700">
+                                {item.name}
+                              </span>
+                              <span className="text-[10px] text-gray-400">
+                                {(item.size / (1024 * 1024)).toFixed(1)} MB
+                              </span>
+                            </span>
+                            <button
+                              type="button"
+                              onClick={() =>
+                                setTranscriptFiles((prev) =>
+                                  prev.filter((file) => file.id !== item.id)
+                                )
+                              }
+                              className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                              aria-label={`Remove ${item.name}`}
+                            >
+                              <X className="h-3.5 w-3.5" />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
 
-                <textarea
-                  value={transcript}
-                  onChange={(e) => setTranscript(e.target.value)}
-                  placeholder="Copy and paste text from your unofficial transcript here..."
-                  className="h-20 w-full resize-none rounded-2xl border border-gray-200 bg-gray-50/70 p-4 text-sm leading-relaxed text-gray-800 outline-none transition-colors focus:border-[#002855] focus:bg-white focus:ring-4 focus:ring-[#002855]/10 sm:h-28"
-                />
+                {parseError && (
+                  <p className="mt-3 rounded-xl bg-red-50 px-3 py-2 text-xs font-medium text-red-600">
+                    {parseError}
+                  </p>
+                )}
 
-                <div className="mt-3 rounded-2xl border border-dashed border-[#002855]/20 bg-[#002855]/[0.02] p-3">
-                  <input
-                    ref={transcriptFileInputRef}
-                    type="file"
-                    accept="application/pdf,image/*"
-                    multiple
-                    className="hidden"
-                    onChange={(event) => handleTranscriptFiles(event.target.files)}
-                  />
-                  <button
-                    type="button"
-                    onClick={() => transcriptFileInputRef.current?.click()}
-                    className="adviso-choice-card flex w-full items-center gap-3 rounded-xl border border-gray-200 bg-white px-3 py-3 text-left shadow-sm hover:border-[#DAAA00]/60 hover:bg-[#fffaf0]"
-                  >
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#002855] text-white">
-                      <Upload className="h-4 w-4" />
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-sm font-semibold text-gray-900">
-                        Upload transcript files
-                      </span>
-                      <span className="mt-0.5 block text-xs leading-snug text-gray-500">
-                        Add up to 4 PDFs or screenshots. Adviso uses AI vision
-                        to read them.
-                      </span>
-                    </span>
-                  </button>
-
-                  {transcriptFiles.length > 0 && (
-                    <div className="mt-2 grid gap-2 sm:grid-cols-2">
-                      {transcriptFiles.map((item) => (
-                        <div
-                          key={item.id}
-                          className="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2 text-xs shadow-sm"
+                {parsedCodes.length > 0 && (
+                  <div className="mt-3 rounded-2xl border border-green-100 bg-green-50 p-3 text-xs text-gray-700">
+                    <p className="mb-2 font-semibold text-green-700">
+                      Detected {parsedCodes.length} completed course
+                      {parsedCodes.length > 1 ? "s" : ""}:
+                    </p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {parsedCodes.map((c) => (
+                        <span
+                          key={c}
+                          className="rounded-full bg-white px-2.5 py-1 text-[10px] font-semibold text-gray-800 shadow-sm"
                         >
-                          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gray-50 text-[#002855]">
-                            <FileText className="h-4 w-4" />
-                          </span>
-                          <span className="min-w-0 flex-1">
-                            <span className="block truncate font-semibold text-gray-700">
-                              {item.name}
-                            </span>
-                            <span className="text-[10px] text-gray-400">
-                              {(item.size / (1024 * 1024)).toFixed(1)} MB
-                            </span>
-                          </span>
-                          <button
-                            type="button"
-                            onClick={() =>
-                              setTranscriptFiles((prev) =>
-                                prev.filter((file) => file.id !== item.id)
-                              )
-                            }
-                            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-700"
-                            aria-label={`Remove ${item.name}`}
-                          >
-                            <X className="h-3.5 w-3.5" />
-                          </button>
-                        </div>
+                          {c}
+                        </span>
                       ))}
                     </div>
-                  )}
-                </div>
-
-                <div className="mt-3 flex flex-wrap items-center justify-between gap-3 border-t border-gray-100 pt-3">
-                  <button
-                    type="button"
-                    onClick={handleParseTranscript}
-                    disabled={parsing || (!transcript.trim() && transcriptFiles.length === 0)}
-                    className="adviso-primary-action inline-flex items-center gap-2 rounded-xl bg-[#002855] px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-[#001a3a] disabled:cursor-not-allowed disabled:bg-slate-300 disabled:opacity-70"
-                  >
-                    {parsing ? (
-                      <>
-                        <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                        Scanning
-                      </>
-                    ) : (
-                      <>
-                        <ClipboardCheck className="h-3.5 w-3.5" />
-                        Scan transcript
-                      </>
-                    )}
-                  </button>
-                  <div className="ml-auto flex items-center gap-3">
-                    <button
-                      type="button"
-                      onClick={() => goTo(4)}
-                      className="text-xs font-semibold text-gray-400 transition-colors hover:text-gray-600"
-                    >
-                      Skip this step
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => goTo(4)}
-                      className="adviso-primary-action rounded-xl bg-[#002855] px-5 py-2 text-sm font-semibold text-white shadow-lg hover:bg-[#001a3a] hover:shadow-xl sm:px-7 sm:py-2.5"
-                    >
-                      Next Step
-                    </button>
+                    <p className="mt-2 text-[10px] text-gray-500">
+                      You can always edit this list later from the profile panel
+                      or degree audit.
+                    </p>
                   </div>
-                </div>
+                )}
               </div>
 
-              {parseError && (
-                <p className="mt-3 rounded-xl bg-red-50 px-3 py-2 text-xs font-medium text-red-600">
-                  {parseError}
-                </p>
-              )}
-
-              {parsedCodes.length > 0 && (
-                <div className="mt-3 rounded-2xl border border-green-100 bg-green-50 p-3 text-xs text-gray-700">
-                  <p className="mb-2 font-semibold text-green-700">
-                    Detected {parsedCodes.length} completed course
-                    {parsedCodes.length > 1 ? "s" : ""}:
-                  </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {parsedCodes.map((c) => (
-                      <span
-                        key={c}
-                        className="rounded-full bg-white px-2.5 py-1 text-[10px] font-semibold text-gray-800 shadow-sm"
-                      >
-                        {c}
-                      </span>
-                    ))}
-                  </div>
-                  <p className="mt-2 text-[10px] text-gray-500">
-                    You can always edit this list later from the profile panel
-                    or degree audit.
-                  </p>
+              <div className="mt-3 flex shrink-0 flex-wrap items-center justify-between gap-3 border-t border-gray-100 bg-white/80 pt-3">
+                <button
+                  type="button"
+                  onClick={handleParseTranscript}
+                  disabled={parsing || (!transcript.trim() && transcriptFiles.length === 0)}
+                  className="adviso-primary-action inline-flex items-center gap-2 rounded-xl bg-[#002855] px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-[#001a3a] disabled:cursor-not-allowed disabled:bg-slate-300 disabled:opacity-70"
+                >
+                  {parsing ? (
+                    <>
+                      <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white border-t-transparent" />
+                      Scanning
+                    </>
+                  ) : (
+                    <>
+                      <ClipboardCheck className="h-3.5 w-3.5" />
+                      Scan transcript
+                    </>
+                  )}
+                </button>
+                <div className="ml-auto flex items-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => goTo(4)}
+                    className="text-xs font-semibold text-gray-400 transition-colors hover:text-gray-600"
+                  >
+                    Skip this step
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => goTo(4)}
+                    className="adviso-primary-action rounded-xl bg-[#002855] px-5 py-2 text-sm font-semibold text-white shadow-lg hover:bg-[#001a3a] hover:shadow-xl sm:px-7 sm:py-2.5"
+                  >
+                    Next Step
+                  </button>
                 </div>
-              )}
+              </div>
             </div>
           </div>
 
