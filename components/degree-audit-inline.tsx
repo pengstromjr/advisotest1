@@ -61,10 +61,102 @@ interface ProgramData {
 
 type Tab = "major" | "ge";
 
+const TOPICAL_BREADTH_CODES = new Set(["AH", "SE", "SS"]);
+
 function parseUnits(u: number | string): number {
   if (typeof u === "number") return u;
   const match = String(u).match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
+}
+
+function normalizeCourseCodeForLookup(code: string): string {
+  return code
+    .toUpperCase()
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(
+      /^([A-Z]{2,5})\s+(\d{1,2})([A-Z]?)$/,
+      (_match, subject: string, number: string, suffix: string) =>
+        `${subject} ${number.padStart(3, "0")}${suffix || ""}`
+    );
+}
+
+function getAreaTarget(area: GEArea): number {
+  return area.units_min ?? area.units_required ?? 0;
+}
+
+function allocateGeCoursesForCategory(
+  completedCourses: string[],
+  courseGeMap: Record<string, GECourseInfo>,
+  areas: GEArea[]
+) {
+  const areaByCode = new Map(areas.map((area) => [area.code, area]));
+  const areaUnits: Record<string, number> = {};
+  const areaCourses: Record<string, { code: string; units: number }[]> = {};
+  for (const area of areas) {
+    areaUnits[area.code] = 0;
+    areaCourses[area.code] = [];
+  }
+
+  const seenCourses = new Set<string>();
+  const candidates = completedCourses
+    .map((rawCode) => {
+      const code = normalizeCourseCodeForLookup(rawCode);
+      if (seenCourses.has(code)) return null;
+      seenCourses.add(code);
+      const info = courseGeMap[code] || courseGeMap[rawCode];
+      if (!info) return null;
+      const units = parseUnits(info.units);
+      if (units <= 0) return null;
+      const eligibleAreas = Array.from(
+        new Set((info.ge_areas || []).filter((area) => areaByCode.has(area)))
+      );
+      if (eligibleAreas.length === 0) return null;
+      return { code, units, eligibleAreas };
+    })
+    .filter(
+      (candidate): candidate is { code: string; units: number; eligibleAreas: string[] } =>
+        Boolean(candidate)
+    )
+    .sort((a, b) => {
+      if (a.eligibleAreas.length !== b.eligibleAreas.length) {
+        return a.eligibleAreas.length - b.eligibleAreas.length;
+      }
+      if (a.units !== b.units) return b.units - a.units;
+      return a.code.localeCompare(b.code);
+    });
+
+  for (const candidate of candidates) {
+    let bestArea = "";
+    let bestScore = Number.NEGATIVE_INFINITY;
+
+    for (const areaCode of candidate.eligibleAreas) {
+      const area = areaByCode.get(areaCode);
+      if (!area) continue;
+      const current = areaUnits[areaCode] || 0;
+      const target = getAreaTarget(area);
+      const max = area.units_max;
+      const unmet = Math.max(0, target - current);
+      const roomToMax = max == null ? Number.POSITIVE_INFINITY : Math.max(0, max - current);
+      const score =
+        unmet > 0
+          ? 1_000_000 + unmet * 100 - current
+          : TOPICAL_BREADTH_CODES.has(areaCode)
+            ? roomToMax * 10 - current
+            : -current;
+
+      if (score > bestScore) {
+        bestArea = areaCode;
+        bestScore = score;
+      }
+    }
+
+    if (!bestArea) continue;
+    areaUnits[bestArea] = (areaUnits[bestArea] || 0) + candidate.units;
+    areaCourses[bestArea].push({ code: candidate.code, units: candidate.units });
+  }
+
+  return { areaUnits, areaCourses };
 }
 
 function SectionBlock({
@@ -494,24 +586,20 @@ function GEProgressView({
 }) {
   const geProgress = useMemo(() => {
     const areaUnits: Record<string, number> = {};
-    const areaCourses: Record<
-      string,
-      { code: string; units: number }[]
-    > = {};
+    const areaCourses: Record<string, { code: string; units: number }[]> = {};
 
-    for (const code of completedCourses) {
-      const info = courseGeMap[code];
-      if (!info) continue;
-      const units = parseUnits(info.units);
-      for (const area of info.ge_areas) {
-        areaUnits[area] = (areaUnits[area] || 0) + units;
-        if (!areaCourses[area]) areaCourses[area] = [];
-        areaCourses[area].push({ code, units });
-      }
+    for (const category of categories) {
+      const allocated = allocateGeCoursesForCategory(
+        completedCourses,
+        courseGeMap,
+        category.areas
+      );
+      Object.assign(areaUnits, allocated.areaUnits);
+      Object.assign(areaCourses, allocated.areaCourses);
     }
 
     return { areaUnits, areaCourses };
-  }, [completedCourses, courseGeMap]);
+  }, [categories, completedCourses, courseGeMap]);
 
   if (categories.length === 0) {
     return (
@@ -523,6 +611,9 @@ function GEProgressView({
 
   return (
     <div>
+      <div className="border-b border-gray-200 dark:border-slate-800 px-4 py-2 text-xs text-gray-500 dark:text-slate-400">
+        Courses are counted once within Topical Breadth and once within Core Literacies, matching UC Davis GE rules.
+      </div>
       {categories.map((cat) => (
         <div key={cat.name}>
           <div className="border-b border-gray-200 dark:border-slate-800 bg-gray-50 dark:bg-slate-900 px-4 py-2">

@@ -150,15 +150,10 @@ export default function Home() {
                 : "fixed inset-x-2 bottom-2 top-16 z-50 overflow-hidden lg:static lg:min-h-0 lg:overflow-y-auto"
             }`}
           >
-            {aiMinimized ? (
-              <MinimizedAIPanel
-                studentContext={studentContext}
-                completedCount={progress.completed}
-                totalCount={progress.total}
-                onEditProfile={() => setEditOpen(true)}
-                onRestore={() => setAiMinimized(false)}
-              />
-            ) : (
+            <div
+              className={aiMinimized ? "hidden h-full min-h-0" : "flex h-full min-h-0"}
+              aria-hidden={aiMinimized}
+            >
               <AIPanel
                 studentContext={studentContext}
                 completedCount={progress.completed}
@@ -166,7 +161,19 @@ export default function Home() {
                 onEditProfile={() => setEditOpen(true)}
                 onMinimize={() => setAiMinimized(true)}
               />
-            )}
+            </div>
+            <div
+              className={aiMinimized ? "h-full min-h-0" : "hidden"}
+              aria-hidden={!aiMinimized}
+            >
+              <MinimizedAIPanel
+                studentContext={studentContext}
+                completedCount={progress.completed}
+                totalCount={progress.total}
+                onEditProfile={() => setEditOpen(true)}
+                onRestore={() => setAiMinimized(false)}
+              />
+            </div>
           </div>
         </div>
       )}

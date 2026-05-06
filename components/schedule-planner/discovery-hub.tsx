@@ -6,7 +6,6 @@ import type { Section, StudentContext } from "@/lib/course-data";
 import { isEligible, type CourseMinimal } from "@/lib/eligibility";
 import { getStoredPlannedSections, getStoredBlockedTimes, checkTimeConflict } from "@/lib/schedule-state";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
-import { DISCOVERY_HUB_NOTICE } from "@/lib/legal-notices";
 import {
   Sparkles,
   Flame,
@@ -649,9 +648,6 @@ export function DiscoveryHub({
             </h2>
             <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">
               Explore course recommendations that fit your schedule and interests.
-            </p>
-            <p className="mt-2 max-w-2xl text-[11px] leading-5 text-gray-500 dark:text-slate-500">
-              {DISCOVERY_HUB_NOTICE}
             </p>
           </div>
           <button
