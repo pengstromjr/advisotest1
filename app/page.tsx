@@ -7,7 +7,6 @@ import { AIPanel, MinimizedAIPanel } from "@/components/ai-panel";
 import { Onboarding } from "@/components/onboarding";
 import { useTheme } from "@/lib/theme-context";
 import type { StudentContext } from "@/lib/course-data";
-import { APP_NOTICE } from "@/lib/legal-notices";
 
 const ONBOARDING_KEY = "adviso-onboarding-complete";
 const AI_PANEL_MINIMIZED_KEY = "adviso-ai-panel-minimized";
@@ -115,15 +114,6 @@ export default function Home() {
           </button>
         </div>
       </header>
-
-      <div className="shrink-0 border-b border-[#DAAA00]/20 bg-[#fff8e1] px-4 py-1.5 text-[11px] leading-5 text-[#4d3b00] dark:border-[#DAAA00]/20 dark:bg-[#DAAA00]/10 dark:text-yellow-100">
-        <p className="mx-auto max-w-6xl">
-          {APP_NOTICE}{" "}
-          <a href="/terms" className="font-semibold underline underline-offset-2">
-            Terms and disclosures
-          </a>
-        </p>
-      </div>
 
       {/* Loading shell */}
       {showLoadingShell && (

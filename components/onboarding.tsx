@@ -14,7 +14,13 @@ import {
 } from "@/lib/academic-plan";
 import type { StudentContext } from "@/lib/course-data";
 import { CURRENT_BLOCKS_STORAGE_KEY } from "@/lib/current-term";
-import { DATA_ENTRY_NOTICE } from "@/lib/legal-notices";
+import {
+  AI_CHAT_NOTICE,
+  APP_NOTICE,
+  DATA_ENTRY_NOTICE,
+  SCHEDULE_GENERATION_NOTICE,
+  UNOFFICIAL_DEGREE_NOTICE,
+} from "@/lib/legal-notices";
 import type { TimeBlock, Weekday } from "@/lib/time-blocks";
 import { loadTimeBlocks, saveTimeBlocks, snapTo15Minutes, BLOCK_COLORS } from "@/lib/time-blocks";
 import { 
@@ -90,7 +96,7 @@ function getMajorIcon(major: string) {
   return <BookOpen className="h-4 w-4" />;
 }
 
-type Step = 0 | 1 | 2 | 3 | 4 | 5;
+type Step = 0 | 1 | 2 | 3 | 4 | 5 | 6;
 
 interface TranscriptFile {
   id: string;
@@ -101,6 +107,7 @@ interface TranscriptFile {
 }
 
 const BLOCKS_STORAGE_KEY = CURRENT_BLOCKS_STORAGE_KEY;
+const TERMS_ACCEPTED_STORAGE_KEY = "adviso-terms-accepted-at";
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"] as const;
 const START_HOUR = 8;
 const END_HOUR = 22;
@@ -175,6 +182,7 @@ export function Onboarding({
   const [parsedCodes, setParsedCodes] = useState<string[]>([]);
   const [parsing, setParsing] = useState(false);
   const [parseError, setParseError] = useState("");
+  const [termsAccepted, setTermsAccepted] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const transcriptFileInputRef = useRef<HTMLInputElement>(null);
   const targetInputRef = useRef<HTMLInputElement>(null);
@@ -224,6 +232,7 @@ export function Onboarding({
     setTranscriptFiles([]);
     setParsedCodes([]);
     setParseError("");
+    setTermsAccepted(false);
 
     // Load any previously saved time blocks.
     const existing = loadTimeBlocks(BLOCKS_STORAGE_KEY);
@@ -427,10 +436,22 @@ export function Onboarding({
     });
 
   const handleFinish = () => {
+    if (!termsAccepted) {
+      goTo(5);
+      return;
+    }
     saveTimeBlocks(BLOCKS_STORAGE_KEY, timeBlocks);
     setClosing(true);
     // Use a slightly longer timeout for the fade-out effect, but it's triggered immediately
     setTimeout(onComplete, 500);
+  };
+
+  const handleAcceptTerms = () => {
+    if (!termsAccepted) return;
+    try {
+      window.localStorage.setItem(TERMS_ACCEPTED_STORAGE_KEY, new Date().toISOString());
+    } catch {}
+    goTo(6);
   };
 
   const handleParseTranscript = async () => {
@@ -730,11 +751,11 @@ export function Onboarding({
         }
       `}</style>
 
-      <div className={`relative z-10 w-[calc(100%-2rem)] transition-all duration-400 ${step === 1 ? "max-w-4xl" : step === 2 || step === 3 || step === 4 ? "max-w-3xl" : "max-w-xl"}`}>
+      <div className={`relative z-10 w-[calc(100%-2rem)] transition-all duration-400 ${step === 1 ? "max-w-4xl" : step === 2 || step === 3 || step === 4 ? "max-w-3xl" : step === 5 ? "max-w-2xl" : "max-w-xl"}`}>
         {/* Progress dots - Absolute positioned to not affect card centering */}
-        {step > 0 && step < 5 && (
+        {step > 0 && step < 6 && (
           <div className="absolute -top-12 left-0 right-0 flex items-center justify-center gap-2">
-            {[1, 2, 3, 4].map((i) => (
+            {[1, 2, 3, 4, 5].map((i) => (
               <div
                 key={i}
                 data-active={i === step}
@@ -758,6 +779,8 @@ export function Onboarding({
               ? "min-h-[520px] sm:min-h-[560px]"
               : step === 2 || step === 4
               ? "min-h-[680px]"
+              : step === 5
+              ? "min-h-[560px]"
               : "min-h-[460px]"
           }`}
         >
@@ -799,7 +822,7 @@ export function Onboarding({
               </button>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[#DAAA00]">
-                  Step 1 of 4
+                  Step 1 of 5
                 </p>
                 <h2 className="text-xl font-bold leading-tight text-gray-900 sm:text-2xl">
                   What do you want Adviso to help with?
@@ -883,7 +906,7 @@ export function Onboarding({
               </button>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[#DAAA00]">
-                  Step 2 of 4
+                  Step 2 of 5
                 </p>
                 <h2 className="text-lg font-bold text-gray-900">
                   {isChangeMajorGoal ? "What majors are you comparing?" : "What's your major?"}
@@ -1259,7 +1282,7 @@ export function Onboarding({
                 </button>
                 <div className="min-w-0">
                   <p className="text-xs font-semibold uppercase tracking-wider text-[#DAAA00]">
-                    Step 3 of 4
+                    Step 3 of 5
                   </p>
                   <div className="mt-1 flex flex-wrap items-center gap-2">
                     <h2 className="text-lg font-bold leading-tight text-gray-900 sm:text-xl">
@@ -1445,7 +1468,7 @@ export function Onboarding({
               </button>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[#DAAA00]">
-                  Step 4 of 4
+                  Step 4 of 5
                 </p>
                 <h2 className="text-lg font-bold text-gray-900">
                   Block out times (optional)
@@ -1676,7 +1699,7 @@ export function Onboarding({
                 }}
                 className="adviso-primary-action rounded-xl bg-[#002855] px-8 py-4 text-sm font-bold text-white shadow-xl hover:bg-[#001a3a]"
               >
-                Finish Setup
+                Review Terms
               </button>
               <button
                 type="button"
@@ -1694,10 +1717,81 @@ export function Onboarding({
             </div>
           </div>
 
-          {/* Step 5: Done */}
+          {/* Step 5: Terms */}
           <div
-            className={`onboarding-panel absolute inset-0 flex flex-col items-center justify-center p-8 ${slideClass(5)} ${
+            className={`onboarding-panel absolute inset-0 flex flex-col p-8 ${slideClass(5)} ${
               step !== 5 ? "pointer-events-none" : ""
+            }`}
+          >
+            <div className="mb-4 flex items-center gap-3">
+              <button
+                type="button"
+                onClick={() => goTo(4)}
+                className="adviso-icon-action flex h-8 w-8 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600"
+                aria-label="Go back"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-[#DAAA00]">
+                  Step 5 of 5
+                </p>
+                <h2 className="text-xl font-bold text-gray-900">
+                  Terms and agreements
+                </h2>
+              </div>
+            </div>
+
+            <div className="min-h-0 flex-1 rounded-2xl border border-gray-100 bg-gray-50/70 p-4">
+              <div className="max-h-[310px] space-y-3 overflow-y-auto pr-2 text-sm leading-6 text-gray-600">
+                <p>{APP_NOTICE}</p>
+                <p>{AI_CHAT_NOTICE}</p>
+                <p>{SCHEDULE_GENERATION_NOTICE}</p>
+                <p>{UNOFFICIAL_DEGREE_NOTICE}</p>
+                <p>
+                  Adviso is an informational planning tool only. It does not replace official academic advising, degree audits, enrollment decisions, or graduation clearance.
+                </p>
+                <p>
+                  Review the full{" "}
+                  <a
+                    href="/terms"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-semibold text-[#002855] underline underline-offset-2"
+                  >
+                    Terms of Service and AI academic disclosures
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
+            <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-2xl border border-[#002855]/10 bg-white p-4 shadow-sm">
+              <input
+                type="checkbox"
+                checked={termsAccepted}
+                onChange={(event) => setTermsAccepted(event.target.checked)}
+                className="mt-1 h-4 w-4 rounded border-gray-300 text-[#002855] focus:ring-[#002855]"
+              />
+              <span className="text-sm leading-6 text-gray-700">
+                I have read and agree to the Adviso Terms of Service and AI academic disclosures.
+              </span>
+            </label>
+
+            <button
+              type="button"
+              onClick={handleAcceptTerms}
+              disabled={!termsAccepted}
+              className="adviso-primary-action mt-5 rounded-xl bg-[#002855] px-8 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#001a3a] hover:shadow-xl disabled:cursor-not-allowed disabled:opacity-45"
+            >
+              Agree and Continue
+            </button>
+          </div>
+
+          {/* Step 6: Done */}
+          <div
+            className={`onboarding-panel absolute inset-0 flex flex-col items-center justify-center p-8 ${slideClass(6)} ${
+              step !== 6 ? "pointer-events-none" : ""
             }`}
           >
             <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
@@ -1896,15 +1990,17 @@ export function Onboarding({
         )}
 
         {/* Skip link - Absolute positioned to not affect card centering */}
-        <div className="absolute -bottom-12 left-0 right-0 text-center">
-          <button
-            type="button"
-            onClick={handleFinish}
-            className="text-xs font-medium text-white/60 transition-colors hover:text-white/90"
-          >
-            Skip setup for now
-          </button>
-        </div>
+        {step > 0 && step < 5 && (
+          <div className="absolute -bottom-12 left-0 right-0 text-center">
+            <button
+              type="button"
+              onClick={() => goTo(5)}
+              className="text-xs font-medium text-white/60 transition-colors hover:text-white/90"
+            >
+              Skip setup details
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
