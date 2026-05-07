@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { generateSchedule } from "@/lib/schedule-generator";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { isEligible } from "@/lib/eligibility";
 import type { Section, StudentContext, RequirementSection } from "@/lib/course-data";
 import {
@@ -61,6 +62,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
           const data: ProgramResponse = await res.json();
           const defaultPath = getDefaultRequirementPath(data.requirements);
           const activeRequirements = filterRequirementSectionsByPath(data.requirements, defaultPath);
+          const completedCodes = new Set(studentContext.completedCourses.map(normalizeCourseCode));
 
           // 1. Major Pool
           const allRequired = new Set<string>();
@@ -74,7 +76,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
             }
           }
           const majorUncompleted = Array.from(allRequired).filter(
-            (code) => !studentContext.completedCourses.includes(code) && 
+            (code) => !completedCodes.has(normalizeCourseCode(code)) &&
                       isEligible(code, studentContext.completedCourses, data.ge.courseInfoMap, studentContext.year || "")
           );
 
@@ -87,7 +89,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
           };
 
           Object.entries(data.ge.courseInfoMap).forEach(([code, info]) => {
-            if (studentContext.completedCourses.includes(code)) return;
+            if (completedCodes.has(normalizeCourseCode(code))) return;
             if (!isEligible(code, studentContext.completedCourses, data.ge.courseInfoMap, studentContext.year || "")) return;
             
             info.ge_areas.forEach((area: string) => {
@@ -101,7 +103,7 @@ export function AutoGenerateModal({ open, onClose, onApply, studentContext }: Au
 
           // 3. Discovery Pool
           const discoveryPool = ["CMN 170V", "SOC 001", "PSC 001", "CHI 010", "CLA 030"].filter(
-            (code) => !studentContext.completedCourses.includes(code) && 
+            (code) => !completedCodes.has(normalizeCourseCode(code)) &&
                       isEligible(code, studentContext.completedCourses, data.ge.courseInfoMap, studentContext.year || "")
           );
 

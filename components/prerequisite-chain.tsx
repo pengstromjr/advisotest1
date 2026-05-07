@@ -1,6 +1,7 @@
 "use client";
 
 import { Fragment, useEffect, useMemo, useState } from "react";
+import { normalizeCourseCode } from "@/lib/course-code";
 
 type PrereqNode = {
   code: string;
@@ -27,7 +28,7 @@ function treeToLeafPaths(root: PrereqNode): PathStep[][] {
 function pickPrimaryPath(paths: PathStep[][], completedSet: Set<string>): PathStep[] {
   if (paths.length === 0) return [];
   const score = (p: PathStep[]) =>
-    p.reduce((acc, s) => acc + (completedSet.has(s.code.toUpperCase()) ? 1 : 0), 0) * 1000 +
+    p.reduce((acc, s) => acc + (completedSet.has(normalizeCourseCode(s.code)) ? 1 : 0), 0) * 1000 +
     p.length;
   return paths.reduce((best, p) => (score(p) >= score(best) ? p : best), paths[0]);
 }
@@ -58,7 +59,7 @@ export function PrerequisiteChain({
   const completedSet = useMemo(
     () =>
       new Set(
-        (completedCourses || []).map((c) => c.toUpperCase().replace(/\s+/g, " ").trim())
+        (completedCourses || []).map(normalizeCourseCode)
       ),
     [completedCourses]
   );

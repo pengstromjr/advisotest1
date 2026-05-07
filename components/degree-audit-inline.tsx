@@ -22,6 +22,11 @@ import {
   type NormalizedRequirementItem,
   type NormalizedRequirementSection,
 } from "@/lib/requirement-normalizer";
+import { normalizeCourseCode } from "@/lib/course-code";
+import {
+  getEnglishCompositionProgress,
+  type EnglishCompositionProgress,
+} from "@/lib/english-composition";
 
 interface DegreeAuditInlineProps {
   programName: string;
@@ -62,6 +67,16 @@ interface ProgramData {
 type Tab = "major" | "ge";
 
 const TOPICAL_BREADTH_CODES = new Set(["AH", "SE", "SS"]);
+const GE_ASSIGNMENT_OVERRIDES_KEY = "adviso-ge-assignment-overrides";
+
+interface GEAssignedCourse {
+  code: string;
+  units: number;
+  eligibleAreas: string[];
+  manual?: boolean;
+}
+
+type GEAssignmentOverrides = Record<string, Record<string, string>>;
 
 function parseUnits(u: number | string): number {
   if (typeof u === "number") return u;
@@ -70,15 +85,23 @@ function parseUnits(u: number | string): number {
 }
 
 function normalizeCourseCodeForLookup(code: string): string {
-  return code
-    .toUpperCase()
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(
-      /^([A-Z]{2,5})\s+(\d{1,2})([A-Z]?)$/,
-      (_match, subject: string, number: string, suffix: string) =>
-        `${subject} ${number.padStart(3, "0")}${suffix || ""}`
-    );
+  return normalizeCourseCode(code);
+}
+
+function removeEnglishCompositionWritingExperience(
+  courseGeMap: Record<string, GECourseInfo>,
+  englishCompositionUsedCodes: Set<string>
+) {
+  const next = { ...courseGeMap };
+  for (const code of englishCompositionUsedCodes) {
+    const info = next[code];
+    if (!info) continue;
+    next[code] = {
+      ...info,
+      ge_areas: (info.ge_areas || []).filter((area) => area !== "WE"),
+    };
+  }
+  return next;
 }
 
 function getAreaTarget(area: GEArea): number {
@@ -88,11 +111,12 @@ function getAreaTarget(area: GEArea): number {
 function allocateGeCoursesForCategory(
   completedCourses: string[],
   courseGeMap: Record<string, GECourseInfo>,
-  areas: GEArea[]
+  areas: GEArea[],
+  overrides: Record<string, string> = {}
 ) {
   const areaByCode = new Map(areas.map((area) => [area.code, area]));
   const areaUnits: Record<string, number> = {};
-  const areaCourses: Record<string, { code: string; units: number }[]> = {};
+  const areaCourses: Record<string, GEAssignedCourse[]> = {};
   for (const area of areas) {
     areaUnits[area.code] = 0;
     areaCourses[area.code] = [];
@@ -126,7 +150,34 @@ function allocateGeCoursesForCategory(
       return a.code.localeCompare(b.code);
     });
 
+  const assignCandidate = (
+    candidate: { code: string; units: number; eligibleAreas: string[] },
+    areaCode: string,
+    manual = false
+  ) => {
+    const area = areaByCode.get(areaCode);
+    const current = areaUnits[areaCode] || 0;
+    const next = current + candidate.units;
+    areaUnits[areaCode] = area?.units_max == null ? next : Math.min(area.units_max, next);
+    areaCourses[areaCode].push({
+      code: candidate.code,
+      units: candidate.units,
+      eligibleAreas: candidate.eligibleAreas,
+      manual,
+    });
+  };
+
+  const autoCandidates: typeof candidates = [];
   for (const candidate of candidates) {
+    const manualArea = overrides[candidate.code];
+    if (manualArea && candidate.eligibleAreas.includes(manualArea)) {
+      assignCandidate(candidate, manualArea, true);
+    } else {
+      autoCandidates.push(candidate);
+    }
+  }
+
+  for (const candidate of autoCandidates) {
     let bestArea = "";
     let bestScore = Number.NEGATIVE_INFINITY;
 
@@ -136,6 +187,7 @@ function allocateGeCoursesForCategory(
       const current = areaUnits[areaCode] || 0;
       const target = getAreaTarget(area);
       const max = area.units_max;
+      if (max != null && current >= max) continue;
       const unmet = Math.max(0, target - current);
       const roomToMax = max == null ? Number.POSITIVE_INFINITY : Math.max(0, max - current);
       const score =
@@ -152,8 +204,7 @@ function allocateGeCoursesForCategory(
     }
 
     if (!bestArea) continue;
-    areaUnits[bestArea] = (areaUnits[bestArea] || 0) + candidate.units;
-    areaCourses[bestArea].push({ code: candidate.code, units: candidate.units });
+    assignCandidate(candidate, bestArea);
   }
 
   return { areaUnits, areaCourses };
@@ -454,22 +505,38 @@ function CoursePill({
 
 function GEAreaRow({
   area,
+  areas,
   completedUnits,
   matchingCourses,
   onSmartMatch,
+  onMoveCourse,
+  onClearCourseMove,
 }: {
   area: GEArea;
+  areas: GEArea[];
   completedUnits: number;
-  matchingCourses: { code: string; units: number }[];
+  matchingCourses: GEAssignedCourse[];
   onSmartMatch: (area: GEArea) => void;
+  onMoveCourse: (code: string, areaCode: string) => void;
+  onClearCourseMove: (code: string) => void;
 }) {
   const [expanded, setExpanded] = useState(false);
+  const areaLabels = useMemo(
+    () => new Map(areas.map((candidate) => [candidate.code, candidate])),
+    [areas]
+  );
   const target = area.units_min ?? area.units_required ?? 0;
+  const unitLabel =
+    area.units_max == null
+      ? `${completedUnits}/${target} units`
+      : `${completedUnits}/${target}-${area.units_max} units`;
   const met = completedUnits >= target;
   const pct =
     target > 0
       ? Math.min(100, Math.round((completedUnits / target) * 100))
       : 0;
+  const rawCourseUnits = matchingCourses.reduce((sum, course) => sum + course.units, 0);
+  const cappedByMax = area.units_max != null && rawCourseUnits > completedUnits;
 
   return (
     <div className="border-b border-gray-50 dark:border-slate-800 last:border-b-0">
@@ -526,7 +593,7 @@ function GEAreaRow({
               <span
                 className={`ml-2 shrink-0 text-xs ${met ? "font-medium text-green-600" : "text-gray-500"}`}
               >
-                {completedUnits}/{target} units
+                {unitLabel}
               </span>
             </div>
           </div>
@@ -560,10 +627,161 @@ function GEAreaRow({
             {matchingCourses.map((c) => (
               <div
                 key={c.code}
-                className="flex items-center justify-between text-xs text-gray-500"
+                className="flex flex-wrap items-center justify-between gap-2 text-xs text-gray-500"
               >
-                <span>{c.code}</span>
-                <span>{c.units} units</span>
+                <div className="min-w-0">
+                  <span>{c.code}</span>
+                  {c.manual && (
+                    <span className="ml-2 rounded-full bg-[#DAAA00]/10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-[#8A6A00]">
+                      moved
+                    </span>
+                  )}
+                </div>
+                <div
+                  className="ml-auto flex items-center gap-2"
+                  onClick={(event) => event.stopPropagation()}
+                >
+                  {c.eligibleAreas.length > 1 && (
+                    <>
+                      <label className="sr-only" htmlFor={`ge-move-${area.code}-${c.code.replace(/\W+/g, "-")}`}>
+                        Move {c.code}
+                      </label>
+                      <select
+                        id={`ge-move-${area.code}-${c.code.replace(/\W+/g, "-")}`}
+                        value={area.code}
+                        onChange={(event) => onMoveCourse(c.code, event.target.value)}
+                        className="rounded-md border border-gray-200 bg-white px-2 py-1 text-[11px] font-medium text-gray-600 outline-none transition-colors hover:border-[#002855]/30 focus:border-[#002855] focus:ring-2 focus:ring-[#002855]/10 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+                      >
+                        {c.eligibleAreas.map((areaCode) => {
+                          const eligibleArea = areaLabels.get(areaCode);
+                          return (
+                            <option key={areaCode} value={areaCode}>
+                              {eligibleArea ? `${eligibleArea.name} (${areaCode})` : areaCode}
+                            </option>
+                          );
+                        })}
+                      </select>
+                      {c.manual && (
+                        <button
+                          type="button"
+                          onClick={() => onClearCourseMove(c.code)}
+                          className="text-[10px] font-semibold text-gray-400 transition-colors hover:text-[#002855] dark:hover:text-blue-300"
+                        >
+                          Auto
+                        </button>
+                      )}
+                    </>
+                  )}
+                  <span>{c.units} units</span>
+                </div>
+              </div>
+            ))}
+            {cappedByMax && (
+              <p className="pt-1 text-[10px] text-gray-400">
+                Counted units are capped at the {area.units_max}-unit Topical Breadth maximum.
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function EnglishCompositionRow({ progress }: { progress: EnglishCompositionProgress }) {
+  const [expanded, setExpanded] = useState(false);
+  const met = progress.completedUnits >= progress.requiredUnits;
+  const pct = Math.min(
+    100,
+    Math.round((progress.completedUnits / progress.requiredUnits) * 100)
+  );
+
+  return (
+    <div className="border-b border-gray-50 dark:border-slate-800">
+      <div
+        onClick={() => progress.courses.length > 0 && setExpanded(!expanded)}
+        className={`flex w-full items-center gap-3 px-4 py-2.5 text-left ${
+          progress.courses.length > 0
+            ? "cursor-pointer hover:bg-gray-50 dark:hover:bg-slate-800"
+            : "cursor-default"
+        }`}
+      >
+        <div className="flex h-5 w-5 shrink-0 items-center justify-center">
+          {met ? (
+            <svg
+              className="h-5 w-5 text-green-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2.5}
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+          ) : (
+            <div className="h-3 w-3 rounded-full border-2 border-gray-300" />
+          )}
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center justify-between gap-3">
+            <span
+              className={`text-sm ${met ? "text-gray-500" : "font-medium text-gray-800 dark:text-slate-200"}`}
+            >
+              English Composition
+              <span className="ml-1 text-xs text-gray-400">(EC)</span>
+            </span>
+            <span
+              className={`shrink-0 text-xs ${met ? "font-medium text-green-600" : "text-gray-500 dark:text-slate-400"}`}
+            >
+              {progress.completedUnits}/{progress.requiredUnits} units
+            </span>
+          </div>
+          <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
+            <div
+              className={`h-1.5 rounded-full transition-all duration-300 ${met ? "bg-green-500" : "bg-[#DAAA00]"}`}
+              style={{ width: `${pct}%` }}
+            />
+          </div>
+          <p className="mt-1 text-[10px] leading-snug text-gray-400 dark:text-slate-500">
+            {progress.summary}
+          </p>
+          {progress.unmetNotes.length > 0 && (
+            <p className="mt-1 text-[10px] leading-snug text-amber-600 dark:text-amber-400">
+              {progress.unmetNotes[0]}
+            </p>
+          )}
+        </div>
+        {progress.courses.length > 0 && (
+          <svg
+            className={`h-3.5 w-3.5 shrink-0 text-gray-400 transition-transform ${expanded ? "rotate-90" : ""}`}
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        )}
+      </div>
+      {expanded && progress.courses.length > 0 && (
+        <div className="px-4 pb-2 pl-14">
+          <div className="space-y-0.5">
+            {progress.courses.map((course) => (
+              <div
+                key={course.code}
+                className="flex items-center justify-between gap-2 text-xs text-gray-500"
+              >
+                <span>{course.code}</span>
+                <span>
+                  {course.units} units · {course.role.replace("-", " ")}
+                </span>
               </div>
             ))}
           </div>
@@ -577,29 +795,93 @@ function GEProgressView({
   categories,
   completedCourses,
   courseGeMap,
+  programName,
+  requirements,
   onSmartMatch,
 }: {
   categories: GECategory[];
   completedCourses: string[];
   courseGeMap: Record<string, GECourseInfo>;
+  programName: string;
+  requirements: RequirementSection[];
   onSmartMatch: (area: GEArea) => void;
 }) {
+  const [assignmentOverrides, setAssignmentOverrides] = useState<GEAssignmentOverrides>(() => {
+    if (typeof window === "undefined") return {};
+    try {
+      const raw = window.localStorage.getItem(GE_ASSIGNMENT_OVERRIDES_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(
+      GE_ASSIGNMENT_OVERRIDES_KEY,
+      JSON.stringify(assignmentOverrides)
+    );
+  }, [assignmentOverrides]);
+
+  const moveCourse = useCallback((categoryName: string, code: string, areaCode: string) => {
+    const normalizedCode = normalizeCourseCodeForLookup(code);
+    setAssignmentOverrides((current) => ({
+      ...current,
+      [categoryName]: {
+        ...(current[categoryName] || {}),
+        [normalizedCode]: areaCode,
+      },
+    }));
+  }, []);
+
+  const clearCourseMove = useCallback((categoryName: string, code: string) => {
+    const normalizedCode = normalizeCourseCodeForLookup(code);
+    setAssignmentOverrides((current) => {
+      const categoryOverrides = { ...(current[categoryName] || {}) };
+      delete categoryOverrides[normalizedCode];
+      return {
+        ...current,
+        [categoryName]: categoryOverrides,
+      };
+    });
+  }, []);
+
+  const englishCompositionProgress = useMemo(
+    () =>
+      getEnglishCompositionProgress(completedCourses, courseGeMap, {
+        programName,
+        requirements,
+      }),
+    [completedCourses, courseGeMap, programName, requirements]
+  );
+
+  const courseGeMapForGe = useMemo(
+    () =>
+      removeEnglishCompositionWritingExperience(
+        courseGeMap,
+        englishCompositionProgress.usedCodes
+      ),
+    [courseGeMap, englishCompositionProgress]
+  );
+
   const geProgress = useMemo(() => {
     const areaUnits: Record<string, number> = {};
-    const areaCourses: Record<string, { code: string; units: number }[]> = {};
+    const areaCourses: Record<string, GEAssignedCourse[]> = {};
 
     for (const category of categories) {
       const allocated = allocateGeCoursesForCategory(
         completedCourses,
-        courseGeMap,
-        category.areas
+        courseGeMapForGe,
+        category.areas,
+        assignmentOverrides[category.name] || {}
       );
       Object.assign(areaUnits, allocated.areaUnits);
       Object.assign(areaCourses, allocated.areaCourses);
     }
 
     return { areaUnits, areaCourses };
-  }, [categories, completedCourses, courseGeMap]);
+  }, [assignmentOverrides, categories, completedCourses, courseGeMapForGe]);
 
   if (categories.length === 0) {
     return (
@@ -612,7 +894,7 @@ function GEProgressView({
   return (
     <div>
       <div className="border-b border-gray-200 dark:border-slate-800 px-4 py-2 text-xs text-gray-500 dark:text-slate-400">
-        Courses are counted once within Topical Breadth and once within Core Literacies, matching UC Davis GE rules.
+        GE-designated major courses may count here too. Multi-tag courses can be moved between eligible areas, but count once within Topical Breadth and once within Core Literacies.
       </div>
       {categories.map((cat) => (
         <div key={cat.name}>
@@ -626,13 +908,19 @@ function GEProgressView({
               </span>
             </div>
           </div>
+          {cat.name === "Core Literacies" && (
+            <EnglishCompositionRow progress={englishCompositionProgress} />
+          )}
           {cat.areas.map((area) => (
             <GEAreaRow
               key={area.code}
               area={area}
+              areas={cat.areas}
               completedUnits={geProgress.areaUnits[area.code] || 0}
               matchingCourses={geProgress.areaCourses[area.code] || []}
               onSmartMatch={onSmartMatch}
+              onMoveCourse={(code, areaCode) => moveCourse(cat.name, code, areaCode)}
+              onClearCourseMove={(code) => clearCourseMove(cat.name, code)}
             />
           ))}
         </div>
@@ -826,6 +1114,8 @@ export function DegreeAuditInline({
             categories={geCategories}
             completedCourses={completedCourses}
             courseGeMap={courseGeMap}
+            programName={programName}
+            requirements={requirements}
             onSmartMatch={setMatchingArea}
           />
         )}

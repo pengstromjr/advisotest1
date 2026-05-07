@@ -90,13 +90,14 @@
   "additional_requirements": {
     "english_composition": {
       "units_required": 8,
-      "description": "All students must complete 8 units of English Composition. Typically fulfilled by UWP 001 (or equivalent) and one additional course.",
-      "typical_courses": ["UWP 001", "ENL 003"]
+      "description": "All students must complete 8 units of English Composition as specified by their college. Common lower-division options include UWP 001, UWP 001V, UWP 001Y, ENL 003, ENL 003V, COM 001-004, NAS 005, and NAS 005V. College-specific paths often include UWP 048, UWP 049, UWP 101/101V/101Y, UWP 102 series, UWP 104 series, or an approved oral/writing option such as CMN 001. Courses used for English Composition should not also be counted toward the separate 6-unit Writing Experience requirement.",
+      "typical_courses": ["UWP 001", "UWP 001V", "UWP 001Y", "ENL 003", "ENL 003V", "COM 001", "COM 002", "COM 003", "COM 004", "NAS 005", "NAS 005V", "CMN 001", "CMN 001V", "UWP 048", "UWP 049", "UWP 101", "UWP 101V", "UWP 101Y", "UWP 102 series", "UWP 104 series"]
     }
   },
   "notes": [
     "A single course can satisfy requirements in at most two GE areas.",
     "Courses used to satisfy major requirements may also count toward GE requirements if they carry GE designation.",
+    "English Composition units are their own Core Literacy element; when a writing course is used there, it should not also satisfy the separate Writing Experience units.",
     "Students who entered UC Davis before Fall 2011 may be under a different GE framework.",
     "Transfer students should consult ASSIST.org for course equivalencies.",
     "Some colleges (e.g., College of Engineering) have modified GE requirements."

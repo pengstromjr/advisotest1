@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { extractCourseMentions } from "@/lib/course-lookup";
 
 interface UploadedTranscriptFile {
@@ -150,7 +151,7 @@ export async function POST(req: Request) {
     const codes = Array.from(
       new Set([...textCodes, ...aiCourseMentions.map((c) => c.code), ...aiCodes])
     )
-      .map((code) => code.toUpperCase().replace(/\s+/g, " ").trim())
+      .map((code) => normalizeCourseCode(code))
       .filter(Boolean)
       .sort();
 

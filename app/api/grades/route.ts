@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { CURRENT_GRADES_FILE } from "@/lib/current-term";
 
 let cachedGrades: Record<string, any> | null = null;
@@ -25,7 +26,7 @@ function loadCourseInfo() {
       const arr = JSON.parse(raw);
       cachedCourses = {};
       for (const c of arr) {
-        cachedCourses[c.code] = c;
+        cachedCourses[normalizeCourseCode(c.code)] = c;
       }
     } catch {
       cachedCourses = {};
@@ -36,7 +37,7 @@ function loadCourseInfo() {
 
 export async function GET(req: Request) {
   const url = new URL(req.url);
-  const courseCode = url.searchParams.get("course")?.trim() || "";
+  const courseCode = normalizeCourseCode(url.searchParams.get("course")?.trim() || "");
 
   if (!courseCode) {
     return NextResponse.json({ error: "Missing course parameter" }, { status: 400 });

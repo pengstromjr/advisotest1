@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
 import type { Section } from "@/lib/course-data";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { SCHEDULE_GENERATION_NOTICE } from "@/lib/legal-notices";
 
 interface CatalogCourse {
@@ -12,6 +13,9 @@ interface CatalogCourse {
   description: string;
   prerequisites: string | string[];
   ge_areas: string[];
+  currentTerm?: string;
+  currentTermSectionCount?: number;
+  offeredThisTerm?: boolean;
 }
 
 export interface ScheduleBlockEntry {
@@ -21,10 +25,6 @@ export interface ScheduleBlockEntry {
 
 interface SuggestedScheduleCardProps {
   entries: ScheduleBlockEntry[];
-}
-
-function normalizeCourseCode(code: string) {
-  return code.toUpperCase().replace(/\s+/g, " ").trim();
 }
 
 export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
@@ -148,6 +148,7 @@ export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
           const time = meeting?.startTime && meeting?.endTime
             ? `${meeting.startTime}–${meeting.endTime}`
             : null;
+          const notOfferedThisTerm = course.offeredThisTerm === false;
 
           return (
             <div key={course.code} className="flex flex-col gap-1 rounded-lg p-3 transition-colors hover:bg-gray-50 dark:hover:bg-white/5">
@@ -155,7 +156,11 @@ export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
                 <span className="font-semibold text-gray-900 text-sm dark:text-white">
                   {course.code}
                 </span>
-                {days && time ? (
+                {notOfferedThisTerm ? (
+                  <span className="shrink-0 rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-700 dark:bg-amber-400/10 dark:text-amber-300">
+                    No current section
+                  </span>
+                ) : days && time ? (
                   <span className="text-xs font-medium text-[#002855] bg-[#002855]/5 px-2 py-0.5 rounded-full shrink-0 dark:text-blue-300 dark:bg-blue-400/10">
                     {days} {time}
                   </span>
@@ -170,6 +175,7 @@ export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
                 {typeof course.units === "number" ? course.units : parseFloat(String(course.units)) || "?"} units
                 {section?.crn && ` · CRN ${section.crn}`}
                 {course.ge_areas?.length > 0 && ` · GE: ${course.ge_areas.join(", ")}`}
+                {notOfferedThisTerm && ` · No ${course.currentTerm || "current-term"} sections found`}
               </span>
             </div>
           );
@@ -212,7 +218,7 @@ export function SuggestedScheduleCard({ entries }: SuggestedScheduleCardProps) {
         ) : (
           <div className="space-y-2 text-center">
             <p className="text-xs text-gray-400 dark:text-slate-500">
-              Section times not available yet — search for these courses in the Schedule Planner to add them.
+              No addable current-term sections were found for these courses.
             </p>
             <p className="text-[11px] leading-5 text-gray-500 dark:text-slate-400">
               {SCHEDULE_GENERATION_NOTICE}

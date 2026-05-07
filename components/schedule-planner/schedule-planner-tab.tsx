@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CalendarPlus, Download, ExternalLink } from "lucide-react";
+import { CalendarPlus, Check, Clipboard, ClipboardList, Download, ExternalLink } from "lucide-react";
 import type { StudentContext, Section } from "@/lib/course-data";
 import { createScheduleCalendar, downloadCalendarFile } from "@/lib/calendar-export";
 import {
@@ -25,6 +25,7 @@ interface SchedulePlannerTabProps {
 const TERM = CURRENT_TERM_LABEL;
 const STORAGE_KEY = CURRENT_SCHEDULE_STORAGE_KEY;
 const BLOCKS_STORAGE_KEY = CURRENT_BLOCKS_STORAGE_KEY;
+const SCHEDULE_BUILDER_URL = "https://my.ucdavis.edu";
 
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const DAY_CODES: Record<string, string> = {
@@ -64,6 +65,30 @@ interface PlannedSection extends Section {
   color: string;
 }
 
+async function copyTextToClipboard(text: string): Promise<boolean> {
+  if (!text) return false;
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {}
+  }
+
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    document.body.removeChild(textarea);
+    return copied;
+  } catch {
+    return false;
+  }
+}
 
 function getBlockedOverlaysByDay(blocks: TimeBlock[]) {
   const totalMinutes = (END_HOUR - START_HOUR) * 60;
@@ -238,21 +263,34 @@ export function SchedulePlannerTab({
   }, []);
 
   useEffect(() => {
-    try {
-      const raw =
-        typeof window !== "undefined"
-          ? window.localStorage.getItem(STORAGE_KEY)
-          : null;
-      if (raw) {
-        const parsed = JSON.parse(raw) as PlannedSection[];
-        setPlanned(parsed);
+    let cancelled = false;
+    window.queueMicrotask(() => {
+      if (cancelled) return;
+      try {
+        const raw =
+          typeof window !== "undefined"
+            ? window.localStorage.getItem(STORAGE_KEY)
+            : null;
+        if (raw) {
+          const parsed = JSON.parse(raw) as PlannedSection[];
+          setPlanned(parsed);
+        }
+      } catch {
       }
-    } catch {
-    }
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
-    setBlocked(loadTimeBlocks(BLOCKS_STORAGE_KEY));
+    let cancelled = false;
+    window.queueMicrotask(() => {
+      if (!cancelled) setBlocked(loadTimeBlocks(BLOCKS_STORAGE_KEY));
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
@@ -335,6 +373,31 @@ export function SchedulePlannerTab({
       window.open("https://calendar.google.com/calendar/u/0/r/settings/export", "_blank", "noopener,noreferrer");
     }
   };
+
+  const registrationCrnText = useMemo(
+    () => planned.map((section) => section.crn).filter(Boolean).join(", "),
+    [planned]
+  );
+
+  const handleCopyCrns = useCallback(async () => {
+    const copied = await copyTextToClipboard(registrationCrnText);
+    if (copied) {
+      setCopiedCrns(true);
+      setExportStatus("CRNs copied. Paste them into UC Davis Schedule Builder when you register.");
+      setTimeout(() => {
+        setCopiedCrns(false);
+        setExportStatus("");
+      }, 3000);
+      return;
+    }
+
+    setExportStatus("Clipboard access failed. Select and copy the CRN list manually.");
+    setTimeout(() => setExportStatus(""), 4000);
+  }, [registrationCrnText]);
+
+  const handleOpenScheduleBuilder = useCallback(() => {
+    window.open(SCHEDULE_BUILDER_URL, "_blank", "noopener,noreferrer");
+  }, []);
 
   const handleSwapPick = useCallback((to: Section) => {
     setPlanned((prev) => {
@@ -422,16 +485,12 @@ export function SchedulePlannerTab({
           <div className="flex flex-wrap items-center gap-2">
             {planned.length > 0 && (
               <button
-                onClick={() => {
-                  const crns = planned.map(p => p.crn).join(", ");
-                  navigator.clipboard.writeText(crns).then(() => {
-                    setCopiedCrns(true);
-                    setTimeout(() => setCopiedCrns(false), 2000);
-                  });
-                }}
-                className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-600 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-all"
+                type="button"
+                onClick={handleCopyCrns}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-gray-600 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-all"
               >
-                {copiedCrns ? "✓ Copied!" : "Copy CRNs"}
+                {copiedCrns ? <Check className="h-3.5 w-3.5" /> : <ClipboardList className="h-3.5 w-3.5" />}
+                {copiedCrns ? "Copied CRNs" : "Copy CRNs"}
               </button>
             )}
             <div className="relative">
@@ -634,6 +693,69 @@ export function SchedulePlannerTab({
                 </div>
               );
             })()}
+
+            {planned.length > 0 && (
+              <div className="rounded-xl border border-[#002855]/15 bg-[#002855]/[0.03] p-3 dark:border-[#DAAA00]/20 dark:bg-[#DAAA00]/[0.06]">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-wider text-[#002855] dark:text-[#DAAA00]">
+                      Schedule Builder CRNs
+                    </p>
+                    <p className="mt-0.5 text-[11px] leading-snug text-gray-500 dark:text-slate-400">
+                      Use these to register for the exact sections in this plan.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleCopyCrns}
+                    className="inline-flex shrink-0 items-center gap-1 rounded-md bg-white px-2 py-1 text-[11px] font-semibold text-[#002855] shadow-sm ring-1 ring-[#002855]/10 hover:bg-[#002855]/5 dark:bg-slate-800 dark:text-[#DAAA00] dark:ring-[#DAAA00]/20 dark:hover:bg-slate-700"
+                  >
+                    {copiedCrns ? <Check className="h-3 w-3" /> : <Clipboard className="h-3 w-3" />}
+                    {copiedCrns ? "Copied" : "Copy"}
+                  </button>
+                </div>
+
+                <div className="mt-3 rounded-lg border border-gray-200 bg-white px-3 py-2 font-mono text-xs font-semibold text-gray-900 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-white">
+                  {registrationCrnText}
+                </div>
+
+                <div className="mt-3 space-y-1.5">
+                  {planned.map((section) => (
+                    <div
+                      key={`crn-${section.crn}`}
+                      className="flex items-center justify-between gap-3 text-[11px]"
+                    >
+                      <span className="min-w-0 truncate text-gray-600 dark:text-slate-300">
+                        {section.courseCode} {section.section ? `(${section.section})` : ""}
+                      </span>
+                      <span className="font-mono font-semibold text-gray-900 dark:text-white">
+                        {section.crn}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-3 rounded-lg bg-white/75 px-3 py-2 text-[11px] leading-5 text-gray-600 ring-1 ring-gray-200 dark:bg-slate-900/50 dark:text-slate-300 dark:ring-slate-700">
+                  <p className="font-semibold text-gray-800 dark:text-slate-100">
+                    In UC Davis Schedule Builder:
+                  </p>
+                  <ol className="mt-1 list-decimal space-y-0.5 pl-4">
+                    <li>Open Schedule Builder and select {CURRENT_TERM_SHORT_LABEL}.</li>
+                    <li>Use CRN or multi-course lookup, then paste the copied list.</li>
+                    <li>Review warnings, waitlists, and restrictions before registering.</li>
+                  </ol>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleOpenScheduleBuilder}
+                  className="mt-3 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-[#002855] px-3 py-2 text-xs font-semibold text-white shadow-sm transition hover:bg-[#001a3a] dark:bg-[#DAAA00] dark:text-[#002855] dark:hover:bg-[#c49a00]"
+                >
+                  Open Schedule Builder
+                  <ExternalLink className="h-3.5 w-3.5" />
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="min-h-0 flex-1 overflow-y-auto px-3 pb-3 scrollbar-thin">

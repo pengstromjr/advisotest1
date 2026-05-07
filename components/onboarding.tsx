@@ -745,7 +745,7 @@ export function Onboarding({
         }
       `}</style>
 
-      <div className={`relative z-10 w-[calc(100%-2rem)] transition-all duration-400 ${step === 1 ? "max-w-4xl" : step === 2 || step === 3 || step === 4 ? "max-w-3xl" : step === 5 ? "max-w-2xl" : "max-w-xl"}`}>
+      <div className={`relative z-10 w-[calc(100%-2rem)] transition-all duration-400 ${step === 1 || step === 3 ? "max-w-4xl" : step === 2 || step === 4 ? "max-w-3xl" : step === 5 ? "max-w-3xl" : "max-w-xl"}`}>
         {/* Progress dots - Absolute positioned to not affect card centering */}
         {step > 0 && step < 6 && (
           <div className="absolute -top-12 left-0 right-0 flex items-center justify-center gap-2">
@@ -770,11 +770,11 @@ export function Onboarding({
             step === 1
               ? "h-[min(640px,calc(100vh-140px))] min-h-[560px]"
               : step === 3
-              ? "min-h-[520px] sm:min-h-[560px]"
+              ? "h-[min(760px,calc(100dvh-4rem))] min-h-[620px]"
               : step === 2 || step === 4
               ? "min-h-[680px]"
               : step === 5
-              ? "min-h-[560px]"
+              ? "h-[min(760px,calc(100dvh-4rem))] min-h-[620px]"
               : "min-h-[460px]"
           }`}
         >
@@ -1260,7 +1260,7 @@ export function Onboarding({
 
           {/* Step 3: Transcript */}
           <div
-            className={`onboarding-panel absolute inset-0 flex flex-col overflow-hidden p-5 sm:p-10 ${slideClass(3)} ${
+            className={`onboarding-panel absolute inset-0 flex flex-col overflow-hidden p-4 sm:p-8 ${slideClass(3)} ${
               step !== 3 ? "pointer-events-none" : ""
             }`}
           >
@@ -1715,11 +1715,11 @@ export function Onboarding({
 
           {/* Step 5: Terms */}
           <div
-            className={`onboarding-panel absolute inset-0 flex flex-col p-8 ${slideClass(5)} ${
+            className={`onboarding-panel absolute inset-0 flex flex-col p-4 sm:p-8 ${slideClass(5)} ${
               step !== 5 ? "pointer-events-none" : ""
             }`}
           >
-            <div className="mb-4 flex items-center gap-3">
+            <div className="mb-3 flex shrink-0 items-center gap-3 sm:mb-4">
               <button
                 type="button"
                 onClick={() => goTo(4)}
@@ -1738,7 +1738,7 @@ export function Onboarding({
               </div>
             </div>
 
-            <p className="mb-3 text-sm leading-6 text-gray-500">
+            <p className="mb-3 shrink-0 text-sm leading-6 text-gray-500">
               Scroll through the full Terms of Service and AI academic disclosures below.
             </p>
 
@@ -1750,7 +1750,7 @@ export function Onboarding({
               />
             </div>
 
-            <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-2xl border border-[#002855]/10 bg-white p-4 shadow-sm">
+            <label className="mt-4 flex shrink-0 cursor-pointer items-start gap-3 rounded-2xl border border-[#002855]/10 bg-white p-4 shadow-sm">
               <input
                 type="checkbox"
                 checked={termsAccepted}
@@ -1766,7 +1766,7 @@ export function Onboarding({
               type="button"
               onClick={handleAcceptTerms}
               disabled={!termsAccepted}
-              className="adviso-primary-action mt-5 rounded-xl bg-[#002855] px-8 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#001a3a] hover:shadow-xl disabled:cursor-not-allowed disabled:opacity-45"
+              className="adviso-primary-action mt-4 shrink-0 rounded-xl bg-[#002855] px-8 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#001a3a] hover:shadow-xl disabled:cursor-not-allowed disabled:opacity-45"
             >
               Agree and Continue
             </button>

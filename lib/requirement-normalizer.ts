@@ -1,4 +1,5 @@
 import type { RequirementSection } from "./course-data";
+import { normalizeCourseCode } from "./course-code";
 
 export interface NormalizedRequirementItem {
   id: string;
@@ -40,7 +41,7 @@ const NUMBER_WORDS: Record<string, number> = {
 };
 
 function compactCode(code: string): string {
-  return code.toUpperCase().replace(/\s+/g, " ").trim().replace(/^OR\s+/, "");
+  return normalizeCourseCode(code.toUpperCase().replace(/\s+/g, " ").trim().replace(/^OR\s+/, ""));
 }
 
 function splitRepeatedSubjectCourses(raw: string): string[] {

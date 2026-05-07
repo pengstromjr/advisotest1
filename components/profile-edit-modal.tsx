@@ -15,11 +15,13 @@ import {
   planIncludesSecondMajor,
   type AcademicPlanId,
 } from "@/lib/academic-plan";
+import { normalizeCourseCode } from "@/lib/course-code";
 import type { StudentContext } from "@/lib/course-data";
 
 interface ProfileEditModalProps {
   open: boolean;
   onClose: () => void;
+  onRestartOnboarding: () => void;
   context: StudentContext;
   onChange: (ctx: StudentContext) => void;
 }
@@ -31,6 +33,7 @@ const DEFAULT_TARGET_MAJOR = "Economics, Bachelor of Arts";
 export function ProfileEditModal({
   open,
   onClose,
+  onRestartOnboarding,
   context,
   onChange,
 }: ProfileEditModalProps) {
@@ -67,13 +70,6 @@ export function ProfileEditModal({
   const showMinors = planIncludesMinor(academicPlan);
   const minorPrograms = programs.filter((program) => /\bminor\b/i.test(program));
   const majorPrograms = programs.filter((program) => !/\bminor\b/i.test(program));
-
-  useEffect(() => {
-    setMajorInput(context.major);
-    setTargetMajorInput(context.targetMajor || "");
-    setSecondaryMajorInput(context.secondaryMajor || "");
-    setMinorInput("");
-  }, [context.major, context.targetMajor, context.secondaryMajor, open]);
 
   useEffect(() => {
     fetch("/api/data")
@@ -345,12 +341,13 @@ export function ProfileEditModal({
     setCourseInput(value);
     if (value.length >= 2) {
       const upper = value.toUpperCase();
+      const completed = new Set(context.completedCourses.map(normalizeCourseCode));
       setSuggestions(
         allCourses
           .filter(
             (c) =>
               c.toUpperCase().includes(upper) &&
-              !context.completedCourses.includes(c)
+              !completed.has(normalizeCourseCode(c))
           )
           .slice(0, 24)
       );
@@ -360,10 +357,12 @@ export function ProfileEditModal({
   };
 
   const addCourse = (code: string) => {
-    if (!context.completedCourses.includes(code)) {
+    const normalizedCode = normalizeCourseCode(code);
+    const completed = new Set(context.completedCourses.map(normalizeCourseCode));
+    if (!completed.has(normalizedCode)) {
       onChange({
         ...context,
-        completedCourses: [...context.completedCourses, code],
+        completedCourses: [...context.completedCourses, normalizedCode],
       });
     }
     setCourseInput("");
@@ -371,9 +370,10 @@ export function ProfileEditModal({
   };
 
   const removeCourse = (code: string) => {
+    const normalizedCode = normalizeCourseCode(code);
     onChange({
       ...context,
-      completedCourses: context.completedCourses.filter((c) => c !== code),
+      completedCourses: context.completedCourses.filter((c) => normalizeCourseCode(c) !== normalizedCode),
     });
   };
 
@@ -769,13 +769,22 @@ export function ProfileEditModal({
 
         {/* Footer */}
         <div className="border-t border-gray-100 px-6 py-4 dark:border-slate-800">
-          <div className="flex items-center justify-between">
-            <p className="text-xs text-gray-400 dark:text-slate-500">
-              Nothing is stored. Profile is session-only.
-            </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="min-w-0">
+              <p className="text-xs text-gray-400 dark:text-slate-500">
+                Nothing is stored. Profile is session-only.
+              </p>
+              <button
+                type="button"
+                onClick={onRestartOnboarding}
+                className="mt-1 text-xs font-semibold text-[#002855] transition-colors hover:text-[#001a3a] dark:text-blue-400 dark:hover:text-blue-300"
+              >
+                Return to onboarding
+              </button>
+            </div>
             <button
               onClick={onClose}
-              className="rounded-lg bg-[#002855] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#001a3a] dark:bg-blue-600 dark:hover:bg-blue-700"
+              className="self-end rounded-lg bg-[#002855] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#001a3a] dark:bg-blue-600 dark:hover:bg-blue-700 sm:self-auto"
             >
               Done
             </button>

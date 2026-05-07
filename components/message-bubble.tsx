@@ -6,6 +6,7 @@ import type { Components } from "react-markdown";
 import { CourseCard } from "./course-card";
 import { SuggestedScheduleCard, type ScheduleBlockEntry } from "./suggested-schedule-card";
 import { CourseDetailModal } from "./schedule-planner/course-detail-modal";
+import { extractCourseCodeMatches } from "@/lib/course-code";
 import type { Section } from "@/lib/course-data";
 
 interface MessageBubbleProps {
@@ -67,10 +68,6 @@ function parseCardBlock(block: string): CourseCardData | null {
   };
 }
 
-function normalizeParsedCourseCode(prefix: string, number: string) {
-  return `${prefix.toUpperCase()} ${number.toUpperCase()}`;
-}
-
 function parseScheduleBlockEntries(block: string): ScheduleBlockEntry[] {
   const rawEntries = block
     .split(/[,;\n]+/)
@@ -80,13 +77,13 @@ function parseScheduleBlockEntries(block: string): ScheduleBlockEntry[] {
   const seen = new Set<string>();
 
   for (const rawEntry of rawEntries) {
-    const courseMatch = rawEntry.match(/\b([A-Z]{2,5})\s+(\d{1,3}[A-Z]?\d?(?:\/[A-Z]\d*)?)\b/i);
+    const courseMatch = extractCourseCodeMatches(rawEntry)[0];
     if (!courseMatch) continue;
 
-    const prefix = courseMatch[1].toUpperCase();
+    const prefix = courseMatch.subject.toUpperCase();
     if (SKIP_PREFIXES.has(prefix)) continue;
 
-    const courseCode = normalizeParsedCourseCode(prefix, courseMatch[2]);
+    const courseCode = courseMatch.code;
     const crnMatch = rawEntry.match(/(?:\bCRN\s*:?\s*|[:|#-]\s*|\s+)(\d{5})\b/i);
     const crn = crnMatch?.[1];
     const key = `${courseCode}:${crn ?? ""}`;
@@ -109,14 +106,12 @@ function detectScheduleResponse(text: string): ScheduleBlockEntry[] | null {
   const scheduleKeywords = /schedul|recommend.*cours|suggest.*cours|here.*course|course.*plan/i;
   if (!scheduleKeywords.test(text)) return null;
 
-  // Extract all course codes (e.g., "ECS 150", "MAT 021A", "PHI 001")
-  const courseCodeRegex = /\b([A-Z]{2,5})\s+(\d{1,3}[A-Z]?\d?(?:\/[A-Z]\d*)?)\b/g;
+  // Extract all course codes (e.g., "ECS 150", "MAT 021A", "PHI 001", "ANS 041L")
   const found = new Set<string>();
-  let m: RegExpExecArray | null;
-  while ((m = courseCodeRegex.exec(text)) !== null) {
-    const code = normalizeParsedCourseCode(m[1], m[2]);
+  for (const m of extractCourseCodeMatches(text)) {
+    const code = m.code;
     // Filter out things that look like course codes but aren't (e.g., "GE areas")
-    if (!SKIP_PREFIXES.has(m[1].toUpperCase())) {
+    if (!SKIP_PREFIXES.has(m.subject.toUpperCase())) {
       found.add(code);
     }
   }
@@ -187,19 +182,14 @@ function splitContent(text: string): (string | CourseCardData | ScheduleBlockDat
   return parts;
 }
 
-/* Inline course code regex — matches patterns like ECS 150, MAT 021A, PHI 001 */
-const COURSE_CODE_INLINE_RE = /\b([A-Z]{2,5})\s+(\d{3}[A-Z]?\b)/g;
-
 function CourseCodeText({ text, onCourseClick }: { text: string; onCourseClick: (code: string) => void }) {
   const parts: (string | { code: string })[] = [];
   let lastIdx = 0;
-  let m: RegExpExecArray | null;
-  const courseCodeInlineRe = new RegExp(COURSE_CODE_INLINE_RE);
-  while ((m = courseCodeInlineRe.exec(text)) !== null) {
-    if (SKIP_PREFIXES.has(m[1])) continue;
+  for (const m of extractCourseCodeMatches(text)) {
+    if (SKIP_PREFIXES.has(m.subject)) continue;
     if (m.index > lastIdx) parts.push(text.slice(lastIdx, m.index));
-    parts.push({ code: `${m[1]} ${m[2]}` });
-    lastIdx = m.index + m[0].length;
+    parts.push({ code: m.code });
+    lastIdx = m.index + m.raw.length;
   }
   if (lastIdx < text.length) parts.push(text.slice(lastIdx));
   if (parts.length === 1 && typeof parts[0] === "string") return <>{text}</>;

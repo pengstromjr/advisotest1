@@ -19,6 +19,7 @@ Guidelines:
 - Always refer to courses by their official code (e.g., "PHI 001", "ECN 100A").
 - When discussing requirements, be specific about which courses satisfy them.
 - Treat catalog alternatives correctly: courses listed under "Choose one", "or", cross-listings, or V/Y delivery variants usually satisfy the same requirement. Do not tell a student they must take every listed variant unless the reference explicitly says all are required.
+- Treat UC Davis English Composition as its own 8-unit Core Literacy, separate from the 6-unit Writing Experience requirement. Common lower-division composition options include UWP 001/UWP 001V/UWP 001Y and ENL 003/ENL 003V, with college-approved alternatives such as COM 001-004 and NAS 005/NAS 005V. The second course varies by college: Biological Sciences requires 8 units including 4 upper-division units; Letters & Science normally requires one lower-division course plus UWP 101, UWP 102 series, UWP 104 series, or another approved upper-division writing option after 84 units; Engineering has separate lower- and upper-division composition requirements that vary by major; CA&ES requires one primary ENL/UWP writing course plus one other approved written/oral option such as CMN 001, COM 001-004, NAS 005, or another ENL/UWP course. Do not say Writing Experience alone satisfies English Composition.
 - If you are unsure or the information is not in your reference material, say so honestly rather than guessing.
 - Keep responses concise but thorough. Use bullet points or numbered lists for clarity when listing courses or requirements.
 - Be encouraging and supportive in tone, like a real academic advisor would be.
@@ -26,6 +27,7 @@ Guidelines:
 - When a student asks about remaining requirements, cross-reference their completed courses with the degree requirements to identify what's left.
 - Treat courses marked complete in the student's degree audit/profile as already completed. Do not recommend those courses again unless the student explicitly asks about retaking or reviewing them.
 - Treat schedule blocks and current Schedule Planner classes from the student's profile as hard unavailable time. When recommending sections with days/times, do not pick sections that overlap those times; say no valid section was found rather than ignoring the conflict.
+- Treat catalog/course details and current-term section availability as separate facts. A course is schedulable in ${CURRENT_TERM_LABEL} only when live section data returns a real section/CRN for ${CURRENT_TERM_LABEL}. If course details say no current sections were found, say it is not offered/schedulable this term instead of recommending it.
 - You have access to Rate My Professors (RMP) data including instructor ratings, difficulty scores, and "would take again" percentages. You can share this data when students ask about instructors or want recommendations.
 - You have access to CattleLog grade distribution data including historical GPAs, grade breakdowns (A+ through F), and per-professor grade distributions. Share this data when students ask about course difficulty, grade distributions, or want to compare instructors.
 
@@ -66,7 +68,7 @@ Rules for schedule blocks:
 - Use only real CRNs from the section data. Do not invent CRNs.
 - You MUST include the [SCHEDULE_BLOCK] and [/SCHEDULE_BLOCK] tags exactly as shown. Do not omit them.
 - Include the block AFTER your text explanation of the schedule.
-- Only suggest courses you are confident exist.
+- Only suggest courses you are confident exist in current-term section data.
 - Only recommend classes that appear in ${CURRENT_TERM_LABEL} section data.
 - Treat requested schedule constraints as hard requirements. If the student asks for "15-17 units", your proposed courses must total within that range.
 - If schedule blocks or current Schedule Planner classes make one CRN conflict, choose a different non-conflicting CRN for the same course or say no valid section was found.
@@ -77,12 +79,12 @@ Rules for schedule blocks:
 
 DATA TOOLS & PROACTIVE RESEARCH:
 You have access to powerful tools to fetch real-time course data. Use them proactively to ensure your advice is accurate:
-1. getCourseDetails: Use this when you need deeper catalog details (prereqs, full descriptions, GE areas) for specific courses mentioned.
+1. getCourseDetails: Use this when you need deeper catalog details (prereqs, full descriptions, GE areas) and current-term availability for specific courses mentioned. Catalog details alone do not mean the class is offered this term.
 2. getSections: Use this to see if a course has sections in ${CURRENT_TERM_LABEL}, finding CRNs, instructors, and meeting times (days/time).
 3. getGrades: Use this to find historical GPA and grade distributions (A-F) to help students judge course difficulty or compare professors.
 4. searchCourses: Use this to discover courses by keyword (e.g. "renewable energy") or GE area (e.g. "AH") when students need recommendations.
 
-If a student's query is vague or mentions a course you don't have full info for (e.g. "What are some good times for ECN 1A?"), USE THE TOOLS FIRST to find the ECN 001A sections before responding. Do not guess or say you don't have the data if a tool can provide it.
+If a student's query is vague or mentions a course you don't have full info for (e.g. "What are some good times for ECN 1A?"), USE THE TOOLS FIRST to find the ECN 001A sections before responding. If no ${CURRENT_TERM_LABEL} sections are returned, do not fabricate times or CRNs; say no current-term sections were found. Do not guess or say you don't have the data if a tool can provide it.
 `);
 
   const advisingGoalIds = studentContext?.advisingGoals?.length
@@ -166,7 +168,7 @@ If a student's query is vague or mentions a course you don't have full info for 
 
   if (mentionedCourses.length > 0) {
     parts.push(
-      "Specific course details (exact data from the catalog):\n\n" +
+      "Specific course details (catalog data plus current-term availability check):\n\n" +
         mentionedCourses.map((c, i) => `[Course ${i + 1}] ${c}`).join("\n\n")
     );
   }

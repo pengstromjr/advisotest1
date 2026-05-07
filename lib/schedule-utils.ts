@@ -1,4 +1,5 @@
 import type { Section } from "./course-data";
+import { normalizeCourseCode } from "./course-code";
 import type { TimeBlock } from "./time-blocks";
 import { parseTimeToMinutes } from "./time-blocks";
 
@@ -46,12 +47,14 @@ export function checkScheduleHealth(
   }
 
   const addedCodes = Array.from(uniqueCourses);
+  const completed = new Set(completedCourses.map(normalizeCourseCode));
   addedCodes.forEach((code) => {
-    if (code === "ECS 150") {
+    const normalizedCode = normalizeCourseCode(code);
+    if (normalizedCode === "ECS 150") {
       const hasPrereq =
-        completedCourses.includes("ECS 036B") ||
-        completedCourses.includes("ECS 036C") ||
-        completedCourses.includes("ECS 034");
+        completed.has("ECS 036B") ||
+        completed.has("ECS 036C") ||
+        completed.has("ECS 034");
       if (!hasPrereq) {
         health.conflicts.push({
           type: "prerequisite",
@@ -63,9 +66,9 @@ export function checkScheduleHealth(
     }
 
     if (
-      code === "ECS 122A" &&
-      !completedCourses.includes("ECS 020") &&
-      !completedCourses.includes("MAT 108")
+      normalizedCode === "ECS 122A" &&
+      !completed.has("ECS 020") &&
+      !completed.has("MAT 108")
     ) {
       health.conflicts.push({
         type: "prerequisite",
@@ -75,11 +78,10 @@ export function checkScheduleHealth(
       });
     }
 
-    const matCode = code.replace(/\s+/g, "");
+    const matCode = normalizedCode.replace(/\s+/g, "");
     if (
-      (matCode === "MAT021B" || matCode === "MAT21B") &&
-      !completedCourses.includes("MAT 021A") &&
-      !completedCourses.includes("MAT 21A")
+      matCode === "MAT021B" &&
+      !completed.has("MAT 021A")
     ) {
       health.conflicts.push({
         type: "prerequisite",

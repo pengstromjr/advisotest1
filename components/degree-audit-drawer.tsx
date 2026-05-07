@@ -18,6 +18,8 @@ import {
   RequirementPathSelector,
   requirementPathKind,
 } from "./requirement-path-selector";
+import { normalizeCourseCode } from "@/lib/course-code";
+import { getEnglishCompositionProgress } from "@/lib/english-composition";
 
 interface DegreeAuditDrawerProps {
   programName: string;
@@ -61,6 +63,22 @@ function parseUnits(u: number | string): number {
   if (typeof u === "number") return u;
   const match = String(u).match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
+}
+
+function removeEnglishCompositionWritingExperience(
+  courseGeMap: Record<string, GECourseInfo>,
+  englishCompositionUsedCodes: Set<string>
+) {
+  const next = { ...courseGeMap };
+  for (const code of englishCompositionUsedCodes) {
+    const info = next[code];
+    if (!info) continue;
+    next[code] = {
+      ...info,
+      ge_areas: (info.ge_areas || []).filter((area) => area !== "WE"),
+    };
+  }
+  return next;
 }
 
 // --- Major Requirements Tab Components ---
@@ -408,17 +426,40 @@ function GEProgressView({
   categories,
   completedCourses,
   courseGeMap,
+  programName,
+  requirements,
 }: {
   categories: GECategory[];
   completedCourses: string[];
   courseGeMap: Record<string, GECourseInfo>;
+  programName: string;
+  requirements: RequirementSection[];
 }) {
+  const englishCompositionProgress = useMemo(
+    () =>
+      getEnglishCompositionProgress(completedCourses, courseGeMap, {
+        programName,
+        requirements,
+      }),
+    [completedCourses, courseGeMap, programName, requirements]
+  );
+
+  const courseGeMapForGe = useMemo(
+    () =>
+      removeEnglishCompositionWritingExperience(
+        courseGeMap,
+        englishCompositionProgress.usedCodes
+      ),
+    [courseGeMap, englishCompositionProgress]
+  );
+
   const geProgress = useMemo(() => {
     const areaUnits: Record<string, number> = {};
     const areaCourses: Record<string, { code: string; units: number }[]> = {};
 
-    for (const code of completedCourses) {
-      const info = courseGeMap[code];
+    for (const rawCode of completedCourses) {
+      const code = normalizeCourseCode(rawCode);
+      const info = courseGeMapForGe[code] || courseGeMapForGe[rawCode];
       if (!info) continue;
       const units = parseUnits(info.units);
       for (const area of info.ge_areas) {
@@ -429,7 +470,7 @@ function GEProgressView({
     }
 
     return { areaUnits, areaCourses };
-  }, [completedCourses, courseGeMap]);
+  }, [completedCourses, courseGeMapForGe]);
 
   if (categories.length === 0) {
     return (
@@ -453,6 +494,44 @@ function GEProgressView({
               </span>
             </div>
           </div>
+          {cat.name === "Core Literacies" && (
+            <div className="border-b border-gray-100 px-5 py-2.5 text-xs text-gray-500">
+              <div className="flex items-center justify-between gap-3">
+                <span className="font-medium text-gray-700">
+                  English Composition <span className="text-gray-400">(EC)</span>
+                </span>
+                <span
+                  className={
+                    englishCompositionProgress.completedUnits >= englishCompositionProgress.requiredUnits
+                      ? "shrink-0 font-medium text-green-600"
+                      : "shrink-0 text-gray-500"
+                  }
+                >
+                  {englishCompositionProgress.completedUnits}/{englishCompositionProgress.requiredUnits} units
+                </span>
+              </div>
+              <p className="mt-1 text-[10px] leading-snug text-gray-400">
+                {englishCompositionProgress.summary}
+              </p>
+              {englishCompositionProgress.unmetNotes.length > 0 && (
+                <p className="mt-1 text-[10px] leading-snug text-amber-600">
+                  {englishCompositionProgress.unmetNotes[0]}
+                </p>
+              )}
+              {englishCompositionProgress.courses.length > 0 && (
+                <div className="mt-1 space-y-0.5">
+                  {englishCompositionProgress.courses.map((course) => (
+                    <div key={course.code} className="flex justify-between">
+                      <span>{course.code}</span>
+                      <span>
+                        {course.units} units · {course.role.replace("-", " ")}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
           {cat.areas.map((area) => (
             <GEAreaRow
               key={area.code}
@@ -694,6 +773,8 @@ export function DegreeAuditDrawer({
               categories={geCategories}
               completedCourses={completedCourses}
               courseGeMap={courseGeMap}
+              programName={programName}
+              requirements={requirements}
             />
           )}
         </div>

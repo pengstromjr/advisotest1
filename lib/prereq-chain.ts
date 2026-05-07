@@ -1,4 +1,5 @@
 import type { Course } from "./course-data";
+import { extractCourseCodeMatches, normalizeCourseCode } from "./course-code";
 import { findCourseByCode } from "./course-lookup";
 
 export interface PrereqNode {
@@ -7,29 +8,13 @@ export interface PrereqNode {
   children: PrereqNode[];
 }
 
-const COURSE_CODE_RE = /\b([A-Z]{2,12})\s*(\d{1,3}[A-Z]?)\b/g;
-
 function normalizeCode(code: string): string {
-  return code.toUpperCase().replace(/\s+/g, " ").trim();
+  return normalizeCourseCode(code);
 }
 
-function padNumberToken(num: string): string | null {
-  if (!/^\d+[A-Z]?$/.test(num)) return null;
-  if (num.length > 2) return null;
-  return num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) => d.padStart(3, "0") + (l || ""));
-}
-
-async function resolveCourseCode(dept: string, num: string): Promise<string | null> {
-  const base = normalizeCode(`${dept} ${num}`);
-  const direct = await findCourseByCode(base);
+async function resolveCourseCode(code: string): Promise<string | null> {
+  const direct = await findCourseByCode(code);
   if (direct) return normalizeCode(direct.code);
-
-  const padded = padNumberToken(num);
-  if (padded) {
-    const alt = await findCourseByCode(normalizeCode(`${dept} ${padded}`));
-    if (alt) return normalizeCode(alt.code);
-  }
-
   return null;
 }
 
@@ -44,12 +29,8 @@ async function extractPrereqCodes(course: Course): Promise<string[]> {
 
   const found: string[] = [];
   const seen = new Set<string>();
-  let m: RegExpExecArray | null;
-
-  while ((m = COURSE_CODE_RE.exec(text)) !== null) {
-    const dept = m[1];
-    const num = m[2];
-    const resolved = await resolveCourseCode(dept, num);
+  for (const match of extractCourseCodeMatches(text)) {
+    const resolved = await resolveCourseCode(match.code);
     if (!resolved) continue;
     if (seen.has(resolved)) continue;
     seen.add(resolved);
@@ -99,4 +80,3 @@ export async function getPrereqTree(
   const maxDepth = Math.max(0, options?.maxDepth ?? 5);
   return buildNode(courseCode, { maxDepth, visited: new Set() });
 }
-

@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 import type { Section, Course } from "@/lib/course-data";
+import { normalizeCourseCode, parseCourseCodeParts } from "@/lib/course-code";
 import {
   CURRENT_GRADES_FILE,
   CURRENT_SECTIONS_FILE,
@@ -12,10 +13,32 @@ const SECTION_FILES: Record<string, string> = {
   [CURRENT_TERM_LABEL]: CURRENT_SECTIONS_FILE,
 };
 
+interface SectionRmpEntry {
+  avgRating?: number;
+  avgDifficulty?: number;
+  numRatings?: number;
+  wouldTakeAgainPercent?: number;
+  legacyId?: string;
+  grades?: {
+    avgGpa?: number;
+    distribution?: Record<string, number>;
+  };
+  [key: string]: unknown;
+}
+
+interface GradeEntry {
+  overall_gpa?: number;
+  overall_enrolled?: number;
+  [key: string]: unknown;
+}
+
+type RmpMap = Record<string, SectionRmpEntry>;
+type GradeMap = Record<string, GradeEntry>;
+
 const cachedSectionsByFile = new Map<string, Section[]>();
 let cachedCourseGe: Record<string, string[]> | null = null;
-let cachedRmp: Record<string, any> | null = null;
-let cachedGrades: Record<string, any> | null = null;
+let cachedRmp: RmpMap | null = null;
+let cachedGrades: GradeMap | null = null;
 
 function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -53,7 +76,8 @@ function loadData(term = CURRENT_TERM_LABEL) {
         const c1 = JSON.parse(fs.readFileSync(coursesPath1, "utf-8")) as Course[];
         for (const c of c1) {
           if (c.ge_areas) {
-            geMap[c.code] = [...(geMap[c.code] || []), ...c.ge_areas];
+            const code = normalizeCourseCode(c.code);
+            geMap[code] = [...(geMap[code] || []), ...c.ge_areas];
           }
         }
       }
@@ -64,7 +88,8 @@ function loadData(term = CURRENT_TERM_LABEL) {
          const c2 = JSON.parse(fs.readFileSync(coursesPath2, "utf-8")) as Course[];
          for (const c of c2) {
            if (c.ge_areas) {
-             geMap[c.code] = [...(geMap[c.code] || []), ...c.ge_areas];
+             const code = normalizeCourseCode(c.code);
+             geMap[code] = [...(geMap[code] || []), ...c.ge_areas];
            }
          }
       }
@@ -110,8 +135,8 @@ function loadData(term = CURRENT_TERM_LABEL) {
   return { 
     sections, 
     courseGe: courseGe as Record<string, string[]>, 
-    rmp: rmp as Record<string, any>,
-    grades: grades as Record<string, any>
+    rmp: rmp as RmpMap,
+    grades: grades as GradeMap
   };
 }
 
@@ -191,8 +216,9 @@ export async function GET(req: Request) {
 
   if (geParams.length > 0) {
     filtered = filtered.filter((s) => {
+      const code = normalizeCourseCode(s.courseCode);
       const courseGeAreas = Array.from(
-        new Set([...(courseGe[s.courseCode] || []), ...(s.geAreas || [])])
+        new Set([...(courseGe[code] || []), ...(s.geAreas || [])])
       );
       if (geMatch === "all") {
         return geParams.every((ge) => courseGeAreas.includes(ge));
@@ -259,21 +285,37 @@ export async function GET(req: Request) {
   }
 
   // --- Apply Text Search ---
+  let isExactCourseCodeQuery = false;
   if (query) {
     const q = query.toUpperCase();
-    const looksLikeSubjectOrCode = /^[A-Z]{2,5}(\s+\d.*)?$/.test(q) || /^[A-Z]{2,5}\s*\d/.test(q);
+    const parsedCourseQuery = parseCourseCodeParts(q);
+    const exactCourseQuery =
+      parsedCourseQuery && /^[A-Z]{2,12}\s*\d{1,3}(?:\s*[A-Z]{1,2})?$/.test(q);
+    isExactCourseCodeQuery = Boolean(exactCourseQuery);
+    const normalizedCourseQuery = parsedCourseQuery?.code ?? normalizeCourseCode(q);
+    const looksLikeSubjectOrCode = /^[A-Z]{2,12}(\s*\d.*)?$/.test(q) || /^[A-Z]{2,12}\s*\d/.test(q);
     const titleWordRe = q.length >= 4 ? new RegExp(`\\b${escapeRegExp(q)}\\b`, "i") : null;
 
     filtered = filtered.filter(s => {
       const subj = s.subject.toUpperCase();
       const code = `${subj} ${s.courseNumber}`.toUpperCase();
+      const unpaddedCode = `${subj} ${s.courseNumber.replace(/^0+/, "")}`.toUpperCase();
+      const normalizedCode = normalizeCourseCode(s.courseCode || code);
       const title = s.title.toUpperCase();
       const instructors = s.instructors.map((i) => i.toUpperCase());
 
       const subjectExact = subj === q;
-      const codePrefix = code.startsWith(q);
+      const codePrefix = exactCourseQuery
+        ? normalizedCode === normalizedCourseQuery
+        : code.startsWith(q) ||
+          unpaddedCode.startsWith(q) ||
+          normalizedCode.startsWith(normalizedCourseQuery);
       const subjectPrefix = q.length >= 2 && q.length <= 5 && subj.startsWith(q);
-      const codeContains = code.includes(q);
+      const codeContains = exactCourseQuery
+        ? false
+        : code.includes(q) ||
+          unpaddedCode.includes(q) ||
+          normalizedCode.includes(normalizedCourseQuery);
       const titleWord = titleWordRe ? titleWordRe.test(s.title) : false;
       const titleContains = q.length >= 4 ? title.includes(q) : false;
       const instructorContains = q.length >= 3 ? instructors.some((i) => i.includes(q)) : false;
@@ -307,8 +349,8 @@ export async function GET(req: Request) {
         const gpaB = grades[b.courseCode]?.overall_gpa || rmpB.grades?.avgGpa || 0;
         if (gpaB !== gpaA) return gpaB - gpaA;
         
-        const geA = (courseGe[a.courseCode] || []).length;
-        const geB = (courseGe[b.courseCode] || []).length;
+        const geA = (courseGe[normalizeCourseCode(a.courseCode)] || []).length;
+        const geB = (courseGe[normalizeCourseCode(b.courseCode)] || []).length;
         return geB - geA;
       }
 
@@ -317,7 +359,8 @@ export async function GET(req: Request) {
       }
 
       if (sortBy === "geCount") {
-        return (courseGe[b.courseCode] || []).length - (courseGe[a.courseCode] || []).length;
+        return (courseGe[normalizeCourseCode(b.courseCode)] || []).length -
+          (courseGe[normalizeCourseCode(a.courseCode)] || []).length;
       }
 
       return 0;
@@ -335,12 +378,16 @@ export async function GET(req: Request) {
   const instructorCounts: Record<string, number> = {};
   const varietySections: Section[] = [];
   
-  for (const s of filtered) {
-    const inst = s.instructors[0] || "Unknown";
-    const count = instructorCounts[inst] || 0;
-    if (count < 3) {
-      varietySections.push(s);
-      instructorCounts[inst] = count + 1;
+  if (isExactCourseCodeQuery || crn) {
+    varietySections.push(...filtered);
+  } else {
+    for (const s of filtered) {
+      const inst = s.instructors[0] || "Unknown";
+      const count = instructorCounts[inst] || 0;
+      if (count < 3) {
+        varietySections.push(s);
+        instructorCounts[inst] = count + 1;
+      }
     }
   }
 
@@ -349,7 +396,7 @@ export async function GET(req: Request) {
   const offset = Math.max(0, parseInt(url.searchParams.get("offset") ?? "0", 10) || 0);
   
   const sectionsPage = varietySections.slice(offset, offset + limit).map(s => {
-    const sectionRmp: Record<string, any> = {};
+    const sectionRmp: RmpMap = {};
     for (const inst of (s.instructors || [])) {
       if (rmp[inst]) {
         // Enrich RMP with CattleLog grade data for backward compatibility

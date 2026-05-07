@@ -287,9 +287,6 @@ export default function TermsPage() {
               <strong>Contact:</strong> pengstromjr@gmail.com
             </p>
           </div>
-          <div className="mt-6 border-l-4 border-[#DAAA00] bg-[#DAAA00]/10 px-4 py-3 text-sm leading-6 text-[#493900] dark:text-yellow-100">
-            <strong>Status:</strong> Draft for beta/pilot launch review. Have a qualified attorney review before collecting official student records, transcript data, degree audit data, or running a formal university pilot.
-          </div>
         </header>
 
         <article className="mt-10 space-y-10">

@@ -9,6 +9,12 @@ import {
 import { retrieve } from "@/lib/rag";
 import { buildSystemPrompt } from "@/lib/system-prompt";
 import { extractCourseMentions } from "@/lib/course-lookup";
+import { getEnglishCompositionProgress } from "@/lib/english-composition";
+import {
+  extractCourseCodeMatches,
+  normalizeCourseCode as canonicalizeCourseCode,
+  parseCourseCodeParts,
+} from "@/lib/course-code";
 import type {
   StudentContext,
   Course,
@@ -35,7 +41,10 @@ function getLastUserText(messages: UIMessage[]): string {
 import { z } from "zod";
 import { tool } from "ai";
 
-function formatCourseForPrompt(course: Course): string {
+function formatCourseForPrompt(
+  course: Course,
+  options: { includeCurrentTermAvailability?: boolean } = {}
+): string {
   const prereqs =
     typeof course.prerequisites === "string"
       ? course.prerequisites || "None"
@@ -43,7 +52,17 @@ function formatCourseForPrompt(course: Course): string {
         ? course.prerequisites.join(", ")
         : "None";
   const ge = course.ge_areas.length > 0 ? course.ge_areas.join(", ") : "None";
-  return `${course.code} — ${course.title} (${course.units} units). Prerequisites: ${prereqs}. GE: ${ge}. ${course.description}`;
+  const currentTermSectionCount = options.includeCurrentTermAvailability
+    ? getCurrentTermSectionCount(course.code)
+    : null;
+  const availability = options.includeCurrentTermAvailability
+    ? ` Current ${CURRENT_TERM_LABEL} availability: ${
+        currentTermSectionCount && currentTermSectionCount > 0
+          ? `${currentTermSectionCount} section(s) found; schedulable this term.`
+          : "0 sections found; not schedulable this term. Do not schedule it or describe it as offered this term."
+      }`
+    : "";
+  return `${course.code} — ${course.title} (${course.units} units). Prerequisites: ${prereqs}. GE: ${ge}.${availability} ${course.description}`;
 }
 
 // --- Cached data for chat route ---
@@ -167,21 +186,36 @@ function loadSectionsFile(): Section[] {
 
 let sectionCache: Section[] | null = null;
 let allCoursesCache: Course[] | null = null;
+let catalogCoursesCache: Course[] | null = null;
 const programRequirementsCache = new Map<string, RequirementSection[]>();
 
 function loadCurrentSectionCodes(): Set<string> {
   if (!sectionCache) sectionCache = loadSectionsFile();
-  return new Set(sectionCache.map((section) => section.courseCode));
+  return new Set(
+    sectionCache
+      .filter((section) => section.term === CURRENT_TERM_LABEL)
+      .map((section) => normalizeCourseCode(section.courseCode))
+  );
 }
 
-async function loadAllCourses(): Promise<Course[]> {
-  if (allCoursesCache) return allCoursesCache;
+function getCurrentTermSectionCount(code: string): number {
+  if (!sectionCache) sectionCache = loadSectionsFile();
+  const normalizedCode = normalizeCourseCode(code);
+  return sectionCache.filter(
+    (section) =>
+      section.term === CURRENT_TERM_LABEL &&
+      normalizeCourseCode(section.courseCode) === normalizedCode
+  ).length;
+}
+
+async function loadCatalogCourses(): Promise<Course[]> {
+  if (catalogCoursesCache) return catalogCoursesCache;
   try {
     const raw = fs.readFileSync(
       path.join(process.cwd(), "data", "courses.json"),
       "utf-8"
     );
-    allCoursesCache = JSON.parse(raw) as Course[];
+    let courses = JSON.parse(raw) as Course[];
     try {
       const rawFull = fs.readFileSync(
         path.join(process.cwd(), "data", "courses-full.json"),
@@ -189,17 +223,40 @@ async function loadAllCourses(): Promise<Course[]> {
       );
       const full = JSON.parse(rawFull) as Course[];
       const merged = new Map<string, Course>();
-      for (const c of allCoursesCache) merged.set(c.code, c);
-      for (const c of full) merged.set(c.code, c);
-      allCoursesCache = Array.from(merged.values());
+      for (const c of courses) merged.set(normalizeCourseCode(c.code), c);
+      for (const c of full) merged.set(normalizeCourseCode(c.code), c);
+      if (!sectionCache) sectionCache = loadSectionsFile();
+      for (const section of sectionCache) {
+        if (section.term !== CURRENT_TERM_LABEL) continue;
+        const code = normalizeCourseCode(section.courseCode);
+        const existing = merged.get(code);
+        merged.set(code, {
+          code,
+          title: existing?.title || section.title,
+          units: existing?.units || section.units,
+          description: existing?.description || "",
+          prerequisites: existing?.prerequisites || [],
+          offered: Array.from(new Set([...(existing?.offered || []), CURRENT_TERM_LABEL])),
+          ge_areas: Array.from(new Set([...(existing?.ge_areas || []), ...(section.geAreas || [])])),
+          department: existing?.department || section.subject,
+        });
+      }
+      courses = Array.from(merged.values());
     } catch {}
-    const springOfferedCodes = loadCurrentSectionCodes();
-    allCoursesCache = allCoursesCache.filter((course) =>
-      springOfferedCodes.has(course.code)
-    );
+    catalogCoursesCache = courses;
   } catch {
-    allCoursesCache = [];
+    catalogCoursesCache = [];
   }
+  return catalogCoursesCache;
+}
+
+async function loadAllCourses(): Promise<Course[]> {
+  if (allCoursesCache) return allCoursesCache;
+  const currentOfferedCodes = loadCurrentSectionCodes();
+  const catalogCourses = await loadCatalogCourses();
+  allCoursesCache = catalogCourses.filter((course) =>
+    currentOfferedCodes.has(normalizeCourseCode(course.code))
+  );
   return allCoursesCache;
 }
 
@@ -379,15 +436,13 @@ function parseScheduleRequest(query: string): ScheduleRequestConstraints {
 function extractCourseCodeTokens(text: string): string[] {
   const codes = new Set<string>();
   const ignoredSubjects = new Set(["AND", "OR", "THE", "WITH", "FROM"]);
-  const courseRe = /\b([A-Z]{2,5})\s*(\d{1,3}[A-Z]?)\b/gi;
-  let match: RegExpExecArray | null;
-  while ((match = courseRe.exec(text)) !== null) {
-    if (ignoredSubjects.has(match[1].toUpperCase())) continue;
+  for (const match of extractCourseCodeMatches(text)) {
+    if (ignoredSubjects.has(match.subject.toUpperCase())) continue;
     const prefix = text.slice(Math.max(0, match.index - 40), match.index).toLowerCase();
     if (/\b(?:not|without|except|haven[’']?t\s+taken|have\s+not\s+taken|never\s+took|but\s+not)\s*$/.test(prefix)) {
       continue;
     }
-    codes.add(normalizeCourseCode(`${match[1]} ${match[2]}`));
+    codes.add(normalizeCourseCode(match.code));
   }
   return Array.from(codes);
 }
@@ -448,12 +503,7 @@ function parseDayText(text: string): string[] {
 }
 
 function normalizeCourseCode(code: string): string {
-  const normalized = code.toUpperCase().replace(/\s+/g, " ").trim();
-  return normalized.replace(
-    /^([A-Z]{2,5})\s+(\d{1,2})([A-Z]?)$/,
-    (_, subject: string, number: string, suffix: string) =>
-      `${subject} ${number.padStart(3, "0")}${suffix || ""}`
-  );
+  return canonicalizeCourseCode(code);
 }
 
 function parseUnits(units: number | string | undefined): number {
@@ -503,13 +553,16 @@ function extractRequirementCodes(
     .replace(/^or\s+/i, "")
     .toUpperCase()
     .trim();
-  const fallbackNumber = text.match(/\b(\d{1,3}[A-Z]?)\b/)?.[1];
+  const firstCourseMatch = extractCourseCodeMatches(text)[0];
+  const fallbackNumber = firstCourseMatch
+    ? `${firstCourseMatch.number}${firstCourseMatch.suffix}`
+    : text.match(/\b(\d{1,3}[A-Z]{0,2})\b/)?.[1];
   const codes = new Set<string>();
 
   for (const part of text.split("/")) {
-    const match = part.match(/\b([A-Z]{2,5})\s*(\d{1,3}[A-Z]?)\b/);
+    const match = extractCourseCodeMatches(part)[0];
     if (match) {
-      codes.add(`${match[1]} ${match[2]}`);
+      codes.add(match.code);
       continue;
     }
     const subjectOnly = part.match(/\b([A-Z]{2,5})\b/);
@@ -518,10 +571,8 @@ function extractRequirementCodes(
     }
   }
 
-  const directRe = /\b([A-Z]{2,5})\s*(\d{1,3}[A-Z]?)\b/g;
-  let direct: RegExpExecArray | null;
-  while ((direct = directRe.exec(text)) !== null) {
-    codes.add(`${direct[1]} ${direct[2]}`);
+  for (const direct of extractCourseCodeMatches(text)) {
+    codes.add(direct.code);
   }
 
   return Array.from(codes).map(normalizeCourseCode);
@@ -571,6 +622,26 @@ function formatProgramRequirementsForPrompt(
     }
     lines.push(parts.join(" "));
   }
+
+  const englishCompositionProgress = getEnglishCompositionProgress(
+    Array.from(completed),
+    {},
+    { programName, requirements }
+  );
+  const appliedEnglishComposition =
+    englishCompositionProgress.courses.length > 0
+      ? ` Applied: ${englishCompositionProgress.courses
+          .map((course) => `${course.code} (${course.role.replace("-", " ")})`)
+          .join(", ")}.`
+      : "";
+  const missingEnglishComposition =
+    englishCompositionProgress.unmetNotes.length > 0
+      ? ` Missing: ${englishCompositionProgress.unmetNotes.join(" ")}`
+      : "";
+  lines.push(
+    `English Composition check: ${englishCompositionProgress.completedUnits}/${englishCompositionProgress.requiredUnits} units. ${englishCompositionProgress.summary}${appliedEnglishComposition}${missingEnglishComposition} English Composition is separate from GE Writing Experience; do not double count a course toward both.`
+  );
+
   if (completed.size > 0) {
     const progressLines = requirements
       .map((requirement) => formatRequirementProgress(requirement, completed))
@@ -1022,12 +1093,16 @@ async function buildScheduleGuidance(
 
   if (!sectionCache) sectionCache = loadSectionsFile();
   const allCourses = await loadAllCourses();
+  const catalogCourses = await loadCatalogCourses();
   const offeredCodes = loadCurrentSectionCodes();
   const completed = new Set(
     (studentContext?.completedCourses || []).map(normalizeCourseCode)
   );
   const courseByCode = new Map(
     allCourses.map((course) => [normalizeCourseCode(course.code), course])
+  );
+  const catalogCourseByCode = new Map(
+    catalogCourses.map((course) => [normalizeCourseCode(course.code), course])
   );
 
   const targetMin = constraints.targetUnitsMin ?? 12;
@@ -1055,7 +1130,10 @@ async function buildScheduleGuidance(
     new Set(
       constraints.requiredCourseCodes
         .map(normalizeCourseCode)
-        .filter((code) => knownSubjects.has(code.split(" ")[0]))
+        .filter(
+          (code) =>
+            knownSubjects.has(code.split(" ")[0]) || catalogCourseByCode.has(code)
+        )
         .filter((code) => !completed.has(code))
     )
   );
@@ -1064,7 +1142,13 @@ async function buildScheduleGuidance(
   for (const code of rawRequiredCourseCodes) {
     const course = courseByCode.get(code);
     if (!course) {
-      requiredCourseBlockers.push(`${code}: not found in the current catalog data.`);
+      if (catalogCourseByCode.has(code)) {
+        requiredCourseBlockers.push(
+          `${code}: exists in the catalog, but no ${CURRENT_TERM_LABEL} sections were found, so it is not schedulable this term.`
+        );
+      } else {
+        requiredCourseBlockers.push(`${code}: not found in the current catalog data.`);
+      }
       continue;
     }
     if (!offeredCodes.has(code)) {
@@ -1420,8 +1504,12 @@ async function buildDirectSectionRecommendation(
   mergeStudentScheduleStateIntoConstraints(scheduleConstraints, studentContext);
 
   const allCourses = await loadAllCourses();
+  const catalogCourses = await loadCatalogCourses();
   const courseByCode = new Map(
     allCourses.map((course) => [normalizeCourseCode(course.code), course])
+  );
+  const catalogCourseCodes = new Set(
+    catalogCourses.map((course) => normalizeCourseCode(course.code))
   );
   const completed = new Set(
     (studentContext?.completedCourses || []).map(normalizeCourseCode)
@@ -1433,9 +1521,19 @@ async function buildDirectSectionRecommendation(
   );
   const offeredCodes = loadCurrentSectionCodes();
 
+  const allExplicitCodes = Array.from(
+    new Set(extractCourseCodeTokens(query).map(normalizeCourseCode))
+  );
+  const unavailableExplicitCodes = allExplicitCodes.filter(
+    (code) => !offeredCodes.has(code) && catalogCourseCodes.has(code)
+  );
+  if (unavailableExplicitCodes.length > 0) {
+    return `${unavailableExplicitCodes.join(", ")} exists in Adviso's catalog/requirement data, but I do not see any ${CURRENT_TERM_LABEL} sections for it. I would not schedule it for ${CURRENT_TERM_LABEL}; pick another current-term course or plan it for a term where Schedule Builder lists sections.`;
+  }
+
   const explicitCodes = Array.from(
     new Set(
-      extractCourseCodeTokens(query)
+      allExplicitCodes
         .map(normalizeCourseCode)
         .filter((code) => offeredCodes.has(code))
     )
@@ -1539,7 +1637,14 @@ function findRelevantSections(
 ): string[] {
   if (!sectionCache) sectionCache = loadSectionsFile();
   const q = query.toUpperCase();
+  const parsedCourseQuery = parseCourseCodeParts(query);
+  const exactCourseQuery = Boolean(
+    parsedCourseQuery && /^[A-Z]{2,12}\s*\d{1,3}(?:\s*[A-Z]{1,2})?$/i.test(query.trim())
+  );
   const applyStudentConstraints = isRecommendationLikeQuery(query);
+  const explicitCourseCodes = new Set(
+    extractCourseCodeTokens(query).map(normalizeCourseCode)
+  );
   const completed = new Set(
     (studentContext?.completedCourses || []).map(normalizeCourseCode)
   );
@@ -1553,23 +1658,44 @@ function findRelevantSections(
     );
 
   // Use extracted course codes as high-priority keys
-  const targetCodes = new Set(courseMentions.map((c) => c.code.toUpperCase()));
+  const targetCodes = new Set(courseMentions.map((c) => normalizeCourseCode(c.code)));
 
   // Find sections matching target codes OR raw query
   const directMatched = sectionCache.filter((s) => {
-    const code = s.courseCode.toUpperCase();
+    const code = normalizeCourseCode(s.courseCode);
+    const rawCode = s.courseCode.toUpperCase();
+    const unpaddedCode = `${s.subject} ${s.courseNumber.replace(/^0+/, "")}`.toUpperCase();
     if (applyStudentConstraints) {
       const normalizedCode = normalizeCourseCode(s.courseCode);
       if (completed.has(normalizedCode)) return false;
       if (!sectionSatisfiesScheduleConstraints(s, constraints)) return false;
     }
+    const courseCodeMatches = exactCourseQuery
+      ? code === parsedCourseQuery!.code
+      : rawCode.includes(q) || unpaddedCode.includes(q) || code.includes(normalizeCourseCode(q));
     return (
       targetCodes.has(code) ||
-      code.includes(q) ||
+      courseCodeMatches ||
       s.title.toUpperCase().includes(q) ||
       s.instructors.some((i) => i.toUpperCase().includes(q))
     );
   });
+
+  if (explicitCourseCodes.size > 0) {
+    const matchedCodes = new Set(
+      directMatched.map((section) => normalizeCourseCode(section.courseCode))
+    );
+    const missingCodes = Array.from(explicitCourseCodes).filter(
+      (code) => !matchedCodes.has(code)
+    );
+    return [
+      ...directMatched.slice(0, 30).map(formatSectionForPrompt),
+      ...missingCodes.map(
+        (code) =>
+          `No ${CURRENT_TERM_LABEL} sections found for ${code}; do not schedule it or describe it as offered this term.`
+      ),
+    ];
+  }
 
   if (!isScheduleRequest) {
     return directMatched.slice(0, 15).map(formatSectionForPrompt);
@@ -1617,18 +1743,17 @@ function findRelevantSections(
 
 const tools = {
   getCourseDetails: tool({
-    description: `Lookup detailed information for ${CURRENT_TERM_LABEL} courses by code (e.g. 'ECS 036A').`,
+    description: `Lookup catalog details and ${CURRENT_TERM_LABEL} availability by code (e.g. 'ECS 036A'). Catalog details do not imply the course has sections this term.`,
     inputSchema: z.object({
       codes: z.array(z.string()).describe("List of course codes to lookup"),
     }),
     execute: async ({ codes }: { codes: string[] }) => {
-      const all = await loadAllCourses();
-      const normalize = (c: string) => c.toUpperCase().replace(/\s+/g, " ").trim();
-      const normalizeCode = (c: string) => c.replace(/\s+/g, " ").trim();
-      
-      const targets = new Set(codes.map(normalize));
-      const results = all.filter(c => targets.has(normalizeCode(c.code)));
-      return results.map(formatCourseForPrompt);
+      const all = await loadCatalogCourses();
+      const targets = new Set(codes.map(normalizeCourseCode));
+      const results = all.filter(c => targets.has(normalizeCourseCode(c.code)));
+      return results.map((course) =>
+        formatCourseForPrompt(course, { includeCurrentTermAvailability: true })
+      );
     },
   }),
   getSections: tool({
@@ -1639,11 +1764,29 @@ const tools = {
     execute: async ({ query }: { query: string }) => {
       if (!sectionCache) sectionCache = loadSectionsFile();
       const q = query.toUpperCase();
-      const matches = sectionCache.filter(s => 
-        s.courseCode.toUpperCase().includes(q) || 
-        s.title.toUpperCase().includes(q) ||
-        s.instructors.some(i => i.toUpperCase().includes(q))
+      const parsedCourseQuery = parseCourseCodeParts(query);
+      const exactCourseQuery = Boolean(
+        parsedCourseQuery && /^[A-Z]{2,12}\s*\d{1,3}(?:\s*[A-Z]{1,2})?$/i.test(query.trim())
       );
+      const normalizedQuery = normalizeCourseCode(query);
+      const matches = sectionCache.filter(s => {
+        const code = normalizeCourseCode(s.courseCode);
+        const rawCode = s.courseCode.toUpperCase();
+        const unpaddedCode = `${s.subject} ${s.courseNumber.replace(/^0+/, "")}`.toUpperCase();
+        const courseCodeMatches = exactCourseQuery
+          ? code === parsedCourseQuery!.code
+          : rawCode.includes(q) || unpaddedCode.includes(q) || code.includes(normalizedQuery);
+        return (
+          courseCodeMatches ||
+          s.title.toUpperCase().includes(q) ||
+          s.instructors.some(i => i.toUpperCase().includes(q))
+        );
+      });
+      if (exactCourseQuery && matches.length === 0) {
+        return [
+          `No ${CURRENT_TERM_LABEL} sections found for ${normalizedQuery}; do not schedule it or describe it as offered this term.`,
+        ];
+      }
       return matches.slice(0, 20).map(formatSectionForPrompt);
     },
   }),
@@ -1656,7 +1799,7 @@ const tools = {
       const grades = loadGradesData();
       const results: string[] = [];
       for (const code of codes) {
-        const g = grades[code.toUpperCase().replace(/\s+/g, " ")];
+        const g = grades[normalizeCourseCode(code)];
         if (g && g.overall_gpa != null) {
           let snippet = `Grade data for ${code}: Overall GPA ${g.overall_gpa}, ${g.overall_enrolled} students.`;
           if (g.overall_grades) {
@@ -1705,7 +1848,11 @@ const tools = {
           c.code.toLowerCase().includes(keyLower)
         );
       }
-      return results.slice(0, 15).map(formatCourseForPrompt);
+      return results
+        .slice(0, 15)
+        .map((course) =>
+          formatCourseForPrompt(course, { includeCurrentTermAvailability: true })
+        );
     },
   }),
 };
@@ -1789,7 +1936,9 @@ export async function POST(req: Request) {
     courseMentions = await extractCourseMentions(lastUserMessage);
   } catch {}
 
-  const mentionedCourses: string[] = courseMentions.map(formatCourseForPrompt);
+  const mentionedCourses: string[] = courseMentions.map((course) =>
+    formatCourseForPrompt(course, { includeCurrentTermAvailability: true })
+  );
 
   let sectionSnippets: string[] = [];
   try {

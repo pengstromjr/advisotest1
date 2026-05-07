@@ -5,6 +5,7 @@ import { ProfileEditModal } from "@/components/profile-edit-modal";
 import { WorkspaceTabs } from "@/components/workspace-tabs";
 import { AIPanel, MinimizedAIPanel } from "@/components/ai-panel";
 import { Onboarding } from "@/components/onboarding";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { useTheme } from "@/lib/theme-context";
 import type { StudentContext } from "@/lib/course-data";
 
@@ -58,12 +59,15 @@ export default function Home() {
 
   const handleToggleCourse = useCallback(
     (code: string) => {
-      const has = studentContext.completedCourses.includes(code);
+      const normalizedCode = normalizeCourseCode(code);
+      const has = studentContext.completedCourses
+        .map(normalizeCourseCode)
+        .includes(normalizedCode);
       setStudentContext((prev) => ({
         ...prev,
         completedCourses: has
-          ? prev.completedCourses.filter((c) => c !== code)
-          : [...prev.completedCourses, code],
+          ? prev.completedCourses.filter((c) => normalizeCourseCode(c) !== normalizedCode)
+          : [...prev.completedCourses, normalizedCode],
       }));
     },
     [studentContext.completedCourses]
@@ -74,6 +78,14 @@ export default function Home() {
       window.localStorage.setItem(ONBOARDING_KEY, "true");
     }
     setShowOnboarding(false);
+  };
+
+  const handleRestartOnboarding = () => {
+    if (typeof window !== "undefined") {
+      window.localStorage.removeItem(ONBOARDING_KEY);
+    }
+    setEditOpen(false);
+    setShowOnboarding(true);
   };
 
   // null = not yet read storage (show loading shell only). true = show onboarding. false = show main app.
@@ -179,12 +191,15 @@ export default function Home() {
       )}
 
       {/* Profile Edit Modal */}
-      <ProfileEditModal
-        open={editOpen}
-        onClose={() => setEditOpen(false)}
-        context={studentContext}
-        onChange={setStudentContext}
-      />
+      {editOpen && (
+        <ProfileEditModal
+          open={editOpen}
+          onClose={() => setEditOpen(false)}
+          onRestartOnboarding={handleRestartOnboarding}
+          context={studentContext}
+          onChange={setStudentContext}
+        />
+      )}
 
       {/* Onboarding */}
       <Onboarding

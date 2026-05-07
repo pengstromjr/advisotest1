@@ -6,7 +6,10 @@ import type {
   RequirementSection,
   Course,
   GERequirements,
+  Section,
 } from "@/lib/course-data";
+import { normalizeCourseCode } from "@/lib/course-code";
+import { CURRENT_SECTIONS_FILE, CURRENT_TERM_LABEL } from "@/lib/current-term";
 
 interface CourseMinimal {
   ge_areas: string[];
@@ -37,20 +40,40 @@ function loadGeData(): ProgramResponse["ge"] {
   );
   const geReqs: GERequirements = JSON.parse(geRaw);
 
-  let coursesPath = path.join(dataDir, "courses.json");
-  if (!fs.existsSync(coursesPath)) {
-    coursesPath = path.join(dataDir, "courses-full.json");
-  }
-  const coursesRaw = fs.readFileSync(coursesPath, "utf-8");
-  const courses: Course[] = JSON.parse(coursesRaw);
-
   const courseInfoMap: Record<string, CourseMinimal> = {};
-  for (const c of courses) {
-    courseInfoMap[c.code] = { 
-      ge_areas: c.ge_areas || [], 
-      units: c.units,
-      prerequisites: (Array.isArray(c.prerequisites) ? c.prerequisites.join(" ; ") : c.prerequisites) || ""
-    };
+
+  for (const fileName of ["courses.json", "courses-full.json"]) {
+    const coursesPath = path.join(dataDir, fileName);
+    if (!fs.existsSync(coursesPath)) continue;
+    const coursesRaw = fs.readFileSync(coursesPath, "utf-8");
+    const courses: Course[] = JSON.parse(coursesRaw);
+    for (const c of courses) {
+      const code = normalizeCourseCode(c.code);
+      const existing = courseInfoMap[code];
+      courseInfoMap[code] = {
+        ge_areas: Array.from(new Set([...(existing?.ge_areas || []), ...(c.ge_areas || [])])),
+        units: c.units || existing?.units || "",
+        prerequisites:
+          (Array.isArray(c.prerequisites) ? c.prerequisites.join(" ; ") : c.prerequisites) ||
+          existing?.prerequisites ||
+          "",
+      };
+    }
+  }
+
+  const sectionsPath = path.join(dataDir, "sections", CURRENT_SECTIONS_FILE);
+  if (fs.existsSync(sectionsPath)) {
+    const sections = JSON.parse(fs.readFileSync(sectionsPath, "utf-8")) as Section[];
+    for (const section of sections) {
+      if (section.term !== CURRENT_TERM_LABEL) continue;
+      const code = normalizeCourseCode(section.courseCode);
+      const existing = courseInfoMap[code];
+      courseInfoMap[code] = {
+        ge_areas: Array.from(new Set([...(existing?.ge_areas || []), ...(section.geAreas || [])])),
+        units: existing?.units || section.units || "",
+        prerequisites: existing?.prerequisites || "",
+      };
+    }
   }
 
   geCache = {

@@ -2,6 +2,8 @@
  * Shared prerequisite checking logic.
  */
 
+import { extractCourseCodeMatches, normalizeCourseCode } from "./course-code";
+
 export interface CourseMinimal {
   ge_areas: string[];
   units: number | string;
@@ -17,14 +19,15 @@ export function isEligible(
   infoMap: Record<string, CourseMinimal>,
   studentYear: string
 ) {
-  const info = infoMap[courseCode];
+  const normalizedCourseCode = normalizeCourseCode(courseCode);
+  const info = infoMap[courseCode] || infoMap[normalizedCourseCode];
   // If we don't have info, we can't be sure, so assume eligible but log it
   if (!info) return true;
   if (!info.prerequisites) return true;
 
+  const completedSet = new Set(completed.map(normalizeCourseCode));
   const prereqText = info.prerequisites.toUpperCase();
   const groups = prereqText.split(";").map((g: string) => g.trim());
-  const COURSE_CODE_RE = /\b([A-Z]{2,12})\s*(\d{1,3}[A-Z]?)\b/g;
 
   for (const group of groups) {
     // 1. Check for "Upper Division Standing"
@@ -33,12 +36,7 @@ export function isEligible(
       if (!isUD) return false;
     }
 
-    const codesInGroup: string[] = [];
-    let m;
-    COURSE_CODE_RE.lastIndex = 0; // Reset just in case
-    while ((m = COURSE_CODE_RE.exec(group)) !== null) {
-      codesInGroup.push(`${m[1]} ${m[2]}`);
-    }
+    const codesInGroup = extractCourseCodeMatches(group).map((match) => match.code);
 
     if (codesInGroup.length === 0) continue;
 
@@ -47,9 +45,9 @@ export function isEligible(
     const isOrGroup = hasOrKeywords && codesInGroup.length > 1;
 
     if (isOrGroup) {
-      if (!codesInGroup.some((code) => completed.includes(code))) return false;
+      if (!codesInGroup.some((code) => completedSet.has(code))) return false;
     } else {
-      if (!codesInGroup.every((code) => completed.includes(code))) return false;
+      if (!codesInGroup.every((code) => completedSet.has(code))) return false;
     }
   }
   return true;

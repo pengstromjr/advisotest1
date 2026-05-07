@@ -3,6 +3,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import type { Section, StudentContext } from "@/lib/course-data";
+import { normalizeCourseCode } from "@/lib/course-code";
 import { isEligible, type CourseMinimal } from "@/lib/eligibility";
 import { getStoredPlannedSections, getStoredBlockedTimes, checkTimeConflict } from "@/lib/schedule-state";
 import { dispatchScheduleAdd } from "@/lib/schedule-store";
@@ -511,10 +512,11 @@ export function DiscoveryHub({
           }
 
           const signals = personalSignals(personalProfile);
+          const completedCodes = new Set(studentContext.completedCourses.map(normalizeCourseCode));
           const filteredPersonal = [...byCrn.values()]
             .filter((s) => {
               if (!isEligible(s.courseCode, studentContext.completedCourses, infoMap, studentContext.year)) return false;
-              if (studentContext.completedCourses.includes(s.courseCode)) return false;
+              if (completedCodes.has(normalizeCourseCode(s.courseCode))) return false;
               if (checkTimeConflict(s, planned, blocked)) return false;
               if (personalProfile.format !== "any" && s.modality !== personalProfile.format) return false;
               return true;
@@ -549,13 +551,14 @@ export function DiscoveryHub({
         if (!res.ok) throw new Error("Failed to load discovery data");
         const data = await res.json();
         const allSections: Section[] = data.sections || [];
+        const completedCodes = new Set(studentContext.completedCourses.map(normalizeCourseCode));
 
         // Filter for eligibility and schedule conflicts
         const filtered = allSections.filter(s => {
           if (!isEligible(s.courseCode, studentContext.completedCourses, infoMap, studentContext.year)) return false;
           if (checkTimeConflict(s, planned, blocked)) return false;
           // For "For Your Major" — filter out completed courses
-          if (activeCategory.id === "for-your-major" && studentContext.completedCourses.includes(s.courseCode)) return false;
+          if (activeCategory.id === "for-your-major" && completedCodes.has(normalizeCourseCode(s.courseCode))) return false;
           return true;
         });
 

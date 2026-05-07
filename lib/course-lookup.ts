@@ -1,4 +1,6 @@
-import type { Course } from "./course-data";
+import type { Course, Section } from "./course-data";
+import { extractCourseCodeMatches, normalizeCourseCode } from "./course-code";
+import { CURRENT_SECTIONS_FILE, CURRENT_TERM_LABEL } from "./current-term";
 
 let cachedCourses: Course[] | null = null;
 let codeIndex: Map<string, Course> | null = null;
@@ -15,12 +17,43 @@ async function loadCourses(): Promise<Course[]> {
     const fullData = full.default as Course[];
     if (fullData.length > 0) {
       const merged = new Map<string, Course>();
-      for (const c of data) merged.set(c.code.toUpperCase().replace(/\s+/g, " "), c);
-      for (const c of fullData) merged.set(c.code.toUpperCase().replace(/\s+/g, " "), c);
+      for (const c of data) merged.set(normalizeCourseCode(c.code), c);
+      for (const c of fullData) merged.set(normalizeCourseCode(c.code), c);
       data = Array.from(merged.values());
     }
   } catch {
     // courses-full.json not available — base is fine
+  }
+
+  try {
+    const fs = await import("fs");
+    const path = await import("path");
+    const sectionsPath = path.join(
+      process.cwd(),
+      "data",
+      "sections",
+      CURRENT_SECTIONS_FILE
+    );
+    const sections = JSON.parse(fs.readFileSync(sectionsPath, "utf-8")) as Section[];
+    const merged = new Map(data.map((course) => [normalizeCourseCode(course.code), course]));
+    for (const section of sections) {
+      if (section.term !== CURRENT_TERM_LABEL) continue;
+      const code = normalizeCourseCode(section.courseCode);
+      const existing = merged.get(code);
+      merged.set(code, {
+        code,
+        title: existing?.title || section.title,
+        units: existing?.units || section.units,
+        description: existing?.description || "",
+        prerequisites: existing?.prerequisites || [],
+        offered: Array.from(new Set([...(existing?.offered || []), CURRENT_TERM_LABEL])),
+        ge_areas: Array.from(new Set([...(existing?.ge_areas || []), ...(section.geAreas || [])])),
+        department: existing?.department || section.subject,
+      });
+    }
+    data = Array.from(merged.values());
+  } catch {
+    // Section-derived catalog coverage is best-effort.
   }
 
   cachedCourses = data;
@@ -28,7 +61,7 @@ async function loadCourses(): Promise<Course[]> {
   deptIndex = new Map();
 
   for (const c of data) {
-    const normalizedCode = c.code.toUpperCase().replace(/\s+/g, " ");
+    const normalizedCode = normalizeCourseCode(c.code);
     codeIndex.set(normalizedCode, c);
 
     const dept = c.department || normalizedCode.replace(/\s*\d.*$/, "");
@@ -43,7 +76,7 @@ export async function findCourseByCode(
   code: string
 ): Promise<Course | undefined> {
   await loadCourses();
-  const normalized = code.toUpperCase().replace(/\s+/g, " ").trim();
+  const normalized = normalizeCourseCode(code);
   return codeIndex?.get(normalized);
 }
 
@@ -62,9 +95,6 @@ export async function findCoursesByGE(area: string): Promise<Course[]> {
     c.ge_areas.some((g) => g.toUpperCase() === normalized)
   );
 }
-
-/** Match dept (2–12 letters) + number: e.g. MAT 21A, ECN 001, PSYCH 001, ACCOUNTING 1A. */
-const TRANSCRIPT_CODE_REGEX = /\b([A-Z]{2,12})\s*(\d{1,3}[A-Z]?)\b/g;
 
 /** Full names and typos → official UC Davis subject code (uppercase). */
 const NAME_TO_CODE: Record<string, string> = {
@@ -101,38 +131,18 @@ function normalizeDeptToken(token: string): string {
 function resolveCourseCode(
   deptToken: string,
   num: string,
+  suffix: string,
   index: Map<string, Course> | null
 ): Course | undefined {
   if (!index) return undefined;
   const dept = normalizeDeptToken(deptToken);
-  const withSpace = `${dept} ${num}`;
-  const course = index.get(withSpace);
-  if (course) return course;
-  const numMatch = num.match(/^(\d+)([A-Z]?)$/);
-  const padded =
-    numMatch && numMatch[1].length <= 2
-      ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
-          d.padStart(3, "0") + (l || "")
-        )
-      : null;
-  if (padded) {
-    const alt = index.get(`${dept} ${padded}`);
-    if (alt) return alt;
-  }
-  return undefined;
+  return index.get(normalizeCourseCode(`${dept} ${num}${suffix}`));
 }
 
 /** Build canonical code for inferred (e.g. ACC 001A when user typed "Accounting 1A"). */
-function inferredCode(deptToken: string, num: string): string {
+function inferredCode(deptToken: string, num: string, suffix: string): string {
   const dept = normalizeDeptToken(deptToken);
-  const numMatch = num.match(/^(\d+)([A-Z]?)$/);
-  const padded =
-    numMatch && numMatch[1].length <= 2
-      ? num.replace(/^(\d+)([A-Z]?)$/, (_, d, l) =>
-          d.padStart(3, "0") + (l || "")
-        )
-      : null;
-  return `${dept} ${padded ?? num}`;
+  return normalizeCourseCode(`${dept} ${num}${suffix}`);
 }
 
 /** Minimal course for transcript-inferred codes not in catalog. */
@@ -155,17 +165,15 @@ export async function extractCourseMentions(
   await loadCourses();
   const found: Course[] = [];
   const seen = new Set<string>();
-  let match;
-  const upper = text.toUpperCase();
-
-  while ((match = TRANSCRIPT_CODE_REGEX.exec(upper)) !== null) {
-    const deptToken = match[1];
-    const num = match[2];
-    const canonicalCode = inferredCode(deptToken, num);
+  for (const match of extractCourseCodeMatches(text)) {
+    const deptToken = match.subject;
+    const num = match.number;
+    const suffix = match.suffix;
+    const canonicalCode = inferredCode(deptToken, num, suffix);
     if (seen.has(canonicalCode)) continue;
     seen.add(canonicalCode);
 
-    const course = resolveCourseCode(deptToken, num, codeIndex);
+    const course = resolveCourseCode(deptToken, num, suffix, codeIndex);
     if (course) {
       found.push(course);
     } else if (NAME_TO_CODE[deptToken]) {
