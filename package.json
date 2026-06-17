@@ -18,7 +18,8 @@
     "check:majors-format": "tsx scripts/check-major-formatting.ts",
     "verify:majors": "tsx scripts/verify-major-catalog.ts",
     "scrape-sections": "tsx scripts/scrape-sections.ts",
-    "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts"
+    "fetch-catalog": "tsx scripts/fetch-catalog-sections.ts",
+    "audit-program-data": "tsx scripts/audit-program-data.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.33",
